@@ -1,0 +1,1 @@
+Note: mvd.newmexico.gov returned 403 (CloudFront geo-block 'configured to block access from your country') and nmlegis.gov was blocked by a Check Point WAF on 2026-10-11; statutes read in the NMSA PDFs of NMOneSource (https://nmonesource.com/nmos/nmsa/en/4422/1/document.do for chapter 66, 4340 for chapter 7).

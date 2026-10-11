@@ -1,0 +1,255 @@
+{
+ "abbr": "NC",
+ "name": "North Carolina",
+ "slug": "north-carolina",
+ "agency": {
+  "name": "North Carolina Division of Motor Vehicles",
+  "short": "NCDMV",
+  "url": "https://www.ncdot.gov/dmv/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "Every county (and many towns) taxes vehicles as personal property on its own rate and valuation; NCDMV collects that tax with the registration (Tag & Tax Together) but publishes no statewide table, so it is shown without an amount.",
+  "On a private sale, NCDMV describes the highway use tax as 3% of the vehicle value; the statute defining that value for non-dealer sales could not be opened for this release, so the engine applies 3% to the price typed.",
+  "Municipal vehicle taxes added by some towns and cities are not published by NCDMV; only the county and regional transit registration taxes in its fee table (Wake, Durham, Orange, Randolph) are included.",
+  "The emissions exemption for recent cars (NCDMV: less than 3 years old or fewer than 70,000 miles) depends on mileage, which the form does not ask; the engine treats a car under 3 model years as exempt and tests every older gasoline car.",
+  "The NCDMV emissions page does not mention electric cars; the engine charges them the safety-only fee, since the emissions test is an on-board diagnostic check of the combustion system.",
+  "A pickup or SUV registered as a private truck pays by declared weight ($46.25 for 4,000 lb, $70 for 5,000 lb, $83 for 6,000 lb); the engine uses the private passenger fee.",
+  "North Carolina has no legal cap on dealer documentation fees; type the dealer's fee (NCDMV counts an administrative document fee in the taxable price).",
+  "Optional or occasional costs are left out: the PayIt online fee ($3 plus 1.85% by card), notary fees on a private title transfer, the $5 printed registration card and lien recording."
+ ],
+ "summary": {
+  "stateRate": 0.03,
+  "localRange": [
+   0,
+   0
+  ],
+  "taxName": "highway use tax",
+  "tradeInCredit": true,
+  "titleFee": 66.75,
+  "regMethod": "flat",
+  "regYears": 1,
+  "docFeeCap": null,
+  "docFeeNote": "No cap in North Carolina; the dealer's administrative document fee is part of the price taxed at 3%.",
+  "evFee": 214.5,
+  "phevFee": 107.25,
+  "hybridFee": null,
+  "inspection": "both",
+  "inspectionWhere": "Annual safety inspection statewide; OBD emissions test at the same visit in 19 counties for gasoline cars from 3 to 19 years old.",
+  "inspectionFee": [
+   13.6,
+   30
+  ],
+  "annualValueTax": true
+ },
+ "params": {
+  "g": {
+   "tax": {
+    "label": "Highway use tax (3%)",
+    "rate": 0.03,
+    "tradeInCredit": true,
+    "docFeeTaxable": true,
+    "source": "hut",
+    "note": "3% of the price plus any administrative document fee, less the trade-in."
+   },
+   "once": [
+    {
+     "id": "title",
+     "label": "Certificate of title",
+     "amount": 66.75,
+     "source": "fees",
+     "kind": "title"
+    }
+   ],
+   "reg": {
+    "label": "Private passenger vehicle registration",
+    "source": "fees",
+    "type": "flat",
+    "amount": 46.25
+   },
+   "cycle": [],
+   "countyFeeLabel": "County and regional transit registration taxes",
+   "countyFeeSource": "fees",
+   "ev": {
+    "ev": 214.5,
+    "phev": 107.25,
+    "source": "fees"
+   },
+   "ranges": [
+    {
+     "id": "property-tax",
+     "label": "County vehicle property tax (billed with the registration)",
+     "range": null,
+     "kind": "value",
+     "source": "tag-tax",
+     "note": "Set by your county (and town) on the vehicle's value; paid to NCDMV with each renewal. A new buyer may defer it 60 days with a limited registration."
+    }
+   ]
+  },
+  "nc": {
+   "_src": "NCDMV emissions and safety inspections page",
+   "safety": 13.6,
+   "combined": 30,
+   "emissionsExemptUnder": 3,
+   "emissionsExemptFrom": 20,
+   "source": "inspection"
+  }
+ },
+ "counties": [
+  {
+   "id": "alamance-county",
+   "name": "Alamance County",
+   "emissions": true
+  },
+  {
+   "id": "buncombe-county",
+   "name": "Buncombe County",
+   "emissions": true
+  },
+  {
+   "id": "cabarrus-county",
+   "name": "Cabarrus County",
+   "emissions": true
+  },
+  {
+   "id": "cumberland-county",
+   "name": "Cumberland County",
+   "emissions": true
+  },
+  {
+   "id": "davidson-county",
+   "name": "Davidson County",
+   "emissions": true
+  },
+  {
+   "id": "durham-county",
+   "name": "Durham County",
+   "emissions": true,
+   "localFee": 17
+  },
+  {
+   "id": "forsyth-county",
+   "name": "Forsyth County",
+   "emissions": true
+  },
+  {
+   "id": "franklin-county",
+   "name": "Franklin County",
+   "emissions": true
+  },
+  {
+   "id": "gaston-county",
+   "name": "Gaston County",
+   "emissions": true
+  },
+  {
+   "id": "guilford-county",
+   "name": "Guilford County",
+   "emissions": true
+  },
+  {
+   "id": "iredell-county",
+   "name": "Iredell County",
+   "emissions": true
+  },
+  {
+   "id": "johnston-county",
+   "name": "Johnston County",
+   "emissions": true
+  },
+  {
+   "id": "lincoln-county",
+   "name": "Lincoln County",
+   "emissions": true
+  },
+  {
+   "id": "mecklenburg-county",
+   "name": "Mecklenburg County",
+   "emissions": true
+  },
+  {
+   "id": "new-hanover-county",
+   "name": "New Hanover County",
+   "emissions": true
+  },
+  {
+   "id": "orange-county",
+   "name": "Orange County",
+   "emissions": false,
+   "localFee": 17
+  },
+  {
+   "id": "randolph-county",
+   "name": "Randolph County",
+   "emissions": true,
+   "localFee": 2
+  },
+  {
+   "id": "rowan-county",
+   "name": "Rowan County",
+   "emissions": true
+  },
+  {
+   "id": "union-county",
+   "name": "Union County",
+   "emissions": true
+  },
+  {
+   "id": "wake-county",
+   "name": "Wake County",
+   "emissions": true,
+   "localFee": 17
+  },
+  {
+   "id": "other",
+   "name": "Any other North Carolina county",
+   "emissions": false
+  }
+ ],
+ "defaultCounty": "wake-county",
+ "singular": [
+  "North Carolina has no sales tax on cars: it collects a 3% highway use tax each time a title is transferred [fees].",
+  "The highway use tax is charged on the purchase price plus any administrative document fee and accessories, less the trade-in credit [hut].",
+  "A new resident who has owned the car for more than 90 days pays the 3% on its value with a $250 maximum [hut].",
+  "A certificate of title costs $66.75, and a private passenger car pays $46.25 a year to register [fees].",
+  "Wake, Durham and Orange counties add a $7 county registration tax and a $10 regional transportation tax to every registration [fees].",
+  "Electric cars pay $214.50 a year on top of the registration fee and plug-in hybrids $107.25 [fees].",
+  "Counties tax vehicles as personal property, and NCDMV bills that tax together with the registration renewal under Tag & Tax Together [tag-tax].",
+  "Every car needs an annual safety inspection ($13.60), and in 19 counties an emissions test at the same visit brings the fee to $30 [inspection].",
+  "Some light-duty cars less than 3 years old or with fewer than 70,000 miles, and cars 20 years old or more, skip the emissions test [emissions].",
+  "Since October 1, 2026, North Carolina no longer issues license plate stickers or printed registration cards; the registration is electronic [fees]."
+ ],
+ "sources": {
+  "fees": {
+   "name": "NCDMV, Vehicle Title & Registration Fees",
+   "url": "https://www.ncdot.gov/dmv/title-registration/vehicle/Pages/fees.aspx",
+   "accessed": "2026-10-11",
+   "quote": "Certificate of title $66.75 ... Private passenger vehicle $46.25 ... County Registration Tax - Wake $7 ... Regional Transportation Tax - Wake $10 ... Electric vehicles $214.50 (in addition to vehicle registration fee) ... Plug-in hybrid vehicles $107.25"
+  },
+  "hut": {
+   "name": "NCDMV, Highway-Use Tax",
+   "url": "https://www.ncdot.gov/dmv/title-registration/taxes/Pages/default.aspx",
+   "accessed": "2026-10-11",
+   "quote": "Full highway-use tax will be due on the purchase price, plus any administrative document fee as well as all accessories attached to the vehicle at the time of delivery, less any trade-in credit. ... taxed on the vehicle's value, up to a maximum of $250 tax."
+  },
+  "tag-tax": {
+   "name": "NCDMV, Vehicle Property Taxes (Tag & Tax Together)",
+   "url": "https://www.ncdot.gov/dmv/title-registration/Pages/vehicle-property-tax.aspx",
+   "accessed": "2026-10-11",
+   "quote": "North Carolina's Tag & Tax Together program combines the billing of annual vehicle registration fees and vehicle property taxes so that they can be paid together. ... may choose to defer payment of vehicle property tax for 60 days."
+  },
+  "inspection": {
+   "name": "NCDMV, Vehicle Emissions & Safety Inspections",
+   "url": "https://www.ncdot.gov/dmv/title-registration/emissions-safety/Pages/default.aspx",
+   "accessed": "2026-10-11",
+   "quote": "Safety and emissions inspection $30 Combined safety and emissions inspection. Safety inspection only $13.60 ... A new vehicle must be inspected before it is sold at retail in North Carolina."
+  },
+  "emissions": {
+   "name": "NCDMV, Emissions Inspections",
+   "url": "https://www.ncdot.gov/dmv/title-registration/emissions-safety/Pages/emissions-inspections.aspx",
+   "accessed": "2026-10-11",
+   "quote": "motor vehicles registered in 19 North Carolina counties ... must undergo an on-board diagnostic emissions inspection ... Some light-duty vehicles less than 3 years old or have fewer than 70,000 miles. Vehicle is 20 years old or older"
+  }
+ }
+}

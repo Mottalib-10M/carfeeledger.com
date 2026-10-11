@@ -1,0 +1,206 @@
+{
+ "abbr": "ND",
+ "name": "North Dakota",
+ "slug": "north-dakota",
+ "agency": {
+  "name": "North Dakota Department of Transportation, Motor Vehicle Division",
+  "short": "NDDOT",
+  "url": "https://www.dot.nd.gov/motor-vehicle"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "The registration fee is a full-year amount; a vehicle first registered during the registration year pays only the remaining months under the NDDOT monthly proration schedule, which the form does not ask.",
+  "NDDOT counts the year of registration from the year the vehicle was first registered, not the model year; the engine uses the model year, which can shift a car into the next column a year early or late.",
+  "A pickup truck is registered on its gross vehicle weight rating, which the form does not ask; the engine applies the passenger table to the weight typed.",
+  "No legal cap on dealer documentation fees was found in North Dakota law; type the dealer's fee. Whether a separately stated documentation fee is part of the taxable purchase price was not confirmed, so the engine leaves it out.",
+  "Fees kept by private branch offices or county offices for their service, if any, are not included."
+ ],
+ "summary": {
+  "stateRate": 0.05,
+  "localRange": [
+   0,
+   0
+  ],
+  "taxName": "motor vehicle excise tax",
+  "tradeInCredit": true,
+  "titleFee": 5,
+  "regMethod": "mixed",
+  "regYears": 1,
+  "docFeeCap": null,
+  "docFeeNote": "No cap found in North Dakota law; type the dealer's fee.",
+  "evFee": 120,
+  "phevFee": 50,
+  "hybridFee": null,
+  "inspection": "none",
+  "inspectionWhere": "No safety or emissions inspection for passenger cars in North Dakota.",
+  "inspectionFee": null,
+  "annualValueTax": false
+ },
+ "params": {
+  "g": {
+   "tax": {
+    "label": "Motor vehicle excise tax (5%)",
+    "rate": 0.05,
+    "tradeInCredit": true,
+    "docFeeTaxable": false,
+    "source": "excise",
+    "note": "5% of the purchase price after the trade-in credit; manufacturer incentives that cut the price paid are excluded."
+   },
+   "once": [
+    {
+     "id": "title",
+     "label": "Certificate of title",
+     "amount": 5,
+     "source": "title",
+     "kind": "title"
+    }
+   ],
+   "reg": {
+    "label": "Registration",
+    "source": "reg-law",
+    "type": "flat",
+    "amount": 0
+   },
+   "cycle": [],
+   "ev": {
+    "ev": 120,
+    "phev": 50,
+    "source": "ev-fee",
+    "label": "Road use fee (electric or plug-in hybrid)"
+   }
+  },
+  "nd": {
+   "_src": "NDCC 39-04-19(2)(a) and NDDOT MVD-2 passenger fee schedule for 2026",
+   "yearCols": [
+    1,
+    7,
+    10,
+    13
+   ],
+   "reg": [
+    {
+     "upTo": 3199,
+     "byYears": [
+      73,
+      65,
+      57,
+      49
+     ]
+    },
+    {
+     "upTo": 4499,
+     "byYears": [
+      93,
+      81,
+      69,
+      57
+     ]
+    },
+    {
+     "upTo": 4999,
+     "byYears": [
+      111,
+      94,
+      79,
+      63
+     ]
+    },
+    {
+     "upTo": 5999,
+     "byYears": [
+      142,
+      120,
+      98,
+      76
+     ]
+    },
+    {
+     "upTo": 6999,
+     "byYears": [
+      175,
+      146,
+      117,
+      89
+     ]
+    },
+    {
+     "upTo": 7999,
+     "byYears": [
+      208,
+      172,
+      137,
+      102
+     ]
+    },
+    {
+     "upTo": 8999,
+     "byYears": [
+      241,
+      199,
+      157,
+      115
+     ]
+    },
+    {
+     "upTo": null,
+     "byYears": [
+      274,
+      225,
+      177,
+      128
+     ]
+    }
+   ],
+   "regSource": "reg-law"
+  }
+ },
+ "singular": [
+  "North Dakota taxes a vehicle purchase with a 5% motor vehicle excise tax instead of sales tax, and no city or county adds to it [excise].",
+  "The value of a trade-in is deducted from the selling price before the 5% is applied, and manufacturer incentives that reduce the price are excluded [excise-def].",
+  "A gift or a transfer for little or nothing is taxed on the average value of similar vehicles set by the Department of Transportation [excise-def].",
+  "Registration depends on weight and on the number of years the car has been registered: $93 a year for a 3,200 to 4,499 lb car in its first six years, $81 in years 7 to 9, $69 in years 10 to 12 and $57 after that [reg-law].",
+  "The 2026 fee schedule is based on the year the vehicle was first registered, not its model year [fee-schedule].",
+  "A car that first becomes subject to registration during the year pays a monthly prorated fee, with a $5 minimum [reg-law].",
+  "Electric vehicles pay a $120 road use fee and plug-in hybrids $50 at the start of each annual registration period; ordinary hybrids pay nothing extra [ev-fee].",
+  "Each application for a certificate of title costs $5 [title]."
+ ],
+ "sources": {
+  "excise": {
+   "name": "North Dakota Century Code § 57-40.3-02, Tax imposed",
+   "url": "https://www.ndlegis.gov/cencode/t57c40-3.pdf",
+   "accessed": "2026-10-11",
+   "quote": "There is hereby imposed an excise tax at the rate of five percent on the purchase price of any motor vehicle purchased or acquired either in or outside of the state of North Dakota for use on the streets and highways of this state"
+  },
+  "excise-def": {
+   "name": "North Dakota Century Code § 57-40.3-01(5), Purchase price",
+   "url": "https://www.ndlegis.gov/cencode/t57c40-3.pdf",
+   "accessed": "2026-10-11",
+   "quote": "The purchase price excludes the amount of a manufacturer's incentive or discount ... the credit or trade-in value allowed by the person selling the motor vehicle shall be deducted from the total selling price to establish the purchase price"
+  },
+  "reg-law": {
+   "name": "North Dakota Century Code § 39-04-19, Motor vehicle registration fees",
+   "url": "https://www.ndlegis.gov/cencode/t39c04.pdf",
+   "accessed": "2026-10-11",
+   "quote": "such fees must be prorated on a monthly basis. The minimum fee charged hereunder must be five dollars: a. Passenger motor vehicles ... 3,200 - 4,499 93 81 69 57"
+  },
+  "fee-schedule": {
+   "name": "NDDOT, MVD-2 Passenger Fee Schedule, effective 1-1-2026 through 12-31-2026",
+   "url": "https://www.dot.nd.gov/sites/www/files/documents/Motor%20Vehicle%20Services/mvd-2-passenger-fee-2026.pdf",
+   "accessed": "2026-10-11",
+   "quote": "Electric Vehicle Road Use Fee: 120.00 Plug-In Hybrid Vehicle Road Use Fee: 50.00 (REGISTRATION FEES ARE BASED ON YEAR FIRST REGISTERED, NOT YEAR MODEL) Year First Registered 2021 and Newer ... 3200-4499 93.00"
+  },
+  "ev-fee": {
+   "name": "North Dakota Century Code § 39-04-19.2, Electric and plug-in hybrid vehicle road use fee",
+   "url": "https://www.ndlegis.gov/cencode/t39c04.pdf",
+   "accessed": "2026-10-11",
+   "quote": "the department shall collect at the beginning of each annual registration period: a. An electric vehicle road use fee of one hundred twenty dollars ... b. A plug-in hybrid vehicle road use fee of fifty dollars"
+  },
+  "title": {
+   "name": "North Dakota Century Code § 39-05-05, Application for certificate of title - Fee",
+   "url": "https://www.ndlegis.gov/cencode/t39c05.pdf",
+   "accessed": "2026-10-11",
+   "quote": "Each application must be accompanied by a fee of five dollars, which is in addition to any fee charged for the registration of the vehicle."
+  }
+ }
+}

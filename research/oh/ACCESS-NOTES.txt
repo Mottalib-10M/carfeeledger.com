@@ -1,0 +1,1 @@
+Note: bmv.ohio.gov, codes.ohio.gov, lsc.ohio.gov and legislature.ohio.gov refused connections from our location (and from WebFetch) on 2026-10-11; Ohio Revised Code sections and the BMV 'Documents & Fees' page were read in Internet Archive copies (web.archive.org/web/<timestamp>id_/<official URL>), timestamps in file names. County rates read live on The Finder (tax.ohio.gov).

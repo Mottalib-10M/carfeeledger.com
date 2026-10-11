@@ -1,0 +1,654 @@
+{
+ "abbr": "OH",
+ "name": "Ohio",
+ "slug": "ohio",
+ "agency": {
+  "name": "Ohio Bureau of Motor Vehicles",
+  "short": "BMV",
+  "url": "https://www.bmv.ohio.gov/"
+ },
+ "taxAgency": {
+  "name": "Ohio Department of Taxation",
+  "url": "https://tax.ohio.gov/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "Permissive (local) registration taxes are set by each county, township and municipal taxing district in $5 steps, up to $30 a vehicle; the BMV publishes them by taxing district, not by county, so the line is shown as a $0 to $30 range.",
+  "The documentary service charge cap is the lesser of 10% of the contract amount and a CPI-adjusted amount the Registrar publishes each September (R.C. 4517.261, amended October 24, 2024); the BMV page carrying the 2026 amount could not be opened for this release, so no default doc fee is assumed. Type the dealer's figure.",
+  "The engine taxes a dealer documentary fee typed in the form, as a charge for services necessary to complete the sale under R.C. 5739.01(H)(1); no Department of Taxation ruling on doc fees was read.",
+  "The title fee is $18, or $23 in counties whose commissioners approved the higher fee; the engine uses $18.",
+  "County rates are the total state, county and transit rate returned by the Ohio Department of Taxation's Finder for each county seat on October 11, 2026. Parts of Delaware, Fairfield, Licking and Union counties (COTA district) and Rossford in Wood County add a 0.5% transit levy not shown in the county rate; type your rate if you live there.",
+  "The Ohio EPA page read does not state an E-Check test fee, so the test is shown without an amount.",
+  "The bmv.ohio.gov and codes.ohio.gov servers refused connections from our location for this release; the Ohio Revised Code sections and the BMV fee page were read in their Internet Archive copies dated 2025 and 2026, and county rates on the live Department of Taxation Finder.",
+  "Plate mailing, reflectorized plate charges and lien notation are left out."
+ ],
+ "summary": {
+  "stateRate": 0.0575,
+  "localRange": [
+   0.0075,
+   0.0225
+  ],
+  "taxName": "sales and use tax",
+  "tradeInCredit": true,
+  "titleFee": 18,
+  "regMethod": "flat",
+  "regYears": 1,
+  "docFeeCap": null,
+  "docFeeNote": "Capped at the lesser of 10% of the contract amount and a CPI-adjusted amount published each year by the Registrar (R.C. 4517.261); the 2026 amount could not be read on the BMV site for this release.",
+  "evFee": 200,
+  "phevFee": 150,
+  "hybridFee": 100,
+  "inspection": "emissions",
+  "inspectionWhere": "E-Check every two years in Cuyahoga, Geauga, Lake, Lorain, Medina, Portage and Summit counties for gasoline and diesel cars from 6 years old (non-plug-in hybrids from 7) through 26 years old; no safety inspection.",
+  "inspectionFee": null,
+  "annualValueTax": false
+ },
+ "params": {
+  "g": {
+   "tax": {
+    "label": "State sales tax (5.75%)",
+    "rate": 0.0575,
+    "tradeInCredit": true,
+    "docFeeTaxable": true,
+    "source": "rate",
+    "localSource": "finder"
+   },
+   "once": [
+    {
+     "id": "title",
+     "label": "Certificate of title (clerk of courts)",
+     "amount": 18,
+     "source": "title",
+     "kind": "title",
+     "note": "$23 in counties that adopted the higher fee."
+    }
+   ],
+   "reg": {
+    "label": "Passenger registration (license tax $20 + $16 state fee)",
+    "source": "bmv-fees",
+    "type": "flat",
+    "amount": 36
+   },
+   "cycle": [
+    {
+     "id": "dr-fee",
+     "label": "Deputy registrar service fee",
+     "amount": 8,
+     "source": "bmv-fees",
+     "kind": "other"
+    }
+   ],
+   "ev": {
+    "ev": 200,
+    "phev": 150,
+    "hybrid": 100,
+    "source": "bmv-fees"
+   },
+   "ranges": [
+    {
+     "id": "permissive",
+     "label": "Permissive (local) registration tax",
+     "range": [
+      0,
+      30
+     ],
+     "kind": "local",
+     "source": "bmv-fees",
+     "note": "Set by your county, township and city in $5 steps, never more than $30 a vehicle."
+    }
+   ]
+  },
+  "oh": {
+   "_src": "Ohio EPA E-Check page (HB 54, effective June 30, 2025)",
+   "echeck": {
+    "gasFrom": 6,
+    "hybridFrom": 7,
+    "upTo": 26,
+    "years": 2,
+    "source": "echeck"
+   }
+  }
+ },
+ "counties": [
+  {
+   "id": "adams-county",
+   "name": "Adams County",
+   "localRate": 0.015
+  },
+  {
+   "id": "allen-county",
+   "name": "Allen County",
+   "localRate": 0.011,
+   "transitIncluded": true
+  },
+  {
+   "id": "ashland-county",
+   "name": "Ashland County",
+   "localRate": 0.0125
+  },
+  {
+   "id": "ashtabula-county",
+   "name": "Ashtabula County",
+   "localRate": 0.01
+  },
+  {
+   "id": "athens-county",
+   "name": "Athens County",
+   "localRate": 0.015
+  },
+  {
+   "id": "auglaize-county",
+   "name": "Auglaize County",
+   "localRate": 0.015
+  },
+  {
+   "id": "belmont-county",
+   "name": "Belmont County",
+   "localRate": 0.015
+  },
+  {
+   "id": "brown-county",
+   "name": "Brown County",
+   "localRate": 0.0125
+  },
+  {
+   "id": "butler-county",
+   "name": "Butler County",
+   "localRate": 0.0075
+  },
+  {
+   "id": "carroll-county",
+   "name": "Carroll County",
+   "localRate": 0.01
+  },
+  {
+   "id": "champaign-county",
+   "name": "Champaign County",
+   "localRate": 0.015
+  },
+  {
+   "id": "clark-county",
+   "name": "Clark County",
+   "localRate": 0.015
+  },
+  {
+   "id": "clermont-county",
+   "name": "Clermont County",
+   "localRate": 0.01
+  },
+  {
+   "id": "clinton-county",
+   "name": "Clinton County",
+   "localRate": 0.015
+  },
+  {
+   "id": "columbiana-county",
+   "name": "Columbiana County",
+   "localRate": 0.015
+  },
+  {
+   "id": "coshocton-county",
+   "name": "Coshocton County",
+   "localRate": 0.02
+  },
+  {
+   "id": "crawford-county",
+   "name": "Crawford County",
+   "localRate": 0.015
+  },
+  {
+   "id": "cuyahoga-county",
+   "name": "Cuyahoga County",
+   "localRate": 0.0225,
+   "transitIncluded": true,
+   "echeck": true
+  },
+  {
+   "id": "darke-county",
+   "name": "Darke County",
+   "localRate": 0.015
+  },
+  {
+   "id": "defiance-county",
+   "name": "Defiance County",
+   "localRate": 0.01
+  },
+  {
+   "id": "delaware-county",
+   "name": "Delaware County",
+   "localRate": 0.0125
+  },
+  {
+   "id": "erie-county",
+   "name": "Erie County",
+   "localRate": 0.01
+  },
+  {
+   "id": "fairfield-county",
+   "name": "Fairfield County",
+   "localRate": 0.01
+  },
+  {
+   "id": "fayette-county",
+   "name": "Fayette County",
+   "localRate": 0.015
+  },
+  {
+   "id": "franklin-county",
+   "name": "Franklin County",
+   "localRate": 0.0225,
+   "transitIncluded": true
+  },
+  {
+   "id": "fulton-county",
+   "name": "Fulton County",
+   "localRate": 0.015
+  },
+  {
+   "id": "gallia-county",
+   "name": "Gallia County",
+   "localRate": 0.015
+  },
+  {
+   "id": "geauga-county",
+   "name": "Geauga County",
+   "localRate": 0.01,
+   "echeck": true
+  },
+  {
+   "id": "greene-county",
+   "name": "Greene County",
+   "localRate": 0.01
+  },
+  {
+   "id": "guernsey-county",
+   "name": "Guernsey County",
+   "localRate": 0.015
+  },
+  {
+   "id": "hamilton-county",
+   "name": "Hamilton County",
+   "localRate": 0.0205,
+   "transitIncluded": true
+  },
+  {
+   "id": "hancock-county",
+   "name": "Hancock County",
+   "localRate": 0.01
+  },
+  {
+   "id": "hardin-county",
+   "name": "Hardin County",
+   "localRate": 0.015
+  },
+  {
+   "id": "harrison-county",
+   "name": "Harrison County",
+   "localRate": 0.015
+  },
+  {
+   "id": "henry-county",
+   "name": "Henry County",
+   "localRate": 0.015
+  },
+  {
+   "id": "highland-county",
+   "name": "Highland County",
+   "localRate": 0.015
+  },
+  {
+   "id": "hocking-county",
+   "name": "Hocking County",
+   "localRate": 0.015
+  },
+  {
+   "id": "holmes-county",
+   "name": "Holmes County",
+   "localRate": 0.0125
+  },
+  {
+   "id": "huron-county",
+   "name": "Huron County",
+   "localRate": 0.015
+  },
+  {
+   "id": "jackson-county",
+   "name": "Jackson County",
+   "localRate": 0.015
+  },
+  {
+   "id": "jefferson-county",
+   "name": "Jefferson County",
+   "localRate": 0.015
+  },
+  {
+   "id": "knox-county",
+   "name": "Knox County",
+   "localRate": 0.015
+  },
+  {
+   "id": "lake-county",
+   "name": "Lake County",
+   "localRate": 0.015,
+   "transitIncluded": true,
+   "echeck": true
+  },
+  {
+   "id": "lawrence-county",
+   "name": "Lawrence County",
+   "localRate": 0.015
+  },
+  {
+   "id": "licking-county",
+   "name": "Licking County",
+   "localRate": 0.015
+  },
+  {
+   "id": "logan-county",
+   "name": "Logan County",
+   "localRate": 0.015
+  },
+  {
+   "id": "lorain-county",
+   "name": "Lorain County",
+   "localRate": 0.0075,
+   "echeck": true
+  },
+  {
+   "id": "lucas-county",
+   "name": "Lucas County",
+   "localRate": 0.02,
+   "transitIncluded": true
+  },
+  {
+   "id": "madison-county",
+   "name": "Madison County",
+   "localRate": 0.0125
+  },
+  {
+   "id": "mahoning-county",
+   "name": "Mahoning County",
+   "localRate": 0.0175,
+   "transitIncluded": true
+  },
+  {
+   "id": "marion-county",
+   "name": "Marion County",
+   "localRate": 0.015
+  },
+  {
+   "id": "medina-county",
+   "name": "Medina County",
+   "localRate": 0.01,
+   "echeck": true
+  },
+  {
+   "id": "meigs-county",
+   "name": "Meigs County",
+   "localRate": 0.015
+  },
+  {
+   "id": "mercer-county",
+   "name": "Mercer County",
+   "localRate": 0.015
+  },
+  {
+   "id": "miami-county",
+   "name": "Miami County",
+   "localRate": 0.0125
+  },
+  {
+   "id": "monroe-county",
+   "name": "Monroe County",
+   "localRate": 0.015
+  },
+  {
+   "id": "montgomery-county",
+   "name": "Montgomery County",
+   "localRate": 0.0175,
+   "transitIncluded": true
+  },
+  {
+   "id": "morgan-county",
+   "name": "Morgan County",
+   "localRate": 0.015
+  },
+  {
+   "id": "morrow-county",
+   "name": "Morrow County",
+   "localRate": 0.015
+  },
+  {
+   "id": "muskingum-county",
+   "name": "Muskingum County",
+   "localRate": 0.015
+  },
+  {
+   "id": "noble-county",
+   "name": "Noble County",
+   "localRate": 0.015
+  },
+  {
+   "id": "ottawa-county",
+   "name": "Ottawa County",
+   "localRate": 0.0125
+  },
+  {
+   "id": "paulding-county",
+   "name": "Paulding County",
+   "localRate": 0.015
+  },
+  {
+   "id": "perry-county",
+   "name": "Perry County",
+   "localRate": 0.015
+  },
+  {
+   "id": "pickaway-county",
+   "name": "Pickaway County",
+   "localRate": 0.015
+  },
+  {
+   "id": "pike-county",
+   "name": "Pike County",
+   "localRate": 0.015
+  },
+  {
+   "id": "portage-county",
+   "name": "Portage County",
+   "localRate": 0.0125,
+   "transitIncluded": true,
+   "echeck": true
+  },
+  {
+   "id": "preble-county",
+   "name": "Preble County",
+   "localRate": 0.015
+  },
+  {
+   "id": "putnam-county",
+   "name": "Putnam County",
+   "localRate": 0.0125
+  },
+  {
+   "id": "richland-county",
+   "name": "Richland County",
+   "localRate": 0.0125
+  },
+  {
+   "id": "ross-county",
+   "name": "Ross County",
+   "localRate": 0.015
+  },
+  {
+   "id": "sandusky-county",
+   "name": "Sandusky County",
+   "localRate": 0.015
+  },
+  {
+   "id": "scioto-county",
+   "name": "Scioto County",
+   "localRate": 0.015
+  },
+  {
+   "id": "seneca-county",
+   "name": "Seneca County",
+   "localRate": 0.015
+  },
+  {
+   "id": "shelby-county",
+   "name": "Shelby County",
+   "localRate": 0.015
+  },
+  {
+   "id": "stark-county",
+   "name": "Stark County",
+   "localRate": 0.0075,
+   "transitIncluded": true
+  },
+  {
+   "id": "summit-county",
+   "name": "Summit County",
+   "localRate": 0.01,
+   "transitIncluded": true,
+   "echeck": true
+  },
+  {
+   "id": "trumbull-county",
+   "name": "Trumbull County",
+   "localRate": 0.01
+  },
+  {
+   "id": "tuscarawas-county",
+   "name": "Tuscarawas County",
+   "localRate": 0.01
+  },
+  {
+   "id": "union-county",
+   "name": "Union County",
+   "localRate": 0.0125
+  },
+  {
+   "id": "van-wert-county",
+   "name": "Van Wert County",
+   "localRate": 0.015
+  },
+  {
+   "id": "vinton-county",
+   "name": "Vinton County",
+   "localRate": 0.015
+  },
+  {
+   "id": "warren-county",
+   "name": "Warren County",
+   "localRate": 0.015
+  },
+  {
+   "id": "washington-county",
+   "name": "Washington County",
+   "localRate": 0.015
+  },
+  {
+   "id": "wayne-county",
+   "name": "Wayne County",
+   "localRate": 0.0075
+  },
+  {
+   "id": "williams-county",
+   "name": "Williams County",
+   "localRate": 0.015
+  },
+  {
+   "id": "wood-county",
+   "name": "Wood County",
+   "localRate": 0.01
+  },
+  {
+   "id": "wyandot-county",
+   "name": "Wyandot County",
+   "localRate": 0.015
+  }
+ ],
+ "defaultCounty": "franklin-county",
+ "singular": [
+  "Ohio taxes a car purchase at the 5.75% state sales tax plus the county rate, and in some counties a transit levy, for a total of 6.5% to 8% [finder].",
+  "A trade-in lowers the taxable price only when a new vehicle is bought from a new motor vehicle dealer [trade-in].",
+  "A private sale of a car is taxed too: the casual-sale exemption excludes motor vehicles [casual].",
+  "The passenger registration fee is $36 a year, the $20 license tax plus a state fee raised from $11 to $16 on January 1, 2026 [reg-addl].",
+  "Hybrids pay $100 more a year to register, plug-in hybrids $150 and electric cars $200 [reg-addl].",
+  "Deputy registrars charge an $8 service fee for a one-year registration and $12 for two years [bmv-fees].",
+  "Local permissive taxes are added in $5 steps and cannot exceed $30 a vehicle [bmv-fees].",
+  "The certificate of title costs $18, or $23 where county commissioners adopted the higher fee [title].",
+  "Since October 2024 the dealer documentary fee cap follows inflation: the lesser of 10% of the deal and a CPI-adjusted amount the Registrar publishes each year [doc-fee].",
+  "Cars registered in seven northeast Ohio counties need an E-Check every two years; since June 30, 2025 gasoline cars are exempt for 6 years and non-plug-in hybrids for 7 [echeck]."
+ ],
+ "sources": {
+  "rate": {
+   "name": "Ohio Revised Code § 5739.02, Levy of sales tax (Internet Archive copy of codes.ohio.gov, April 2026)",
+   "url": "https://codes.ohio.gov/ohio-revised-code/section-5739.02",
+   "accessed": "2026-10-11",
+   "quote": "The rate of the tax shall be five and three-fourths per cent."
+  },
+  "casual": {
+   "name": "Ohio Revised Code § 5739.02(B)(8), casual sales",
+   "url": "https://codes.ohio.gov/ohio-revised-code/section-5739.02",
+   "accessed": "2026-10-11",
+   "quote": "(8) Casual sales by a person, or auctioneer employed directly by the person to conduct such sales, except as to such sales of motor vehicles, watercraft or outboard motors required to be titled"
+  },
+  "trade-in": {
+   "name": "Ohio Revised Code § 5739.01(H)(2), price of a new motor vehicle (Internet Archive copy, December 2025)",
+   "url": "https://codes.ohio.gov/ohio-revised-code/section-5739.01",
+   "accessed": "2026-10-11",
+   "quote": "In the case of a sale of any new motor vehicle by a new motor vehicle dealer ... in which another motor vehicle is accepted by the dealer as part of the consideration received, \"price\" ... reduced by the credit afforded the consumer by the dealer for the motor vehicle received in trade."
+  },
+  "finder": {
+   "name": "Ohio Department of Taxation, The Finder (rate search by county, October 11, 2026)",
+   "url": "https://thefinder.tax.ohio.gov/",
+   "accessed": "2026-10-11",
+   "quote": "Franklin (25) with COTA 8.00% 5.75% (39) 1.25% (049) 1.00% (25000) ... Butler (9) 6.50% 5.75% (39) 0.75% (017)"
+  },
+  "bmv-fees": {
+   "name": "Ohio BMV, Documents & Fees (vehicle registration fees updated 1/5/2026; Internet Archive copy of August 19, 2026)",
+   "url": "https://www.bmv.ohio.gov/doc-fees.aspx",
+   "accessed": "2026-10-11",
+   "quote": "Permissive tax cannot exceed $30.00 per vehicle ... Passenger $36.00 ... Deputy Registrar fees are as follows: 1 Year $8.00 2 Years $12.00 ... Hybrid $100.00 Plug-in Hybrid $150.00 Electric $200.00 ... The $18 title fee applies statewide."
+  },
+  "reg-addl": {
+   "name": "Ohio Revised Code § 4503.10(C), additional registration fees (effective September 30, 2025)",
+   "url": "https://codes.ohio.gov/ohio-revised-code/section-4503.10",
+   "accessed": "2026-10-11",
+   "quote": "a fee of eleven dollars on or before December 31, 2025, and a fee of sixteen dollars on and after January 1, 2026 ... (a) One hundred dollars for a hybrid motor vehicle; (b) One hundred fifty dollars for a plug-in hybrid electric motor vehicle; (c) Two hundred dollars for a battery electric motor vehicle."
+  },
+  "license-tax": {
+   "name": "Ohio Revised Code § 4503.04, annual license tax",
+   "url": "https://codes.ohio.gov/ohio-revised-code/section-4503.04",
+   "accessed": "2026-10-11",
+   "quote": "(B) For each passenger car, twenty dollars;"
+  },
+  "title": {
+   "name": "Ohio Revised Code § 4505.09, clerk's title fees (effective January 1, 2026)",
+   "url": "https://codes.ohio.gov/ohio-revised-code/section-4505.09",
+   "accessed": "2026-10-11",
+   "quote": "Eighteen dollars, or twenty-three dollars if a board of county commissioners adopts a resolution authorizing the increased fee for that county, for each certificate of title"
+  },
+  "doc-fee": {
+   "name": "Ohio Revised Code § 4517.261, documentary service charge (effective October 24, 2024)",
+   "url": "https://codes.ohio.gov/ohio-revised-code/section-4517.261",
+   "accessed": "2026-10-11",
+   "quote": "A documentary service charge shall be not more than the lesser of the following: (1) The amount allowed ... adjusted as required by division (C) ...; (2) Ten per cent of the amount the buyer or lessee is required to pay pursuant to the contract"
+  },
+  "echeck": {
+   "name": "Ohio EPA, E-Check",
+   "url": "https://epa.ohio.gov/divisions-and-offices/air-pollution-control/e-check/e-check",
+   "accessed": "2026-10-11",
+   "quote": "Vehicle emissions testing for Cuyahoga, Geauga, Lake, Lorain, Medina, Portage, and Summit counties. ... Gas and diesel vehicles: 6 years Non-plug-in hybrids: 7 years ... emissions testing for vehicles from six, and hybrids from seven, through 26 years old."
+  },
+  "price-def": {
+   "name": "Ohio Revised Code § 5739.01(H)(1), definition of price",
+   "url": "https://codes.ohio.gov/ohio-revised-code/section-5739.01",
+   "accessed": "2026-10-11",
+   "quote": "(iii) Charges by the vendor for any services necessary to complete the sale; (iv) Delivery charges ... (vi) Credit for any trade-in."
+  }
+ }
+}

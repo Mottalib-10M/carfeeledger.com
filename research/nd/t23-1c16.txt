@@ -1,0 +1,241 @@
+                                             CHAPTER 23.1-16
+                                            BOILER INSPECTION
+
+     23.1-16-01. Definitions.
+    As used in this chapter, unless the context otherwise requires:
+     1.    "Boiler" means a closed vessel in which water is heated, steam is generated, steam is
+           superheated, or any combination thereof, under pressure or vacuum for use externally
+           to the boiler by the direct application of heat from the combustion of fuels, or from
+           electricity or nuclear energy. The term includes fired units for vaporizing liquids other
+           than water when these units are separate from processing systems and are complete
+           within themselves.
+     2.    "Department" means the department of environmental quality.
+
+     23.1-16-02. Chief boiler inspector, deputy inspectors - Appointment - Jurisdiction.
+    The department shall employ a chief boiler inspector and deputy inspectors. The chief boiler
+inspector has jurisdiction over all boilers in this state except as otherwise provided.
+
+     23.1-16-03. Qualifications of chief boiler inspector - Deputy inspectors.
+     1.    An individual is not eligible to the office of chief boiler inspector unless that individual:
+           a.    Has had at the time of the appointment at least five years' experience in the
+                 construction, inspection, operation, maintenance, or repair of high-pressure
+                 boilers and pressure vessels as a mechanical engineer, boilermaker, steam
+                 operating engineer, or boiler inspector. An applicant possessing a mechanical
+                 engineering degree from an accredited school may substitute that degree for two
+                 years of the five years' experience, at the discretion of the department.
+           b.    Holds a commission issued by the national board of boiler and pressure vessel
+                 inspectors or obtains the commission within one year after the date of
+                 appointment by the department.
+           c.    Is not directly or indirectly interested in the manufacture or sale of boilers or
+                 steam machinery or articles used in the construction or maintenance of engines
+                 or boilers.
+     2.    The department shall establish qualifications for a deputy inspector which are not
+           inconsistent with the requirements of the position.
+
+     23.1-16-04. Powers and duties of chief boiler inspector.
+     1.    The chief boiler inspector shall:
+           a.    Keep a complete record of the type, dimensions, maximum allowable working
+                 pressure, age, condition, location, and date of the last-recorded internal and
+                 external inspection of boilers to which this chapter applies.
+           b.    Cooperate and assist in loss prevention programs sponsored by the department.
+     2.    The chief boiler inspector may delegate powers and duties to any deputy inspector or
+           special inspector.
+
+     23.1-16-05. General requirement.
+    Every boiler in this state must be constructed, installed, and maintained according to rules
+adopted to implement this chapter.
+
+     23.1-16-06. Exempt boilers - Inspection of exempt boilers.
+    This chapter does not apply to:
+     1.    Any boiler subject to federal inspection or under federal control.
+     2.    Any boiler located on a farm and used solely for agricultural purposes.
+     3.    Any heating boiler located in a private residence or in an apartment house of less than
+           six family units.
+     4.    Any hot water supply boiler not exceeding the following limitations:
+           a.    Input of two hundred thousand British thermal units per hour.
+
+
+                                                    Page No. 1
+      b.    Pressure of one hundred sixty pounds per square inch [1103.16 kilopascals]
+            gauge.
+      c.    Temperature of two hundred fifty degrees Fahrenheit [121.11 degrees Celsius].
+5.    Any portable steam cleaner commonly used in a garage.
+6.    Any boiler of a miniature model locomotive, boat, tractor, or stationary engine design
+      constructed as a hobby, not for commercial use, having an inside diameter not
+      exceeding ten inches [25.4 centimeters] and a grate area not exceeding one and
+      one-half square feet [1393.54 square centimeters] and which is properly equipped with
+      a safety valve, water level indicator, and pressure gauge.
+7.    Any electric boiler used as an integral part of an espresso coffee machine, provided
+      that the boiler does not exceed one and one-half cubic feet [.0566 cubic meter] in
+      water capacity, does not exceed fifty pounds per square inch [344.74 kilopascals]
+      pressure, and is constructed, approved, or certified to the American society of
+      mechanical engineers code or to other national or international standards.
+
+23.1-16-07. Inspection of boilers.
+1.    The chief boiler inspector shall inspect each boiler used or proposed to be used within
+      this state. The inspection must be thorough as to the construction, installation,
+      condition, and operation as provided by the rules adopted to implement this chapter.
+      An exempt boiler may be inspected by the chief boiler inspector when the owner, the
+      owner's agent, or the user of the boiler makes written request for inspection to the
+      department.
+2.    Each boiler of one hundred thousand pounds [45359.24 kilograms] per hour or more
+      capacity, used or proposed to be used within this state, which has internal continuous
+      water treatment under the direct supervision of a graduate engineer or chemist, or one
+      having equivalent experience in the treatment of boiler water when the water treatment
+      is for the purpose of controlling and limiting serious corrosion and other deteriorating
+      factors, and with respect to which boiler the chief boiler inspector has determined the
+      owner or user has complied with the prescribed recordkeeping requirements, must be
+      inspected at least once every thirty-six months internally while not under pressure, and
+      at least once every twelve months externally while under pressure. If a hydrostatic test
+      is necessary to determine the safety of a boiler, the test must be conducted by the
+      owner or user of the equipment under the supervision of the chief boiler inspector. The
+      owner or user of a boiler of one hundred thousand pounds [45359.24 kilograms] per
+      hour or more capacity desiring to qualify for thirty-six-month internal inspection
+      intervals shall keep available for examination by the chief boiler inspector accurate
+      records showing the date and actual time the boiler is out of service and the reason for
+      being out of service, and the results of the chemical and physical analysis of the boiler
+      water, whether from laboratory analysis of samples taken at regular intervals of not
+      more than forty-eight hours or from continuous online analyzers, which will adequately
+      show the condition of the water and any other elements or characteristics of the water
+      capable of producing corrosion or other deterioration of the boiler or its parts. If an
+      inspection discloses deficiencies in equipment or in operating procedures, inspections
+      may be required once every twelve months.
+
+23.1-16-08. Special inspector.
+1.    Upon written request of an employer, the department may appoint as a special
+      inspector an inspector in the employ of:
+      a.    An insurance company authorized to insure boilers in this state against loss from
+            explosion;
+      b.    A company qualified by the national board of boiler and pressure vessel
+            inspectors as an accredited owner/user inspection organization; or
+      c.    A company qualified by the national board of boiler and pressure vessel
+            inspectors as an accredited authorized inspection agency.
+
+
+
+
+                                               Page No. 2
+     2.    An individual may not be appointed as a special inspector unless that individual has
+           passed the examination prescribed by the national board of boiler and pressure vessel
+           inspectors.
+     3.    An inspection performed by a special inspector must be performed in accordance with
+           this chapter and a complete report of the inspection must be filed with the department
+           in the time, manner, and form as prescribed by the department.
+     4.    If a complete report is not filed by the special inspector's employer with the department
+           within ninety days from the certificate due date, the chief boiler inspector may make
+           the required inspection, unless an extension of time is granted by the chief boiler
+           inspector. The special inspector's employer must pay the inspection fees as required
+           by section 23.1-16-09 for a special inspection.
+     5.    The chief boiler inspector may inspect any boiler to which a special inspection applies.
+     6.    The department may, for cause, suspend or revoke the appointment of any special
+           inspector.
+
+     23.1-16-09. Inspection and certificate fees.
+     1.    Upon completion of inspection, the owner or user of a boiler shall pay to the
+           department fees or a combination of inspection and certificate fees. The department
+           shall determine the inspection fees. Certificate fees are determined by section
+           23.1-16-10. The department shall determine and annually may adjust a fee scale for
+           the internal inspections of power boilers, internal inspections of low-pressure heating
+           boilers, external inspections of all boilers, and inspection of boilers used exclusively for
+           exhibition purposes.
+     2.    Not more than two hundred dollars may be charged or collected for any one inspection
+           of a boiler, except for special inspections made upon request. All other inspections
+           made by the chief boiler inspector, including shop inspections and reviews and special
+           inspections when requested by the owner or user of a boiler, must be charged at a rate
+           not to exceed five hundred dollars per day or three hundred dollars per half day of four
+           hours or less, plus payment for mileage, meals, and hotel expenses as allowed by
+           sections 44-08-04 and 54-06-09, except that the mileage rate for a state-owned
+           vehicle will be the actual amount incurred by the department.
+     3.    The annual fee for the issuance of a reciprocal commission card for a special inspector
+           is forty dollars and the annual fee for the issuance of a welder-qualified card is twenty
+           dollars.
+     4.    The fee for taking an examination for a hobby boiler operating license is twenty-five
+           dollars and the fee for a hobby boiler operating license is twenty-five dollars.
+     5.    A hobby boiler operating license issued under this section is valid for six years.
+
+     23.1-16-10. Certificate of inspection - Certificate to be posted.
+     The department shall issue a certificate of inspection for each boiler inspected upon receipt
+of an inspection report certifying that the boiler is in a safe condition to be operated. The
+department shall charge a fee of thirty-five dollars per year for each year that a certificate is
+valid, or part of a year thereof, for each certificate of inspection issued as the result of
+inspections authorized under sections 23.1-16-07 and 23.1-16-08. The fees are the liability of
+the owner or user and must be paid in accordance with rules adopted by the department. A
+certificate may not be issued for any boiler not in a safe condition to be operated or for a boiler
+for which the inspection and certificate fees have not been paid in full. A certificate is not valid
+for a period of more than thirty-six months for power boilers described in subsection 2 of section
+23.1-16-07, and no more than twelve months for other power boilers, twelve months for steam
+traction engines, and thirty-six months for low-pressure boilers except that a two-month grace
+period may be extended for any certificate. Upon written request from a special inspector, the
+chief boiler inspector may issue a short-term certificate. Each certificate of inspection must be
+posted conspicuously under glass in the boiler room or adjacent to the boiler inspected.
+
+
+
+
+
+                                                     Page No. 3
+     23.1-16-11. Certificate of inspection required - Penalty.
+     A person may not operate a boiler in this state without a valid certificate of inspection. A
+violation of this section is a class A misdemeanor on the part of the owner, user, or operator of
+the boiler.
+
+     23.1-16-12. Manufacturer's data report.
+     The boiler manufacturer shall provide the department with a manufacturer's data report.
+When signed by an authorized inspector, this data sheet together with the stamp on the boiler is
+the record denoting the boiler has been constructed in accordance with the rules adopted to
+implement this chapter.
+
+     23.1-16-13. Disposition of funds.
+     All funds collected and received under this chapter must be paid to the state treasurer and
+deposited in the department of environmental quality operating fund to be used to defray the
+costs of boiler inspections.
+
+     23.1-16-14. Rules - Penalty for violation - Hearing.
+     1.    The department shall adopt rules for the safe and proper installation, use, operation,
+           and inspection of boilers and pressure vessels subject to this chapter.
+     2.    The department shall adopt rules for the licensing of operators of hobby boilers used
+           during parades, exhibitions, and threshing shows where the public is invited.
+     3.    A fee must be charged for an operating license, for a license renewal, and for an
+           examination conducted to determine minimum competence. Individuals operating
+           hobby boilers within this state as of July 1, 2007, are considered acceptable for a
+           license without additional training or examination. An individual who is not a resident of
+           this state and who holds a boiler operator license or credential in another state or
+           Canadian province is exempt from licensure as a hobby boiler operator in this state.
+     4.    The department may not issue a certificate of inspection to any owner or user of a
+           boiler who fails or refuses to comply with the rules. The department shall revoke any
+           certificate presently in force upon evidence that the owner or user of the boiler is failing
+           or refusing to comply with the rules.
+     5.    Any owner or user of a boiler may request a hearing before the department within
+           fifteen days from service of an order refusing or revoking a certificate of inspection. It
+           is the burden of the owner or user to show cause why the certificate of inspection
+           should not be refused or revoked. If no hearing is requested within the required period,
+           the order of the department becomes final and is not subject to further proceedings.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     Page No. 4

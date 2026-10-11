@@ -1,0 +1,159 @@
+{
+ "abbr": "OK",
+ "name": "Oklahoma",
+ "slug": "oklahoma",
+ "agency": {
+  "name": "Service Oklahoma",
+  "short": "SOK",
+  "url": "https://oklahoma.gov/service.html"
+ },
+ "taxAgency": {
+  "name": "Oklahoma Tax Commission",
+  "url": "https://oklahoma.gov/tax.html"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "Since July 1, 2026 the excise tax is based on the actual sales price (Laws 2025, c. 252 removed the 20% band around the average retail value). The former text taxed the price before any trade-in credit; the new text no longer says so either way, so the engine keeps taxing the full price and does not deduct the trade-in from the excise tax.",
+  "The 1.25% sales tax on vehicles is levied on sales and computed after the trade-in; the texts read do not say whether Service Oklahoma collects it on a private sale, so it is shown as a range from $0 to 1.25% of the price on a private sale.",
+  "The year of registration is counted from the model year; Service Oklahoma counts registrations in this state or any other state, which can differ for an older import.",
+  "Service Oklahoma lists a $17 transfer fee, a $4 VIN inspection fee for out-of-state vehicles and a tire tax that varies by vehicle among the additional initial registration fees without saying when each applies; they are not added.",
+  "No legal cap on dealer documentation fees was found in the Oklahoma statutes read; type the dealer's fee.",
+  "The Oklahoma State Courts Network (OSCN) did not respond for this release; statutes were read in the complete Title 47 and Title 68 files published by the Oklahoma Legislature."
+ ],
+ "summary": {
+  "stateRate": 0.0325,
+  "localRange": [
+   0,
+   0
+  ],
+  "taxName": "motor vehicle excise tax + 1.25% sales tax",
+  "tradeInCredit": false,
+  "titleFee": 11,
+  "regMethod": "age",
+  "regYears": 1,
+  "docFeeCap": null,
+  "docFeeNote": "No cap found in Oklahoma law; type the dealer's fee.",
+  "evFee": 100,
+  "phevFee": 30,
+  "hybridFee": null,
+  "inspection": "none",
+  "inspectionWhere": "No safety or emissions inspection for registered passenger cars in Oklahoma.",
+  "inspectionFee": null,
+  "annualValueTax": false
+ },
+ "params": {
+  "excise": {
+   "_src": "68 O.S. § 2103 (rates), § 2104 (value = actual sales price from July 1, 2026)",
+   "newRate": 0.0325,
+   "usedFlat": 20,
+   "usedFlatUpTo": 1500,
+   "usedRate": 0.0325,
+   "source": "excise"
+  },
+  "salesTax": {
+   "_src": "68 O.S. §§ 1355(2) and 2106(a)(4)",
+   "rate": 0.0125,
+   "source": "sales-tax"
+  },
+  "reg": {
+   "_src": "Service Oklahoma fee page (full-year fees); 47 O.S. § 1132",
+   "brackets": [
+    {
+     "upTo": 3,
+     "amount": 96
+    },
+    {
+     "upTo": 7,
+     "amount": 86
+    },
+    {
+     "upTo": 11,
+     "amount": 66
+    },
+    {
+     "upTo": 15,
+     "amount": 46
+    },
+    {
+     "upTo": null,
+     "amount": 26
+    }
+   ],
+   "source": "sok-fees"
+  },
+  "once": {
+   "title": 11,
+   "insurance": 1.5,
+   "source": "sok-fees",
+   "insuranceSource": "sok-fees"
+  },
+  "ev": {
+   "_src": "47 O.S. § 1132.7",
+   "ev": 100,
+   "phev": 30,
+   "source": "ev-fee"
+  }
+ },
+ "singular": [
+  "Oklahoma's main tax on a car purchase is a motor vehicle excise tax of 3.25% of the value of a new vehicle, collected when the title is issued [excise].",
+  "A used vehicle pays $20 on the first $1,500 of value and 3.25% of the rest, and the excise tax is rounded to the nearest dollar [excise].",
+  "From July 1, 2026 the excise tax is based on the actual sales price written on the bill of sale, no longer checked against a 20% band around the average retail value [value].",
+  "On top of the excise tax, a 1.25% state sales tax applies to vehicle sales, computed on the price less the trade-in, and cities and counties may not add their sales tax to a vehicle [sales-tax].",
+  "Registration costs $96 a year for the first four years of registration, then $86, $66, $46 and finally $26 from the 17th year [sok-fees].",
+  "The statutory registration fee behind those amounts is $85 for years one to four, falling to $15 from the 17th year, plus small dedicated fees [reg-law].",
+  "Electric cars pay a $100 motor fuels tax fee each year and plug-in hybrids $30; ordinary hybrids pay nothing extra [ev-fee].",
+  "A certificate of title costs $11, and Service Oklahoma adds a $1.50 insurance verification fee at the first registration [sok-fees].",
+  "Since September 1, 2024 buyers pre-register within two business days, must put a metal plate on the car within ten days and fully register within two months of the sale [registration]."
+ ],
+ "sources": {
+  "excise": {
+   "name": "68 O.S. § 2103, Tax on transfer of legal ownership (Oklahoma Statutes, Title 68)",
+   "url": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os68.rtf",
+   "accessed": "2026-10-11",
+   "quote": "The excise tax for new vehicles shall be levied at three and one-fourth percent (3 1/4%) of the value of each new vehicle. ... Twenty Dollars ($20.00) on the first One Thousand Five Hundred Dollars ($1,500.00) or less of value ... rounded to the nearest dollar."
+  },
+  "value": {
+   "name": "68 O.S. § 2104, Value of vehicles (as amended by Laws 2025, c. 252, effective July 1, 2026)",
+   "url": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os68.rtf",
+   "accessed": "2026-10-11",
+   "quote": "The value of any vehicle, for purposes of the excise tax levied by Section 2103 of this title, shall be the actual sales price of such a vehicle."
+  },
+  "hb1183": {
+   "name": "Oklahoma House of Representatives, Motor Vehicle Excise Tax Change to Become Law (May 22, 2025)",
+   "url": "https://www.okhouse.gov/posts/news-20250522_3",
+   "accessed": "2026-10-11",
+   "quote": "HB1183 eliminates the 20% adjustment above and below the average retail price when determining the taxable value. To allow Service Oklahoma time to adjust for the change, the act will take effect July 1, 2026."
+  },
+  "sales-tax": {
+   "name": "68 O.S. § 1355(2), sales of motor vehicles",
+   "url": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os68.rtf",
+   "accessed": "2026-10-11",
+   "quote": "all but a portion of the levy provided under Section 1354 of this title, equal to one and twenty-five-hundredths percent (1.25%) of the gross receipts of such sales. ... gross receipts shall be calculated based only on the difference between the value of the trade-in vehicle and the actual sales price"
+  },
+  "sok-fees": {
+   "name": "Service Oklahoma, Fees & Exemptions (Motor Vehicle)",
+   "url": "https://oklahoma.gov/service/all-services/auto-vehicle/fees.html",
+   "accessed": "2026-10-11",
+   "quote": "Standard Vehicle Registration Year Full Year Fee 1st - 4th year $96.00 5th - 8th year $86.00 9th -12th year $66.00 13th - 16th year $46.00 17th year + $26.00 ... Vehicle Title Fee $11.00 ... Transfer Fee $17.00 Insurance Fee $1.50"
+  },
+  "reg-law": {
+   "name": "47 O.S. § 1132, Vehicle registration fees (Oklahoma Statutes, Title 47)",
+   "url": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os47.rtf",
+   "accessed": "2026-10-11",
+   "quote": "For the first through the fourth year of registration in this state or any other state, Eighty-five Dollars ($85.00); ... For the seventeenth and any following year of registration in this state or any other state, Fifteen Dollars ($15.00)."
+  },
+  "ev-fee": {
+   "name": "47 O.S. § 1132.7, Motor Fuels Tax Fee for electric-drive and hybrid-drive motor vehicles",
+   "url": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os47.rtf",
+   "accessed": "2026-10-11",
+   "quote": "One Hundred Dollars ($100.00) upon every electric-drive motor vehicle to be registered; and 2. Thirty Dollars ($30.00) upon every hybrid-drive motor vehicle to be registered."
+  },
+  "registration": {
+   "name": "Service Oklahoma, New & Used Vehicle Registration",
+   "url": "https://oklahoma.gov/service/all-services/auto-vehicle/new-used-vehicle-registration.html",
+   "accessed": "2026-10-11",
+   "quote": "all vehicles purchased at a dealership or through private sale have two business days to pre-register with the state. Oklahomans will then have ten days from the date of sale to get a metal license plate ... two months from the date of sale to fully register"
+  }
+ }
+}
