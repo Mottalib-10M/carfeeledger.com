@@ -1,0 +1,613 @@
+{
+ "abbr": "LA",
+ "name": "Louisiana",
+ "slug": "louisiana",
+ "agency": {
+  "name": "Louisiana Office of Motor Vehicles",
+  "short": "OMV",
+  "url": "https://expresslane.la.gov/omv"
+ },
+ "taxAgency": {
+  "name": "Louisiana Department of Revenue",
+  "url": "https://revenue.louisiana.gov/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "Local sales tax is set by the domicile where the vehicle is registered (parish, city, school or economic development district). The list holds every parish's rate outside city limits and the main cities, taken as the latest parish and municipal entries of the OMV Parish and Municipality Tax Table on 2026-10-11; for any other domicile, type the rate shown by the OMV table.",
+  "Whether a dealer documentary fee is part of the taxable sale price was not confirmed on an official page for this release; the calculator leaves it out of the taxable price.",
+  "A pickup or SUV registered as a truck pays a plate fee set by its gross vehicle weight rating ($40 or $112 for four years), which the form does not ask; it is shown as a range.",
+  "Some offices add a local fee of up to $6 at titling, and public tag agents may charge their own convenience fee; the local fee is shown as a range and agent fees are not included.",
+  "Act 701 of 2026 ends the brake tag outside the five emissions parishes on January 1, 2027 and replaces it with a vehicle identification program sticker of not more than $6 a year, whose exact amount was not yet published; renewals from 2027 show it as a range. In the five parishes the $18 inspection stays until the EPA approves the state plan.",
+  "The 2026 doc fee cap of $436 comes from the Louisiana Motor Vehicle Commission bulletin under R.S. 6:969.18(A)(2)."
+ ],
+ "summary": {
+  "stateRate": 0.05,
+  "localRange": [
+   0.02,
+   0.06
+  ],
+  "taxName": "state and local sales and use tax",
+  "tradeInCredit": true,
+  "titleFee": 68.5,
+  "regMethod": "value",
+  "regYears": 2,
+  "docFeeCap": 436,
+  "docFeeNote": "Maximum documentary fee for calendar year 2026 under R.S. 6:969.18(A)(2), adjusted for inflation and verified by the Legislative Auditor (LMVC Bulletin B-2026-001).",
+  "evFee": 110,
+  "phevFee": 60,
+  "hybridFee": 60,
+  "inspection": "both",
+  "inspectionWhere": "Yearly safety inspection (brake tag) statewide through 2026, plus an emissions test in Ascension, East Baton Rouge, Iberville, Livingston and West Baton Rouge; the sticker ends elsewhere on January 1, 2027.",
+  "inspectionFee": [
+   10,
+   18
+  ],
+  "annualValueTax": false
+ },
+ "params": {
+  "_src": "ldr-rate, parish-table, omv-fees, omv-new, rs-47-463, rs-32-461, deq-faq, act-701",
+  "tax": {
+   "rate": 0.05,
+   "tradeInCredit": true,
+   "docFeeTaxable": false
+  },
+  "title": 68.5,
+  "handling": 8,
+  "localFeeMax": 6,
+  "plate": {
+   "base": 10,
+   "baseValue": 10000,
+   "perThousand": 1,
+   "years": 2,
+   "truckRange": [
+    40,
+    112
+   ],
+   "truckYears": 4
+  },
+  "roadUsage": {
+   "ev": 110,
+   "hybrid": 60
+  },
+  "inspection": {
+   "safety": 10,
+   "imAdd": 8,
+   "lvipMax": 6,
+   "stickerEndsYear": 2027
+  }
+ },
+ "counties": [
+  {
+   "id": "acadia-parish",
+   "name": "Acadia Parish",
+   "localRate": 0.0425,
+   "im": false
+  },
+  {
+   "id": "allen-parish",
+   "name": "Allen Parish",
+   "localRate": 0.047,
+   "im": false
+  },
+  {
+   "id": "ascension-parish-east-bank",
+   "name": "Ascension Parish, East Bank (outside city limits)",
+   "localRate": 0.045,
+   "im": true
+  },
+  {
+   "id": "assumption-parish",
+   "name": "Assumption Parish",
+   "localRate": 0.05,
+   "im": false
+  },
+  {
+   "id": "avoyelles-parish",
+   "name": "Avoyelles Parish",
+   "localRate": 0.0325,
+   "im": false
+  },
+  {
+   "id": "beauregard-parish",
+   "name": "Beauregard Parish",
+   "localRate": 0.0475,
+   "im": false
+  },
+  {
+   "id": "bienville-parish",
+   "name": "Bienville Parish",
+   "localRate": 0.03,
+   "im": false
+  },
+  {
+   "id": "bossier-city",
+   "name": "Bossier City (Bossier Parish)",
+   "localRate": 0.05,
+   "im": false
+  },
+  {
+   "id": "bossier-parish",
+   "name": "Bossier Parish (outside city limits)",
+   "localRate": 0.0425,
+   "im": false
+  },
+  {
+   "id": "caddo-parish",
+   "name": "Caddo Parish (outside city limits)",
+   "localRate": 0.0335,
+   "im": false
+  },
+  {
+   "id": "calcasieu-parish",
+   "name": "Calcasieu Parish (outside city limits)",
+   "localRate": 0.0375,
+   "im": false
+  },
+  {
+   "id": "caldwell-parish",
+   "name": "Caldwell Parish",
+   "localRate": 0.05,
+   "im": false
+  },
+  {
+   "id": "catahoula-parish",
+   "name": "Catahoula Parish",
+   "localRate": 0.06,
+   "im": false
+  },
+  {
+   "id": "city-of-alexandria",
+   "name": "City of Alexandria (Rapides Parish)",
+   "localRate": 0.055,
+   "im": false
+  },
+  {
+   "id": "city-of-baton-rouge",
+   "name": "City of Baton Rouge (East Baton Rouge Parish)",
+   "localRate": 0.055,
+   "im": true
+  },
+  {
+   "id": "city-of-denham-springs",
+   "name": "City of Denham Springs (Livingston Parish)",
+   "localRate": 0.055,
+   "im": true
+  },
+  {
+   "id": "city-of-gonzales",
+   "name": "City of Gonzales (Ascension Parish)",
+   "localRate": 0.045,
+   "im": true
+  },
+  {
+   "id": "city-of-hammond",
+   "name": "City of Hammond (Tangipahoa Parish)",
+   "localRate": 0.055,
+   "im": false
+  },
+  {
+   "id": "city-of-lafayette",
+   "name": "City of Lafayette (Lafayette Parish)",
+   "localRate": 0.04,
+   "im": false
+  },
+  {
+   "id": "city-of-lake-charles",
+   "name": "City of Lake Charles (Calcasieu Parish)",
+   "localRate": 0.0575,
+   "im": false
+  },
+  {
+   "id": "city-of-monroe",
+   "name": "City of Monroe (Ouachita Parish)",
+   "localRate": 0.0599,
+   "im": false
+  },
+  {
+   "id": "city-of-shreveport",
+   "name": "City of Shreveport (Caddo Parish)",
+   "localRate": 0.046,
+   "im": false
+  },
+  {
+   "id": "city-of-slidell",
+   "name": "City of Slidell (St. Tammany Parish)",
+   "localRate": 0.0463,
+   "im": false
+  },
+  {
+   "id": "claiborne-parish",
+   "name": "Claiborne Parish",
+   "localRate": 0.0362,
+   "im": false
+  },
+  {
+   "id": "concordia-parish",
+   "name": "Concordia Parish",
+   "localRate": 0.0375,
+   "im": false
+  },
+  {
+   "id": "de-soto-parish",
+   "name": "De Soto Parish",
+   "localRate": 0.04,
+   "im": false
+  },
+  {
+   "id": "east-baton-rouge-parish",
+   "name": "East Baton Rouge Parish (outside city limits)",
+   "localRate": 0.055,
+   "im": true
+  },
+  {
+   "id": "east-carroll-parish",
+   "name": "East Carroll Parish",
+   "localRate": 0.05,
+   "im": false
+  },
+  {
+   "id": "east-feliciana-parish",
+   "name": "East Feliciana Parish",
+   "localRate": 0.05,
+   "im": false
+  },
+  {
+   "id": "evangeline-parish",
+   "name": "Evangeline Parish",
+   "localRate": 0.04,
+   "im": false
+  },
+  {
+   "id": "franklin-parish",
+   "name": "Franklin Parish",
+   "localRate": 0.04,
+   "im": false
+  },
+  {
+   "id": "grant-parish",
+   "name": "Grant Parish",
+   "localRate": 0.04,
+   "im": false
+  },
+  {
+   "id": "iberia-parish",
+   "name": "Iberia Parish",
+   "localRate": 0.0425,
+   "im": false
+  },
+  {
+   "id": "iberville-parish",
+   "name": "Iberville Parish",
+   "localRate": 0.0525,
+   "im": true
+  },
+  {
+   "id": "jackson-parish",
+   "name": "Jackson Parish",
+   "localRate": 0.04,
+   "im": false
+  },
+  {
+   "id": "jefferson-davis-parish",
+   "name": "Jefferson Davis Parish",
+   "localRate": 0.055,
+   "im": false
+  },
+  {
+   "id": "jefferson-parish",
+   "name": "Jefferson Parish",
+   "localRate": 0.0475,
+   "im": false
+  },
+  {
+   "id": "la-salle-parish",
+   "name": "La Salle Parish",
+   "localRate": 0.03,
+   "im": false
+  },
+  {
+   "id": "lafayette-parish",
+   "name": "Lafayette Parish (outside city limits)",
+   "localRate": 0.02,
+   "im": false
+  },
+  {
+   "id": "lafourche-parish",
+   "name": "Lafourche Parish",
+   "localRate": 0.0415,
+   "im": false
+  },
+  {
+   "id": "lincoln-parish",
+   "name": "Lincoln Parish",
+   "localRate": 0.0375,
+   "im": false
+  },
+  {
+   "id": "livingston-parish",
+   "name": "Livingston Parish (outside city limits)",
+   "localRate": 0.04,
+   "im": true
+  },
+  {
+   "id": "madison-parish",
+   "name": "Madison Parish",
+   "localRate": 0.035,
+   "im": false
+  },
+  {
+   "id": "morehouse-parish",
+   "name": "Morehouse Parish",
+   "localRate": 0.04,
+   "im": false
+  },
+  {
+   "id": "natchitoches-parish",
+   "name": "Natchitoches Parish",
+   "localRate": 0.04,
+   "im": false
+  },
+  {
+   "id": "orleans-parish",
+   "name": "Orleans Parish (New Orleans)",
+   "localRate": 0.05,
+   "im": false
+  },
+  {
+   "id": "ouachita-parish",
+   "name": "Ouachita Parish (outside city limits)",
+   "localRate": 0.0599,
+   "im": false
+  },
+  {
+   "id": "plaquemines-parish",
+   "name": "Plaquemines Parish",
+   "localRate": 0.0525,
+   "im": false
+  },
+  {
+   "id": "pointe-coupee-parish",
+   "name": "Pointe Coupee Parish",
+   "localRate": 0.0425,
+   "im": false
+  },
+  {
+   "id": "rapides-parish",
+   "name": "Rapides Parish (outside city limits)",
+   "localRate": 0.035,
+   "im": false
+  },
+  {
+   "id": "red-river-parish",
+   "name": "Red River Parish",
+   "localRate": 0.045,
+   "im": false
+  },
+  {
+   "id": "richland-parish",
+   "name": "Richland Parish",
+   "localRate": 0.0425,
+   "im": false
+  },
+  {
+   "id": "sabine-parish",
+   "name": "Sabine Parish",
+   "localRate": 0.0463,
+   "im": false
+  },
+  {
+   "id": "st-bernard-parish",
+   "name": "St. Bernard Parish",
+   "localRate": 0.05,
+   "im": false
+  },
+  {
+   "id": "st-charles-parish",
+   "name": "St. Charles Parish",
+   "localRate": 0.05,
+   "im": false
+  },
+  {
+   "id": "st-helena-parish",
+   "name": "St. Helena Parish",
+   "localRate": 0.05,
+   "im": false
+  },
+  {
+   "id": "st-james-parish",
+   "name": "St. James Parish",
+   "localRate": 0.035,
+   "im": false
+  },
+  {
+   "id": "st-john-the-baptist-parish",
+   "name": "St. John the Baptist Parish",
+   "localRate": 0.0525,
+   "im": false
+  },
+  {
+   "id": "st-landry-parish",
+   "name": "St. Landry Parish",
+   "localRate": 0.0555,
+   "im": false
+  },
+  {
+   "id": "st-martin-parish",
+   "name": "St. Martin Parish",
+   "localRate": 0.025,
+   "im": false
+  },
+  {
+   "id": "st-mary-parish",
+   "name": "St. Mary Parish",
+   "localRate": 0.0365,
+   "im": false
+  },
+  {
+   "id": "st-tammany-parish",
+   "name": "St. Tammany Parish (outside city limits)",
+   "localRate": 0.0425,
+   "im": false
+  },
+  {
+   "id": "tangipahoa-parish",
+   "name": "Tangipahoa Parish (outside city limits)",
+   "localRate": 0.035,
+   "im": false
+  },
+  {
+   "id": "tensas-parish",
+   "name": "Tensas Parish",
+   "localRate": 0.0575,
+   "im": false
+  },
+  {
+   "id": "terrebonne-parish",
+   "name": "Terrebonne Parish",
+   "localRate": 0.055,
+   "im": false
+  },
+  {
+   "id": "union-parish",
+   "name": "Union Parish",
+   "localRate": 0.05,
+   "im": false
+  },
+  {
+   "id": "vermilion-parish",
+   "name": "Vermilion Parish",
+   "localRate": 0.0375,
+   "im": false
+  },
+  {
+   "id": "vernon-parish",
+   "name": "Vernon Parish",
+   "localRate": 0.04,
+   "im": false
+  },
+  {
+   "id": "washington-parish",
+   "name": "Washington Parish",
+   "localRate": 0.0583,
+   "im": false
+  },
+  {
+   "id": "webster-parish",
+   "name": "Webster Parish",
+   "localRate": 0.03,
+   "im": false
+  },
+  {
+   "id": "west-baton-rouge-parish",
+   "name": "West Baton Rouge Parish",
+   "localRate": 0.0525,
+   "im": true
+  },
+  {
+   "id": "west-carroll-parish",
+   "name": "West Carroll Parish",
+   "localRate": 0.055,
+   "im": false
+  },
+  {
+   "id": "west-feliciana-parish",
+   "name": "West Feliciana Parish",
+   "localRate": 0.045,
+   "im": false
+  },
+  {
+   "id": "winn-parish",
+   "name": "Winn Parish",
+   "localRate": 0.04,
+   "im": false
+  },
+  {
+   "id": "other",
+   "name": "Any other Louisiana city or district (type your local rate)",
+   "localRate": 0,
+   "im": false
+  }
+ ],
+ "defaultCounty": "east-baton-rouge-parish",
+ "singular": [
+  "Since January 1, 2025 the Louisiana state sales tax rate is 5% [ldr-rate].",
+  "Sales tax on a vehicle follows the domicile where it is registered and is charged on the price minus a qualifying trade-in and rebate, on new and used cars alike [omv-new].",
+  "Parish and municipal rates run from 2% in Lafayette Parish outside city limits to 6% in Catahoula Parish, according to the OMV tax table [parish-table].",
+  "Every title costs $68.50 and the OMV adds an $8 handling fee [omv-fees].",
+  "The license plate tax is $10 a year up to $10,000 of value plus $1 for each $1,000 above, rounded at $500, and is collected two years at a time [rs-47-463].",
+  "The vehicle's value is fixed when it is bought and the same plate tax applies at every renewal after that [rs-47-463].",
+  "Electric vehicles pay a road usage fee of $110 a year and hybrids, plug-in or not, $60, collected with the registration [rs-32-461].",
+  "In Ascension, East Baton Rouge, Iberville, Livingston and West Baton Rouge parishes the yearly inspection includes an emissions test and costs $18 [deq-faq].",
+  "Act 701 of 2026 replaces the inspection sticker with a vehicle identification sticker of no more than $6 a year from January 1, 2027, outside the emissions parishes [act-701].",
+  "Dealers may charge a documentary fee of up to $436 in 2026 [doc-fee]."
+ ],
+ "sources": {
+  "ldr-rate": {
+   "name": "Louisiana Department of Revenue, Revenue Information Bulletin 25-007, State Sales Tax Rate",
+   "url": "https://dam.ldr.la.gov/lawspolicies/RIB%2025-007%20-%20State%20Sales%20Tax%20Rate.pdf",
+   "accessed": "2026-10-11",
+   "quote": "Pursuant to Act 11 of the 2024 Third Extraordinary Session of the Legislation, beginning on January 1, 2025, the Louisiana state sales tax rate is 5%."
+  },
+  "parish-table": {
+   "name": "Louisiana OMV, Parish and Municipality Tax Table (data file read on 2026-10-11)",
+   "url": "https://taxes.mfn.dps.la.gov/",
+   "accessed": "2026-10-11",
+   "quote": "East Baton Rouge Prsh: Parish 0.055 (2019-04-01). Baton Rouge: Parish 0.035 (2019-04-01), Municipality 0.02 (1991-03-01). Orleans Parish: Parish 0.05 (1985-06-01)."
+  },
+  "omv-fees": {
+   "name": "Louisiana OMV, Vehicle Registration, Title and Plate Fees",
+   "url": "https://expresslane.la.gov/omv/vehicles/vehicle-registration-title-plate-fees/",
+   "accessed": "2026-10-11",
+   "quote": "Title Fee $68.50 ... Handling Fee $8.00 ... Trucks (up to 6,000 lbs GVW) $40.00 4 years Trucks (6,001 lbs. - 10,000 lbs.) $112.00 4 years ... The license plates are sold in two-year increments, therefore the minimum price is $20.00."
+  },
+  "omv-new": {
+   "name": "Louisiana OMV, New Title and Registration",
+   "url": "https://expresslane.la.gov/omv/vehicles/title-and-registration/new-title-registration/",
+   "accessed": "2026-10-11",
+   "quote": "$68.50 title fee ... $8.00 handling fee $6.00 local fee (may apply and will not exceed $6) ... Sales use tax will be based on the domicile of the vehicle and will be assessed on the sales prices of the vehicle minus any qualifying trade vehicle and rebate."
+  },
+  "omv-used": {
+   "name": "Louisiana OMV, Used Title and Registration",
+   "url": "https://expresslane.la.gov/omv/vehicles/title-and-registration/used-title-registration/",
+   "accessed": "2026-10-11",
+   "quote": "Original notarized bill of sale or invoice specifying the actual consideration involved ... Sales use tax will be based on the domicile of the vehicle and will be assessed on the sales prices of the vehicle minus any qualifying trade vehicle and rebate."
+  },
+  "rs-47-463": {
+   "name": "La. R.S. 47:463, private passenger vehicles (license tax)",
+   "url": "https://legis.la.gov/legis/Law.aspx?d=102143",
+   "accessed": "2026-10-11",
+   "quote": "the annual license tax shall be the base tax of ten dollars plus an additional tax of one dollar per each one thousand dollars of actual value above ten thousand dollars ... the tax shall be based on said value for each renewal thereafter"
+  },
+  "rs-32-461": {
+   "name": "La. R.S. 32:461, road usage fee on electric and hybrid vehicles",
+   "url": "https://legis.la.gov/Legis/law.aspx?d=1294995",
+   "accessed": "2026-10-11",
+   "quote": "a road usage fee of one hundred ten dollars per year on each electric vehicle ... sixty dollars per year on each hybrid vehicle ... shall collect the fee ... at the same time, for the same period, and in the same manner as the registration license tax."
+  },
+  "ldr-ev": {
+   "name": "Louisiana Department of Revenue, Electric and Hybrid Vehicle Road Usage Fee",
+   "url": "https://revenue.louisiana.gov/individuals/general-resources/electric-and-hybrid-vehicle-road-usage-fee/",
+   "accessed": "2026-10-11",
+   "quote": "The fee is $110 for electric vehicles and $60 for hybrid vehicles per calendar year. ... Beginning in 2026, OMV will collect the fee for 2026 and forward"
+  },
+  "deq-faq": {
+   "name": "Louisiana DEQ, Motor Vehicle Inspections FAQ (read through the Internet Archive copy of 2026-05-13)",
+   "url": "https://deq.louisiana.gov/faq/category/vehicle",
+   "accessed": "2026-10-11",
+   "quote": "Vehicle emissions inspections are ONLY performed by official motor vehicle inspection stations located in the Louisiana parishes of Ascension, East Baton Rouge, Iberville, Livingston, and West Baton Rouge. ... The price of the vehicle emissions inspection is $18 per vehicle."
+  },
+  "act-701": {
+   "name": "Louisiana Act 701 of 2026 (HB 1085), vehicle inspection stickers",
+   "url": "https://legis.la.gov/legis/ViewDocument.aspx?d=1480656",
+   "accessed": "2026-10-11",
+   "quote": "for each year of validity of the certificate issued, a charge or fee of ten dollars shall be charged ... The fee for the Louisiana Vehicle Identification Program shall not exceed six dollars per year ... For all other parishes, this Act shall take effect on January 1, 2027."
+  },
+  "doc-fee": {
+   "name": "Louisiana Motor Vehicle Commission, Bulletin B-2026-001, Maximum Documentary Fee for 2026",
+   "url": "https://www.lmvc.la.gov/wp-content/uploads/2026/01/Bulletin-2026-001-Maximum-Documentary-Fee-for-2026-Calendar-Year.pdf",
+   "accessed": "2026-10-11",
+   "quote": "Effective immediately, for calendar year 2026, the adjusted maximum Documentary Fee authorized by La. R.S. 6:969.18 (A) (2) is $436."
+  }
+ }
+}

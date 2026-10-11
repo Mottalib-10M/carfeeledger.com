@@ -1,0 +1,159 @@
+{
+ "abbr": "KS",
+ "name": "Kansas",
+ "slug": "kansas",
+ "agency": {
+  "name": "Kansas Department of Revenue, Division of Vehicles (through the county treasurers)",
+  "short": "KDOR",
+  "url": "https://www.ksrevenue.gov/dov.html"
+ },
+ "taxAgency": {
+  "name": "Kansas Department of Revenue, Division of Taxation",
+  "url": "https://www.ksrevenue.gov/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "Kansas vehicles pay a county personal property tax with every registration, computed from the vehicle's value class and the local mill levy; it is not computable from the form, so it is shown without an amount.",
+  "Local sales tax depends on the city and special districts of the buyer's address (and, on a private sale, the highest of the sale location and the registration address). Only the countywide rates of Johnson County (1.475%) and Sedgwick County (1%) are prefilled; the Department of Revenue rate booklet could not be reached for this release, so for any other place type the local rate.",
+  "At purchase the registration and property tax are prorated to the owner's staggered renewal month; the calculator shows a full year.",
+  "County treasurers may add a facility fee of up to $5 per registration ($2.50 in a county with one tag office); it is shown as a range.",
+  "Kansas law sets no documentary fee cap that was found for this release; type the dealer's fee.",
+  "The K.S.A. 8-143 fees for hybrid, plug-in hybrid and electric cars ($70, $100 and $165) are read from the 2026 Kansas Statutes; their effective date was not printed on the statute page read."
+ ],
+ "summary": {
+  "stateRate": 0.065,
+  "localRange": [
+   0,
+   0.04
+  ],
+  "taxName": "sales and compensating use tax",
+  "tradeInCredit": true,
+  "titleFee": 10,
+  "regMethod": "weight",
+  "regYears": 1,
+  "docFeeCap": null,
+  "docFeeNote": "No cap found in Kansas law for this release; administrative fees charged by the dealer are subject to sales tax.",
+  "evFee": 165,
+  "phevFee": 100,
+  "hybridFee": 70,
+  "inspection": "none",
+  "inspectionWhere": "No periodic inspection; a used vehicle titled in another state needs a one-time Kansas Highway Patrol VIN check (minimum $20) before titling.",
+  "inspectionFee": null,
+  "annualValueTax": true
+ },
+ "params": {
+  "_src": "pub1526, ksa-8-135, ksa-8-143, ksa-8-145d, sedgwick-fees, ksa-8-145",
+  "tax": {
+   "rate": 0.065,
+   "tradeInCredit": true,
+   "docFeeTaxable": true
+  },
+  "title": 10,
+  "plate": 0.5,
+  "reg": {
+   "car": {
+    "lightUpTo": 4500,
+    "light": 30,
+    "heavy": 40,
+    "hybrid": 70,
+    "phev": 100,
+    "ev": 165
+   },
+   "truck": {
+    "gas": 40,
+    "hybrid": 125,
+    "ev": 200
+   }
+  },
+  "serviceFee": 5,
+  "modernization": 4,
+  "countyFeeMax": 5
+ },
+ "counties": [
+  {
+   "id": "johnson-county",
+   "name": "Johnson County",
+   "localRate": 0.01475,
+   "rateSource": "jo-rate"
+  },
+  {
+   "id": "sedgwick-county",
+   "name": "Sedgwick County",
+   "localRate": 0.01,
+   "rateSource": "sedgwick-fees"
+  },
+  {
+   "id": "other",
+   "name": "Any other Kansas county (type your local rate)",
+   "localRate": 0
+  }
+ ],
+ "defaultCounty": "johnson-county",
+ "singular": [
+  "Kansas taxes a car at the 6.5% state rate plus local sales tax, on the price after the trade-in, and the dealer's administrative fee is part of the taxed amount [pub1526].",
+  "A car bought from a private seller is taxed too: the buyer pays the sales tax to the county treasurer when registering it [pub1526].",
+  "Registration is a flat $30 a year for a car of 4,500 lb or less and $40 above, but hybrids pay $70, plug-in hybrids $100 and electric cars $165 [ksa-8-143].",
+  "Every registration and renewal also carries a $5 service fee, and the county may add up to $5 more [ksa-8-145d].",
+  "An original Kansas title costs $10 [ksa-8-135].",
+  "The county treasurer collects the vehicle's personal property tax at the time of registration [titlenew].",
+  "A used car titled in another state must pass a Highway Patrol VIN check, charged $20 per hour with a $20 minimum, before it gets a Kansas title [ksa-8-116a].",
+  "Sedgwick County lists a $10.50 title and tag fee and a $4 modernization fee, and its countywide sales tax brings the rate to 7.5% [sedgwick-fees]."
+ ],
+ "sources": {
+  "pub1526": {
+   "name": "Kansas Department of Revenue, Pub. KS-1526 Business Taxes for Motor Vehicle Transactions (Rev. 7-29-25; read through the Internet Archive copy of 2026-02-26, ksrevenue.gov unreachable)",
+   "url": "https://www.ksrevenue.gov/pdf/pub1526.pdf",
+   "accessed": "2026-10-11",
+   "quote": "Sales tax is due at the 7.5% Anytown sales tax rate on $27,910: $26,500 + $385 + $75 + $950 ... charge sales tax on the net price or trade difference — after the trade-in allowance ... the purchaser is required to pay the sales tax due to the County Treasurer"
+  },
+  "ksa-8-143": {
+   "name": "2026 Kansas Statutes, K.S.A. 8-143, annual registration fees",
+   "url": "https://www.kslegislature.gov/li/b2025_26/statute/008_000_0000_chapter/008_001_0000_article/008_001_0043_section/008_001_0043_k/",
+   "accessed": "2026-10-11",
+   "quote": "(A) For those having a gross weight of 4,500 pounds or less, $30; (B) for those having a gross weight of more than 4,500 pounds, $40; (C) ... electric hybrid vehicles, $70; (D) ... plug-in electric hybrid vehicles, $100; and (E) ... all-electric vehicles, $165"
+  },
+  "ksa-8-135": {
+   "name": "2026 Kansas Statutes, K.S.A. 8-135, certificate of title",
+   "url": "https://www.kslegislature.gov/li/b2025_26/statute/008_000_0000_chapter/008_001_0000_article/008_001_0035_section/008_001_0035_k/",
+   "accessed": "2026-10-11",
+   "quote": "The fee for each original certificate of title shall be $10 in addition to the fee for registration of such vehicle"
+  },
+  "ksa-8-145d": {
+   "name": "2026 Kansas Statutes, K.S.A. 8-145d, service fee",
+   "url": "https://www.kslegislature.gov/li/b2025_26/statute/008_000_0000_chapter/008_001_0000_article/008_001_0045d_section/008_001_0045d_k/",
+   "accessed": "2026-10-11",
+   "quote": "any applicant for vehicle registration or renewal thereof for registration shall pay a service fee in the amount of $5 ... (1) In an amount not to exceed $5 per vehicle registration ... in a county with multiple vehicle registration facilities"
+  },
+  "ksa-8-116a": {
+   "name": "2026 Kansas Statutes, K.S.A. 8-116a, VIN check by the Highway Patrol",
+   "url": "https://www.kslegislature.gov/li/b2025_26/statute/008_000_0000_chapter/008_001_0000_article/008_001_0016a_section/008_001_0016a_k/",
+   "accessed": "2026-10-11",
+   "quote": "Any person making application for any original Kansas title for a used vehicle that ... is titled in another jurisdiction ... shall have such vehicle checked ... A charge of $20 per hour or part thereof, with a minimum charge of $20"
+  },
+  "titlenew": {
+   "name": "Kansas Division of Vehicles, Titling a New Vehicle (read through the Internet Archive copy of 2026-09-23)",
+   "url": "https://www.ksrevenue.gov/dovtitlenew.html",
+   "accessed": "2026-10-11",
+   "quote": "Property tax must be paid at the time of registration unless applying for a temporary plate."
+  },
+  "sedgwick-fees": {
+   "name": "Sedgwick County Tag Office, Fees and Payment (read through the Internet Archive copy of 2026-05-10)",
+   "url": "https://www.sedgwickcounty.org/tag-office/fees-and-payment/",
+   "accessed": "2026-10-11",
+   "quote": "Title and Tag Fee is $10.50. Modernization Fee is $4.00. ... The rate in Sedgwick County is 7.5 percent. ... your fees will be the same as a new tag minus the 50¢ plate fee."
+  },
+  "jo-rate": {
+   "name": "City of Roeland Park, Sales Tax Rates (Johnson County components)",
+   "url": "https://roelandpark.net/211/Sales-Tax-Rates",
+   "accessed": "2026-10-11",
+   "quote": "State of Kansas 6.500% ... Johnson County General Sales Tax 0.500% ... Stormwater 0.100% ... Public Safety Sales Tax 1 0.250% ... Public Safety Sales Tax 2 0.250% ... Courthouse 0.250% ... Research Triangle 0.125%"
+  },
+  "ksa-8-145": {
+   "name": "2026 Kansas Statutes, K.S.A. 8-145, collection of fees and disposition",
+   "url": "https://www.kslegislature.gov/li/b2025_26/statute/008_000_0000_chapter/008_001_0000_article/008_001_0045_section/008_001_0045_k/",
+   "accessed": "2026-10-11",
+   "quote": "Four dollars of each division of vehicles modernization surcharge collected and remitted to the secretary of revenue, shall be remitted to the state treasurer who shall credit such $4 to the state highway fund."
+  }
+ }
+}

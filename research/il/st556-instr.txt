@@ -1,0 +1,605 @@
+SOURCE: https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/sales/documents/vehicleusetax/st-556-instr.pdf
+          Illinois Department of Revenue
+          ST-556 Sales Tax Transaction Return Instructions
+
+
+                                                                           General Information
+Who must file Form ST‑556?
+If you sell items at retail in Illinois or are a leasing company selling items that are of the type that must be titled or registered by an
+agency of Illinois state government (e.g., vehicles, watercraft, aircraft, trailers, manufactured (mobile) homes), you must register with
+the Illinois Department of Revenue (IDOR) to collect Illinois Sales Tax and report these sales on Form ST‑556, Sales Tax Transaction
+Return. If you are a leasing company engaged in the business of selling such previously leased items to Illinois purchasers and the
+items are located in Illinois at the time of sale, you must report these sales on Form ST‑556. Do                                     not file Form ST-556 if the item is
+being sold for lease. Instead, use Form ST‑556‑LSE, Transaction Return for Leases.
+Note: Effective January 1, 2025, sellers of the following items to lessors for the purpose of renting or leasing the items are authorized
+to sell the items as a nontaxable sale for resale (Exemption 5(b)):
+ •    trailers that must be registered with an agency of this State, other than semitrailers as defined in Section 1-187 of the Illinois
+      Vehicle Code; and
+ •    items that must be titled with an agency of this State but not registered with an agency of this State, such as all‑terrain vehicles
+      (“ATVs”) and off-road motorcycles.
+Effective January 1, 2025, persons engaged in the business of renting or leasing these items are subject to Illinois Sales and Use
+Tax and must report and pay tax on their rental or lease receipts as they are collected from the customer. Rentors and lessors of
+these items should not use Form ST‑556 or Form ST         ‑556‑LSE to report rental or lease receipts from these items. Instead, rentors and
+lessors of these items should use Form LSE‑1 to report these rental or lease receipts.
+Remote Retailers and Marketplace Facilitators:
+If you are a remote retailer or a marketplace facilitator who meets a tax remittance threshold (200 or more separate transactions
+per year or $100,000 or more in cumulative gross receipts from sales of tangible personal property to purchasers in Illinois; see
+the Leveling the Playing Field for Illinois Retail Act Resource Page for additional information), you must register with IDOR
+to report these sales on Form ST‑556. Sales of tangible personal property required to be titled or registered with an agency of the
+State of Illinois, including motor vehicles, watercraft, aircraft, and trailers, that are made by a remote retailer or over a marketplace to
+purchasers in Illinois are sourced the same as all other sales made by a remote retailer or over a marketplace to purchasers in Illinois.
+See 86 Ill. Adm. Code 131.110(e) and 131.130(c). For sales made by a remote retailer or by a marketplace facilitator on behalf of
+marketplace sellers, taxes apply at the location in Illinois to which the titled or registered item is shipped or delivered, or the location
+in Illinois where the purchaser takes possession of the titled or registered item. For sales made by marketplace facilitators of their
+own items, the marketplace facilitator incurs State and local retailers’ occupation tax at the rate in effect at either the location of the
+inventory in Illinois or the location in Illinois at which the selling activities otherwise occur (as determined by applying the provisions of
+86 Ill. Adm. Code 270.115(c) and (d)). For sales made by marketplace facilitators of their own items that are not fulfilled from inventory
+in Illinois and for which selling is not engaged in at any location in Illinois, taxes apply at the location in Illinois to which the titled or
+registered item is shipped or delivered or the location in Illinois where the purchaser takes possession of the titled or registered item.
+If an Illinois purchaser travels to an out‑of‑State location to take possession of an item that is required to be titled or registered with an
+agency of the State of Illinois, the sale is sourced out of state and only Use Tax is incurred. The purchaser is responsible for filing the
+RUT-25, Vehicle Use Tax Transaction Return, and paying the tax. You do not need to file Form ST-556 or collect tax.
+Do I need to file Form ST‑556 if no tax is due?
+Yes. Anytime you sell an item at retail in Illinois that is of the type that must be titled or registered by an agency of Illinois state
+government, you must report the sale on Form ST-556, regardless of whether you are reporting tax due. Failure to file Form ST                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             -556
+as required subjects you to possible penalties for each transaction that goes unreported.
+If you make sales for resale in Illinois of items that must be reported on Form ST‑556 and these items had been previously rented or
+leased, you have the option of bulk reporting these sales for resale on Form ST‑556‑D, Nontaxable Sales for Resale of Previously
+Rented or Leased Vehicles. See Part II: Leasing Companies Selling at Retail for more information.
+How can I file Form ST‑556?
+Form ST-556 must be filed electronically if your annual gross receipts average $20,000 or more. Form ST-556 can be filed
+electronically by using MyTax Illinois at mytax.illinois.gov or by using an approved service provider in the Electronic Registration
+and Title (ERT) program.
+Note: You may request a waiver of the electronic filing requirement if you do not have internet access or demonstrate hardship in
+filing electronically. Contact Taxpayer Assistance at 1 800 732-8866, 217 782-3336, or 1 800 544-5304 (TTY) to request a waiver
+form. Complete the waiver form and mail it to the address listed on the form. IDOR will notify you if the waiver request is approved or
+denied.
+If you are not mandated to file Form ST-556 electronically or have received a waiver of the electronic filing requirement, you can
+request preprinted paper returns by calling our Central Registration Division at 217 785-3707. You can also obtain preprinted paper
+returns using MyTax Illinois. Note that preprinted paper forms will be pre-filled with certain information for each of your business
+locations. Related sales and use tax forms are available on our website at tax.illinois.gov.
+
+
+
+
+                                                                                                                                                                                Page 1 of 9
+What is the retailers’ allowance (discount), and how can I claim it for timely filing Form ST‑556 and
+paying the tax due?
+The retailers’ allowance (discount) is an amount that retailers may claim only if the return is filed on or before the due date and only
+for a percentage of the taxes paid on or before the due date. This discount is allowed as a reimbursement for the expenses incurred in
+keeping records, preparing and filing returns, remitting the tax, and supplying data to IDOR on request.
+For returns due on or after January 1, 2025, the discount is limited to $1,000 per month for all returns (i.e., both Forms ST‑556 and
+ST-556-LSE) filed that month. The $1,000 monthly cap applies to vehicle sales with a delivery date on or after December 12, 2024,
+which corresponds to returns due on or after January 1, 2025. Retailers will no longer be able to reduce the tax remittance by the
+amount of the retailers’ allowance when filing Forms ST-556 and ST-556-LSE. To avoid potential billing issues or confusion, IDOR will
+calculate the discount on these returns through a monthly reconciliation process that will occur approximately 60 days after the end of
+a monthly liability period. The retailers’ allowance will be issued once the reconciliation process is completed each month.
+If you are not mandated to file Forms ST-556 and ST-556-LSE electronically and file using paper returns, do not enter a figure on the
+retailers’ allowance line. You must remit all tax reported as due on your return to be issued the retailers’ allowance, as applicable,
+through IDOR’s monthly reconciliation process.
+What if I make a mistake while filling out a preprinted paper form?
+If you make a mistake on a preprinted paper Form ST‑556, write “VOID” across the form. Keep the voided return in your records for at
+least 42 months. Do not send the form to us. You will need to complete a new form to send to IDOR.
+What if I need help?
+If you need help, call our Taxpayer Assistance Division weekdays between 8:00 a.m. and 5:00 p.m.
+at 1 800 732-8866, 217 782-3336, or 1 800 544-5304 (TTY).
+You may also visit our website at tax.illinois.gov or scan the QR code provided.
+Language assistance services are available upon request and are free of charge.
+See ST‑9, A Guide for Reporting Sales Using Form ST         ‑556, Sales Tax Transaction Return                                         , available on our
+website at tax.illinois.gov, for additional guidance.
+                       Part I: Retailers Other Than Leasing Companies Selling at Retail
+
+                                                                           Specific Instructions
+1: Enter the purchaser’s name and address
+The purchaser’s name and address must be the same as the name and address on the application for title or registration. If there is
+more than one purchaser, be sure to enter each name.
+2: Describe the item sold
+Check the correct box (A – E) to show the type of item sold. If the type of item sold is not identified in boxes A – E, check box F and
+enter the type of item sold.
+Check the correct box to show whether the item sold is new or used.
+Next, enter the appropriate identification number for the item sold, such as a vehicle identification number (VIN) for vehicles, trailers,
+and manufactured (mobile) homes, a hull identification number (HIN) for watercraft, or (N) number for aircraft.
+Finally, enter the year, make, body style, and model of the item sold.
+Note: If you sold more than one type of item (e.g., a watercraft and a trailer) or more than one item of the same type (e.g., three motor
+vehicles) you generally must complete a separate Form ST‑556 for each item sold. If, however, you wish to report                                                   sales for resale or
+sales for use as rolling stock of more than one of the same type of item to the same purchaser with the same date of delivery, you
+may file Form ST-556-R, Resale and Rolling Stock Fleet Exemption Schedule, with a single Form ST-556.
+3: Enter the date of delivery
+Enter the month, day, and year in which the purchaser took                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                possession of the item.
+Note: This return is due no later than 20 calendar days after the date of delivery.
+4: Describe the trade-in, if any
+If you are not claiming a qualified trade-in, skip this section and go to Section 5.
+If you are claiming a qualified trade-in, enter the type of item traded in (e.g., automobile, truck, airplane, boat, trailer). Next, enter the
+appropriate identification number, year, make, body style, and model of the trade-in.
+What is a qualified trade‑in?
+A qualified trade-in is an item:
+ •    that the purchaser gives you to reduce the selling price (in part or in full) of the item sold;
+ •    that you are allowed to subtract from the selling price; and
+ •    that you are in the business of selling.
+You are “in the business of selling” a particular kind of item if you hold yourself out to the public as being engaged in (or habitually
+engage in) selling such items.
+Example: You may claim the trade-in of a boat on an auto if you are in the business of selling both boats and autos. However, you
+may not claim the trade‑in of a boat on an auto if you are in the business of selling                                only autos.
+
+                                                                                                                                                                                   Page 2 of 9
+Note: For sales made on or after January 1, 2020, up to and including December 31, 2021, for purposes of calculating your Sales Tax
+due, you cannot claim trade-in credit exceeding $10,000 for any first division motor vehicle that was traded in during the sale being
+reported on Form ST-556. For sales made on or after January 1, 2022, the $10,000 trade-in credit limit no longer applies.
+5: Exempt or sale to a nonresident
+If the sale is to an Illinois resident and also taxable, skip this section and go to Section 6.
+If the sale is exempt from tax, check the correct box (A – F), and complete Section 6, Lines 1 and 2.
+If the sale is to a nonresident purchaser who is subject to tax (i.e., a non‑reciprocal purchaser), complete box A as instructed below
+and complete all of Section 6.
+If you are not required to submit title or registration paperwork on the item, send the return directly to us at:
+      ILLINOIS DEPARTMENT OF REVENUE
+      RETAILERS’ OCCUPATION TAX
+      PO BOX 19042
+      SPRINGFIELD IL 62794‑9042
+A.                                  Sold to a nonresident purchaser
+Check this box if you sold an item to a nonresident purchaser who is not an out‑of‑State dealer, and who took possession of the item
+in Illinois, and either:
+ •    you issued a drive‑away permit for the item sold; or
+ •    the purchaser transferred out‑of‑State license plates to the item sold.
+If you issued a drive‑away permit, enter the drive‑away permit number                                  and the two-letter state abbreviation of the purchaser’s state
+of residence in the space provided. If the purchaser transferred current out‑of‑State license plates to the item sold, enter the out‑of‑
+State license plate number and the two-letter state abbreviation in the space provided.
+Non-Reciprocal Buyer
+Exemption is determined by whether the purchaser’s state gives Illinois residents a nonresident purchaser exemption on their
+purchases of items that will be titled in Illinois. See ST-58, Reciprocal - Non-Reciprocal Vehicle Tax Rate Chart, available on our
+website at tax.illinois.gov, and the instructions for Section 6, Line 4 below for more information.
+Note: If you claim the nonresident purchaser exemption, keep a copy of the purchaser’s valid out‑of‑State driver’s license in your
+records as proof of nonresidency. You also are responsible for obtaining a signed certification documenting the purchaser’s eligibility for
+the nonresident purchaser exemption. As a condition of claiming this exemption, nonresident purchasers must certify that they are not
+residents of Illinois. See ST-588, Nonresidency Exemption Certification for Sales and Leases of Motor Vehicles and Trailers, available
+on our website at tax.illinois.gov. Retain this certification in your records as proof that no tax was due on the sale of the specified item.
+Indiana Purchaser of an RV or Cargo Trailer
+If you sell a recreational vehicle or a cargo trailer to a purchaser that will title or register that item in Indiana, the transaction is exempt
+from Illinois tax if a drive‑away permit is issued or the Indiana purchaser has vehicle registration plates to transfer to the item upon
+returning to Indiana. You must check Section 5, box F, “Other” and enter “recreational vehicle” or “cargo trailer” on the line provided.
+B.                                  Sold for resale to a DEALER
+Check this box if you sold the item to either an Illinois or out‑of‑State dealer for resale.
+ •    If you sold to an Illinois dealer, enter the dealer’s account ID number in the space provided. This includes, beginning
+      January 1, 2025, sales to lessors or rentors of items that are required to be titled or registered that will be leased or rented and
+      that are subject to tax on lease or rental receipts.
+ •    If you sold to an Illinois dealer as junk or salvage or for parts, enter “Junked,” “Salvage,” or “Parts Only” after the account ID number.
+ •    If you sold to an out‑of‑State dealer, enter “Out‑of‑State Dealer” in the space provided for the account ID number.
+Keep a completed Form CRT-61, Certificate of Resale, in your books and records for documentation.
+C.                                  Sold to an exempt organization
+Check this box if you sold the item to an exempt organization that has an active Illinois Sales Tax exemption “E” number, such as:
+ •    a governmental body;
+ •    a school;
+ •    a religious organization; or
+ •    a charitable organization.
+In the space provided, enter the organization’s active Illinois Sales Tax exemption “E” number. The purchaser must be the organization
+itself rather than a member or officer of the organization. The item must be titled or registered in the organization’s name and paid for
+with the organization’s funds. The organization’s exemption number must have been in effect on the day you made the sale.
+D.                                  Sold to an interstate carrier for hire for use as rolling stock
+Check this box if you sold an item for use as rolling stock to haul persons or commodities for hire in interstate commerce. In the space
+provided, enter the certificate of authority number. Keep a properly completed Form RUT-7, Rolling Stock Certification, in your books
+and records for documentation.
+E.                                  Sold for rental use
+Check this box if:
+ •    you sold the item to a business that is registered to collect Automobile Renting Occupation Tax; and
+ •    the purchaser will use the item for rental purposes in                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          rental agreements of one year or less.
+Enter the purchaser’s Illinois Automobile Renting Occupation Tax account ID number.
+
+                                                                                                                                                                                        Page 3 of 9
+F.                                  Other
+Check this box if the sale is exempt for a reason not identified in boxes A – E.
+For example:
+ •    You sold a recreational vehicle or cargo trailer to a purchaser that will title and register the item in Indiana and you have issued a
+      drive‑away permit or the Indiana purchaser has vehicle registration plates to transfer to the item upon returning to Indiana. In the
+      space provided, enter “recreational vehicle” or “cargo trailer.”
+ •    You delivered (or caused to be delivered) an item to a purchaser outside Illinois. In the space provided, enter “Delivered Out-of-State.”
+ •    You sold the item to a foreign consul who has a card from the U.S. Department of State declaring that the foreign consul does not
+      have to pay sales tax on that item. In the space provided, enter                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         “Foreign Consul.”
+ •    You will use the item for your own interim use. For the item to remain exempt from sales or use tax, it must remain in your sales
+      inventory and be available for sale at all times. In the space provided, enter “Interim Use.”
+If you have aircraft or watercraft that you have purchased for resale in your sales inventory and you use these items for demonstration
+or business purposes, you must pay Illinois Use Tax on your cost price of these items if you hold them for more than 18 months. If you
+later sell the items and collect Illinois Sales Tax, you cannot claim credit for any Illinois Use Tax you may have paid.
+6: Enter the price, and figure the tax
+Note: When completing Section 6, round to the nearest dollar by dropping amounts of less than 50 cents and increasing amounts of
+50 cents or more to the next higher dollar.
+Line 1: Enter the selling price, including accessories, federal excise taxes, freight and labor, dealer preparation, documentary fees,
+and any rebates or incentives for which you as a dealer receive reimbursement. Clean vehicle credits that are applied toward the
+purchase of a clean vehicle should be included as part of the taxable selling price of the vehicle. Do not subtract the value of any
+rebate made directly to the customer. In general, any cost passed on to the customer as part of the sale of an item and for which
+gross receipts are received should be included in the selling price.
+Note: If you are selling a new truck weighing 33,000 pounds or more or a new trailer or semitrailer chassis weighing 26,000 pounds or
+more, you may exclude the federal excise tax from the selling price.
+Line 2: If you claimed a qualified trade-in (see Section 4), enter the total trade-in credit or value (see Note below). You must identify
+the traded-in item in the spaces provided in Section 4.
+If you claimed an exemption in Section 5 and no tax is due, you do not need to complete the remaining Lines 3 – 14 of Section 6.
+Remember that you and all purchasers must sign the return.
+Note: For sales made on or after January 1, 2020, up to and including December 31, 2021, for purposes of calculating your Sales Tax
+due, you cannot claim trade-in credit exceeding $10,000 for any first division motor vehicle that was traded in during the sale being
+reported on Form ST-556. For sales made on or after January 1, 2022, the $10,000 trade-in credit limit no longer applies.
+Line 3: Subtract Line 2 from Line 1.
+Line 4: Calculate your tax due using the following to determine the appropriate rate:
+ •    If you made this sale at your standard business location (i.e., the location printed on the front of the paper Form ST‑556 returns
+      IDOR issues to you), multiply Line 3 by the tax rate printed on your return.
+ •    If you made this sale at an off-site location (e.g., a tent sale), follow the instructions on ST-23, How to Report Off-Site Sales on
+      Form ST‑556, Sales Tax Transaction Return, or Form ST‑556‑LSE, Transaction Return for Leases, available on our website at
+      tax.illinois.gov.
+ •    If you made this sale to a nonresident who is taking delivery of the item in Illinois but who will title it in a state that does not have
+      a reciprocal nonresident purchaser exemption for Illinois residents, multiply Line 3 by the nonresident’s state sales tax rate, up to
+      6.25 percent. See ST-58, Reciprocal - Non-Reciprocal Vehicle Tax Rate Chart, available on our website at tax.illinois.gov.
+ •    If you are a remote retailer or a marketplace facilitator who meets a tax remittance threshold (200 or more separate transactions
+      per year or $100,000 or more in cumulative gross receipts from sales of tangible personal property to purchasers in Illinois), see
+      the General Information section of these instructions captioned “Remote Retailers and Marketplace Facilitators” and multiply Line
+      3 by the tax rate for the location where the sale is sourced in accordance with those instructions.
+Note for business locations in Cook, DuPage, Kane, Lake, McHenry, or Will County when the customer ’s address is in Chicago:
+If your sales location is in Cook, DuPage, Kane, Lake, McHenry, or Will County and the purchaser’s address on Form ST-556, Section
+1, is within the corporate limits of the city of Chicago, you must collect an additional 1.25 percent (.0125) Chicago Home Rule Use
+Tax. To help you calculate the tax due on one of these sales, we preprint a combined rate below Line 4 on the paper Form ST-556
+returns IDOR issues to you. This combined rate includes your tax rate, plus the additional 1.25 percent Chicago Home Rule Use Tax.
+To figure the correct tax due, multiply the amount subject to tax on Line 3 by the combined rate. Enter the result on Line 4.
+Line 5: Read these instructions if your buyer ’s address is in Cook, DuPage, Kane, Lake, McHenry, Will, Madison, or
+St. Clair County.
+If the item will be titled or registered in an area in which tax has been imposed by the Regional Transportation Authority or Metro‑East
+Transit District, the purchaser may owe additional tax. If your sales location is within the boundaries of one of these areas, the
+additional tax is already included in your combined tax rate. If, however, your sales location falls outside these boundaries, you are
+not required to collect any additional use tax, but you may do your purchaser the courtesy of collecting the additional tax so that the
+purchaser will not be billed for it later.
+
+
+
+
+
+
+                                                                                                                                                                                      Page 4 of 9
+If you have determined that the purchaser is subject to the additional use tax and you have decided to collect and remit that additional
+tax on the purchaser’s behalf, multiply the amount on Line 3 by any difference in rates (expressed as a decimal), and enter the result
+on Line 5.  Finally, enter the name of the Illinois county in which the purchaser’s address is located. If the purchaser’s address falls
+within the limits of an Illinois city or village, enter the name of the city or village. If the purchaser’s address falls within Madison or St.
+Clair County, enter the name of the township in which the address is located.
+Do not report municipal or county home rule use tax on Line 5.
+Line 6: Add Lines 4 and 5.
+Line 7: For returns due on or after January 1, 2025, this discount for timely filing and payment is limited to $1,000 per month for all
+returns (i.e., both Forms ST-556 and ST-556-LSE) filed that month. Do not enter a figure on Line 7. You must remit all tax reported as
+due on Form ST‑556 to be issued the retailers’ allowance, as applicable, through IDOR’s monthly reconciliation process.
+Note: Line 7a is preprinted only if you have a business location in the Metro-East Mass Transit District portion of
+St. Clair County.
+Line 7a: IDOR is responsible for collecting and administering the fee imposed in the Metro‑East Mass Transit District on items that are
+required to be titled or registered in Illinois. Multiply Line 3 by 0.5 percent (0.005).
+ •    If the result is less than $20, enter the result on Line 7a.
+ •    If the result is $20 or more, enter $20 on Line 7a.
+Line 8: Subtract Line 7 from Line 6. If you calculated an amount on Line 7a according to the above instruction, subtract Line 7 from
+Line 6, and then add to that total the amount on Line 7a.
+Line 9: If we have notified you that you have an overpayment credit on your account, you may use this overpayment credit to pay
+some or all of the tax due on this return. Enter the amount you wish to use.
+Line 10: This credit is applicable only to lessors selling previously leased items at the expiration of the lease term. See Part II: Leasing
+Companies Selling at Retail for instructions on how to claim a credit for tax paid on an item you are now selling at the end of a lease.
+Line 11: If you collected more tax than is due on this sale, enter the amount you overcollected.
+Line 12: Subtract Lines 9 and 10 from Line 8 and add Line 11.
+Line 13: If you have a credit memorandum and you wish to use it towards what you owe, enter the amount you are                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       using on Line 13.
+Line 14: Subtract Line 13 from Line 12, and enter the amount due. Also, enter the identifying number from the remittance you are
+sending to pay the tax due on this return. If you are filing more than one Form ST-556, enclose a separate remittance for each return.
+Sign the return
+Both the seller and all purchasers must sign the return.
+If you claimed a qualified trade-in for the item sold, the signatures also declare that the title of the traded-in item has been properly
+assigned and surrendered to the seller.
+Penalty and Fee Information
+We will bill you for any amounts owed, including the following penalties and fees:
+ •    You owe a late filing penalty if you do not file a processable return by the due date.
+ •    You owe a late payment penalty if you do not pay the amount you owe by the original due date of the return.
+ •    You owe a bad check penalty if your remittance is not honored by your financial institution.
+ •    You owe a cost of collection fee if you do not pay the amount you owe within 30 days of the date printed on a bill that we send
+      you.
+ •    You owe a nonfiling penalty for transaction returns if you do not file a processable transaction return (ST-556, Sales Tax
+      Transaction Return, or ST‑556‑LSE, Transaction Return for Leases) by the due date, but only if no tax is due on the return.
+For more information, see Publication 103, Penalties and Interest for Illinois Taxes, available on our website at tax.illinois.gov.
+
+                                                     Part II: Leasing Companies Selling at Retail
+                                                                                      Specific Instructions
+
+1: Enter the purchaser’s name and address
+The purchaser’s name and address must be the same as the name on the application for title or registration. If there is more than one
+purchaser, be sure to enter each name.
+2: Describe the item sold
+Check the correct box (A-E) to show the type of item sold. If the type of item sold is not identified in boxes A-E, check box F and enter
+the type of item sold.
+Check the correct box to show whether the item sold is new or used.
+Next, enter the appropriate identification number for the item sold, such as a vehicle identification number (VIN) for vehicles, trailers,
+and manufactured (mobile) homes, a hull identification number (HIN) for watercraft, or (N) number for aircraft.
+Finally, enter the year, make, body style, and model of the item sold.
+
+
+
+                                                                                                                                                                                                            Page 5 of 9
+Note: If you sold more than one type of item (e.g., a watercraft and a trailer) or more than one item of the same type (e.g., three
+motor vehicles) you generally must complete a separate Form ST-556 for each item sold. You may, however, report sales for
+resale of previously rented or leased items on Form ST‑556‑D, Tax‑Exempt Sales for Resale of Previously Rented or Leased
+Vehicles. Form ST‑556‑D allows you to report multiple sales for resale, to the same or multiple purchasers, on the same schedule.
+Form ST-556-D must be filed electronically using MyTax Illinois, available at mytax.illinois.gov.
+3: Enter the date of delivery
+Enter the month, day, and year in which the purchaser took                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                possession of the item. If the purchaser has been leasing the item and,
+therefore, already has possession of it, enter the date you applied for a change in the title.
+Note: This return is due no later than 20 calendar days after the date of delivery.
+4: Describe the trade-in, if any
+If you are not claiming a qualified trade-in, skip this section and go to Section 5.
+If you are claiming a qualified trade-in, enter the type of item traded in (e.g., automobile, truck, airplane, boat, trailer). Next, enter the
+appropriate identification number, year, make, body style, and model of the trade-in.
+What is a qualified trade‑in?
+A qualified trade-in is an item:
+  •                                  that the purchaser gives you to reduce the selling price (in part or in full) of the item sold;
+  •                                  that you are allowed to subtract from the selling price; and
+  •                                  that you are in the business of selling.
+You are “in the business of selling” a particular kind of item if you hold yourself out to the public as being engaged in (or habitually
+engage in) selling such items.
+Example: You may claim the trade-in of a boat on an auto if you are in the business of selling both boats and autos.
+However, you may not claim the trade-in of a boat on an auto if you are in the business of selling only autos.
+Note: For sales made on or after January 1, 2020, up to and including December 31, 2021, for purposes of calculating your Sales Tax
+due, you cannot claim trade-in credit exceeding $10,000 for any first division motor vehicle that was traded in during the sale being
+reported on Form ST-556. For sales made on or after January 1, 2022, the $10,000 trade-in credit limit no longer applies.
+5: Exempt
+If the sale is to an Illinois resident and taxable, skip this section and go to Section 6.
+If the sale is exempt from tax, check the correct box (A-F), and complete Section 6, Lines 1 and 2.
+If you are not required to submit title or registration paperwork on the item, send the return directly to us at:
+      ILLINOIS DEPARTMENT OF REVENUE
+      RETAILERS’ OCCUPATION TAX
+      PO BOX 19042
+      SPRINGFIELD IL 62794‑9042
+A.                                  Sold to a nonresident purchaser (NOT an out-of-State dealer)
+      Note: An off-lease sale by a leasing company to a nonresident purchaser is an unusual situation. In Illinois, an off-lease sale is
+      typically made to the Illinois lessee who leased the vehicle.
+Check this box if you sold an item to a nonresident purchaser who is not an out‑of‑State dealer, and who took possession of the item
+in Illinois, and either:
+ •    you issued a drive‑away permit for the item sold; or
+ •    the purchaser transferred out‑of‑State license plates to the item sold.
+If you issued a drive‑away permit, enter the drive‑away permit number                                    and the two-letter state abbreviation of the purchaser’s state
+of residence in the space provided. If the purchaser transferred current out‑of‑State license plates to the item sold, enter the out‑of‑
+State license plate number and the two-letter state abbreviation in the space provided.
+Non-Reciprocal Buyer
+Exemption is determined by whether the purchaser’s state gives Illinois residents a nonresident purchaser exemption on their
+purchases of items that will be titled in Illinois. See ST-58, Reciprocal - Non-Reciprocal Vehicle Tax Rate Chart, available on our
+website at tax.illinois.gov, and the instructions for Section 6, Line 4 below for more information.
+Note: If you claim the nonresident purchaser exemption, keep a copy of the purchaser’s valid out‑of‑State driver’s license in your
+records as proof of nonresidency. You also are responsible for obtaining a signed certification documenting the purchaser’s eligibility
+for the nonresident purchaser exemption. As a condition of claiming this exemption, nonresident purchasers must certify that they
+are not residents of Illinois. See ST-588, Nonresidency Exemption Certification for Sales and Leases of Motor Vehicles and Trailers,
+available on our website at tax.illinois.gov. Retain this certification in your records as proof that no tax was due on the sale of the
+specified item.
+Indiana Purchaser of an RV or Cargo Trailer
+If you sell a recreational vehicle or a cargo trailer to a purchaser that will title or register that item in Indiana, the transaction is exempt
+from Illinois tax if a drive‑away permit is issued or the Indiana purchaser has vehicle registration plates to transfer to the item upon
+returning to Indiana. You must check Section 5, box F, “Other” and enter “recreational vehicle” or “cargo trailer” on the line provided.
+
+
+
+
+
+                                                                                                                                                                                           Page 6 of 9
+B.                                  Sold for resale to a DEALER
+Check this box if you sold the item to an Illinois dealer for resale. Enter the Illinois account ID number of the dealer to whom you sold
+the item. If you sold to an Illinois dealer as junk or salvage or for parts, enter “Junked,” “Salvage,” or “Parts Only” after the account
+ID number. Keep a completed Form CRT-61, Certificate of Resale, in your records for documentation. See “Who must file Form
+ST‑556?” in the General Information section of these instructions.
+You can also use Form ST-556-D, Nontaxable Sales for Resale of Previously Rented or Leased Vehicles, for multiple sales
+for resale of vehicles coming off a lease or rental. Form ST-556-D must be filed electronically using MyTax Illinois, available at
+mytax.illinois.gov.
+C.                                  Sold to an exempt organization
+Check this box if you sold the item to one of the                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                following tax‑exempt Illinois purchasers that have an active Illinois Sales Tax
+exemption “E” number:
+  •                                  a government agency;
+  •                                  a school;
+  •                                  a religious organization; or
+  •                                  a charitable organization.
+In the space provided, enter the organization’s active Illinois Sales Tax exemption “E” number. To qualify, the purchaser must be the
+organization itself rather than a member or officer of the organization. The item must be titled and/or registered in the organization’s
+name and paid for with the organization’s funds. The organization’s exemption number must have been in effect on the day you made
+the sale.
+D.                                  Sold to an interstate carrier for hire for use as rolling stock
+Check this box if you sold an item for use as rolling stock to haul persons or commodities for hire in interstate commerce. In the space
+provided, enter the certificate of authority number. Keep a properly completed Form RUT-7, Rolling Stock Certification, in your books
+and records for documentation.
+E.                                  Sold for rental use
+Check this box if:
+  •                                  you sold the vehicle to a business that is registered to collect Automobile Renting Occupation Tax; and
+  •                                  the purchaser will use the vehicle for rental purposes in                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   rental agreements of one year or less.
+Enter the purchaser’s Illinois Automobile Renting Occupation Tax account ID number.
+F.                                  Other
+Check this box if the sale is exempt for a reason not identified in boxes A-E.
+For example, you sold the item to a foreign consul who has a card from the U.S. Department of State declaring that the foreign consul
+does not have to pay sales tax on that item. In the space provided, enter                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      “Foreign Consul.”
+6: Enter the price and figure the tax
+Note: When completing Section 6, round to the nearest dollar by dropping amounts of less than 50 cents and increasing amounts of
+50 cents or more to the next higher dollar.
+Line 1: Enter the selling price, including accessories, federal excise taxes, freight and labor, dealer preparation, documentary fees,
+and any rebates or incentives for which you as a dealer receive reimbursement. Clean vehicle credits that are applied toward the
+purchase of a clean vehicle should be included as part of the taxable selling price of the vehicle. Do not subtract the value of any
+rebate made directly to the customer. In general, any cost passed on to the customer as part of the sale of an item and for which
+gross receipts are received should be included in the selling price.
+Line 2: If you claimed a qualified trade-in (see Section 4), enter the total trade-in credit or value (see Note below). You must identify
+the traded-in item in the spaces provided in Section 4.
+If you claimed an exemption in Section 5 and no tax is due, you do not need to complete the remaining Lines 3-14 of Section 6.
+Remember that you and all purchasers must sign the return.
+Note: For sales made on or after January 1, 2020, up to and including December 31, 2021, for purposes of calculating your Sales Tax
+due, you cannot claim trade-in credit exceeding $10,000 for any first division motor vehicle that was traded in during the sale being
+reported on Form ST-556. For sales made on or after January 1, 2022, the $10,000 trade-in credit limit no longer applies.
+Line 3: Subtract Line 2 from Line 1.
+Special Instructions for Completing Line 4
+Leasing company with no registered sales locations in Illinois
+Line 4: Multiply Line 3 by the tax rate. This tax rate is determined by the purchaser’s address entered in Section 1. To find this tax
+rate, use the Tax Rate Database on our website at tax.illinois.gov, or call us at 1 800 732-8866 or 1 800 544-5304 (TTY). Also, enter
+the tax rate in the correct space on the form.
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                                                                                                           Page 7 of 9
+Leasing company with registered sales locations in Illinois
+Line 4: Calculate your tax due using the following to determine the appropriate rate:
+  •   If you made this sale at your standard business location (i.e., the location printed on the front of the paper Form ST‑556 returns
+      IDOR issues to you), multiply Line 3 by the tax rate printed on your return.
+  •   If you made this sale at an off-site location (e.g., a tent sale), follow the instructions on ST-23, How to Report Off-Site Sales on
+      Form ST‑556, Sales Tax Transaction Return, or Form ST‑556‑LSE, Transaction Return for Leases, available on our website at
+      tax.illinois.gov.
+  •   If you made this sale to a nonresident who is taking delivery of the item in Illinois but who will title it in a state that does not have
+      a reciprocal nonresident purchaser exemption for Illinois residents, multiply Line 3 by the nonresident’s state sales tax rate, up to
+      6.25 percent. See ST-58, Reciprocal - Non-Reciprocal Vehicle Tax Rate Chart, available on our website at tax.illinois.gov.
+Note for business locations in Cook, DuPage, Kane, Lake, McHenry, or Will County when the customer’s address is in
+Chicago:
+If your sales location is in Cook, DuPage, Kane, Lake, McHenry, or Will County and the purchaser’s address on Form ST-556, Section
+1, is within the corporate limits of the city of Chicago, you must collect an additional 1.25 percent (.0125) Chicago Home Rule Use
+Tax. To help you calculate the tax due on one of these sales, we preprint a combined rate below Line 4 on the paper Form ST-556
+returns IDOR issues to you. This combined rate includes your tax rate, plus the additional 1.25 percent Chicago Home Rule Use Tax.
+To figure the correct tax due, multiply the amount subject to tax on Line 3 by the combined rate. Enter the result on Line 4.
+Line 5: Enter the name of the Illinois county in which the purchaser’s address is located. If the purchaser’s address falls within the
+limits of an Illinois city or village, enter the name of the city or village. If the purchaser’s address falls within Madison or St. Clair
+County, enter the name of the township in which the address is located.
+Do not enter a dollar amount on this line.
+Line 6: Enter the amount from Line 4.
+Line 7: If you are filing this return and paying the tax due within 20 days of the date of delivery entered in Section 3, multiply Line 6 by
+the rate printed on your return.
+Line 7a: IDOR is responsible for collecting and administering the fee imposed by the Metro‑East Mass Transit District (MED) on items
+that are required to be titled or registered in Illinois. You must collect this fee if, at the end of a lease, you sell a motor vehicle that is
+located in the MED portion of St. Clair County. Multiply Line 3 by 0.5 percent (0.005).
+  •                                  If the result is less than $20, enter the result on Line 7a.
+  •                                  If the result is $20 or more, enter $20 on Line 7a.
+Line 8: Subtract Line 7 from Line 6. If you calculated an amount on Line 7a according to the above instruction, subtract Line 7 from
+Line 6, and then add to that total the amount on Line 7a.
+Line 9: If we have notified you that you have an overpayment credit on your account, you may use this overpayment credit to pay
+some or all of the tax due on this return. Enter the amount you wish to use.
+Line 10: You may be able to claim a credit for tax paid on an item you are now selling at the end of a lease. You may claim this credit
+only if, when you purchased the item, tax was either collected by an Illinois retailer and reported on Form ST‑556 or Form ST‑556‑
+LSE, or paid directly to IDOR using Form RUT-25 or Form RUT-25-LSE.
+Enter the amount of tax paid (but not exceeding the amount of tax due on Form ST‑556 on which you are now reporting the retail sale
+of this previously leased item) and the tax return number from either the Form ST-556 or Form ST-556-LSE filed by the Illinois retailer
+when you purchased the item and paid the tax, or the Form RUT-25 or Form RUT-25-LSE filed when the item was purchased and the
+tax paid.
+Note: If you are selling an item that was purchased for lease on or after January 1, 2015, you may not claim this credit if the selling
+price reported on the original Form ST-556-LSE or Form RUT-25-LSE when you purchased the item was the amount due under the
+lease contract; you may claim this credit only if the selling price reported was equal to the actual selling price.
+Line 11: If you collected more tax than is due on this sale, enter the amount you overcollected.
+Line 12: Subtract Lines 9 and 10 from Line 8 and add Line 11.
+Line 13: If you have a credit memorandum and you wish to use it towards what you owe, enter the amount you are                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       using on Line 13.
+Line 14: Subtract Line 13 from Line 12, and enter the amount due. Also, enter the identifying number from the remittance you are
+sending to pay the tax due on this return. If you are filing more than one Form ST-556, enclose a separate remittance for each return.
+Sign the return
+Both the seller and all purchasers must sign the return. If you claimed a qualified trade-in for the item sold, the signatures also declare
+that the title of the traded‑in item has been properly assigned and surrendered to the seller.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                                                            Page 8 of 9
+Penalty and Fee Information
+We will bill you for any amounts owed, including the following penalties and fees:
+ •   You owe a late filing penalty if you do not file a processable return by the due date.
+ •   You owe a late payment penalty if you do not pay the amount you owe by the original due date of the return.
+ •   You owe a bad check penalty if your remittance is not honored by your financial institution.
+ •   You owe a cost of collection fee if you do not pay the amount you owe within 30 days of the date printed on a bill that we send you.
+ •   You owe a nonfiling penalty for transaction returns if you do not file a processable transaction return (ST-556, Sales Tax
+     Transaction Return, or ST‑556‑LSE, Transaction Return for Leases) by the due date, but only if no tax is due on the return.
+For more information, see Publication 103, Penalties and Interest for Illinois Taxes, available on our website at tax.illinois.gov.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                  Printed by authority of the State of Illinois
+                                                                         Electronic only, One copy                                                              Page 9 of 9

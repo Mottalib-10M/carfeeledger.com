@@ -1,0 +1,240 @@
+SOURCE: https://tax.illinois.gov/forms/sales/vehicleusetax/rut-50-instructions.html
+
+ RUT-50, Private Party Vehicle Use Tax Transaction Instructions 
+ Skip to main content 
+ Agencies 
+ Services 
+ Employment 
+ Sign Up for Updates 
+ About IDOR 
+ Employment Opportunities 
+ EEO Office & Accessibility 
+ Legal Notices 
+ Procurements 
+ Mission, Vision, and Value 
+ News 
+ Contact Us 
+ Taxpayer Answer Center 
+ Taxpayer Assistance 
+ Visit a Local Office 
+ Submit a FOIA Request 
+ Request a Speaker 
+ Website Feedback 
+ Make a Payment 
+ Who Must Make Electronic Payments? 
+ Payment Options for Individuals 
+ Payment Options for Businesses 
+ Received a Notice? 
+ Identity Verification Letters Information 
+ Letters and Notices for Individual Income Tax 
+ Deficiencies, Assessments, or Claim Denials 
+ Forms 
+ Business 
+ Cannabis 
+ Excise Taxes 
+ Gaming 
+ Individuals 
+ Miscellaneous 
+ Registration 
+ Sales & Related 
+ Withholding 
+ Federal Tax Forms 
+ Submit Request for Mailed Forms or Publications -Forms Ordering 
+ Tax Resources 
+ Individuals 
+ Businesses 
+ Tax Professionals 
+ Local Governments 
+ Research 
+ Video Library 
+ IDOR Tax Archive Library 
+ More
+ Employment 
+ Sign Up for Updates 
+ Revenue 
+ Tax Forms 
+ Sales & Related Tax Forms 
+ Aircraft, Vehicles, and Watercraft Sales & Use Tax Forms 
+ RUT-50 Instructions 
+ Tax Forms 
+ Business Income Tax Forms 
+ Cannabis Forms 
+ Excise Tax Forms 
+ Gaming Tax Forms 
+ Individual Income Tax Forms 
+ Miscellaneous Tax Forms 
+ Business Registration Forms 
+ Instructions for Form CBS-1, Notice of Sale, Purchase, or Transfer of Business Assets 
+ REG-4-A, Financial Responsibility Bond Instructions 
+ REG-4-D, Financial Institution Irrevocable Letter of Credit Bond Instructions 
+ REG-8-A, Application for Motor Fuel Tax License Instructions 
+ Sales & Related Tax Forms 
+ CRT-61 Certificate of Resale (Sales and Related Taxes, Fees, and E911 Surcharge) Instructions 
+ Withholding (Payroll) Tax Forms 
+ 2026 Withholding (Payroll) Tax Forms 
+ 2026 IL-501 Payment Coupon 
+ Instructions for Form IL-941 Illinois Withholding Income Tax Return 
+ 2026 Schedule WC Instructions 
+ Instructions for Form IL-941-X Illinois Withholding Income Tax Return 
+ Instructions for Form Schedule WC-I Withholding Income Tax Credits Information 
+ 2025 Withholding (Payroll) Tax Forms 
+ 2025 IL-501 Payment Coupon 
+ Instructions for 2025 Form IL-941 Illinois Withholding Income Tax Return 
+ Instructions for Form IL-941-X Illinois Withholding Income Tax Return 
+ 2025 Schedule WC Instructions 
+ 2025 Schedule WC-I Withholding Income Tax Credits Information 
+ Publication 131-D Withholding Income Tax Payment and Return Due Dates 
+ Federal Tax Forms 
+ Forms Ordering 
+ RUT-50, Private Party Vehicle Use Tax Transaction Instructions
+ Form RUT-50 General Information 
+ Expand All 
+ Collapse All 
+ Who must file Form RUT-50? 
+ You must file Form RUT-50, Private Party Vehicle Use Tax Transaction , if you purchased or acquired by gift or transfer a motor vehicle from a private party.
+ If you purchased a vehicle from an unregistered out-of-State dealer, lending institution, leasing company, or retailer; or if you purchased a passenger car from an unregistered Illinois lending institution or leasing company, you must complete form RUT-25, Vehicle Use Tax Transaction Return .
+ Note : After filing Form RUT-50, if you need to correct your return to pay more tax, request a refund for overpaid tax, or to make corrections to nonfinancial information on your return, you must file Form RUT-50-X, Amended Private Party Vehicle Use Tax Transaction .
+ When is Form RUT-50 due? 
+ Form RUT-50 is due within 30 days from the date of acquiring the vehicle if acquired in Illinois or within 30 days of bringing it into Illinois if acquired outside Illinois. 
+ Are trade-in allowances reported on Form RUT-50? 
+ No — Trade-in allowances are not allowed on Form RUT-50. 
+ What is “purchase price”? 
+ “Purchase price” is the value given for a motor vehicle and may be in the form of money, credit, property or service. Attaching a copy of the bill of sale or proof of purchase may prevent future notices. 
+ What if I don’t know the purchase price? 
+ When there is no stated purchase price, such as a gift or even trade, fair market value is used. 
+ How do I know the fair market value? 
+ You can obtain the fair market value from a licensed dealer. 
+ Can I file and pay the tax due electronically? 
+ Yes, you can use MyTax Illinois at mytax.illinois.gov to file your Form RUT-50. Payments must be made electronically when you submit your form. You can also file Form RUT-50 electronically using an approved service provider in the Electronic Registration and Title (ERT) program . Please note that, when amending, there is currently no electronic amended process for Form RUT-50. All amended forms must be filed on paper.
+ Note : You must print a copy of your Form RUT-50 that is created when filing through MyTax Illinois to provide to the Illinois Secretary of State. The Illinois Secretary of State will not be able to process your title and license plates request without a printed copy of your RUT-50.
+ What if I need help? 
+ If you need help, call our Taxpayer Assistance Division weekdays between 8:00 a.m. and 5:00 p.m. at 1 800 732‑8866, 217 782-3336, or 1 800 544-5304 (TTY).
+ You may also visit our website at tax.illinois.gov .
+ Language assistance services are available upon request and are free of charge. 
+ Specific Instructions 
+ Step 1 — Complete the purchaser’s information 
+ Enter the purchaser’s name, phone number, driver’s license number, Social Security number (SSN) or Federal Employer Identification Number (FEIN) (whichever is applicable), and the address exactly as it appears on the Illinois title or registration application. This address must be the actual physical address of the party who will be using the item in Illinois. Do not use a post office box number. 
+ Step 2 — Complete the seller's information 
+ Enter the seller’s name, phone number, and address.
+ Step 3 — Describe the vehicle
+ Enter the purchase price, odometer reading, vehicle identification number (VIN), year, make, and model of the vehicle.
+ Step 4 — Transaction description 
+ 1 Exemption — Mark the appropriate box and enter“$0” on Step 6, Lines 1, 2 and 3. 
+ 1a) Charitable, religious, educational, or governmental organization with an active Illinois Department of Revenue exemption number.
+ 1b) Farm machinery or equipment used primarily in production agriculture (excluding motor vehicles required to be registered under the Illinois Vehicle Code); or a ready-mix concrete truck used in manufacturing tangible personal property for sale.
+ 1c) Rolling stock item for hire to haul persons or commodities in interstate commerce. See Forms RUT-7 , RUT-7-A , and their instructions for more information on claiming the rolling stock exemption. 
+ 1d) You were an out-of-State resident who used the item outside of Illinois for at least 3 months. You must surrender the out-of-State title, registration or other proof of the item’s use when you apply for an Illinois title. You cannot claim this exemption if you are a leasing company, lessee, business relocating into Illinois, an individual who used the item outside of Illinois for less than three months, or military person whose home of record is Illinois.
+ 2 Exception — Mark the appropriate box and enter“$15” on Step 6, Line 1. 
+ 2a) Estate gift for beneficiary (not surviving spouse).
+ 2b) Transferred due to the organization, reorganization, dissolution, or partial liquidation of business. Beneficial ownership is not changing. 
+ 2c) Transferred or purchased from a spouse, parent, brother, sister, or child (including adopted children). Spouses include parties in a civil union. Step-relation, in-law, and grandparent/grandchild relationships do not qualify.
+ 3 Motorcycle or ATV — Enter“$25” on Step 6, Line 1. 
+ Includes motorcycle, motor-driven cycle, three or four-wheel all-terrain vehicle (ATV), or motorized pedalcycle. 
+ Step 5 — Illinois Private Party Vehicle Use Tax 
+ Table A: If the purchase price or fair market value is less than $15,000, you must use Table A to determine your Illinois tax due.
+ Table B: If the purchase price or fair market value is $15,000 or more, you must use Table B to determine your Illinois tax due. 
+ Note : For electronic filers using MyTax Illinois, the tax due will be calculated for you.
+ Step 6 — Figure your tax 
+ Enter your Illinois Private Party Vehicle Use Tax due, as determined in Step 4 or Step 5.
+ If your address for vehicle registration or titling is within a local government that imposes a private party vehicle use tax, see RUT-6, Form RUT-50 Reference Guide.
+ Note : For electronic filers using MyTax Illinois, the tax due will be calculated for you.
+ Credit is allowed only if proof of tax paid is attached and the tax is separately stated.
+ For paper filers, make remittance payable to “Illinois Department of Revenue” . For electronic filers using MyTax Illinois, payments must be made electronically when you submit your form.
+ Note: You owe a late filing penalty if you do not file a processable return by the due date, a late payment penalty if you do not pay the amount you owe by the original due date of the return, a bad check penalty if your remittance is not honored by your financial institution, and a cost of collection fee if you do not pay the amount you owe within 30 days of the date printed on a bill that we send you. For more information, see Publication 103, Penalties and Interest for Illinois Taxes.
+ Step 7 — Sign here
+ After verifying all information entered on the return is correct, you must sign the return.
+ For paper filers, the purchaser and co-owner (if applicable) must sign Form RUT-50. Send your return and required attachments with your Illinois Secretary of State application and fees for registration to:
+ OFFICE OF THE ILLINOIS SECRETARY OF STATE 
+ VEHICLE SERVICES DEPARTMENT 
+ HOWLETT BLDG 
+ SPRINGFIELD IL 62756 
+ Note : Keep a copy for your records.
+ For electronic filers using MyTax Illinois, enter your name and Social Security number to attest to the validity of the return. Enter your email address and confirm it to verify the request. This information will act as your signature. Do not mail the printable confirmation page to the Illinois Department of Revenue or the Illinois Secretary of State. This could cause processing delays.
+ Reminder : A copy of the completed return filed through MyTax Illinois must be printed and provided to the Illinois Secretary of State to complete the title and registration process.
+ Use the tables below to determine the Illinois Private Party Vehicle Use Tax due. 
+ Age table - for use with Table A 
+ Example
+ Yours
+ a Enter the year of the title application.
+ 2026
+ b Enter the year of the vehicle. 
+ 2023
+ c Subtract Line b from a. This is the vehicle age. 
+ 3
+ Table A Use this table if you marked Step 5, Table A.
+ Vehicle Age
+ Tax Due
+ 1 or less
+ $465
+ 2
+ 365
+ 3
+ 290
+ 4
+ 240
+ 5
+ 190
+ 6
+ 165
+ 7
+ 155
+ 8
+ 140
+ 9
+ 125
+ 10
+ 115
+ 11 or more
+ 100
+ Table B Use this table if you marked Step 5, Table B.
+ Purchase price or fair market value
+ Tax due
+ $15,000 to $19,999.99
+ $850
+ $20,000 to $24,999.99
+ $1,100
+ $25,000 to $29,999.99
+ $1,350
+ $30,000 to $49,999.99
+ $1,600
+ $50,000 to $99,999.99
+ $2,600
+ $100,000 to $999,999.99
+ $5,100
+ $1,000,000 or more
+ $10,100
+ If your address for vehicle registration or titling is within a local government that imposes a private party vehicle use tax, see RUT-6, Form RUT-50 Reference Guide .
+ RUT-50 Instructions (R-04/26) 
+ Footer
+ About IDOR
+ Contact Us 
+ Employment 
+ Press Releases 
+ Legal Notices 
+ Procurements 
+ What We Do 
+ Webmaster 
+ Quick Links
+ Taxpayer Answer Center 
+ Make a Payment 
+ MyTax Illinois 
+ MyDec 
+ Business Incentives Reporting 
+ Lien Registry 
+ Tax Rate Database 
+ Related Sites
+ IDOR Tax Archive Library 
+ State of Illinois 
+ Illinois Business Portal 
+ Illinois Liquor Control Commission 
+ Illinois Independent Tax Tribunal 
+ Federation of Tax Administrators 
+ Internal Revenue Service (IRS) 
+ Additional Related Sites 
+ Web Accessibility 
+ Missing & Exploited Children 
+ Amber Alerts 
+ Illinois Privacy Info 
+ Governor JB Pritzker 
+ © 2026
+ State of Illinois 

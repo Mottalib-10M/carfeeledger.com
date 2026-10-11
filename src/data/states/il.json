@@ -1,0 +1,308 @@
+{
+ "abbr": "IL",
+ "name": "Illinois",
+ "slug": "illinois",
+ "agency": {
+  "name": "Illinois Secretary of State, Vehicle Services Department",
+  "short": "SOS",
+  "url": "https://www.ilsos.gov/departments/vehicles/home.html"
+ },
+ "taxAgency": {
+  "name": "Illinois Department of Revenue",
+  "url": "https://tax.illinois.gov/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "The dealer documentary fee is capped by law at a $300 base set in 2020 and indexed every year to the Consumer Price Index; the adjusted 2026 maximum was not found on an official Illinois page reachable for this release (the Secretary of State and General Assembly sites were blocked), so no default doc fee is added: type the dealer's fee.",
+  "A dealer collects tax at the rate printed on its own Form ST-556, which depends on the dealership's location; the calculator applies the state rate plus the transit-district rate of the buyer's county (Cook 1.25%, DuPage, Kane, Lake, McHenry and Will 1%, Metro-East Transit District 0.25%) as published for titled vehicles in the RUT-25 instructions. A dealer outside those areas adds the difference on Line 5, so the total is the same in most cases, but a local occupation tax printed on a dealer's return is not modeled.",
+  "Cook County and the City of Chicago also tax vehicles bought from dealers outside their limits through their own home rule use taxes, collected by the county and the city rather than on Form ST-556; those are not included.",
+  "Chicago's city sticker (wheel tax) and the wheel taxes of other municipalities and of unincorporated Cook County are billed locally and are not included.",
+  "The Illinois EPA emissions test is free, but only ZIP codes inside the Chicago and Metro-East test areas need it; the county list approximates those areas by county.",
+  "On a private sale, the RUT-50 tax uses the purchase price or the fair market value; the calculator uses the price typed."
+ ],
+ "summary": {
+  "stateRate": 0.0625,
+  "localRange": [
+   0,
+   0.025
+  ],
+  "taxName": "retailers' occupation (sales) tax; private party vehicle use tax",
+  "tradeInCredit": true,
+  "titleFee": 165,
+  "regMethod": "flat",
+  "regYears": 1,
+  "docFeeCap": null,
+  "docFeeNote": "Capped by 815 ILCS 375/11.1 at a $300 base (2020) adjusted yearly by the CPI; the 2026 figure was not read on an official page for this release, so type the dealer's fee.",
+  "evFee": 100,
+  "phevFee": null,
+  "hybridFee": null,
+  "inspection": "emissions",
+  "inspectionWhere": "OBD emissions test every two years for gasoline cars once they are four years old, only in the Chicago and Metro-East test areas; no safety inspection for private cars.",
+  "inspectionFee": 0,
+  "annualValueTax": false
+ },
+ "params": {
+  "_src": "st556, rut25, rut50, rut6, sos-fees, ev-plate, epa-faq",
+  "tax": {
+   "rate": 0.0625,
+   "tradeInCredit": true,
+   "docFeeTaxable": true,
+   "chicagoUseRate": 0.0125
+  },
+  "rut50": {
+   "tableBFrom": 15000,
+   "tableA": [
+    {
+     "upTo": 1,
+     "amount": 465
+    },
+    {
+     "upTo": 2,
+     "amount": 365
+    },
+    {
+     "upTo": 3,
+     "amount": 290
+    },
+    {
+     "upTo": 4,
+     "amount": 240
+    },
+    {
+     "upTo": 5,
+     "amount": 190
+    },
+    {
+     "upTo": 6,
+     "amount": 165
+    },
+    {
+     "upTo": 7,
+     "amount": 155
+    },
+    {
+     "upTo": 8,
+     "amount": 140
+    },
+    {
+     "upTo": 9,
+     "amount": 125
+    },
+    {
+     "upTo": 10,
+     "amount": 115
+    },
+    {
+     "upTo": null,
+     "amount": 100
+    }
+   ],
+   "tableB": [
+    {
+     "upTo": 19999.99,
+     "amount": 850
+    },
+    {
+     "upTo": 24999.99,
+     "amount": 1100
+    },
+    {
+     "upTo": 29999.99,
+     "amount": 1350
+    },
+    {
+     "upTo": 49999.99,
+     "amount": 1600
+    },
+    {
+     "upTo": 99999.99,
+     "amount": 2600
+    },
+    {
+     "upTo": 999999.99,
+     "amount": 5100
+    },
+    {
+     "upTo": null,
+     "amount": 10100
+    }
+   ]
+  },
+  "rut6": {
+   "chicago": [
+    {
+     "upTo": 3,
+     "amount": 80
+    },
+    {
+     "upTo": 8,
+     "amount": 65
+    },
+    {
+     "upTo": 14,
+     "amount": 50
+    },
+    {
+     "upTo": null,
+     "amount": 0
+    }
+   ],
+   "cook": [
+    {
+     "upTo": 3,
+     "amount": 225
+    },
+    {
+     "upTo": 8,
+     "amount": 175
+    },
+    {
+     "upTo": null,
+     "amount": 90
+    }
+   ]
+  },
+  "title": 165,
+  "reg": 151,
+  "ev": 100,
+  "emissions": {
+   "fromAge": 4,
+   "years": 2,
+   "fee": 0
+  }
+ },
+ "counties": [
+  {
+   "id": "cook-county",
+   "name": "Cook County (outside Chicago)",
+   "localRate": 0.0125,
+   "cook": true,
+   "emissions": true
+  },
+  {
+   "id": "city-of-chicago",
+   "name": "City of Chicago",
+   "localRate": 0.0125,
+   "cook": true,
+   "chicago": true,
+   "emissions": true
+  },
+  {
+   "id": "dupage-county",
+   "name": "DuPage County",
+   "localRate": 0.01,
+   "emissions": true
+  },
+  {
+   "id": "kane-county",
+   "name": "Kane County",
+   "localRate": 0.01,
+   "emissions": true
+  },
+  {
+   "id": "lake-county",
+   "name": "Lake County",
+   "localRate": 0.01,
+   "emissions": true
+  },
+  {
+   "id": "mchenry-county",
+   "name": "McHenry County",
+   "localRate": 0.01,
+   "emissions": true
+  },
+  {
+   "id": "will-county",
+   "name": "Will County",
+   "localRate": 0.01,
+   "emissions": true
+  },
+  {
+   "id": "madison-county",
+   "name": "Madison County (Metro-East Transit District)",
+   "localRate": 0.0025,
+   "emissions": true
+  },
+  {
+   "id": "st-clair-county",
+   "name": "St. Clair County (Metro-East Transit District)",
+   "localRate": 0.0025,
+   "emissions": true
+  },
+  {
+   "id": "other",
+   "name": "Any other Illinois county",
+   "localRate": 0,
+   "emissions": false
+  }
+ ],
+ "defaultCounty": "cook-county",
+ "singular": [
+  "A car bought from an Illinois dealer is taxed at 6.25% on the selling price, documentary fee included, after deducting the trade-in, and the $10,000 cap on the trade-in credit ended for sales from January 1, 2022 [st556].",
+  "A Chicago resident who buys from a dealer in Cook, DuPage, Kane, Lake, McHenry or Will County also pays the 1.25% Chicago home rule use tax on the same return [st556].",
+  "Since August 1, 2026 the use tax rate on titled vehicles is 7.5% in Cook County and 7.25% in DuPage, Kane, Lake, McHenry and Will counties, 6.5% inside the Metro-East Transit District and 6.25% elsewhere [rut25].",
+  "A car bought from a private seller is not taxed at a percentage: Form RUT-50 charges a flat amount, from $100 to $465 by age when the price is under $15,000, and from $850 to $10,100 by price band above that [rut50].",
+  "Cook County adds its own private party use tax of $225, $175 or $90 depending on the car's age, and Chicago adds $80, $65, $50 or nothing [rut6].",
+  "The original Illinois title costs $165 and a standard passenger plate renewal costs $151 a year [sos-fees].",
+  "Electric cars pay an extra $100 a year in lieu of motor fuel taxes, on top of the passenger registration fee [ev-plate].",
+  "Gasoline cars from model year 1996 face an emissions test once they are four years old, in the Chicago and Metro-East areas only [epa].",
+  "The Illinois emissions test costs nothing, whether at a high-capacity station or at one of the new options [epa-faq]."
+ ],
+ "sources": {
+  "st556": {
+   "name": "Illinois Department of Revenue, ST-556 Sales Tax Transaction Return Instructions",
+   "url": "https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/sales/documents/vehicleusetax/st-556-instr.pdf",
+   "accessed": "2026-10-11",
+   "quote": "Enter the selling price, including accessories, federal excise taxes, freight and labor, dealer preparation, documentary fees ... For sales made on or after January 1, 2022, the $10,000 trade-in credit limit no longer applies. ... you must collect an additional 1.25 percent (.0125) Chicago Home Rule Use Tax."
+  },
+  "rut25": {
+   "name": "Illinois Department of Revenue, RUT-25 Vehicle Use Tax Transaction Return Instructions",
+   "url": "https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/sales/documents/vehicleusetax/rut-25-instr.pdf",
+   "accessed": "2026-10-11",
+   "quote": "Use 6.25 percent (.0625) unless otherwise instructed. Cook County: ... Beginning August 1, 2026, use 7.5 percent (.0750). DuPage, Kane, Lake, McHenry, and Will counties: ... Beginning August 1, 2026, use 7.25 percent (.0725). For Madison and St. Clair counties, use 6.5 percent (.065)"
+  },
+  "rut50": {
+   "name": "Illinois Department of Revenue, RUT-50 Instructions (R-04/26)",
+   "url": "https://tax.illinois.gov/forms/sales/vehicleusetax/rut-50-instructions.html",
+   "accessed": "2026-10-11",
+   "quote": "Table A: If the purchase price or fair market value is less than $15,000 ... Vehicle Age 1 or less $465 ... 11 or more 100. Table B ... $15,000 to $19,999.99 $850 ... $30,000 to $49,999.99 $1,600 ... $1,000,000 or more $10,100"
+  },
+  "rut6": {
+   "name": "Illinois Department of Revenue, RUT-6 Form RUT-50 Reference Guide",
+   "url": "https://tax.illinois.gov/forms/sales/vehicleusetax/rut-6-rut-50-reference-guide.html",
+   "accessed": "2026-10-11",
+   "quote": "City of Chicago Age of Vehicle Tax Due 3 years or newer $80 4 to 8 years $65 9 to 14 years $50 15 years or older $0 ... Cook County 3 years or newer $225 4 to 8 years $175 9 years or older $90"
+  },
+  "sos-fees": {
+   "name": "Illinois Secretary of State, Vehicle Services Fees (read through the Internet Archive copy of 2026-10-08; the live page refuses connections from outside the US)",
+   "url": "https://www.ilsos.gov/departments/vehicles/basicfees.html",
+   "accessed": "2026-10-11",
+   "quote": "Passenger $151 ... Vehicle Title ... Original Title $165"
+  },
+  "ev-plate": {
+   "name": "Illinois Secretary of State, Electric Vehicle License Plates Guide (625 ILCS 5/3-805)",
+   "url": "https://www.ilsos.gov/departments/vehicles/license_plate_guide/electric_vehicle.html",
+   "accessed": "2026-10-11",
+   "quote": "Beginning on January 1, 2020, the registration fee for Electric vehicles shall be equal to the fee set forth in Section 3-806 ... the Secretary shall assess an additional $100 per year in lieu of the payment of motor fuel taxes."
+  },
+  "epa-faq": {
+   "name": "Illinois EPA, Vehicle Emissions Testing FAQ",
+   "url": "https://epa.illinois.gov/content/dam/soi/en/web/epa/topics/air-quality/mobile-sources/documents/FAQ.pdf",
+   "accessed": "2026-10-11",
+   "quote": "Is there a cost to the new options? No. Testing is free, whether at an existing high-capacity test station or at one of the new"
+  },
+  "doc-fee": {
+   "name": "815 ILCS 375/11.1, documentary fee (read through the Internet Archive copy; ilga.gov refused connections)",
+   "url": "https://www.ilga.gov/legislation/ilcs/documents/081503750K11.1.htm",
+   "accessed": "2026-10-11",
+   "quote": "The maximum amount that may be charged by a seller for a documentary fee is the base documentary fee beginning January 1, 2020, of $300, which shall be subject to an annual rate adjustment equal to the percentage of change in the Bureau of Labor Statistics Consumer Price Index."
+  },
+  "epa": {
+   "name": "Illinois EPA, Vehicle Emissions Testing Program",
+   "url": "https://epa.illinois.gov/topics/air-quality/mobile-sources/vehicle-emissions-testing.html",
+   "accessed": "2026-10-11",
+   "quote": "Most 1996 and newer gasoline-powered passenger vehicles are subject to emissions inspections after they are four years old (e.g. 2012 vehicles are being inspected in 2016 for the first time)."
+  }
+ }
+}

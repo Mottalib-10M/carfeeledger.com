@@ -1,0 +1,129 @@
+{
+ "abbr": "IA",
+ "name": "Iowa",
+ "slug": "iowa",
+ "agency": {
+  "name": "Iowa Department of Transportation, Motor Vehicle Division (through the county treasurers)",
+  "short": "Iowa DOT",
+  "url": "https://iowadot.gov/mvd"
+ },
+ "taxAgency": {
+  "name": "Iowa Department of Revenue",
+  "url": "https://revenue.iowa.gov/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "The annual registration fee is 1% of the vehicle's original retail list price, not of the price paid. For a new car the calculator uses the price as the list price unless the MSRP is typed; for a used car without the MSRP the registration is shown without an amount.",
+  "At purchase the county treasurer charges the registration only for the months left in the owner's registration year (birth-month based); the calculator shows a full year.",
+  "Iowa Code 2026 sets the title fee at $30; one county treasurer page read for this release lists $35, so the figure should be checked with the county at the counter.",
+  "The documentary fee is part of the vehicle price under Iowa Code 322.19A, and the fee for new registration uses the sales price, so the calculator includes the dealer's fee in the base; this reading was not confirmed by a Department of Revenue page (the Iowa DOT and Revenue sites were not reachable for this release).",
+  "A lien notation ($20 per security interest) is not included."
+ ],
+ "summary": {
+  "stateRate": 0.05,
+  "localRange": [
+   0,
+   0
+  ],
+  "taxName": "fee for new registration",
+  "tradeInCredit": true,
+  "titleFee": 30,
+  "regMethod": "mixed",
+  "regYears": 1,
+  "docFeeCap": 180,
+  "docFeeNote": "Iowa Code 322.19A caps the documentary fee at $180 per vehicle and requires it to be included in the advertised price.",
+  "evFee": 130,
+  "phevFee": 65,
+  "hybridFee": null,
+  "inspection": "none",
+  "inspectionWhere": "No periodic safety or emissions inspection for passenger cars.",
+  "inspectionFee": null,
+  "annualValueTax": false
+ },
+ "params": {
+  "_src": "code-321-105a, code-321-20, code-321-109, code-321-113, code-321-116, doc-fee",
+  "fnr": {
+   "flat": 10,
+   "rate": 0.05,
+   "tradeInCredit": true,
+   "docFeeTaxable": true
+  },
+  "title": 30,
+  "reg": {
+   "pct": 0.01,
+   "perCwt": 0.4,
+   "valueFactors": [
+    {
+     "minAge": 8,
+     "factor": 0.75
+    },
+    {
+     "minAge": 10,
+     "factor": 0.5
+    }
+   ],
+   "minTotal": 50,
+   "flatFromAge": 12,
+   "flat": 50
+  },
+  "ev": {
+   "ev": 130,
+   "phev": 65
+  }
+ },
+ "singular": [
+  "Iowa has no sales tax line on a car: the county treasurer collects a fee for new registration of $10 plus 5% of the purchase price [code-321-105a].",
+  "A trade-in lowers that 5% base on a dealer purchase and also on a trade between two private parties, as long as the same person is on both titles [code-321-105a].",
+  "The yearly registration is 1% of the value fixed by the department plus 40 cents for each 100 lb or fraction of the car's weight [code-321-109].",
+  "The department fixes that value from the retail list price of the model, and sets one itself when the manufacturer does not supply it [iac-761-400].",
+  "After seven model years the value part drops to 75%, after nine to 50%, and from twelve model years the registration is a flat $50 [code-321-113].",
+  "A battery electric car pays $130 a year on top of its registration and a plug-in hybrid $65 [code-321-116].",
+  "An application for a certificate of title costs $30 [code-321-20].",
+  "Dealers may charge a documentary fee of up to $180 and must include it in the advertised price [doc-fee]."
+ ],
+ "sources": {
+  "code-321-105a": {
+   "name": "Iowa Code 2026, section 321.105A, Fee for new registration",
+   "url": "https://www.legis.iowa.gov/docs/code/321.105A.pdf",
+   "accessed": "2026-10-11",
+   "quote": "a “fee for new registration” is imposed in the amount of ten dollars plus five percent of the purchase price for each vehicle subject to registration. The fee for new registration shall be paid by the owner of the vehicle to the county treasurer"
+  },
+  "code-321-20": {
+   "name": "Iowa Code 2026, section 321.20, Application for title and registration",
+   "url": "https://www.legis.iowa.gov/docs/code/321.20.pdf",
+   "accessed": "2026-10-11",
+   "quote": "The application shall be accompanied by a fee of thirty dollars, and shall bear the owner’s signature."
+  },
+  "code-321-109": {
+   "name": "Iowa Code 2026, section 321.109, Annual registration fee computed",
+   "url": "https://www.legis.iowa.gov/docs/code/321.109.pdf",
+   "accessed": "2026-10-11",
+   "quote": "shall be equal to one percent of the value as fixed by the department plus forty cents for each one hundred pounds or fraction thereof of weight of vehicle, as fixed by the department."
+  },
+  "code-321-113": {
+   "name": "Iowa Code 2026, section 321.113, Automatic reduction",
+   "url": "https://www.legis.iowa.gov/docs/code/321.113.pdf",
+   "accessed": "2026-10-11",
+   "quote": "If a motor vehicle is more than seven model years old, the part of the annual registration fee that is based on the value of the vehicle shall be seventy-five percent ... more than nine model years old ... fifty percent ... twelve model years old or older, the annual registration fee is fifty dollars"
+  },
+  "code-321-116": {
+   "name": "Iowa Code 2026, section 321.116, Battery electric and plug-in hybrid electric motor vehicle fees",
+   "url": "https://www.legis.iowa.gov/docs/code/321.116.pdf",
+   "accessed": "2026-10-11",
+   "quote": "annual battery electric motor vehicle registration fee ... The amount of the fee shall be one hundred thirty dollars. ... plug-in hybrid electric motor vehicle registration fee ... The amount of the fee shall be sixty-five dollars."
+  },
+  "iac-761-400": {
+   "name": "Iowa Administrative Code 761, chapter 400 (rule 400.22), as of 6/24/2026",
+   "url": "https://www.legis.iowa.gov/docs/iac/chapter/06-24-2026.761.400.pdf",
+   "accessed": "2026-10-11",
+   "quote": "If the department cannot obtain the retail list price and weight for a particular motor vehicle model registered under Iowa Code section 321.109(1), the department shall determine a list price and weight."
+  },
+  "doc-fee": {
+   "name": "Iowa Code 2026, section 322.19A, Documentary fee",
+   "url": "https://www.legis.iowa.gov/docs/code/322.19A.pdf",
+   "accessed": "2026-10-11",
+   "quote": "A motor vehicle dealer may charge a documentary fee not to exceed one hundred eighty dollars for each motor vehicle sold in a transaction. A motor vehicle dealer who charges a documentary fee to a customer shall include the fee in the price of the motor vehicle."
+  }
+ }
+}

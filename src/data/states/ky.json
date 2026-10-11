@@ -1,0 +1,190 @@
+{
+ "abbr": "KY",
+ "name": "Kentucky",
+ "slug": "kentucky",
+ "agency": {
+  "name": "Kentucky Transportation Cabinet, Department of Vehicle Regulation (through the county clerks)",
+  "short": "KYTC",
+  "url": "https://drive.ky.gov/"
+ },
+ "taxAgency": {
+  "name": "Kentucky Department of Revenue",
+  "url": "https://revenue.ky.gov/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "Every Kentucky vehicle owes a yearly property tax assessed as of January 1 and paid to the county clerk with the renewal; the state and local rates apply to a book value the form does not ask, so it is shown without an amount (a car bought during the year is first taxed at the next renewal).",
+  "On a used car the usage tax base cannot be lower than 50% of the difference between the reference-manual trade-in values of the car bought and of the car traded; a price far below book value would be taxed on that floor, which the calculator does not apply.",
+  "Without a notarized affidavit of total consideration, a new car is taxed on 90% of the MSRP instead of the price; the calculator assumes the affidavit is provided, as dealers normally do.",
+  "Whether a dealer documentary fee is part of the 'total consideration given' is not stated in the statute; the calculator leaves it out of the taxable price.",
+  "The electric vehicle ownership fee ($120 base, adjusted each January 1 with the electric vehicle power tax) was $126 from January 1, 2025; the Department of Revenue page read in October 2026 lists no adjustment after that date, so $126 is used for 2026.",
+  "Kentucky law sets no cap on the dealer documentary fee that was found for this release; type the dealer's fee."
+ ],
+ "summary": {
+  "stateRate": 0.06,
+  "localRange": [
+   0,
+   0
+  ],
+  "taxName": "motor vehicle usage tax",
+  "tradeInCredit": true,
+  "titleFee": 9,
+  "regMethod": "flat",
+  "regYears": 1,
+  "docFeeCap": null,
+  "docFeeNote": "No cap found in Kentucky law for this release; type the dealer's fee.",
+  "evFee": 126,
+  "phevFee": 126,
+  "hybridFee": null,
+  "inspection": "none",
+  "inspectionWhere": "No periodic inspection; a vehicle brought from another state is inspected once by the sheriff's certified inspector before titling ($15 for an individual).",
+  "inspectionFee": null,
+  "annualValueTax": true
+ },
+ "params": {
+  "g": {
+   "tax": {
+    "label": "Motor vehicle usage tax (6%)",
+    "rate": 0.06,
+    "tradeInCredit": true,
+    "docFeeTaxable": false,
+    "source": "krs-138-460",
+    "note": "6% of the total consideration minus the trade-in allowance."
+   },
+   "once": [
+    {
+     "id": "title",
+     "label": "Certificate of title application",
+     "amount": 9,
+     "source": "krs-186a-130",
+     "kind": "title"
+    }
+   ],
+   "reg": {
+    "label": "Annual registration fee",
+    "source": "krs-186-050",
+    "type": "flat",
+    "amount": 11.5
+   },
+   "cycle": [
+    {
+     "id": "clerk-fee",
+     "label": "County clerk registration fee",
+     "amount": 6,
+     "source": "krs-186-040",
+     "kind": "registration"
+    },
+    {
+     "id": "avis-fee",
+     "label": "Additional registration fee (AVIS and clerk technology)",
+     "amount": 3,
+     "source": "krs-186-040",
+     "kind": "registration"
+    }
+   ],
+   "ev": {
+    "ev": 126,
+    "phev": 126,
+    "source": "drive-ev",
+    "label": "Electric vehicle ownership fee"
+   },
+   "ranges": [
+    {
+     "id": "property-tax",
+     "label": "Yearly motor vehicle property tax (state and local)",
+     "range": null,
+     "kind": "value",
+     "source": "dor-property",
+     "note": "Assessed on January 1 and paid to the county clerk with the renewal."
+    }
+   ]
+  }
+ },
+ "singular": [
+  "Kentucky collects a 6% motor vehicle usage tax, not a sales tax, when a vehicle is first titled or registered in the state [dor-usage].",
+  "Since July 1, 2014 the trade-in allowance is deducted from the price of a new car before the 6% is applied [krs-138-4603].",
+  "Without a notarized affidavit of total consideration, the tax on a new car is computed on 90% of the manufacturer's suggested retail price [krs-138-4603].",
+  "On a used car the taxed price cannot fall below 50% of the difference between the book trade-in values of the car bought and the car traded [krs-138-450].",
+  "A certificate of title application costs $9, of which the county clerk keeps $6 [krs-186a-130].",
+  "The yearly registration is $11.50 for a car or pickup, plus the clerk's $6 and an additional $3 per registration [krs-186-040].",
+  "Electric cars and plug-in hybrids pay an ownership fee at first registration and every renewal, $126 since January 1, 2025, while ordinary hybrids no longer pay one [drive-ev].",
+  "The base ownership fee in the statute is $120 and it applies to any vehicle with plug-in charging capability, whether fully electric or a plug-in hybrid [krs-138-475].",
+  "Every vehicle also owes an annual property tax, paid to the owner's county clerk [dor-property].",
+  "A car brought in from another state must be checked by a certified inspector at the sheriff's office before titling, for a $15 fee for an individual [krs-186a-115]."
+ ],
+ "sources": {
+  "krs-138-460": {
+   "name": "KRS 138.460, Motor vehicle usage tax, imposition and rate",
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=44482",
+   "accessed": "2026-10-11",
+   "quote": "A tax levied upon its retail price at the rate of six percent (6%) shall be paid on the use in this state of every motor vehicle"
+  },
+  "krs-138-4603": {
+   "name": "KRS 138.4603, retail price of new vehicles for sales on or after July 1, 2014",
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=44483",
+   "accessed": "2026-10-11",
+   "quote": "the retail price shall be determined by reducing the amount of total consideration given by the trade-in allowance of any motor vehicle traded in by the buyer ... Ninety percent (90%) of the manufacturer's suggested retail price"
+  },
+  "krs-138-450": {
+   "name": "KRS 138.450, definitions (retail price of used vehicles)",
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=53526",
+   "accessed": "2026-10-11",
+   "quote": "means the total consideration given, excluding any amount allowed as a trade-in allowance by the seller ... shall not be less than fifty percent (50%) of the difference between the trade-in value ... of the motor vehicle offered for registration and the trade-in value ... of any motor vehicle offered in trade"
+  },
+  "dor-usage": {
+   "name": "Kentucky Department of Revenue, Motor Vehicle Usage Tax",
+   "url": "https://revenue.ky.gov/Property/Motor-Vehicles/Pages/Motor-Vehicle-Usage-Tax.aspx",
+   "accessed": "2026-10-11",
+   "quote": "It is levied at six percent and shall be paid on every motor vehicle used in Kentucky. ... As of July 1, 2014, trade in allowance is granted for tax purposes when purchasing new vehicles."
+  },
+  "dor-property": {
+   "name": "Kentucky Department of Revenue, Motor Vehicles (property tax)",
+   "url": "https://revenue.ky.gov/Property/Motor-Vehicles/Pages/default.aspx",
+   "accessed": "2026-10-11",
+   "quote": "Motor Vehicle Property Tax is an annual tax assessed on motor vehicles and motor boats. Payment shall be made to the motor vehicle owner's County Clerk."
+  },
+  "krs-186a-130": {
+   "name": "KRS 186A.130, Fee for title application (effective until January 1, 2027)",
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=57802",
+   "accessed": "2026-10-11",
+   "quote": "Each application for a certificate of title shall be nine dollars ($9), of which the county clerk shall retain six dollars ($6) and the Transportation Cabinet shall receive three dollars ($3)."
+  },
+  "krs-186-050": {
+   "name": "KRS 186.050, Registration fees",
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=56307",
+   "accessed": "2026-10-11",
+   "quote": "The annual registration fee shall be eleven dollars and fifty cents ($11.50) for: (a) Motor vehicles, including pickup trucks and passenger vans"
+  },
+  "krs-186-040": {
+   "name": "KRS 186.040, clerk's fee and additional fees (effective until January 1, 2027)",
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=56142",
+   "accessed": "2026-10-11",
+   "quote": "the owner shall pay the county clerk the sum of six dollars ($6) for each registration ... an additional three dollars ($3) per registration shall be collected at the time of registration."
+  },
+  "krs-138-475": {
+   "name": "KRS 138.475, Ownership fees for electric vehicles",
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=55787",
+   "accessed": "2026-10-11",
+   "quote": "\"Electric vehicle\" means any vehicle that has plug-in charging capability ... The electric vehicle ownership fees shall be: (a) One hundred twenty dollars ($120) for electric vehicles"
+  },
+  "drive-ev": {
+   "name": "Kentucky Transportation Cabinet, Electric and Hybrid Vehicle Fee (read through the Internet Archive copy of 2026-01-06)",
+   "url": "https://drive.ky.gov/Pages/EV-HV-Fee.aspx",
+   "accessed": "2026-10-11",
+   "quote": "Beginning Jan. 1, 2025, the fee for electric vehicles and plug-in hybrid EVs will change to $126 ... Beginning Jan. 1, 2025, the fee for hybrid vehicles (that do not have plug-in charging capabilities) will no longer be collected"
+  },
+  "dor-ev-power": {
+   "name": "Kentucky Department of Revenue, Electric Vehicle Power Excise Tax",
+   "url": "https://revenue.ky.gov/Business/Pages/Electric-Vehicle-Power-Excise-Tax.aspx",
+   "accessed": "2026-10-11",
+   "quote": "Effective January 1, 2025 The statutorily mandated $0.002 increases in the excise tax and surtax rates per kilowatt hour are as follows: Excise tax: $0.032"
+  },
+  "krs-186a-115": {
+   "name": "KRS 186A.115, Inspection of motor vehicles by certified inspector",
+   "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=56308",
+   "accessed": "2026-10-11",
+   "quote": "There shall be a fee for this certification, payable to the sheriff's office ... 3. Fifteen dollars ($15) for an individual person"
+  }
+ }
+}

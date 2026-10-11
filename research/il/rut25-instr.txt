@@ -1,0 +1,167 @@
+SOURCE: https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/sales/documents/vehicleusetax/rut-25-instr.pdf
+                                                                                              Illinois Department of Revenue
+RUT-25                     Vehicle Use Tax Transaction Return Instructions
+                                              Form RUT-25 General Information
+Who must file Form RUT-25?
+You must complete Form RUT-25, Vehicle Use Tax Transaction Return, if you are titling or registering in Illinois
+a motor vehicle (including all-terrain vehicle (ATV)), trailer, manufactured (mobile) home, watercraft, aircraft, or
+snowmobile that you purchased from an unregistered out-of-State dealer or retailer. This includes motor vehicles
+purchased from an unregistered out-of-State dealer for use in Illinois but that are registered under the International
+Registration Plan (IRP) with a base jurisdiction other than Illinois. Do not use Form RUT-25 if you are leasing an
+item. Instead use Form RUT-25-LSE, Use Tax Return for Lease Transactions, if the item was leased through an
+unregistered out-of-State dealer or retailer. Also, do not use Form RUT-25 if you purchased a motor vehicle, or an
+aircraft or watercraft, from an individual or private party. Instead, use Form RUT-50, Private Party Vehicle Use Tax
+Transaction, for a private-party vehicle sale and Form RUT-75, Aircraft/Watercraft Use Tax Transaction Return, for
+a private-party aircraft or watercraft sale. Out-of-State leasing companies should not use this form to report sales to
+an Illinois resident at the end of a lease. Instead, you must register with Illinois Department of Revenue (IDOR) and
+file Form ST-556, Sales Tax Transaction Return. For more information, see ST-556, Sales Tax Transaction Return
+Instructions.
+Note: You must file Form RUT-25 and submit proof of tax payment or proof of exemption before your title or
+registration will be issued. Forms are available at IDOR field offices, SOS Driver Services offices, or by calling the
+IDOR’s 24-hour Forms Order Hotline at 800-356-6302.
+When is Form RUT-25 due?
+You must file Form RUT-25 and pay the tax due within 30 days after the date the item is brought into Illinois.
+What if I need help?
+If you need help, call our Taxpayer Assistance Division
+weekdays between 8:00 a.m. and 5:00 p.m. at 800-732-8866                       , 217-782-3336, or
+ 800-544-5304 (TTY).
+You may also visit our website at tax.illinois.gov or scan the QR code provided.
+Language assistance services are available upon request and are free of charge.
+
+
+
+                                                         Specific Instructions
+Step 1:                                                                                                                                            Enter the purchaser’s information as it appears on the title or registration application
+Lines 1 through 3: Enter the purchaser’s name and address exactly as it appears on the Illinois title or registration
+application. This address must be the actual physical address of the party who will be using the item in Illinois. Do
+not use a post office box number. If the motor vehicle is registered under the IRP with a base jurisdiction other than
+Illinois, but the vehicle is used in Illinois and therefore you need to report use tax on it, enter the actual physical
+address where the vehicle will be garaged in Illinois.
+Line 4: Check the appropriate box to indicate whether the address on Line 3 is in an unincorporated or rural area of
+the county.
+Line 5: Enter the name of the municipality (i.e., city, village, or town) where the item will be registered if the actual
+municipality is different from what is entered on Line 3. If the motor vehicle is registered under the IRP with a base
+jurisdiction other than Illinois, but the vehicle is used in Illinois and therefore you need to report use tax on it, enter
+“State of Illinois.”
+Line 6: You must provide the name of the county where the item will be registered. If the motor vehicle is registered
+under the IRP with a base jurisdiction other than Illinois, enter the county corresponding to the address in Step 1, Line 3.
+Line 7: If you entered St. Clair or Madison County on Line 6, you must provide the name of the township where the
+item will be registered. You do not need to provide the township if the item will be registered in any county other
+than St. Clair or Madison.
+Line 8: Enter the purchaser’s daytime telephone number.
+Line 9: Enter the purchaser’s Social Security Number or Federal Employer Identification Number (FEIN).
+                                                                                                                                             Page 1 of 3
+                                                               Specific Instructions Continued
+Step 2:                                                                                                                                            Enter the seller’s information
+Lines 1 through 4: Enter the seller’s name, address, Federal Employer Identification Number (FEIN), and (if
+applicable) mailing address.
+Step 3:                                                                                                                                            Describe the item
+Line 4: Enter the appropriate identification number for the item purchased. Enter the vehicle identification number
+(VIN) for motor vehicles, the hull identification number (HIN) for watercraft, or the aircraft identification number (N)
+for aircraft.
+Lines 5 and 6: Enter the original purchase date and the date the item was brought into Illinois.
+Step 4:                                                                                                                                             Mark the box that best describes your transaction if exempt from tax - If your transaction is taxable,
+skip to Step 5.
+Line a: Check Box a for an exempt sale to a charitable, religious, educational, or governmental organization with an
+active IDOR exemption number. Enter the exempt organization’s active Illinois Sales Tax exemption “E” number on
+the line provided. The purchaser must be the organization itself, rather than a member or officer of the organization.
+The item must be titled and/or registered in the organization’s name and paid for with the organization’s funds. The
+organization’s Sales Tax exemption number must have been in effect on the day the item was purchased.
+Line b: Check Box b if the item qualifies as exempt farm machinery or equipment used primarily in production
+agriculture (excluding motor vehicles required to be registered under the Illinois Vehicle Code), or if the item is a
+ready-mix concrete truck used in manufacturing tangible personal property for sale.
+Line c: Check Box c to claim the rolling stock exemption. If you purchased the item for use as rolling stock to
+haul persons or commodities for hire in interstate commerce, enter the certificate of authority number in the space
+provided. Keep a properly completed Form RUT-7, Rolling Stock Certification, in your records for documentation.
+Line d: Check Box d to claim the sale for rental purposes exemption. If the purchaser is a business registered to
+collect Automobile Renting Occupation Tax and if the item will be used for rental purposes in                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  rental agreements of one
+year or less, enter the purchaser’s Illinois Automobile Renting Occupation Tax account ID number on the line provided.
+Line e: Check Box e if the purchaser is a registered Illinois retailer and if the item is for the purchaser’s interim use
+only. Enter the purchaser’s Illinois account ID number on the line provided.
+Note: This exemption is only allowed if the item is of the same general type of tangible personal property sold
+by that retailer and is carried as inventory on the books of the retailer or is otherwise available for sale during the
+interim use period. See 86 Ill. Adm. Code Section 150.306.
+Line f: Check Box f to claim the out-of-State resident exemption. Illinois law allows an exemption from use tax for
+an individual who was an out-of-State resident and the item was used outside Illinois at least three months. You
+must surrender the out-of-State title, registration, or other proof of the item’s use when you apply for an Illinois title.
+You cannot claim this exemption if you are a business relocating into Illinois, an individual who used the item
+outside Illinois for less than three months, or a military member whose home of record is Illinois.
+Line g: Check Box g if you were the original owner or co-owner or if you were the loan co-signer and you are
+redeeming an item that was repossessed due to loan default.
+Step 5:                                                                                                                                            Figure tax
+Round amounts — Drop amounts of less than 50 cents, and increase amounts of 50 cents or more to the next
+higher dollar.
+Line 1: Purchase price includes accessories, federal excise taxes, freight and labor, documentary fees, and any
+rebates or incentives for which a dealer is reimbursed from any source. Attach a copy of the bill of sale as proof
+of the purchase price and any sales and use tax previously paid, which must be clearly and separately stated.
+If you cannot obtain a bill of sale, you may submit a copy of a dealer’s invoice, a letter from the selling dealer, or a
+fair market value appraisal from a licensed Illinois dealer.
+Note: If you purchased a new truck that weighs 33,000 pounds or more, or a new trailer or semitrailer chassis
+weighing 26,000 pounds or more, you may exclude the federal excise tax from the purchase price.
+Line 2: Any amount claimed as trade-in credit must be shown on the dealer’s bill of sale or proof of purchase. Do
+not deduct rebates.
+Line 4: Depreciation is allowed for items that are purchased and used outside of Illinois before being brought into
+Illinois (e.g., by: (i) out of state businesses relocating into Illinois; (ii) nonresident individuals relocating into Illinois
+who have used the item for less than 3 months before bringing the item into Illinois; and (iii) military personnel
+whose home of record is Illinois). The depreciation rate is 1.67 percent (.0167) for each month of out-of-State use.
+
+
+                                                                                                                                                                                              Page 2 of 3
+                                                                                             Specific Instructions Continued
+
+Calculate the applicable percent per whole month from the date of purchase (e.g., 8/28/23 to 9/28/23 = whole
+month). A fraction of a month will be disregarded. Multiply the number of whole months by the applicable percent,
+and then multiply Line 3 by the result. Enter the amount of depreciation on Line 4. For items other than motor
+vehicles (e.g., trailers, manufactured (mobile) homes, watercraft, aircraft, snowmobiles), use the straight line
+method of depreciation.
+Note: A nonresident individual who used the items outside Illinois for three months or more should not calculate
+depreciation. Instead, you can claim a full exemption by checking the box in Step 4, Line f.
+Line 6: Multiply Line 5 by the tax rate. The tax rate is determined by the address provided in Step 1, Line 3. Use
+6.25 percent (.0625) unless otherwise instructed.
+Cook County:
+ •       For transactions prior to August 1, 2026, use 7.25 percent (.0725). Beginning August 1, 2026, use 7.5 percent
+         (.0750).
+DuPage, Kane, Lake, McHenry, and Will counties:
+ •       For transactions prior to August 1, 2026, use 7.0 percent (.07). Beginning August 1, 2026, use 7.25 percent
+         (.0725).
+ •       For Madison and St. Clair counties, use 6.5 percent (.065), except outside the Metro East Transit District, for
+         which use 6.25 percent (.0625).
+ •       For an IRP-registered motor vehicle with a base jurisdiction other than Illinois that is used in Illinois, use 6.25
+         percent (.0625).
+Line 7: You may claim the amount of tax previously paid on this item either directly to another state or through a
+retailer. Enter the name of the state or retailer on the line provided. We will allow credit only if the tax previously paid
+was properly due and is separately stated on the proof of tax paid. You must attach proof of the tax you previously
+paid.
+You must file Form RUT-25 and pay the tax due within 30 days after the date the item is brought into Illinois.
+Note: You owe a late filing penalty if you do not file a processable return by the due date, a late payment penalty
+if you do not pay the amount you owe by the original due date of the return, a bad check penalty if your remittance
+is not honored by your financial institution, and a cost of collection fee if you do not pay the amount you owe
+within 30 days of the date printed on a bill that we send you. For more information, see Publication 103, Penalties
+and Interest for Illinois Taxes, available on our website at tax.illinois.gov.
+Step 6:                                                                                                                                            Sign here
+The purchaser (and co-owner, if applicable) must sign Form RUT-25. Attach a separate payment for tax made
+payable to the “Illinois Department of Revenue.” Send Form RUT-25 and any attachments with your title or
+registration application and fees to the appropriate agency:
+Motor vehicle titles:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          Register aircraft:
+OFFICE OF SECRETARY OF STATE                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      DEPARTMENT OF TRANSPORTATION
+VEHICLE SERVICE DEPARTMENT                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      DIVISION OF AERONAUTICS
+HOWLETT BUILDING                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             1 LANGHORNE BOND DRIVE
+SPRINGFIELD, IL 62756                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             SPRINGFIELD IL 62707-8415
+Watercraft and snowmobile titles:
+DEPARTMENT OF NATURAL RESOURCES
+PO BOX 19226
+SPRINGFIELD, IL 62794-9226
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                              Printed by authority of the State of Illinois - electronic only, one copy                                                                                                                  Page 3 of 3

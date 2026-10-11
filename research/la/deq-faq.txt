@@ -1,0 +1,211 @@
+SOURCE: https://deq.louisiana.gov/faq/category/vehicle (Wayback snapshot 2026-05-13; live page returns 403)
+ 
+ Motor Vehicle Inspections and Maintenance | Louisiana Department of Environmental Quality 
+ skip to Main Content 
+ An official website of the State of Louisiana.
+ Here’s how you know 
+ Official Louisiana State Websites use .la.gov A .la.gov website belongs to an official
+ government organization in Louisiana. 
+ Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely
+ connected to the official .gov website. 
+ Language 
+ Accessibility 
+ Menu 
+ Report Incident/Complaint 
+ Public Notices 
+ EDMS & Public Records 
+ eBusiness 
+ Regulated Areas 
+ Regulated Areas 
+ Air 
+ Regulated Areas Air 
+ Permits 
+ Regulated Areas Permits 
+ Permits 
+ Regulated Areas Permits 
+ About 
+ Air Permit Applications 
+ Minor Source General 
+ Emission Reduction 
+ Expedited Permit 
+ Insignificant Activity Notifications 
+ Enforcement 
+ Monitoring and Reporting 
+ Planning and Assessment 
+ Regulated Areas Planning and Assessment 
+ Monitoring 
+ Emissions Inventory 
+ Forms & Applications 
+ Planning and Assessment 
+ Regulated Areas Planning and Assessment 
+ Ambient Air Monitoring Program 
+ Monitoring and Reporting 
+ Enforcement 
+ Forms, Applications & Guidance 
+ Waste 
+ Regulated Areas Waste 
+ Permits 
+ Regulated Areas Permits 
+ Hazardous Waste 
+ Solid Waste 
+ Waste Tires 
+ Recycling 
+ Monitoring and Reporting 
+ Enforcement 
+ Forms, Applications & Guidance 
+ Water 
+ Regulated Areas Water 
+ Permits 
+ Planning and Assessment 
+ Monitoring and Reporting 
+ Enforcement 
+ Regulated Areas Enforcement 
+ Act 144 
+ Net DMR 
+ Forms, Applications & Guidance 
+ Radiation 
+ Regulated Areas Radiation 
+ Registrations and Licenses 
+ Planning and Assessment 
+ Compliance 
+ Forms, Applications & Guidance 
+ Underground Storage Tanks (UST) 
+ Regulated Areas Underground Storage Tanks (UST) 
+ Registrations and Fees 
+ Compliance 
+ Remediation 
+ Forms, Applications & Guidance 
+ Asbestos and Lead 
+ Regulated Areas Asbestos and Lead 
+ Notifications 
+ Compliance 
+ Forms, Applications and Guidance 
+ Remediation 
+ Regulated Areas Remediation 
+ RECAP 
+ Brownfields Program 
+ Volunteer Remediation Program 
+ Superfund 
+ Hazardous Waste Clean-up 
+ NRDA 
+ Monitoring and Reporting 
+ Notifications and Accreditations 
+ Regulated Areas Notifications and Accreditations 
+ Hazardous Waste 
+ Asbestos 
+ Laboratory 
+ Lead-Based Paint 
+ Radiography 
+ Solid Waste 
+ UST 
+ Emergency Response 
+ Emergency Response 
+ Emergency and Radiation 
+ Disaster Response 
+ Single Point of Contact (SPOC) 
+ Chemical Accident Program 
+ Parish Resource Book 
+ Offices & Divisions 
+ Offices & Divisions 
+ Directory Map 
+ Offices & Divisions Directory Map 
+ Office of the Secretary 
+ Office of Management and Finance 
+ Office of Environmental Assessment 
+ Office of Environmental Compliance 
+ Office of Environmental Services 
+ Regional Offices 
+ Offices & Divisions Regional Offices 
+ Acadiana Regional Office 
+ Offices & Divisions Acadiana Regional Office 
+ Kisatchie Central Office 
+ Capital Regional Office 
+ Northeast Regional Office 
+ Northwest Regional Office 
+ Southeast Regional Office 
+ Offices & Divisions Southeast Regional Office 
+ Bayou Lafourche Office 
+ Southwest Regional Office 
+ About LDEQ 
+ About LDEQ 
+ About Us 
+ Audits Services 
+ Communications 
+ Enforcement 
+ About LDEQ Enforcement 
+ Air 
+ Water 
+ Waste 
+ Self-Audit 
+ Financial 
+ About LDEQ Financial 
+ Invoices and Accounts Receivable 
+ Financial Services: Motor Fuel Trust Fund 
+ Request for Proposals 
+ Legal Affairs 
+ Technical Assistance & Outreach 
+ About LDEQ Technical Assistance & Outreach 
+ Enviroschool 
+ Envirothon 
+ Louisiana Environmental Ambassadors Program (LEAP) 
+ Louisiana Environmental Leadership Program (ELP) 
+ Small Business Environmental Assistance Program 
+ Public Participation/Permit Support 
+ Rules and Regulations 
+ Surveillance 
+ Strategic Planning 
+ Resources 
+ News 
+ Events 
+ Careers 
+ Contact Us 
+ Menu 
+ Planning and Assessment 
+ Ambient Air Monitoring Program 
+ Menu 
+ Planning and Assessment 
+ Motor Vehicle Inspections and Maintenance
+ Motor Vehicle Inspections and Maintenance
+ Which inspection station is closest to me? 
+ The Louisiana Department of Public Safety maintains a list of qualified safety and vehicle emissions inspection stations at the following web address: https://dpsweb.dps.louisiana.gov/safetydirections.nsf . Click on the blue arrow next to the parish name to expand the list of stations and their location within the parish. 
+ Where in Louisiana are vehicle emissions inspections performed? 
+ Vehicle emissions inspections are ONLY performed by official motor vehicle inspection stations located in the Louisiana parishes of Ascension, East Baton Rouge, Iberville, Livingston, and West Baton Rouge. Click here for a list of station locations, only the five aforementioned parishes can complete a vehicle emissions test. 
+ What is the price of a vehicle emissions inspection? 
+ The price of the vehicle emissions inspection is $18 per vehicle.
+ What do I need to provide at the time of the emissions inspection? 
+ Present the vehicle, driver’s license, vehicle registration certificate, and proof of liability insurance at the time of inspection.
+ My vehicle is due for emissions testing, but it is registered out-of-state. How can I get the emissions test done while the vehicle is in Louisiana? 
+ Present the vehicle, driver’s license, vehicle registration certificate, and proof of liability insurance at an official motor vehicle inspection station located in either of the Louisiana parishes of Ascension, East Baton Rouge, Iberville, Livingston, or West Baton Rouge. Request a copy of the vehicle inspection report (VIR) from the vehicle inspector at the time of inspection. The VIR is the official emissions test record. 
+ What happens if my vehicle fails an OBD II inspection? 
+ Vehicles that fail any component of emission testing must be repaired or the failure resolved before a valid inspection sticker can be issued for the vehicle. Vehicles failing the inspection will receive an orange temporary sticker. A vehicle that has failed inspection must be repaired and pass a reinspection or retest within 30 days. Upon passing the reinspection, the vehicle will receive a valid inspection sticker.
+ Why might a vehicle fail the OBD II inspection? 
+ There are three common reasons why a vehicle might fail the diagnostic emissions inspection: 1) Diagnostic Trouble Codes (DTC), 2) Readiness, and 3) Non-Communication. 
+ What is a DTC? 
+ A diagnostic trouble code (DTC) is a code used to diagnose malfunctions in a vehicle. DTCs are read by a scanner that plugs directly into the OBD II port of a vehicle. There are universal DTCs and manufacturer-specific DTCs. Vehicles that fail due to Diagnostic Trouble Codes (DTC) do so because a situation has occurred which could lead to an increased level of emissions released from the vehicle. In most cases, the vehicle’s Malfunction Indicator Light (MIL) is illuminated on the dash panel. The problem may not be noticeable or affect the vehicle’s performance, but over time the situation could worsen and lead to increased inconvenience and expensive repairs. If your vehicle failed because of a DTC, the vehicle should be repaired before returning to a motor vehicle inspection station for a retest.
+ What does it mean for a vehicle to be “Not-Ready”? 
+ The “Not Ready” failures imply that a vehicle’s readiness monitors have not been fully reset. The onboard computer resets anytime there is an uncommon electrical event within the car. The most common causes are removing the battery cables, jumpstarting another vehicle, adding out-of-market electrical equipment to the vehicle, and clearing DTCs from the computer. When the onboard computer has been reset, the vehicle must be driven in a certain manner determined by the manufacturer, called a ‘drive cycle’. This drive pattern usually involves a normal combination of city and highway driving for about two weeks. Contact your vehicle’s manufacturer or LDEQ for specific drive cycles. There may be nothing wrong with your vehicle. After completing the drive cycle, return the vehicle to the motor vehicle inspection station for a retest.
+ What does it mean for a vehicle to fail for “Non-Communication”? 
+ Vehicles that fail due to non-communication fail because the vehicle’s onboard computer did not send a signal to the emissions testing equipment. Occasionally, a vehicle can come off of the assembly line with defects. A non-communication can be the result of a poorly assembled OBD connection port, a blown fuse, or a combination of scenarios involving the inspection process. Check the vehicle’s cigarette lighter to see if it works. If it does not, chances are the fuse is blown. Most manufacturers design vehicles so that the OBD and cigarette lighter run on the same circuit. The fuse is faulty if it is dark inside like the inside of a blown light bulb or if the electrical wires within the fuse are burnt apart and are not connected. In the event of a ”non-comm”, the motorist is instructed to contact the Emissions Challenge Station, where the vehicle will be retested and, if necessary, receive a separate diagnostic scan.
+ What if my vehicle fails the gas cap test? 
+ If your vehicle fails the gas cap test, you will have to purchase a new cap made specifically for your vehicle. You are entitled to at least one free retest if you do so before your thirty-day temporary sticker expires. 
+ What is the Challenge Station, and where is it located? 
+ The Challenge Station is located at the Baton Rouge Community College (BRCC) Automotive Center at 2115 North Lobdell, Baton Rouge, LA 70806. If you feel that your vehicle was not inspected properly or would like to challenge the results of your original test, a free retest is available. The Challenge Station is not authorized to issue state inspection stickers, but there are trained mechanics that will retest your vehicle for free to determine if your vehicle actually failed for the reason stated. Appointments are recommended, but walk-ins are welcome. The facility is open 8:00 am - 4:30 pm (Monday through Friday) and can be reached by calling 225-216-8586. Vehicle owners whose vehicles failed because of a non-communication are encouraged to utilize this station.
+ Do I have to go to the Challenge Station to verify that my vehicle will not communicate? 
+ If your vehicle fails because it failed to communicate, you should proceed to the Challenge Station for a free retest. If it does pass, you may return to the MVI station for your new sticker. If it fails again, a free secondary diagnostic can be performed on site to verify that there is nothing wrong with the vehicle.
+ Do I have to pay to get my vehicle retested if it fails? 
+ The orange temporary sticker is valid for thirty (30) days, during which time you are entitled to one (1) free retest at the original MVI station. After your vehicle is repaired or the problem has been resolved, you may return to the original inspection station within the thirty-day period and receive the free retest. If your vehicle fails again, you may have to pay for any subsequent inspections. At any time, if you would like to challenge the inspection results, you can receive a free retest at the Emissions Challenge Station. If your vehicle passes, you will be instructed to return to the original MVI station to receive a valid inspection sticker.
+ LDEQ Secretary Courtney J. Burdette 
+ Louisiana Department of Environmental Quality 602 N. 5th Street 
+ Baton Rouge, LA 70802 1-866-896-LDEQ 
+ Quick Links
+ Job Postings 
+ Report Incident/Complaint 
+ Accessibility Policy 
+ Privacy Policy 
+ Employee Email 
+ Let’s stay in touch.
+ contact us 
+ newsletter 
+ feedback 
+ Powered by Cicero Government 
+ 
