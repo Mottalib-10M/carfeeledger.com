@@ -75,6 +75,15 @@ moi = ''
 for f in ('src/data/site-config.ts', 'src/lib/site-config.ts'):
     m = re.search(r"SITE_URL\s*=\s*['\"]https?://([^'\"/]+)", lire(os.path.join(site, f)))
     if m: moi = m.group(1); break
+# Repli (sites hors trame Astro, config ailleurs) : sinon le site se compare à sa propre version en ligne.
+if not moi:
+    for f in ('public/CNAME', 'static/CNAME', 'CNAME', os.path.join(out, 'CNAME')):
+        c = lire(os.path.join(site, f)).strip()
+        if c: moi = c.splitlines()[0].strip(); break
+if not moi:
+    m = re.search(r"site\s*:\s*['\"]https?://([^'\"/]+)", lire(os.path.join(site, 'astro.config.mjs')))
+    if m: moi = m.group(1)
+moi = re.sub(r'^www\.', '', moi)
 
 res = {}
 # Trame

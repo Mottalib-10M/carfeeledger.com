@@ -57,8 +57,10 @@ def meta_description(doc):
 ecarts, titres, descs, n = [], defaultdict(list), defaultdict(list), 0
 for f in sorted(glob.glob(os.path.join(sortie, '**', '*.html'), recursive=True)):
     rel = '/' + os.path.relpath(f, sortie).replace(os.sep, '/').replace('index.html', '')
-    # Fichiers de vérification Search Console (google<code>.html) : pas des pages.
-    if rel.endswith(('404.html', '/404/')) or '/embed/' in rel or re.fullmatch(r'/google[0-9a-f]+\.html', rel):
+    # Fichiers de vérification Search Console (google<code>.html) et dépendances : pas des pages.
+    # (lancé sur « . » au lieu de dist, le script voyait node_modules et public/google….html)
+    if rel.endswith(('404.html', '/404/')) or '/embed/' in rel or re.search(r'/google[0-9a-f]+\.html$', rel) \
+       or re.search(r'/(node_modules|\.git|\.astro|research)/', rel):
         continue
     doc = open(f, encoding='utf-8', errors='ignore').read()
     tete = doc[:doc.find('</head>')] if '</head>' in doc else doc[:200000]
