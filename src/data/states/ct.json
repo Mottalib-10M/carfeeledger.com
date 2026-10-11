@@ -1,0 +1,262 @@
+{
+ "abbr": "CT",
+ "name": "Connecticut",
+ "slug": "connecticut",
+ "agency": {
+  "name": "Connecticut Department of Motor Vehicles",
+  "short": "DMV",
+  "url": "https://portal.ct.gov/dmv"
+ },
+ "taxAgency": {
+  "name": "Connecticut Department of Revenue Services",
+  "url": "https://portal.ct.gov/drs"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "Every town and city bills a yearly property tax on the car: 70% of its value times the local motor vehicle mill rate, capped by law at 32.46 mills. Rates and valuations are set locally, so the tax is listed without an amount.",
+  "On a purchase from a private seller, DMV taxes the NADA average trade-in value or the bill-of-sale price, whichever is higher; the form does not ask the book value, so the engine taxes the price.",
+  "Whether a dealer conveyance fee is part of the taxable sales price was not stated on an official page read for this release; the engine leaves it out of the taxed amount.",
+  "Connecticut law does not cap the dealer conveyance fee; type the dealer's figure.",
+  "The engine assumes the standard three-year passenger registration; drivers 65 and older may choose one year at a prorated fee."
+ ],
+ "summary": {
+  "stateRate": 0.0635,
+  "localRange": [
+   0,
+   0
+  ],
+  "taxName": "sales and use tax",
+  "tradeInCredit": true,
+  "titleFee": 25,
+  "regMethod": "flat",
+  "regYears": 3,
+  "docFeeCap": null,
+  "docFeeNote": "No cap: Connecticut law requires the conveyance fee to be disclosed and called negotiable, but sets no maximum.",
+  "evFee": null,
+  "phevFee": null,
+  "hybridFee": null,
+  "inspection": "emissions",
+  "inspectionWhere": "Emissions test every two years for gasoline and hybrid cars from their fourth model year; electric cars are exempt; no periodic safety inspection.",
+  "inspectionFee": 20,
+  "annualValueTax": true
+ },
+ "params": {
+  "lux": {
+   "_src": "cgs-12-408",
+   "threshold": 50000,
+   "rate": 0.0775
+  },
+  "g": {
+   "tax": {
+    "label": "Sales and use tax (6.35%)",
+    "rate": 0.0635,
+    "tradeInCredit": true,
+    "docFeeTaxable": false,
+    "source": "dmv-tax",
+    "note": "Trade-in credit on a dealer purchase only."
+   },
+   "once": [
+    {
+     "id": "title",
+     "label": "Certificate of title",
+     "amount": 25,
+     "source": "dmv-fees",
+     "kind": "title",
+     "note": "Add $10 when a lien is recorded."
+    },
+    {
+     "id": "plate",
+     "label": "License plate fee",
+     "amount": 5,
+     "source": "dmv-fees",
+     "kind": "plate"
+    },
+    {
+     "id": "admin",
+     "label": "Administrative fee (VIN check)",
+     "amount": 10,
+     "source": "dmv-fees",
+     "kind": "other"
+    },
+    {
+     "id": "ghg-new",
+     "label": "Greenhouse gas reduction fee (new vehicle)",
+     "amount": 15,
+     "source": "ghg",
+     "kind": "other",
+     "if": {
+      "new": true
+     }
+    },
+    {
+     "id": "emissions-exempt",
+     "label": "Emissions exemption fee (first four model years)",
+     "amount": 40,
+     "source": "emissions-law",
+     "kind": "inspection",
+     "if": {
+      "maxAge": 3,
+      "fuel": [
+       "gas",
+       "hybrid",
+       "phev"
+      ]
+     },
+     "note": "Paid once when a car four model years old or newer is first registered in Connecticut."
+    }
+   ],
+   "reg": {
+    "label": "Passenger registration (3 years)",
+    "source": "cgs-14-49",
+    "years": 3,
+    "type": "flat",
+    "amount": 120
+   },
+   "cycle": [
+    {
+     "id": "clean-air",
+     "label": "Federal Clean Air Act fee",
+     "amount": 15,
+     "source": "cgs-14-49b",
+     "kind": "registration",
+     "if": {
+      "fuel": [
+       "gas",
+       "hybrid",
+       "phev"
+      ]
+     },
+     "note": "Not charged on an electric car."
+    },
+    {
+     "id": "parks",
+     "label": "Passport to the Parks fee",
+     "amount": 24,
+     "source": "cgs-14-49b",
+     "kind": "registration"
+    },
+    {
+     "id": "ghg",
+     "label": "Greenhouse gas reduction fee",
+     "amount": 7.5,
+     "source": "ghg",
+     "kind": "other",
+     "if": {
+      "used": true
+     },
+     "note": "$7.50 per three-year registration of any vehicle other than a new one."
+    }
+   ],
+   "inspection": [
+    {
+     "id": "inspection",
+     "label": "Emissions test (every two years)",
+     "amount": 20,
+     "years": 2,
+     "source": "dmv-emissions",
+     "newExemptYears": 4,
+     "fuelExempt": [
+      "ev"
+     ]
+    }
+   ],
+   "ranges": [
+    {
+     "id": "property-tax",
+     "label": "Municipal property tax on the car (yearly)",
+     "range": null,
+     "kind": "value",
+     "source": "cgs-12-71e",
+     "note": "Billed by your town: 70% of the car's value times the local motor vehicle mill rate, at most 32.46 mills."
+    }
+   ]
+  }
+ },
+ "singular": [
+  "Connecticut taxes a car at 6.35%, but the whole price is taxed at 7.75% when it exceeds $50,000 [cgs-12-408].",
+  "The Department of Revenue Services tests the $50,000 threshold before the trade-in is deducted, then applies the rate to the price less the trade-in [drs-sn].",
+  "DMV grants full trade-in credit only on a purchase from a licensed dealer; a private sale is taxed on the NADA average trade-in value or the bill-of-sale price, whichever is higher [dmv-tax].",
+  "A passenger registration costs $120 for three years, plus a $15 federal Clean Air Act fee that electric cars do not pay [cgs-14-49b].",
+  "Since July 1, 2025, every three-year registration carries a $24 Passport to the Parks fee, paid into the state's Passport to the Parks account [cgs-14-49b].",
+  "A new car pays a $15 greenhouse gas reduction fee at its first registration, and other vehicles pay $7.50 per three-year registration [ghg].",
+  "Cars in their first four model years skip the emissions test but pay a one-time $40 emissions exemption fee, and the test then costs $20 every two years [dmv-emissions].",
+  "Towns tax cars as property at 70% of value, and the motor vehicle mill rate cannot exceed 32.46 mills [cgs-12-71e].",
+  "Connecticut does not cap the dealer conveyance fee, but the dealer must show it separately and state that it is negotiable [cgs-14-62].",
+  "A 2016 legislative study cited by the Office of Legislative Research found an average conveyance fee of $405 at new car dealers and $131 at used car dealers [olr]."
+ ],
+ "sources": {
+  "dmv-tax": {
+   "name": "Connecticut DMV, Sales tax on registrations",
+   "url": "https://portal.ct.gov/dmv/vehicle-services/sales-tax-registrations",
+   "accessed": "2026-10-11",
+   "quote": "If your vehicle was purchased from a licensed dealership, the 6.35% (or 7.75% for vehicles over $50,000) sales and use tax is based on the purchase price. We allow full trade-in credit ... Connecticut Sales and Use Tax is based on the NADA average trade-in value or bill of sale value (whichever is higher)."
+  },
+  "cgs-12-408": {
+   "name": "Conn. Gen. Stat. § 12-408(1)(H), sales tax rates",
+   "url": "https://www.cga.ct.gov/current/pub/chap_219.htm",
+   "accessed": "2026-10-11",
+   "quote": "With respect to the sale of (i) a motor vehicle for a sales price exceeding fifty thousand dollars, at a rate of seven and three-fourths per cent on the entire sales price"
+  },
+  "drs-sn": {
+   "name": "Connecticut DRS, Special Notice SN 2011(10), motor vehicle rate and trade-in",
+   "url": "https://portal.ct.gov/DRS/Publications/Special-Notices/2011/SN-2011-10",
+   "accessed": "2026-10-11",
+   "quote": "the sales price of a motor vehicle is not changed or otherwise impacted by a trade-in, but instead is adjusted by the amount allowed for a trade-in. If the sales price of a motor vehicle exceeds $50,000 prior to the application of a trade-in; the transaction is subject to tax at the rate of 7%."
+  },
+  "dmv-fees": {
+   "name": "Connecticut DMV, All fees (estimated fees by vehicle type)",
+   "url": "https://portal.ct.gov/dmv/resources/dmv-fees",
+   "accessed": "2026-10-11",
+   "quote": "Passenger car, SUV, van (regular) $120 registration fee $5 plate fee $25 title fee $10 administrative fee $15 Clean Air Act fee $10 lien fee, if applicable ... $40 emissions exemption fee if vehicle is four years old or newer $15 greenhouse gas fee if vehicle has certificate of origin"
+  },
+  "cgs-14-49": {
+   "name": "Conn. Gen. Stat. § 14-49(a), passenger registration fee",
+   "url": "https://www.cga.ct.gov/current/pub/chap_246.htm",
+   "accessed": "2026-10-11",
+   "quote": "For the registration of each passenger motor vehicle, the fee shall be one hundred twenty dollars every three years"
+  },
+  "cgs-14-49b": {
+   "name": "Conn. Gen. Stat. § 14-49b, Clean Air Act fee and Passport to the Parks fee",
+   "url": "https://www.cga.ct.gov/current/pub/chap_246.htm",
+   "accessed": "2026-10-11",
+   "quote": "a fee of fifteen dollars for registration for a triennial period ... shall not apply to any motor vehicle that ... is electrically powered ... On and after July 1, 2025 ... a fee of twenty-four dollars for registration for a triennial period"
+  },
+  "ghg": {
+   "name": "Conn. Gen. Stat. § 22a-201c, greenhouse gas reduction fee",
+   "url": "https://www.cga.ct.gov/current/pub/chap_446c.htm",
+   "accessed": "2026-10-11",
+   "quote": "For each registration of a new motor vehicle ... a fee of fifteen dollars ... (b) For each new registration or renewal of registration of any motor vehicle, except a new motor vehicle ... seven dollars and fifty cents for registration for a triennial period"
+  },
+  "emissions-law": {
+   "name": "Conn. Gen. Stat. § 14-164c, emissions inspections and fees",
+   "url": "https://www.cga.ct.gov/current/pub/chap_246a.htm",
+   "accessed": "2026-10-11",
+   "quote": "Upon the registration of each new motor vehicle ... or of each motor vehicle that is four or less model years of age that has not been registered previously in this state ... the commissioner shall charge a fee of forty dollars"
+  },
+  "dmv-emissions": {
+   "name": "Connecticut DMV, Emissions testing overview",
+   "url": "https://portal.ct.gov/dmv/vehicle-services/emissions-testing-overview",
+   "accessed": "2026-10-11",
+   "quote": "The following vehicles are exempt from the Connecticut Emissions Program: Vehicles younger than four model-years old ... Full electric-powered vehicles (non-hybrid) ... The emissions test fee is $20.00."
+  },
+  "cgs-12-71e": {
+   "name": "Conn. Gen. Stat. §§ 12-62a and 12-71e, assessment rate and motor vehicle mill rate cap",
+   "url": "https://www.cga.ct.gov/current/pub/chap_203.htm",
+   "accessed": "2026-10-11",
+   "quote": "for the assessment year commencing October 1, 2021, and each assessment year thereafter, the mill rate for motor vehicles shall not exceed 32.46 mills. ... at a uniform rate of seventy per cent of present true and actual value"
+  },
+  "cgs-14-62": {
+   "name": "Conn. Gen. Stat. § 14-62 (2026 Supplement), dealer conveyance fee",
+   "url": "https://www.cga.ct.gov/2026/sup/chap_246.htm",
+   "accessed": "2026-10-11",
+   "quote": "The selling price quoted by any dealer to a prospective buyer shall include, separately stated, the amount of the dealer conveyance fee and that such fee is negotiable."
+  },
+  "olr": {
+   "name": "Connecticut Office of Legislative Research, Car Dealer Document Fee Caps (2023-R-0092)",
+   "url": "https://prdext3.cga.ct.gov/2023/rpt/pdf/2023-R-0092.pdf",
+   "accessed": "2026-10-11",
+   "quote": "Connecticut law does not cap the conveyance fee ... A 2016 study by the Program Review and Investigations Committee found that the average dealer conveyance fee in Connecticut was $405 for new car dealers and $131 for used car dealers."
+  }
+ }
+}

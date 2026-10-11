@@ -1,0 +1,163 @@
+{
+ "abbr": "DC",
+ "name": "District of Columbia",
+ "slug": "district-of-columbia",
+ "agency": {
+  "name": "District of Columbia Department of Motor Vehicles",
+  "short": "DC DMV",
+  "url": "https://dmv.dc.gov/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "The excise tax rate of a gasoline, hybrid or plug-in hybrid car depends on its city MPG (EPA rating, rounded down), which the form does not ask; the engine shows the official range of the car's weight class, from the 40-MPG-or-more rate to the 20-MPG-or-less rate. Electric cars have one rate per weight class and are computed.",
+  "The excise tax is charged on the fair market value from the NADA guide for the Eastern region, not on the price; the engine applies the rate to the price typed. Many vehicles are exempt, and residents who received the DC earned income tax credit may pay the older 6%, 7% or 8% weight rates instead.",
+  "The summary rate of 6% is the excise rate of a 3,500 to 4,999 lb car rated 21 to 25 city MPG; actual rates run from 1% to 11%.",
+  "DC DMV lists a $30-a-year registration card fee among additional fees without saying that every registration pays it; it is shown as a range of $0 to $30.",
+  "Electric cars get a non-expiring inspection sticker; its price is not published on the fee page, so no inspection line is added for them.",
+  "No official DC page read for this release caps the dealer processing fee; type the dealer's figure."
+ ],
+ "summary": {
+  "stateRate": 0.06,
+  "localRange": [
+   0,
+   0
+  ],
+  "taxName": "excise tax (1% to 11% by weight and MPG)",
+  "tradeInCredit": false,
+  "titleFee": 30,
+  "regMethod": "weight",
+  "regYears": 1,
+  "docFeeCap": null,
+  "docFeeNote": "No cap read on an official DC page for this release; type the dealer's fee.",
+  "evFee": null,
+  "phevFee": null,
+  "hybridFee": null,
+  "inspection": "emissions",
+  "inspectionWhere": "Emissions inspection every two years at the DC inspection station, paid with the registration; brand-new cars get a four-year sticker and electric cars a non-expiring one.",
+  "inspectionFee": 35,
+  "annualValueTax": false
+ },
+ "params": {
+  "excise": {
+   "_src": "excise",
+   "mpgBands": [
+    "20 or less",
+    "21-25",
+    "26-30",
+    "31-39",
+    "40 or more"
+   ],
+   "rows": [
+    {
+     "upTo": 3499,
+     "byMpg": [
+      0.09,
+      0.05,
+      0.031,
+      0.022,
+      0.015
+     ],
+     "ev": 0.01
+    },
+    {
+     "upTo": 4999,
+     "byMpg": [
+      0.1,
+      0.06,
+      0.041,
+      0.032,
+      0.025
+     ],
+     "ev": 0.02
+    },
+    {
+     "upTo": null,
+     "byMpg": [
+      0.11,
+      0.07,
+      0.051,
+      0.042,
+      0.035
+     ],
+     "ev": 0.03
+    }
+   ]
+  },
+  "reg": {
+   "_src": "reg-fees",
+   "rows": [
+    {
+     "upTo": 3499,
+     "amount": 70
+    },
+    {
+     "upTo": 4999,
+     "amount": 175
+    },
+    {
+     "upTo": 5999,
+     "amount": 300
+    },
+    {
+     "upTo": null,
+     "amount": 550
+    }
+   ],
+   "overLbs": 10000,
+   "perThousandOver": 75,
+   "bev": {
+    "amount": 40,
+    "years": 2,
+    "underLbs": 5000,
+    "subtractLbs": 1000
+   }
+  },
+  "title": 30,
+  "inspection": {
+   "_src": "inspection-fees",
+   "newSticker": 10,
+   "newYears": 4,
+   "fee": 35,
+   "years": 2
+  },
+  "regCard": 30
+ },
+ "singular": [
+  "DC has no sales tax on cars: it charges an excise tax at titling, on the car's NADA fair market value [excise].",
+  "Since February 17, 2025, the excise rate depends on both unladen weight and city MPG, from 1% for a light electric car to 11% for a car of 5,000 lb or more rated 20 MPG or less [excise].",
+  "Electric cars lost their excise tax exemption in 2025 and now pay 1%, 2% or 3% depending on weight [excise].",
+  "Registration fees by weight rose on March 30, 2026: $70 a year up to 3,499 lb, $175 from 3,500 to 4,999 lb and $300 from 5,000 to 5,999 lb [reg-fees].",
+  "A brand-new battery electric car under 5,000 lb pays $40 a year for its first two registration years, then subtracts 1,000 lb from its weight to find its class [reg-fees].",
+  "The title fee rose to $30 on March 30, 2026, and each lien adds $20 [excise].",
+  "Inspection fees are collected with the registration: $10 for a new car's four-year sticker, then $35 every two years [inspection-fees].",
+  "Brand-new passenger cars are not taken through inspection, and fully electric passenger cars receive a non-expiring inspection sticker [inspections].",
+  "Since December 15, 2025, DC DMV adds a 2.5% service fee to every card payment [excise]."
+ ],
+ "sources": {
+  "excise": {
+   "name": "DC DMV, Vehicle Title and Excise Tax Fees",
+   "url": "https://dmv.dc.gov/book/dmv-fees/dmv-fees-0",
+   "accessed": "2026-10-11",
+   "quote": "Vehicle Title Only (New and Replacement) $30.00 ... Fair Market Value (FMV) * MPG Taxable Percentage (%) ... 3,500 - 4,999 10.0% 6.0% 4.1% 3.2% 2.5% 2.0% ... Electric vehicles will no longer be exempt from vehicle excise tax."
+  },
+  "reg-fees": {
+   "name": "DC DMV, Vehicle Registration Fees",
+   "url": "https://dmv.dc.gov/book/dmv-fees/vehicle-registration-fees",
+   "accessed": "2026-10-11",
+   "quote": "Annual Fees Effective March 30, 2026 Passenger Class I <= 3499 $70.00 Passenger Class II 3500 - 4999 $175.00 ... Class V Battery Electric Vehicles $40.00 ... may subtract 1000 lbs from its manufacture’s weight. ... Registration Card $30.00/yr"
+  },
+  "inspection-fees": {
+   "name": "DC DMV, Vehicle Inspection Fees",
+   "url": "https://dmv.dc.gov/book/dmv-fees/dmv-fees-3",
+   "accessed": "2026-10-11",
+   "quote": "All Vehicle Inspection Fees are collected at the time of vehicle registration and registration renewal. ... New Vehicle Inspection Sticker for Privately Owned / Not For Hire Vehicle $10.00/4 years ... Privately Owned / Not For Hire Vehicle $35.00/2 years"
+  },
+  "inspections": {
+   "name": "DC DMV, Inspections",
+   "url": "https://dmv.dc.gov/inspections",
+   "accessed": "2026-10-11",
+   "quote": "Brand new, passenger class vehicles that have a manufacturer’s Certificate of Origin ... will automatically receive a 4-year new car inspection sticker upon registration. ... Fully electric passenger class vehicles will receive a non-expiring inspection sticker."
+  }
+ }
+}

@@ -1,0 +1,473 @@
+{
+ "abbr": "ID",
+ "name": "Idaho",
+ "slug": "idaho",
+ "agency": {
+  "name": "Idaho Transportation Department, Division of Motor Vehicles",
+  "short": "ITD DMV",
+  "url": "https://itd.idaho.gov/dmv/"
+ },
+ "taxAgency": {
+  "name": "Idaho State Tax Commission",
+  "url": "https://tax.idaho.gov/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "Plates: the engine adds two standard plates at $3.75 each; ITD's estimator also counts mailing and other plate charges that are not published as a single figure, and a buyer who keeps an existing plate pays no plate fee.",
+  "The Idaho Code page lists the age bands of the registration fee without the dollar amounts in the copy read, so the amounts ($69, $57, $45) come from the ITD registration page, and the age bands (up to 2 years old, 3 to 6, 7 and older, counted as the registration year minus the model year) from the ITD estimator.",
+  "Some Idaho resort cities levy local option sales taxes; whether they reach a vehicle sale was not stated in the Tax Commission guide read, so the engine charges the 6% state tax only.",
+  "The county registration admin fee is shown on every registration; a renewal processed by ITD online or by phone may carry a different processing fee.",
+  "No official Idaho page read for this release caps the dealer documentation fee; type the dealer's figure (the fee is taxable)."
+ ],
+ "summary": {
+  "stateRate": 0.06,
+  "localRange": [
+   0,
+   0
+  ],
+  "taxName": "sales and use tax",
+  "tradeInCredit": true,
+  "titleFee": 14,
+  "regMethod": "age",
+  "regYears": 1,
+  "docFeeCap": null,
+  "docFeeNote": "No cap read on an official Idaho page for this release; the documentation fee is part of the taxable price.",
+  "evFee": 140,
+  "phevFee": 75,
+  "hybridFee": null,
+  "inspection": "none",
+  "inspectionWhere": "No inspection for passenger cars; Ada County's emissions testing program ended on June 30, 2023.",
+  "inspectionFee": null,
+  "annualValueTax": false
+ },
+ "params": {
+  "g": {
+   "tax": {
+    "label": "Sales and use tax (6%)",
+    "rate": 0.06,
+    "tradeInCredit": true,
+    "docFeeTaxable": true,
+    "source": "istc",
+    "note": "The dealer documentation fee is taxed; a trade-in counts only on a dealer sale."
+   },
+   "once": [
+    {
+     "id": "title",
+     "label": "State title fee",
+     "amount": 14,
+     "source": "itd-reg",
+     "kind": "title"
+    },
+    {
+     "id": "plate",
+     "label": "Two standard license plates",
+     "amount": 7.5,
+     "source": "plates",
+     "kind": "plate",
+     "note": "$3.75 per plate; specialty or personalized plates cost more."
+    }
+   ],
+   "reg": {
+    "label": "Registration (by vehicle age, 1 year)",
+    "source": "itd-reg",
+    "type": "age",
+    "brackets": [
+     {
+      "upTo": 2,
+      "amount": 69
+     },
+     {
+      "upTo": 6,
+      "amount": 57
+     },
+     {
+      "upTo": null,
+      "amount": 45
+     }
+    ]
+   },
+   "cycle": [
+    {
+     "id": "ems",
+     "label": "Emergency Medical Services fee",
+     "amount": 1.25,
+     "source": "itd-reg",
+     "kind": "registration"
+    },
+    {
+     "id": "isp",
+     "label": "Idaho State Police fee",
+     "amount": 3,
+     "source": "estimator",
+     "kind": "registration"
+    },
+    {
+     "id": "achd",
+     "label": "Ada County Highway District registration fee",
+     "amount": 40,
+     "source": "achd",
+     "kind": "local",
+     "if": {
+      "countyFlag": "achd",
+      "maxAge": 2
+     }
+    },
+    {
+     "id": "achd-3-7",
+     "label": "Ada County Highway District registration fee",
+     "amount": 36,
+     "source": "achd",
+     "kind": "local",
+     "if": {
+      "countyFlag": "achd",
+      "minAge": 3,
+      "maxAge": 7
+     }
+    },
+    {
+     "id": "achd-8",
+     "label": "Ada County Highway District registration fee",
+     "amount": 24,
+     "source": "achd",
+     "kind": "local",
+     "if": {
+      "countyFlag": "achd",
+      "minAge": 8
+     }
+    }
+   ],
+   "ev": {
+    "ev": 140,
+    "phev": 75,
+    "source": "itd-reg",
+    "label": "Electric or plug-in hybrid vehicle fee"
+   },
+   "countyFeeLabel": "County registration admin fee",
+   "countyFeeSource": "itd-reg"
+  }
+ },
+ "counties": [
+  {
+   "id": "ada-county",
+   "name": "Ada County",
+   "localFee": 9.5,
+   "titleAdmin": 7.0,
+   "achd": true
+  },
+  {
+   "id": "adams-county",
+   "name": "Adams County",
+   "localFee": 7.5,
+   "titleAdmin": 6.0
+  },
+  {
+   "id": "bannock-county",
+   "name": "Bannock County",
+   "localFee": 7.0,
+   "titleAdmin": 0.0
+  },
+  {
+   "id": "bear-lake-county",
+   "name": "Bear Lake County",
+   "localFee": 4.0,
+   "titleAdmin": 6.0
+  },
+  {
+   "id": "benewah-county",
+   "name": "Benewah County",
+   "localFee": 7.0,
+   "titleAdmin": 7.0
+  },
+  {
+   "id": "bingham-county",
+   "name": "Bingham County",
+   "localFee": 7.15,
+   "titleAdmin": 6.0
+  },
+  {
+   "id": "blaine-county",
+   "name": "Blaine County",
+   "localFee": 7.25,
+   "titleAdmin": 18.75
+  },
+  {
+   "id": "boise-county",
+   "name": "Boise County",
+   "localFee": 9.5,
+   "titleAdmin": 0.0
+  },
+  {
+   "id": "bonner-county",
+   "name": "Bonner County",
+   "localFee": 9.5,
+   "titleAdmin": 10.0
+  },
+  {
+   "id": "bonneville-county",
+   "name": "Bonneville County",
+   "localFee": 8.0,
+   "titleAdmin": 6.0
+  },
+  {
+   "id": "boundary-county",
+   "name": "Boundary County",
+   "localFee": 6.5,
+   "titleAdmin": 6.0
+  },
+  {
+   "id": "butte-county",
+   "name": "Butte County",
+   "localFee": 3.75,
+   "titleAdmin": 3.0
+  },
+  {
+   "id": "camas-county",
+   "name": "Camas County",
+   "localFee": 3.5,
+   "titleAdmin": 0.0
+  },
+  {
+   "id": "canyon-county",
+   "name": "Canyon County",
+   "localFee": 9.5,
+   "titleAdmin": 7.0
+  },
+  {
+   "id": "caribou-county",
+   "name": "Caribou County",
+   "localFee": 3.5,
+   "titleAdmin": 0.0
+  },
+  {
+   "id": "cassia-county",
+   "name": "Cassia County",
+   "localFee": 8.0,
+   "titleAdmin": 6.0
+  },
+  {
+   "id": "clark-county",
+   "name": "Clark County",
+   "localFee": 6.0,
+   "titleAdmin": 0.0
+  },
+  {
+   "id": "clearwater-county",
+   "name": "Clearwater County",
+   "localFee": 7.0,
+   "titleAdmin": 5.5
+  },
+  {
+   "id": "custer-county",
+   "name": "Custer County",
+   "localFee": 5.0,
+   "titleAdmin": 6.0
+  },
+  {
+   "id": "elmore-county",
+   "name": "Elmore County",
+   "localFee": 8.5,
+   "titleAdmin": 7.0
+  },
+  {
+   "id": "franklin-county",
+   "name": "Franklin County",
+   "localFee": 6.0,
+   "titleAdmin": 6.0
+  },
+  {
+   "id": "fremont-county",
+   "name": "Fremont County",
+   "localFee": 7.0,
+   "titleAdmin": 7.0
+  },
+  {
+   "id": "gem-county",
+   "name": "Gem County",
+   "localFee": 9.5,
+   "titleAdmin": 11.5
+  },
+  {
+   "id": "gooding-county",
+   "name": "Gooding County",
+   "localFee": 5.5,
+   "titleAdmin": 11.0
+  },
+  {
+   "id": "idaho-county",
+   "name": "Idaho County",
+   "localFee": 5.0,
+   "titleAdmin": 5.0
+  },
+  {
+   "id": "jefferson-county",
+   "name": "Jefferson County",
+   "localFee": 6.0,
+   "titleAdmin": 7.0
+  },
+  {
+   "id": "jerome-county",
+   "name": "Jerome County",
+   "localFee": 6.0,
+   "titleAdmin": 4.0
+  },
+  {
+   "id": "kootenai-county",
+   "name": "Kootenai County",
+   "localFee": 14.0,
+   "titleAdmin": 10.0
+  },
+  {
+   "id": "latah-county",
+   "name": "Latah County",
+   "localFee": 8.0,
+   "titleAdmin": 7.0
+  },
+  {
+   "id": "lemhi-county",
+   "name": "Lemhi County",
+   "localFee": 5.0,
+   "titleAdmin": 6.0
+  },
+  {
+   "id": "lewis-county",
+   "name": "Lewis County",
+   "localFee": 3.0,
+   "titleAdmin": 5.0
+  },
+  {
+   "id": "lincoln-county",
+   "name": "Lincoln County",
+   "localFee": 8.3,
+   "titleAdmin": 10.0
+  },
+  {
+   "id": "madison-county",
+   "name": "Madison County",
+   "localFee": 6.0,
+   "titleAdmin": 6.0
+  },
+  {
+   "id": "minidoka-county",
+   "name": "Minidoka County",
+   "localFee": 12.0,
+   "titleAdmin": 6.0
+  },
+  {
+   "id": "nez-perce-county",
+   "name": "Nez Perce County",
+   "localFee": 7.0,
+   "titleAdmin": 11.0
+  },
+  {
+   "id": "oneida-county",
+   "name": "Oneida County",
+   "localFee": 5.0,
+   "titleAdmin": 6.0
+  },
+  {
+   "id": "owyhee-county",
+   "name": "Owyhee County",
+   "localFee": 7.5,
+   "titleAdmin": 7.0
+  },
+  {
+   "id": "payette-county",
+   "name": "Payette County",
+   "localFee": 4.0,
+   "titleAdmin": 7.0
+  },
+  {
+   "id": "power-county",
+   "name": "Power County",
+   "localFee": 5.0,
+   "titleAdmin": 0.0
+  },
+  {
+   "id": "shoshone-county",
+   "name": "Shoshone County",
+   "localFee": 6.0,
+   "titleAdmin": 10.0
+  },
+  {
+   "id": "teton-county",
+   "name": "Teton County",
+   "localFee": 8.5,
+   "titleAdmin": 5.0
+  },
+  {
+   "id": "twin-falls-county",
+   "name": "Twin Falls County",
+   "localFee": 7.25,
+   "titleAdmin": 2.0
+  },
+  {
+   "id": "valley-county",
+   "name": "Valley County",
+   "localFee": 8.25,
+   "titleAdmin": 15.0
+  },
+  {
+   "id": "washington-county",
+   "name": "Washington County",
+   "localFee": 5.0,
+   "titleAdmin": 6.0
+  }
+ ],
+ "defaultCounty": "ada-county",
+ "singular": [
+  "Idaho taxes a car at the flat 6% state rate, collected by the county when the buyer applies for title after a private sale [istc].",
+  "A dealer documentation fee is part of the taxable price in Idaho, but a trade-in lowers it only on a dealer sale [istc].",
+  "Registration depends on age: $69 a year for a car up to two years old, $57 from three to six years and $45 after that [itd-reg].",
+  "Electric cars add $140 a year and plug-in hybrids $75, while ordinary hybrids pay nothing extra [itd-reg].",
+  "Each county adds its own admin fees, from $3 to $14 per registration and from $0 to $18.75 on top of the $14 state title fee [itd-reg].",
+  "Ada County drivers also pay the Ada County Highway District fee of $40, $36 or $24 a year depending on age, which voters decide on November 3, 2026 whether to extend beyond 2028 [achd].",
+  "Idaho no longer requires any emissions test: the Ada County program, in place since 1984, ended on June 30, 2023 [compass].",
+  "The registration fee is charged in lieu of a personal property tax on the car, so Idaho has no yearly tax on its value [minidoka].",
+  "Since July 1, 2026, Idaho stopped issuing registration stickers and no longer replaces plates every ten years [plates]."
+ ],
+ "sources": {
+  "itd-reg": {
+   "name": "Idaho Transportation Department, Vehicle registration",
+   "url": "https://itd.idaho.gov/dmv/vehicle-registration/",
+   "accessed": "2026-10-11",
+   "quote": "Additional Fee – Emergency Medical Services (EMS) $1.25 Passenger Vehicle (1 or 2 years old) $69.00 Passenger Vehicle (3 or 6 years old) $57.00 Passenger Vehicle (7 or more years old) $45.00 ... Electric Vehicles Adds $140 per year ... Plug-in Hybrid Vehicles Adds $75 per year"
+  },
+  "estimator": {
+   "name": "Idaho Transportation Department, Idaho Registration Estimator",
+   "url": "https://apps.itd.idaho.gov/Apps/Fund/Dealer/IdahoRegistrationEstimator/LaunchEstimator.html",
+   "accessed": "2026-10-11",
+   "quote": "EMS and ISP Fees ($1.25 + $3.00 / year): ... New to 2 year old ... 2026 - 2024 ... Three to six years old ... 2023 - 2020 ... Seven years old ... 2019 ... HDR Fee (Ada Co. only)"
+  },
+  "achd": {
+   "name": "Ada County Highway District, Vehicle Registration Fee",
+   "url": "https://www.achdidaho.org/my-commute/commuter-resources/vehicle-registration-fee",
+   "accessed": "2026-10-11",
+   "quote": "Vehicles more than seven (7) years old: $24 Vehicles three (3) to seven (7) years old: $36 Vehicles one (1) and two (2) years old: $40"
+  },
+  "istc": {
+   "name": "Idaho State Tax Commission, Sales and Use Tax Guide for Vehicle Transactions (EPB00060)",
+   "url": "https://tax.idaho.gov/document-mngr/sales-and-use-tax-guide-for-vehicle-transactions",
+   "accessed": "2026-10-11",
+   "quote": "Documentation fees are services the dealer agrees to provide as part of the sale. These services are included in the taxable sales price of the vehicle. ... Trade-ins aren’t allowed for private-party sales. ... He owes Idaho tax at 6%"
+  },
+  "plates": {
+   "name": "Idaho Transportation Department, License plates",
+   "url": "https://itd.idaho.gov/?p=3247",
+   "accessed": "2026-10-11",
+   "quote": "As of July 1, 2026, the DMV will stop providing registration stickers and license plates will no longer be replaced every ten years. ... Standard plates cost $3.75 per plate."
+  },
+  "compass": {
+   "name": "Air Quality Board (COMPASS), Last Day for Emissions Testing in Ada County",
+   "url": "https://compassidaho.org/wp-content/uploads/NewsRelease_TestingEnd.pdf",
+   "accessed": "2026-10-11",
+   "quote": "Today, June 30, 2023, marks the last day of Ada County’s emissions testing program, in place since 1984. The program will officially end at midnight tonight."
+  },
+  "minidoka": {
+   "name": "Minidoka County Assessor, Motor Vehicle Licenses",
+   "url": "https://minidokacounty.id.gov/153/Motor-Vehicle-Licenses",
+   "accessed": "2026-10-11",
+   "quote": "The operating fee for motor vehicles in Idaho is in lieu of personal property taxes (§49-401, I.C.)."
+  }
+ }
+}

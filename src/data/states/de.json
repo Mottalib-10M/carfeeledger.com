@@ -1,0 +1,142 @@
+{
+ "abbr": "DE",
+ "name": "Delaware",
+ "slug": "delaware",
+ "agency": {
+  "name": "Delaware Division of Motor Vehicles",
+  "short": "DMV",
+  "url": "https://dmv.de.gov/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "The document fee is due on the purchase price or the NADA book value, whichever is greater; the form does not ask the book value, so the engine uses the price (a low private-sale price would owe more).",
+  "The engine applies the statutory steps of 30 Del. C. § 3002(c) ($13.75 for the first $500, then $5.25 per extra $100 or fraction). The DMV fee page summarizes the same fee as a flat 5.25% of the price, which gives about $12.50 more on any price above $500; the DMV receipt is the final word.",
+  "Whether a dealer documentation fee counts in the 'purchase price' is not stated in the law read; the engine leaves it out of the document fee base.",
+  "The alternative fuel fee depends on the gross load weight (empty weight plus maximum load): the engine applies the 6,000 lb-or-less amounts ($110 electric, $85 plug-in hybrid, $60 hybrid); a heavier SUV or pickup pays $150, $115 or $80.",
+  "No official Delaware page read for this release caps the dealer documentation fee; type the dealer's figure."
+ ],
+ "summary": {
+  "stateRate": 0.0525,
+  "localRange": [
+   0,
+   0
+  ],
+  "taxName": "motor vehicle document fee",
+  "tradeInCredit": true,
+  "titleFee": 35,
+  "regMethod": "flat",
+  "regYears": 1,
+  "docFeeCap": null,
+  "docFeeNote": "No cap read on an official Delaware page for this release; type the dealer's fee.",
+  "evFee": 110,
+  "phevFee": 85,
+  "hybridFee": 60,
+  "inspection": "both",
+  "inspectionWhere": "Safety and emissions inspection at the DMV's own lanes, free, every two years; vehicles in their first seven model years are exempt.",
+  "inspectionFee": 0,
+  "annualValueTax": false
+ },
+ "params": {
+  "docFee": {
+   "_src": "code-30",
+   "under400": 8,
+   "upTo500": 13.75,
+   "per100": 5.25
+  },
+  "g": {
+   "tax": {
+    "label": "Motor vehicle document fee (5.25%)",
+    "rate": 0.0525,
+    "tradeInCredit": true,
+    "docFeeTaxable": false,
+    "source": "code-30",
+    "note": "Charged on the purchase price less the trade-in."
+   },
+   "once": [
+    {
+     "id": "title",
+     "label": "Certificate of title",
+     "amount": 35,
+     "source": "fees",
+     "kind": "title",
+     "note": "$55 when a lien is recorded."
+    }
+   ],
+   "reg": {
+    "label": "Passenger car registration (1 year)",
+    "source": "code-21",
+    "type": "flat",
+    "amount": 40
+   },
+   "cycle": [],
+   "ev": {
+    "ev": 110,
+    "phev": 85,
+    "hybrid": 60,
+    "source": "code-21",
+    "label": "Alternative fuel registration fee"
+   },
+   "inspection": [
+    {
+     "id": "inspection",
+     "label": "Safety and emissions inspection at a DMV lane (free)",
+     "amount": 0,
+     "years": 2,
+     "source": "dnrec",
+     "newExemptYears": 7,
+     "note": "Every other year once the car is seven model years old; no charge."
+    }
+   ]
+  }
+ },
+ "singular": [
+  "Delaware has no sales tax; a car is taxed through a motor vehicle document fee raised from 4.25% to 5.25% on October 1, 2025 [news-2025].",
+  "The document fee is charged on the purchase price or the NADA book value, whichever is greater, with a minimum of $8 [fees].",
+  "The law computes the fee in steps: $13.75 for a price of $400 to $500, then $5.25 for each additional $100 or fraction, rounded to the nearest dollar [code-30].",
+  "A trade-in lowers the purchase price, and a car sold privately within 60 days of buying the new one earns the same credit [code-30].",
+  "A passenger car pays a flat $40 a year to register, whatever its weight [code-21].",
+  "Since October 1, 2025, hybrids pay an extra $60 a year, plug-in hybrids $85 and electric cars $110 when their gross load weight is 6,000 lb or less [code-21].",
+  "A certificate of title costs $35, or $55 when a lien is recorded [fees].",
+  "Inspections are done by the state at DMV lanes at no charge, every other year, and the first seven model years are exempt from emissions testing [dnrec].",
+  "Vehicles six years old get a one-year renewal without inspection, while older vehicles get a two-year renewal after passing inspection [registration]."
+ ],
+ "sources": {
+  "code-30": {
+   "name": "30 Del. C. §§ 3001-3002, motor vehicle document fee",
+   "url": "https://delcode.delaware.gov/title30/c030/index.html",
+   "accessed": "2026-10-11",
+   "quote": "(2) Where the purchase price is $400 or more, up to and including $500, the document fee shall be $13.75; (3) The document fee payable thereafter shall increase in increments of $5.25 per each additional $100 of purchase price or any fraction thereof, rounded to the nearest dollar"
+  },
+  "news-2025": {
+   "name": "State of Delaware News, DMV Fees Increase in October 2025",
+   "url": "https://news.delaware.gov/2025/09/30/dmv-fees-increase-in-october-2025/",
+   "accessed": "2026-10-11",
+   "quote": "Effective October 1, 2025, the document fee charged when titling a vehicle in the State of Delaware will increase from 4.25% to 5.25%."
+  },
+  "fees": {
+   "name": "Delaware DMV, DMV Fees",
+   "url": "https://dmv.de.gov/Common/DMVFees/index.shtml",
+   "accessed": "2026-10-11",
+   "quote": "Title with Lien $55.00 Title without Lien $35.00 ... Document Fee: 5.25% of purchase price or NADA book value, whichever is greater. ... Minimum document fee is $8.00."
+  },
+  "code-21": {
+   "name": "21 Del. C. §§ 2151-2151A, registration and alternative fuel registration fees",
+   "url": "https://delcode.delaware.gov/title21/c021/sc04/index.html",
+   "accessed": "2026-10-11",
+   "quote": "each motor vehicle commonly used for pleasure or for the chief purpose of carrying persons ... $40 per year. ... an electric motor vehicle ... a fee of $110 per year if the gross load weight is 6,000 pounds or less."
+  },
+  "dnrec": {
+   "name": "Delaware DNREC, Inspection and Maintenance",
+   "url": "https://dnrec.delaware.gov/air/mobile-sources/inspection-maintenance",
+   "accessed": "2026-10-11",
+   "quote": "The inspection requirement is biennial, requiring vehicles to pass safety and emission inspections once every other year. Inspections are performed at no charge to the vehicle owner. The first seven model years are exempt from emissions testing."
+  },
+  "registration": {
+   "name": "Delaware DMV, Vehicle Registration Renewals",
+   "url": "https://dmv.de.gov/VehicleServices/registration/index.shtml",
+   "accessed": "2026-10-11",
+   "quote": "Vehicles that are six years old receive a one-year renewal without inspection ; all others receive a two-year renewal with a passing inspection. ... The fee for motor vehicles weighing 5,000 pounds or less is forty dollars ($40.00) per year."
+  }
+ }
+}

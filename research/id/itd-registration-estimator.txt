@@ -1,0 +1,267 @@
+SOURCE: https://apps.itd.idaho.gov/Apps/Fund/Dealer/IdahoRegistrationEstimator/LaunchEstimator.html (ITD Idaho Registration Estimator, Storyline package html5/data/js/*.js) read 2026-10-11
+Text strings shown to the user:
+  Idaho Transportation Department Logo
+  ITD-DMV-Idaho_Logo
+  Idaho Registration Estimator
+  Reset Vehicle Options Button
+  Reset Options
+  Continue Button
+  Continue 
+  The current registration is being transferred from a:
+  Passenger Vehicle Option
+  Passenger Vehicle
+  Weighted Vehicle (8,001+ lbs.) Option
+  Weighted Vehicle (8,001+ lbs.)
+  Motorcycle Option
+  Motorcycle
+  Start Over Button
+  Start Over
+  The current plate will be:
+  Put on the replacement  vehicle
+  Replaced / Upgraded to a Special Plate
+  Number of Months to Transfer:
+  Maximum Gross Weight (pounds):
+  50,001 to 60,000
+  40,001 to 50,000
+  30,001 to 40,000
+  26,001 to 30,000
+  16,001 to 26,000
+    8,001 to 16,000
+  8001 to 16000 pounds option
+  8001 to 16000 pounds Selected
+  16001 to 26000 Pounds 
+  16001 to 26000 Pounds Selected
+  260001 to 30000 pounds 
+  260001 to 30000 pounds Selected
+  30001 to 40000 pounds
+  30001 to 40000 pounds Selected
+  40001 to 50000 Pounds Option
+  40001 to 50000 Pounds Selected
+  50001 to 60000 pounds option
+  50001 to 60000 pounds Selected
+  The current registration must be for a:
+  Commercial  Vehicle
+  Non-commercial Vehicle
+  Commercial Option
+  Commercial Selected
+  Oval 2
+  Non-commercial Option
+  Year of Manufacture:
+  2018, and prior years
+  2019
+  2023 - 2020
+  2026 - 2024
+  New to 2 year old Selected
+  Zero to two years old Selected
+  Three to six years old
+  Three to six years old Selected
+  Seven years old 
+  Seven years old Selected
+  Eight years older and older 
+  Eight years older and older Selected
+  Select, if applicable:
+  Plug in Hybrid Option
+  Plug In Hybrid Vehicle Selected
+  Electric Vehicle Option
+  Electric Vehicle Selected
+  Plug-in Hybrid
+  Electric
+  Reset Weight Button
+  Reset Weight
+  8000 to 16000 Pounds Option
+  8001 to 16000 pounds selected
+  16001 to 26000 Pounds Option
+  26001 to 30000 Pounds Option
+  26001 to 30000 Pounds Selected
+  30001 to 40000 Pounds Option
+  30001 to 40000 Pounds Selected
+  40001 to 50000 pounds Selected
+  50001 to 60000 Pounds Option
+  50001 to 60000 Pounds Selected
+  New “Weighted” Registration
+  Please contact Commercial Motor Vehicle Services for registrations of commercial vehicles weighing for more than 26,000 lbs.
+  Is the vehicle being registered in Ada County?
+  Yes-Ada-County-Option
+  Yes Ada County Selected
+  Yes
+  No-Ada-County-Option
+  Not Ada County Selected
+  Is the combined weight of the vehicle and any towed items over 8,000 pounds?
+  Yes-Over-8000-Pounds-Option
+  Yes Over 8000 Pounds Selected
+  No-Under-8000-Pounds-Option
+  Not 8000 Pounds Selected
+  Do you want to register the vehicle for one or two years?
+  One-Year-Option
+  One Year Selected
+  Two-Year-Option
+  Two Year Option Selected
+  Two years
+  One year
+  Yes-Commercial-Option
+  Yes Commercial Selected
+  Not-Commercial-Option
+  Not Commercial Selected
+  Reset Answers Button
+  Reset Answers
+  Is this a commercial vehicle?
+  Continue to Registration Options Button
+  Continue to Registration
+  What type of vehicle is being registered?
+  Motorcycle-Option
+  Motorcycle-Option Selected
+  Passenger Vehicle or Truck
+  Passenger-Vehicle-or-Truck-Option
+  Passenger Vehicle or Truck Selected
+  Is a new or transferred registration?
+  Transfer-Registration-Option
+  Transfer Registration Selected
+  New
+  New-Registration-Option
+  New Registration Option Selected
+  Transfer
+  This estimator is for passenger vehicles, light trucks and motorcycles. For recreational vehicles please use the RV Registration Estimator.
+  Motorcycle Plate Options:
+  Reset Plate Options Button
+  Reset Plate Options
+  Personalized Military Veteran +$50.00 Initial, $30.00 Renewal Fee
+  Military Veteran, (see ITD for other Military Plate options) +$25.00 Initial, $15.00 Renewal Fee
+  Personalized Scenic Idaho (Approval Required) +$25.00 Initial, $15.00 Renewal Fee 
+  Standard Scenic Idaho Motorcycle Plate
+  Standard Scenic Idaho Motorcycle Plate Option
+  Standard Motorcycle Plate Selected
+  Peronalized Standard Scenic Idaho Motorcycle Plate Option
+  Personalized Standard Motorcycle Plate Selected
+  Military Veteran Motorcycle Plate Option
+  Military Motorcycle Plate Selected
+  Personalized Military Veteran Motorcycle Plate Option
+  Personalized Military Veteran Motorcycle Plate Selected
+  For classic or custom vehicles please visit this link.
+  Calculate Total Fees Button
+  Calculate Total Fees
+  Add an Idaho Parks Passport ($10 per year)
+  The Current Motorcycle Plate to be Used is a:
+  Personalized Military Veteran (+$30.00 per Year Renewal Fee, if applicable)
+  Military Veteran (+$15.00 per Year Renewal Fee, if applicable)
+  Personalized Scenic Idaho (+$15.00 per Year Renewal Fee, if applicable) 
+  Scenic Idaho Motorcycle Plate Selected
+  Military Veteran Motorcycle Plate Selected
+  Personalized Veteran Motorcycle Plate Selected
+  1 month
+  2 months
+  3 months
+  Number of Months for new Registration:
+  4 months
+  5 months
+  6 months
+  7 months
+  8 months
+  9 months
+  10 months
+  11 months
+  12 months
+  Reset Years
+  2026 to 2024 Option
+  Zero to 2 Years Old Selected
+  2023 to 2020 Option
+  2019 Option
+  Seven year old Selected
+  2018 and Older Option
+  Eight years old or older Selected
+  The new registration is for a:
+  13 months
+  14 months
+  15 months
+  16 months
+  17 months
+  18 months
+  19 months
+  20 months
+  21 months
+  22 months
+  23 months
+  24 months
+  25 months
+  Plug-In Hybrid Option
+  Plug In Hybrid Selected
+  Full Electric Option
+  Full Electric Vehicle Selected
+  Continue to Plate Options Button
+  Continue to Plate Options
+  One Year
+  Two Years
+  The Current Passenger Vehicle Plate to be Used is a:
+  Personalized Specialty Plate (+$40.00 per Year Renewal Fee, if applicable)
+  Specialty Program Plate (+$25.00 per Year Renewal Fee, if applicable)
+  Personalized Scenic Idaho (+$15.00 per Year Renewal Fee, if applicable)
+  Standard Scenic Idaho with County Designator
+  Standard Scenic Idaho with County Designator Plate Option
+  Standard Scenic Plate Selected
+  Personalized Scenic Idaho Plate Option
+  Personalized Standard Plate Selected
+  Personalized Teal and White Famous Potatoes (+$15.00 per Year Renewal Fee, if applicable)
+  Teal and White World Famous Potatoes
+  Teal and White World Famous Potatoes Plate Option
+  Teal and White Plate Selected
+  Personalized Teal and White World Famous Potatoes Plate Option
+  Personalized Teal and White Plate Selected
+  Personalized Black and White Famous Potatoes (+$65.00 per Year Renewal Fee, if applicable)
+  Black and White World Famous Potatoes (+$50.00 per Year Renewal Fee, if applicable)
+  Black and White World Famous Potatoes Plate Option
+  Black and White Plate Selected
+  Personalized Black and White World Famous Potatoes Plate Option
+  Personalized Black and White Plate Selected
+  Specialty Program Plate Optionl
+  Special Program Plate Selected
+  Personalized Specialty Program Plate Option
+  Personalized Specialty Plate Selected
+  Military Veteran Plate Option
+  Military Plate Selected
+  Personalized Military Veteran Plate Option
+  Personalized Military Plate Selected
+  Passenger Vehicle Plate Options:
+  Military Veteran (see ITD for other Military Plate options) +$25.00 Initial, $15.00 Renewal Fee
+  Personalized* Specialty Plate (see ITD Form 3425) +$60.00 Initial, $40.00 Renewal Fee 
+  Specialty Program Plate (see ITD Form 3425 for options) +$35.00 Initial, $25.00 Renewal Fee
+  Personalized* Scenic Idaho +$25.00 Initial, $15.00 Renewal Fee 
+  Standard Scenic Idaho with County Designator, if applicable
+  Standard Plate Selected
+  Personalized* Teal and White Famous Potatoes +$25.00 Initial, $15.00 Renewal Fee 
+  Personalized* Black and White Famous Potatoes +$95.00 Initial, $65.00 Renewal Fee 
+  Black and White World Famous Potatoes +$70.00 Initial, $50.00 Renewal Fee 
+  Specialty Program Plate Option
+  Specialty Plate Selected
+  Military Plate Option Selected
+  Some programs require additional qualification documents. Please see the plate application for more information.
+  *  All personalized plates are subject to approval 
+  Total Estimated Fees: $
+  Base Registration Fee
+  Total Plate Fee: 
+  Transfer Fee (If applicable):
+  5.00
+  transfer credit:          
+  Specialty / Military Plate Program Fee:
+  HDR Fee (Ada Co. only) 
+  Hybrid Vehicle Fee:        $
+  Electric Vehicle Fee:       $
+  $  
+  Total Prorated Registration Fee:
+  Basic Plate Fee (Metal, Heritage Trust if applicable, Mailing):
+  County administrative fees (click here), and sales tax are not included in the estimate below.
+  Personalized Plate Fee:
+  Parks Passport Fee:
+  6.00
+  8.05
+  11.15
+  10.80
+  13.50
+  less
+  EMS and ISP Fees ($1.25 + $3.00 / year):
+  8.50
+  4.25
+  0.00
+  Motorcycle Safety Fee 
+  This total is an estimate. Your final registration fees may vary slightly.
+  Warning Message
+
+Monthly amounts set by the estimator (variable, value): HDR (Ada County highway district) 3.33/month = $40/yr, 3 = $36/yr, 2 = $24/yr; RegFee 5.75/month = $69/yr, 4.75 = $57/yr, 3.75 = $45/yr; ElectricFee 11.67/month = $140/yr; PlugInFee 6.25/month = $75/yr

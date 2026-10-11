@@ -1,0 +1,196 @@
+SOURCE: https://prdext3.cga.ct.gov/2023/rpt/pdf/2023-R-0092.pdf
+                         Car Dealer Document Fee Caps
+
+                                       By: Heather Poole, Principal Analyst
+                                           March 8, 2023| 2023-R-0092
+
+
+Issue
+Provide the maximum dealer document fees in states that cap them and the services included
+under the fees.
+
+Summary
+Dealer document fees (also called documentary fees, “doc” fees, processing fees, conveyance fees,
+handling fees, and administrative fees) are fees car dealers may charge for processing documents
+and providing other services related to a vehicle sale.
+
+In Connecticut, these fees are called dealer conveyance fees. By law, a conveyance fee is a fee car
+dealers may charge to “recover reasonable costs for processing all documentation and performing
+services related to the closing of a sale, including, but not limited to, the registration and transfer of
+ownership of the motor vehicle which is the subject of the sale” (CGS § 14-62(a)). Connecticut law
+does not cap the conveyance fee or define “reasonable costs,” but it sets requirements for the
+notice and information that a dealer must provide consumers about the fee (see OLR Report 2018-
+R-0063 for more information on these requirements). A 2016 study by the Program Review and
+Investigations Committee found that the average dealer conveyance fee in Connecticut was $405
+for new car dealers and $131 for used car dealers.
+
+At least 15 states cap dealer document fees. The caps currently range from $70 (or $85) in
+California to $565.38 in Missouri. Each state defines these fees differently, but like Connecticut’s,
+most definitions are generally broad enough to encompass fees related to (1) processing
+registration, titling, lien, financing, and tax documentation; (2) information privacy and data security
+compliance; (3) record retention and document storage requirements; and (4) other administrative
+ www.cga.ct.gov/olr                         Connecticut General Assembly                              (860) 240-8400
+ OLRequest@cga.ct.gov                       Office of Legislative Research                                 Room 5300
+                                          Stephanie A. D’Ambrose, Director                  Legislative Office Building
+
+services and compliance with federal and state laws. Some states appear to define these fees
+more narrowly, such as (1) New York, which places the cap on fees for assisting in securing a
+registration, title, or special or distinctive plates and (2) Minnesota, which places the cap on fees
+for services rendered for processing documents for closing a sale. Some states provide additional,
+separate fees for things like electronic document processing or title processing.
+
+State Document Fee Caps
+At least 15 states cap dealer document fees. We include these caps in Table 1, below, ranked from
+lowest to highest fee. We also include definitions for the states that specifically define the services
+or charges included under the fee.
+
+                            Table 1: Identified States With Dealer Document Fee Caps
+         State                           Cap                                            Fee Definition
+ California                $70, or $85 (plus a $29            A charge for preparing and processing documents,
+ Cal. Veh. Code            electronic filing fee) if the      disclosures, and titling, registration, and information
+ §4456.5, California       dealer has a contract              security obligations imposed by state and federal law
+ Dealer 101                with the department to             (electronic filing fee is charged for providing license
+                           provide on-site                    plate processing, postage, and the fees and services
+                           registration                       authorized and may not exceed the charge paid by the
+                                                              dealer to the service provider)
+ Oregon                    $115, or $150 if using             Fee for processing documents necessary to issue                or
+ Or. Rev. Stat. §          electronic system ($25 of          transfer, verify, and clear titles; register a vehicle;
+ 822.043                   fee must be paid to                perfect and release liens; comply with federal secur            ity
+                           electronic system)                 requirements; or render any other services for the
+                                                              purpose of complying with state and federal laws related
+                                                              to vehicle sale
+ Minnesota                 $125 (does not include             Fee for services actually rendered to prepare, handle,
+ Minn. Stat. Ann. §        an optional electronic             and process documents for closing a motor vehicle sale
+ 168.27.31                 transfer fee)                      or lease; electronic transfer fee is a charge for services
+                                                              agreed upon between the parties for electronic
+                                                              transmission of ownership records, at least half of which
+                                                              must be paid to the transmission service provider
+ Arkansas                  $129                               Fee charged in connection with a vehicle sale or lease
+ Ark.Code Ann. § 23-                                          for (1) handling, processing, and storing documents and
+ 112-317                                                      (2) other administrative and clerical services. It may be
+                                                              charged to allow cost recovery for dealers, and a portion
+                                                              may result in profit
+ New York                  $175                               Fee for assisting in securing a registration and/or
+ N.Y. Comp. Codes R. &                                        certificate of title for such vehicle, provided the dealer
+ Regs. tit. 15, § 78.19                                       actually performs the service; does not include the fee
+                                                              (1) required to be paid to the Department of Motor
+                                                              Vehicles for issuance of the registration or title, or (2)
+                                                              charged for the vehicle inspection
+
+
+
+ 2023-R-0092                                                 March 8, 2023                                              Page 2 of 4
+
+                                                       Table 1 (continued)
+         State                            Cap                                              Fee Definition
+ Iowa                       $180                                Fee for preparing documents related to an application
+ Iowa Admin. Code r.                                            for motor vehicle registration and an application for
+ 322.19A                                                        issuance of a certificate of title, and the performance of
+                                                                other related services for the customer
+ Washington                 $200                                Fee to recover administrative costs for collecting motor
+ Wash. Rev. Code. §                                             vehicle excise taxes, licensing and registration fees, and
+ 46.70.180                                                      other agency fees; verifying, clearing, and transferring
+                                                                titles; perfecting, releasing, or satisfying liens or other
+                                                                security interests; and other administrative and
+                                                                documentary services rendered by a dealer in
+                                                                connection with the sale or lease of a vehicle and in
+                                                                carrying out any requirements in state law
+ Ohio                       $250 or 10% of vehicle              No definition found
+ Ohio Rev. Code Ann.        price, whichever is less
+ §§ 4517.261 &
+ 1317.07
+ Michigan                   $260 1 or 5% of vehicle             No definition found
+ Mich. Comp. Laws.          price, whichever is less
+ Ann. § 492.113
+ Illinois                   $347.26 2                           Fee for processing documents and performing services
+ 815 Ill. Comp. Stat.                                           related to closing a sale
+ 375/11.1
+ Rhode Island               $400 for vehicles sold for          Fee for preparing various paperwork associated with the
+ 280-30-20 R.I. Code R.     $10,000 or more                     sale, financing, leasing, insurance, liens, warranties,
+ § 1.6(N)                   (Charge prohibited for              federal and state disclosures, and other procedures
+                            vehicles sold for less              associated with vehicle sale, leasing, and financing
+                            than $10,000; cap does
+                            not include $20 title
+                            preparation fee)
+ Louisiana                  $425                                Fee for credit investigation, compliance with federal and
+ La. Rev. Stat. Ann. §                                          state law, preparing documents necessary to perfect or
+ 6:969.18                                                       satisfy a lien upon the objects sold, and any other
+                                                                functions incidental to the titling of the retail sale
+ Pennsylvania               $449 3 for electronic               Charge for preparing documents required to register and
+ 63 Pa. Stat. Ann. §        processing                          license vehicles; collecting and submitting taxes;
+ 818.327                    $374 3 for non-electronic           preparing any other information associated with vehicle
+                            processing                          titling and registration; and complying with federal and
+                                                                state laws related to data privacy, providing financial
+                                                                services, and preparing and retrieving documents.
+ Maryland                   $500                                Charge includes preparing written documents of the
+ Md. Code Ann, Transp.                                          transactions, obtaining title and license plates, obtaining
+ §15-311.1                                                      and releasing liens, retaining documents and records of
+                                                                transactions, complying with state and federal privacy
+                                                                laws, and other administrative services concerning
+                                                                vehicle sales
+
+
+
+
+ 2023-R-0092                                                   March 8, 2023                                               Page 3 of 4
+
+                                                           Table 1 (continued)
+          State                              Cap                                                 Fee Definition
+ Missouri                     $565.38 4                              Fee for document storage and any other administrative
+ Mo. Rev. Stat. §                                                    or clerical services not prohibited by law; a portion
+ 301.558                                                             may result in profit; cannot charge for the services of
+                                                                     filling in the blanks on standardized forms in the
+                                                                     connection of the sale or lease or otherwise charge for
+                                                                     preparing documents.
+
+1 Effective 1/13/2023 (Bulletin 2023-01-CF); amount is biennially adjusted for increases in consumer price index (CPI)
+
+2 2023 calendar year, according to Chicago Automobile Trade Association; fee is annually adjusted for CPI
+
+3 2023 calendar year (PA Licensing Board Adjustment); annually adjusted for CPI
+
+4 2023 licensure year (12 CSR 10-26.231), fee is annually adjusted for increases in CPI
+
+
+HP:co
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2023-R-0092                                                       March 8, 2023                                                    Page 4 of 4

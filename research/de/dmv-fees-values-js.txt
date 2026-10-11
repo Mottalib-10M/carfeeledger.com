@@ -1,0 +1,267 @@
+SOURCE: https://dmv.de.gov/CLF4/agency/js/DMVFees.js (script that fills the amounts on https://dmv.de.gov/Common/DMVFees/index.shtml) read 2026-10-11
+$(function() {
+/*INSTRUCTION:  Change/Update Dollar Amounts Only*/
+	
+/*Vehicle Services - Registration Cars*/
+	var rcrrc = "$40.00"; // Registration Renewals (Yearly) Cars
+	var rcrrctxt = "forty dollars"; // Registration Renewals (Yearly) Cars - Text Dollar Amount
+	var rcrrcTxt = "Forty dollars"; // Registration Renewals (Yearly) Cars - Capitalized 1st Ltr Text Dollar Amount
+	var rclr = "$20.00"; // Late Renewal
+	var rclrtxt = "twenty dollar"; // Late Renewal - Text Amount
+	var rctt = "$20.00"; // Temporary Tag
+	var rctp = "$20.00"; // Temporary Permit
+	var rcci = "$4.00"; // Courtesy Inspection
+	var rcvp = "$40.00"; // Vanity Plate (Yearly)
+	var rchp = "No Charge"; // ADA Placard
+	var rcmo = "$5.00"; // Moped
+	var rcmoovf = "$15.00"; //Moped Offsite Verification Fee
+	var rcmc = "$15.00"; // Motorcycle
+	var rcesp = "$50.00"; // Environmental Specialty Plate (one-time)
+	var rcmmstrcp = "$50.00"; // Marine Mammal & Sea Turtle Rescue & Conservation Plate
+	var rcawsp = "$50.00"; // Animal Welfare Specialty Plate (one-time)
+	var rcfp = "$50.00"; // Farmland Preservation Specialty Plate (one-time)
+	var rcsca = "$50.00"; // Stop Child Abuse Specialty Plate (one-time)
+	var rcscar = "$40.00"; // Stop Child Abuse Specialty Plate Renewal
+	var rcalp = "$25.00"; // Antique License Plate Fee (Antique Status)
+	var rcoapf = "$10.00"; //Organizational Plate Application Fee (one-time)
+	var rcohv = "$6.00"; // Off Highway Vehicle Registration
+	
+/*Vehicle Services - Registration Farm Trucks (Yearly)*/
+	var rftl5k = "$40.00"; // 5000 pounds or less
+	var rftg5k = "$3.80"; // Greater than 5000 pounds (*Price for each 1000 pounds over 5000)	
+	
+/*Vehicle Services - Registration Recreational Vehicles (Yearly)*/
+	var rrvl5k = "$40.00"; // 5000 pounds or less
+	var rrvg5k = "$6.40"; // Greater than 5000 pounds (*Price for each 1000 pounds over 5000)	
+	
+/*Vehicle Services - Registration Trailers (Yearly)*/
+	var rt0to1k = "$15.00"; // 0-1000 pounds
+	var rt1to2k = "$20.00"; // 1001-2000 pounds
+	var rt2to5k = "$40.00"; // 2001-5000 pounds
+	var rtg5k = "$18.00"; // Greater than 5000 pounds (*Price for each 1000 pounds over 5000)	
+	
+/*Vehicle Services - Registration Commercial Vehicles over 5000 Pounds (Yearly)*/	
+	var rcvl5k = "$40.00"; // 5000 Pounds or less
+	var rcvl5ktxt = "forty dollars"; // Registration Renewals 5000 Pounds or less - Text Dollar Amount
+	var rcvg5k = "$18.00"; // Greater than 5000 pounds (*Price for each 1000 pounds over 5000)
+	var rcvg5ktxt = "eighteen dollars"; // Greater than 5000 pounds (*Price for each 1000 pounds over 5000) - Text Dollar Amount
+	
+/*Vehicle Services - Duplicates*/
+	var dlslp = "$10.00"; // Stolen License Plate	
+	var dlpws = "$10.00"; // License Plate with Sticker
+	var dlpwos = "$5.00"; // License Plate without Sticker
+	var dt = "$50.00"; // Duplicate Title 
+	var dvs = "$5.00"; // Validation Sticker
+	var ddlp = "$10.00"; // Dealer License Plate
+	var drc = "$10.00"; // Registration Card
+	var dslp = "$6.00"; // Sample License Plate
+	var deawlp = "$10.00"; // Environmental/Animal Welfare License Plate
+	var dalp = "$5.00"; //Antique License Plate	
+	
+/*Vehicle Services - Titles*/	
+	var twl = "$55.00"; // Title with Lien
+	var twltxt = "fifty-five dollars "; // Title with Lien - Text Dollar Amount
+	var twlTxt = "Fifty-five dollars "; // Title with Lien - Capitalized 1st Ltr Text Dollar Amount
+	var twol = "$35.00"; // Title without Lien
+	var twoltxt = "thirty-five dollars"; // Title without Lien - Text Dollar Amount
+	var twolTxt = "Thirty-five dollars"; // Title without Lien - Capitalized 1st Ltr Text Dollar Amount
+	var tctf = "$35.00"; // Change Tag Fee
+	var trsvcf = "$35.00"; // Title Retained Salvage Vehicle Certificate Fee
+	var tlttf = "$35.00"; // Late Title Transfer Fee	
+	var tctwol = "$35.00"; // Corrected Title without Lien
+	var tctwl = "$55.00"; // Corrected Title with Lien
+	var tvr = "$25.00"; // Vehicle Record
+	var tcva = "$30.00"; // Certified Vehicle Affidavit
+	var trtf = "$20.00"; // Retain Tag Fee
+	var tstf = "$20.00"; // Switch Tag Fee (per tag & title)
+	var tdf = "5.25%"; // Document Fee
+	var tdf2 = "5.25%"; // Document Fee2
+	var tdftxt = "five and one-quarter percent"; // Document Fee - Text Percentage Amount
+	var tdfea = "$10,000.00"; // Document Fee Example Amount
+	var tdfer = "$" + Math.round((5.25/100)*10000).toFixed(2); //Document Fee Example Amount Result
+	var tmhdf = "3.75%"; // Mobile Home Document Fee
+	var tmhdftxt = "three and  three quarters percent"; // Mobile Home Document Fee - Text Percentage Amount
+	var tmdf = "$8.00"; // Minimum Document Fee	
+	var tpfnct = "$35.00"; //35 Penalty fee is charged for the issuance of a new certificate of title > 30 days 
+	
+/*Vehicle Services - Driver's License*/	
+	var dlcd5 = "$25.00"; // Class D (5yr)
+	var dlcd6 = "$30.00"; // Class D (6yr)
+	var dlcd7 = "$35.00"; // Class D (7yr)
+	var dlcd8 = "$50.00"; // Class D (8yr)
+	var dlrcd5 = "$25.00"; // Renewal Class D (5yr)
+	var dlrcd8 = "$50.00"; // Renewal Class D (8yr)
+	var dlrpcd5 = "$15.00"; // Renewal Permanent Class D (5yr)
+	var dlrpcd8 = "$24.00"; // Renewal PermanentClass D (8yr)
+	var dlcdl5 = "$30.00"; // CDL (5yr)
+	var dlcdlwhm5 = "$30.00"; // CDL with Hazmat (5yr)
+	var dlcdl8 = "$55.00"; // CDL (8yr)
+	var dlcdlae = "$10.00"; // CDL Additional Endorsement
+	var dlcdllpf = "$30.00"; // CDL Learners Permit Fee
+	var dlcdllpe = "$2.00"; // CDL Learners Permit Extension (good for 6 months - one time)
+	var dlncdlab5 = "$25.00"; // Non-CDL Class A/B (5yr)
+	var dlncdlab8 = "$50.00"; // Non-CDL Class A/B (8yr)
+	var dlmce5 = "$8.00"; // Motorcycle Endorsement (5yr)
+	var dlmce8 = "$12.00"; // Motorcycle Endorsement (8yr)
+	var dlmcpe = "$5.00"; //Motorcycle Permit Extension
+	var dlte = "$10.00"; // Taxi Endorsement
+	var dllrf = "$10.00"; // Late Renewal Fee
+	var dldl = "$20.00"; // Duplicate License
+	var dlcoa = "No Charge"; // Change of Address
+	var dlcon = "$10.00"; // Change of Name
+	var dlpic = "$40.00"; // Photo Identification Card
+	var dldpidc = "$10.00"; // Duplicate Photo ID Card
+	var dldlr = "$25.00"; // Driver's License Record
+	var dlcda = "$30.00"; // Certified DL Affidavit
+	var dlsr = "$50.00"; // DL Suspension Reinstatement
+	var dlrr = "$200.00"; // DL Revocation Reinstatement
+	var dldpc4 = "$20.00"; // Driving Priviledge Card (4 years)
+	
+/*Vehicle Services - Uninsured Motorist*/	
+	var umpf = "$100.00"; // Penalty Fee for Uninsured Motorist
+	var umpfp = "$5.00"; // Penalty Fee for Uninsured Motorist PLUS $ per day after 31st day of mailing date of notice
+	var umdlsr = "$50.00"; // DL Suspension Reinstatement
+	var umvrr = "$50.00"; // Vehicle Registration Reinstatement
+
+/*Vehicle Services - Driving Under the Influence*/	
+	var duiiipc = "$70.00"; // Ignition Interlock Program Cost
+	var duiiipi = "$75.00"; // Ignition Interlock Program Installation
+	
+/*Miscellaneous Fees*/
+	var mfbc = "$25.00"; // Bad Check Fee
+	var mfdrvrf = "$25.00"; // Driving Record or Vehicle Records by Mail Fee
+	var mfdmvhf = "$2.00"; // Dealer Motor Vehicle Handling Fee (Paid to Dept of Finance)
+	var mfdrtf = "$10.00"; // Dealer Repossess Tag Fee
+	var mfsbifpf = "$52.00";  // SBI Finger Printing Fee
+	var mfmcrf = "$50.00"; // Motorcycle Course Registration Fee
+	var mfmcoosrf = "$200.00"; // Motorcycle Course Out of State Registration Fee
+	var mfdnrecewgt1981 = "$1054.00"; // DNREC Emission Waivers on Vehicles Greater Than 1981
+	var mfmfdaf = "$10.00"; // Motor Fuel Distributor Application Fee (Non-Refundable)
+	var mfmfdaf = "$10.00"; // Motor Fuel Distributor Application Fee (Non-Refundable)
+
+	
+/*Insurance*/
+	var ibidone = "$25,000"; // for bodily injury or death of one person
+	var ibidtwo = "$50,000"; // for bodily injury or death of two or more persons 
+	var iodprop = "$10,000"; // for injury to or destruction of property of others 
+	
+/*DO NOT MODIFY BELOW*/	  
+	$(".rcrrc").html(rcrrc);
+	$(".rcrrctxt").html(rcrrctxt);
+	$(".rcrrcTxt").html(rcrrcTxt);
+	$(".rclr").html(rclr);
+	$(".rclrtxt").html(rclrtxt);
+	$(".rctt").html(rctt);
+	$(".rctp").html(rctp);	
+	$(".rcci").html(rcci);
+	$(".rcvp").html(rcvp);
+	$(".rchp").html(rchp);
+	$(".rcmo").html(rcmo);
+	$(".rcmoovf").html(rcmoovf);
+	$(".rcmc").html(rcmc);
+	$(".rcesp").html(rcesp);
+	$(".rcmmstrcp").html(rcmmstrcp);
+	$(".rcawsp").html(rcawsp);
+	$(".rcfp").html(rcfp);
+	$(".rcsca").html(rcsca);
+	$(".rcscar").html(rcscar);
+	$(".rcalp").html(rcalp);
+	$(".rcoapf").html(rcoapf);
+	$(".rcohv").html(rcohv);
+	$(".rftl5k").html(rftl5k);
+	$(".rftg5k").html(rftg5k);
+	$(".rrvl5k").html(rrvl5k);
+	$(".rrvg5k").html(rrvg5k);
+	$(".rt0to1k").html(rt0to1k);
+	$(".rt1to2k").html(rt1to2k);
+	$(".rt2to5k").html(rt2to5k);
+	$(".rtg5k").html(rtg5k);
+	$(".rcvl5k").html(rcvl5k);
+	$(".rcvl5ktxt").html(rcvl5ktxt);
+	$(".rcvg5k").html(rcvg5k);
+	$(".dlslp").html(dlslp);
+	$(".dlpws").html(dlpws);
+	$(".dlpwos").html(dlpwos);
+	$(".dt").html(dt);
+	$(".dvs").html(dvs);
+	$(".ddlp").html(ddlp);	
+	$(".drc").html(drc);
+	$(".dslp").html(dslp);	
+	$(".deawlp").html(deawlp);
+	$(".dalp").html(dalp);	
+	$(".twl").html(twl);
+	$(".twltxt").html(twltxt);
+	$(".twlTxt").html(twlTxt);
+	$(".twol").html(twol);
+	$(".twoltxt").html(twoltxt);
+	$(".twolTxt").html(twolTxt);
+	$(".tctf").html(tctf);
+	$(".trsvcf").html(trsvcf);
+	$(".tlttf").html(tlttf);	
+	$(".tctwol").html(tctwol);
+	$(".tctwl").html(tctwl);	
+	$(".tvr").html(tvr);
+	$(".tcva").html(tcva);
+	$(".trtf").html(trtf);	
+	$(".tstf").html(tstf);
+	$(".tdf").html(tdf);
+	$(".tdf2").html(tdf2);
+	$(".tdftxt").html(tdftxt);
+	$(".tdfea").html(tdfea);
+	$(".tdfer").html(tdfer);	
+	$(".tmhdf").html(tmhdf);
+	$(".tmhdftxt").html(tmhdftxt);
+	$(".tmdf").html(tmdf);
+	$(".tpfnct").html(tpfnct);
+	$(".dlcd5").html(dlcd5);
+	$(".dlcd6").html(dlcd6);
+	$(".dlcd7").html(dlcd7);
+	$(".dlcd8").html(dlcd8);
+	$(".dlrcd5").html(dlrcd5);
+	$(".dlrcd8").html(dlrcd8);
+	$(".dlrpcd5").html(dlrpcd5);
+	$(".dlrpcd8").html(dlrpcd8);
+	$(".dlcdlwhm5").html(dlcdlwhm5);	
+	$(".dlcdl5").html(dlcdl5);
+	$(".dlcdl8").html(dlcdl8);	
+	$(".dlcdlae").html(dlcdlae);
+	$(".dlcdllpf").html(dlcdllpf);
+	$(".dlcdllpe").html(dlcdllpe);
+	$(".dlncdlab5").html(dlncdlab5);
+	$(".dlncdlab8").html(dlncdlab8);	
+	$(".dlmce5").html(dlmce5);
+	$(".dlmce8").html(dlmce8);
+	$(".dlmcpe").html(dlmcpe);
+	$(".dlte").html(dlte);
+	$(".dllrf").html(dllrf);
+	$(".dldl").html(dldl);	
+	$(".dlcoa").html(dlcoa);
+	$(".dlcon").html(dlcon);	
+	$(".dlpic").html(dlpic);
+	$(".dldpidc").html(dldpidc);
+	$(".dldlr").html(dldlr);	
+	$(".dlcda").html(dlcda);
+	$(".dlsr").html(dlsr);	
+	$(".dlrr").html(dlrr);
+	$(".dldpc4").html(dldpc4);
+	$(".umpf").html(umpf);
+	$(".umpfp").html(umpfp);
+	$(".umdlsr").html(umdlsr);
+	$(".umvrr").html(umvrr);
+	$(".duiiipc").html(duiiipc);
+	$(".duiiipi").html(duiiipi);
+	$(".mfbc").html(mfbc);
+	$(".mfdrvrf").html(mfdrvrf);
+	$(".mfdmvhf").html(mfdmvhf);
+	$(".mfdrtf").html(mfdrtf);
+	$(".mfsbifpf").html(mfsbifpf);
+	$(".mfmcrf").html(mfmcrf);
+	$(".mfmcoosrf").html(mfmcoosrf);
+	$(".mfdnrecewgt1981").html(mfdnrecewgt1981);
+	$(".mfmfdaf").html(mfmfdaf);
+	$(".ibidone").html(ibidone);
+	$(".ibidtwo").html(ibidtwo);
+	$(".iodprop").html(iodprop);
+	
+});
+/*DO NOT MODIFY ABOVE*/

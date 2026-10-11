@@ -1,0 +1,154 @@
+{
+ "abbr": "HI",
+ "name": "Hawaii",
+ "slug": "hawaii",
+ "agency": {
+  "name": "County motor vehicle registration offices (City and County of Honolulu Department of Customer Services on Oahu)",
+  "short": "DMV",
+  "url": "https://www.honolulu.gov/csd/?p=3723"
+ },
+ "taxAgency": {
+  "name": "Hawaii Department of Taxation",
+  "url": "https://tax.hawaii.gov/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "Hawaii has no sales tax charged to the buyer. A dealer pays the general excise tax and may pass it on, up to 4.712% in every county; the engine shows that maximum on the price plus the documentation fee, without deducting a trade-in. The actual charge is what the dealer writes on the invoice.",
+  "County registration fees, county weight taxes and beautification fees were read on an official page for the City and County of Honolulu only. For Hawaii, Maui and Kauai counties, the county part of the yearly bill is shown without an amount.",
+  "Honolulu City Council Bill 47 would lower the city weight tax from July 1, 2027; it was not final when this file was checked.",
+  "No certificate of title fee for a new car was read on an official page; the dealer's first registration may include one.",
+  "The first safety inspection of a new car covers two years and is usually done by the dealer; whether its fee is billed separately depends on the dealer.",
+  "No official Hawaii page read for this release caps the dealer documentation fee; type the dealer's figure."
+ ],
+ "summary": {
+  "stateRate": 0.04712,
+  "localRange": [
+   0,
+   0
+  ],
+  "taxName": "general excise tax passed on by dealers",
+  "tradeInCredit": false,
+  "titleFee": 10,
+  "regMethod": "weight",
+  "regYears": 1,
+  "docFeeCap": null,
+  "docFeeNote": "No cap read on an official Hawaii page for this release; type the dealer's fee.",
+  "evFee": 50,
+  "phevFee": null,
+  "hybridFee": null,
+  "inspection": "safety",
+  "inspectionWhere": "Yearly safety inspection at a permitted station everywhere in Hawaii; a new car's first certificate covers two years; no emissions test.",
+  "inspectionFee": 25.75,
+  "annualValueTax": false
+ },
+ "params": {
+  "get": {
+   "_src": "get",
+   "passOn": 0.04712
+  },
+  "state": {
+   "_src": "hrs-249-33",
+   "reg": 46,
+   "weight": [
+    {
+     "upTo": 4000,
+     "rate": 0.0175
+    },
+    {
+     "upTo": 7000,
+     "rate": 0.02
+    },
+    {
+     "upTo": 10000,
+     "rate": 0.0225
+    }
+   ],
+   "flatAbove": 10000,
+   "flatOver": 300
+  },
+  "ruc": 50,
+  "inspection": {
+   "_src": "inspection",
+   "fee": 25.75,
+   "newYears": 2
+  }
+ },
+ "counties": [
+  {
+   "id": "honolulu",
+   "name": "City and County of Honolulu (Oahu)",
+   "priced": true,
+   "countyReg": 20,
+   "weightRate": 0.07,
+   "beautification": 10,
+   "emblem": 0.5,
+   "plate": 5,
+   "transfer": 10
+  },
+  {
+   "id": "hawaii-county",
+   "name": "Hawaii County (Big Island)",
+   "priced": false
+  },
+  {
+   "id": "maui-county",
+   "name": "Maui County",
+   "priced": false
+  },
+  {
+   "id": "kauai-county",
+   "name": "Kauai County",
+   "priced": false
+  }
+ ],
+ "defaultCounty": "honolulu",
+ "singular": [
+  "Hawaii charges no sales tax to car buyers; dealers owe the general excise tax and may pass it on, at most 4.712% in every county since Maui added its surcharge in 2024 [get].",
+  "Registration is billed every year on weight: the state taxes 1.75 cents a pound up to 4,000 lb, 2 cents up to 7,000 lb and 2.25 cents up to 10,000 lb [hrs-249-33].",
+  "On Oahu the city weight tax is four times the state's: a 3,320 lb car costs $367 to register, $232.40 of it city weight tax [honolulu-reg].",
+  "About 70% of what an Oahu driver pays to register goes to the county and 30% to the state [honolulu-reg].",
+  "Since July 1, 2025, electric car owners choose at renewal between $8 per 1,000 miles, capped at $50, and a flat $50, and the per-mile charge becomes mandatory on July 1, 2028 [hiruc].",
+  "A newly purchased electric car owes no road usage charge when it is bought, and hybrids and plug-in hybrids are not part of the program [hiruc].",
+  "Every car needs a safety inspection each year, and the fee rose to $25.75 on July 1, 2025, the first increase since 2017 [inspection].",
+  "Registration stays with the car: a buyer from a private seller pays a $10 transfer fee within 30 days, or $60 with the late penalty [honolulu-transfer]."
+ ],
+ "sources": {
+  "get": {
+   "name": "Hawaii Department of Taxation, County Surcharge on General Excise and Use Tax",
+   "url": "https://tax.hawaii.gov/geninfo/countysurcharge/",
+   "accessed": "2026-10-11",
+   "quote": "Businesses may choose to pass on the GET and any applicable county surcharge to its customers but are not required to do so. If a business passes on its tax, the maximum pass-on rates ... City and County of Honolulu: 4.7120% ... County of Maui: 4.7120% (effective January 1, 2024"
+  },
+  "hrs-249-33": {
+   "name": "Hawaii Revised Statutes § 249-33, state vehicle weight tax",
+   "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0249/HRS_0249-0033.htm",
+   "accessed": "2026-10-11",
+   "quote": "at the rate of 1.75 cents a pound ... up to and including four thousand pounds net weight; vehicles over four thousand pounds and up to and including seven thousand pounds net weight shall be taxed at the rate of 2.00 cents a pound"
+  },
+  "honolulu-reg": {
+   "name": "City and County of Honolulu, Department of Customer Services, Motor Vehicle Registration",
+   "url": "https://www.honolulu.gov/csd/?p=3723",
+   "accessed": "2026-10-11",
+   "quote": "State registration fee – $46 per vehicle County registration fee – $20 per vehicle ... Highway beautification fee – $10.00 Annual emblem – $0.50 Initial plate fee – $5.00 ... A vehicle weighing 3,320 pounds would cost $367 ... city gets: $232.40 from weight tax"
+  },
+  "honolulu-transfer": {
+   "name": "City and County of Honolulu, Department of Customer Services, Vehicle ownership transfer",
+   "url": "https://www.honolulu.gov/csd/vehicle-ownership-transfer/",
+   "accessed": "2026-10-11",
+   "quote": "Motor vehicle ownership title transfer fee is $10 if you complete the transfer within 30 days ... If the last-issued Certificate of Registration has expired or will expired within 45 days, you will also be required to pay an annual registration fee."
+  },
+  "hiruc": {
+   "name": "City and County of Honolulu, Hawaii Road Usage Charge Program",
+   "url": "https://www.honolulu.gov/csd/hiruc-program/",
+   "accessed": "2026-10-11",
+   "quote": "the state per-mile RUC of $8 per 1,000 miles, capped at $50, or the state flat annual RUC of $50. ... Beginning July 1, 2028, all EV drivers will automatically be enrolled in the state per-mile RUC. ... Newly purchased EVs will not owe RUC upon purchase."
+  },
+  "inspection": {
+   "name": "Hawaii Department of Transportation, Updates to motor vehicle safety inspection fees for 2025",
+   "url": "https://hidot.hawaii.gov/?p=16278",
+   "accessed": "2026-10-11",
+   "quote": "Starting July 1, 2025, the fee for a Hawai‘i vehicle safety inspection will increase by 75 cents to $25.75 for automobiles and trucks ... This is the first fee increase for vehicle safety inspections since 2017."
+  }
+ }
+}

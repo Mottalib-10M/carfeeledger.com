@@ -1,0 +1,2227 @@
+SOURCE: https://tax.idaho.gov/wp-content/uploads/pubs/EPB00060/EPB00060_06-25-2024.pdf (Idaho State Tax Commission EPB00060, 06-25-2024; read via web.archive.org snapshot 2025-04-21 because tax.idaho.gov refused connections on 2026-10-11)
+Sales and Use Tax Guide 
+for 
+Vehicle Transactions 
+This manual is for the use of the Idaho Department of Motor Vehicles only. 
+Updated 06/25/2024 
+EPB00060    06-25-2024
+ 
+Page 2 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+ 
+Table of Contents 
+OVERVIEW ................................................................................................................................................ 6 
+DEFINITIONS ............................................................................................................................................ 9 
+Accessories ............................................................................................................................................... 9 
+All-Terrain Vehicle (ATV) ....................................................................................................................... 9 
+Camping Trailer – Fold Down .................................................................................................................. 9 
+Converted Van or Bus ............................................................................................................................... 9 
+Dual-purpose Motorcycle ....................................................................................................................... 10 
+Manufactured Home ............................................................................................................................... 10 
+Mobile Home .......................................................................................................................................... 10 
+Modular Building .................................................................................................................................... 11 
+Motorcycle .............................................................................................................................................. 11 
+Motor Home ............................................................................................................................................ 11 
+Motor Vehicle ......................................................................................................................................... 11 
+New Manufactured Home ....................................................................................................................... 11 
+New Park Model Recreational Vehicle ................................................................................................... 12 
+Vehicle Accessory Labor ........................................................................................................................ 12 
+Off-Highway Motorbike ......................................................................................................................... 13 
+Park Model Recreational Vehicle ........................................................................................................... 13 
+Person ...................................................................................................................................................... 13 
+Recreational Vehicle (RV) ...................................................................................................................... 13 
+Resident .................................................................................................................................................. 14 
+Retailer .................................................................................................................................................... 14 
+Snowmobile ............................................................................................................................................ 14 
+Specialty Off-highway Vehicle (SOHV) ................................................................................................ 14 
+Trailer ...................................................................................................................................................... 14 
+Travel Trailer or Fifth-Wheel Vehicles .................................................................................................. 15 
+Truck Camper ......................................................................................................................................... 15 
+Utility-type Vehicle (UTV) ..................................................................................................................... 15 
+Vehicle .................................................................................................................................................... 15 
+EXPLANATIONS ..................................................................................................................................... 16 
+Assumed indebtedness ............................................................................................................................ 16 
+Barter or exchange .................................................................................................................................. 16 
+Trade-in allowance .................................................................................................................................. 16 
+Trade-in Allowance Leased Vehicle ................................................................................................... 16 
+Trade-in Allowance - Manufactured home, Modular building, Park model recreational 
+vehicle ................................................................................................................................................. 17 
+Trade-down ............................................................................................................................................. 17 
+Buybacks ................................................................................................................................................. 17 
+Buyback – Trade-In ............................................................................................................................ 17 
+Buyback – Salvage Value ................................................................................................................... 17 
+Bill of Sale .............................................................................................................................................. 18 
+No Bill of Sale .................................................................................................................................... 18 
+Low Bill of Sale .................................................................................................................................. 18 
+EPB00060    06-25-2024
+ 
+Page 3 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+$1 Bill of Sale ..................................................................................................................................... 18 
+Dealer Fees.............................................................................................................................................. 19 
+Dealer Fees – Dealer documentation fees (doc fees) .......................................................................... 19 
+Dealer Fees – Government Imposed ................................................................................................... 19 
+Dealer Fees – Freight/Delivery ........................................................................................................... 19 
+Dealer Fees – Labor or Service Charge for Accessories on New Vehicles ........................................ 20 
+Homemade Trailers ................................................................................................................................. 21 
+Built by Owner .................................................................................................................................... 21 
+Built for Owner ................................................................................................................................... 21 
+Insurance Charges or Finance Charges ................................................................................................... 21 
+Insurance Company Titling Stolen Vehicle ............................................................................................ 21 
+Insurance Settlement ............................................................................................................................... 21 
+Manufactured Home ............................................................................................................................... 22 
+Component Parts ................................................................................................................................. 22 
+Noncomponent Parts ........................................................................................................................... 22 
+Used Manufactured Home .................................................................................................................. 22 
+Military Personnel ................................................................................................................................... 23 
+Temporary Assignment ....................................................................................................................... 23 
+Idaho Resident .................................................................................................................................... 23 
+Occasional Sales ..................................................................................................................................... 24 
+Motor Vehicles ................................................................................................................................... 24 
+Recreational Vehicles ......................................................................................................................... 24 
+Office Trailers ......................................................................................................................................... 24 
+Sale of an Office Trailer ..................................................................................................................... 24 
+Occasional Sale ................................................................................................................................... 24 
+Park Model Recreational Vehicles .......................................................................................................... 25 
+Modified Park Model Recreational Vehicle ....................................................................................... 25 
+Rebates .................................................................................................................................................... 25 
+Rescinded Sales ...................................................................................................................................... 26 
+Documentation .................................................................................................................................... 26 
+Refunds ............................................................................................................................................... 26 
+Recreational-related Vehicles ................................................................................................................. 27 
+Recreational-Related Vehicles – Trade-ins ........................................................................................ 27 
+Nonresident – Truck Campers ............................................................................................................ 27 
+Form ST-108 ........................................................................................................................................... 27 
+Occasional Sale – Qualifying trailers ................................................................................................. 27 
+Occasional Sale – Sales that don’t qualify .......................................................................................... 27 
+Bulk Sales – ST-133CATS – Recreational Vehicle ................................................................................ 28 
+Production and Logging Exemption - Excluded ................................................................................. 28 
+Repossessions ......................................................................................................................................... 28 
+Repossession - Resold ........................................................................................................................ 28 
+Tax Paid to Another State ....................................................................................................................... 28 
+VEHICLE GUIDANCE ........................................................................................................................... 29 
+Purchased from Idaho Dealers ................................................................................................................ 29 
+Purchased from Idaho Dealers – Prepare Form ITD 0502 .................................................................. 29 
+Purchased from Idaho Dealers – Evidence of tax collected ................................................................ 29 
+EPB00060    06-25-2024
+ 
+Page 4 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Purchased from Idaho Dealers – Dealer tax errors ............................................................................. 29 
+Purchased from Out-of-State Dealers ..................................................................................................... 29 
+Purchased from Out-of-State Dealers – Partial tax owed ................................................................... 29 
+Purchased from Out-of-State Dealers – Credit for taxes paid............................................................. 30 
+Purchased from Out-of-State Dealers – Taxable amount ................................................................... 30 
+Purchased from Out-of-State Dealers – Proof of purchase ................................................................. 30 
+Purchased from Out-of-State Dealers – Preparing title application .................................................... 30 
+Purchased from Retailers or Pawnshops (Nondealers) ........................................................................... 31 
+Purchased from Retailer – Required information ............................................................................... 31 
+Purchased from Retailer – Trade-in .................................................................................................... 31 
+Purchased from Retailer – No sales tax collected ............................................................................... 31 
+Purchased from Retailer – Auctioneers .............................................................................................. 31 
+Purchased from Private Parties (Nondealers / Nonretailers) ................................................................... 32 
+Private Parties - No Bill of Sale .......................................................................................................... 32 
+Private Parties - Trade-in allowance ................................................................................................... 32 
+Private Parties – Barter or Exchange .................................................................................................. 32 
+Private Parties – Barter for Services ................................................................................................... 32 
+Leases ...................................................................................................................................................... 33 
+Lease-purchase agreement .................................................................................................................. 33 
+Lease with option to purchase agreement ........................................................................................... 33 
+Lessors-No Seller’s Permit – Temporary Registration ....................................................................... 34 
+Titled by Dealers or Manufacturers ........................................................................................................ 34 
+Titled by Dealers or Manufactures - Registered ................................................................................. 34 
+Titled by Dealers or Manufactures – Vehicle use tax ......................................................................... 34 
+Vehicle Modifications for Handicapped or Disabled.............................................................................. 35 
+Newly Modified .................................................................................................................................. 35 
+Already Modified ................................................................................................................................ 35 
+EXEMPTIONS .......................................................................................................................................... 36 
+Transfers without Consideration ............................................................................................................. 36 
+Inheritances ......................................................................................................................................... 36 
+Claims by heir ..................................................................................................................................... 36 
+Transfer by court-appointed representative of estate .......................................................................... 36 
+Divorce................................................................................................................................................ 36 
+Restitution ........................................................................................................................................... 36 
+Gifts .................................................................................................................................................... 37 
+Promotional Giveaways and Raffles ................................................................................................... 37 
+Promotional Giveaways – Out-of-state providers ............................................................................... 38 
+Trusts ...................................................................................................................................................... 38 
+Trust – Removal of vehicle for consideration ..................................................................................... 38 
+Trust – Difficult circumstances ........................................................................................................... 38 
+Statute of Limitations .............................................................................................................................. 38 
+Business Transfers or Sales .................................................................................................................... 39 
+Corporations, Partnerships, S-Corporations, LLCs ............................................................................ 39 
+Sole Proprietors – Idaho Businesses ................................................................................................... 39 
+Sole Proprietors – Out-of-State Businesses ........................................................................................ 39 
+EPB00060    06-25-2024
+ 
+Page 5 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Bulk Sales ........................................................................................................................................... 40 
+Capital Asset Sale, Lease or Rental – Motor Vehicles and Transport Trailers Only .......................... 40 
+Capital Asset Transfer – Vehicles, Vessels, RVs, Snowmobiles, Aircraft ......................................... 41 
+Production Exemption for Off-Road Vehicles ........................................................................................ 41 
+Licensed Off-Road Vehicles ............................................................................................................... 41 
+Title on Unlicensed Vehicles – Property tax ...................................................................................... 41 
+Production Exemption – Excluded ..................................................................................................... 42 
+Logging exemption – Log loading equipment .................................................................................... 42 
+Exempt Entities ....................................................................................................................................... 42 
+Questionable Exemption Claims ......................................................................................................... 42 
+Interstate Commerce Carrier (ICC) ......................................................................................................... 43 
+Interstate Commerce Carrier – What qualifies ................................................................................... 43 
+Motor Vehicles ................................................................................................................................... 43 
+Trailers ................................................................................................................................................ 43 
+Interstate Commerce Carrier – Titled or base plated .......................................................................... 43 
+Interstate Commerce Carrier – ST-104IC exemption form ................................................................ 43 
+Interstate Commerce Carrier – No longer qualifies ............................................................................ 44 
+Interstate Commerce Carrier – Doesn’t qualify .................................................................................. 44 
+Purchased with no intent to use in Idaho ................................................................................................ 44 
+Foreign Vehicle ................................................................................................................................... 44 
+Foreign Vehicle – Idaho Use Tax ....................................................................................................... 44 
+New Resident Exemption ................................................................................................................... 45 
+New Residents .................................................................................................................................... 46 
+Nonresident ............................................................................................................................................. 47 
+Defined................................................................................................................................................ 47 
+Using a Vehicle in Idaho..................................................................................................................... 47 
+Nonresident Military ............................................................................................................................... 47 
+Purchasing a Vehicle in Idaho ................................................................................................................ 48 
+ST-104NR ........................................................................................................................................... 48 
+Exclusions ........................................................................................................................................... 48 
+Sales to Family Members ........................................................................................................................ 48 
+Sale to Family Member – ST-133 ....................................................................................................... 48 
+Sale to Family Member – Seller tax requirement ............................................................................... 49 
+Sale to Family Member – Relation requirement ................................................................................. 49 
+Sale to Family Member – ST-133 review ........................................................................................... 49 
+Sale to Family Member – Review of taxes paid ................................................................................. 50 
+Sale to an American Indian ..................................................................................................................... 50 
+Sale to an American Indian – Delivery requirement ........................................................................... 50 
+Sale to an American Indian – ST-133 ................................................................................................. 50 
+Tax Paid to Another State ....................................................................................................................... 51 
+Tax Paid to Another State – Credit given ........................................................................................... 51 
+Tax Paid to Another State – Order credit given .................................................................................. 51 
+ITD Tax Exemption List .......................................................................................................................... 53 
+Tax Reporting by County Assessors ....................................................................................................... 54 
+County Assessor Tax Reporting – Form ST-852 ................................................................................ 54 
+EPB00060    06-25-2024
+ 
+Page 6 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+County Assessor Tax Reporting – NSF checks .................................................................................. 54 
+Appendix A ................................................................................................................................................ 55 
+Appendix B ................................................................................................................................................ 55 
+Appendix C ................................................................................................................................................ 57 
+Dealer, lender, or retailer transactions .................................................................................................... 57 
+INDEX ........................................................................................................................................................ 58 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+OVERVIEW 
+• This guide addresses the taxability of vehicle transactions. It also provides title and 
+registration processing guidelines to vehicle licensing personnel. 
+• The term “vehicle” in this guide refers to vehicles, trailers, ATVs, UTVs, SOHVs, aircraft, 
+snowmobiles, etc. When a law, rule, or exemption applies to a specific type of vehicle, the 
+type of vehicle will be described, such as “motor vehicle.”  
+• Text formatted in italics is information, instructions, or procedures specifically written for 
+Department of Motor Vehicles (DMV) personnel. 
+• Remember: All motor vehicles are vehicles, but not all vehicles are motor vehicles. 
+ 
+In general, the sale, rental, lease, or transfer of any vehicle is a taxable transaction unless an 
+exemption applies. Idaho has various tax exemptions that allow a vehicle to be titled, registered, 
+or both without the owner paying tax.  
+Idaho law requires new owners to provide evidence of sales or use tax paid before a vehicle can 
+be titled in the new owner’s name, unless an exemption applies. 
+                                                                                                                                   [IC 63-3623(l)] 
+You will need to collect tax if the owner can’t provide evidence that sales or use tax has been 
+properly paid or that an exemption applies.  
+If the owner believes they don’t owe tax, the owner can either: 
+• Pay the tax to you and apply for a refund from the Tax Commission using Form TCR. 
+EPB00060    06-25-2024
+ 
+Page 7 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+• Request a written tax clearance from the Tax Commission before applying for title. Use 
+Form MVM-3, Provisional Sales or Use Tax Clearance. 
+See Appendix C for additional refund procedures. 
+In this guide, we refer to the Idaho Code sections [IC 63-xxxx], Sales and Use Tax 
+administrative rules [IDAPA 35.01.02.xxx], and ST-xxx forms that apply to vehicles. To get 
+more information, you can: 
+• Click the hyperlinks in this guide. 
+• Go online to: 
+o Find links to code, rule, forms and guidance at the Tax Commission’s ITD Hub 
+(https://tax.idaho.gov/taxes/sales-use/itd/) 
+o Look up code references on the Idaho Legislature website 
+(https://legislature.idaho.gov/statutesrules/idstat/) 
+o Look up rule references on the Department of Financial Management website 
+(https://adminrules.idaho.gov/rules/current/index.html). 
+ 
+  
+EPB00060    06-25-2024
+ 
+Page 8 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+If the tax issue is complicated or the taxpayer is uncooperative about paying the tax, you can 
+direct your question or the taxpayer to the Tax Commission: 
+ 
+Tax Discovery Bureau 
+Vehicle Line (208) 332-6686 
+Fax Number (208) 332-6619 
+Email Address vehicles@tax.idaho.gov  
+ 
+ 
+City Field Office Location  
+Boise 11321 W. Chinden Blvd. 
+Coeur d’Alene 1910 Northwest Blvd., Ste. 100 
+Idaho Falls 150 Shoup Ave., Ste. 16 
+Lewiston 1118 F St. 
+Pocatello 1111 N. 8th Ave. 
+Twin Falls 440 Falls Ave. 
+ 
+ 
+Visit tax.idaho.gov, select Contact Us, and click Office Hours & Locations to view hours of 
+operation for each location.    
+Laws change over time. We’ll update the guide when necessary. 
+  
+EPB00060    06-25-2024
+ 
+Page 9 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+DEFINITIONS 
+These definitions originate from Idaho code or rules. The law reference is included with the 
+definition to aid with research or guidance that you might require.  
+Accessories 
+An object, feature, or device that does not come standard with a motor vehicle to a motor 
+vehicle dealer from a vehicle manufacturer or distributor but may be ordered by the retail 
+customer as an addition to the motor vehicle to enhance the performance, effectiveness, or 
+beauty of the motor vehicle.  
+Examples include, but aren’t limited to, saddlebags for a motorcycle, truck bed coating, 
+storage racks, chemical or film paint sealant, rustproofing, undercoating, stereo or sound 
+systems, antitheft devices, alarm systems, wheel locks, window tinting, splash guards, or 
+fabric protection for motor vehicles. "Accessories" doesn’t mean a service or maintenance 
+contract.  
+[IC 63-3622OO]  
+Note: The definition of “motor vehicle” for the purposes of accessory installation labor on a 
+new vehicle is different than the definition the Tax Commission uses for the purposes of 
+exemptions, sales, and transfers.  
+All-Terrain Vehicle (ATV)  
+Any recreational vehicle that has three or more tires, is 55 inches or less in width, has a 
+wheelbase of 61 inches or less, and has handlebar steering and a seat designed for the 
+operator to straddle.   
+[IC 63-3622R(a)(3)] & [IC 67-7101(1)] 
+Camping Trailer – Fold Down  
+A vehicular portable unit mounted on wheels and constructed with collapsible partial 
+sidewalls that fold for another vehicle to tow it and unfold at the campsite to provide 
+temporary living quarters for recreational, camping, or travel use.  
+ [IC 63-3622HH(4)(e)] 
+Converted Van or Bus   
+A bus or van-type vehicle that has been converted to recreational use are considered 
+recreational vehicles. Idaho Code section 63-3622HH(4) defines the different classes of 
+motor vehicles for sales and use tax purposes.  
+ [IC 63-3622HH(4)] 
+  
+EPB00060    06-25-2024
+ 
+Page 10 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Dual-purpose Motorcycle  
+A dual-purpose motorcycle is designed for use off developed roadways and highways and is 
+equipped to be operated legally on public roadways and highways. 
+ [IC 63-3622HH(3)] & [IDAPA 35.01.02.099.09.b] 
+Manufactured Home   
+A structure constructed after June 15, 1976, according to the HUD manufactured home 
+construction and safety standards and meets all these requirements: 
+• Transportable in one or more sections, which, in the traveling mode, is eight body 
+feet or more in width or is 40 body feet or more in length, or when erected on site, is 
+320 or more square feet.  
+• Built on a permanent chassis. 
+• Designed to be used as a dwelling with or without a permanent foundation when 
+connected to the required utilities. 
+• Includes the plumbing, heating, air conditioning, and electrical systems contained 
+therein, except that such term shall include any structure which meets all the 
+requirements of this subsection except the size requirements and with respect to 
+which the manu facturer voluntarily files a certification that the Secretary of HUD 
+requires and complies with the standards established under 42 U.S. Code section 
+5401 et seq.  
+ [IC 39-4105(8)] 
+See also: New Manufactured Home 
+Mobile Home  
+"Mobile home" means a factory-assembled structure, or structures generally constructed 
+prior to June 15, 1976, that is all of these: 
+• Equipped with the necessary service connections  
+• Made to be readily movable as a unit or units on their own running gear  
+• Designed to be used as a dwelling unit or units with or without a permanent 
+foundation    
+[IC 39-4105(9)] 
+  
+EPB00060    06-25-2024
+ 
+Page 11 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Modular Building 
+A modular building is a substantially complete building designed to be affixed to real 
+property. Modular buildings include all component parts incorporated into them at the time 
+of manufacture that remain unchanged at the time of the original retail sale. Refrigerators, 
+ranges, draperies, and wood burning stoves that the manufacturer puts in the modular 
+building are incorporated component parts. 
+ [IC 39-4301(10)] & [IC 63-3605J] 
+Motorcycle  
+Every motor vehicle having a seat or saddle for the use of the rider and designed to travel on 
+not more than three wheels in contact with the ground. This definition excludes tractors. A 
+motorcycle also is every motor scooter or motorized bicycle having an engine with less than 
+150 cubic centimeters displacement or with five-brake horsepower or less.  
+ [IC 63-3622HH(5)] 
+Motor Home  
+A vehicular unit designed to provide temporary living quarters, built into an integral part of, 
+or permanently attached to, a self-propelled motor vehicle chassis. The vehicle must 
+contain permanently installed independent life -support systems that meet the American 
+National Standards Institute (ANSI) A119.7 standard for recreational vehicles, and 
+provide at least four of the following facilities:  
+• Cooking  
+• Refrigeration or ice box  
+• Self-contained toilet  
+• Heating, air conditioning, or both  
+• Portable water supply system, including a faucet and sink 
+• Separate 110-125-volt electrical power supply, liquid propane gas supply, or both 
+ [IC 63-3622HH(4)(a)] 
+Motor Vehicle  
+A “motor vehicle” is a vehicle registered, or that Idaho requires to be registered, for use on 
+public roads.  
+This doesn’t include vehicles that Idaho doesn’t require to be registered according to  
+IC 49-426 or that are intended for off-road use only including snowmobiles, boats, aircraft, 
+all-terrain vehicles, and off-road motorcycles.   
+[IC 63-3605L] 
+New Manufactured Home  
+A “new manufactured home” is a manufactured home as defined in IC 39-4105, which is 
+sold for the first time at retail. It includes all components incorporated in the manufactured 
+home at the time of manufacture that remain unchanged at the time of the original retail sale. 
+EPB00060    06-25-2024
+ 
+Page 12 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Refrigerators, ranges, draperies, and wood burning stoves that the manufacturer puts in the 
+manufactured home are incorporated component parts. 
+Furniture, fixtures, furnishings, appliances, and attachments not incorporated as component 
+parts of the manufactured home at the time of manufacture are subject to the sales and use 
+tax separately from the sales price of a new manufactured home.  
+ [IC 63-3606] 
+See also: Manufactured Home 
+New Park Model Recreational Vehicle 
+A “new park model recreational vehicle” (PMRV) is a recreational vehicle as defined in 
+IC 49-117(2), which is sold for the first time at retail. It includes all components 
+incorporated in the vehicle at the time of manufacture that remain unchanged at the time of 
+the original retail sale. Refrigerators, ranges, draperies, and wood burning stoves that the 
+manufacturer puts in the manufactured home are incorporated component parts. 
+  [IC 63-3606C] 
+See also: Park Model Recreational Vehicle  
+Vehicle Accessory Labor  
+"Motor vehicle" as defined for “New-Vehicle Accessories" means a passenger car, moped, 
+motorbike, motorcycle, motor-driven cycle, motorized wheelchair, electric personal 
+assistive mobility device, neighborhood electric vehicle, specialty off-highway vehicle, all-
+terrain vehicle, utility type vehicle, all as defined in IC chapter 1, title 49. It also includes a 
+vessel, as defined in IC 063-3622R(a)(4). And it includes any other motorized vehicle not 
+described in this paragraph.  
+"Motor vehicle" doesn’t mean aircraft as defined in IC 21-101, a bus, motor home, 
+recreational vehicle, park model recreational vehicle, farm tractor or other self-propelled 
+farm equipment, any type of trailer, special mobile equipment, commercial vehicle or truck 
+exceeding 8,000 pounds, or authorized emergency vehicle, all as defined in IC chapter 1, 
+title 49. 
+ [IC 63-3622OO] 
+  
+EPB00060    06-25-2024
+ 
+Page 13 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Off-Highway Motorbike   
+An “off-highway motorbike” is any self-propelled two-, three-, four-, or five-wheeled 
+motorcycle or motor-driven cycle designed for, or capable of, traveling off developed 
+roadways and highways. These vehicles are also called trailbikes, enduro bikes, motocross 
+bikes, dual-purpose motorcycles, or ATVs. These vehicles exclude tractors. 
+[IC 63-3622HH(3)] 
+Park Model Recreational Vehicle  
+A “park model recreational vehicle” is a recreational vehicle designed to provide temporary 
+accommodations for recreational, camping, or seasonal use and that meets all the following: 
+• It’s built on a single chassis. 
+• It was originally mounted on wheels.  
+• It has a gross trailer area not exceeding 400 square feet in the setup mode. 
+• It’s certified by its manufacturer as complying with the American National Standards 
+institute (ANSI) A119.5 Standard for Recreational Park Trailers and includes park 
+models, park trailers and recreational park trailers.  
+[IC 49-117(2)] & [IC 63-3622HH(4)(d)]  
+Person  
+A “person” includes any individual, firm, copartnership, joint venture, association, social 
+club, fraternal organization, corporation, estate, trust, business trust, receiver, trustee, 
+syndicate, cooperative, assignee, or any other group or combination acting as a unit.   
+[IC 63-3607] 
+Recreational Vehicle (RV)  
+The term "recreational vehicle" means a motor home, travel trailer, park model recreational 
+vehicle, truck camper or camping trailer, with or without motive power, designed for human 
+habitation for recreational or emergency occupancy. The term "recreational vehicle" does 
+not include pickup hoods, shells, or canopies designed, created, or modified for occupational 
+usage. School buses or van-type vehicles which are converted to recreational use are defined 
+as recreational vehicles.   
+[IC 63-3622HH(4)] 
+  
+EPB00060    06-25-2024
+ 
+Page 14 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Resident  
+For the purpose of vehicle registration and titling, a person whose domicile has been within 
+Idaho continuously for a period of at least 90 days. This excludes full-time students who are 
+residents of another state. A person, including a full-time student who has established a 
+domicile in Idaho, can declare residency earlier than 90 days for the purposes of vehicle 
+registration and titling. Establishment of residency shall include a spouse and dependent 
+children who reside with that person in the domicile. A domicile can’t be a person's 
+workplace, vacation home, or part-time residence.   
+ [IC 49-119(12)] 
+Retailer  
+A “retailer” is every person who meets one or more of these definitions: 
+• Makes more than two retail sales of tangible personal property during any 12-month 
+period, including sales made as an assignee for the benefit of creditors, or a receiver or 
+trustee in bankruptcy 
+• Makes fewer sales but who holds himself out as engaging in the business of selling such 
+tangible personal property at retail 
+• Who sells a motor vehicle  
+[IC 63-3610(c)] 
+Snowmobile  
+The term "snowmobile" means any self-propelled vehicle under 1,000 pounds unladened 
+gross weight designed primarily for travel on snow or ice or over natural terrain which can 
+be steered by tracks, skis or runners, and which is not otherwise registered or licensed under 
+the laws of the State of Idaho.   
+[IC 63-3622HH(2) 
+Specialty Off-highway Vehicle (SOHV)   
+Any vehicle manufactured, designed, or constructed exclusively for off-highway operation 
+that doesn’t fit the definition of an all-terrain vehicle, utility-type vehicle, or motorbike as 
+defined in Idaho Statute listed below.  
+IC 67-7101(9) & IC 67-7101(16). 
+Trailer  
+Every vehicle without motive power designed to carry property or passengers wholly on its 
+own structure and drawn by a motor vehicle.  
+[IC 49-121(6)(a)] 
+EPB00060    06-25-2024
+ 
+Page 15 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Travel Trailer or Fifth-Wheel Vehicles    
+A vehicular unit, mounted on wheels, designed to provide temporary living quarters for 
+recreational, camping, or travel use and of such size or weight that it doesn’t need special 
+highway movement permits when a motorized vehicle pulls it. 
+[IC 49-121(6)(b) & (6)(f)] & [IC 63-3622HH(4)(b) & (c)] 
+Truck Camper  
+A portable unit constructed to provide temporary living quarters for recreational, travel, or 
+camping use that consists of a roof, floor, and sides. It also must be designed to be loaded 
+onto, and unloaded from, the bed of a pickup truck.   
+[IC 49-121(10)(d) & [IC 63-3622HH(4)(f)] 
+Utility-type Vehicle (UTV)  
+For the purposes of sales and use taxes, a “utility-type vehicle” (UTV) is any recreational 
+motor vehicle other than an ATV, motorbike, or snowmobile as defined in Idaho Statute 
+listed below that: 
+• Designed for and capable of traveling over designated roads 
+• Travels on four or more tires 
+• Has a minimum width of 50 inches and weight of 900 pounds 
+• Has a maximum width less than 80 inches  
+A UTV also means a recreational off-highway vehicle (ROV).  
+A UTV doesn’t include golf carts, vehicles specially designed to carry a disabled person, 
+implements of husbandry as defined in IC 49-110(2), or vehicles otherwise registered under 
+IC Title 49. 
+[IC 67-7101(17)] 
+Vehicle  
+A “vehicle” is every device in, upon, or by which any person or property is or can be 
+transported or drawn upon a highway. This excludes devices used exclusively on stationary 
+rails or tracks.  
+[IC 49-123(2) ] 
+  
+EPB00060    06-25-2024
+ 
+Page 16 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+EXPLANATIONS 
+Assumed indebtedness  
+An assumed indebtedness might be included in the taxable sales price. When the title shows 
+a lien holder, ensure that the bill of sale includes the amount of the assumed lien if the 
+person assuming the debt didn’t already owe for that debt. Please contact the Motor Vehicle 
+Hot Line if you have any questions.   
+[IC 63-3613] 
+Barter or exchange 
+A barter or exchange of vehicles or other property is taxed on the value of the vehicles or 
+other property involved in the exchange. In the absence of documentation supporting the 
+value of the vehicles, tax is due on the value established as the “average trade-in price” in 
+the most recent NADA Official Used Car Guide for the same make, model, options, year, 
+mileage, and condition. 
+  [IDAPA 35.01.02.106(4)(d)] 
+Example: Bill and Fred exchange vehicles each valued at $5,000. Neither Bill nor Fred is a 
+dealer or retailer. No money, property, or other service changes hands. Bill and Fred each 
+owes tax on $5,000, which is the value of the vehicle each received. 
+Trade-in allowance  
+A dealer or retailer can accept merchandise (tangible personal property) as full or partial 
+payment on a vehicle being sold. The merchandise taken in trade must become part of the 
+dealer’s or retailer’s resale inventory. The amount allowed on the traded-in merchandise 
+reduces the taxable sales price. For a trade-in to qualify, it must meet all of the following 
+criteria: 
+• The property is consideration the buyer delivered to the seller. 
+• The sales documents, executed not later than the time of sale, must identify both the 
+property the buyer is purchasing and the property the buyer is trading in.  
+• The delivery of the trade-in and the purchase are components of a single transaction. 
+Taxes paid on the traded-in tangible personal property doesn’t affect the trade-in allowance. 
+Example: A customer buys a car from a dealer for $4,000. The dealer allows a trade-in of 
+$1,500 for the customer's used car. The dealer charges tax on $2,500. 
+* Trade-ins aren’t allowed for private-party sales.  
+ [IDAPA 35.01.02.044] 
+Trade-in Allowance Leased Vehicle  
+A dealer or retailer can reduce the taxable sales price by the trade-in value of a leased 
+vehicle on a new purchase or lease only if the trade-in value of the leased vehicle is 
+greater than the residual value of the leased vehicle. 
+EPB00060    06-25-2024
+ 
+Page 17 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Trade-in Allowance - Manufactured home, Modular building, Park model 
+recreational vehicle    
+A trade-in allowance can’t be used to reduce the taxable sales price of a new 
+manufactured home, modular building, or park model recreational vehicle.  
+ [IC 63-3613(b)(2)] 
+Trade-down  
+A trade-down occurs when a person exchanges property for less expensive property and 
+receives consideration for the difference in value. Buyers don’t owe tax on the sales price of 
+a vehicle when they use a trade-down to purchase the vehicle from a dealer or retailer. The 
+customer can’t get a credit of tax for any unused trade-down balance. 
+Example: Sarah owns two cars and wants to trade in both toward the purchase of a new car. 
+Honest Lee’s dealership gives a trade-in allowance of $10,000 for the first car and $7,000 
+for the second car, for a total trade-in allowance of $17,000. The purchase price of the new 
+car is $14,000. Honest Lee’s can accept both cars as a trade-in allowance because it’s in the 
+business of reselling vehicles. This transaction is a trade-down. Honest Lee will give Sarah 
+an allowance equal to the price of the new car and pay Sarah $3,000 for the difference. 
+Honest Lee shouldn’t collect or refund sales tax on this transaction. 
+Buybacks 
+Buyback – Trade-In  
+If someone uses a vehicle as a trade-in and then later buys that same vehicle back, that 
+person owes tax on the buyback price. Two separate transactions occurred, and the 
+dealer or retailer should calculate and collect tax accordingly. On the original sale, the 
+dealer or retailer deducted the value of the trade-in from the taxable selling price. A 
+second sale occurred when the person bought back the traded-in vehicle, so the buyer 
+owes tax on its taxable sales price.  
+Buyback – Salvage Value   
+An insurance company can declare a vehicle to be a total loss and provide an insurance 
+settlement to the policyholder. If the policyholder buys back the vehicle from the 
+insurance company, the policyholder owes tax on the amount it paid to buy the vehicle 
+back. 
+Example: Jaime is involved in a car wreck. The insurance company declares the 
+vehicle a total loss and settles with Jaime for $10,000. Jaime makes a deal with the 
+insurance company to buy back the vehicle for its salvage value of $1,500. Jaime later 
+repairs the vehicle to make it roadworthy. Jaime owes tax on $1,500. 
+  
+EPB00060    06-25-2024
+ 
+Page 18 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Bill of Sale   
+The buyer must provide a bill of sale or receipt as proof of the gross sales price. In place of 
+a bill of sale, the seller can use the Selling Price field on the front of the title, and the seller 
+must sign it. You can’t accept canceled checks in lieu of a bill of sale.  
+Scan the bill of sale or other receipt with the title application. Tell the buyer that the ITD 
+keeps the bill of sale. 
+No Bill of Sale  
+In the absence of a bill of sale or documentation supporting the value of the vehicle, 
+collect tax on the value established as the “average trade-in price” in the most recent 
+NADA Official Used Car Guide for the same make, model, options, year, mileage, and 
+condition.  
+If the buyer is adamant that they paid less than NADA average trade-in for the vehicle, 
+have the buyer provide an Indemnifying Affidavit asserting the purchase price for the 
+vehicle. The statement should read, “I swear that I purchased this vehicle for the stated 
+price of $$$. I understand that the Idaho State Tax Commission might review this 
+transaction.” You can accept a similar statement that’s signed and dated, but it must be 
+a sworn statement from the buyer. Treat the stated price on a sworn statement the same 
+way as if it appeared on the title or bill of sale. If the stated price appears to be low, see 
+Low Bill of Sale, below. 
+Low Bill of Sale  
+In general, expected value of a vehicle is the value established as the “average trade-in 
+price” in the most recent NADA Official Used Car Guide for the same make, model, 
+options, year, mileage, and condition. You can check the NADA average trade-in price 
+at https://www.nadaguides.com. If the purchase price doesn’t seem to reflect the 
+published value of the vehicle purchased, allow the buyer to register the vehicle and 
+flag the transaction for review. Send the flagged transaction to the Tax Commission 
+for review. 
+$1 Bill of Sale  
+When you receive $1 bills of sale, treat it as a Low Bill of Sale. If the vehicle was a 
+gift, the recipient should use Form ST-133GT, Use Tax Exemption Certificate – Gift 
+Transfer Affidavit.  
+  
+EPB00060    06-25-2024
+ 
+Page 19 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Dealer Fees    
+In general, documentation fees, processing fees, dealer prep fees, freight charges from 
+manufacturer to dealer, etc. charged in conjunction with the sale of a vehicle are “services” 
+the dealer agrees to provide as part of the sale. The amount charged for these services is 
+included in the taxable sales price of the vehicle.  
+The amount the dealer charges for labor or services to deliver the property sold to the end 
+user aren’t taxable if the dealer separately states those amounts.  
+ [IC 63-3613] 
+Please notify the Tax Commission if you recognize that a dealer consistently fails to collect 
+tax on documentation or other taxable fees.   
+Find examples in the following sections of this document: 
+• Vehicles & Vessels: Taxable Sales Price 
+• Motor Vehicles – Dealers 
+Dealer Fees – Dealer documentation fees (doc fees)  
+Documentation fees are services the dealer agrees to provide as part of the sale. These 
+services are included in the taxable sales price of the vehicle.   
+[IC 63-3613] 
+Dealer Fees – Government Imposed  
+Separately stated registration and title fees aren’t taxable if they don’t exceed the 
+amount the government entity sets. 
+ [IC 63-3622AA] 
+Dealer Fees – Freight/Delivery   
+Charges for delivery of the vehicle to the dealer prior to the sale are taxable.  
+[IC 63-3613(a)3] 
+Separately stated delivery or freight charges for delivery to the buyer aren’t taxable 
+unless it’s for a manufactured home, modular building, or park model recreational 
+vehicle.  
+[IC 63-3613(b)7] 
+  
+EPB00060    06-25-2024
+ 
+Page 20 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Dealer Fees – Labor or Service Charge for Accessories on New Vehicles 
+A dealer of a “motor vehicle” shouldn’t collect tax for labor or service charges to add 
+an accessory to a new, factory-delivered “motor vehicle” sold as part of a new vehicle 
+sale. The dealer must separately state the charges or they’re taxable. For this 
+exemption, an eligible “motor vehicle” is defined in the referenced Idaho Statute 
+below. See the chart below for eligible motor vehicles and noneligible vehicles and 
+vessels.  
+ [IC 63-362200] 
+ 
+Eligible “motor vehicle” Noneligible vehicles and vessels 
+All-terrain vehicle Aircraft  
+Electric personal assistive 
+mobility device Any type of trailer 
+Moped Authorized emergency vehicle 
+Motorbike Bus 
+Motorcycle Commercial vehicle or truck exceeding 
+eight thousand (8,000) pounds 
+Motor-driven cycle Farm tractor or another self-propelled 
+farm equipment 
+Motorized wheelchair Motor home 
+Neighborhood electric vehicle Park model recreational vehicle 
+Passenger car Recreational vehicle 
+Specialty off-highway vehicle Special mobile equipment 
+Utility type vehicle  
+Vessel  
+ 
+  
+EPB00060    06-25-2024
+ 
+Page 21 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Homemade Trailers  
+Built by Owner 
+Idaho taxes homemade trailers on the cost of materials used when the owner built it. If 
+the owner paid tax on those materials and completes Form ST-108, the owner doesn’t 
+owe any additional tax. 
+Built for Owner 
+Trailers that anyone except the owner built aren’t “homemade.” All charges for labor, 
+materials, and other taxable fees must be included in the taxable sales price of the 
+trailer. 
+ [IC 63-3612(2)(a)] & [IC 63-3613] 
+Insurance Charges or Finance Charges  
+The taxable sales price doesn’t include insurance coverage on the property sold or any 
+financing charge if these costs are separately stated.  
+ [IC 63-3613] 
+Insurance Company Titling Stolen Vehicle   
+No one owes sales tax when an insurance company requests to transfer the title of a stolen 
+vehicle into its name after it compensates the insured owner for the vehicle.  
+Insurance Settlement    
+Insurance proceeds used to buy a replacement vehicle don’t reduce the taxable sales price if 
+this is an insurance buyback. 
+Example: Maria is in a car wreck. The insurance company declares the vehicle a total loss 
+and settles with Maria on that basis. Maria uses the insurance proceeds as partial payment 
+on a replacement vehicle. The proceeds are treated the same as cash down and don’t reduce 
+the taxable sales price of the replacement vehicle. 
+  
+EPB00060    06-25-2024
+ 
+Page 22 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Manufactured Home   
+A new manufactured home sold at retail for the first time is taxable on 55% of the sales 
+price. The sales price must include all component parts, setup, and transportation fees that 
+the dealer charges.  
+Idaho doesn’t allow trade-ins to reduce the taxable sales price of new manufactured homes.  
+[IC 63-3613] 
+Component Parts 
+Component parts are items the manufacturer incorporates and that remain unchanged 
+at the time of the original sale. They include items such as cabinetry, carpeting, central 
+heating and cooling, closet doors, garbage disposals, sinks, water heaters, etc. 
+Draperies, ranges, refrigerators, and wood burning stoves that the manufacturer places 
+in the manufactured home are component parts.   
+ [IDAPA 35.01.02.048.05] 
+Noncomponent Parts 
+Noncomponent parts are fixtures, furniture, furnishings, appliances, and attachments 
+not incorporated as a component part of a new manufactured home. The dealer must 
+tax these items separately from the sales price of the manufactured home. Tax applies on 
+the full retail value of the items that are separately stated on the sales invoice. 
+ [IC 63-3606] 
+Used Manufactured Home  
+The sale of a used manufactured home isn’t taxable. 
+ [IDAPA 35.01.02.048]  
+  
+EPB00060    06-25-2024
+ 
+Page 23 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Military Personnel   
+Nonresident military personnel who purchase a vehicle for use in Idaho must pay Idaho 
+sales tax unless they’re immediately removing the vehicle from this state for use outside this 
+state.   
+ [IDAPA 35.01.02.107] 
+Temporary Assignment  
+Active-duty military personnel temporarily assigned to Idaho and their accompanying 
+spouses don’t have to pay use tax on vehicles they bring to Idaho if either of these are 
+true: 
+• They owned the property before receiving orders to transfer to Idaho.  
+• They bought the property at least 90 days before moving to Idaho.  
+Attach the completed Form ST-102NM , Use Tax Exemption Certificate Nonresident 
+Military, to the title application.   
+ [IDAPA 35.01.02.107] 
+Example: A service member, who’s a resident of Texas and on active duty in a 
+foreign country, is reassigned to Mountain Home Air Force Base for two years. A 
+month after receiving his new orders, he buys a vehicle and registers it in the country 
+where he’s stationed. He owes tax on the fair-market value of the vehicle when he 
+brings it to Idaho.  
+Note: The service member in the example above doesn’t owe tax if he’ll be stationed 
+in Mountain Home for less than 90 days.  
+Idaho Resident  
+A military person whose home of record is Idaho is a resident of this state.   
+ [IDAPA 35.01.02.107] 
+Note: If someone properly paid taxes on the vehicle at the time of purchase, Idaho 
+gives credit for those taxes. No one owes tax if the taxes paid are equal to or greater 
+than Idaho’s rate. Taxes paid to a foreign country don’t qualify.  
+  
+EPB00060    06-25-2024
+ 
+Page 24 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Occasional Sales  
+Motor Vehicles 
+The “occasional sale” of a motor vehicle only means a sale between members of a 
+family related within the second degree of consanguinity. For this to apply, the seller 
+must have paid sales tax on the motor vehicle. Sales of motor vehicles that fall within 
+transactions detailed in Idaho Statute listed below. 
+[IC 63-3622K(b)(2) – (b)(5)] 
+Recreational Vehicles    
+Idaho law excludes recreational vehicles as defined in IC 63-3622HH from the 
+occasional sale exemption. This includes motor homes, travel trailers, park model 
+recreational vehicles, truck campers or camping trailers.  Truck campers or 
+camping trailers might or might not have motive power, and they are designed for 
+human habitation for recreational or emergency occupancy. 
+Office Trailers  
+An office trailer is a structure built on a permanent chassis, transportable in one or more 
+sections, and designed for use as an office. An office trailer doesn’t qualify as a 
+manufactured home because it’s not designed for use as a dwelling. It also doesn’t qualify as 
+a modular building because it’s not designed to be affixed to real property.  
+ [IDAPA 35.01.02.048] 
+Sale of an Office Trailer  
+An office trailer, whether new or used, is taxable on 100% of the purchase price. The 
+purchase price includes all furniture, fixtures, and appliances. Idaho allows trade-ins if 
+the seller will hold the traded-in merchandise for resale. 
+ [IDAPA 35.01.02.048] 
+Occasional Sale  
+A buyer can claim an occasional sale exemption on a used office trailer if bought from 
+an individual or nonretailer. The seller must establish this exemption. The seller must 
+complete Form ST-108TR, Occasional Sale Exemption Claim, making his claim as an 
+occasional seller. If a third party arranges the sale, this exemption doesn’t apply. 
+  
+EPB00060    06-25-2024
+ 
+Page 25 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Park Model Recreational Vehicles  
+The sale of a new or used park model recreational vehicle (PMRV) is taxable on 100% of 
+the sales price. The sales price of a new PMRV includes all component parts and 
+noncomponent parts. Setup and transportation fees a dealer charges must be included in the 
+taxable sales price. Idaho doesn’t allow trade-ins to reduce the taxable sales price.  
+[IC 63-3613] & [IC 63-3606C] 
+Modified Park Model Recreational Vehicle 
+A used PMRV that the owner says has been substantially modified in such a way that 
+it no longer meets the definition of a PMRV might not owe sales or use tax on the 
+purchase. The buyer must complete Form ST-108PM, Park Model Recreational 
+Vehicle Modification Affidavit. On that form, the buyer must describe the changes that 
+have been made to the PMRV.  
+Send the form to the Tax Commission to review.   
+[IC 63-3606C] 
+Rebates  
+A manufacturer’s rebate on the purchase of a motor vehicle can reduce the taxable sales 
+price if the rebate is used as a reduction to, or down payment on, the motor vehicle. The 
+seller must separately state the manufacturer’s rebate on the sales invoice as a deduction to, 
+or down payment toward, the sales price.  
+[IDAPA 35.01.02.051.02.d] 
+Example: Sarah wants to buy a new motor vehicle that costs $19,000. She negotiates with 
+the dealer to apply the manufacturer’s rebate of $1,500 as the down payment. The dealer 
+collects tax on the difference ($19,000 – $1,500 = $17,500). 
+Example: Tony wants to buy a new motor vehicle that costs $32,000. He negotiates with 
+the dealer to receive the manufacturer’s rebate of $1,500 in cash and use only his trade-in, 
+valued at $12,000, for the down payment. The dealer must collect tax on $20,000 ($32,000 – 
+$12,000). The manufacturer’s rebate is taxable because Tony didn’t use it to reduce the sales 
+price of the motor vehicle. 
+Manufacturer’s rebates offered on trailers, off-highway vehicles and other property don’t 
+reduce the taxable sales price. 
+  
+EPB00060    06-25-2024
+ 
+Page 26 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Rescinded Sales 
+A “rescinded sale” is a transaction in which the seller and buyer place each other in the same 
+positions they were in before entering into any taxable sales transaction. 
+ [IDAPA 35.01.02.045] 
+Documentation  
+In a rescinded sale, each party must give you appropriate documentation showing that 
+a rescinded sale happened. Both parties can claim a tax exemption when retitling their 
+vehicle into their names. If you’re in doubt, you can require the parties to get written 
+clearance from the Tax Commission. Use Form MVM-3, Provisional Sales or Use Tax 
+Clearance. 
+Example: Louise sells her car to her neighbor Joan for $1,000. Joan pays tax and 
+registration fees to the DMV. A week later, Joan returns the car to Louise and gets the 
+$1,000 back. Joan can apply to the Tax Commission for a refund of the sales tax. 
+Louise can take the title and document stating the sale was rescinded back to the DMV 
+and retitle and reregister the car back into her name without paying tax. 
+Example: John trades his car to his neighbor Jill for her car. Both cars were titled and 
+registered to their new owners. The DMV collected Idaho sales tax on both cars. Joan 
+notices the car she received had mechanical issues and asks John if they can trade 
+vehicles back. John agrees, and the cars are titled and registered back to their original 
+owners. Both John and Joan can apply to the Tax Commission for a refund of the sales 
+tax paid on the original trade. Both John and Joan can take the appropriate documents 
+back to the DMV and retitle and reregister their cars back into their names without 
+paying tax. 
+[IDAPA 35.01.02.045] 
+Refunds  
+When a sale is rescinded, each party can apply in writing to the Tax Commission for a 
+refund of the tax paid when titling the vehicle using Form TCR. Each party must 
+provide satisfactory evidence to the Tax Commission showing the sale was rescinded 
+and that they paid Idaho tax. 
+See Appendix C for additional refund procedures. 
+  
+EPB00060    06-25-2024
+ 
+Page 27 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Recreational-related Vehicles  
+In general, buyers must pay Idaho sales or use tax on the purchase of recreational-related 
+vehicles unless an exemption applies. Buyers must provide evidence of the tax paid or 
+exemption claimed when they apply for a title, transfer of title, or recreational vehicle 
+sticker. 
+See ICS 63-3622HH for the definition of “Recreational-Related Vehicles” for sales and use 
+tax purposes. 
+Recreational-Related Vehicles – Trade-ins  
+See Trade-in Allowance for trade-in exclusions.  
+[IDAPA 35.01.02.044.04(b)] 
+Nonresident – Truck Campers  
+Nonresidents can’t use Form ST-104NR to claim the out-of-state use exemption on 
+truck campers. If a buyer takes delivery of the truck camper in Idaho, the buyer owes 
+Idaho tax. 
+[IDAPA 35.01.02.107] 
+Form ST-108 
+Forward ST-108 forms to the Tax Commission for review. These are the uses for Form ST-108: 
+• An owner must complete Form ST-108 when registering a transport trailer or office 
+trailer that doesn’t require titling.    
+• Owners who built a homemade trailer for themselves must complete a Form ST-108 to 
+certify they paid sales or use tax on all the materials used to make the trailer. 
+• Financial institutions collecting tax on untitled transport trailers and office trailers 
+should complete section 2 of Form ST-108 and provide a copy of the form to buyers. 
+Buyers should use the copy as a receipt of tax paid when they register the vehicle. 
+Occasional Sale – Qualifying trailers   
+Only a transport-type trailer (trailer not designed for human habitation) or office trailer 
+can qualify for the occasional sale exemption. Buyers can claim an occasional sale 
+exemption if they buy the item from an individual or nonretailer. The seller must 
+establish this exemption by completing Form ST-108TR, Occasional Sale Exemption 
+Claim, and providing the form to the buyer.  
+Occasional Sale – Sales that don’t qualify  
+The occasional sale exemption doesn’t apply to the sale, rental, or lease of aircraft, 
+ATVs, boats, camper units, off-road motorcycles, dual-purpose motorcycles, and 
+snowmobiles. Camper trailers, fifth-wheel travel-type trailers, and park model 
+recreational vehicles (PMRVs) are taxable on the full purchase price. You can find the 
+full list of vehicles excluded from the exemption in IDAPA 35.01.02.099.09   
+[IDAPA 35.01.02.099.09] 
+EPB00060    06-25-2024
+ 
+Page 28 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Bulk Sales – ST-133CATS – Recreational Vehicle   
+A recreational-related vehicle can qualify for an exemption from tax as part of the bulk sale 
+of a business. The new owner must complete Form ST-133CATS, Sales Tax Exemption 
+Certificate – Capital Asset Transfer Affidavit, Part I, and give it to you when titling the vehicle.  
+Production and Logging Exemption - Excluded  
+Buyers can’t use the production exemption or logging exemption to purchase 
+recreational-related vehicles. Buyers can claim the production exemption for an 
+unregistered boat, UTV, or SOHV that only has a title and is used directly in a 
+manufacturing process.  
+[IC 63-3622HH] 
+Repossessions  
+Original owners can title a vehicle back into their name without owing tax if they give you 
+satisfactory proof that they repossessed the vehicle and will resell it. Acceptable proof can 
+include copies of correspondence from the lien holder, finance contracts, an Affidavit of 
+Repossession (ITD Form 3336), or similar documents. If the information is questionable, 
+refer the applicant to the Tax Commission.  
+Original owners owe tax if they register (plate) the repossessed vehicle in their name. 
+Repossession - Resold 
+If a vehicle is repossessed and then resold, calculate and collect sales tax on the sales 
+price in the same manner as on any other sale. 
+ [IDAPA 35.01.02.063.03(d)] 
+Tax Paid to Another State  
+If someone properly paid a general sales tax to another state, Idaho allows credit toward the 
+Idaho tax due. Idaho doesn’t give credit for taxes paid to another country. 
+• If the tax paid to another state is less than the Idaho sales tax rate, the owner owes the 
+difference, unless another exemption applies.  
+• If the tax paid to another state is equal to or greater than the Idaho sales tax rate, the 
+owner doesn’t owe Idaho tax.   
+If an out-of-state transaction is in question and the customer resists paying Idaho tax, give 
+credit for taxes paid, and flag the transaction.  
+[IC 63-3621(J)] & [IDAPA 35.01.02.072.07] 
+ 
+ 
+ 
+EPB00060    06-25-2024
+ 
+Page 29 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+VEHICLE GUIDANCE 
+Purchased from Idaho Dealers     
+When an Idaho motor vehicle dealer sells a vehicle for delivery in Idaho, the dealer must collect 
+Idaho sales tax at the rate in effect on the date the dealer delivers the vehicle to the buyer. 
+ [IC 63-3619] & [IDAPA 35.01.02.106.02]  
+Purchased from Idaho Dealers – Prepare Form ITD 0502 
+The dealer must prepare a Report of Sale and Application for Certificate of Title (ITD 
+Form 0502). The dealer should use the instructions the ITD provides to complete the form. 
+Purchased from Idaho Dealers – Evidence of tax collected 
+Buyers should give you a copy of the Form 0502 as evidence that they paid sales tax to 
+the dealer. Buyers must have proof of sales tax payment to register or title a vehicle 
+unless an exemption applies.   
+[IC 63-3623(1) & (m)] 
+Purchased from Idaho Dealers – Dealer tax errors  
+If an Idaho dealer collected too little tax, collect the difference from buyers at 
+registration. If it looks like the Idaho dealer collected too much tax, let buyers register 
+the vehicle. Then, tell them they can contact the Tax Commission about how to obtain 
+a refund for the amount they overpaid. 
+[ICS 63-3626] 
+Purchased from Out-of-State Dealers    
+Idaho grants reciprocity for a general sales tax paid to another state when the buyer provides 
+evidence of payment. You can give credit for sales tax buyers pay in another state when all 
+of these are true:  
+• The buyer purchases and takes possession of a vehicle from an out-of-state dealer. 
+• They pay that state’s sales tax to the dealer. 
+• They bring the vehicle to Idaho to be titled, registered, or both.  
+Idaho doesn’t give credit for taxes paid to another country. However, the 90-day New 
+Resident exemption applies if the owner was a citizen of another country.  
+[IC 63-3621] 
+Purchased from Out-of-State Dealers – Partial tax owed 
+If the sales tax paid to another state is less than the Idaho sales tax rate, then buyers 
+owe tax on the difference. Collect that amount unless some other exemption applies 
+(e.g. New Resident Exemption). 
+EPB00060    06-25-2024
+ 
+Page 30 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Purchased from Out-of-State Dealers – Credit for taxes paid 
+Exercise caution when the sales agreement shows the seller collected tax on an out-of-
+state dealer purchase because it doesn’t mean the seller collected tax for that state. The 
+seller puts the tax on the sales agreement so it can be included in the buyer’s loan, but 
+the buyer didn’t pay tax to anyone. Sometimes the out-of-state dealer will give a check 
+in the amount of tax to buyers and tell them to pay the tax when they register the 
+vehicle. 
+Acceptable documentation to show that the dealer forwarded tax to the Idaho State 
+Tax Commission includes any of these: 
+• The dealer’s Idaho seller’s permit number 
+• A copy of the canceled check the dealer wrote to the Idaho State Tax Commission 
+• A written statement from the out-of-state dealer stating it collected Idaho tax and 
+forwarded it to the Idaho State Tax Commission  
+Purchased from Out-of-State Dealers – Taxable amount 
+The taxable amount must include any document fees or other services the seller agrees 
+to do as part of the sale, excluding those exempted by IC 63-3613(b). 
+The taxable amount should exclude any acceptable trade-in allowance and rebate 
+applied to the purchase price. For these items to be nontaxable, the out-of-state dealer 
+must separately state and describe them on the bill of sale or other receipt.   
+[IC 63-3613] 
+Purchased from Out-of-State Dealers – Proof of purchase 
+The buyer must provide the original bill of sale, voucher, or other receipt from the out-
+of-state dealer.  
+[IDAPA 35.01.02.106.04] 
+Purchased from Out-of-State Dealers – Preparing title application 
+Prepare the title application according to ITD instructions. A copy of the bill of sale or 
+other receipt must accompany the white copy of the title application sent to the ITD. 
+  
+EPB00060    06-25-2024
+ 
+Page 31 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Purchased from Retailers or Pawnshops (Nondealers)      
+A retailer required to have an Idaho seller’s permit must collect sales tax when selling a 
+vehicle (unless an exemption applies), even though they’re not a vehicle dealer.  
+ [IC 63-3619] & [IDAPA 35.01.02.106.05] 
+Purchased from Retailer – Required information 
+The retailer must give the buyer a bill of sale showing the sales price, the separate 
+statement of the tax paid, and its seller’s permit number. The retailer must forward the 
+tax it collects to the state. The retailer should give the buyer the title to the motor vehicle.  
+Accept the bill of sale showing the separately stated sales tax as evidence that the new 
+owner paid tax. 
+ [IDAPA 35.01.02.106.05.a] 
+Example: An Idaho grocery store sells a delivery van to an employee who’s an Idaho 
+resident. The store must charge the employee sales tax on the sale of the van because 
+the store holds a seller’s permit. 
+Example: The same Idaho grocery store sells another delivery van to an employee 
+who’s a Washington resident. The grocery store doesn’t have to collect sales tax if it 
+completes a Form ST-104NR and keeps it on file. The employee will title, register, 
+and pay the tax in Washington. 
+Purchased from Retailer – Trade-in 
+Retailers who aren’t dealers must follow the same laws as dealers when accepting 
+trade-ins on the purchase of motor vehicles. 
+ [IDAPA 35.01.02.044] 
+Purchased from Retailer – No sales tax collected 
+If the retailer didn’t charge the buyer the correct amount of tax, collect the tax due from 
+the buyer when you process the Application for Certificate of Title transfer.  
+Attach the bill of sale to the white copy of the title application sent to the ITD. 
+Purchased from Retailer – Auctioneers 
+Auctioneers performing their services in Idaho are retailers required to hold an Idaho 
+seller’s permit. As an Idaho retailer, they must collect the sales tax when selling a 
+vehicle, vessel, or other tangible personal property.  
+[IDAPA 35.01.02.020] 
+  
+EPB00060    06-25-2024
+ 
+Page 32 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Purchased from Private Parties (Nondealers / Nonretailers)     
+Buyers who purchase vehicles from private parties owe use tax when they apply for title 
+unless an exemption applies. The buyer must present a bill of sale or receipt as proof of the 
+gross sales price.  
+You can’t accept a cancelled check in lieu of a bill of sale. Attach the bill of sale to the white 
+copy of the title application sent to the ITD. 
+Private Parties - No Bill of Sale  
+In the absence of a bill of sale or documentation supporting the value of the vehicle, 
+collect tax on the value established as the “average trade-in price” in the most recent 
+NADA Official Used Car Guide for the same make, model, options, year, mileage, and 
+condition.  
+If the buyer is adamant that they only paid the amount stated, have the buyer provide a 
+written indemnifying affidavit statement asserting the purchase price. The statement 
+should read, “I swear that I purchased this vehicle for the stated price of $$$. I 
+understand the Idaho State Tax Commission might review this transaction .” You can 
+accept a similar statement that’s signed and dated, but it must be a sworn statement 
+from the buyer. Treat the stated price the same way as if it appeared on the title or bill 
+of sale. Treat the same as a Low bill of sale.  
+Private Parties - Trade-in allowance  
+Trade-in allowances are not allowed on private party sales.  
+ [IDAPA 35.01.02.044.03] 
+Private Parties – Barter or Exchange  
+A barter or exchange of vehicles or other property is taxed on the value of the vehicles 
+or other property involved in the exchange. Each participant in a barter or exchange 
+owes tax on the value of the vehicle or other property he or she received. In the 
+absence of documentation supporting the value of the vehicles, tax is due on the value 
+established as the “average trade-in price” in the most recent NADA Official Used Car 
+Guide for the same make, model, options, year, mileage, and condition.   
+[IDAPA 35.01.02.106] 
+Private Parties – Barter for Services 
+Barters of a vehicle for services, other tangible property, or real property are taxable at 
+the value of the services or other property.  
+If the buyer doesn’t have a receipt or bill of sale, collect sales tax on the NADA 
+average trade-in price.  
+  
+EPB00060    06-25-2024
+ 
+Page 33 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Leases   
+A lease-purchase and a lease with option to purchase have separate definitions and tax 
+applications. 
+[IDAPA 35.01.02.106.06] 
+Lease-purchase agreement 
+A “lease-purchase agreement” is an installment or conditional sale, even though the 
+contractual parties refer to it as a lease. The transaction is a sale when ownership 
+passes to the transferee at the end of the lease contract. This assumes that the 
+transferee doesn’t give the seller other consideration, or consideration that isn’t 
+representative of the fair-market value. The transferee owes tax on the entire sales 
+price as of the date the transferee and seller entered the lease. The Tax Commission 
+doesn’t consider the seller to be a lessor.  
+[IDAPA 35.01.02.024.12.a] 
+Lease with option to purchase agreement 
+A “lease with option to purchase agreement” is when the lessor transfers possession or 
+use of the property to the lessee for consideration over a stated term. The lessor keeps 
+possession at the end of the lease unless the lessee exercises an option to buy the 
+property at a price agreed to at the beginning of the lease. This residual or buyout price 
+must represent the fair-market value of the vehicle. The transferee owes tax on the 
+individual payments as they occur throughout the lease. 
+[IDAPA 35.01.02.024.12.b] 
+Duration of the Lease 
+Sales tax applies to lease payments whether the property is leased on an hourly, daily, 
+weekly, monthly, mileage, or other basis. Charges for personal property tax relating to 
+the lease are included in the amount subject to tax.  
+ [IDAPA 35.01.02.106.06] & [IDAPA 35.01.02.024.10] 
+Lessor – Located in Idaho   
+The lessor of a vehicle or other tangible personal property located in Idaho is an Idaho 
+retailer under Idaho law and must collect sales tax from the lessee on each lease 
+payment (See section 4610). The sales tax is due on the date that the lessee must make 
+the lease payment, at the tax rate in effect on that date. A lessor can’t rely on the DMV 
+to collect the tax. 
+Lessee – Exercises option to purchase 
+When a lessee exercises an option to purchase a leased vehicle, the lessee owes tax on 
+the full purchase price or residual price paid. Lessors must collect the tax on the 
+transaction at the tax rate in effect on the date they transfer the title to the lessee.   
+[IDAPA 35.01.02.024.12.b] 
+EPB00060    06-25-2024
+ 
+Page 34 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Lessors – Seller’s permit  
+Out-of-state lessors, as well as in-state lessors, must get a seller’s permit and comply 
+with Rule 106.06.f. If the county assessor can’t verify that the lessor is properly 
+registered to collect the tax, flag the transaction for the Tax Commission when you 
+title or register the vehicle.  
+[IDAPA 35.01.02.106.06.f] 
+Lessors-No Seller’s Permit – Temporary Registration 
+Either issue a 30-day temporary registration or a conditional registration 
+(nonrenewable unless title has been issued) for up to a year.  
+Tell the lessee that they can’t get tax clearance until the lessor has properly registered 
+to collect tax. Flag this transaction for the Tax Commission. 
+Titled by Dealers or Manufacturers   
+A vehicle upon which a dealer’s plate can be lawfully displayed is considered inventory 
+held for resale and isn’t subject to sales or use tax.  
+[IDAPA 35.01.02.108] 
+Titled by Dealers or Manufactures - Registered 
+When dealers or manufacturers take a vehicle from inventory and put it to a use for 
+which a dealer’s plate isn’t authorized, they must title and register the vehicle and pay 
+tax. The dealers or manufacturers have the option of either: 
+• Paying tax at the prevailing rate on the date of withdrawal based on the acquisition 
+cost of the vehicle. 
+• Paying tax on a reasonable rental value for the month or part of a month during 
+which they put the vehicle to a taxable use. A “reasonable rental value” is an 
+amount equal to what people in the business of renting vehicles actually charge for 
+a vehicle of like make and model.  
+[IDAPA 35.01.02.108] 
+Titled by Dealers or Manufactures – Vehicle use tax 
+Dealers owe tax on vehicles, such as work, service, or courtesy vehicles. They owe tax 
+when the vehicle is no longer part of dealer’s resale inventory.  
+[IDAPA 35.01.02.108] 
+  
+EPB00060    06-25-2024
+ 
+Page 35 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Vehicle Modifications for Handicapped or Disabled   
+Newly Modified  
+When a dealer or other retailer has added equipment to a motor vehicle, or has 
+otherwise altered a motor vehicle, you should consider separately stated charges for 
+these changes (line items) on an invoice or bill of sale for proper taxation.  
+Taxpayers can make a qualified purchase of Durable Medical Equipment (DME) that a 
+practitioner prescribes without paying sales tax. When dealers or other retailers have 
+added approved DME to a motor vehicle or otherwise altered a motor vehicle with 
+DME, they can separately state the exempt portion. This means the DME isn’t taxed. 
+If the dealer or retailer doesn’t separately state the DME, then the DME must be taxed 
+with the motor vehicle.  
+Already Modified 
+An already modified vehicle or recreational vehicle doesn’t qualify for DME 
+exemption. 
+Example: Someone modified a four-wheeler (ATV) so it can be operated one-handed.  
+ 
+  
+EPB00060    06-25-2024
+ 
+Page 36 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+EXEMPTIONS 
+Transfers without Consideration  
+Inheritances  
+A vehicle awarded as an inheritance to an heir of the deceased isn’t subject to tax if the 
+heir gives you a copy of the court order or other documents as evidence of the inheritance.  
+Select “Inheritance” in the tax exemption list. Scan a copy of the documents with the 
+title application. 
+Claims by heir    
+If an heir is claiming a vehicle by using an Affidavit of Inheritance (ITD Form 3414) 
+(IC 49-514) or a Small Estate Affidavit (ITD Form 3413) (IC 15-3-1201), the heir 
+doesn’t owe tax. The heir must give you a properly completed Affidavit of Inheritance 
+or Small Estate Affidavit.  
+Select “Inheritance” in the tax exemption list. 
+Transfer by court-appointed representative of estate  
+Estate representatives are appointed by the probate court. They might be a personal 
+representative, executor, or administrator. When an estate representative transfers the 
+title of a vehicle that’s in a deceased person’s name, tax requirements depend on who’s 
+receiving a vehicle, and in what manner.  
+• If the recipient is receiving the vehicle as a bona fide gift, the estate representative 
+(donor) and recipient should complete an ST-133GT Use Tax Exemption 
+Certificate - Gift Transfer Affidavit.  
+• If a qualifying family member is buying the vehicle from the estate, the estate 
+representative (seller) and the buying family member can complete an ST133 
+Sales Tax Exemption Certificate - Family or American Indian Sales. (See Sales to 
+Family Members.) 
+• If the recipient was named in the will as the heir to the vehicle, the heir doesn’t 
+owe tax if he or she gives you a copy of the will showing he or she is entitled to 
+the vehicle.  
+Divorce 
+A vehicle awarded to one person in a divorce isn’t subject to tax if that person gives 
+you a copy of the court order or property settlement agreement.  
+Select “Awarded by Court Order” in the tax exemption list. Attach a copy of the 
+settlement papers to the title application you sent to the ITD or note on the ITD white 
+copy that you received and reviewed the settlement. 
+Restitution 
+A court order of restitution to restore something lost or stolen from its proper owner 
+isn’t subject to tax. 
+EPB00060    06-25-2024
+ 
+Page 37 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Gifts  
+A gift of a vehicle isn’t subject to tax. There can be no consideration either in money, 
+goods, or services. The relationship of the donor and recipient must be one that 
+qualifies for gifts. The recipient can’t assume any of the donor’s debt. Ensure that the 
+transaction is a true gift.   
+[IDAPA 35.01.02.107.02] 
+Gift – Assuming a debt 
+If the recipient assumes a debt the donor owes, tax is due on the amount of the 
+debt. If the title shows a lien holder, the gift exemption doesn’t apply unless the 
+customer can establish that the vehicle was put up as collateral for a new loan. 
+[IDAPA 35.01.02.107.02.b] 
+Gift – Documentation Requirements 
+Document the gifting of a vehicle using Form ST-133GT, Use Tax Exemption 
+Certificate -Gift Transfer Affidavit. The donor and the recipient complete the ST-
+133GT and give it to you with the vehicle title. 
+Gift – Exemption Form – Unable to sign an affidavit 
+When the donor is unable to sign an affidavit, you can accept one of these options: 
+• A letter the donor signs stating the vehicle is a gift and attaches to the 
+ST-133GT.  
+• The Selling Price field on the front of the title marked as a “gift” and signed 
+by the donor. 
+If you think the ST-133GT is completed correctly, select “Gift: ST-133GT” in the 
+tax exemption list. Scan a copy of the form with the title application.  
+Gift – ST-133GT – Individuals and businesses 
+Both individuals and businesses can give gifts of vehicles. However, in the case of 
+businesses, the donor and recipient can’t have a relationship that suggests the 
+donor gave the recipient the vehicle in place of bonuses, services, wages, or other 
+consideration.  
+Please ensure Question 1 includes an explanation for a business gift. 
+Gifts - ST-133GT – Questionable gift claim 
+If you question the ST-133GT gift claim, you can send the recipient to the Tax 
+Commission to get clearance. If you process the title, you can flag the transaction 
+and note the unusual circumstances on the backup papers scanned with the title 
+application. The Tax Commission will follow up and determine if the customer 
+owes any tax on this transaction. 
+Promotional Giveaways and Raffles    
+When a motor vehicle is given away as a promotional item, use tax is owed on the 
+acquisition cost of the vehicle. The dealer, retailer, or donor must accrue and pay the 
+use tax due on their next sales tax return.  
+[IDAPA 35.01.02.105.05(a)] 
+EPB00060    06-25-2024
+ 
+Page 38 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Promotional Giveaways – Out-of-state providers 
+The recipient of the vehicle must provide documentation proving the vehicle was won 
+as part of a promotion. Otherwise, the recipient must pay use tax on the fair trade-in 
+value of the vehicle when titling it, registering it, or both. 
+Examples of satisfactory evidence include:  
+A Form ST-133GT Use Tax Exemption Certificate Gift Transfer Affidavit that the 
+dealer or retailer completes. 
+Select “Gift: ST-133GT” in the tax exemption list. 
+Trusts 
+When a vehicle is transferred into a trust, sales tax isn’t due on the vehicle unless the 
+beneficiary is assuming a debt for the vehicle at the time of transfer. 
+Select “Other” in the tax exemption list, enter “Trust” in the Other Tax Explanation field, 
+and scan a copy of the documentation with the title application.  
+Trust – Removal of vehicle for consideration 
+A beneficiary may pay a trust to withdraw a vehicle for use before a trust is executed. 
+The beneficiary owes sales tax on the amount paid to the trust for the vehicle at the 
+time of withdrawal. 
+Trust – Difficult circumstances 
+If the facts or circumstances of the trust are difficult, you can require that the 
+titleholder get a tax clearance from the Tax Commission. 
+Statute of Limitations  
+The statute of limitations for the Tax Commission to collect tax on a purchase of tangible 
+personal property is seven years if unpermitted and three years if permitted for sales and use 
+tax. If a transaction occurred more than seven years ago, don’t collect tax.  
+  
+EPB00060    06-25-2024
+ 
+Page 39 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Business Transfers or Sales    
+Corporations, Partnerships, S-Corporations, LLCs 
+Capital Asset Transfers of motor vehicles that involve partnerships, corporations, S-
+corporations, LLCs, or any other type of business entity must complete Form ST-
+133CATS to qualify for a sales and use tax exemption.  
+Select “Capital Asset Sale/Lease/Rental: ST-133CATS” or “Capital Asset Transfer: 
+ST-133CATS” in the tax exemption list and scan the completed form with the title 
+application. 
+Sole Proprietors – Idaho Businesses 
+A vehicle transfer between an Idaho resident individual and his or her Idaho sole 
+proprietor business is a transfer within the same legal entity. 
+Example: Individual to sole proprietorship. Mary is the sole proprietor of Squeaky-
+Clean Window Washing. The company isn’t incorporated, it’s not a partnership, and 
+it’s not an LLC. Mary wants to add her “doing business as” (DBA) name to the vehicle 
+currently titled in her and her spouse’s name. Mary doesn’t owe tax, and she doesn’t 
+have to give you any exemption form for the transaction.  
+Example: Sole Proprietorship to Individual. In the same scenario as above, Mary 
+instead wants to remove her DBA name from the title. If Mary is the sole proprietor, 
+she doesn’t owe tax. She doesn’t have to give you an exemption form for the 
+transaction.  
+Sole Proprietors – Out-of-State Businesses 
+Sole proprietors who are new residents to Idaho can title vehicles previously registered 
+to them in their old state of residence without paying Idaho tax if they do one of these:  
+• Qualify for the new resident exemption 
+• Properly paid sales tax to another state for the vehicle  
+Sales tax paid must be equal to or greater than the current sales tax rate for Idaho.  
+[IDAPA 35.01.02.107.04] 
+  
+EPB00060    06-25-2024
+ 
+Page 40 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Bulk Sales 
+Vehicles, vessels, RVs, snowmobiles, and aircraft sold as a part of a bulk sale of assets 
+or property aren’t subject to tax. A bulk sale occurs when all, or substantially all, of 
+the assets of a business are sold to another entity that continues operation of the 
+business.  
+[IC 63-3622K(5)] & [IDAPA 35.01.02.099.03] & [IDAPA 35.01.02.107.09] 
+The buyer and seller must provide and complete Part I of a Form ST-133CATS to 
+apply for title transfer. The responses to Part I will determine if the transaction 
+qualifies for the exemption.  
+Scan the completed form with the title application along with any other documentation 
+the customer provides in support of the exemption claim (e.g. bill of sale, asset list, 
+etc.). Select “Bulk Sale: ST-133CATS” in the tax exemption list. 
+Capital Asset Sale, Lease or Rental – Motor Vehicles and Transport Trailers Only   
+These capital (business) assets can be sold, leased, or rented without tax when the 
+owners of all of the outstanding stock, equity, or interest of the transferor are one of 
+these: 
+• The same as the transferee 
+• Members of the same family within the second degree of consanguinity or affinity  
+The initial transferor must have paid sales or use tax equal to or greater than Idaho tax 
+when they bought the property. Refer to section 5705 for credit given for taxes paid to 
+another state if taxes paid are less than the current Idaho rate.  
+  [IC 63-3622K(4)] 
+ The transferor and transferee must complete and provide Part II of a Form ST-
+133CATS to apply for title transfer. The responses to Part II will determine if the 
+transaction qualifies for the exemption. 
+Scan the completed form with the title application along with any other documentation 
+the customer provides in support of the exemption claim (e.g. bill of sale, proof of tax 
+paid, etc.). Select “Capital Asset Sale/Lease/Rental: ST-133CATS” in the tax 
+exemption list. 
+  
+EPB00060    06-25-2024
+ 
+Page 41 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Capital Asset Transfer – Vehicles, Vessels, RVs, Snowmobiles, Aircraft 
+These capital (business) assets can be transferred to or by a business when the transfer 
+is only in exchange for equity (ownership) of the business. If the transfer is between 
+corporations, each entity must have at least 80% related stock ownership. The initial 
+transferor must have paid sales or use tax equal to or greater than the Idaho tax rate 
+when it purchased the property. Refer to section 5705 for credit given for taxes paid to 
+another state if taxes paid are less than the current Idaho rate. 
+ [IC 63-3622K(3)] 
+The recipient and transferor must complete and provide a Form ST-133CATS to apply 
+for title transfer. They must complete Part III of this form to determine if the 
+transaction qualifies for the exemption.  
+Scan the completed form with the title application along with any other documentation 
+the customer provides in support of the exemption claim (e.g., transfer paperwork, 
+proof of tax paid, etc.). Select “Capital Asset Transfer: ST-133CATS” in the tax 
+exemption list. 
+Production Exemption for Off-Road Vehicles       
+Motor vehicles and trailers for use off-road in farming, logging, mining, or manufacturing 
+might be eligible for an exemption. To qualify, the vehicle must be used directly and 
+primarily in the production process. For example, a feedlot can purchase a motor vehicle 
+without owing Idaho sales or use tax if it uses the vehicle exclusively off-road to distribute 
+feed to its cattle.  
+If you’re satisfied that the production exemption claim is valid, have the customer complete 
+and provide an ST-101, Sales Tax Resale or Exemption Certificate, and select “Production 
+Exemption: ST-101” in the tax exemption list. 
+Licensed Off-Road Vehicles  
+The production exemption only applies if Idaho doesn’t require the vehicle to be 
+licensed. If Idaho requires the vehicle to be licensed or the buyer wants to license the 
+vehicle, the buyer owes tax on the recent purchase price or the average trade-in value 
+from the most recent NADA Official Used Car Guide at the time of licensing. 
+Title on Unlicensed Vehicles – Property tax 
+A vehicle licensed or required to be licensed is subject to sales tax but is exempt from 
+property tax. When Idaho issues a title on an unlicensed vehicle, the vehicle becomes 
+subject to property tax.  
+Be sure to place unlicensed motor vehicles and trailers on the personal property tax 
+rolls when the owner titles the vehicle. 
+  
+EPB00060    06-25-2024
+ 
+Page 42 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Production Exemption – Excluded  
+Reminder – Loggers, farmers, ranchers, and other producers must pay tax on these 
+vehicles that they buy for use primarily for their business: 
+• ATVs  
+• Camper units 
+• Off-road motorbikes 
+• Dual-purpose motorcycles 
+• Snowmobiles 
+• Recreation-type trailers used for temporary living quarters  
+These vehicles can’t qualify for the production exemption or logging exemption, and 
+the owners must pay tax when they acquire the vehicle. 
+Logging exemption – Log loading equipment  
+Owners can license their log jammers, log loaders, and similar fixed-load vehicles 
+used in the logging industry and normally operated in an overweight, overwidth 
+condition. To license them, someone must be able to operate them legally on public 
+highways as commercial vehicles.  
+Owners owe tax on the fair-market value of the vehicle at the time it’s licensed, if 
+acquired within seven years from the date of licensing.  
+Owners don’t owe tax if they bought the property more than seven years before the 
+date of licensing. 
+Exempt Entities 
+Some business entities are exempt from sales and use taxes when they buy a vehicle. Here’s 
+the most current list of exempt buyers: Current Exempt Buyers 
+ [IC 63-3622O]  
+The buyer must complete a Form ST-101, Sales Tax Resale or Exemption Certificate, and 
+give it to the retailer or to you when they apply for title. 
+Questionable Exemption Claims 
+When a customer claims an Idaho tax exemption not listed on Form ST-101, please 
+contact the Tax Commission for verification, or refer them to the Tax Commission for 
+a tax clearance. 
+  
+EPB00060    06-25-2024
+ 
+Page 43 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Interstate Commerce Carrier (ICC)       
+Interstate Commerce Carrier – What qualifies 
+Idaho allows an exemption from sales and use taxes for qualifying motor vehicles, 
+trailers, and glider kits either sold or leased to commercial or private carriers and used 
+in interstate commerce.  
+ [IC 63-3622R(c)] & [IDAPA 35.01.02.101] 
+Motor Vehicles  
+Idaho allows an exemption from sales and use taxes for motor vehicles sold or leased 
+to a buyer who will do all of these: 
+• Immediately register the vehicle with a maximum gross registered weight of more 
+than 26,000 pounds (GVWR - Class 7 or higher). 
+• Register the vehicle under the International Registration Plan (IRP). 
+• Operate the vehicle in a fleet of vehicles with a minimum of 10% of the fleet miles 
+operated outside Idaho in any IRP registration period. 
+ [IC 63-3622R(c)] & [IDAPA 35.01.02.101.02] 
+Trailers 
+Idaho allows an exemption from the sales and use taxes for trailers when the trailer 
+will do both of these: 
+• Immediately become a part of a fleet of vehicles registered under the International 
+Registration Plan (IRP). 
+• Be part of a fleet of vehicles with a minimum of 10% of the fleet miles operated 
+outside Idaho in any IRP registration period. 
+ [IC 63-3622R(c)] & [IDAPA 35.01.02.101] 
+Interstate Commerce Carrier – Titled or base plated 
+The exemption applies even when the motor vehicles are titled or base plated in Idaho. 
+Interstate Commerce Carrier – ST-104IC exemption form 
+Buyers claiming this exemption must provide the seller or lessor with Form ST-104IC, 
+Sales Tax Exemption Certificate-Interstate Commerce Vehicles.  
+• The dealer should attach the appropriate copy of the Form ST-104IC to the title 
+application it sends you.  
+• When buyers purchase a vehicle qualifying for this exemption from a retailer who 
+isn’t registered to collect Idaho sales tax, the buyer must complete a Form ST-
+104IC and give it to you when they title or register the vehicle.  
+Select “Interstate Commerce Vehicle: ST-104IC” in the tax exemption list and scan 
+the exemption certificate with the title application. 
+EPB00060    06-25-2024
+ 
+Page 44 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Interstate Commerce Carrier – No longer qualifies 
+If, at the end of any IRP reporting period, the out-of-state mileage of a fleet claiming 
+the exemption drops below 10%, the fleet of motor vehicles and trailers used in this 
+state is subject to the use tax. The motor vehicles and trailers are taxable on their fair-
+market value as of the last day of the reporting period. That tax is due on the 20th day 
+of the month following the end of the reporting period.  
+ [IC 63-3622R(c)] & [IDAPA 35.01.02.101.07] 
+Interstate Commerce Carrier – Doesn’t qualify 
+This exemption doesn’t apply if a buyer titles a vehicle and claims that less than 10% 
+of the fleet mileage occurs outside Idaho. A carrier that holds titles issued by another 
+state that doesn’t charge tax on these units must pay Idaho tax on the fair-market value 
+of the vehicles or trailers at the time the carrier titles them in Idaho, unless an 
+exemption applies.  
+Some states tax ICCs at rates less than the general retail sales tax rate. If tax that a 
+carrier paid to the other state is less than the Idaho sales tax rate, the carrier must pay the 
+difference when it titles the vehicle in Idaho. 
+Purchased with no intent to use in Idaho 
+Foreign Vehicle 
+A citizen of a foreign country that’s owned a vehicle for more than 90 days before 
+moving to Idaho can claim the same exemption that a resident of any state of the 
+United States (except Idaho) can claim.  
+[IDAPA 35.01.02.107.04] 
+Example: A citizen of Canada buys a vehicle 90 days before moving to Idaho. She 
+must complete a Form ST-102 and give it to you to claim the exemption.  
+Example: A citizen of the U.S. moves to a foreign country and becomes a citizen of 
+the foreign country. He purchases a vehicle more than 90 days  before moving to 
+Idaho. He must complete a Form ST-102 and give it to you to claim the exemption.  
+Foreign Vehicle – Idaho Use Tax 
+Any American citizens living in a foreign country who don’t become citizens of that 
+country owe tax on a vehicle they register in Idaho or use more than 90 days during 
+any 12-month period. This is true no matter how long they lived in the foreign country. 
+Idaho gives credit for any tax they paid to another state of the United States.  
+Example: A resident of Idaho is on a one-year tour of Europe and buys a car 10 
+months before returning to Idaho. The Idaho resident owes tax on the fair-market value 
+of the car at the time it enters Idaho. 
+ 
+EPB00060    06-25-2024
+ 
+Page 45 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+New Resident Exemption  
+To claim the exemption, the owner must complete Form ST-102, Use Tax Exemption 
+Certificate - New Resident or Form ST-102NM, Use Tax Exemption Certificate - 
+Nonresident Military.  
+Scan the completed ST-102 or ST-102NM with the title application and select “New 
+Resident: ST-102” or “Non-resident Military: ST-102NR”as the tax exemption code. 
+  
+EPB00060    06-25-2024
+ 
+Page 46 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+New Residents  
+New residents don’t have to pay tax on personal vehicles brought to Idaho if all of the 
+following are true:   
+• They acquired the vehicle while residing in another state or country. 
+• The vehicle was primarily for use outside Idaho, and the use was actual and 
+substantial. 
+• They acquired the vehicle more than 90 days before moving to Idaho. 
+A registration or title from another state or nation of residence issued more than 90 
+days before moving to Idaho is proof that the vehicle was primarily for use outside 
+Idaho.  
+[IC 63-3621(k)(1)] & [IDAPA 35.01.02.107.04] 
+Example: A citizen of Canada or Montana moves to Idaho, bringing a vehicle she’s 
+owned for two years and establishes residency in Idaho. She doesn’t owe tax. 
+New Resident – Personal vehicle  
+A “personal vehicle” is one that an individual, sole proprietor, or grantor trust 
+owns.  
+New Resident – Nontaxing states 
+New residents coming from nontaxing states (OR, MT, AK, DE, NH) must 
+complete Form ST-102 to claim the exemption for their vehicles. They must give 
+you the form when they title or register the vehicle.  
+If another state doesn’t require the titling, registration, or both for a vehicle (such 
+as Alaska for ATVs), the new residents must give you evidence that shows when 
+they purchased the vehicle and that they owned it at least 90 days before to moving 
+to Idaho.  
+Scan the completed ST-102 with the title application and select “New Resident: 
+ST-102” in the tax exemption list. 
+  
+EPB00060    06-25-2024
+ 
+Page 47 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Nonresident  
+Defined 
+A nonresident is a person or business whose domicile is in another country or in a state 
+other than Idaho. 
+Example: An Oregon resident travels to Idaho to work temporarily for two months 
+and then returns to Oregon. She doesn’t owe tax on the motor vehicle she brings to 
+Idaho if it remains titled and registered in Oregon. 
+Using a Vehicle in Idaho  
+Nonresidents can operate their motor vehicle in Idaho without owing Idaho sales or 
+use tax if all of these are true: 
+• The motor vehicle is registered or licensed in the state or country where they live. 
+• They don’t use the motor vehicle in Idaho more than 90 days in any consecutive 
+12-month period .  (A motor vehicle is considered to have been used in Idaho for a 
+day when it’s present in this state for more than 16 hours during any 24-hour period.) 
+• Idaho law doesn’t require the motor vehicle to be registered or licensed. 
+ [IC 63-3621(k)] & [IDAPA 35.01.02.107.04] 
+Nonresident Military    
+Active-duty military personnel and their spouses don’t owe use tax on the use of vehicles, 
+vessels, and aircraft if they’re personally owned and acquired at one of these times: 
+• Before receiving orders to transfer to Idaho 
+• 90 or more days before moving to Idaho  
+The vehicle owner can prove that the vehicle was primarily for use outside Idaho if the 
+owner obtained a registration or title from another state or nation of residence before 
+receiving orders to transfer to Idaho, or 90 days before moving to Idaho. Owners must 
+complete Form ST-102NM to claim the exemption when they title or register the vehicle. 
+[IDAPA 35.01.02.107.04] & [63-3621(l)] 
+Scan the completed ST-102NM with the title application and select “Non-resident Military: 
+ST-102NR” in the tax exemption list.   
+  
+EPB00060    06-25-2024
+ 
+Page 48 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Purchasing a Vehicle in Idaho  
+Nonresidents can buy a motor vehicle, trailer, ATV, snowmobile, off-highway motorcycle, 
+or vessel with attached motor exempt from the tax if they claim they’ll do all these: 
+• Take the vehicle out of Idaho. 
+• Immediately title or register the vehicle under the laws of another state or country, if 
+required. 
+• Won’t use the vehicle in Idaho more than 90 days in any 12-month period.  
+ [IDAPA 35.01.02.107.10] 
+ST-104NR 
+To claim the exemption, nonresidents must give the dealer a completed Form ST-
+104NR, Sales Tax Exemption Certificate-Nonresident Vehicle/Vessel. Nonresidents 
+can’t title or register vehicles in Idaho without paying the tax. 
+Exclusions 
+ The exemption doesn’t apply to truck campers (or canopies). This exemption also 
+doesn’t apply to canoes, kayaks, or inflatable boats, regardless of length, when sold 
+without a motor. 
+Sales to Family Members    
+Sale to Family Member – ST-133 
+This exemption applies only to the sale of a motor vehicle to a family member. No 
+other vehicles or vessels qualify for this exemption. To claim the exemption, both the 
+buyer and seller must complete Form ST-133, Sales Tax Exemption Certificate– 
+Family or American Indian Sales. 
+The buyer and seller must be related by either blood (“second degree of 
+consanguinity”) or formal adoption. These relationships are parent and child, 
+grandparent and grandchild, and brother and sister (siblings). These are the only 
+relationships that qualify for the exemption.  
+The family sale exemption doesn't apply if the buyer or seller is a cousin, aunt, uncle, 
+or foster child.  
+See Sale to Family Member - Relation Requirement below for community property 
+and “step” relationships.  
+ [IC 63-3622K(c)(1)] & [IDAPA 35.01.02.107.07] 
+  
+EPB00060    06-25-2024
+ 
+Page 49 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Sale to Family Member – Seller tax requirement 
+The exemption for the sale of a motor vehicle to a family member doesn’t apply if the 
+seller didn’t pay tax when acquiring the vehicle.  
+ [IDAPA 35.01.02.107.07.b] 
+Example: Mother previously gifted her son a motor vehicle, and she used a Form ST-
+133GT, Use Tax Exemption Certificate – Gift Transfer Affidavit, to document the gift. 
+No one owed tax. Son now wants to sell the vehicle to his daughter, who wants to 
+claim the family sale exemption (Form ST-133GT). She can’t claim this exemption 
+because her father didn’t pay tax when he received the vehicle from his mother. 
+Daughter owes use tax on the average trade-in value of the vehicle. 
+Sale to Family Member – Relation requirement 
+Either spouse can sell a community-property vehicle to a relative of the other who’s 
+related by blood, adoption, or marriage (second degree of consanguinity). As long as 
+the spouses are currently married, either can sell a vehicle to a family member meeting 
+the relationship definitions in section Sale to Family Member – ST-133 above: 
+stepparent and stepchild, step-grandparent and step-grandchild, or stepbrother and 
+stepsister (stepsiblings).   
+[IDAPA 35.01.02.107.07] 
+Sale to Family Member – ST-133 review 
+The buyer and seller must complete Form ST-133. The buyer must provide it to you 
+when titling the motor vehicle.  
+Review the Form ST-133 to ensure that it’s properly completed and the relationship 
+claimed has been checked in Part I of the form. If you’re satisfied with the form, select 
+“Family Sale:  ST-133” in the tax exemption list. Scan a copy of the ST-133 with the 
+title application. 
+If the seller can’t complete the Form ST-133, he or she can sign a letter stating the 
+family relationship and selling price of the vehicle.  
+Scan the letter with Form ST-133. 
+Example: Mr. and Mrs. Jones bought a car after their marriage. They later sell it to 
+Mr. Jones’s son by a previous marriage. Mrs. Jones prepares the bill of sale to her 
+stepson and completes ST-133. No one owes tax. The motor vehicle is community 
+property. Either Mr. or Mrs. Jones can sell the motor vehicle to the son/stepson. 
+Example: Gabriel sells his car to his cousin Andrea. They fill out the Form ST-133 
+but don’t check a relationship. Andrea owes tax. A sale between cousins doesn’t 
+qualify for the exemption (second degree of consanguinity). 
+  
+EPB00060    06-25-2024
+ 
+Page 50 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Sale to Family Member – Review of taxes paid  
+A title that a taxing state issues is sufficient evidence that the seller paid tax. If the 
+seller holds a title that a nontaxing state (like AK, MT or OR) issued, you can’t accept 
+the Family Sale Affidavit claim on the Form ST-133. The exception is if the seller can 
+give you proof to clearly establish that she paid tax on her original purchase of the 
+motor vehicle. 
+Example: An Oregon resident buys a vehicle and titles it in Oregon. She didn’t pay 
+sales or use tax on the transaction. Later that year, she sells the vehicle for $10,000 to 
+her son, who’s an Idaho resident. The son owes Idaho use tax because his mother 
+didn’t pay sales or use tax when she acquired the vehicle. He must pay tax on the 
+$10,000 purchase price. 
+Sale to an American Indian   
+Sale to an American Indian – Delivery requirement 
+An enrolled member of an Indian tribe can purchase a vehicle without paying tax if the 
+sale and delivery of the vehicle occurs within the boundaries of an Indian reservation. 
+The buyer and the seller must complete Form ST-133, Sales Tax Exemption Certificate 
+–Family or American Indian Sales. The form must include the buyer’s tribal 
+identification number and the buyer’s and seller’s signatures. 
+ [IDAPA 35.01.02.107.08] 
+Sale to an American Indian – ST-133 
+Scan a copy of the completed Form ST-133 with the title application. Select 
+“American Indian: ST-133” in the tax exemption list. 
+Example: A tribal member buys a vehicle from a dealer located off the Indian 
+reservation. The dealer delivers the vehicle to the reservation. The tribal member and 
+dealer complete and sign the Form ST-133. The tribal member doesn’t owe tax. 
+Note: In this situation, ITD has determined that the dealer doesn’t need a temporary 
+dealer’s license for making a sale at a remote site. 
+Example: A tribal member buys a vehicle from a dealer located off the Indian 
+reservation. The tribal member and dealer sign the paperwork on the dealer’s lot, and 
+the dealer delivers the vehicle there. The tribal member must pay tax. 
+  
+EPB00060    06-25-2024
+ 
+Page 51 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Tax Paid to Another State 
+Tax Paid to Another State – Credit given 
+An owner doesn’t owe Idaho sales or use tax on a vehicle if another state of the United 
+States correctly imposed a general sales tax in an amount equal to or greater than the 
+tax due Idaho.  
+If the other state’s tax rate is lower than Idaho’s, the buyer owes the difference unless 
+another exemption applies. Owners can use the registration or title that the other taxing 
+state issued to show they paid the tax. If the owner gives you enough proof, Select 
+“OOS Title in Cust. Name from Taxing State” in the tax exemption list.  
+The exemption doesn’t apply if the registration or title was issued by the states of 
+Alaska, Delaware, Montana, Oregon, or New Hampshire because these states don’t 
+have a general sales tax. However, Idaho gives credit if the owner paid a general tax to 
+a county, city, or borough in one of these states. 
+ [IC 63-3621(j)] & [IDAPA 35.01.02.072.07] 
+Tax Paid to Another State – Order credit given 
+Idaho allows credit for taxes the owner paid to state and political subdivisions of the 
+state to offset Idaho sales tax due. Taxes due to the State of Idaho are paid before any 
+local taxes due. 
+Example: A Kansas resident bought a $20,000 vehicle two months before moving to 
+Idaho. He presents his Kansas title to you. He owes tax because he acquired the 
+vehicle only two months before entering Idaho. The rate of tax in Kansas at the time of 
+purchase of the vehicle was 5.3%. The amount of tax he paid to Kansas was $1,060. 
+He owes Idaho tax at 6%, which is $1,200. You would collect an additional $140 in 
+Idaho tax. 
+Example: A Washington resident bought a $20,000 vehicle two months before 
+moving to Idaho. She paid 6.8% Washington state sales tax, 1.5% county sales tax, 
+and .6% city sales tax. The total Washington general sales tax paid was 8.9%, or 
+$1,780. She doesn’t owe Idaho tax because the amount paid Washington exceeds the 
+amount she’d owe Idaho (6%, or $1,200).  
+Example: A Canadian citizen bought a vehicle two months before moving his 
+residency to Idaho. Tax is due on the vehicle because he didn’t own the vehicle for at 
+least 90 days before moving to Idaho. Because Idaho doesn’t allow credit for taxes 
+paid to a foreign government, he doesn’t get credit for tax paid to Canada. He owes 
+Idaho tax on the taxable value of the vehicle. 
+Example: An Alaska resident bought a $20,000 vehicle immediately before moving to 
+Idaho. She paid a 3% city sales tax in Alaska. When she moves, Idaho will give credit 
+for the local tax paid and collect an additional 3% tax on the taxable price of the vehicle.  
+  
+EPB00060    06-25-2024
+ 
+Page 52 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Example: An Idaho resident bought a $20,000 vehicle in Wyoming four years before 
+bringing it to Idaho. He paid 5% sales tax, or $1,000, to Wyoming. The current value of 
+the vehicle is $13,000. The amount of Idaho use tax on $13,000 is $780 (6% of $13,000). 
+But he doesn’t owe Idaho use tax because he already paid $1,000 in tax to Wyoming. 
+Example: A church buys and titles a vehicle in Utah. Utah exempts from Utah sales 
+tax the vehicles that churches buy. The church later brings the vehicle to Idaho. The 
+church owes Idaho use tax on the current value of the vehicle.  
+EPB00060    06-25-2024
+ 
+Page 53 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+ITD Tax Exemption List  
+When someone claims a sales tax exemption on a vehicle, select the appropriate reason from the 
+list below to identify the exemption. 
+American Indian: ST-133 
+Awarded by Court Order 
+Bulk Sale: ST-133CATS 
+Capital Assets Sale, Lease, Rental: ST-133CATS 
+Capital Assets Transfer: ST-133CATS 
+Dealer Resale 
+Exempt Buyer: ST-101 
+Family Sale: ST-133 
+Gift: ST-133GT 
+Homemade Trailer: ST-108 
+Inheritance 
+Interstate Commerce Vehicle: ST-104IC 
+Leased Vehicle w/ Opt to Buy 
+Mfr. Home or Mobile Home (Used) 
+New Resident: ST-102 
+Non-resident Military: ST-102NM 
+Non-resident: ST-104NR 
+Occasional Sale for Trailer: ST-108TR 
+OOS Title in Cust Name from Taxing State 
+Out of Statute (>7 years) 
+Park Model RV Modification Affidavit: ST-108PM 
+Production Exemption:  ST-101 
+Purchase for Resale: ST-101 
+Repossession 
+Retail Sales Tax Paid 
+Salvage – Owner Retained 
+EPB00060    06-25-2024
+ 
+Page 54 of 61 
+ 
+     MOTOR VEHICLE GUIDE 
+Salvage to Insurance 
+Tax Clearance: MVM-3 
+Tax Collected with Registration 
+Tax Paid to OS Dealer 
+Trust 
+Other  
+ 
+Tax Reporting by County Assessors  
+County Assessor Tax Reporting – Form ST-852 
+Complete and submit Form ST-852, Idaho Sales Tax Return - County Assessors, to the 
+Tax Commission at least every month. You can submit the form more frequently. 
+[IDAPA 35.01.02.110.01] 
+County Assessor Tax Reporting – NSF checks 
+A nonsufficient funds (NSF) check payable to the assessor is the responsibility of the 
+county.  
+• Make every effort to collect the bad debt.  
+• If you can’t collect the debt, you can request that the Tax Commission help.  
+• For bad debt that’s unresolved by the close of your county’s fiscal year end, the 
+county can claim a bad debt write-off on the next regular sales-tax filing. You must 
+attach a written explanation to the sales tax return. 
+  
+EPB00060    06-25-2024
+ 
+Index  55 
+     MOTOR VEHICLE GUIDE 
+Appendix A 
+You can get state and local sales-tax data from Tax Foundation website at 
+https://taxfoundation.org/publications/state-and-local-sales-tax-rates/. Under State Taxes, hover 
+over Sales Tax, select Sales Taxes, select Explore State and Local Sales Tax Rates, and then 
+select Download PDF.  
+Appendix B  
+ 
+FORMS: Current exemption forms available on the Tax Commission’s website: 
+https://tax.idaho.gov/itd   
+ST-101 Sales Tax Resale or Exemption Certificate. Used to document exempt sales 
+to exempt entities, vehicles purchased for resale, production exemption, etc.  
+ST-102 Use Tax Exemption Certificate – New Resident  
+ST-102NM Use Tax Exemption Certificate – Nonresident Military  
+ST-104IC Sales Tax Exemption Certificate -- Interstate Commerce Vehicles 
+Used to document purchases qualifying for the interstate carrier exemption.  
+ST-104NR Sales Tax Exemption Certificate -- Nonresident Vehicle/Vessel  
+Used to document sales to nonresidents purchasing vehicles for use outside 
+Idaho 
+ST-108 Transport Trailer, Office Trailer and Untitled Boat Certificate. Used when 
+collecting tax on untitled transactions. Also used as an affidavit of tax paid 
+on homebuilt trailers. 
+ST-108PM Park Model Recreational Vehicle Modification Affidavit  
+ST-108TR Occasional Sale Exemption Claim for office trailers and transport trailers. 
+Used to document occasional sale exemption. 
+ST-109 Off-Highway Vehicle or Vessel Registration Sales Tax Affidavit 
+ST-133 Sales Tax Exemption Certificate Family or American Indian Sales  
+ST-133GT Use Tax Exemption Certificate Gift Transfer Affidavit 
+EPB00060    06-25-2024
+ 
+Index  56 
+     MOTOR VEHICLE GUIDE 
+ST-133CATS Sales Tax Exemption Certificate – Capital Asset Transfer Affidavit. Used 
+to document bulk sales, capital asset sales, and capital asset transfers.  
+Revised form in process. 
+ 
+EPB00060    06-25-2024
+ 
+Index  57 
+     MOTOR VEHICLE GUIDE 
+Appendix C 
+Refund Guidelines for Tax Collected with Title Transactions 
+Authored in Conjunction with ITD/Outreach- 11/28/16 
+Dealer, lender, or retailer transactions   
+When a customer requests a refund of sales or use tax paid in conjunction with a title 
+transaction, the procedure will vary depending on who collected the tax: 
+• If someone other than the county ( e.g. a dealer or lender) collected the tax:  
+o The county can direct the customer to the party that collected the tax to request a 
+refund.  
+o If the party that collected the refund is unwilling or unable to refund the money, the 
+customer can apply directly to the Tax Commission for the refund.  
+• If the county collected the tax:  
+o The county should process the refund, if the customer request occurred on the same 
+day the customer paid the taxes.   
+o If the customer request occurs after the end of business on the day of the transaction, 
+the customer will need to send the refund request to the Tax Commission.  
+ 
+When requesting a refund from the Tax Commission, the customer should submit both of 
+these: 
+• A written request, preferably using Form TCR, properly completed and signed. This 
+form is available from the Tax Commission’s website (tax.idaho.gov).  
+• Proof of tax paid. This can be one of the following:  
+o Copy of the title application or sales order from an Idaho dealer or out-of-state dealer 
+with an Idaho seller’s permit showing the dealer’s permit number and amount of tax 
+collected.  
+o Cancelled check from an out-of-state dealer who doesn’t have an Idaho seller’s 
+permit, showing the dealer remitted the tax to Idaho. 
+o Copy of the title application from lienholder showing its seller’s permit number and 
+amount of tax collected. 
+The Tax Commission might require other information, on a case-by-case basis.  
+ 
+ 
+ 
+ 
+ 
+  
+EPB00060    06-25-2024
+ 
+Index  58 
+     MOTOR VEHICLE GUIDE 
+INDEX 
+ 
+$1 bill of sale, 17 
+Active-duty military, 22 
+Nonresidents, 46 
+American Indians, 49 
+Assumed indebtedness, 15 
+ATVs 
+Definition, 8 
+Exclusion from production exemption, 40 
+Auctioneers, 30 
+Barter 
+Definition of, 15 
+Private parties, 31 
+Bill of sale, 17 
+No, private parties, 31 
+Bill of Sale 
+Purchase form Retailer, Required 
+information, 30 
+Bulk Sale, 39 
+Bulk sales, 27 
+Recreational vehicles, 27 
+Bus, converted, 8 
+Buybacks, 16 
+Camper trailers, 26 
+Capital asset 
+Tax exemption, 39 
+Transfers, 38 
+Commercial vehicles, 42 
+Converted van or bus 
+Definition, 8 
+Dealer fees, 18-19 
+Dealers 
+And titling, 33 
+Idaho, 28 
+Out of state, 28-29 
+Titled or registered by, 33 
+Divorce, 35 
+Drawings, 36-37 
+Estates, 35 
+Exempt entities, 41 
+Exemption list, 52 
+Family member sales, 47-49 
+Fees, dealer. See Dealer Fees 
+Fifth-wheel vehicles, 14 
+Exclusion from occasional sales, 26 
+Finance charges, 20 
+Foreign country 
+Americans lived in, registering vehicle in 
+Idaho, 44 
+Citizen of, new Idaho resident, 44 
+Citizens of, bringing vehicles to Idaho, 43 
+Taxes paid to, 22 
+Temporary assignment example, 22 
+Forms, list of Tax Commission, 52 
+Gifts, 36 
+Giveaways, 36-37 
+Heirs, 35 
+Homemade trailers, 20 
+ICC (Interstate Commerce Carrier), 42 
+Idaho dealers, purchases from, 28 
+Indians, 49 
+Inheritances, 35 
+Insurance 
+And buybacks, 16 
+And salvage value, 16 
+And stolen vehicles, 20 
+charges, 20 
+Settlements, 20 
+International Registration Plan, 42 
+Interstate commerce carriers, 42-43 
+IRP, 42 
+  
+EPB00060    06-25-2024
+ 
+Index  59 
+     MOTOR VEHICLE GUIDE 
+Leases, 32-33 
+And trade-in allowances, 15 
+General guidance, 6 
+Lessors 
+Idaho, 32 
+Out of state, 32 
+Logging exemption, 41 
+Logging, production exemption, 41 
+Low bill of sale, 17 
+Manufactured home 
+And dealer fees, 18 
+And trade-in allowances, 16 
+Definition, 9 
+Definiton of "new", 10 
+Taxability of new, 21 
+Taxability of used, 21 
+Manufacturer's rebates, 24 
+Manufacturers, titled or registered 
+vehicles by, 33 
+Military, 22 
+Nonresidents, 46 
+Mobile home, 9 
+Modular building 
+And dealer fees, 18 
+And trade-in allowances, 16 
+Modular Building, 10 
+Motor home 
+And dealer fees, 18 
+Definition, 10 
+Exclusion from New-Vehicle Accessory 
+Labor exemption, 11 
+Exclusion from occasional sales, 23 
+Motor vehicle, definition, 10 
+Motorbike, off highway, definition, 12 
+Motorcycle 
+Definition, 10 
+Dual purpose, definition, 9 
+Native Americans, 49 
+New resident 
+Exemption, 44 
+Qualifying for exemption, 44 
+New residents, 45 
+As sole proprietors, 38 
+No bill of sale, 17 
+No Bill of Sale 
+Acceptable Substitute Documentation, 17 
+Nondealers 
+Private parties, 31 
+Retailers and pawnshops, 30 
+Nonresidents, 46 
+And truck campers, 26 
+Buying in Idaho and removing, 47 
+Military, 46 
+Nonretailers, 31 
+Occasional sales, 23 
+Office trailers, 23 
+Off-highway vehicles 
+Motorbikes, 12 
+Specialty (SOHV), 13 
+Utility type, 14 
+Office trailers, 23 
+Occasional sales, 26 
+Taxing, 26 
+Off-road vehicles 
+And production exemption, 40 
+Out-of-state dealers, 28-29 
+Pawnshops, 30 
+Person, definition, 12 
+Private parties, 31 
+Production exemption, 40-41 
+Exclusions, 27, 41 
+Promotional giveaways, 36-37 
+Raffles, 36 
+Rebates 
+Manufacturer's, 24 
+On purchases from out-of-state dealers, 29 
+Reciprocity, 28 
+Recreational vehicles 
+Exclusion from occasional sales, 23 
+Modified for disabled, 34 
+Recreational vehicles, definition, 12 
+Recreational-related vehicles, 26 
+Bulk sales, 27 
+  
+EPB00060    06-25-2024
+ 
+Index  60 
+     MOTOR VEHICLE GUIDE 
+Refunds 
+Applying for, 56 
+Rescinded sales, 25 
+Tax overpayments to dealers, 28 
+Repossessions, 27 
+Rescinded sales, 25 
+Resident 
+Definition of Idaho, 13 
+Idaho military, 22 
+Retailer, definition, 13 
+Retailers, buying from, 30 
+ROV, definition, 14 
+Sales 
+Business, 38-40 
+By Idaho dealers, 28 
+By out-of-state dealers, 28 
+By pawnshops, 30 
+By private parties, 31 
+By retailers (nondealers), 31 
+To family members, 47-49 
+Snowmobile 
+Definition, 13 
+Exclusion from production exemption, 40 
+Specialty off-highway vehicles (SOHVs), 
+definition, 13 
+Statute of limitations, 37 
+Stolen vehicles, 20 
+Students, nonresident, 13 
+Tax rates, other states, 50 
+Taxes paid to other states or countries, 27 
+Title fees, 18 
+Trade-down, 16 
+Trade-in 
+Allowance, 15 
+And manufactured homes, 21 
+Average NADA price, 17 
+Buybacks, 16 
+Insurance settlement, 20 
+Office trailers, 23 
+Park model recreational vehicle, 24 
+Private parties, 31 
+Recreational-related vehicle, 26 
+Trailer 
+Camping, fold down, 8 
+Definition, 13 
+Fifth wheel or travel, 14 
+Homemade, 20 
+In interstate commerce, 42 
+Transport, 26 
+Trailers 
+Office, 23 
+Transfers 
+Business, 38-40 
+Without consideration, 35–37 
+Transport trailers, 39 
+Capital asset, 39-40 
+Occasional sales, 26 
+Registering, 26 
+Travel trailer, 14 
+Truck camper, definition, 14 
+Trusts, 37 
+Van 
+Converted, as recreational vehicle, 23 
+Converted, definition, 8 
+EPB00060    06-25-2024
+ 
+ 
+EPB00060    06-25-2024
