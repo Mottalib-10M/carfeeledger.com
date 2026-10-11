@@ -8,7 +8,7 @@ import { useEffect, useMemo, useState } from 'react';
 import NumberField from '../ui/NumberField';
 import SelectField from '../ui/SelectField';
 import Toggle from '../ui/Toggle';
-import { Actions, Note, type Opt, StatePick, usd } from './parts';
+import { Actions, MobileBar, Note, type Opt, StatePick, usd } from './parts';
 import { engineOf, loadState } from '../../lib/engine/client';
 import { runCalc, renewalYear, type CalcResult } from '../../lib/engine/calc';
 import type { FeeLine, Fuel, LineKind, StateData, VehicleInput } from '../../lib/engine/types';
@@ -101,11 +101,12 @@ export default function FeeCalc({ states, initial, lock = false, mode = 'fees', 
 
   return (
     <div className="rechner rounded-xl border border-navy-200 bg-white p-4 sm:p-6">
+      <div className="lg:grid lg:grid-cols-[minmax(0,1fr)_minmax(0,22rem)] lg:items-start lg:gap-6">
       <form className="grid gap-x-5 gap-y-4 sm:grid-cols-2" onSubmit={(e) => e.preventDefault()}>
         <StatePick id={`${p}-state`} value={states.find((s) => s.ab === ab)?.value ?? ''} onChange={pickState} states={states} lock={lock} label="State where the car is registered" />
         {counties.length > 0
           ? <SelectField id={`${p}-county`} label="County or city of residence" value={county} onChange={setCounty} options={counties} help="Local tax and county fees follow your home address." />
-          : <div className="hidden sm:block" aria-hidden="true" />}
+          : !lock && <div className="hidden sm:block" aria-hidden="true" />}
         {!isRenewal && <Toggle id={`${p}-cond`} label="Vehicle" value={condition} onChange={setCondition as (v: string) => void} options={[{ value: 'new', label: 'New' }, { value: 'used', label: 'Used' }]} />}
         {!isRenewal && <Toggle id={`${p}-seller`} label="Bought from" value={seller} onChange={setSeller as (v: string) => void} options={[{ value: 'dealer', label: 'Dealer' }, { value: 'private', label: 'Private seller' }]} />}
         <NumberField id={`${p}-price`} label={isRenewal ? 'Price you paid' : 'Price before tax and fees'} value={price} onChange={setPrice} unit="$" max={2_000_000} help={isRenewal ? 'Value-based fees start from it in several states.' : 'The agreed price of the car, before trade-in.'} />
@@ -113,7 +114,7 @@ export default function FeeCalc({ states, initial, lock = false, mode = 'fees', 
           : <SelectField id={`${p}-owned`} label="Years you have owned it" value={owned} onChange={setOwned} options={Array.from({ length: 12 }, (_, k) => ({ value: String(k + 1), label: k === 0 ? 'First renewal (1 year)' : `${k + 1} years` }))} />}
         <SelectField id={`${p}-year`} label="Model year" value={modelYear} onChange={setModelYear} options={years} />
         <SelectField id={`${p}-fuel`} label="Fuel" value={fuel} onChange={(v) => setFuel(v as Fuel)} options={FUELS} />
-        <NumberField id={`${p}-weight`} label="Curb weight" value={weight} onChange={setWeight} unit="lb" max={30000} help="On the door-jamb sticker or the window sticker; weight sets the fee in many states." />
+        <NumberField id={`${p}-weight`} label="Curb weight" value={weight} onChange={setWeight} unit="lb" max={30000} help="On the door-jamb sticker or the window sticker; weight sets the fee in many states." className="lg:col-span-2" />
         <SelectField id={`${p}-body`} label="Registered as" value={body} onChange={(v) => setBody(v as 'car')} options={[{ value: 'car', label: 'Passenger car or SUV' }, { value: 'truck', label: 'Pickup or light truck' }]} />
         {!isRenewal && seller === 'dealer' && <NumberField id={`${p}-doc`} label="Dealer documentation fee" value={docFee < 0 ? effDoc : docFee} onChange={setDocFee} unit="$" max={10000} help={capNote} />}
         {!isRenewal && <NumberField id={`${p}-msrp`} label="Sticker price (MSRP), if different" value={msrp} onChange={setMsrp} unit="$" max={2_000_000} help="Used only where the state taxes or registers on MSRP." />}
@@ -126,7 +127,7 @@ export default function FeeCalc({ states, initial, lock = false, mode = 'fees', 
         </details>
       </form>
 
-      <div aria-live="polite" className="mt-6 rounded-xl bg-accent-50 p-4 sm:p-5">
+      <div id={`${p}-result`} data-resultat aria-live="polite" className="mt-6 scroll-mt-4 rounded-xl bg-accent-50 p-4 sm:p-5 lg:sticky lg:top-4 lg:mt-0">
         <p className="text-sm font-medium text-navy-700">{focus.label} · {stateName}</p>
         <p className="tabular-nums mt-1 text-4xl font-bold text-navy-900">{usd(figure)}</p>
         {!isRenewal && <p className="mt-1 text-sm text-navy-700">Due at purchase {usd(r.atPurchase)} · out the door {usd(r.outTheDoor)}{later.length > 0 && <> · first 12 months {usd(r.firstYear)}</>}</p>}
@@ -145,6 +146,8 @@ export default function FeeCalc({ states, initial, lock = false, mode = 'fees', 
         <Note methodHref={methodHref}>{data.agency.short} and {data.taxAgency?.name ?? 'state'} schedules read on {data.verified}. {data.exactness === 'partial' ? 'Some lines have no single official amount and are listed apart.' : 'Every line has an official amount.'}</Note>
         <Actions />
       </div>
+      </div>
+      <MobileBar label={`${focus.label}`} figure={usd(figure)} target={`${p}-result`} />
     </div>
   );
 }

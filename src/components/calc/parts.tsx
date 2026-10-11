@@ -1,5 +1,5 @@
 /** Shared pieces of the calculators: card, state picker, result box, ledger rows, actions. */
-import { useState, type ReactNode } from 'react';
+import { useEffect, useRef, useState, type ReactNode } from 'react';
 import SelectField from '../ui/SelectField';
 import { formatMoney, formatNumber } from '../../lib/format';
 
@@ -18,12 +18,13 @@ export function Card({ children, form }: { children: ReactNode; form: ReactNode 
 
 export function StatePick({ id, value, onChange, states, lock, label = 'State', help }: { id: string; value: string; onChange: (v: string) => void; states: Opt[]; lock?: boolean; label?: string; help?: string }) {
   const name = states.find((s) => s.value === value)?.label ?? value;
+  // Locked on the page's state: one line across the form, so the first real field stays on the first screen.
   if (lock) return (
-    <div className="grid grid-rows-subgrid row-span-3 content-start gap-y-0">
-      <span className="mb-1 block text-sm font-medium text-navy-700">{label}</span>
-      <p className="flex h-12 items-center rounded-lg border border-navy-200 bg-navy-50 px-4 font-semibold text-navy-900">{name}</p>
-      {help && <span className="mt-1 text-xs text-navy-600">{help}</span>}
-    </div>
+    <p className="-mb-1 flex flex-wrap items-baseline gap-x-2 text-sm text-navy-700 sm:col-span-2">
+      <span className="font-medium">{label}:</span>
+      <span className="text-base font-semibold text-navy-900">{name}</span>
+      {help && <span className="text-xs text-navy-600">{help}</span>}
+    </p>
   );
   return <SelectField id={id} label={label} value={value} onChange={onChange} options={states} help={help} />;
 }
@@ -74,3 +75,26 @@ export function SplitBar({ parts }: { parts: Array<{ label: string; value: numbe
   );
 }
 export const SPLIT_COLORS = { materials: '#334155', labor: '#B22234', other: '#94a3b8' };
+
+/**
+ * Premier écran (RECETTE §5, 2026-10-11) : sur téléphone, le chiffre clé du calculateur reste à portée dans
+ * une barre collée en bas de l'écran tant que le bloc du résultat n'est pas visible ; un toucher y descend.
+ * Masquée dès l'écran large, où le résultat est à côté des champs.
+ */
+export function MobileBar({ label, figure, target }: { label: string; figure: string; target: string }) {
+  const [show, setShow] = useState(true);
+  useEffect(() => {
+    const el = document.getElementById(target);
+    if (!el || !('IntersectionObserver' in window)) return;
+    const io = new IntersectionObserver(([e]) => setShow(!e.isIntersecting && e.boundingClientRect.top > 0));
+    io.observe(el);
+    return () => io.disconnect();
+  }, [target]);
+  if (!show) return null;
+  return (
+    <a href={`#${target}`} data-chrome className="fixed inset-x-0 bottom-0 z-40 flex items-center justify-between gap-3 border-t border-navy-200 bg-white/95 px-4 py-2.5 shadow-[0_-2px_8px_rgba(0,0,0,0.08)] backdrop-blur lg:hidden">
+      <span className="text-sm text-navy-700">{label}</span>
+      <span className="tabular-nums text-xl font-bold text-navy-900">{figure}</span>
+    </a>
+  );
+}

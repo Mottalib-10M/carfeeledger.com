@@ -1,6 +1,6 @@
 ---
 /**
- * One state: a strip of its rules, the calculator locked on the state, the folded answer, the prose written
+ * One state: the calculator locked on the state (first screen, RECETTE §5), a strip of its rules, the folded answer, the prose written
  * for this state, the state's distinctive sourced facts, the full breakdown of the reference car (each line
  * with its source), the limits of the calculation, then the state's official sources.
  */
@@ -47,15 +47,15 @@ const rateTxt = S.localRange[1] > 0 ? `${pct(S.stateRate, 2)} + local ${pct(S.lo
       <p class="text-sm font-semibold uppercase tracking-wide text-accent-700">{d.abbr} · {d.agency.name}</p>
       <h1 class="mt-1 font-serif text-3xl font-bold text-navy-900 md:text-4xl">{def.h1}</h1>
       <p class="mt-3 text-lg text-navy-700">{def.intro}</p>
-      <p class="mt-3 text-sm text-navy-600">Fee schedules read on <time datetime={d.verified}>{day(d.verified)}</time> · {ui.reviewedBy} <a href={route('about', lang)} class="underline hover:text-navy-900">{AUTHOR_NAME}</a> · <a href={route('method', lang)} class="underline hover:text-navy-900">{label('method')}</a></p>
     </header>
-    <dl data-chrome class="mb-6 grid grid-cols-2 gap-3 sm:grid-cols-4">
+    <div data-outil data-chrome class="mb-4"><Tool kind="fees" state={def.slug} lock={true} idPrefix={`${d.abbr.toLowerCase()}f`} /></div>
+    <p class="mb-6 text-sm text-navy-600">Fee schedules read on <time datetime={d.verified}>{day(d.verified)}</time> · {ui.reviewedBy} <a href={route('about', lang)} class="underline hover:text-navy-900">{AUTHOR_NAME}</a> · <a href={route('method', lang)} class="underline hover:text-navy-900">{label('method')}</a></p>
+    <dl data-chrome class="mb-8 grid grid-cols-2 gap-3 sm:grid-cols-4">
       <div class="rounded-lg border border-navy-200 p-3"><dt class="text-xs text-navy-600">{S.taxName}</dt><dd class="tabular-nums text-base font-bold text-navy-900">{rateTxt}</dd></div>
       <div class="rounded-lg border border-navy-200 p-3"><dt class="text-xs text-navy-600">Title fee</dt><dd class="tabular-nums text-xl font-bold text-navy-900">{usd(S.titleFee, 2)}</dd></div>
       <div class="rounded-lg border border-navy-200 p-3"><dt class="text-xs text-navy-600">Registration based on</dt><dd class="text-xl font-bold text-navy-900">{S.regMethod}</dd></div>
       <div class="rounded-lg border border-navy-200 p-3"><dt class="text-xs text-navy-600">EV surcharge</dt><dd class="tabular-nums text-xl font-bold text-navy-900">{S.evFeeLabel ?? (S.evFee === null ? 'none' : `${usd(S.evFee, 2)}/yr`)}</dd></div>
     </dl>
-    <div data-outil data-chrome class="mb-8"><Tool kind="fees" state={def.slug} lock={true} idPrefix={`${d.abbr.toLowerCase()}f`} /></div>
     <Clamp text={def.resume} lang={lang} id={`clamp-${def.slug}`} class="mb-8" />
     <div class="prose prose-slate max-w-none prose-headings:font-serif">
       {parts.map((p, i) => i % 3 === 0 ? <Fragment set:html={p ?? ''} /> : i % 3 === 1 ? <MiniSim client:load kind={p} arg={decode(parts[i + 1])} href={path} /> : null)}

@@ -8,7 +8,7 @@ import { useEffect, useMemo, useState } from 'react';
 import NumberField from '../ui/NumberField';
 import SelectField from '../ui/SelectField';
 import Toggle from '../ui/Toggle';
-import { Actions, Note, type Opt, Rows, StatePick, usd } from './parts';
+import { Actions, MobileBar, Note, type Opt, Rows, StatePick, usd } from './parts';
 import { engineOf, loadState } from '../../lib/engine/client';
 import { runCalc, renewalYear } from '../../lib/engine/calc';
 import { loan } from '../../lib/engine/loan';
@@ -53,6 +53,7 @@ export default function LoanCalc({ states, initial, mode = 'loan', year, methodH
   const terms: Opt[] = [24, 36, 48, 60, 72, 84].map((x) => ({ value: String(x), label: `${x} months` }));
   return (
     <div className="rechner rounded-xl border border-navy-200 bg-white p-4 sm:p-6">
+      <div className="lg:grid lg:grid-cols-[minmax(0,1fr)_minmax(0,22rem)] lg:items-start lg:gap-6">
       <form className="grid gap-x-5 gap-y-4 sm:grid-cols-2" onSubmit={(e) => e.preventDefault()}>
         <StatePick id={`${p}-state`} value={states.find((s) => s.ab === ab)?.value ?? ''} onChange={pick} states={states} label="State where you register the car" />
         <Toggle id={`${p}-cond`} label="Vehicle" value={cond} onChange={setCond} options={[{ value: 'new', label: 'New' }, { value: 'used', label: 'Used' }]} />
@@ -66,7 +67,7 @@ export default function LoanCalc({ states, initial, mode = 'loan', year, methodH
         {mode === 'tco' && <NumberField id={`${p}-ins`} label="Your insurance premium per year" value={insurance} onChange={setInsurance} unit="$" max={50000} help="From your quote; left at 0 it is not counted." />}
         {mode === 'tco' && <NumberField id={`${p}-fuel`} label="Your fuel or charging per year" value={fuel} onChange={setFuel} unit="$" max={50000} help="Miles a year ÷ mpg × price per gallon." />}
       </form>
-      <div aria-live="polite" className="mt-6 rounded-xl bg-accent-50 p-4 sm:p-5">
+      <div id={`${p}-result`} data-resultat aria-live="polite" className="mt-6 scroll-mt-4 rounded-xl bg-accent-50 p-4 sm:p-5 lg:sticky lg:top-4 lg:mt-0">
         <p className="text-sm font-medium text-navy-700">{mode === 'tco' ? `Cost of owning it ${n} years · ${data.name}` : `Monthly payment · ${data.name}`}</p>
         <p className="tabular-nums mt-1 text-4xl font-bold text-navy-900">{mode === 'tco' ? usd(tco) : usd(L.monthly)}</p>
         <Rows rows={mode === 'tco' ? [
@@ -84,6 +85,8 @@ export default function LoanCalc({ states, initial, mode = 'loan', year, methodH
         <Note methodHref={methodHref}>Taxes and fees come from the {data.name} fee schedule for this price (default county). Depreciation is not counted.</Note>
         <Actions />
       </div>
+      </div>
+      <MobileBar label={mode === 'tco' ? `Cost of owning it ${n} years` : 'Monthly payment'} figure={mode === 'tco' ? usd(tco) : usd(L.monthly)} target={`${p}-result`} />
     </div>
   );
 }
