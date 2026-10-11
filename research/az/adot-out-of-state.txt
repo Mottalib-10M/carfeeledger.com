@@ -1,0 +1,18 @@
+Source: https://azdot.gov/mvd/services/vehicle-services/title-and-registration/out-state-vehicles (read in Chrome 2026-10-11, Cloudflare blocks curl)
+Out-of-State Vehicles
+The following is required to obtain an Arizona title, registration and license plate for a vehicle previously titled or registered in another state. This is general information only. For additional information, see our Vehicle Services FAQ.
+Out-of-State Vehicle Title and Registration
+To title and register your out-of-state vehicle, you must have these items:
+A completed, signed Title and Registration Application
+An emissions compliance form (Phoenix and Tucson areas only)
+An out-of-state title (or registration, if title is held by lienholder)
+A lien clearance, if applicable
+Power of Attorney from the lessor (original or certified copy), if leased vehicle
+Payment of all applicable title and registration fees
+Estimate Payment: Original MSRP / Vehicle Type Used|New / Model Year 2026 or newer ... 2010 or older
+Calculate Fees (default, no MSRP entered)
+VLT Fee: $0.00
+Registration Fee: $8.00
+Title Fee: $4.00
+Air Quality Research Fee: $1.50
+Total: $13.50

@@ -1,0 +1,3152 @@
+{
+ "abbr": "AR",
+ "name": "Arkansas",
+ "slug": "arkansas",
+ "agency": {
+  "name": "Arkansas Department of Finance and Administration, Office of Motor Vehicle",
+  "short": "DFA",
+  "url": "https://www.dfa.arkansas.gov/office/motor-vehicle/"
+ },
+ "taxAgency": {
+  "name": "Arkansas Department of Finance and Administration",
+  "url": "https://www.dfa.arkansas.gov/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "Every vehicle is assessed by the county assessor and pays a yearly county personal property tax at the local millage; no statewide table exists, so the line has no amount.",
+  "Cities lying in several counties are listed with the first county named by DFA; the county part of the rate may differ at your address (DFA Local Tax Lookup).",
+  "DFA states a 7% state rate for Texarkana residents without saying how it combines with the used-vehicle reduced rate; the engine applies 7% only where the full rate applies.",
+  "Whether the dealer service and handling fee is part of the taxable price was not found on a DFA page; the engine leaves it out of the taxed amount.",
+  "The credit for a vehicle sold privately within 60 days of the purchase is not modeled; enter it as a trade-in for the state part only if it applies.",
+  "Lien filing ($0.50) and the extra $1 postage for plates mailed from Little Rock are not included."
+ ],
+ "summary": {
+  "stateRate": 0.065,
+  "localRange": [
+   0.0,
+   0.06125
+  ],
+  "taxName": "sales and use tax",
+  "tradeInCredit": true,
+  "titleFee": 10,
+  "regMethod": "weight",
+  "regYears": 1,
+  "docFeeCap": 129,
+  "docFeeNote": "Dealer service and handling fee capped at $129 by Motor Vehicle Commission Rule 8 and charged uniformly to all retail customers.",
+  "evFee": 200,
+  "phevFee": 100,
+  "hybridFee": 50,
+  "inspection": "none",
+  "inspectionWhere": "No safety or emissions inspection is among the documents DFA requires to register a car.",
+  "inspectionFee": null,
+  "annualValueTax": true
+ },
+ "params": {
+  "_src": "dfa-registration, act-1013, dfa-local-rates, dfa-fee-schedule, act-376",
+  "tax": {
+   "stateRate": 0.065,
+   "tradeInCredit": true,
+   "docFeeTaxable": false,
+   "localFirst": 2500,
+   "usedExemptBelow": 4000,
+   "usedReducedBelow": 10000,
+   "usedReducedRate": 0.035
+  },
+  "reg": {
+   "car": [
+    [
+     3000,
+     17
+    ],
+    [
+     4500,
+     25
+    ],
+    [
+     null,
+     30
+    ]
+   ],
+   "truck": 21,
+   "decal": 2.5,
+   "postage": 0.5
+  },
+  "title": 10,
+  "ev": {
+   "ev": 200,
+   "phev": 100,
+   "hybrid": 50
+  }
+ },
+ "counties": [
+  {
+   "id": "little-rock",
+   "name": "Little Rock (Pulaski County)",
+   "cityRate": 0.01125,
+   "countyRate": 0.01,
+   "localRate": 0.02125
+  },
+  {
+   "id": "alexander",
+   "name": "Alexander (Pulaski County)",
+   "cityRate": 0.03,
+   "countyRate": 0.01,
+   "localRate": 0.04,
+   "multiCounty": true
+  },
+  {
+   "id": "alma",
+   "name": "Alma (Crawford County)",
+   "cityRate": 0.02,
+   "countyRate": 0.0125,
+   "localRate": 0.0325
+  },
+  {
+   "id": "almyra",
+   "name": "Almyra (Arkansas County)",
+   "cityRate": 0.01,
+   "countyRate": 0.01,
+   "localRate": 0.02
+  },
+  {
+   "id": "alpena",
+   "name": "Alpena (Boone County)",
+   "cityRate": 0.0225,
+   "countyRate": 0.0125,
+   "localRate": 0.035,
+   "multiCounty": true
+  },
+  {
+   "id": "altheimer",
+   "name": "Altheimer (Jefferson County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0125,
+   "localRate": 0.0225
+  },
+  {
+   "id": "altus",
+   "name": "Altus (Franklin County)",
+   "cityRate": 0.01,
+   "countyRate": 0.02,
+   "localRate": 0.03
+  },
+  {
+   "id": "amity",
+   "name": "Amity (Clark County)",
+   "cityRate": 0.015,
+   "countyRate": 0.015,
+   "localRate": 0.03
+  },
+  {
+   "id": "anthonyville",
+   "name": "Anthonyville (Crittenden County)",
+   "cityRate": 0.02,
+   "countyRate": 0.0175,
+   "localRate": 0.0375
+  },
+  {
+   "id": "arkadelphia",
+   "name": "Arkadelphia (Clark County)",
+   "cityRate": 0.02,
+   "countyRate": 0.015,
+   "localRate": 0.035
+  },
+  {
+   "id": "arkansas-city",
+   "name": "Arkansas City (Desha County)",
+   "cityRate": 0.02,
+   "countyRate": 0.015,
+   "localRate": 0.035
+  },
+  {
+   "id": "ash-flat",
+   "name": "Ash Flat (Sharp County)",
+   "cityRate": 0.01375,
+   "countyRate": 0.0125,
+   "localRate": 0.02625,
+   "multiCounty": true
+  },
+  {
+   "id": "ashdown",
+   "name": "Ashdown (Little River County)",
+   "cityRate": 0.02,
+   "countyRate": 0.02875,
+   "localRate": 0.04875
+  },
+  {
+   "id": "atkins",
+   "name": "Atkins (Pope County)",
+   "cityRate": 0.02,
+   "countyRate": 0.01,
+   "localRate": 0.03
+  },
+  {
+   "id": "augusta",
+   "name": "Augusta (Woodruff County)",
+   "cityRate": 0.01,
+   "countyRate": 0.02,
+   "localRate": 0.03
+  },
+  {
+   "id": "austin",
+   "name": "Austin (Lonoke County)",
+   "cityRate": 0.02,
+   "countyRate": 0.015,
+   "localRate": 0.035
+  },
+  {
+   "id": "avoca",
+   "name": "Avoca (Benton County)",
+   "cityRate": 0.01,
+   "countyRate": 0.01,
+   "localRate": 0.02
+  },
+  {
+   "id": "bald-knob",
+   "name": "Bald Knob (White County)",
+   "cityRate": 0.015,
+   "countyRate": 0.0175,
+   "localRate": 0.0325
+  },
+  {
+   "id": "banks",
+   "name": "Banks (Bradley County)",
+   "cityRate": 0.01,
+   "countyRate": 0.02,
+   "localRate": 0.03
+  },
+  {
+   "id": "barling",
+   "name": "Barling (Sebastian County)",
+   "cityRate": 0.02,
+   "countyRate": 0.01,
+   "localRate": 0.03
+  },
+  {
+   "id": "batesville",
+   "name": "Batesville (Independence County)",
+   "cityRate": 0.02,
+   "countyRate": 0.015,
+   "localRate": 0.035
+  },
+  {
+   "id": "bauxite",
+   "name": "Bauxite (Saline County)",
+   "cityRate": 0.015,
+   "countyRate": 0.0,
+   "localRate": 0.015
+  },
+  {
+   "id": "bay",
+   "name": "Bay (Craighead County)",
+   "cityRate": 0.02,
+   "countyRate": 0.01,
+   "localRate": 0.03
+  },
+  {
+   "id": "bearden",
+   "name": "Bearden (Ouachita County)",
+   "cityRate": 0.01,
+   "countyRate": 0.025,
+   "localRate": 0.035
+  },
+  {
+   "id": "beebe",
+   "name": "Beebe (White County)",
+   "cityRate": 0.0125,
+   "countyRate": 0.0175,
+   "localRate": 0.03
+  },
+  {
+   "id": "beedeville",
+   "name": "Beedeville (Jackson County)",
+   "cityRate": 0.005,
+   "countyRate": 0.01875,
+   "localRate": 0.02375
+  },
+  {
+   "id": "bella-vista",
+   "name": "Bella Vista (Benton County)",
+   "cityRate": 0.02,
+   "countyRate": 0.01,
+   "localRate": 0.03
+  },
+  {
+   "id": "belleville",
+   "name": "Belleville (Yell County)",
+   "cityRate": 0.01,
+   "countyRate": 0.01125,
+   "localRate": 0.02125
+  },
+  {
+   "id": "benton",
+   "name": "Benton (Saline County)",
+   "cityRate": 0.025,
+   "countyRate": 0.0,
+   "localRate": 0.025
+  },
+  {
+   "id": "bentonville",
+   "name": "Bentonville (Benton County)",
+   "cityRate": 0.02,
+   "countyRate": 0.01,
+   "localRate": 0.03
+  },
+  {
+   "id": "berryville",
+   "name": "Berryville (Carroll County)",
+   "cityRate": 0.02,
+   "countyRate": 0.005,
+   "localRate": 0.025
+  },
+  {
+   "id": "big-flat",
+   "name": "Big Flat (Baxter County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0125,
+   "localRate": 0.0225,
+   "multiCounty": true
+  },
+  {
+   "id": "black-rock",
+   "name": "Black Rock (Lawrence County)",
+   "cityRate": 0.01,
+   "countyRate": 0.025,
+   "localRate": 0.035
+  },
+  {
+   "id": "blevins",
+   "name": "Blevins (Hempstead County)",
+   "cityRate": 0.015,
+   "countyRate": 0.0275,
+   "localRate": 0.0425
+  },
+  {
+   "id": "blue-mountain",
+   "name": "Blue Mountain (Logan County)",
+   "cityRate": 0.01,
+   "countyRate": 0.015,
+   "localRate": 0.025
+  },
+  {
+   "id": "blytheville",
+   "name": "Blytheville (Mississippi County)",
+   "cityRate": 0.015,
+   "countyRate": 0.025,
+   "localRate": 0.04
+  },
+  {
+   "id": "bonanza",
+   "name": "Bonanza (Sebastian County)",
+   "cityRate": 0.01,
+   "countyRate": 0.01,
+   "localRate": 0.02
+  },
+  {
+   "id": "bono",
+   "name": "Bono (Craighead County)",
+   "cityRate": 0.01,
+   "countyRate": 0.01,
+   "localRate": 0.02
+  },
+  {
+   "id": "booneville",
+   "name": "Booneville (Logan County)",
+   "cityRate": 0.02,
+   "countyRate": 0.015,
+   "localRate": 0.035
+  },
+  {
+   "id": "bradford",
+   "name": "Bradford (White County)",
+   "cityRate": 0.02,
+   "countyRate": 0.0175,
+   "localRate": 0.0375
+  },
+  {
+   "id": "bradley",
+   "name": "Bradley (Lafayette County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0225,
+   "localRate": 0.0325
+  },
+  {
+   "id": "branch",
+   "name": "Branch (Franklin County)",
+   "cityRate": 0.01,
+   "countyRate": 0.02,
+   "localRate": 0.03
+  },
+  {
+   "id": "briarcliff",
+   "name": "Briarcliff (Baxter County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0125,
+   "localRate": 0.0225
+  },
+  {
+   "id": "brinkley",
+   "name": "Brinkley (Monroe County)",
+   "cityRate": 0.03,
+   "countyRate": 0.0,
+   "localRate": 0.03
+  },
+  {
+   "id": "brookland",
+   "name": "Brookland (Craighead County)",
+   "cityRate": 0.03,
+   "countyRate": 0.01,
+   "localRate": 0.04
+  },
+  {
+   "id": "bryant",
+   "name": "Bryant (Saline County)",
+   "cityRate": 0.03,
+   "countyRate": 0.0,
+   "localRate": 0.03
+  },
+  {
+   "id": "bull-shoals",
+   "name": "Bull Shoals (Marion County)",
+   "cityRate": 0.02,
+   "countyRate": 0.0125,
+   "localRate": 0.0325
+  },
+  {
+   "id": "cabot",
+   "name": "Cabot (Lonoke County)",
+   "cityRate": 0.02,
+   "countyRate": 0.015,
+   "localRate": 0.035
+  },
+  {
+   "id": "caddo-valley",
+   "name": "Caddo Valley (Clark County)",
+   "cityRate": 0.02,
+   "countyRate": 0.015,
+   "localRate": 0.035
+  },
+  {
+   "id": "calico-rock",
+   "name": "Calico Rock (Izard County)",
+   "cityRate": 0.03,
+   "countyRate": 0.005,
+   "localRate": 0.035
+  },
+  {
+   "id": "camden",
+   "name": "Camden (Ouachita County)",
+   "cityRate": 0.0175,
+   "countyRate": 0.025,
+   "localRate": 0.0425
+  },
+  {
+   "id": "caraway",
+   "name": "Caraway (Craighead County)",
+   "cityRate": 0.01,
+   "countyRate": 0.01,
+   "localRate": 0.02
+  },
+  {
+   "id": "carlisle",
+   "name": "Carlisle (Lonoke County)",
+   "cityRate": 0.02125,
+   "countyRate": 0.015,
+   "localRate": 0.03625
+  },
+  {
+   "id": "carthage",
+   "name": "Carthage (Dallas County)",
+   "cityRate": 0.015,
+   "countyRate": 0.02,
+   "localRate": 0.035
+  },
+  {
+   "id": "cash",
+   "name": "Cash (Craighead County)",
+   "cityRate": 0.01,
+   "countyRate": 0.01,
+   "localRate": 0.02
+  },
+  {
+   "id": "cave-city",
+   "name": "Cave City (Sharp County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0125,
+   "localRate": 0.0225,
+   "multiCounty": true
+  },
+  {
+   "id": "cave-springs",
+   "name": "Cave Springs (Benton County)",
+   "cityRate": 0.0225,
+   "countyRate": 0.01,
+   "localRate": 0.0325
+  },
+  {
+   "id": "cedarville",
+   "name": "Cedarville (Crawford County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0125,
+   "localRate": 0.0225
+  },
+  {
+   "id": "centerton",
+   "name": "Centerton (Benton County)",
+   "cityRate": 0.02,
+   "countyRate": 0.01,
+   "localRate": 0.03
+  },
+  {
+   "id": "charleston",
+   "name": "Charleston (Franklin County)",
+   "cityRate": 0.015,
+   "countyRate": 0.02,
+   "localRate": 0.035
+  },
+  {
+   "id": "cherokee-village",
+   "name": "Cherokee Village (Sharp County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0125,
+   "localRate": 0.0225,
+   "multiCounty": true
+  },
+  {
+   "id": "cherry-valley",
+   "name": "Cherry Valley (Cross County)",
+   "cityRate": 0.01,
+   "countyRate": 0.02125,
+   "localRate": 0.03125
+  },
+  {
+   "id": "chester",
+   "name": "Chester (Crawford County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0125,
+   "localRate": 0.0225
+  },
+  {
+   "id": "chidester",
+   "name": "Chidester (Ouachita County)",
+   "cityRate": 0.02,
+   "countyRate": 0.025,
+   "localRate": 0.045
+  },
+  {
+   "id": "clarendon",
+   "name": "Clarendon (Monroe County)",
+   "cityRate": 0.04,
+   "countyRate": 0.0,
+   "localRate": 0.04
+  },
+  {
+   "id": "clarksville",
+   "name": "Clarksville (Johnson County)",
+   "cityRate": 0.02,
+   "countyRate": 0.01,
+   "localRate": 0.03
+  },
+  {
+   "id": "clinton",
+   "name": "Clinton (Van Buren County)",
+   "cityRate": 0.01,
+   "countyRate": 0.015,
+   "localRate": 0.025
+  },
+  {
+   "id": "coal-hill",
+   "name": "Coal Hill (Johnson County)",
+   "cityRate": 0.01,
+   "countyRate": 0.01,
+   "localRate": 0.02
+  },
+  {
+   "id": "colt",
+   "name": "Colt (St. Francis County)",
+   "cityRate": 0.01,
+   "countyRate": 0.02875,
+   "localRate": 0.03875
+  },
+  {
+   "id": "concord",
+   "name": "Concord (Cleburne County)",
+   "cityRate": 0.01,
+   "countyRate": 0.01625,
+   "localRate": 0.02625
+  },
+  {
+   "id": "conway",
+   "name": "Conway (Faulkner County)",
+   "cityRate": 0.02125,
+   "countyRate": 0.005,
+   "localRate": 0.02625
+  },
+  {
+   "id": "corning",
+   "name": "Corning (Clay County)",
+   "cityRate": 0.0175,
+   "countyRate": 0.015,
+   "localRate": 0.0325
+  },
+  {
+   "id": "cotter",
+   "name": "Cotter (Baxter County)",
+   "cityRate": 0.02,
+   "countyRate": 0.0125,
+   "localRate": 0.0325
+  },
+  {
+   "id": "cotton-plant",
+   "name": "Cotton Plant (Woodruff County)",
+   "cityRate": 0.01,
+   "countyRate": 0.02,
+   "localRate": 0.03
+  },
+  {
+   "id": "cove",
+   "name": "Cove (Polk County)",
+   "cityRate": 0.02,
+   "countyRate": 0.02,
+   "localRate": 0.04
+  },
+  {
+   "id": "crawfordsville",
+   "name": "Crawfordsville (Crittenden County)",
+   "cityRate": 0.02,
+   "countyRate": 0.0175,
+   "localRate": 0.0375
+  },
+  {
+   "id": "crossett",
+   "name": "Crossett (Ashley County)",
+   "cityRate": 0.0175,
+   "countyRate": 0.015,
+   "localRate": 0.0325
+  },
+  {
+   "id": "cushman",
+   "name": "Cushman (Independence County)",
+   "cityRate": 0.01,
+   "countyRate": 0.015,
+   "localRate": 0.025
+  },
+  {
+   "id": "damascus",
+   "name": "Damascus (Faulkner County)",
+   "cityRate": 0.01,
+   "countyRate": 0.005,
+   "localRate": 0.015,
+   "multiCounty": true
+  },
+  {
+   "id": "danville",
+   "name": "Danville (Yell County)",
+   "cityRate": 0.015,
+   "countyRate": 0.01125,
+   "localRate": 0.02625
+  },
+  {
+   "id": "dardanelle",
+   "name": "Dardanelle (Yell County)",
+   "cityRate": 0.02,
+   "countyRate": 0.01125,
+   "localRate": 0.03125
+  },
+  {
+   "id": "de-queen",
+   "name": "De Queen (Sevier County)",
+   "cityRate": 0.01,
+   "countyRate": 0.03125,
+   "localRate": 0.04125
+  },
+  {
+   "id": "devalls-bluff",
+   "name": "DeValls Bluff (Prairie County)",
+   "cityRate": 0.03,
+   "countyRate": 0.015,
+   "localRate": 0.045
+  },
+  {
+   "id": "dewitt",
+   "name": "DeWitt (Arkansas County)",
+   "cityRate": 0.035,
+   "countyRate": 0.01,
+   "localRate": 0.045
+  },
+  {
+   "id": "decatur",
+   "name": "Decatur (Benton County)",
+   "cityRate": 0.02,
+   "countyRate": 0.01,
+   "localRate": 0.03
+  },
+  {
+   "id": "delight",
+   "name": "Delight (Pike County)",
+   "cityRate": 0.01,
+   "countyRate": 0.02,
+   "localRate": 0.03
+  },
+  {
+   "id": "dermott",
+   "name": "Dermott (Chicot County)",
+   "cityRate": 0.04,
+   "countyRate": 0.02,
+   "localRate": 0.06
+  },
+  {
+   "id": "des-arc",
+   "name": "Des Arc (Prairie County)",
+   "cityRate": 0.03,
+   "countyRate": 0.015,
+   "localRate": 0.045
+  },
+  {
+   "id": "diamond-city",
+   "name": "Diamond City (Boone County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0125,
+   "localRate": 0.0225
+  },
+  {
+   "id": "diaz",
+   "name": "Diaz (Jackson County)",
+   "cityRate": 0.01,
+   "countyRate": 0.01875,
+   "localRate": 0.02875
+  },
+  {
+   "id": "dierks",
+   "name": "Dierks (Howard County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0275,
+   "localRate": 0.0375
+  },
+  {
+   "id": "dover",
+   "name": "Dover (Pope County)",
+   "cityRate": 0.02,
+   "countyRate": 0.01,
+   "localRate": 0.03
+  },
+  {
+   "id": "dumas",
+   "name": "Dumas (Desha County)",
+   "cityRate": 0.03,
+   "countyRate": 0.015,
+   "localRate": 0.045
+  },
+  {
+   "id": "dyer",
+   "name": "Dyer (Crawford County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0125,
+   "localRate": 0.0225
+  },
+  {
+   "id": "earle",
+   "name": "Earle (Crittenden County)",
+   "cityRate": 0.02,
+   "countyRate": 0.0175,
+   "localRate": 0.0375
+  },
+  {
+   "id": "east-camden",
+   "name": "East Camden (Ouachita County)",
+   "cityRate": 0.01,
+   "countyRate": 0.025,
+   "localRate": 0.035
+  },
+  {
+   "id": "el-dorado",
+   "name": "El Dorado (Union County)",
+   "cityRate": 0.0175,
+   "countyRate": 0.02,
+   "localRate": 0.0375
+  },
+  {
+   "id": "elkins",
+   "name": "Elkins (Washington County)",
+   "cityRate": 0.0275,
+   "countyRate": 0.0125,
+   "localRate": 0.04
+  },
+  {
+   "id": "elm-springs",
+   "name": "Elm Springs (Washington County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0125,
+   "localRate": 0.0225,
+   "multiCounty": true
+  },
+  {
+   "id": "emerson",
+   "name": "Emerson (Columbia County)",
+   "cityRate": 0.01,
+   "countyRate": 0.015,
+   "localRate": 0.025
+  },
+  {
+   "id": "england",
+   "name": "England (Lonoke County)",
+   "cityRate": 0.03,
+   "countyRate": 0.015,
+   "localRate": 0.045
+  },
+  {
+   "id": "etowah",
+   "name": "Etowah (Mississippi County)",
+   "cityRate": 0.01,
+   "countyRate": 0.025,
+   "localRate": 0.035
+  },
+  {
+   "id": "eudora",
+   "name": "Eudora (Chicot County)",
+   "cityRate": 0.02,
+   "countyRate": 0.02,
+   "localRate": 0.04
+  },
+  {
+   "id": "eureka-springs",
+   "name": "Eureka Springs (Carroll County)",
+   "cityRate": 0.02375,
+   "countyRate": 0.005,
+   "localRate": 0.02875
+  },
+  {
+   "id": "evening-shade",
+   "name": "Evening Shade (Sharp County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0125,
+   "localRate": 0.0225
+  },
+  {
+   "id": "fairfield-bay",
+   "name": "Fairfield Bay (Van Buren County)",
+   "cityRate": 0.015,
+   "countyRate": 0.015,
+   "localRate": 0.03,
+   "multiCounty": true
+  },
+  {
+   "id": "farmington",
+   "name": "Farmington (Washington County)",
+   "cityRate": 0.02,
+   "countyRate": 0.0125,
+   "localRate": 0.0325
+  },
+  {
+   "id": "fayetteville",
+   "name": "Fayetteville (Washington County)",
+   "cityRate": 0.02,
+   "countyRate": 0.0125,
+   "localRate": 0.0325
+  },
+  {
+   "id": "flippin",
+   "name": "Flippin (Marion County)",
+   "cityRate": 0.015,
+   "countyRate": 0.0125,
+   "localRate": 0.0275
+  },
+  {
+   "id": "fordyce",
+   "name": "Fordyce (Dallas County)",
+   "cityRate": 0.015,
+   "countyRate": 0.02,
+   "localRate": 0.035
+  },
+  {
+   "id": "foreman",
+   "name": "Foreman (Little River County)",
+   "cityRate": 0.01,
+   "countyRate": 0.02875,
+   "localRate": 0.03875
+  },
+  {
+   "id": "forrest-city",
+   "name": "Forrest City (St. Francis County)",
+   "cityRate": 0.01875,
+   "countyRate": 0.02875,
+   "localRate": 0.0475
+  },
+  {
+   "id": "fort-smith",
+   "name": "Fort Smith (Sebastian County)",
+   "cityRate": 0.02,
+   "countyRate": 0.01,
+   "localRate": 0.03
+  },
+  {
+   "id": "fouke",
+   "name": "Fouke (Miller County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0125,
+   "localRate": 0.0225
+  },
+  {
+   "id": "fountain-hill",
+   "name": "Fountain Hill (Ashley County)",
+   "cityRate": 0.01,
+   "countyRate": 0.015,
+   "localRate": 0.025
+  },
+  {
+   "id": "franklin",
+   "name": "Franklin (Izard County)",
+   "cityRate": 0.01,
+   "countyRate": 0.005,
+   "localRate": 0.015
+  },
+  {
+   "id": "garfield",
+   "name": "Garfield (Benton County)",
+   "cityRate": 0.015,
+   "countyRate": 0.01,
+   "localRate": 0.025
+  },
+  {
+   "id": "garland",
+   "name": "Garland (Miller County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0125,
+   "localRate": 0.0225
+  },
+  {
+   "id": "gassville",
+   "name": "Gassville (Baxter County)",
+   "cityRate": 0.015,
+   "countyRate": 0.0125,
+   "localRate": 0.0275
+  },
+  {
+   "id": "gentry",
+   "name": "Gentry (Benton County)",
+   "cityRate": 0.02,
+   "countyRate": 0.01,
+   "localRate": 0.03
+  },
+  {
+   "id": "gilbert",
+   "name": "Gilbert (Searcy County)",
+   "cityRate": 0.01,
+   "countyRate": 0.015,
+   "localRate": 0.025
+  },
+  {
+   "id": "gillett",
+   "name": "Gillett (Arkansas County)",
+   "cityRate": 0.03,
+   "countyRate": 0.01,
+   "localRate": 0.04
+  },
+  {
+   "id": "gillham",
+   "name": "Gillham (Sevier County)",
+   "cityRate": 0.03,
+   "countyRate": 0.03125,
+   "localRate": 0.06125
+  },
+  {
+   "id": "gilmore",
+   "name": "Gilmore (Crittenden County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0175,
+   "localRate": 0.0275
+  },
+  {
+   "id": "glenwood",
+   "name": "Glenwood (Pike County)",
+   "cityRate": 0.015,
+   "countyRate": 0.02,
+   "localRate": 0.035,
+   "multiCounty": true
+  },
+  {
+   "id": "goshen",
+   "name": "Goshen (Washington County)",
+   "cityRate": 0.02,
+   "countyRate": 0.0125,
+   "localRate": 0.0325
+  },
+  {
+   "id": "gosnell",
+   "name": "Gosnell (Mississippi County)",
+   "cityRate": 0.015,
+   "countyRate": 0.025,
+   "localRate": 0.04
+  },
+  {
+   "id": "gould",
+   "name": "Gould (Lincoln County)",
+   "cityRate": 0.03,
+   "countyRate": 0.02,
+   "localRate": 0.05
+  },
+  {
+   "id": "grady",
+   "name": "Grady (Lincoln County)",
+   "cityRate": 0.01,
+   "countyRate": 0.02,
+   "localRate": 0.03
+  },
+  {
+   "id": "grannis",
+   "name": "Grannis (Polk County)",
+   "cityRate": 0.01,
+   "countyRate": 0.02,
+   "localRate": 0.03
+  },
+  {
+   "id": "gravette",
+   "name": "Gravette (Benton County)",
+   "cityRate": 0.02,
+   "countyRate": 0.01,
+   "localRate": 0.03
+  },
+  {
+   "id": "green-forest",
+   "name": "Green Forest (Carroll County)",
+   "cityRate": 0.0225,
+   "countyRate": 0.005,
+   "localRate": 0.0275
+  },
+  {
+   "id": "greenbrier",
+   "name": "Greenbrier (Faulkner County)",
+   "cityRate": 0.025,
+   "countyRate": 0.005,
+   "localRate": 0.03
+  },
+  {
+   "id": "greenland",
+   "name": "Greenland (Washington County)",
+   "cityRate": 0.045,
+   "countyRate": 0.0125,
+   "localRate": 0.0575
+  },
+  {
+   "id": "greenwood",
+   "name": "Greenwood (Sebastian County)",
+   "cityRate": 0.02,
+   "countyRate": 0.01,
+   "localRate": 0.03
+  },
+  {
+   "id": "greers-ferry",
+   "name": "Greers Ferry (Cleburne County)",
+   "cityRate": 0.01,
+   "countyRate": 0.01625,
+   "localRate": 0.02625
+  },
+  {
+   "id": "guion",
+   "name": "Guion (Izard County)",
+   "cityRate": 0.01,
+   "countyRate": 0.005,
+   "localRate": 0.015
+  },
+  {
+   "id": "gum-springs",
+   "name": "Gum Springs (Clark County)",
+   "cityRate": 0.01,
+   "countyRate": 0.015,
+   "localRate": 0.025
+  },
+  {
+   "id": "gurdon",
+   "name": "Gurdon (Clark County)",
+   "cityRate": 0.015,
+   "countyRate": 0.015,
+   "localRate": 0.03
+  },
+  {
+   "id": "guy",
+   "name": "Guy (Faulkner County)",
+   "cityRate": 0.015,
+   "countyRate": 0.005,
+   "localRate": 0.02
+  },
+  {
+   "id": "hackett",
+   "name": "Hackett (Sebastian County)",
+   "cityRate": 0.01,
+   "countyRate": 0.01,
+   "localRate": 0.02
+  },
+  {
+   "id": "hamburg",
+   "name": "Hamburg (Ashley County)",
+   "cityRate": 0.03,
+   "countyRate": 0.015,
+   "localRate": 0.045
+  },
+  {
+   "id": "hampton",
+   "name": "Hampton (Calhoun County)",
+   "cityRate": 0.005,
+   "countyRate": 0.02625,
+   "localRate": 0.03125
+  },
+  {
+   "id": "hardy",
+   "name": "Hardy (Sharp County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0125,
+   "localRate": 0.0225,
+   "multiCounty": true
+  },
+  {
+   "id": "harrisburg",
+   "name": "Harrisburg (Poinsett County)",
+   "cityRate": 0.02,
+   "countyRate": 0.0175,
+   "localRate": 0.0375
+  },
+  {
+   "id": "harrison",
+   "name": "Harrison (Boone County)",
+   "cityRate": 0.0175,
+   "countyRate": 0.0125,
+   "localRate": 0.03
+  },
+  {
+   "id": "hartford",
+   "name": "Hartford (Sebastian County)",
+   "cityRate": 0.02,
+   "countyRate": 0.01,
+   "localRate": 0.03
+  },
+  {
+   "id": "haskell",
+   "name": "Haskell (Saline County)",
+   "cityRate": 0.02,
+   "countyRate": 0.0,
+   "localRate": 0.02
+  },
+  {
+   "id": "hatfield",
+   "name": "Hatfield (Polk County)",
+   "cityRate": 0.01,
+   "countyRate": 0.02,
+   "localRate": 0.03
+  },
+  {
+   "id": "havana",
+   "name": "Havana (Yell County)",
+   "cityRate": 0.01,
+   "countyRate": 0.01125,
+   "localRate": 0.02125
+  },
+  {
+   "id": "hazen",
+   "name": "Hazen (Prairie County)",
+   "cityRate": 0.03,
+   "countyRate": 0.015,
+   "localRate": 0.045
+  },
+  {
+   "id": "heber-springs",
+   "name": "Heber Springs (Cleburne County)",
+   "cityRate": 0.01,
+   "countyRate": 0.01625,
+   "localRate": 0.02625
+  },
+  {
+   "id": "hector",
+   "name": "Hector (Pope County)",
+   "cityRate": 0.015,
+   "countyRate": 0.01,
+   "localRate": 0.025
+  },
+  {
+   "id": "helena-west-helena",
+   "name": "Helena-West Helena (Phillips County)",
+   "cityRate": 0.02,
+   "countyRate": 0.02,
+   "localRate": 0.04
+  },
+  {
+   "id": "hermitage",
+   "name": "Hermitage (Bradley County)",
+   "cityRate": 0.02,
+   "countyRate": 0.02,
+   "localRate": 0.04
+  },
+  {
+   "id": "hickory-ridge",
+   "name": "Hickory Ridge (Cross County)",
+   "cityRate": 0.01,
+   "countyRate": 0.02125,
+   "localRate": 0.03125
+  },
+  {
+   "id": "higginson",
+   "name": "Higginson (White County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0175,
+   "localRate": 0.0275
+  },
+  {
+   "id": "highfill",
+   "name": "Highfill (Benton County)",
+   "cityRate": 0.02,
+   "countyRate": 0.01,
+   "localRate": 0.03
+  },
+  {
+   "id": "highland",
+   "name": "Highland (Sharp County)",
+   "cityRate": 0.015,
+   "countyRate": 0.0125,
+   "localRate": 0.0275
+  },
+  {
+   "id": "holly-grove",
+   "name": "Holly Grove (Monroe County)",
+   "cityRate": 0.03,
+   "countyRate": 0.0,
+   "localRate": 0.03
+  },
+  {
+   "id": "hope",
+   "name": "Hope (Hempstead County)",
+   "cityRate": 0.02,
+   "countyRate": 0.0275,
+   "localRate": 0.0475
+  },
+  {
+   "id": "horatio",
+   "name": "Horatio (Sevier County)",
+   "cityRate": 0.01,
+   "countyRate": 0.03125,
+   "localRate": 0.04125
+  },
+  {
+   "id": "horseshoe-bend",
+   "name": "Horseshoe Bend (Izard County)",
+   "cityRate": 0.02,
+   "countyRate": 0.005,
+   "localRate": 0.025,
+   "multiCounty": true
+  },
+  {
+   "id": "hot-springs",
+   "name": "Hot Springs (Garland County)",
+   "cityRate": 0.015,
+   "countyRate": 0.015,
+   "localRate": 0.03
+  },
+  {
+   "id": "hoxie",
+   "name": "Hoxie (Lawrence County)",
+   "cityRate": 0.01,
+   "countyRate": 0.025,
+   "localRate": 0.035
+  },
+  {
+   "id": "hughes",
+   "name": "Hughes (St. Francis County)",
+   "cityRate": 0.01,
+   "countyRate": 0.02875,
+   "localRate": 0.03875
+  },
+  {
+   "id": "humnoke",
+   "name": "Humnoke (Lonoke County)",
+   "cityRate": 0.015,
+   "countyRate": 0.015,
+   "localRate": 0.03
+  },
+  {
+   "id": "humphrey",
+   "name": "Humphrey (Arkansas County)",
+   "cityRate": 0.01,
+   "countyRate": 0.01,
+   "localRate": 0.02,
+   "multiCounty": true
+  },
+  {
+   "id": "huntington",
+   "name": "Huntington (Sebastian County)",
+   "cityRate": 0.015,
+   "countyRate": 0.01,
+   "localRate": 0.025
+  },
+  {
+   "id": "huntsville",
+   "name": "Huntsville (Madison County)",
+   "cityRate": 0.01,
+   "countyRate": 0.035,
+   "localRate": 0.045
+  },
+  {
+   "id": "imboden",
+   "name": "Imboden (Lawrence County)",
+   "cityRate": 0.01,
+   "countyRate": 0.025,
+   "localRate": 0.035
+  },
+  {
+   "id": "jacksonville",
+   "name": "Jacksonville (Pulaski County)",
+   "cityRate": 0.02,
+   "countyRate": 0.01,
+   "localRate": 0.03
+  },
+  {
+   "id": "jasper",
+   "name": "Jasper (Newton County)",
+   "cityRate": 0.02,
+   "countyRate": 0.01,
+   "localRate": 0.03
+  },
+  {
+   "id": "jennette",
+   "name": "Jennette (Crittenden County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0175,
+   "localRate": 0.0275,
+   "multiCounty": true
+  },
+  {
+   "id": "johnson",
+   "name": "Johnson (Washington County)",
+   "cityRate": 0.03,
+   "countyRate": 0.0125,
+   "localRate": 0.0425
+  },
+  {
+   "id": "joiner",
+   "name": "Joiner (Mississippi County)",
+   "cityRate": 0.0125,
+   "countyRate": 0.025,
+   "localRate": 0.0375
+  },
+  {
+   "id": "jonesboro",
+   "name": "Jonesboro (Craighead County)",
+   "cityRate": 0.01,
+   "countyRate": 0.01,
+   "localRate": 0.02
+  },
+  {
+   "id": "judsonia",
+   "name": "Judsonia (White County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0175,
+   "localRate": 0.0275
+  },
+  {
+   "id": "junction-city",
+   "name": "Junction City (Union County)",
+   "cityRate": 0.01,
+   "countyRate": 0.02,
+   "localRate": 0.03
+  },
+  {
+   "id": "keiser",
+   "name": "Keiser (Mississippi County)",
+   "cityRate": 0.02,
+   "countyRate": 0.025,
+   "localRate": 0.045
+  },
+  {
+   "id": "kensett",
+   "name": "Kensett (White County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0175,
+   "localRate": 0.0275
+  },
+  {
+   "id": "keo",
+   "name": "Keo (Lonoke County)",
+   "cityRate": 0.01,
+   "countyRate": 0.015,
+   "localRate": 0.025
+  },
+  {
+   "id": "kibler",
+   "name": "Kibler (Crawford County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0125,
+   "localRate": 0.0225
+  },
+  {
+   "id": "kingsland",
+   "name": "Kingsland (Cleveland County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0325,
+   "localRate": 0.0425
+  },
+  {
+   "id": "lake-city",
+   "name": "Lake City (Craighead County)",
+   "cityRate": 0.02,
+   "countyRate": 0.01,
+   "localRate": 0.03
+  },
+  {
+   "id": "lake-village",
+   "name": "Lake Village (Chicot County)",
+   "cityRate": 0.02,
+   "countyRate": 0.02,
+   "localRate": 0.04
+  },
+  {
+   "id": "lakeview",
+   "name": "Lakeview (Baxter County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0125,
+   "localRate": 0.0225
+  },
+  {
+   "id": "lamar",
+   "name": "Lamar (Johnson County)",
+   "cityRate": 0.02,
+   "countyRate": 0.01,
+   "localRate": 0.03
+  },
+  {
+   "id": "leachville",
+   "name": "Leachville (Mississippi County)",
+   "cityRate": 0.01,
+   "countyRate": 0.025,
+   "localRate": 0.035
+  },
+  {
+   "id": "lead-hill",
+   "name": "Lead Hill (Boone County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0125,
+   "localRate": 0.0225
+  },
+  {
+   "id": "lepanto",
+   "name": "Lepanto (Poinsett County)",
+   "cityRate": 0.015,
+   "countyRate": 0.0175,
+   "localRate": 0.0325
+  },
+  {
+   "id": "leslie",
+   "name": "Leslie (Searcy County)",
+   "cityRate": 0.01,
+   "countyRate": 0.015,
+   "localRate": 0.025
+  },
+  {
+   "id": "lewisville",
+   "name": "Lewisville (Lafayette County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0225,
+   "localRate": 0.0325
+  },
+  {
+   "id": "lincoln",
+   "name": "Lincoln (Washington County)",
+   "cityRate": 0.03,
+   "countyRate": 0.0125,
+   "localRate": 0.0425
+  },
+  {
+   "id": "little-flock",
+   "name": "Little Flock (Benton County)",
+   "cityRate": 0.01,
+   "countyRate": 0.01,
+   "localRate": 0.02
+  },
+  {
+   "id": "lockesburg",
+   "name": "Lockesburg (Sevier County)",
+   "cityRate": 0.0075,
+   "countyRate": 0.03125,
+   "localRate": 0.03875
+  },
+  {
+   "id": "london",
+   "name": "London (Pope County)",
+   "cityRate": 0.01,
+   "countyRate": 0.01,
+   "localRate": 0.02
+  },
+  {
+   "id": "lonoke",
+   "name": "Lonoke (Lonoke County)",
+   "cityRate": 0.03,
+   "countyRate": 0.015,
+   "localRate": 0.045
+  },
+  {
+   "id": "lowell",
+   "name": "Lowell (Benton County)",
+   "cityRate": 0.02,
+   "countyRate": 0.01,
+   "localRate": 0.03
+  },
+  {
+   "id": "luxora",
+   "name": "Luxora (Mississippi County)",
+   "cityRate": 0.01,
+   "countyRate": 0.025,
+   "localRate": 0.035
+  },
+  {
+   "id": "madison",
+   "name": "Madison (St. Francis County)",
+   "cityRate": 0.01,
+   "countyRate": 0.02875,
+   "localRate": 0.03875
+  },
+  {
+   "id": "magazine",
+   "name": "Magazine (Logan County)",
+   "cityRate": 0.02,
+   "countyRate": 0.015,
+   "localRate": 0.035
+  },
+  {
+   "id": "magnolia",
+   "name": "Magnolia (Columbia County)",
+   "cityRate": 0.0225,
+   "countyRate": 0.015,
+   "localRate": 0.0375
+  },
+  {
+   "id": "malvern",
+   "name": "Malvern (Hot Spring County)",
+   "cityRate": 0.02,
+   "countyRate": 0.015,
+   "localRate": 0.035
+  },
+  {
+   "id": "mammoth-spring",
+   "name": "Mammoth Spring (Fulton County)",
+   "cityRate": 0.01,
+   "countyRate": 0.03,
+   "localRate": 0.04
+  },
+  {
+   "id": "manila",
+   "name": "Manila (Mississippi County)",
+   "cityRate": 0.0125,
+   "countyRate": 0.025,
+   "localRate": 0.0375
+  },
+  {
+   "id": "mansfield",
+   "name": "Mansfield (Sebastian County)",
+   "cityRate": 0.025,
+   "countyRate": 0.01,
+   "localRate": 0.035,
+   "multiCounty": true
+  },
+  {
+   "id": "marianna",
+   "name": "Marianna (Lee County)",
+   "cityRate": 0.02,
+   "countyRate": 0.01,
+   "localRate": 0.03
+  },
+  {
+   "id": "marion",
+   "name": "Marion (Crittenden County)",
+   "cityRate": 0.02,
+   "countyRate": 0.0175,
+   "localRate": 0.0375
+  },
+  {
+   "id": "marked-tree",
+   "name": "Marked Tree (Poinsett County)",
+   "cityRate": 0.02,
+   "countyRate": 0.0175,
+   "localRate": 0.0375
+  },
+  {
+   "id": "marmaduke",
+   "name": "Marmaduke (Greene County)",
+   "cityRate": 0.0125,
+   "countyRate": 0.01375,
+   "localRate": 0.02625
+  },
+  {
+   "id": "marshall",
+   "name": "Marshall (Searcy County)",
+   "cityRate": 0.015,
+   "countyRate": 0.015,
+   "localRate": 0.03
+  },
+  {
+   "id": "marvell",
+   "name": "Marvell (Phillips County)",
+   "cityRate": 0.03,
+   "countyRate": 0.02,
+   "localRate": 0.05
+  },
+  {
+   "id": "maumelle",
+   "name": "Maumelle (Pulaski County)",
+   "cityRate": 0.02,
+   "countyRate": 0.01,
+   "localRate": 0.03
+  },
+  {
+   "id": "mayflower",
+   "name": "Mayflower (Faulkner County)",
+   "cityRate": 0.025,
+   "countyRate": 0.005,
+   "localRate": 0.03
+  },
+  {
+   "id": "maynard",
+   "name": "Maynard (Randolph County)",
+   "cityRate": 0.015,
+   "countyRate": 0.0125,
+   "localRate": 0.0275
+  },
+  {
+   "id": "mccaskill",
+   "name": "McCaskill (Hempstead County)",
+   "cityRate": 0.015,
+   "countyRate": 0.0275,
+   "localRate": 0.0425
+  },
+  {
+   "id": "mccrory",
+   "name": "McCrory (Woodruff County)",
+   "cityRate": 0.01,
+   "countyRate": 0.02,
+   "localRate": 0.03
+  },
+  {
+   "id": "mcgehee",
+   "name": "McGehee (Desha County)",
+   "cityRate": 0.03,
+   "countyRate": 0.015,
+   "localRate": 0.045
+  },
+  {
+   "id": "mcnab",
+   "name": "McNab (Hempstead County)",
+   "cityRate": 0.015,
+   "countyRate": 0.0275,
+   "localRate": 0.0425
+  },
+  {
+   "id": "mcneil",
+   "name": "McNeil (Columbia County)",
+   "cityRate": 0.01,
+   "countyRate": 0.015,
+   "localRate": 0.025
+  },
+  {
+   "id": "mcrae",
+   "name": "McRae (White County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0175,
+   "localRate": 0.0275
+  },
+  {
+   "id": "melbourne",
+   "name": "Melbourne (Izard County)",
+   "cityRate": 0.02,
+   "countyRate": 0.005,
+   "localRate": 0.025
+  },
+  {
+   "id": "mena",
+   "name": "Mena (Polk County)",
+   "cityRate": 0.01,
+   "countyRate": 0.02,
+   "localRate": 0.03
+  },
+  {
+   "id": "menifee",
+   "name": "Menifee (Conway County)",
+   "cityRate": 0.03,
+   "countyRate": 0.0175,
+   "localRate": 0.0475
+  },
+  {
+   "id": "midland",
+   "name": "Midland (Sebastian County)",
+   "cityRate": 0.01,
+   "countyRate": 0.01,
+   "localRate": 0.02
+  },
+  {
+   "id": "mineral-springs",
+   "name": "Mineral Springs (Howard County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0275,
+   "localRate": 0.0375
+  },
+  {
+   "id": "monette",
+   "name": "Monette (Craighead County)",
+   "cityRate": 0.02,
+   "countyRate": 0.01,
+   "localRate": 0.03
+  },
+  {
+   "id": "monticello",
+   "name": "Monticello (Drew County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0225,
+   "localRate": 0.0325
+  },
+  {
+   "id": "moorefield",
+   "name": "Moorefield (Independence County)",
+   "cityRate": 0.02,
+   "countyRate": 0.015,
+   "localRate": 0.035
+  },
+  {
+   "id": "moro",
+   "name": "Moro (Lee County)",
+   "cityRate": 0.01,
+   "countyRate": 0.01,
+   "localRate": 0.02
+  },
+  {
+   "id": "morrilton",
+   "name": "Morrilton (Conway County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0175,
+   "localRate": 0.0275
+  },
+  {
+   "id": "morrison-bluff",
+   "name": "Morrison Bluff (Logan County)",
+   "cityRate": 0.01,
+   "countyRate": 0.015,
+   "localRate": 0.025
+  },
+  {
+   "id": "mount-ida",
+   "name": "Mount Ida (Montgomery County)",
+   "cityRate": 0.01,
+   "countyRate": 0.03,
+   "localRate": 0.04
+  },
+  {
+   "id": "mountain-home",
+   "name": "Mountain Home (Baxter County)",
+   "cityRate": 0.02125,
+   "countyRate": 0.0125,
+   "localRate": 0.03375
+  },
+  {
+   "id": "mountain-view",
+   "name": "Mountain View (Stone County)",
+   "cityRate": 0.02,
+   "countyRate": 0.01,
+   "localRate": 0.03
+  },
+  {
+   "id": "mountainburg",
+   "name": "Mountainburg (Crawford County)",
+   "cityRate": 0.025,
+   "countyRate": 0.0125,
+   "localRate": 0.0375
+  },
+  {
+   "id": "mulberry",
+   "name": "Mulberry (Crawford County)",
+   "cityRate": 0.02,
+   "countyRate": 0.0125,
+   "localRate": 0.0325
+  },
+  {
+   "id": "murfreesboro",
+   "name": "Murfreesboro (Pike County)",
+   "cityRate": 0.015,
+   "countyRate": 0.02,
+   "localRate": 0.035
+  },
+  {
+   "id": "nashville",
+   "name": "Nashville (Howard County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0275,
+   "localRate": 0.0375
+  },
+  {
+   "id": "newport",
+   "name": "Newport (Jackson County)",
+   "cityRate": 0.015,
+   "countyRate": 0.01875,
+   "localRate": 0.03375
+  },
+  {
+   "id": "norfork",
+   "name": "Norfork (Baxter County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0125,
+   "localRate": 0.0225
+  },
+  {
+   "id": "norman",
+   "name": "Norman (Montgomery County)",
+   "cityRate": 0.01,
+   "countyRate": 0.03,
+   "localRate": 0.04
+  },
+  {
+   "id": "north-little-rock",
+   "name": "North Little Rock (Pulaski County)",
+   "cityRate": 0.02,
+   "countyRate": 0.01,
+   "localRate": 0.03
+  },
+  {
+   "id": "oak-grove",
+   "name": "Oak Grove (Carroll County)",
+   "cityRate": 0.01,
+   "countyRate": 0.005,
+   "localRate": 0.015
+  },
+  {
+   "id": "oak-grove-heights",
+   "name": "Oak Grove Heights (Greene County)",
+   "cityRate": 0.01,
+   "countyRate": 0.01375,
+   "localRate": 0.02375
+  },
+  {
+   "id": "ola",
+   "name": "Ola (Yell County)",
+   "cityRate": 0.02,
+   "countyRate": 0.01125,
+   "localRate": 0.03125
+  },
+  {
+   "id": "oppelo",
+   "name": "Oppelo (Conway County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0175,
+   "localRate": 0.0275
+  },
+  {
+   "id": "osceola",
+   "name": "Osceola (Mississippi County)",
+   "cityRate": 0.02,
+   "countyRate": 0.025,
+   "localRate": 0.045
+  },
+  {
+   "id": "oxford",
+   "name": "Oxford (Izard County)",
+   "cityRate": 0.01,
+   "countyRate": 0.005,
+   "localRate": 0.015
+  },
+  {
+   "id": "ozark",
+   "name": "Ozark (Franklin County)",
+   "cityRate": 0.02,
+   "countyRate": 0.02,
+   "localRate": 0.04
+  },
+  {
+   "id": "palestine",
+   "name": "Palestine (St. Francis County)",
+   "cityRate": 0.02,
+   "countyRate": 0.02875,
+   "localRate": 0.04875
+  },
+  {
+   "id": "pangburn",
+   "name": "Pangburn (White County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0175,
+   "localRate": 0.0275
+  },
+  {
+   "id": "paragould",
+   "name": "Paragould (Greene County)",
+   "cityRate": 0.015,
+   "countyRate": 0.01375,
+   "localRate": 0.02875
+  },
+  {
+   "id": "paris",
+   "name": "Paris (Logan County)",
+   "cityRate": 0.015,
+   "countyRate": 0.015,
+   "localRate": 0.03
+  },
+  {
+   "id": "parkdale",
+   "name": "Parkdale (Ashley County)",
+   "cityRate": 0.01,
+   "countyRate": 0.015,
+   "localRate": 0.025
+  },
+  {
+   "id": "patmos",
+   "name": "Patmos (Hempstead County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0275,
+   "localRate": 0.0375
+  },
+  {
+   "id": "patterson",
+   "name": "Patterson (Woodruff County)",
+   "cityRate": 0.01,
+   "countyRate": 0.02,
+   "localRate": 0.03
+  },
+  {
+   "id": "pea-ridge",
+   "name": "Pea Ridge (Benton County)",
+   "cityRate": 0.02,
+   "countyRate": 0.01,
+   "localRate": 0.03
+  },
+  {
+   "id": "perla",
+   "name": "Perla (Hot Spring County)",
+   "cityRate": 0.01,
+   "countyRate": 0.015,
+   "localRate": 0.025
+  },
+  {
+   "id": "perry",
+   "name": "Perry (Perry County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0275,
+   "localRate": 0.0375
+  },
+  {
+   "id": "perryville",
+   "name": "Perryville (Perry County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0275,
+   "localRate": 0.0375
+  },
+  {
+   "id": "piggott",
+   "name": "Piggott (Clay County)",
+   "cityRate": 0.02,
+   "countyRate": 0.015,
+   "localRate": 0.035
+  },
+  {
+   "id": "pine-bluff",
+   "name": "Pine Bluff (Jefferson County)",
+   "cityRate": 0.01625,
+   "countyRate": 0.0125,
+   "localRate": 0.02875
+  },
+  {
+   "id": "pineville",
+   "name": "Pineville (Izard County)",
+   "cityRate": 0.01,
+   "countyRate": 0.005,
+   "localRate": 0.015
+  },
+  {
+   "id": "plainview",
+   "name": "Plainview (Yell County)",
+   "cityRate": 0.015,
+   "countyRate": 0.01125,
+   "localRate": 0.02625
+  },
+  {
+   "id": "pleasant-plains",
+   "name": "Pleasant Plains (Independence County)",
+   "cityRate": 0.03,
+   "countyRate": 0.015,
+   "localRate": 0.045
+  },
+  {
+   "id": "plumerville",
+   "name": "Plumerville (Conway County)",
+   "cityRate": 0.02,
+   "countyRate": 0.0175,
+   "localRate": 0.0375
+  },
+  {
+   "id": "pocahontas",
+   "name": "Pocahontas (Randolph County)",
+   "cityRate": 0.02,
+   "countyRate": 0.0125,
+   "localRate": 0.0325
+  },
+  {
+   "id": "pollard",
+   "name": "Pollard (Clay County)",
+   "cityRate": 0.01,
+   "countyRate": 0.015,
+   "localRate": 0.025
+  },
+  {
+   "id": "portia",
+   "name": "Portia (Lawrence County)",
+   "cityRate": 0.01,
+   "countyRate": 0.025,
+   "localRate": 0.035
+  },
+  {
+   "id": "portland",
+   "name": "Portland (Ashley County)",
+   "cityRate": 0.02,
+   "countyRate": 0.015,
+   "localRate": 0.035
+  },
+  {
+   "id": "pottsville",
+   "name": "Pottsville (Pope County)",
+   "cityRate": 0.015,
+   "countyRate": 0.01,
+   "localRate": 0.025
+  },
+  {
+   "id": "powhatan",
+   "name": "Powhatan (Lawrence County)",
+   "cityRate": 0.01,
+   "countyRate": 0.025,
+   "localRate": 0.035
+  },
+  {
+   "id": "prairie-grove",
+   "name": "Prairie Grove (Washington County)",
+   "cityRate": 0.0275,
+   "countyRate": 0.0125,
+   "localRate": 0.04
+  },
+  {
+   "id": "prescott",
+   "name": "Prescott (Nevada County)",
+   "cityRate": 0.02,
+   "countyRate": 0.02,
+   "localRate": 0.04
+  },
+  {
+   "id": "pyatt",
+   "name": "Pyatt (Marion County)",
+   "cityRate": 0.015,
+   "countyRate": 0.0125,
+   "localRate": 0.0275
+  },
+  {
+   "id": "quitman",
+   "name": "Quitman (Cleburne County)",
+   "cityRate": 0.015,
+   "countyRate": 0.01625,
+   "localRate": 0.03125,
+   "multiCounty": true
+  },
+  {
+   "id": "ravenden",
+   "name": "Ravenden (Lawrence County)",
+   "cityRate": 0.01,
+   "countyRate": 0.025,
+   "localRate": 0.035
+  },
+  {
+   "id": "rector",
+   "name": "Rector (Clay County)",
+   "cityRate": 0.02,
+   "countyRate": 0.015,
+   "localRate": 0.035
+  },
+  {
+   "id": "redfield",
+   "name": "Redfield (Jefferson County)",
+   "cityRate": 0.02,
+   "countyRate": 0.0125,
+   "localRate": 0.0325
+  },
+  {
+   "id": "rison",
+   "name": "Rison (Cleveland County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0325,
+   "localRate": 0.0425
+  },
+  {
+   "id": "rockport",
+   "name": "Rockport (Hot Spring County)",
+   "cityRate": 0.03,
+   "countyRate": 0.015,
+   "localRate": 0.045
+  },
+  {
+   "id": "roe",
+   "name": "Roe (Monroe County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0,
+   "localRate": 0.01
+  },
+  {
+   "id": "rogers",
+   "name": "Rogers (Benton County)",
+   "cityRate": 0.02,
+   "countyRate": 0.01,
+   "localRate": 0.03
+  },
+  {
+   "id": "rose-bud",
+   "name": "Rose Bud (White County)",
+   "cityRate": 0.02,
+   "countyRate": 0.0175,
+   "localRate": 0.0375
+  },
+  {
+   "id": "rosston",
+   "name": "Rosston (Nevada County)",
+   "cityRate": 0.015,
+   "countyRate": 0.02,
+   "localRate": 0.035
+  },
+  {
+   "id": "rudy",
+   "name": "Rudy (Crawford County)",
+   "cityRate": 0.005,
+   "countyRate": 0.0125,
+   "localRate": 0.0175
+  },
+  {
+   "id": "russellville",
+   "name": "Russellville (Pope County)",
+   "cityRate": 0.015,
+   "countyRate": 0.01,
+   "localRate": 0.025
+  },
+  {
+   "id": "salem",
+   "name": "Salem (Fulton County)",
+   "cityRate": 0.01,
+   "countyRate": 0.03,
+   "localRate": 0.04
+  },
+  {
+   "id": "salesville",
+   "name": "Salesville (Baxter County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0125,
+   "localRate": 0.0225
+  },
+  {
+   "id": "scranton",
+   "name": "Scranton (Logan County)",
+   "cityRate": 0.01,
+   "countyRate": 0.015,
+   "localRate": 0.025
+  },
+  {
+   "id": "searcy",
+   "name": "Searcy (White County)",
+   "cityRate": 0.02,
+   "countyRate": 0.0175,
+   "localRate": 0.0375
+  },
+  {
+   "id": "shannon-hills",
+   "name": "Shannon Hills (Saline County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0,
+   "localRate": 0.01
+  },
+  {
+   "id": "sheridan",
+   "name": "Sheridan (Grant County)",
+   "cityRate": 0.02,
+   "countyRate": 0.0125,
+   "localRate": 0.0325
+  },
+  {
+   "id": "sherrill",
+   "name": "Sherrill (Jefferson County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0125,
+   "localRate": 0.0225
+  },
+  {
+   "id": "sherwood",
+   "name": "Sherwood (Pulaski County)",
+   "cityRate": 0.02,
+   "countyRate": 0.01,
+   "localRate": 0.03
+  },
+  {
+   "id": "shirley",
+   "name": "Shirley (Van Buren County)",
+   "cityRate": 0.01,
+   "countyRate": 0.015,
+   "localRate": 0.025
+  },
+  {
+   "id": "siloam-springs",
+   "name": "Siloam Springs (Benton County)",
+   "cityRate": 0.02,
+   "countyRate": 0.01,
+   "localRate": 0.03
+  },
+  {
+   "id": "sparkman",
+   "name": "Sparkman (Dallas County)",
+   "cityRate": 0.01,
+   "countyRate": 0.02,
+   "localRate": 0.03
+  },
+  {
+   "id": "springdale",
+   "name": "Springdale (Washington County)",
+   "cityRate": 0.02,
+   "countyRate": 0.0125,
+   "localRate": 0.0325,
+   "multiCounty": true
+  },
+  {
+   "id": "springtown",
+   "name": "Springtown (Benton County)",
+   "cityRate": 0.01,
+   "countyRate": 0.01,
+   "localRate": 0.02
+  },
+  {
+   "id": "st-charles",
+   "name": "St. Charles (Arkansas County)",
+   "cityRate": 0.02,
+   "countyRate": 0.01,
+   "localRate": 0.03
+  },
+  {
+   "id": "st-paul",
+   "name": "St. Paul (Madison County)",
+   "cityRate": 0.02,
+   "countyRate": 0.035,
+   "localRate": 0.055
+  },
+  {
+   "id": "stamps",
+   "name": "Stamps (Lafayette County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0225,
+   "localRate": 0.0325
+  },
+  {
+   "id": "star-city",
+   "name": "Star City (Lincoln County)",
+   "cityRate": 0.0125,
+   "countyRate": 0.02,
+   "localRate": 0.0325
+  },
+  {
+   "id": "stephens",
+   "name": "Stephens (Ouachita County)",
+   "cityRate": 0.03,
+   "countyRate": 0.025,
+   "localRate": 0.055
+  },
+  {
+   "id": "strong",
+   "name": "Strong (Union County)",
+   "cityRate": 0.01,
+   "countyRate": 0.02,
+   "localRate": 0.03
+  },
+  {
+   "id": "stuttgart",
+   "name": "Stuttgart (Arkansas County)",
+   "cityRate": 0.03,
+   "countyRate": 0.01,
+   "localRate": 0.04
+  },
+  {
+   "id": "subiaco",
+   "name": "Subiaco (Logan County)",
+   "cityRate": 0.01,
+   "countyRate": 0.015,
+   "localRate": 0.025
+  },
+  {
+   "id": "sulphur-springs",
+   "name": "Sulphur Springs (Benton County)",
+   "cityRate": 0.02,
+   "countyRate": 0.01,
+   "localRate": 0.03
+  },
+  {
+   "id": "summit",
+   "name": "Summit (Marion County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0125,
+   "localRate": 0.0225
+  },
+  {
+   "id": "sunset",
+   "name": "Sunset (Crittenden County)",
+   "cityRate": 0.03,
+   "countyRate": 0.0175,
+   "localRate": 0.0475
+  },
+  {
+   "id": "swifton",
+   "name": "Swifton (Jackson County)",
+   "cityRate": 0.01,
+   "countyRate": 0.01875,
+   "localRate": 0.02875
+  },
+  {
+   "id": "taylor",
+   "name": "Taylor (Columbia County)",
+   "cityRate": 0.02,
+   "countyRate": 0.015,
+   "localRate": 0.035
+  },
+  {
+   "id": "texarkana",
+   "name": "Texarkana (Miller County)",
+   "cityRate": 0.025,
+   "countyRate": 0.0125,
+   "localRate": 0.0375,
+   "stateRate": 0.07
+  },
+  {
+   "id": "thornton",
+   "name": "Thornton (Calhoun County)",
+   "cityRate": 0.01,
+   "countyRate": 0.02625,
+   "localRate": 0.03625
+  },
+  {
+   "id": "tillar",
+   "name": "Tillar (Drew County)",
+   "cityRate": 0.02,
+   "countyRate": 0.0225,
+   "localRate": 0.0425,
+   "multiCounty": true
+  },
+  {
+   "id": "tontitown",
+   "name": "Tontitown (Washington County)",
+   "cityRate": 0.0275,
+   "countyRate": 0.0125,
+   "localRate": 0.04
+  },
+  {
+   "id": "trumann",
+   "name": "Trumann (Poinsett County)",
+   "cityRate": 0.02,
+   "countyRate": 0.0175,
+   "localRate": 0.0375
+  },
+  {
+   "id": "tuckerman",
+   "name": "Tuckerman (Jackson County)",
+   "cityRate": 0.0125,
+   "countyRate": 0.01875,
+   "localRate": 0.03125
+  },
+  {
+   "id": "turrell",
+   "name": "Turrell (Crittenden County)",
+   "cityRate": 0.02,
+   "countyRate": 0.0175,
+   "localRate": 0.0375
+  },
+  {
+   "id": "tyronza",
+   "name": "Tyronza (Poinsett County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0175,
+   "localRate": 0.0275
+  },
+  {
+   "id": "unincorporated-arkansas",
+   "name": "Unincorporated Arkansas County",
+   "cityRate": 0,
+   "countyRate": 0.01,
+   "localRate": 0.01
+  },
+  {
+   "id": "unincorporated-ashley",
+   "name": "Unincorporated Ashley County",
+   "cityRate": 0,
+   "countyRate": 0.015,
+   "localRate": 0.015
+  },
+  {
+   "id": "unincorporated-baxter",
+   "name": "Unincorporated Baxter County",
+   "cityRate": 0,
+   "countyRate": 0.0125,
+   "localRate": 0.0125
+  },
+  {
+   "id": "unincorporated-benton",
+   "name": "Unincorporated Benton County",
+   "cityRate": 0,
+   "countyRate": 0.01,
+   "localRate": 0.01
+  },
+  {
+   "id": "unincorporated-boone",
+   "name": "Unincorporated Boone County",
+   "cityRate": 0,
+   "countyRate": 0.0125,
+   "localRate": 0.0125
+  },
+  {
+   "id": "unincorporated-bradley",
+   "name": "Unincorporated Bradley County",
+   "cityRate": 0,
+   "countyRate": 0.02,
+   "localRate": 0.02
+  },
+  {
+   "id": "unincorporated-calhoun",
+   "name": "Unincorporated Calhoun County",
+   "cityRate": 0,
+   "countyRate": 0.02625,
+   "localRate": 0.02625
+  },
+  {
+   "id": "unincorporated-carroll",
+   "name": "Unincorporated Carroll County",
+   "cityRate": 0,
+   "countyRate": 0.005,
+   "localRate": 0.005
+  },
+  {
+   "id": "unincorporated-chicot",
+   "name": "Unincorporated Chicot County",
+   "cityRate": 0,
+   "countyRate": 0.02,
+   "localRate": 0.02
+  },
+  {
+   "id": "unincorporated-clark",
+   "name": "Unincorporated Clark County",
+   "cityRate": 0,
+   "countyRate": 0.015,
+   "localRate": 0.015
+  },
+  {
+   "id": "unincorporated-clay",
+   "name": "Unincorporated Clay County",
+   "cityRate": 0,
+   "countyRate": 0.015,
+   "localRate": 0.015
+  },
+  {
+   "id": "unincorporated-cleburne",
+   "name": "Unincorporated Cleburne County",
+   "cityRate": 0,
+   "countyRate": 0.01625,
+   "localRate": 0.01625
+  },
+  {
+   "id": "unincorporated-cleveland",
+   "name": "Unincorporated Cleveland County",
+   "cityRate": 0,
+   "countyRate": 0.0325,
+   "localRate": 0.0325
+  },
+  {
+   "id": "unincorporated-columbia",
+   "name": "Unincorporated Columbia County",
+   "cityRate": 0,
+   "countyRate": 0.015,
+   "localRate": 0.015
+  },
+  {
+   "id": "unincorporated-conway",
+   "name": "Unincorporated Conway County",
+   "cityRate": 0,
+   "countyRate": 0.0175,
+   "localRate": 0.0175
+  },
+  {
+   "id": "unincorporated-craighead",
+   "name": "Unincorporated Craighead County",
+   "cityRate": 0,
+   "countyRate": 0.01,
+   "localRate": 0.01
+  },
+  {
+   "id": "unincorporated-crawford",
+   "name": "Unincorporated Crawford County",
+   "cityRate": 0,
+   "countyRate": 0.0125,
+   "localRate": 0.0125
+  },
+  {
+   "id": "unincorporated-crittenden",
+   "name": "Unincorporated Crittenden County",
+   "cityRate": 0,
+   "countyRate": 0.0175,
+   "localRate": 0.0175
+  },
+  {
+   "id": "unincorporated-cross",
+   "name": "Unincorporated Cross County",
+   "cityRate": 0,
+   "countyRate": 0.02125,
+   "localRate": 0.02125
+  },
+  {
+   "id": "unincorporated-dallas",
+   "name": "Unincorporated Dallas County",
+   "cityRate": 0,
+   "countyRate": 0.02,
+   "localRate": 0.02
+  },
+  {
+   "id": "unincorporated-desha",
+   "name": "Unincorporated Desha County",
+   "cityRate": 0,
+   "countyRate": 0.015,
+   "localRate": 0.015
+  },
+  {
+   "id": "unincorporated-drew",
+   "name": "Unincorporated Drew County",
+   "cityRate": 0,
+   "countyRate": 0.0225,
+   "localRate": 0.0225
+  },
+  {
+   "id": "unincorporated-faulkner",
+   "name": "Unincorporated Faulkner County",
+   "cityRate": 0,
+   "countyRate": 0.005,
+   "localRate": 0.005
+  },
+  {
+   "id": "unincorporated-franklin",
+   "name": "Unincorporated Franklin County",
+   "cityRate": 0,
+   "countyRate": 0.02,
+   "localRate": 0.02
+  },
+  {
+   "id": "unincorporated-fulton",
+   "name": "Unincorporated Fulton County",
+   "cityRate": 0,
+   "countyRate": 0.03,
+   "localRate": 0.03
+  },
+  {
+   "id": "unincorporated-garland",
+   "name": "Unincorporated Garland County",
+   "cityRate": 0,
+   "countyRate": 0.015,
+   "localRate": 0.015
+  },
+  {
+   "id": "unincorporated-grant",
+   "name": "Unincorporated Grant County",
+   "cityRate": 0,
+   "countyRate": 0.0125,
+   "localRate": 0.0125
+  },
+  {
+   "id": "unincorporated-greene",
+   "name": "Unincorporated Greene County",
+   "cityRate": 0,
+   "countyRate": 0.01375,
+   "localRate": 0.01375
+  },
+  {
+   "id": "unincorporated-hempstead",
+   "name": "Unincorporated Hempstead County",
+   "cityRate": 0,
+   "countyRate": 0.0275,
+   "localRate": 0.0275
+  },
+  {
+   "id": "unincorporated-hot-spring",
+   "name": "Unincorporated Hot Spring County",
+   "cityRate": 0,
+   "countyRate": 0.015,
+   "localRate": 0.015
+  },
+  {
+   "id": "unincorporated-howard",
+   "name": "Unincorporated Howard County",
+   "cityRate": 0,
+   "countyRate": 0.0275,
+   "localRate": 0.0275
+  },
+  {
+   "id": "unincorporated-independence",
+   "name": "Unincorporated Independence County",
+   "cityRate": 0,
+   "countyRate": 0.015,
+   "localRate": 0.015
+  },
+  {
+   "id": "unincorporated-izard",
+   "name": "Unincorporated Izard County",
+   "cityRate": 0,
+   "countyRate": 0.005,
+   "localRate": 0.005
+  },
+  {
+   "id": "unincorporated-jackson",
+   "name": "Unincorporated Jackson County",
+   "cityRate": 0,
+   "countyRate": 0.01875,
+   "localRate": 0.01875
+  },
+  {
+   "id": "unincorporated-jefferson",
+   "name": "Unincorporated Jefferson County",
+   "cityRate": 0,
+   "countyRate": 0.0125,
+   "localRate": 0.0125
+  },
+  {
+   "id": "unincorporated-johnson",
+   "name": "Unincorporated Johnson County",
+   "cityRate": 0,
+   "countyRate": 0.01,
+   "localRate": 0.01
+  },
+  {
+   "id": "unincorporated-lafayette",
+   "name": "Unincorporated Lafayette County",
+   "cityRate": 0,
+   "countyRate": 0.0225,
+   "localRate": 0.0225
+  },
+  {
+   "id": "unincorporated-lawrence",
+   "name": "Unincorporated Lawrence County",
+   "cityRate": 0,
+   "countyRate": 0.025,
+   "localRate": 0.025
+  },
+  {
+   "id": "unincorporated-lee",
+   "name": "Unincorporated Lee County",
+   "cityRate": 0,
+   "countyRate": 0.01,
+   "localRate": 0.01
+  },
+  {
+   "id": "unincorporated-lincoln",
+   "name": "Unincorporated Lincoln County",
+   "cityRate": 0,
+   "countyRate": 0.02,
+   "localRate": 0.02
+  },
+  {
+   "id": "unincorporated-little-river",
+   "name": "Unincorporated Little River County",
+   "cityRate": 0,
+   "countyRate": 0.02875,
+   "localRate": 0.02875
+  },
+  {
+   "id": "unincorporated-logan",
+   "name": "Unincorporated Logan County",
+   "cityRate": 0,
+   "countyRate": 0.015,
+   "localRate": 0.015
+  },
+  {
+   "id": "unincorporated-lonoke",
+   "name": "Unincorporated Lonoke County",
+   "cityRate": 0,
+   "countyRate": 0.015,
+   "localRate": 0.015
+  },
+  {
+   "id": "unincorporated-madison",
+   "name": "Unincorporated Madison County",
+   "cityRate": 0,
+   "countyRate": 0.035,
+   "localRate": 0.035
+  },
+  {
+   "id": "unincorporated-marion",
+   "name": "Unincorporated Marion County",
+   "cityRate": 0,
+   "countyRate": 0.0125,
+   "localRate": 0.0125
+  },
+  {
+   "id": "unincorporated-miller",
+   "name": "Unincorporated Miller County",
+   "cityRate": 0,
+   "countyRate": 0.0125,
+   "localRate": 0.0125
+  },
+  {
+   "id": "unincorporated-mississippi",
+   "name": "Unincorporated Mississippi County",
+   "cityRate": 0,
+   "countyRate": 0.025,
+   "localRate": 0.025
+  },
+  {
+   "id": "unincorporated-monroe",
+   "name": "Unincorporated Monroe County",
+   "cityRate": 0,
+   "countyRate": 0.0,
+   "localRate": 0.0
+  },
+  {
+   "id": "unincorporated-montgomery",
+   "name": "Unincorporated Montgomery County",
+   "cityRate": 0,
+   "countyRate": 0.03,
+   "localRate": 0.03
+  },
+  {
+   "id": "unincorporated-nevada",
+   "name": "Unincorporated Nevada County",
+   "cityRate": 0,
+   "countyRate": 0.02,
+   "localRate": 0.02
+  },
+  {
+   "id": "unincorporated-newton",
+   "name": "Unincorporated Newton County",
+   "cityRate": 0,
+   "countyRate": 0.01,
+   "localRate": 0.01
+  },
+  {
+   "id": "unincorporated-ouachita",
+   "name": "Unincorporated Ouachita County",
+   "cityRate": 0,
+   "countyRate": 0.025,
+   "localRate": 0.025
+  },
+  {
+   "id": "unincorporated-perry",
+   "name": "Unincorporated Perry County",
+   "cityRate": 0,
+   "countyRate": 0.0275,
+   "localRate": 0.0275
+  },
+  {
+   "id": "unincorporated-phillips",
+   "name": "Unincorporated Phillips County",
+   "cityRate": 0,
+   "countyRate": 0.02,
+   "localRate": 0.02
+  },
+  {
+   "id": "unincorporated-pike",
+   "name": "Unincorporated Pike County",
+   "cityRate": 0,
+   "countyRate": 0.02,
+   "localRate": 0.02
+  },
+  {
+   "id": "unincorporated-poinsett",
+   "name": "Unincorporated Poinsett County",
+   "cityRate": 0,
+   "countyRate": 0.0175,
+   "localRate": 0.0175
+  },
+  {
+   "id": "unincorporated-polk",
+   "name": "Unincorporated Polk County",
+   "cityRate": 0,
+   "countyRate": 0.02,
+   "localRate": 0.02
+  },
+  {
+   "id": "unincorporated-pope",
+   "name": "Unincorporated Pope County",
+   "cityRate": 0,
+   "countyRate": 0.01,
+   "localRate": 0.01
+  },
+  {
+   "id": "unincorporated-prairie",
+   "name": "Unincorporated Prairie County",
+   "cityRate": 0,
+   "countyRate": 0.015,
+   "localRate": 0.015
+  },
+  {
+   "id": "unincorporated-pulaski",
+   "name": "Unincorporated Pulaski County",
+   "cityRate": 0,
+   "countyRate": 0.01,
+   "localRate": 0.01
+  },
+  {
+   "id": "unincorporated-randolph",
+   "name": "Unincorporated Randolph County",
+   "cityRate": 0,
+   "countyRate": 0.0125,
+   "localRate": 0.0125
+  },
+  {
+   "id": "unincorporated-saline",
+   "name": "Unincorporated Saline County",
+   "cityRate": 0,
+   "countyRate": 0.0,
+   "localRate": 0.0
+  },
+  {
+   "id": "unincorporated-scott",
+   "name": "Unincorporated Scott County",
+   "cityRate": 0,
+   "countyRate": 0.02,
+   "localRate": 0.02
+  },
+  {
+   "id": "unincorporated-searcy",
+   "name": "Unincorporated Searcy County",
+   "cityRate": 0,
+   "countyRate": 0.015,
+   "localRate": 0.015
+  },
+  {
+   "id": "unincorporated-sebastian",
+   "name": "Unincorporated Sebastian County",
+   "cityRate": 0,
+   "countyRate": 0.01,
+   "localRate": 0.01
+  },
+  {
+   "id": "unincorporated-sevier",
+   "name": "Unincorporated Sevier County",
+   "cityRate": 0,
+   "countyRate": 0.03125,
+   "localRate": 0.03125
+  },
+  {
+   "id": "unincorporated-sharp",
+   "name": "Unincorporated Sharp County",
+   "cityRate": 0,
+   "countyRate": 0.0125,
+   "localRate": 0.0125
+  },
+  {
+   "id": "unincorporated-st-francis",
+   "name": "Unincorporated St. Francis County",
+   "cityRate": 0,
+   "countyRate": 0.02875,
+   "localRate": 0.02875
+  },
+  {
+   "id": "unincorporated-stone",
+   "name": "Unincorporated Stone County",
+   "cityRate": 0,
+   "countyRate": 0.01,
+   "localRate": 0.01
+  },
+  {
+   "id": "unincorporated-union",
+   "name": "Unincorporated Union County",
+   "cityRate": 0,
+   "countyRate": 0.02,
+   "localRate": 0.02
+  },
+  {
+   "id": "unincorporated-van-buren",
+   "name": "Unincorporated Van Buren County",
+   "cityRate": 0,
+   "countyRate": 0.015,
+   "localRate": 0.015
+  },
+  {
+   "id": "unincorporated-washington",
+   "name": "Unincorporated Washington County",
+   "cityRate": 0,
+   "countyRate": 0.0125,
+   "localRate": 0.0125
+  },
+  {
+   "id": "unincorporated-white",
+   "name": "Unincorporated White County",
+   "cityRate": 0,
+   "countyRate": 0.0175,
+   "localRate": 0.0175
+  },
+  {
+   "id": "unincorporated-woodruff",
+   "name": "Unincorporated Woodruff County",
+   "cityRate": 0,
+   "countyRate": 0.02,
+   "localRate": 0.02
+  },
+  {
+   "id": "unincorporated-yell",
+   "name": "Unincorporated Yell County",
+   "cityRate": 0,
+   "countyRate": 0.01125,
+   "localRate": 0.01125
+  },
+  {
+   "id": "van-buren",
+   "name": "Van Buren (Crawford County)",
+   "cityRate": 0.025,
+   "countyRate": 0.0125,
+   "localRate": 0.0375
+  },
+  {
+   "id": "vandervoort",
+   "name": "Vandervoort (Polk County)",
+   "cityRate": 0.01,
+   "countyRate": 0.02,
+   "localRate": 0.03
+  },
+  {
+   "id": "vilonia",
+   "name": "Vilonia (Faulkner County)",
+   "cityRate": 0.0275,
+   "countyRate": 0.005,
+   "localRate": 0.0325
+  },
+  {
+   "id": "viola",
+   "name": "Viola (Fulton County)",
+   "cityRate": 0.02,
+   "countyRate": 0.03,
+   "localRate": 0.05
+  },
+  {
+   "id": "wabbaseka",
+   "name": "Wabbaseka (Jefferson County)",
+   "cityRate": 0.02,
+   "countyRate": 0.0125,
+   "localRate": 0.0325
+  },
+  {
+   "id": "waldenburg",
+   "name": "Waldenburg (Poinsett County)",
+   "cityRate": 0.02,
+   "countyRate": 0.0175,
+   "localRate": 0.0375
+  },
+  {
+   "id": "waldron",
+   "name": "Waldron (Scott County)",
+   "cityRate": 0.01,
+   "countyRate": 0.02,
+   "localRate": 0.03
+  },
+  {
+   "id": "walnut-ridge",
+   "name": "Walnut Ridge (Lawrence County)",
+   "cityRate": 0.02,
+   "countyRate": 0.025,
+   "localRate": 0.045
+  },
+  {
+   "id": "ward",
+   "name": "Ward (Lonoke County)",
+   "cityRate": 0.02,
+   "countyRate": 0.015,
+   "localRate": 0.035
+  },
+  {
+   "id": "warren",
+   "name": "Warren (Bradley County)",
+   "cityRate": 0.01,
+   "countyRate": 0.02,
+   "localRate": 0.03
+  },
+  {
+   "id": "washington",
+   "name": "Washington (Hempstead County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0275,
+   "localRate": 0.0375
+  },
+  {
+   "id": "weiner",
+   "name": "Weiner (Poinsett County)",
+   "cityRate": 0.015,
+   "countyRate": 0.0175,
+   "localRate": 0.0325
+  },
+  {
+   "id": "west-fork",
+   "name": "West Fork (Washington County)",
+   "cityRate": 0.03,
+   "countyRate": 0.0125,
+   "localRate": 0.0425
+  },
+  {
+   "id": "west-memphis",
+   "name": "West Memphis (Crittenden County)",
+   "cityRate": 0.0225,
+   "countyRate": 0.0175,
+   "localRate": 0.04
+  },
+  {
+   "id": "western-grove",
+   "name": "Western Grove (Newton County)",
+   "cityRate": 0.01,
+   "countyRate": 0.01,
+   "localRate": 0.02
+  },
+  {
+   "id": "wheatley",
+   "name": "Wheatley (St. Francis County)",
+   "cityRate": 0.01,
+   "countyRate": 0.02875,
+   "localRate": 0.03875
+  },
+  {
+   "id": "white-hall",
+   "name": "White Hall (Jefferson County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0125,
+   "localRate": 0.0225
+  },
+  {
+   "id": "wickes",
+   "name": "Wickes (Polk County)",
+   "cityRate": 0.01,
+   "countyRate": 0.02,
+   "localRate": 0.03
+  },
+  {
+   "id": "widener",
+   "name": "Widener (St. Francis County)",
+   "cityRate": 0.0175,
+   "countyRate": 0.02875,
+   "localRate": 0.04625
+  },
+  {
+   "id": "wiederkehr-village",
+   "name": "Wiederkehr Village (Franklin County)",
+   "cityRate": 0.01,
+   "countyRate": 0.02,
+   "localRate": 0.03
+  },
+  {
+   "id": "wilmar",
+   "name": "Wilmar (Drew County)",
+   "cityRate": 0.01,
+   "countyRate": 0.0225,
+   "localRate": 0.0325
+  },
+  {
+   "id": "wilmot",
+   "name": "Wilmot (Ashley County)",
+   "cityRate": 0.02,
+   "countyRate": 0.015,
+   "localRate": 0.035
+  },
+  {
+   "id": "wilson",
+   "name": "Wilson (Mississippi County)",
+   "cityRate": 0.01,
+   "countyRate": 0.025,
+   "localRate": 0.035
+  },
+  {
+   "id": "wilton",
+   "name": "Wilton (Little River County)",
+   "cityRate": 0.01,
+   "countyRate": 0.02875,
+   "localRate": 0.03875
+  },
+  {
+   "id": "winslow",
+   "name": "Winslow (Washington County)",
+   "cityRate": 0.02,
+   "countyRate": 0.0125,
+   "localRate": 0.0325
+  },
+  {
+   "id": "wynne",
+   "name": "Wynne (Cross County)",
+   "cityRate": 0.01,
+   "countyRate": 0.02125,
+   "localRate": 0.03125
+  },
+  {
+   "id": "yellville",
+   "name": "Yellville (Marion County)",
+   "cityRate": 0.02,
+   "countyRate": 0.0125,
+   "localRate": 0.0325
+  }
+ ],
+ "defaultCounty": "little-rock",
+ "singular": [
+  "New cars pay the full 6.5% state sales tax, while used vehicles under $4,000 pay no sales tax and those from $4,000 to $9,999 pay a reduced 3.5% state rate [dfa-faq].",
+  "The $4,000 and $10,000 thresholds are read on the sales price before any trade-in is deducted [act-1013].",
+  "Local tax is not reduced on a used vehicle of $4,000 to $9,999: only the state rate drops [dfa-changes].",
+  "Each city or county tax is capped at $25 for each 1% of rate, which limits local tax to the first $2,500 of the price [dfa-registration].",
+  "A trade-in reduces the taxed amount: tax is computed on the consideration paid less the trade-in credit [dfa-trade-in].",
+  "Registration depends on weight: $17 up to 3,000 lb, $25 from 3,001 to 4,500 lb and $30 above, plus a $2.50 decal and 50 cents of postage [dfa-fee-schedule].",
+  "Electric cars pay an extra $200 a year, plug-in hybrids $100 and other hybrids $50 [act-376].",
+  "To register, the owner must show the county assessment of the vehicle and proof that last year’s personal property taxes are paid [dfa-assessment].",
+  "Dealers may charge a service and handling fee of no more than $129, the same for every retail customer [doc-fee]."
+ ],
+ "sources": {
+  "dfa-registration": {
+   "name": "Arkansas DFA, Vehicle Tag Renewal and registration requirements",
+   "url": "https://www.dfa.arkansas.gov/office/motor-vehicle/vehicle-tag-renewal/",
+   "quote": "The state sales and use tax rate is 6.5%, 7% for Texarkana residents, of the taxable price of motor vehicles ... with a gross purchase price of $4000.00 or greater. ... Each local tax will not exceed $25.00 for each 1% of tax due.",
+   "accessed": "2026-10-11"
+  },
+  "dfa-trade-in": {
+   "name": "Arkansas DFA, Vehicle Tag Renewal: Credit for Trade-In",
+   "url": "https://www.dfa.arkansas.gov/office/motor-vehicle/vehicle-tag-renewal/",
+   "quote": "If the invoice or bill of sale reflects a credit given for a trade-in, tax is computed on the difference of the total consideration paid less the trade-in credit.",
+   "accessed": "2026-10-11"
+  },
+  "dfa-assessment": {
+   "name": "Arkansas DFA, registration requirements (assessment and personal property tax)",
+   "url": "https://www.dfa.arkansas.gov/office/motor-vehicle/vehicle-tag-renewal/",
+   "quote": "Proof from your county assessor showing that the vehicle has been assessed or listed for assessment for the current year. Proof that personal property taxes due by the previous October 15th have been paid.",
+   "accessed": "2026-10-11"
+  },
+  "dfa-changes": {
+   "name": "Arkansas DFA, Recent Changes in the Law (Act 1013 of 2021)",
+   "url": "https://www.dfa.arkansas.gov/office/motor-vehicle/recent-changes-in-the-law/",
+   "quote": "If the total price for the sale of a used motor vehicle, trailer or semitrailer is at least ($4,000) but less than ($10,000), the gross price of the vehicle will be taxed at the reduced state tax rate of (3.5%). Local tax will not be subject to the reduced state tax rate.",
+   "accessed": "2026-10-11"
+  },
+  "act-1013": {
+   "name": "Arkansas Act 1013 of 2021 (Ark. Code § 26-52-324)",
+   "url": "https://arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2021R%2FPublic%2F&file=1013.pdf&ddBienniumSession=2021%2F2021R",
+   "quote": "the sales price for the used motor vehicle, trailer, or semitrailer shall not be reduced by: (1) The value of a motor vehicle, trailer or semitrailer traded in as part payment",
+   "accessed": "2026-10-11"
+  },
+  "dfa-local-rates": {
+   "name": "Arkansas DFA, List of Cities and Counties with Local Sales and Use Tax, October - December 2026",
+   "url": "https://www.dfa.arkansas.gov/wp-content/uploads/cityCountyTaxTable_Oct_Dec_2026.pdf",
+   "quote": "OCTOBER - DECEMBER 2026 LIST OF CITIES AND COUNTIES WITH LOCAL SALES AND USE TAX ... Little Rock 60-05 01/01/22 1.125% Pulaski 1.000% 2.125%",
+   "accessed": "2026-10-11"
+  },
+  "dfa-fee-schedule": {
+   "name": "Arkansas DFA, Motor Vehicle Registration Fee Schedule",
+   "url": "https://www.dfa.arkansas.gov/wp-content/uploads/schedule_fee1.pdf",
+   "quote": "Passenger cars and motor homes 3,000 Pounds or less $17.00 $2.50 .50 Cents ... 3,001 – 4,500 Pounds $25.00 ... 4,501 Pounds and Over $30.00 ... Trucks and vans rated ½ ton and ¾ ton. N/A $21.00 ... Title fee $10.00",
+   "accessed": "2026-10-11"
+  },
+  "act-376": {
+   "name": "Arkansas Act 376 of 2021 (Ark. Code § 27-14-614)",
+   "url": "https://arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2021R%2FPublic%2F&file=376.pdf&ddBienniumSession=2021%2F2021R",
+   "quote": "(1) Two hundred dollars ($200) for each electric vehicle ... Fifty dollars ($50.00) for each hybrid ... (3) One hundred dollars ($100) for each plug-in hybrid electric",
+   "accessed": "2026-10-11"
+  },
+  "doc-fee": {
+   "name": "Arkansas Motor Vehicle Commission, Rule 8, Dealer Service and Handling Fees",
+   "url": "https://www.labor.arkansas.gov/wp-content/uploads/Rule_8_Dealers_Service_and_Handling_Fee.pdf",
+   "quote": "The amount that an Arkansas dealer may charge for Dealer Service and Handling Fees, allowed by A.C.A. §23-112-317(d) is not to exceed $129.00. The fee, if charged, must be charged uniformly to all retail customers.",
+   "accessed": "2026-10-11"
+  },
+  "dfa-faq": {
+   "name": "Arkansas DFA, DSMV FAQs",
+   "url": "https://www.dfa.arkansas.gov/office/motor-vehicle/faqs-for-dsmv/",
+   "quote": "What is the sales tax rate for a motor vehicle? New Vehicle – 6.5% Used Vehicle – $4,000 through $9,999 will be 3.5% Used Vehicle – $3,999 and below no sales tax due",
+   "accessed": "2026-10-11"
+  }
+ }
+}

@@ -1,0 +1,288 @@
+{
+ "abbr": "AK",
+ "name": "Alaska",
+ "slug": "alaska",
+ "agency": {
+  "name": "Alaska Division of Motor Vehicles",
+  "short": "DMV",
+  "url": "https://dmv.alaska.gov/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "Alaska has no state sales tax, but many cities and boroughs levy their own, each with its own rate, exemptions and often a cap per sale; the dealer collects it. The line is shown without an amount outside Anchorage and Fairbanks.",
+  "Registration tax schedules are listed for the municipalities on the DMV chart; a few addresses outside taxable boundaries or sharing a zip code are exempt, which the DMV decides case by case.",
+  "On a used car already registered in Alaska, the registration and its tax transfer to the buyer; the next renewal date depends on the seller’s expiration date, which the form does not ask.",
+  "A first registration is normally for 24 months, but the fee is prorated when a shorter period is issued; the engine shows the 24-month amounts.",
+  "Lien recording ($15) and the $10 surcharge for in-person renewals are not included.",
+  "No dealer documentation fee cap was read on an official Alaska page; type the dealer’s fee."
+ ],
+ "summary": {
+  "stateRate": 0,
+  "localRange": [
+   0,
+   0
+  ],
+  "taxName": "no state sales tax (local sales taxes only)",
+  "tradeInCredit": false,
+  "titleFee": 15,
+  "regMethod": "flat",
+  "regYears": 2,
+  "docFeeCap": null,
+  "docFeeNote": "No cap read on an official Alaska page for this release; type the dealer’s fee.",
+  "evFee": null,
+  "phevFee": null,
+  "hybridFee": null,
+  "inspection": "none",
+  "inspectionWhere": "No safety or emissions inspection is required to register a passenger car.",
+  "inspectionFee": null,
+  "annualValueTax": true
+ },
+ "params": {
+  "_src": "as-28-10-421, as-28-10-441, dmv-chart",
+  "reg": 100,
+  "regYears": 2,
+  "title": 15
+ },
+ "counties": [
+  {
+   "id": "anchorage",
+   "name": "Anchorage (Municipality of Anchorage)",
+   "mvrt": [
+    150,
+    140,
+    130,
+    120,
+    110,
+    100,
+    90,
+    70
+   ]
+  },
+  {
+   "id": "mat-su",
+   "name": "Matanuska-Susitna Borough (Wasilla, Palmer)",
+   "mvrt": [
+    150,
+    140,
+    130,
+    120,
+    110,
+    100,
+    90,
+    70
+   ],
+   "salesTax": true
+  },
+  {
+   "id": "fairbanks",
+   "name": "Fairbanks North Star Borough and other areas without a registration tax",
+   "salesTax": true
+  },
+  {
+   "id": "juneau",
+   "name": "Juneau (Auke Bay, Douglas)",
+   "mvrt": [
+    70
+   ],
+   "salesTax": true
+  },
+  {
+   "id": "kenai",
+   "name": "Kenai Peninsula Borough (Soldotna, Homer, Seward...)",
+   "mvrt": [
+    140,
+    120,
+    100,
+    80,
+    60,
+    50,
+    40,
+    30
+   ],
+   "salesTax": true
+  },
+  {
+   "id": "kodiak",
+   "name": "Kodiak Island Borough",
+   "mvrt": [
+    300,
+    300,
+    240,
+    240,
+    200,
+    200,
+    180,
+    140
+   ],
+   "salesTax": true
+  },
+  {
+   "id": "ketchikan",
+   "name": "Ketchikan Gateway Borough",
+   "mvrt": [
+    152,
+    126,
+    102,
+    76,
+    50,
+    40,
+    26,
+    18
+   ],
+   "salesTax": true
+  },
+  {
+   "id": "bethel",
+   "name": "Bethel",
+   "mvrt": [
+    151,
+    124,
+    96,
+    69,
+    49,
+    35,
+    24,
+    20
+   ],
+   "salesTax": true
+  },
+  {
+   "id": "bristol-bay",
+   "name": "Bristol Bay Borough",
+   "mvrt": [
+    145,
+    135,
+    125,
+    115,
+    105,
+    95,
+    80,
+    70
+   ],
+   "salesTax": true
+  },
+  {
+   "id": "dillingham",
+   "name": "Dillingham",
+   "mvrt": [
+    145,
+    119,
+    92,
+    66,
+    47,
+    34,
+    23,
+    19
+   ],
+   "salesTax": true
+  },
+  {
+   "id": "unalaska",
+   "name": "Unalaska (Dutch Harbor)",
+   "mvrt": [
+    221,
+    199,
+    177,
+    155,
+    139,
+    128,
+    119,
+    116
+   ],
+   "salesTax": true
+  },
+  {
+   "id": "cordova",
+   "name": "Cordova",
+   "mvrt": [
+    150,
+    150,
+    130,
+    120,
+    110,
+    100,
+    90,
+    70
+   ],
+   "salesTax": true
+  },
+  {
+   "id": "haines",
+   "name": "Haines",
+   "mvrt": [
+    22
+   ],
+   "salesTax": true
+  },
+  {
+   "id": "sitka-nome-other",
+   "name": "Sitka, Nome, Nenana, Petersburg or Whittier",
+   "mvrt": [
+    121,
+    99,
+    77,
+    55,
+    39,
+    28,
+    19,
+    16
+   ],
+   "salesTax": true
+  }
+ ],
+ "defaultCounty": "anchorage",
+ "singular": [
+  "Alaska has no state sales tax on cars and registers passenger vehicles for two years at a time for $100 [as-28-10-421].",
+  "Municipalities that opt in collect a motor vehicle registration tax through the DMV, and paying it replaces any local use or ad valorem tax on the vehicle [as-28-10-431].",
+  "In Anchorage and the Mat-Su Borough the two-year registration tax is $150 for a new car and falls to $70 from the eighth year [dmv-chart].",
+  "For the registration tax, a vehicle counts as one year old during its model year and ages every January 1 [dmv-chart-age].",
+  "When a registered car is sold, its registration passes to the buyer and the registration tax is not charged again until the next renewal [dmv-chart-notes].",
+  "A certificate of title costs $15, the same as recording a lien [as-28-10-441].",
+  "Renewing in person instead of by mail, online or at a DMV partner adds $10 [dmv-chart-inperson]."
+ ],
+ "sources": {
+  "as-28-10-421": {
+   "name": "Alaska Statutes AS 28.10.421, registration fee rates",
+   "url": "https://www.akleg.gov/basis/statutes.asp#28.10.421",
+   "quote": "(b) The biennial registration fees under this subsection are imposed within the following classifications for (1) a vehicle not exceeding 10,000 pounds unladen weight ... (A) passenger vehicle, low-speed vehicle, pick-up truck, truck, or van not used ... for other commercial use ..... $100",
+   "accessed": "2026-10-11"
+  },
+  "as-28-10-441": {
+   "name": "Alaska Statutes AS 28.10.441, schedule of other fees",
+   "url": "https://www.akleg.gov/basis/statutes.asp#28.10.441",
+   "quote": "(1) title fee, including transfer of title$15; (2) lien filing fee$15; (3) replacement of any registration plate, including a special request plate$5",
+   "accessed": "2026-10-11"
+  },
+  "as-28-10-431": {
+   "name": "Alaska Statutes AS 28.10.431, biennial motor vehicle registration tax",
+   "url": "https://www.akleg.gov/basis/statutes.asp#28.10.431",
+   "quote": "There is levied a motor vehicle registration tax within each municipality that elects, by passage of an appropriate ordinance, to come under this section. ... (g) Payment of the registration tax is in lieu of all local use taxes and ad valorem taxes on motor vehicles subject to the tax.",
+   "accessed": "2026-10-11"
+  },
+  "dmv-chart": {
+   "name": "Alaska DMV, Registration Fees & Biennial MVRT for vehicles with an expiration date of 2026 (revised 09/2/2025)",
+   "url": "https://dmv.alaska.gov/media/lknb3cwi/2026-mvrt-by-location.pdf",
+   "quote": "Passenger, MH, Pickups & Cargo Van, APV 100 ... Title Issuance 15 ... MAT-SU BOROUGH (30) & ANCHORAGE / MOA (01) Non-Comm. Passenger, Motorhomes, Pickups & Cargo Vans 150 150 140 130 120 110 100 90 70",
+   "accessed": "2026-10-11"
+  },
+  "dmv-chart-notes": {
+   "name": "Alaska DMV, 2026 MVRT chart: important notes",
+   "url": "https://dmv.alaska.gov/media/lknb3cwi/2026-mvrt-by-location.pdf",
+   "quote": "It is not collected again if the vehicle changes ownership or residence location during the registration period ... When a vehicle registered in Alaska is sold the previously issued registration transfers to the new owner, including an expired registration.",
+   "accessed": "2026-10-11"
+  },
+  "dmv-chart-age": {
+   "name": "Alaska DMV, 2026 MVRT chart: vehicle age",
+   "url": "https://dmv.alaska.gov/media/lknb3cwi/2026-mvrt-by-location.pdf",
+   "quote": "A vehicle is always considered to be 1 year old during its model year and becomes a year older on January 1st the following year.",
+   "accessed": "2026-10-11"
+  },
+  "dmv-chart-inperson": {
+   "name": "Alaska DMV, 2026 MVRT chart: in-person renewal",
+   "url": "https://dmv.alaska.gov/media/lknb3cwi/2026-mvrt-by-location.pdf",
+   "quote": "Registration renewed not part of a transfer of ownershipas and that is submitted in person, not by mail, online or at a D M V business partner is assessed a $10 additional registration fee.",
+   "accessed": "2026-10-11"
+  }
+ }
+}

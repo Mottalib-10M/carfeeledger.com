@@ -101,96 +101,36 @@
  Senate Presidents 
  Preserving Capitol furniture 
  Home 
- / State laws and rules 
- / RCWs / Title 46 / Chapter 46.17 / Section 46.17.350
+  /  State laws and rules 
+  /  RCWs  /  Title 46  /  Chapter 46.17  /  Section 46.17.350
  Print 
- 46.17.345 << 
- 46.17.350 >> 
+ 46.17.345   << 
+ 46.17.350 >>  
  46.17.355 
  PDF 
  RCW 46.17.350 
  License fees by vehicle type. 
  (1) Before accepting an application for a vehicle registration, the department, county auditor or other agent, or subagent appointed by the director shall require the applicant, unless specifically exempt, to pay the following vehicle license fee by vehicle type:
- VEHICLE TYPE
- INITIAL FEE
- RENEWAL FEE
- DISTRIBUTED UNDER
- (a) Auto stage, six seats or less
- $ 30.00
- $ 30.00
- RCW 46.68.030 
- (b) Camper
- $ 4.90
- $ 3.50
- RCW 46.68.030 
- (c) Commercial trailer
- $ 34.00
- $ 34.00
- RCW 46.68.035 
- (d) For hire vehicle, six seats or less
- $ 30.00
- $ 30.00
- RCW 46.68.030 
- (e) Mobile home (if registered)
- $ 30.00
- $ 30.00
- RCW 46.68.030 
- (f) Moped
- $ 30.00
- $ 30.00
- RCW 46.68.030 
- (g) Motor home
- $ 30.00
- $ 30.00
- RCW 46.68.030 
- (h) Motorcycle
- $ 30.00
- $ 30.00
- RCW 46.68.030 
- (i) Off-road vehicle
- $ 18.00
- $ 18.00
- RCW 46.68.045 
- (j) Passenger car
- $ 30.00
- $ 30.00
- RCW 46.68.030 
- (k) Private use single-axle trailer
- $ 15.00
- $ 15.00
- RCW 46.68.035 
- (l) Snowmobile
- $ 50.00
- $ 50.00
- RCW 46.68.350 
- (m) Snowmobile, vintage
- $ 12.00
- $ 12.00
- RCW 46.68.350 
- (n) Sport utility vehicle
- $ 30.00
- $ 30.00
- RCW 46.68.030 
- (o) Tow truck
- $ 30.00
- $ 30.00
- RCW 46.68.030 
- (p) Trailer, over 2000 pounds
- $ 30.00
- $ 30.00
- RCW 46.68.030 
- (q) Travel trailer
- $ 30.00
- $ 30.00
- RCW 46.68.030 
- (r) Wheeled all-terrain vehicle, on-road use
- $ 12.00
- $ 12.00
- RCW 46.09.540 
- (s) Wheeled all-terrain vehicle, off-road use
- $ 18.00
- $ 18.00
- RCW 46.09.510 
+ VEHICLE TYPE | INITIAL FEE | RENEWAL FEE | DISTRIBUTED UNDER | 
+ (a) Auto stage, six seats or less | $ 30.00 | $ 30.00 | RCW 46.68.030 | 
+ (b) Camper | $ 4.90 | $ 3.50 | RCW 46.68.030 | 
+ (c) Commercial trailer | $ 34.00 | $ 34.00 | RCW 46.68.035 | 
+ (d) For hire vehicle, six seats or less | $ 30.00 | $ 30.00 | RCW 46.68.030 | 
+ (e) Mobile home (if registered) | $ 30.00 | $ 30.00 | RCW 46.68.030 | 
+ (f) Moped | $ 30.00 | $ 30.00 | RCW 46.68.030 | 
+ (g) Motor home | $ 30.00 | $ 30.00 | RCW 46.68.030 | 
+ (h) Motorcycle | $ 30.00 | $ 30.00 | RCW 46.68.030 | 
+ (i) Off-road vehicle | $ 18.00 | $ 18.00 | RCW 46.68.045 | 
+ (j) Passenger car | $ 30.00 | $ 30.00 | RCW 46.68.030 | 
+ (k) Private use single-axle trailer | $ 15.00 | $ 15.00 | RCW 46.68.035 | 
+ (l) Snowmobile | $ 50.00 | $ 50.00 | RCW 46.68.350 | 
+ (m) Snowmobile, vintage | $ 12.00 | $ 12.00 | RCW 46.68.350 | 
+ (n) Sport utility vehicle | $ 30.00 | $ 30.00 | RCW 46.68.030 | 
+ (o) Tow truck | $ 30.00 | $ 30.00 | RCW 46.68.030 | 
+ (p) Trailer, over 2000 pounds | $ 30.00 | $ 30.00 | RCW 46.68.030 | 
+ (q) Travel trailer | $ 30.00 | $ 30.00 | RCW 46.68.030 | 
+ (r) Wheeled all-terrain vehicle, on-road use | $ 12.00 | $ 12.00 | RCW 46.09.540 | 
+ (s) Wheeled all-terrain vehicle, off-road use | $ 18.00 | $ 18.00 | RCW 46.09.510 | 
  (2) The vehicle license fee required in subsection (1) of this section is in addition to the filing fee required under RCW 46.17.005 , and any other fee or tax required by law.
  [ 2019 c 44 s 4 ; (2020 c 1 s 3 repealed by 2024 c 232 s 7); 2014 c 30 s 2 ; (2014 c 30 s 1 expired October 1, 2015); 2013 2nd sp.s. c 23 s 19 ; 2010 c 161 s 531 .]
  Notes:

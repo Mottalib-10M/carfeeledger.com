@@ -1,0 +1,433 @@
+ 
+ Regional Transit Authority (RTA) tax | Washington State Department of Licensing 
+ Skip to main content
+ An official website of the Washington state government
+ Here’s how you know
+ The .gov means it’s official. 
+ A .gov website belongs to an official government organization in the United States.
+ The site is secure. 
+ The https:// ensures that you are connecting to the official website and that any information you provide is encrypted and
+ transmitted securely.
+ MENU 
+ Moving to Washington
+ My Account/License Express
+ Forms
+ search 
+ close menu 
+ Driver licenses and permits  
+ View all in driver licenses and permits 
+ Renew or replace a driver license 
+ Update driver license information 
+ Get your first license or permit 
+ Moving to Washington: Get a license 
+ Enhanced driver license (EDL) 
+ Washington driver guides 
+ Driver training and testing 
+ Commercial driver licenses (CDL) 
+ Motorcycle endorsements 
+ Check the status of a driver license 
+ Driving records 
+ Suspended license 
+ Disabled parking permits 
+ DOL2Go mobile unit 
+ Find a driver licensing office 
+ ID cards  
+ View all in ID cards 
+ Get an ID card 
+ Renew an ID card 
+ Replace an ID card 
+ Check status of an ID card 
+ Get an enhanced ID card (EID) 
+ REAL ID 
+ Find a driver licensing office 
+ Vehicles and boats  
+ View all in vehicles and boats 
+ Vehicles 
+ License plates 
+ Renew or replace vehicle tabs 
+ Register a vehicle 
+ Replace a lost title or registration 
+ Buying or selling a vehicle 
+ Report a vehicle sale 
+ Disabled parking permits 
+ Moving to Washington: Vehicle registration and plates 
+ Find a vehicle licensing office 
+ Boats 
+ Register a boat 
+ Renew your boat decal 
+ Report the sale of a boat 
+ Prorate and fuel tax 
+ Fuel tax 
+ International Registration Plan (prorate) 
+ International Fuel Tax Agreement (IFTA) 
+ Find a prorate and fuel tax office 
+ Businesses and professions  
+ View all in businesses and professions 
+ Learn about licensing for businesses and professions 
+ Create or log into your business or professional license account 
+ Set up SecureAccess Washington (SAW) account 
+ File a complaint 
+ Look up the status of a business or professional license 
+ Prorate and fuel tax 
+ Uniform Commercial Code (UCC) 
+ Firearms recordkeeping 
+ Fingerprinting and background checks 
+ Criminal conviction screening 
+ Performing rights societies 
+ Business and professional licensing contacts 
+ Visit wa.gov for a list of licenses from other Washington State agencies 
+ Appointments and locations  
+ View all in appointments and locations 
+ Driver licensing offices 
+ Find a driver licensing office 
+ Make an appointment at a driver licensing office 
+ Vehicle licensing offices 
+ Find a vehicle licensing office 
+ Find a quick title office 
+ Prorate and fuel tax offices 
+ Find a prorate and fuel tax office 
+ Make an appointment for a prorate or fuel tax transaction 
+ Driver testing and training 
+ Find a training or testing location 
+ Make an appointment for a knowledge or drive test 
+ Home 
+ Vehicles And Boats 
+ Vehicles 
+ Taxes And Fees 
+ Regional Transit Authority (RTA) Tax
+ Skip to main content
+ On this page
+ Off
+ Regional Transit Authority (RTA) tax 
+ Residents of King, Pierce, and Snohomish counties who live within the Sound Transit District must pay the Regional Transit Authority (RTA) when they purchase a new or used vehicle or renew their tabs.
+ Before you get started
+ Use Sound Transit's tool to check if you need to pay RTA .
+ The Regional Transit Authority (RTA) tax helps fund construction and operation of Sound Transit's regional mass transit services. The current voter-approved rate is 1.1%. Learn more about Sound Transit's system expansion . 
+ How we calculate RTA
+ The RTA tax is a motor vehicle excise tax (MVET) calculated from the depreciated value of your vehicle. It is determined by using a formula based on the vehicle manufacturer's suggested retail price (MSRP), or purchase price for commercial trucks and commercial trailer, and a depreciation schedule set by state law based on the age of the vehicle (years of service).
+ RTA calculation formula
+ Current year - year of vehicle + 1 = years of service (value decreases each year in service)
+Original MSRP x depreciated percentage = depreciated value (based on years in service)
+Depreciated value x 1.1% (current RTA rate) = RTA amount due
+ Depreciation schedule
+ Sound Transit uses these depreciation tables for RTA tax.
+ Taxable value is based on vehicles age (year of service) and a base value established by the vehicle Manufacturer’s Suggested Retail Price (MSRP) for passenger vehicles, motorcycles, light-duty trucks (scale weight of 6,000 pounds or less) and small trailers.
+ For passenger vehicles, motorcycles, light-duty trucks, and small trailers: Take the vehicle’s MSRP, find the Year of Service (current calendar year - model year + 1 year = year of service), and apply the corresponding percentage.
+ Depreciation percentage based on years of service
+ Year of Service | 
+ Percentage | 
+ 1 | 
+ 100% | 
+ 2 | 
+ 95% | 
+ 3 | 
+ 89% | 
+ 4 | 
+ 83% | 
+ 5 | 
+ 74% | 
+ 6 | 
+ 65% | 
+ 7 | 
+ 57% | 
+ 8 | 
+ 48% | 
+ 9 | 
+ 40% | 
+ 10 | 
+ 31% | 
+ 11 | 
+ 22% | 
+ 12 | 
+ 14% | 
+ 13 or older | 
+ 10% | 
+ Example for a 2012 Toyota Prius:
+ MSRP: $24,000
+ Depreciation years: 2018 (or "current year") - 2012 (year make of vehicle) = 6 + 1 year (to account for first year of offer)= 7 total years of depreciation
+ 7th year depreciation amount = 57% (according to current schedule)
+ $24,000.00 (original MSRP) x 57% (depreciation) = $13,680.00 (reduced value)
+ $13,680.00 (reduced value) x 1.1% (current RTA excise tax rate) = $150.00 due
+ This method of calculating the tax ensures that owners of the same type of vehicle pay the same amount of tax. The MVET value is not based on the fair market value of the vehicle and can be either higher or lower than the vehicle's fair market value or the amount the owner paid for the vehicle.
+ Disputing your RTA vehicle valuation
+ If you have questions about your vehicle valuation or to dispute it, call us at 306-902-3770 .
+ State law requires us to use the manufacturer's suggested retail price (MSRP) to calculate the tax. When the MSRP isn't available at the time of initial registration in Washington State, we'll determine the value using a ny guidebook, report, or compendium of recognized standing in the automotive industry, or the selling price and year of sale of the vehicle.
+ Use our online estimator
+ You can use Sound Transit's tool to check if you have to pay the RTA tax .
+ New vehicles
+ For new vehicles (never owned before), use the Estimate your Regional Transit Authority excise tax tool.
+ Used vehicles
+ For used vehicles, you can calculate your vehicle tab fees , which will include a line item for the RTA. You will need the plate number, and either the owner's last name or the last 4 characters of the Vehicle Identification Number (VIN).
+ Vehicles subject to RTA tax
+ Passenger cars
+ Vehicle type | 
+ Is RTA charged?
+ (Vehicle scale weight 6,000 lbs or less) | 
+ Is RTA charged?
+ (Vehicle scale weight 6,001 lbs or more) | 
+ Antique car | 
+ Yes | 
+ Yes | 
+ Cargo van | 
+ Yes | 
+ No | 
+ Commercial vehicles | 
+ Yes | 
+ No | 
+ Exempt (state, county, local, tribal) | 
+ No | 
+ No | 
+ Farm exempt | 
+ No | 
+ No | 
+ Farm use | 
+ No | 
+ No | 
+ For hire | 
+ Yes | 
+ No | 
+ Government (Federal) | 
+ No | 
+ No | 
+ Medium electric car | 
+ Yes | 
+ Yes | 
+ Neighborhood electric car | 
+ Yes | 
+ Yes | 
+ Passenger vehicle | 
+ Yes | 
+ Yes | 
+ Private school | 
+ No | 
+ No | 
+ Stage | 
+ Yes | 
+ No | 
+ Taxi cab | 
+ Yes | 
+ Yes | 
+ Passenger trucks
+ Vehicle type | 
+ Is RTA charged?
+ (Vehicle scale weight 6,000 lbs or less) | 
+ Is RTA charged?
+ (Vehicle scale weight 6,001 lbs or more) | 
+ Antique truck | 
+ Yes | 
+ No | 
+ Cargo van | 
+ Yes | 
+ No | 
+ Combination (farm use) | 
+ No | 
+ No | 
+ Combination (non-farm use) | 
+ Yes | 
+ No | 
+ Commercial | 
+ Yes | 
+ No | 
+ Exempt (state/county/local/tribal) | 
+ No | 
+ No | 
+ Farm exempt | 
+ No | 
+ No | 
+ Farm use | 
+ No | 
+ No | 
+ Fixed load | 
+ Yes | 
+ No | 
+ For hire | 
+ Yes | 
+ No | 
+ Government (federal) | 
+ No | 
+ No | 
+ Logging | 
+ Yes | 
+ No | 
+ Medium electric truck | 
+ Yes | 
+ No | 
+ Neighborhood electric truck | 
+ Yes | 
+ No | 
+ Off road vehicle (ORV) | 
+ No | 
+ No | 
+ Passenger truck | 
+ Yes | 
+ No | 
+ Private school truck | 
+ No | 
+ No | 
+ Stage | 
+ Yes | 
+ No | 
+ Tow truck | 
+ Yes | 
+ No | 
+ Trailers
+ Vehicle type | 
+ Is RTA charged?
+ (Vehicle scale weight 6,000 lbs or less) | 
+ Is RTA charged?
+ (Vehicle scale weight 6,001 lbs or more) | 
+ Combination (non-farm use) | 
+ Yes | 
+ No | 
+ Commercial | 
+ No | 
+ No | 
+ Government (Federal) | 
+ No | 
+ No | 
+ Exempt (state/county/local/tribal) | 
+ No | 
+ No | 
+ Farm exempt | 
+ No | 
+ No | 
+ House dolly | 
+ Yes | 
+ Yes | 
+ Intermittent use trailer | 
+ Yes | 
+ N/A | 
+ Logging | 
+ No | 
+ No | 
+ Motorcycle trailer - commercial use | 
+ No | 
+ No | 
+ Personal use trailer | 
+ Yes | 
+ N/A | 
+ Travel trailer - antique | 
+ No | 
+ No | 
+ Travel trailer | 
+ No | 
+ No | 
+ Motorcycle, etc.
+ Vehicle type | 
+ Is RTA charged?
+ (Vehicle scale weight 6,000 lbs or less) | 
+ Is RTA charged?
+ (Vehicle scale weight 6,001 lbs or more) | 
+ Antique motorcycle | 
+ Yes | 
+ Yes | 
+ Exempt (state/county/local/tribal) | 
+ No | 
+ No | 
+ Farm exempt | 
+ No | 
+ No | 
+ Government (Federal) | 
+ No | 
+ No | 
+ Moped | 
+ No | 
+ No | 
+ Motorcycle | 
+ Yes | 
+ Yes | 
+ Off-road motorcycle | 
+ No | 
+ No | 
+ Off-road, campers, other
+ Vehicle type | 
+ Is RTA charged?
+ (Vehicle scale weight 6,000 lbs or less) | 
+ Is RTA charged?
+ (Vehicle scale weight 6,001 lbs or more) | 
+ ATV - All Terrain Vehicle (WATV) | 
+ No | 
+ No | 
+ Converter gear | 
+ No | 
+ No | 
+ Camper | 
+ No | 
+ No | 
+ Farm exempt off-road | 
+ No | 
+ No | 
+ Mobile home | 
+ No | 
+ No | 
+ Motorhome | 
+ Yes | 
+ Yes | 
+ Off-road vehicles (ORV) | 
+ No | 
+ No | 
+ Snowmobile | 
+ No | 
+ No | 
+ Deducting excise taxes from federal taxes
+ You may be able to deduct Regional Transit Authority (RTA) Motor Vehicle Excise Tax and Watercraft Excise Tax fees. Check with your tax advisor.
+ Print 
+ Need more help?
+ Here's how to contact us:
+ call Phone: 360-902-3770 
+ (TTY: Call 711 )
+ Was this information helpful? 
+ Yes 
+ No 
+ How can we improve it? 
+ Submit 
+ Leave this field blank 
+ Related information
+ Vehicle tabs 
+ Your tabs expire every year, you can renew or replace your tabs online. 
+ Renew or replace your tabs 
+ Local transportation benefit district fees 
+ Learn about local transportation benefit district fees and see a list of cities that add this fee to your annual registration fees.
+ See a list of transportation benefit districts 
+ Use tax 
+ Learn about when we collect use tax and from whom, and how we calculate it.
+ Learn about use tax 
+ Return to top 
+  Department of Licensing
+ Department of Licensing 
+ About us 
+ Access and inclusion accessible_forward 
+ Careers 
+ Reports and data 
+ Rulemaking 
+ Title VI notice 
+  Complete tasks online
+ Complete tasks online 
+ View all online services 
+ Register your car 
+ Renew driver license or ID 
+ Renew tabs 
+ Manage your prorate or fuel tax account 
+  Information for
+ Information for 
+ Military personnel, veterans, and their spouses 
+ People moving to Washington 
+ People who are unhoused 
+ People with disabilities 
+ Current employees 
+  Contact DOL
+ Contact DOL 
+ Contact us 
+ Office locations 
+ Tell us how we're doing 
+ Help us improve our services 
+ © Washington State Department of Licensing
+ Bids and contract acquisitions  | Public disclosure  | Privacy center 
+ Visit Facebook page 
+ Visit Twitter page 
+ Visit Youtube page 
+ Visit Instagram page 
+ Visit Bluesky page 
+ Visit LinkedIn page 
+ Visit RSS Feed 
+ Home 

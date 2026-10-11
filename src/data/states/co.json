@@ -1,0 +1,314 @@
+{
+ "abbr": "CO",
+ "name": "Colorado",
+ "slug": "colorado",
+ "agency": {
+  "name": "Colorado Department of Revenue, Division of Motor Vehicles",
+  "short": "DMV",
+  "url": "https://dmv.colorado.gov/"
+ },
+ "taxAgency": {
+  "name": "Colorado Department of Revenue, Taxation",
+  "url": "https://tax.colorado.gov/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "Local sales and use taxes (county, city, RTD and other districts) are listed only for Denver and Colorado Springs, read on the official county pages; the state DR 1002 table could not be read for this release, so elsewhere type your combined local rate.",
+  "Some counties and regional transportation authorities add their own registration fees, and the DMV list mentions a county road and bridge fee without an amount; the line is shown without an amount.",
+  "The specific ownership tax is computed on 85% of the MSRP; without an MSRP the engine uses the price, which misstates the tax on a used car. The year of service is counted from the model year.",
+  "The statute (C.R.S. 42-3-306(2)(b)(V)) also provides a second, adjustable age-based fee; the DMV publishes a single age-of-vehicle fee table ($12, $10, $7) effective July 1, 2026, which the engine uses.",
+  "The $0.50 insurance fee the DMV lists is not added: the page does not make clear which vehicles pay it.",
+  "The electric vehicle fee ($63.05 for 2026-27) is indexed each fiscal year; renewals after June 2027 use the same amount until DMV publishes the next one. Renewal-year road safety and EV road usage amounts assume a fall renewal.",
+  "No dealer handling fee cap was read on an official page, and whether that fee is taxed was not found; it is left out of the taxed price."
+ ],
+ "summary": {
+  "stateRate": 0.029,
+  "localRange": [
+   0,
+   0.0625
+  ],
+  "taxName": "state and local sales/use tax",
+  "tradeInCredit": true,
+  "titleFee": 7.2,
+  "regMethod": "mixed",
+  "regYears": 1,
+  "docFeeCap": null,
+  "docFeeNote": "No cap read on an official Colorado page for this release; type the dealer’s handling fee.",
+  "evFee": 89.05,
+  "phevFee": 76.05,
+  "hybridFee": null,
+  "inspection": "emissions",
+  "inspectionWhere": "Emissions test every two years for gasoline and hybrid vehicles more than seven model years old in all or parts of Adams, Arapahoe, Boulder, Broomfield, Denver, Douglas, Jefferson, Larimer and Weld counties; no safety inspection.",
+  "inspectionFee": 35,
+  "annualValueTax": true
+ },
+ "params": {
+  "_src": "dmv-fees, crs-42-3-306, crs-42-3-107, denver-tax, dmv-emissions",
+  "tax": {
+   "stateRate": 0.029,
+   "tradeInCredit": true,
+   "docFeeTaxable": false
+  },
+  "sot": {
+   "valuePct": 0.85,
+   "rates": [
+    0.021,
+    0.015,
+    0.012,
+    0.009,
+    0.0045,
+    0.0045,
+    0.0045,
+    0.0045,
+    0.0045
+   ],
+   "flatFrom": 9,
+   "flat": 3
+  },
+  "title": 7.2,
+  "reg": {
+   "base": {
+    "upTo2000": 6,
+    "per100To4500": 0.2,
+    "base4500": 12.5,
+    "per100Over4500": 0.6
+   },
+   "age": [
+    [
+     6,
+     12
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     null,
+     7
+    ]
+   ],
+   "roadSafety": {
+    "until2027": [
+     [
+      2000,
+      12.3
+     ],
+     [
+      5000,
+      19.3
+     ],
+     [
+      10000,
+      24.3
+     ],
+     [
+      16000,
+      33.3
+     ],
+     [
+      null,
+      35.3
+     ]
+    ],
+    "from2027": [
+     [
+      2000,
+      16
+     ],
+     [
+      5000,
+      23
+     ],
+     [
+      10000,
+      28
+     ],
+     [
+      16000,
+      37
+     ],
+     [
+      null,
+      39
+     ]
+    ]
+   },
+   "bridge": [
+    [
+     2000,
+     13
+    ],
+    [
+     5000,
+     18
+    ],
+    [
+     10000,
+     23
+    ],
+    [
+     16000,
+     29
+    ],
+    [
+     null,
+     32
+    ]
+   ],
+   "clerk": 4,
+   "ems": 2,
+   "emisCounty": 0.7,
+   "emisState": 0.5,
+   "emisArea": 1.5,
+   "post": 1,
+   "miidb": 0.1,
+   "yearTab": 0.48,
+   "monthTab": 0.45,
+   "plates": 7.38
+  },
+  "ev": {
+   "evFee": 63.05,
+   "roadUsage": {
+    "2026": [
+     26,
+     13
+    ],
+    "2027": [
+     36,
+     16
+    ],
+    "2028": [
+     51,
+     19
+    ],
+    "2029": [
+     66,
+     21
+    ],
+    "2030": [
+     81,
+     24
+    ],
+    "2031": [
+     96,
+     27
+    ]
+   }
+  },
+  "emissions": {
+   "amount": 35,
+   "years": 2,
+   "testFromAge": 7
+  }
+ },
+ "counties": [
+  {
+   "id": "denver",
+   "name": "Denver (City and County)",
+   "localRate": 0.0625,
+   "emissions": true,
+   "src": "denver-tax"
+  },
+  {
+   "id": "colorado-springs",
+   "name": "Colorado Springs (El Paso County)",
+   "localRate": 0.053,
+   "emissions": false,
+   "src": "elpaso-tax"
+  },
+  {
+   "id": "other-front-range",
+   "name": "Other address in the Front Range emissions area (type your local rate)",
+   "localRate": 0,
+   "emissions": true
+  },
+  {
+   "id": "other",
+   "name": "Any other Colorado address (type your local rate)",
+   "localRate": 0,
+   "emissions": false
+  }
+ ],
+ "defaultCounty": "denver",
+ "singular": [
+  "Colorado’s yearly specific ownership tax is figured on 85% of the original MSRP: 2.1% in the first year of service, 1.5% in the second, 1.2% in the third, 0.9% in the fourth, then 0.45% until the tenth year, when it drops to a flat $3 [crs-42-3-107].",
+  "The state sales tax on a car is only 2.9%, but local taxes stack on top: a Denver resident pays 9.15% in all, including the RTD tax and Denver’s 5.15% [denver-tax].",
+  "In Colorado Springs the county, the Pikes Peak Rural Transportation Authority and the city add 1.23%, 1% and 3.07% to the state rate [elpaso-tax].",
+  "The registration base fee for a car rises by 20 cents per 100 lb from $6 at 2,000 lb, and by 60 cents per 100 lb above 4,500 lb [crs-42-3-306].",
+  "Two FASTER surcharges fund roads and bridges: $19.30 and $18 a year for a car of 2,001 to 5,000 lb, the road part rising to $23 on September 1, 2027 [dmv-fees].",
+  "Electric and plug-in hybrid owners pay a $63.05 electric vehicle fee plus a road usage fee of $26 or $13 for registrations from July 2026, scheduled to reach $96 and $27 by 2031-32 [dmv-ev].",
+  "Both battery electric cars and plug-in hybrids pay the equalization fee, which can be paid in installments [dmv-ev-page].",
+  "In the Front Range program area, gasoline and hybrid cars more than seven model years old need a $35 emissions test every two years, and the seller must provide one when the car changes owner [dmv-emissions].",
+  "The emissions area covers all or parts of nine counties from Douglas to Larimer and Weld [cdphe-area].",
+  "Plates cost $7.38 in material fees and a transfer of ownership title $7.20 [dmv-title]."
+ ],
+ "sources": {
+  "dmv-fees": {
+   "name": "Colorado DMV, Vehicle Taxes and Fees",
+   "url": "https://dmv.colorado.gov/taxes-and-fees",
+   "quote": "Taxable Value: 85% of the original MSRP. ... First Year | 2.1% ... 2,001 - 5,000 lbs | $19.30 | $23.00 ... Plug-In Electric Vehicle | $63.05 ... Less than 7 years old | $12 ... Clerk Hire Fee - $4 on all registration transactions",
+   "accessed": "2026-10-11"
+  },
+  "dmv-fees-misc": {
+   "name": "Colorado DMV, Vehicle Taxes and Fees (common registration fees list)",
+   "url": "https://dmv.colorado.gov/taxes-and-fees",
+   "quote": "Emergency Medical Services - $2 to all vehicles ... Peace Officer Standardized Training (POST) Fee - $1 ... Year tab ($0.48), month tab ($0.45) and license plates (on issuance- embossed set $7.38, digital set $11.27)",
+   "accessed": "2026-10-11"
+  },
+  "dmv-ev": {
+   "name": "Colorado DMV, Vehicle Taxes and Fees (electric motor vehicle road usage fees)",
+   "url": "https://dmv.colorado.gov/taxes-and-fees",
+   "quote": "7/1/26 to 6/30/27 | $26 | $13 | 7/1/27 to 6/30/28 | $36 | $16",
+   "accessed": "2026-10-11"
+  },
+  "dmv-title": {
+   "name": "Colorado DMV, Vehicle Taxes and Fees (title fees)",
+   "url": "https://dmv.colorado.gov/taxes-and-fees",
+   "quote": "Duplicate title: $8.20 Lien release and transfer of ownership title: $7.20",
+   "accessed": "2026-10-11"
+  },
+  "crs-42-3-306": {
+   "name": "C.R.S. 42-3-306(2)(b), passenger vehicle registration fees (text as reproduced by Public.Law; the official CRS download was not reachable)",
+   "url": "https://colorado.public.law/statutes/crs_42-3-306",
+   "quote": "Weighing two thousand pounds or less, six dollars; ... Weighing forty-five hundred pounds or less, six dollars plus twenty cents per one hundred pounds, or fraction thereof, of weight over two thousand pounds",
+   "accessed": "2026-10-11"
+  },
+  "crs-42-3-107": {
+   "name": "C.R.S. 42-3-107(10), specific ownership tax on Class C property (Public.Law reproduction)",
+   "url": "https://colorado.public.law/statutes/crs_42-3-107",
+   "quote": "First year2.10% of taxable value Second year1.50% of taxable value Third year1.20% of taxable value Fourth year .90% of taxable value Fifth, sixth, seventh, eighth, and ninth years .45% of taxable value Tenth and each later year$ 3",
+   "accessed": "2026-10-11"
+  },
+  "denver-tax": {
+   "name": "City and County of Denver, Motor Vehicle Fees & Sales Tax",
+   "url": "https://www.denvergov.org/Vehicles-Parking/Vehicles/Motor-Vehicle/Register-a-Vehicle/Fees-Sales-Tax",
+   "quote": "Sales tax is calculated on the net purchase price (which is the total purchase price less the amount allowed by a dealer for any trade-in). ... Colorado State Tax 2.90% RTD Tax 1.10% Denver City Tax 5.15% Total Sales Tax 9.15%",
+   "accessed": "2026-10-11"
+  },
+  "elpaso-tax": {
+   "name": "El Paso County Clerk and Recorder, Taxes & Fees",
+   "url": "https://clerkandrecorder.elpasoco.com/?p=1007",
+   "quote": "State of Colorado | 2.9% | El Paso County | 1.23% | *PPRTA Pikes Peak Rural Transportation Authority | 1.0% | ... Colorado Springs | 3.07%",
+   "accessed": "2026-10-11"
+  },
+  "dmv-emissions": {
+   "name": "Colorado DMV, Gas Emissions Requirements",
+   "url": "https://dmv.colorado.gov/gas-emissions-requirements",
+   "quote": "1982 and newer vehicles: An emissions test is required every two years for vehicles more than seven model years old. ... The fee is $35. ... Change of ownership: An emissions test is required when a vehicle is sold or its ownership changes. The seller is responsible for obtaining the test.",
+   "accessed": "2026-10-11"
+  },
+  "cdphe-area": {
+   "name": "Colorado Department of Public Health and Environment, Motor vehicle emissions",
+   "url": "https://cdphe.colorado.gov/motorvehicles",
+   "quote": "This area includes all or portions of Adams, Arapahoe, Boulder, Broomfield, Denver, Douglas, Jefferson, Larimer, and Weld counties.",
+   "accessed": "2026-10-11"
+  },
+  "dmv-ev-page": {
+   "name": "Colorado DMV, Electric Vehicles",
+   "url": "https://dmv.colorado.gov/electric-vehicles",
+   "quote": "Yes, electric vehicle owners (plug-in hybrid and battery electric) must pay an annual equalization fee plus inflation (SB 21-260) per Colorado Revised Statute (CRS) 42-3-304",
+   "accessed": "2026-10-11"
+  }
+ }
+}

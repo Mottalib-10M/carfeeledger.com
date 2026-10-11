@@ -1,0 +1,2282 @@
+{
+ "abbr": "WA",
+ "name": "Washington",
+ "slug": "washington",
+ "agency": {
+  "name": "Washington State Department of Licensing",
+  "short": "DOL",
+  "url": "https://dol.wa.gov/"
+ },
+ "taxAgency": {
+  "name": "Washington Department of Revenue",
+  "url": "https://dor.wa.gov/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "The Sound Transit RTA tax is computed on the MSRP; when the form has no MSRP the engine uses the price, which understates the tax on a used car. Type the original MSRP for the exact figure.",
+  "Whether an address pays the RTA tax depends on the Sound Transit district boundary. The engine follows the Department of Revenue location codes marked Non-RTA; for cities DOR does not split, it treats a city as inside the district when its local rate includes the 1.4% Sound Transit sales tax. Check an address with Sound Transit before relying on it.",
+  "A used car keeps its Washington tabs, so registration, RTA, EV and district fees are shown as due at the next renewal; the exact amount depends on the renewal month (tabs can be prorated), which the form does not ask.",
+  "Light trucks pay a license fee by declared gross weight; the engine reads the weight typed as the declared gross weight and applies the 2% increase the statute requires from July 1, 2026 (rounded to five cents). DOL did not publish the adjusted table on a page read for this release.",
+  "Plug-in hybrids are given the electric vehicle fees, which apply to plug-ins with 30 miles or more of electric range; a plug-in with less range pays the $75 hybrid fee instead.",
+  "Optional items are left out: the $5 state parks donation, personalized or special plates, and the $50 quick-title fee."
+ ],
+ "summary": {
+  "stateRate": 0.07,
+  "localRange": [
+   0.011,
+   0.042
+  ],
+  "taxName": "retail sales and use tax plus motor vehicle sales/use tax",
+  "tradeInCredit": true,
+  "titleFee": 15,
+  "regMethod": "weight",
+  "regYears": 1,
+  "docFeeCap": 200,
+  "docFeeNote": "Capped at $200 by RCW 46.70.180 since July 1, 2022; it must be disclosed as negotiable and is not subject to sales tax.",
+  "evFee": 225,
+  "phevFee": 225,
+  "hybridFee": 75,
+  "inspection": "none",
+  "inspectionWhere": "No safety or emissions inspection: the emission check program ended on January 1, 2020.",
+  "inspectionFee": null,
+  "annualValueTax": true
+ },
+ "params": {
+  "_src": "rcw-82.08.020, dor-mvsut, dor-luxury, rcw-46.17.*, dol-rta, dol-tbd",
+  "tax": {
+   "stateRate": 0.065,
+   "mvRate": 0.005,
+   "tradeInCredit": true,
+   "docFeeTaxable": false
+  },
+  "luxury": {
+   "rate": 0.08,
+   "deduction": 102000
+  },
+  "title": {
+   "appDealer": 40,
+   "appOther": 15,
+   "filing": 6.5,
+   "service": 18,
+   "ems": 6.5,
+   "arbitrationNew": 3
+  },
+  "plates": {
+   "originalPerPlate": 50,
+   "reflectivityPerPlate": 2,
+   "count": 2
+  },
+  "reg": {
+   "carLicense": 30,
+   "carWeight": [
+    [
+     4000,
+     35
+    ],
+    [
+     6000,
+     65
+    ],
+    [
+     8000,
+     82.5
+    ],
+    [
+     null,
+     96
+    ]
+   ],
+   "truckLicense": [
+    [
+     4000,
+     54.05
+    ],
+    [
+     6000,
+     81.6
+    ],
+    [
+     8000,
+     112.2
+    ],
+    [
+     10000,
+     142.8
+    ],
+    [
+     null,
+     150.8
+    ]
+   ],
+   "truckExtraWeight": 10,
+   "filing": 6,
+   "licenseService": 0.75,
+   "plateTech": 0.25,
+   "service": 11
+  },
+  "rta": {
+   "rate": 0.011,
+   "schedule": [
+    1,
+    0.95,
+    0.89,
+    0.83,
+    0.74,
+    0.65,
+    0.57,
+    0.48,
+    0.4,
+    0.31,
+    0.22,
+    0.14,
+    0.1
+   ],
+   "truckMaxLbs": 6000
+  },
+  "ev": {
+   "ev": 100,
+   "evExtra": 50,
+   "electrification": 75,
+   "hybrid": 75
+  }
+ },
+ "counties": [
+  {
+   "id": "seattle-king-county",
+   "name": "Seattle (King County)",
+   "localRate": 0.0405,
+   "rta": true,
+   "tbd": 50
+  },
+  {
+   "id": "aberdeen-grays-harbor-county",
+   "name": "Aberdeen (Grays Harbor County)",
+   "localRate": 0.0228
+  },
+  {
+   "id": "airway-heights-spokane-county",
+   "name": "Airway Heights (Spokane County)",
+   "localRate": 0.026
+  },
+  {
+   "id": "albion-whitman-county",
+   "name": "Albion (Whitman County)",
+   "localRate": 0.015
+  },
+  {
+   "id": "algona-king-county",
+   "name": "Algona (King County)",
+   "localRate": 0.039,
+   "rta": true
+  },
+  {
+   "id": "almira-lincoln-county",
+   "name": "Almira (Lincoln County)",
+   "localRate": 0.012
+  },
+  {
+   "id": "anacortes-skagit-county",
+   "name": "Anacortes (Skagit County)",
+   "localRate": 0.021
+  },
+  {
+   "id": "arlington-snohomish-county",
+   "name": "Arlington (Snohomish County)",
+   "localRate": 0.028,
+   "rta": false
+  },
+  {
+   "id": "asotin-city-asotin-county",
+   "name": "Asotin city (Asotin County)",
+   "localRate": 0.015
+  },
+  {
+   "id": "auburn-king-county",
+   "name": "Auburn (King County)",
+   "localRate": 0.04,
+   "rta": true
+  },
+  {
+   "id": "auburn-king-county-outside-sound-transit",
+   "name": "Auburn (King County, outside Sound Transit)",
+   "localRate": 0.026,
+   "rta": false
+  },
+  {
+   "id": "auburn-pierce-county",
+   "name": "Auburn (Pierce County)",
+   "localRate": 0.039,
+   "rta": true
+  },
+  {
+   "id": "bainbridge-island-kitsap-county",
+   "name": "Bainbridge Island (Kitsap County)",
+   "localRate": 0.027,
+   "tbd": 40
+  },
+  {
+   "id": "battle-ground-clark-county",
+   "name": "Battle Ground (Clark County)",
+   "localRate": 0.023
+  },
+  {
+   "id": "beaux-arts-village-king-county",
+   "name": "Beaux Arts Village (King County)",
+   "localRate": 0.038,
+   "rta": true
+  },
+  {
+   "id": "bellevue-king-county",
+   "name": "Bellevue (King County)",
+   "localRate": 0.038,
+   "rta": true
+  },
+  {
+   "id": "bellevue-king-county-outside-sound-transit",
+   "name": "Bellevue (King County, outside Sound Transit)",
+   "localRate": 0.024,
+   "rta": false
+  },
+  {
+   "id": "bellingham-whatcom-county",
+   "name": "Bellingham (Whatcom County)",
+   "localRate": 0.024
+  },
+  {
+   "id": "benton-city-benton-county",
+   "name": "Benton City (Benton County)",
+   "localRate": 0.019
+  },
+  {
+   "id": "bingen-klickitat-county",
+   "name": "Bingen (Klickitat County)",
+   "localRate": 0.011
+  },
+  {
+   "id": "black-diamond-king-county",
+   "name": "Black Diamond (King County)",
+   "localRate": 0.025,
+   "rta": false,
+   "tbd": 40
+  },
+  {
+   "id": "blaine-whatcom-county",
+   "name": "Blaine (Whatcom County)",
+   "localRate": 0.023
+  },
+  {
+   "id": "bonney-lake-pierce-county",
+   "name": "Bonney Lake (Pierce County)",
+   "localRate": 0.031,
+   "rta": true
+  },
+  {
+   "id": "bonney-lake-pierce-county-outside-sound-transit",
+   "name": "Bonney Lake (Pierce County, outside Sound Transit)",
+   "localRate": 0.017,
+   "rta": false
+  },
+  {
+   "id": "bothell-king-county",
+   "name": "Bothell (King County)",
+   "localRate": 0.038,
+   "rta": true
+  },
+  {
+   "id": "bothell-snohomish-county",
+   "name": "Bothell (Snohomish County)",
+   "localRate": 0.04,
+   "rta": true
+  },
+  {
+   "id": "bremerton-kitsap-county",
+   "name": "Bremerton (Kitsap County)",
+   "localRate": 0.027,
+   "tbd": 20
+  },
+  {
+   "id": "brewster-okanogan-county",
+   "name": "Brewster (Okanogan County)",
+   "localRate": 0.019
+  },
+  {
+   "id": "bridgeport-douglas-county",
+   "name": "Bridgeport (Douglas County)",
+   "localRate": 0.013,
+   "tbd": 30
+  },
+  {
+   "id": "brier-snohomish-county",
+   "name": "Brier (Snohomish County)",
+   "localRate": 0.04,
+   "rta": true,
+   "tbd": 20
+  },
+  {
+   "id": "buckley-pierce-county",
+   "name": "Buckley (Pierce County)",
+   "localRate": 0.018,
+   "rta": false,
+   "tbd": 20
+  },
+  {
+   "id": "bucoda-thurston-county",
+   "name": "Bucoda (Thurston County)",
+   "localRate": 0.017
+  },
+  {
+   "id": "burien-king-county",
+   "name": "Burien (King County)",
+   "localRate": 0.039,
+   "rta": true,
+   "tbd": 40
+  },
+  {
+   "id": "burlington-skagit-county",
+   "name": "Burlington (Skagit County)",
+   "localRate": 0.021
+  },
+  {
+   "id": "camas-clark-county",
+   "name": "Camas (Clark County)",
+   "localRate": 0.022,
+   "tbd": 20
+  },
+  {
+   "id": "carbonado-pierce-county",
+   "name": "Carbonado (Pierce County)",
+   "localRate": 0.017,
+   "rta": false,
+   "tbd": 20
+  },
+  {
+   "id": "carnation-king-county",
+   "name": "Carnation (King County)",
+   "localRate": 0.024,
+   "rta": false
+  },
+  {
+   "id": "cashmere-chelan-county",
+   "name": "Cashmere (Chelan County)",
+   "localRate": 0.021
+  },
+  {
+   "id": "castle-rock-cowlitz-county",
+   "name": "Castle Rock (Cowlitz County)",
+   "localRate": 0.014
+  },
+  {
+   "id": "cathlamet-wahkiakum-county",
+   "name": "Cathlamet (Wahkiakum County)",
+   "localRate": 0.013
+  },
+  {
+   "id": "centralia-lewis-county",
+   "name": "Centralia (Lewis County)",
+   "localRate": 0.019
+  },
+  {
+   "id": "chehalis-lewis-county",
+   "name": "Chehalis (Lewis County)",
+   "localRate": 0.019
+  },
+  {
+   "id": "chelan-city-chelan-county",
+   "name": "Chelan city (Chelan County)",
+   "localRate": 0.023
+  },
+  {
+   "id": "cheney-spokane-county",
+   "name": "Cheney (Spokane County)",
+   "localRate": 0.023
+  },
+  {
+   "id": "chewelah-stevens-county",
+   "name": "Chewelah (Stevens County)",
+   "localRate": 0.012
+  },
+  {
+   "id": "clarkston-asotin-county",
+   "name": "Clarkston (Asotin County)",
+   "localRate": 0.017
+  },
+  {
+   "id": "cle-elum-kittitas-county",
+   "name": "Cle Elum (Kittitas County)",
+   "localRate": 0.017
+  },
+  {
+   "id": "clyde-hill-king-county",
+   "name": "Clyde Hill (King County)",
+   "localRate": 0.038,
+   "rta": true
+  },
+  {
+   "id": "colfax-whitman-county",
+   "name": "Colfax (Whitman County)",
+   "localRate": 0.015
+  },
+  {
+   "id": "college-place-walla-walla-county",
+   "name": "College Place (Walla Walla County)",
+   "localRate": 0.022
+  },
+  {
+   "id": "colton-whitman-county",
+   "name": "Colton (Whitman County)",
+   "localRate": 0.015
+  },
+  {
+   "id": "colville-stevens-county",
+   "name": "Colville (Stevens County)",
+   "localRate": 0.012
+  },
+  {
+   "id": "conconully-okanogan-county",
+   "name": "Conconully (Okanogan County)",
+   "localRate": 0.019
+  },
+  {
+   "id": "concrete-skagit-county",
+   "name": "Concrete (Skagit County)",
+   "localRate": 0.019
+  },
+  {
+   "id": "connell-franklin-county",
+   "name": "Connell (Franklin County)",
+   "localRate": 0.015
+  },
+  {
+   "id": "cosmopolis-grays-harbor-county",
+   "name": "Cosmopolis (Grays Harbor County)",
+   "localRate": 0.021
+  },
+  {
+   "id": "coulee-city-grant-county",
+   "name": "Coulee City (Grant County)",
+   "localRate": 0.014
+  },
+  {
+   "id": "coulee-dam-okanogan-county",
+   "name": "Coulee Dam (Okanogan County)",
+   "localRate": 0.015
+  },
+  {
+   "id": "coupeville-island-county",
+   "name": "Coupeville (Island County)",
+   "localRate": 0.026
+  },
+  {
+   "id": "covington-king-county",
+   "name": "Covington (King County)",
+   "localRate": 0.028,
+   "rta": false
+  },
+  {
+   "id": "creston-lincoln-county",
+   "name": "Creston (Lincoln County)",
+   "localRate": 0.012
+  },
+  {
+   "id": "cusick-pend-oreille-county",
+   "name": "Cusick (Pend Oreille County)",
+   "localRate": 0.012
+  },
+  {
+   "id": "darrington-snohomish-county",
+   "name": "Darrington (Snohomish County)",
+   "localRate": 0.026,
+   "rta": false
+  },
+  {
+   "id": "davenport-lincoln-county",
+   "name": "Davenport (Lincoln County)",
+   "localRate": 0.012
+  },
+  {
+   "id": "dayton-columbia-county",
+   "name": "Dayton (Columbia County)",
+   "localRate": 0.019
+  },
+  {
+   "id": "deer-park-spokane-county",
+   "name": "Deer Park (Spokane County)",
+   "localRate": 0.015
+  },
+  {
+   "id": "des-moines-king-county",
+   "name": "Des Moines (King County)",
+   "localRate": 0.039,
+   "rta": true,
+   "tbd": 40
+  },
+  {
+   "id": "dupont-pierce-county",
+   "name": "DuPont (Pierce County)",
+   "localRate": 0.032,
+   "rta": true,
+   "tbd": 20
+  },
+  {
+   "id": "duvall-king-county",
+   "name": "Duvall (King County)",
+   "localRate": 0.027,
+   "rta": false
+  },
+  {
+   "id": "east-wenatchee-douglas-county",
+   "name": "East Wenatchee (Douglas County)",
+   "localRate": 0.023
+  },
+  {
+   "id": "eatonville-pierce-county",
+   "name": "Eatonville (Pierce County)",
+   "localRate": 0.017,
+   "rta": false,
+   "tbd": 20
+  },
+  {
+   "id": "edgewood-pierce-county",
+   "name": "Edgewood (Pierce County)",
+   "localRate": 0.037,
+   "rta": true,
+   "tbd": 20
+  },
+  {
+   "id": "edmonds-snohomish-county",
+   "name": "Edmonds (Snohomish County)",
+   "localRate": 0.042,
+   "rta": true,
+   "tbd": 40
+  },
+  {
+   "id": "electric-city-grant-county",
+   "name": "Electric City (Grant County)",
+   "localRate": 0.014,
+   "tbd": 20
+  },
+  {
+   "id": "ellensburg-kittitas-county",
+   "name": "Ellensburg (Kittitas County)",
+   "localRate": 0.018
+  },
+  {
+   "id": "elma-grays-harbor-county",
+   "name": "Elma (Grays Harbor County)",
+   "localRate": 0.022
+  },
+  {
+   "id": "elmer-city-okanogan-county",
+   "name": "Elmer City (Okanogan County)",
+   "localRate": 0.015,
+   "tbd": 20
+  },
+  {
+   "id": "endicott-whitman-county",
+   "name": "Endicott (Whitman County)",
+   "localRate": 0.015
+  },
+  {
+   "id": "entiat-chelan-county",
+   "name": "Entiat (Chelan County)",
+   "localRate": 0.02
+  },
+  {
+   "id": "enumclaw-king-county",
+   "name": "Enumclaw (King County)",
+   "localRate": 0.025,
+   "rta": false,
+   "tbd": 20
+  },
+  {
+   "id": "ephrata-grant-county",
+   "name": "Ephrata (Grant County)",
+   "localRate": 0.016
+  },
+  {
+   "id": "everett-snohomish-county",
+   "name": "Everett (Snohomish County)",
+   "localRate": 0.034,
+   "rta": true,
+   "tbd": 20
+  },
+  {
+   "id": "everett-snohomish-county-outside-sound-transit",
+   "name": "Everett (Snohomish County, outside Sound Transit)",
+   "localRate": 0.02,
+   "rta": false,
+   "tbd": 20
+  },
+  {
+   "id": "everson-whatcom-county",
+   "name": "Everson (Whatcom County)",
+   "localRate": 0.021
+  },
+  {
+   "id": "fairfield-spokane-county",
+   "name": "Fairfield (Spokane County)",
+   "localRate": 0.015
+  },
+  {
+   "id": "farmington-whitman-county",
+   "name": "Farmington (Whitman County)",
+   "localRate": 0.015
+  },
+  {
+   "id": "federal-way-king-county",
+   "name": "Federal Way (King County)",
+   "localRate": 0.039,
+   "rta": true
+  },
+  {
+   "id": "ferndale-whatcom-county",
+   "name": "Ferndale (Whatcom County)",
+   "localRate": 0.023
+  },
+  {
+   "id": "fife-pierce-county",
+   "name": "Fife (Pierce County)",
+   "localRate": 0.037,
+   "rta": true,
+   "tbd": 20
+  },
+  {
+   "id": "fircrest-pierce-county",
+   "name": "Fircrest (Pierce County)",
+   "localRate": 0.037,
+   "rta": true
+  },
+  {
+   "id": "forks-clallam-county",
+   "name": "Forks (Clallam County)",
+   "localRate": 0.021
+  },
+  {
+   "id": "friday-harbor-san-juan-county",
+   "name": "Friday Harbor (San Juan County)",
+   "localRate": 0.0185
+  },
+  {
+   "id": "garfield-city-whitman-county",
+   "name": "Garfield city (Whitman County)",
+   "localRate": 0.015
+  },
+  {
+   "id": "george-grant-county",
+   "name": "George (Grant County)",
+   "localRate": 0.016
+  },
+  {
+   "id": "gig-harbor-pierce-county",
+   "name": "Gig Harbor (Pierce County)",
+   "localRate": 0.026,
+   "rta": false
+  },
+  {
+   "id": "gig-harbor-pierce-county-hbz-area",
+   "name": "Gig Harbor (Pierce County, HBZ area)",
+   "localRate": 0.026,
+   "rta": false
+  },
+  {
+   "id": "gold-bar-snohomish-county",
+   "name": "Gold Bar (Snohomish County)",
+   "localRate": 0.026,
+   "rta": false
+  },
+  {
+   "id": "goldendale-klickitat-county",
+   "name": "Goldendale (Klickitat County)",
+   "localRate": 0.011
+  },
+  {
+   "id": "grand-coulee-grant-county",
+   "name": "Grand Coulee (Grant County)",
+   "localRate": 0.016
+  },
+  {
+   "id": "grandview-yakima-county",
+   "name": "Grandview (Yakima County)",
+   "localRate": 0.014,
+   "tbd": 20
+  },
+  {
+   "id": "granger-yakima-county",
+   "name": "Granger (Yakima County)",
+   "localRate": 0.014
+  },
+  {
+   "id": "granite-falls-snohomish-county",
+   "name": "Granite Falls (Snohomish County)",
+   "localRate": 0.026,
+   "rta": false,
+   "tbd": 20
+  },
+  {
+   "id": "hamilton-skagit-county",
+   "name": "Hamilton (Skagit County)",
+   "localRate": 0.019
+  },
+  {
+   "id": "harrah-yakima-county",
+   "name": "Harrah (Yakima County)",
+   "localRate": 0.014
+  },
+  {
+   "id": "harrington-lincoln-county",
+   "name": "Harrington (Lincoln County)",
+   "localRate": 0.012
+  },
+  {
+   "id": "hartline-grant-county",
+   "name": "Hartline (Grant County)",
+   "localRate": 0.014
+  },
+  {
+   "id": "hatton-adams-county",
+   "name": "Hatton (Adams County)",
+   "localRate": 0.012
+  },
+  {
+   "id": "hoquiam-grays-harbor-county",
+   "name": "Hoquiam (Grays Harbor County)",
+   "localRate": 0.021
+  },
+  {
+   "id": "hunts-point-king-county",
+   "name": "Hunts Point (King County)",
+   "localRate": 0.038,
+   "rta": true
+  },
+  {
+   "id": "ilwaco-pacific-county",
+   "name": "Ilwaco (Pacific County)",
+   "localRate": 0.017
+  },
+  {
+   "id": "index-snohomish-county",
+   "name": "Index (Snohomish County)",
+   "localRate": 0.026,
+   "rta": false
+  },
+  {
+   "id": "ione-pend-oreille-county",
+   "name": "Ione (Pend Oreille County)",
+   "localRate": 0.012
+  },
+  {
+   "id": "issaquah-king-county",
+   "name": "Issaquah (King County)",
+   "localRate": 0.04,
+   "rta": true
+  },
+  {
+   "id": "issaquah-king-county-outside-sound-transit",
+   "name": "Issaquah (King County, outside Sound Transit)",
+   "localRate": 0.026,
+   "rta": false
+  },
+  {
+   "id": "kahlotus-franklin-county",
+   "name": "Kahlotus (Franklin County)",
+   "localRate": 0.013
+  },
+  {
+   "id": "kalama-cowlitz-county",
+   "name": "Kalama (Cowlitz County)",
+   "localRate": 0.016
+  },
+  {
+   "id": "kelso-cowlitz-county",
+   "name": "Kelso (Cowlitz County)",
+   "localRate": 0.016,
+   "tbd": 20
+  },
+  {
+   "id": "kenmore-king-county",
+   "name": "Kenmore (King County)",
+   "localRate": 0.038,
+   "rta": true,
+   "tbd": 40
+  },
+  {
+   "id": "kennewick-benton-county",
+   "name": "Kennewick (Benton County)",
+   "localRate": 0.02
+  },
+  {
+   "id": "kent-king-county",
+   "name": "Kent (King County)",
+   "localRate": 0.039,
+   "rta": true
+  },
+  {
+   "id": "kent-king-county-outside-sound-transit",
+   "name": "Kent (King County, outside Sound Transit)",
+   "localRate": 0.025,
+   "rta": false
+  },
+  {
+   "id": "kettle-falls-stevens-county",
+   "name": "Kettle Falls (Stevens County)",
+   "localRate": 0.012
+  },
+  {
+   "id": "kirkland-king-county",
+   "name": "Kirkland (King County)",
+   "localRate": 0.038,
+   "rta": true,
+   "tbd": 20
+  },
+  {
+   "id": "kittitas-city-kittitas-county",
+   "name": "Kittitas city (Kittitas County)",
+   "localRate": 0.015,
+   "tbd": 20
+  },
+  {
+   "id": "krupp-grant-county",
+   "name": "Krupp (Grant County)",
+   "localRate": 0.014
+  },
+  {
+   "id": "la-center-clark-county",
+   "name": "La Center (Clark County)",
+   "localRate": 0.022
+  },
+  {
+   "id": "la-conner-skagit-county",
+   "name": "La Conner (Skagit County)",
+   "localRate": 0.02
+  },
+  {
+   "id": "lacrosse-whitman-county",
+   "name": "LaCrosse (Whitman County)",
+   "localRate": 0.015
+  },
+  {
+   "id": "lacey-thurston-county",
+   "name": "Lacey (Thurston County)",
+   "localRate": 0.031
+  },
+  {
+   "id": "lake-forest-park-king-county",
+   "name": "Lake Forest Park (King County)",
+   "localRate": 0.039,
+   "rta": true,
+   "tbd": 50
+  },
+  {
+   "id": "lake-stevens-snohomish-county",
+   "name": "Lake Stevens (Snohomish County)",
+   "localRate": 0.028,
+   "rta": false
+  },
+  {
+   "id": "lakewood-pierce-county",
+   "name": "Lakewood (Pierce County)",
+   "localRate": 0.038,
+   "rta": true,
+   "tbd": 20
+  },
+  {
+   "id": "lamont-whitman-county",
+   "name": "Lamont (Whitman County)",
+   "localRate": 0.015
+  },
+  {
+   "id": "langley-island-county",
+   "name": "Langley (Island County)",
+   "localRate": 0.027
+  },
+  {
+   "id": "latah-spokane-county",
+   "name": "Latah (Spokane County)",
+   "localRate": 0.015
+  },
+  {
+   "id": "leavenworth-chelan-county",
+   "name": "Leavenworth (Chelan County)",
+   "localRate": 0.021
+  },
+  {
+   "id": "liberty-lake-spokane-county",
+   "name": "Liberty Lake (Spokane County)",
+   "localRate": 0.024
+  },
+  {
+   "id": "lind-adams-county",
+   "name": "Lind (Adams County)",
+   "localRate": 0.012
+  },
+  {
+   "id": "long-beach-pacific-county",
+   "name": "Long Beach (Pacific County)",
+   "localRate": 0.019
+  },
+  {
+   "id": "longview-cowlitz-county",
+   "name": "Longview (Cowlitz County)",
+   "localRate": 0.016,
+   "tbd": 40
+  },
+  {
+   "id": "lummi-nation-bellingham-whatcom-county",
+   "name": "Lummi Nation - Bellingham (Whatcom County)",
+   "localRate": 0.024
+  },
+  {
+   "id": "lummi-nation-ferndale-whatcom-county",
+   "name": "Lummi Nation - Ferndale (Whatcom County)",
+   "localRate": 0.023
+  },
+  {
+   "id": "lyman-skagit-county",
+   "name": "Lyman (Skagit County)",
+   "localRate": 0.019
+  },
+  {
+   "id": "lynden-whatcom-county",
+   "name": "Lynden (Whatcom County)",
+   "localRate": 0.025
+  },
+  {
+   "id": "lynnwood-snohomish-county",
+   "name": "Lynnwood (Snohomish County)",
+   "localRate": 0.042,
+   "rta": true,
+   "tbd": 40
+  },
+  {
+   "id": "mabton-yakima-county",
+   "name": "Mabton (Yakima County)",
+   "localRate": 0.014,
+   "tbd": 20
+  },
+  {
+   "id": "malden-whitman-county",
+   "name": "Malden (Whitman County)",
+   "localRate": 0.015
+  },
+  {
+   "id": "mansfield-douglas-county",
+   "name": "Mansfield (Douglas County)",
+   "localRate": 0.014
+  },
+  {
+   "id": "maple-valley-king-county",
+   "name": "Maple Valley (King County)",
+   "localRate": 0.026,
+   "rta": false
+  },
+  {
+   "id": "marcus-stevens-county",
+   "name": "Marcus (Stevens County)",
+   "localRate": 0.012
+  },
+  {
+   "id": "marysville-snohomish-county",
+   "name": "Marysville (Snohomish County)",
+   "localRate": 0.028,
+   "rta": false
+  },
+  {
+   "id": "mattawa-grant-county",
+   "name": "Mattawa (Grant County)",
+   "localRate": 0.015
+  },
+  {
+   "id": "mccleary-grays-harbor-county",
+   "name": "McCleary (Grays Harbor County)",
+   "localRate": 0.021
+  },
+  {
+   "id": "medical-lake-spokane-county",
+   "name": "Medical Lake (Spokane County)",
+   "localRate": 0.023
+  },
+  {
+   "id": "medina-king-county",
+   "name": "Medina (King County)",
+   "localRate": 0.039,
+   "rta": true
+  },
+  {
+   "id": "mercer-island-king-county",
+   "name": "Mercer Island (King County)",
+   "localRate": 0.038,
+   "rta": true,
+   "tbd": 20
+  },
+  {
+   "id": "mesa-franklin-county",
+   "name": "Mesa (Franklin County)",
+   "localRate": 0.013
+  },
+  {
+   "id": "metaline-pend-oreille-county",
+   "name": "Metaline (Pend Oreille County)",
+   "localRate": 0.012
+  },
+  {
+   "id": "metaline-falls-pend-oreille-county",
+   "name": "Metaline Falls (Pend Oreille County)",
+   "localRate": 0.012
+  },
+  {
+   "id": "mill-creek-snohomish-county",
+   "name": "Mill Creek (Snohomish County)",
+   "localRate": 0.04,
+   "rta": true,
+   "tbd": 20
+  },
+  {
+   "id": "millwood-spokane-county",
+   "name": "Millwood (Spokane County)",
+   "localRate": 0.023
+  },
+  {
+   "id": "milton-king-county",
+   "name": "Milton (King County)",
+   "localRate": 0.038,
+   "rta": true
+  },
+  {
+   "id": "milton-pierce-county",
+   "name": "Milton (Pierce County)",
+   "localRate": 0.037,
+   "rta": true
+  },
+  {
+   "id": "monroe-snohomish-county",
+   "name": "Monroe (Snohomish County)",
+   "localRate": 0.028,
+   "rta": false
+  },
+  {
+   "id": "montesano-grays-harbor-county",
+   "name": "Montesano (Grays Harbor County)",
+   "localRate": 0.021
+  },
+  {
+   "id": "morton-lewis-county",
+   "name": "Morton (Lewis County)",
+   "localRate": 0.015
+  },
+  {
+   "id": "moses-lake-grant-county",
+   "name": "Moses Lake (Grant County)",
+   "localRate": 0.017
+  },
+  {
+   "id": "mossyrock-lewis-county",
+   "name": "Mossyrock (Lewis County)",
+   "localRate": 0.015
+  },
+  {
+   "id": "mount-vernon-skagit-county",
+   "name": "Mount Vernon (Skagit County)",
+   "localRate": 0.022
+  },
+  {
+   "id": "mountlake-terrace-snohomish-county",
+   "name": "Mountlake Terrace (Snohomish County)",
+   "localRate": 0.04,
+   "rta": true,
+   "tbd": 20,
+   "tbd2027": 40
+  },
+  {
+   "id": "moxee-yakima-county",
+   "name": "Moxee (Yakima County)",
+   "localRate": 0.014
+  },
+  {
+   "id": "mukilteo-snohomish-county",
+   "name": "Mukilteo (Snohomish County)",
+   "localRate": 0.041,
+   "rta": true
+  },
+  {
+   "id": "naches-yakima-county",
+   "name": "Naches (Yakima County)",
+   "localRate": 0.014
+  },
+  {
+   "id": "napavine-lewis-county",
+   "name": "Napavine (Lewis County)",
+   "localRate": 0.016
+  },
+  {
+   "id": "nespelem-okanogan-county",
+   "name": "Nespelem (Okanogan County)",
+   "localRate": 0.015
+  },
+  {
+   "id": "newcastle-king-county",
+   "name": "Newcastle (King County)",
+   "localRate": 0.038,
+   "rta": true
+  },
+  {
+   "id": "newcastle-king-county-outside-sound-transit",
+   "name": "Newcastle (King County, outside Sound Transit)",
+   "localRate": 0.024,
+   "rta": false
+  },
+  {
+   "id": "newport-pend-oreille-county",
+   "name": "Newport (Pend Oreille County)",
+   "localRate": 0.012
+  },
+  {
+   "id": "nooksack-whatcom-county",
+   "name": "Nooksack (Whatcom County)",
+   "localRate": 0.021
+  },
+  {
+   "id": "normandy-park-king-county",
+   "name": "Normandy Park (King County)",
+   "localRate": 0.038,
+   "rta": true,
+   "tbd": 20
+  },
+  {
+   "id": "north-bend-king-county",
+   "name": "North Bend (King County)",
+   "localRate": 0.026,
+   "rta": false
+  },
+  {
+   "id": "north-bonneville-skamania-county",
+   "name": "North Bonneville (Skamania County)",
+   "localRate": 0.012
+  },
+  {
+   "id": "northport-stevens-county",
+   "name": "Northport (Stevens County)",
+   "localRate": 0.012
+  },
+  {
+   "id": "oak-harbor-island-county",
+   "name": "Oak Harbor (Island County)",
+   "localRate": 0.028
+  },
+  {
+   "id": "oakesdale-whitman-county",
+   "name": "Oakesdale (Whitman County)",
+   "localRate": 0.015
+  },
+  {
+   "id": "oakville-grays-harbor-county",
+   "name": "Oakville (Grays Harbor County)",
+   "localRate": 0.021
+  },
+  {
+   "id": "ocean-shores-grays-harbor-county",
+   "name": "Ocean Shores (Grays Harbor County)",
+   "localRate": 0.023
+  },
+  {
+   "id": "odessa-lincoln-county",
+   "name": "Odessa (Lincoln County)",
+   "localRate": 0.012
+  },
+  {
+   "id": "okanogan-city-okanogan-county",
+   "name": "Okanogan city (Okanogan County)",
+   "localRate": 0.019
+  },
+  {
+   "id": "olympia-thurston-county",
+   "name": "Olympia (Thurston County)",
+   "localRate": 0.032,
+   "tbd": 40
+  },
+  {
+   "id": "omak-okanogan-county",
+   "name": "Omak (Okanogan County)",
+   "localRate": 0.019
+  },
+  {
+   "id": "oroville-okanogan-county",
+   "name": "Oroville (Okanogan County)",
+   "localRate": 0.019
+  },
+  {
+   "id": "orting-pierce-county",
+   "name": "Orting (Pierce County)",
+   "localRate": 0.031,
+   "rta": true
+  },
+  {
+   "id": "othello-adams-county",
+   "name": "Othello (Adams County)",
+   "localRate": 0.014
+  },
+  {
+   "id": "pacific-king-county",
+   "name": "Pacific (King County)",
+   "localRate": 0.039,
+   "rta": true
+  },
+  {
+   "id": "pacific-pierce-county",
+   "name": "Pacific (Pierce County)",
+   "localRate": 0.038,
+   "rta": true
+  },
+  {
+   "id": "palouse-whitman-county",
+   "name": "Palouse (Whitman County)",
+   "localRate": 0.015
+  },
+  {
+   "id": "pasco-franklin-county",
+   "name": "Pasco (Franklin County)",
+   "localRate": 0.021
+  },
+  {
+   "id": "pateros-okanogan-county",
+   "name": "Pateros (Okanogan County)",
+   "localRate": 0.021
+  },
+  {
+   "id": "pe-ell-lewis-county",
+   "name": "Pe Ell (Lewis County)",
+   "localRate": 0.015
+  },
+  {
+   "id": "pomeroy-garfield-county",
+   "name": "Pomeroy (Garfield County)",
+   "localRate": 0.016
+  },
+  {
+   "id": "port-angeles-clallam-county",
+   "name": "Port Angeles (Clallam County)",
+   "localRate": 0.024
+  },
+  {
+   "id": "port-orchard-kitsap-county",
+   "name": "Port Orchard (Kitsap County)",
+   "localRate": 0.028,
+   "tbd": 20
+  },
+  {
+   "id": "port-townsend-jefferson-county",
+   "name": "Port Townsend (Jefferson County)",
+   "localRate": 0.027
+  },
+  {
+   "id": "poulsbo-kitsap-county",
+   "name": "Poulsbo (Kitsap County)",
+   "localRate": 0.028,
+   "tbd": 20
+  },
+  {
+   "id": "prescott-walla-walla-county",
+   "name": "Prescott (Walla Walla County)",
+   "localRate": 0.015
+  },
+  {
+   "id": "prosser-benton-county",
+   "name": "Prosser (Benton County)",
+   "localRate": 0.019,
+   "tbd": 30
+  },
+  {
+   "id": "pullman-whitman-county",
+   "name": "Pullman (Whitman County)",
+   "localRate": 0.017
+  },
+  {
+   "id": "puyallup-pierce-county",
+   "name": "Puyallup (Pierce County)",
+   "localRate": 0.038,
+   "rta": true
+  },
+  {
+   "id": "quincy-grant-county",
+   "name": "Quincy (Grant County)",
+   "localRate": 0.014
+  },
+  {
+   "id": "rainier-thurston-county",
+   "name": "Rainier (Thurston County)",
+   "localRate": 0.017
+  },
+  {
+   "id": "raymond-pacific-county",
+   "name": "Raymond (Pacific County)",
+   "localRate": 0.017
+  },
+  {
+   "id": "reardan-lincoln-county",
+   "name": "Reardan (Lincoln County)",
+   "localRate": 0.012
+  },
+  {
+   "id": "redmond-king-county",
+   "name": "Redmond (King County)",
+   "localRate": 0.039,
+   "rta": true
+  },
+  {
+   "id": "redmond-king-county-outside-sound-transit",
+   "name": "Redmond (King County, outside Sound Transit)",
+   "localRate": 0.025,
+   "rta": false
+  },
+  {
+   "id": "renton-king-county",
+   "name": "Renton (King County)",
+   "localRate": 0.04,
+   "rta": true
+  },
+  {
+   "id": "renton-king-county-outside-sound-transit",
+   "name": "Renton (King County, outside Sound Transit)",
+   "localRate": 0.026,
+   "rta": false
+  },
+  {
+   "id": "republic-ferry-county",
+   "name": "Republic (Ferry County)",
+   "localRate": 0.012
+  },
+  {
+   "id": "richland-benton-county",
+   "name": "Richland (Benton County)",
+   "localRate": 0.02
+  },
+  {
+   "id": "ridgefield-clark-county",
+   "name": "Ridgefield (Clark County)",
+   "localRate": 0.024
+  },
+  {
+   "id": "ritzville-adams-county",
+   "name": "Ritzville (Adams County)",
+   "localRate": 0.013
+  },
+  {
+   "id": "riverside-okanogan-county",
+   "name": "Riverside (Okanogan County)",
+   "localRate": 0.019
+  },
+  {
+   "id": "rock-island-douglas-county",
+   "name": "Rock Island (Douglas County)",
+   "localRate": 0.02
+  },
+  {
+   "id": "rockford-spokane-county",
+   "name": "Rockford (Spokane County)",
+   "localRate": 0.015
+  },
+  {
+   "id": "rosalia-whitman-county",
+   "name": "Rosalia (Whitman County)",
+   "localRate": 0.015
+  },
+  {
+   "id": "roslyn-kittitas-county",
+   "name": "Roslyn (Kittitas County)",
+   "localRate": 0.015
+  },
+  {
+   "id": "roy-pierce-county",
+   "name": "Roy (Pierce County)",
+   "localRate": 0.017,
+   "rta": false,
+   "tbd": 20
+  },
+  {
+   "id": "royal-city-grant-county",
+   "name": "Royal City (Grant County)",
+   "localRate": 0.014,
+   "tbd": 20
+  },
+  {
+   "id": "ruston-pierce-county",
+   "name": "Ruston (Pierce County)",
+   "localRate": 0.037,
+   "rta": true
+  },
+  {
+   "id": "sammamish-king-county",
+   "name": "Sammamish (King County)",
+   "localRate": 0.038,
+   "rta": true
+  },
+  {
+   "id": "sammamish-king-county-outside-sound-transit",
+   "name": "Sammamish (King County, outside Sound Transit)",
+   "localRate": 0.024,
+   "rta": false
+  },
+  {
+   "id": "seatac-king-county",
+   "name": "SeaTac (King County)",
+   "localRate": 0.039,
+   "rta": true
+  },
+  {
+   "id": "sedro-woolley-skagit-county",
+   "name": "Sedro-Woolley (Skagit County)",
+   "localRate": 0.019,
+   "tbd": 20
+  },
+  {
+   "id": "selah-yakima-county",
+   "name": "Selah (Yakima County)",
+   "localRate": 0.017
+  },
+  {
+   "id": "sequim-clallam-county",
+   "name": "Sequim (Clallam County)",
+   "localRate": 0.023
+  },
+  {
+   "id": "shelton-mason-county",
+   "name": "Shelton (Mason County)",
+   "localRate": 0.023
+  },
+  {
+   "id": "shoreline-king-county",
+   "name": "Shoreline (King County)",
+   "localRate": 0.04,
+   "rta": true,
+   "tbd": 40
+  },
+  {
+   "id": "skykomish-king-county",
+   "name": "Skykomish (King County)",
+   "localRate": 0.024,
+   "rta": false
+  },
+  {
+   "id": "snohomish-city-snohomish-county",
+   "name": "Snohomish city (Snohomish County)",
+   "localRate": 0.028,
+   "rta": false
+  },
+  {
+   "id": "snoqualmie-king-county",
+   "name": "Snoqualmie (King County)",
+   "localRate": 0.027,
+   "rta": false
+  },
+  {
+   "id": "soap-lake-grant-county",
+   "name": "Soap Lake (Grant County)",
+   "localRate": 0.016,
+   "tbd": 20
+  },
+  {
+   "id": "south-bend-pacific-county",
+   "name": "South Bend (Pacific County)",
+   "localRate": 0.017
+  },
+  {
+   "id": "south-cle-elum-kittitas-county",
+   "name": "South Cle Elum (Kittitas County)",
+   "localRate": 0.015
+  },
+  {
+   "id": "south-prairie-pierce-county",
+   "name": "South Prairie (Pierce County)",
+   "localRate": 0.017,
+   "rta": false
+  },
+  {
+   "id": "spangle-spokane-county",
+   "name": "Spangle (Spokane County)",
+   "localRate": 0.015
+  },
+  {
+   "id": "spokane-valley-spokane-county",
+   "name": "Spokane Valley (Spokane County)",
+   "localRate": 0.023,
+   "tbd": 20
+  },
+  {
+   "id": "spokane-city-spokane-county",
+   "name": "Spokane city (Spokane County)",
+   "localRate": 0.024,
+   "tbd": 20
+  },
+  {
+   "id": "sprague-lincoln-county",
+   "name": "Sprague (Lincoln County)",
+   "localRate": 0.012
+  },
+  {
+   "id": "springdale-stevens-county",
+   "name": "Springdale (Stevens County)",
+   "localRate": 0.012
+  },
+  {
+   "id": "st-john-whitman-county",
+   "name": "St. John (Whitman County)",
+   "localRate": 0.015
+  },
+  {
+   "id": "stanwood-snohomish-county",
+   "name": "Stanwood (Snohomish County)",
+   "localRate": 0.028,
+   "rta": false
+  },
+  {
+   "id": "starbuck-columbia-county",
+   "name": "Starbuck (Columbia County)",
+   "localRate": 0.017
+  },
+  {
+   "id": "steilacoom-pierce-county",
+   "name": "Steilacoom (Pierce County)",
+   "localRate": 0.037,
+   "rta": true
+  },
+  {
+   "id": "stevenson-skamania-county",
+   "name": "Stevenson (Skamania County)",
+   "localRate": 0.015
+  },
+  {
+   "id": "sultan-snohomish-county",
+   "name": "Sultan (Snohomish County)",
+   "localRate": 0.026,
+   "rta": false
+  },
+  {
+   "id": "sumas-whatcom-county",
+   "name": "Sumas (Whatcom County)",
+   "localRate": 0.021
+  },
+  {
+   "id": "sumner-pierce-county",
+   "name": "Sumner (Pierce County)",
+   "localRate": 0.032,
+   "rta": true
+  },
+  {
+   "id": "sunnyside-yakima-county",
+   "name": "Sunnyside (Yakima County)",
+   "localRate": 0.016
+  },
+  {
+   "id": "tacoma-pierce-county",
+   "name": "Tacoma (Pierce County)",
+   "localRate": 0.04,
+   "rta": true,
+   "tbd": 20
+  },
+  {
+   "id": "tekoa-whitman-county",
+   "name": "Tekoa (Whitman County)",
+   "localRate": 0.015
+  },
+  {
+   "id": "tenino-thurston-county",
+   "name": "Tenino (Thurston County)",
+   "localRate": 0.017
+  },
+  {
+   "id": "tieton-yakima-county",
+   "name": "Tieton (Yakima County)",
+   "localRate": 0.015
+  },
+  {
+   "id": "toledo-lewis-county",
+   "name": "Toledo (Lewis County)",
+   "localRate": 0.015
+  },
+  {
+   "id": "tonasket-okanogan-county",
+   "name": "Tonasket (Okanogan County)",
+   "localRate": 0.019
+  },
+  {
+   "id": "toppenish-yakima-county",
+   "name": "Toppenish (Yakima County)",
+   "localRate": 0.015,
+   "tbd": 40
+  },
+  {
+   "id": "tukwila-king-county",
+   "name": "Tukwila (King County)",
+   "localRate": 0.039,
+   "rta": true
+  },
+  {
+   "id": "tumwater-thurston-county",
+   "name": "Tumwater (Thurston County)",
+   "localRate": 0.031
+  },
+  {
+   "id": "twisp-okanogan-county",
+   "name": "Twisp (Okanogan County)",
+   "localRate": 0.021
+  },
+  {
+   "id": "unincorporated-adams-county",
+   "name": "Unincorporated Adams County",
+   "localRate": 0.012
+  },
+  {
+   "id": "unincorporated-asotin-county",
+   "name": "Unincorporated Asotin County",
+   "localRate": 0.015
+  },
+  {
+   "id": "unincorporated-benton-county",
+   "name": "Unincorporated Benton County",
+   "localRate": 0.013
+  },
+  {
+   "id": "unincorporated-benton-county-transit-area",
+   "name": "Unincorporated Benton County (transit area)",
+   "localRate": 0.019
+  },
+  {
+   "id": "unincorporated-chelan-county",
+   "name": "Unincorporated Chelan County",
+   "localRate": 0.02
+  },
+  {
+   "id": "unincorporated-clallam-county",
+   "name": "Unincorporated Clallam County",
+   "localRate": 0.021
+  },
+  {
+   "id": "unincorporated-clark-county",
+   "name": "Unincorporated Clark County",
+   "localRate": 0.014
+  },
+  {
+   "id": "unincorporated-clark-county-transit-area",
+   "name": "Unincorporated Clark County (transit area)",
+   "localRate": 0.021
+  },
+  {
+   "id": "unincorporated-columbia-county",
+   "name": "Unincorporated Columbia County",
+   "localRate": 0.017
+  },
+  {
+   "id": "unincorporated-cowlitz-county",
+   "name": "Unincorporated Cowlitz County",
+   "localRate": 0.012
+  },
+  {
+   "id": "unincorporated-douglas-county",
+   "name": "Unincorporated Douglas County",
+   "localRate": 0.014
+  },
+  {
+   "id": "unincorporated-douglas-county-transit-area",
+   "name": "Unincorporated Douglas County (transit area)",
+   "localRate": 0.02
+  },
+  {
+   "id": "unincorporated-ferry-county",
+   "name": "Unincorporated Ferry County",
+   "localRate": 0.012
+  },
+  {
+   "id": "unincorporated-franklin-county",
+   "name": "Unincorporated Franklin County",
+   "localRate": 0.013
+  },
+  {
+   "id": "unincorporated-franklin-county-transit-area",
+   "name": "Unincorporated Franklin County (transit area)",
+   "localRate": 0.019
+  },
+  {
+   "id": "unincorporated-garfield-county",
+   "name": "Unincorporated Garfield County",
+   "localRate": 0.016
+  },
+  {
+   "id": "unincorporated-grant-county",
+   "name": "Unincorporated Grant County",
+   "localRate": 0.014
+  },
+  {
+   "id": "unincorporated-grays-harbor-county",
+   "name": "Unincorporated Grays Harbor County",
+   "localRate": 0.021
+  },
+  {
+   "id": "unincorporated-island-county",
+   "name": "Unincorporated Island County",
+   "localRate": 0.026
+  },
+  {
+   "id": "unincorporated-jefferson-county",
+   "name": "Unincorporated Jefferson County",
+   "localRate": 0.027,
+   "tbd": 20
+  },
+  {
+   "id": "unincorporated-king-county",
+   "name": "Unincorporated King County",
+   "localRate": 0.038,
+   "rta": true
+  },
+  {
+   "id": "unincorporated-king-county-outside-sound-transit",
+   "name": "Unincorporated King County (outside Sound Transit)",
+   "localRate": 0.024,
+   "rta": false
+  },
+  {
+   "id": "unincorporated-kitsap-county",
+   "name": "Unincorporated Kitsap County",
+   "localRate": 0.027
+  },
+  {
+   "id": "unincorporated-kittitas-county",
+   "name": "Unincorporated Kittitas County",
+   "localRate": 0.015
+  },
+  {
+   "id": "unincorporated-klickitat-county",
+   "name": "Unincorporated Klickitat County",
+   "localRate": 0.011
+  },
+  {
+   "id": "unincorporated-lewis-county",
+   "name": "Unincorporated Lewis County",
+   "localRate": 0.015
+  },
+  {
+   "id": "unincorporated-lincoln-county",
+   "name": "Unincorporated Lincoln County",
+   "localRate": 0.012
+  },
+  {
+   "id": "unincorporated-lummi-nation-san-juan-county",
+   "name": "Unincorporated Lummi Nation - San Juan County",
+   "localRate": 0.0155
+  },
+  {
+   "id": "unincorporated-lummi-nation-whatcom-county",
+   "name": "Unincorporated Lummi Nation - Whatcom County",
+   "localRate": 0.015
+  },
+  {
+   "id": "unincorporated-lummi-nation-whatcom-county-transit-area",
+   "name": "Unincorporated Lummi Nation - Whatcom County (transit area)",
+   "localRate": 0.021
+  },
+  {
+   "id": "unincorporated-mason-county",
+   "name": "Unincorporated Mason County",
+   "localRate": 0.021
+  },
+  {
+   "id": "unincorporated-okanogan-county",
+   "name": "Unincorporated Okanogan County",
+   "localRate": 0.015
+  },
+  {
+   "id": "unincorporated-okanogan-county-transit-area",
+   "name": "Unincorporated Okanogan County (transit area)",
+   "localRate": 0.019
+  },
+  {
+   "id": "unincorporated-pacific-county",
+   "name": "Unincorporated Pacific County",
+   "localRate": 0.017
+  },
+  {
+   "id": "unincorporated-pend-oreille-county",
+   "name": "Unincorporated Pend Oreille County",
+   "localRate": 0.012
+  },
+  {
+   "id": "unincorporated-pierce-county",
+   "name": "Unincorporated Pierce County",
+   "localRate": 0.031,
+   "rta": true
+  },
+  {
+   "id": "unincorporated-pierce-county-hbz-area-outside-sound-transit",
+   "name": "Unincorporated Pierce County (HBZ area, outside Sound Transit)",
+   "localRate": 0.017,
+   "rta": false
+  },
+  {
+   "id": "unincorporated-pierce-county-outside-sound-transit",
+   "name": "Unincorporated Pierce County (outside Sound Transit)",
+   "localRate": 0.017,
+   "rta": false
+  },
+  {
+   "id": "unincorporated-pierce-county-transit-area",
+   "name": "Unincorporated Pierce County (transit area)",
+   "localRate": 0.037,
+   "rta": true
+  },
+  {
+   "id": "unincorporated-pierce-county-transit-area-hbz-area",
+   "name": "Unincorporated Pierce County (transit area, HBZ area)",
+   "localRate": 0.023,
+   "rta": false
+  },
+  {
+   "id": "unincorporated-pierce-county-transit-area-outside-sound-transit",
+   "name": "Unincorporated Pierce County (transit area, outside Sound Transit)",
+   "localRate": 0.023,
+   "rta": false
+  },
+  {
+   "id": "unincorporated-san-juan-county",
+   "name": "Unincorporated San Juan County",
+   "localRate": 0.0155
+  },
+  {
+   "id": "unincorporated-skagit-county",
+   "name": "Unincorporated Skagit County",
+   "localRate": 0.015
+  },
+  {
+   "id": "unincorporated-skagit-county-transit-area",
+   "name": "Unincorporated Skagit County (transit area)",
+   "localRate": 0.019
+  },
+  {
+   "id": "unincorporated-skamania-county",
+   "name": "Unincorporated Skamania County",
+   "localRate": 0.012
+  },
+  {
+   "id": "unincorporated-snohomish-county",
+   "name": "Unincorporated Snohomish County",
+   "localRate": 0.028,
+   "rta": true
+  },
+  {
+   "id": "unincorporated-snohomish-county-outside-sound-transit",
+   "name": "Unincorporated Snohomish County (outside Sound Transit)",
+   "localRate": 0.014,
+   "rta": false
+  },
+  {
+   "id": "unincorporated-snohomish-county-transit-area",
+   "name": "Unincorporated Snohomish County (transit area)",
+   "localRate": 0.04,
+   "rta": true
+  },
+  {
+   "id": "unincorporated-snohomish-county-transit-area-outside-sound-transit",
+   "name": "Unincorporated Snohomish County (transit area, outside Sound Transit)",
+   "localRate": 0.026,
+   "rta": false
+  },
+  {
+   "id": "unincorporated-spokane-county",
+   "name": "Unincorporated Spokane County",
+   "localRate": 0.015
+  },
+  {
+   "id": "unincorporated-spokane-county-transit-area",
+   "name": "Unincorporated Spokane County (transit area)",
+   "localRate": 0.023
+  },
+  {
+   "id": "unincorporated-stevens-county",
+   "name": "Unincorporated Stevens County",
+   "localRate": 0.012
+  },
+  {
+   "id": "unincorporated-thurston-county",
+   "name": "Unincorporated Thurston County",
+   "localRate": 0.017
+  },
+  {
+   "id": "unincorporated-thurston-county-transit-area",
+   "name": "Unincorporated Thurston County (transit area)",
+   "localRate": 0.029
+  },
+  {
+   "id": "unincorporated-wahkiakum-county",
+   "name": "Unincorporated Wahkiakum County",
+   "localRate": 0.013
+  },
+  {
+   "id": "unincorporated-walla-walla-county",
+   "name": "Unincorporated Walla Walla County",
+   "localRate": 0.015
+  },
+  {
+   "id": "unincorporated-walla-walla-county-transit-area",
+   "name": "Unincorporated Walla Walla County (transit area)",
+   "localRate": 0.021
+  },
+  {
+   "id": "unincorporated-whatcom-county",
+   "name": "Unincorporated Whatcom County",
+   "localRate": 0.015
+  },
+  {
+   "id": "unincorporated-whatcom-county-transit-area",
+   "name": "Unincorporated Whatcom County (transit area)",
+   "localRate": 0.021
+  },
+  {
+   "id": "unincorporated-whitman-county",
+   "name": "Unincorporated Whitman County",
+   "localRate": 0.015
+  },
+  {
+   "id": "unincorporated-yakima-county",
+   "name": "Unincorporated Yakima County",
+   "localRate": 0.014
+  },
+  {
+   "id": "union-gap-yakima-county",
+   "name": "Union Gap (Yakima County)",
+   "localRate": 0.016
+  },
+  {
+   "id": "uniontown-whitman-county",
+   "name": "Uniontown (Whitman County)",
+   "localRate": 0.015
+  },
+  {
+   "id": "university-place-pierce-county",
+   "name": "University Place (Pierce County)",
+   "localRate": 0.037,
+   "rta": true,
+   "tbd": 20
+  },
+  {
+   "id": "vader-lewis-county",
+   "name": "Vader (Lewis County)",
+   "localRate": 0.015
+  },
+  {
+   "id": "vancouver-clark-county",
+   "name": "Vancouver (Clark County)",
+   "localRate": 0.023,
+   "tbd": 50
+  },
+  {
+   "id": "waitsburg-walla-walla-county",
+   "name": "Waitsburg (Walla Walla County)",
+   "localRate": 0.017
+  },
+  {
+   "id": "walla-walla-city-walla-walla-county",
+   "name": "Walla Walla city (Walla Walla County)",
+   "localRate": 0.023
+  },
+  {
+   "id": "wapato-yakima-county",
+   "name": "Wapato (Yakima County)",
+   "localRate": 0.014,
+   "tbd": 20
+  },
+  {
+   "id": "warden-grant-county",
+   "name": "Warden (Grant County)",
+   "localRate": 0.014
+  },
+  {
+   "id": "washougal-clark-county",
+   "name": "Washougal (Clark County)",
+   "localRate": 0.023,
+   "tbd": 20
+  },
+  {
+   "id": "washtucna-adams-county",
+   "name": "Washtucna (Adams County)",
+   "localRate": 0.012
+  },
+  {
+   "id": "waterville-douglas-county",
+   "name": "Waterville (Douglas County)",
+   "localRate": 0.02
+  },
+  {
+   "id": "waverly-spokane-county",
+   "name": "Waverly (Spokane County)",
+   "localRate": 0.015
+  },
+  {
+   "id": "wenatchee-chelan-county",
+   "name": "Wenatchee (Chelan County)",
+   "localRate": 0.025
+  },
+  {
+   "id": "west-richland-benton-county",
+   "name": "West Richland (Benton County)",
+   "localRate": 0.019
+  },
+  {
+   "id": "westport-grays-harbor-county",
+   "name": "Westport (Grays Harbor County)",
+   "localRate": 0.021
+  },
+  {
+   "id": "white-salmon-klickitat-county",
+   "name": "White Salmon (Klickitat County)",
+   "localRate": 0.012,
+   "tbd": 15
+  },
+  {
+   "id": "wilbur-lincoln-county",
+   "name": "Wilbur (Lincoln County)",
+   "localRate": 0.012
+  },
+  {
+   "id": "wilkeson-pierce-county",
+   "name": "Wilkeson (Pierce County)",
+   "localRate": 0.017,
+   "rta": false,
+   "tbd": 20
+  },
+  {
+   "id": "wilson-creek-grant-county",
+   "name": "Wilson Creek (Grant County)",
+   "localRate": 0.014
+  },
+  {
+   "id": "winlock-lewis-county",
+   "name": "Winlock (Lewis County)",
+   "localRate": 0.015
+  },
+  {
+   "id": "winthrop-okanogan-county",
+   "name": "Winthrop (Okanogan County)",
+   "localRate": 0.02
+  },
+  {
+   "id": "woodinville-king-county",
+   "name": "Woodinville (King County)",
+   "localRate": 0.039,
+   "rta": true
+  },
+  {
+   "id": "woodinville-king-county-outside-sound-transit",
+   "name": "Woodinville (King County, outside Sound Transit)",
+   "localRate": 0.025,
+   "rta": false
+  },
+  {
+   "id": "woodland-cowlitz-county",
+   "name": "Woodland (Cowlitz County)",
+   "localRate": 0.013
+  },
+  {
+   "id": "woodway-snohomish-county",
+   "name": "Woodway (Snohomish County)",
+   "localRate": 0.041,
+   "rta": true,
+   "tbd": 20
+  },
+  {
+   "id": "yacolt-clark-county",
+   "name": "Yacolt (Clark County)",
+   "localRate": 0.021
+  },
+  {
+   "id": "yakima-city-yakima-county",
+   "name": "Yakima city (Yakima County)",
+   "localRate": 0.018
+  },
+  {
+   "id": "yarrow-point-king-county",
+   "name": "Yarrow Point (King County)",
+   "localRate": 0.039,
+   "rta": true
+  },
+  {
+   "id": "yelm-thurston-county",
+   "name": "Yelm (Thurston County)",
+   "localRate": 0.029
+  },
+  {
+   "id": "zillah-yakima-county",
+   "name": "Zillah (Yakima County)",
+   "localRate": 0.014,
+   "tbd": 20
+  }
+ ],
+ "defaultCounty": "seattle-king-county",
+ "singular": [
+  "Since January 1, 2026 every car sale carries an extra 0.5% motor vehicle sales/use tax on top of the 6.5% state rate and the local rate, up from 0.3% [dor-mvsut].",
+  "A car priced above $100,000 also pays an 8% luxury tax on the price plus the trade-in above $102,000 from July 1, 2026 [dor-luxury].",
+  "In the Sound Transit district of King, Pierce and Snohomish counties, owners pay a 1.1% car tab tax on the MSRP reduced by a state schedule, 95% in the second year of service and 10% from the thirteenth [dol-rta].",
+  "The 0.3% part of the Sound Transit car tab tax approved in 1996 expires in 2028, which will bring it down to 0.8% [st-taxes].",
+  "Since October 1, 2026 the title application fee is $40 when a dealer sells the car, against $15 for other title applications [rcw-46-17-100].",
+  "A new car gets two original plates at $50 each plus $2 of reflectivity fee per plate [rcw-46-17-200].",
+  "Electric cars pay $150 in EV fees plus a $75 transportation electrification fee at each renewal, and hybrids $75, but none of these is due at the first registration [rcw-46-17-323].",
+  "Cities such as Seattle ($50), Vancouver ($50) or Lake Forest Park ($50) add a transportation benefit district fee at each tab renewal [dol-tbd].",
+  "Dealers may charge a documentary service fee of up to $200, and that fee is not subject to sales tax [dor-doc-fee].",
+  "Washington ended its emission check program on January 1, 2020, and has no safety inspection [ecology]."
+ ],
+ "sources": {
+  "rcw-82-08-020": {
+   "name": "RCW 82.08.020, retail sales tax (as amended by 2025 c 417)",
+   "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=82.08.020",
+   "quote": "(1) There is levied and collected a tax equal to six and five-tenths percent of the selling price on each retail sale in this state of: ... (3) There is levied and collected an additional tax of five-tenths of one percent of the selling price on each retail sale of a motor vehicle in this state",
+   "accessed": "2026-10-11"
+  },
+  "dor-mvsut": {
+   "name": "Washington Department of Revenue, Motor vehicle sales/use tax",
+   "url": "https://dor.wa.gov/taxes-rates/other-taxes/motor-vehicle-salesuse-tax",
+   "quote": "If sales tax was not paid at the time of purchase, use tax applies at the time the vehicle is registered with the Department of Licensing. ... Effective Jan. 1, 2026, the rate is 0.5% (0.005).",
+   "accessed": "2026-10-11"
+  },
+  "dor-rates": {
+   "name": "Washington Department of Revenue, Car Dealers and Leasing Companies Local Sales & Use Tax Rates, Oct. 1 - Dec. 31, 2026",
+   "url": "https://dor.wa.gov/sites/default/files/2026-08/Q426_MVET-flyer-by-county.pdf",
+   "quote": "Effective October 1 - December 31, 2026 ... King Seattle 1726 .0405 .0650 .1055 ... (1) Combined sales tax includes the 6.5% state rate, and the local rate.",
+   "accessed": "2026-10-11"
+  },
+  "dor-luxury": {
+   "name": "Washington Department of Revenue, Luxury motor vehicle tax",
+   "url": "https://dor.wa.gov/taxes-rates/other-taxes/luxury-motor-vehicle-tax",
+   "quote": "Starting Jan. 1, 2026, it is an 8% tax on the sale or lease of a new or used motor vehicle priced at more than $100,000. ... the taxable amount is the selling price plus trade-in property, minus the current deduction amount. ... July 1, 2026 – June 30, 2027 | $102,000",
+   "accessed": "2026-10-11"
+  },
+  "dor-trade-ins": {
+   "name": "Washington Department of Revenue, Auto dealers guide: Trade-ins",
+   "url": "https://dor.wa.gov/education/industry-guides/auto-dealers/trade-ins",
+   "quote": "For purposes of the retail sales tax measure, the selling price excludes \"trade-in property of like kind.\" This means that dealers will collect retail sales tax from retail customers on the price after the value of the trade-in is deducted.",
+   "accessed": "2026-10-11"
+  },
+  "doc-fee": {
+   "name": "RCW 46.70.180(2), dealer documentary service fee",
+   "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.70.180",
+   "quote": "However, an amount not to exceed $200 per vehicle sale or lease may be charged by a dealer to recover administrative costs for collecting motor vehicle excise taxes, licensing and registration fees and other agency fees",
+   "accessed": "2026-10-11"
+  },
+  "dor-doc-fee": {
+   "name": "Washington Department of Revenue, Auto dealers guide: Document service fees",
+   "url": "https://dor.wa.gov/book/export/html/1271",
+   "quote": "Effective July 1, 2022, a dealer can charge up to $200. Document service fees are not subject to sales tax.",
+   "accessed": "2026-10-11"
+  },
+  "rcw-46-17-100": {
+   "name": "RCW 46.17.100, certificate of title application fee (effective Oct. 1, 2026)",
+   "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.17.100",
+   "quote": "Through December 31, 2036, the fee is $40 upon the execution of a retail sale or lease agreement, with respect to the retail sale or lease by a motor vehicle dealer or lessor of a new or used motor vehicle ... For all other certificate of title applications, the fee is $15.",
+   "accessed": "2026-10-11"
+  },
+  "rcw-46-17-005": {
+   "name": "RCW 46.17.005, filing fees",
+   "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.17.005",
+   "quote": "(1) A person who applies for a vehicle registration ... shall pay a $6 filing fee in addition to any other fees and taxes required by law. (2) A person who applies for a certificate of title shall pay a $6.50 filing fee",
+   "accessed": "2026-10-11"
+  },
+  "rcw-46-17-040": {
+   "name": "RCW 46.17.040, service fees",
+   "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.17.040",
+   "quote": "(a) $18 for changes in a certificate of title, changes in ownership for nontitled vehicles ... (b) $11 for a registration renewal, issuing a transit permit, or any other service under this section",
+   "accessed": "2026-10-11"
+  },
+  "rcw-46-17-110": {
+   "name": "RCW 46.17.110, emergency medical services fee",
+   "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.17.110",
+   "quote": "shall require the applicant to pay a six dollar and fifty cent emergency medical services fee for the following transactions: (a) All retail sales or leases of any new or used motor vehicles; and (b) Original and transfer certificate of title transactions.",
+   "accessed": "2026-10-11"
+  },
+  "rcw-19-118-110": {
+   "name": "RCW 19.118.110, new motor vehicle arbitration fee",
+   "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=19.118.110",
+   "quote": "If the new motor vehicle will be registered in the state of Washington, a three-dollar arbitration fee shall be collected by either the new motor vehicle dealer or vehicle lessor from the consumer upon execution of a retail sale or lease agreement.",
+   "accessed": "2026-10-11"
+  },
+  "rcw-46-17-200": {
+   "name": "RCW 46.17.200, license plate fees",
+   "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.17.200",
+   "quote": "The following license plate fees for each license plate ... Original issue | $50.00 ... Reflectivity | $2.00 ... Replacement | $30.00",
+   "accessed": "2026-10-11"
+  },
+  "rcw-46-17-350": {
+   "name": "RCW 46.17.350, vehicle license fees by vehicle type",
+   "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.17.350",
+   "quote": "(j) Passenger car | $ 30.00 | $ 30.00 | RCW 46.68.030",
+   "accessed": "2026-10-11"
+  },
+  "rcw-46-17-365": {
+   "name": "RCW 46.17.365, motor vehicle weight fee (registrations due on or after Jan. 1, 2026)",
+   "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.17.365",
+   "quote": "For vehicle registrations that are due or become due on or after January 1, 2026, the motor vehicle weight fee: (a) Must be based on the motor vehicle scale weight as follows: 4,000 pounds $35.00 6,000 pounds $65.00 8,000 pounds $82.50 16,000 pounds and over $96.00",
+   "accessed": "2026-10-11"
+  },
+  "rcw-46-17-355": {
+   "name": "RCW 46.17.355, license fees by declared gross weight",
+   "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.17.355",
+   "quote": "4,000 pounds $53.00 ... 6,000 pounds $80.00 ... 8,000 pounds $110.00 ... 10,000 pounds $140.00 ... (8) Beginning July 1, 2026, the vehicle license fee ... must be adjusted annually by increasing the fee by two percent and the result must be rounded to the nearest five cents.",
+   "accessed": "2026-10-11"
+  },
+  "rcw-46-17-025": {
+   "name": "RCW 46.17.025, license service fee",
+   "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.17.025",
+   "quote": "A person who applies for a vehicle registration or for any other right to operate a vehicle on the highways of this state shall pay a 75 cent license service fee in addition to any other fees and taxes required by law.",
+   "accessed": "2026-10-11"
+  },
+  "rcw-46-17-015": {
+   "name": "RCW 46.17.015, license plate technology fee",
+   "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.17.015",
+   "quote": "A person who applies for a vehicle registration or for any other right to operate a vehicle on the highways of this state shall pay a 25 cent license plate technology fee in addition to any other fees and taxes required by law.",
+   "accessed": "2026-10-11"
+  },
+  "rcw-46-17-323": {
+   "name": "RCW 46.17.323, electric vehicle registration renewal fees",
+   "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.17.323",
+   "quote": "is capable of traveling at least 30 miles using only battery power ... must require the applicant to pay a $100 fee in addition to any other fees and taxes required by law. The $100 fee is due only at the time of annual registration renewal. ... the applicant to pay a $50 fee.",
+   "accessed": "2026-10-11"
+  },
+  "rcw-46-17-324": {
+   "name": "RCW 46.17.324, transportation electrification fee",
+   "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.17.324",
+   "quote": "is subject to an annual seventy-five dollar transportation electrification fee ... may only be collected for vehicles that are renewing an annual vehicle registration. ... pay a seventy-five dollar hybrid vehicle transportation electrification fee",
+   "accessed": "2026-10-11"
+  },
+  "dol-rta": {
+   "name": "Washington State Department of Licensing, Regional Transit Authority (RTA) tax",
+   "url": "https://dol.wa.gov/vehicles-and-boats/vehicles/taxes-and-fees/regional-transit-authority-rta-tax",
+   "quote": "Current year - year of vehicle + 1 = years of service ... Original MSRP x depreciated percentage = depreciated value ... Depreciated value x 1.1% (current RTA rate) = RTA amount due ... 1 | 100% | 2 | 95% | 3 | 89% | 4 | 83% | 5 | 74% | 6 | 65%",
+   "accessed": "2026-10-11"
+  },
+  "st-taxes": {
+   "name": "Sound Transit, Regional tax information",
+   "url": "https://www.soundtransit.org/get-to-know-us/paying-regional-transit/property-tax",
+   "quote": "Car tabs (MVET) | 1.1% ($110 per every $10,000 of vehicle’s value, annually) ... Sales and use tax | 1.4% ... The 0.3% car tab tax approved by voters in 1996 will expire in 2028.",
+   "accessed": "2026-10-11"
+  },
+  "dol-tbd": {
+   "name": "Washington State Department of Licensing, Local transportation benefit district fees",
+   "url": "https://dol.wa.gov/vehicles-and-boats/vehicles/taxes-and-fees/local-transportation-benefit-district-fees",
+   "quote": "If you live in any of the following locations, you must pay an additional transportation benefit district fee when you renew your vehicle tabs. ... Seattle 206-684-7623 | $50 | January 18, 2024 | 17-26",
+   "accessed": "2026-10-11"
+  },
+  "rcw-82-80-140": {
+   "name": "RCW 82.80.140, transportation benefit district vehicle fee",
+   "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=82.80.140",
+   "quote": "(5) The vehicle fee under this section applies only when renewing a vehicle registration, and is effective upon the registration renewal date as provided by the department of licensing.",
+   "accessed": "2026-10-11"
+  },
+  "ecology": {
+   "name": "Washington Department of Ecology, Emission check program ended",
+   "url": "https://ecology.wa.gov/air-climate/air-quality/vehicle-emissions/emissions-check-ends",
+   "quote": "After 38 years, Washington’s emission check program ended Jan. 1, 2020. ... vehicle owners are no longer required to have their vehicle’s emissions tested before renewing their vehicle registration.",
+   "accessed": "2026-10-11"
+  },
+  "dol-tab-fees": {
+   "name": "Washington State Department of Licensing, Calculate vehicle tab fees",
+   "url": "https://dol.wa.gov/vehicles-and-boats/vehicles/vehicle-registration/calculate-vehicle-tab-fees",
+   "quote": "Filing fee $6 for registration $6.50 for the title only $12.50 for title with registration ... Service fees $11 for registration $18 for title transactions $29 for title with registration",
+   "accessed": "2026-10-11"
+  }
+ }
+}

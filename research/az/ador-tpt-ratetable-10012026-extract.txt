@@ -1,0 +1,50 @@
+Source: Arizona Department of Revenue, "Arizona State, County and City Transaction Privilege and Other Tax Rate Tables, Effective October 1, 2026"
+https://azdor.gov/sites/default/files/document/TPT_RATETABLE_10012026.pdf  (read 2026-10-11 in Chrome with pdf.js; Cloudflare blocks curl)
+
+Header text: "Table 1 provides the tax rates which combine the state's transaction privilege tax rate of 5.6% and the county excise tax rate."
+
+TABLE 1, row "017 Retail" (state 5.6% + county excise):
+Cochise (COH) 6.60% | Coconino (COC) 6.90% | Gila (GLA) 6.60% | Graham (GRA) 6.60% | La Paz (LAP) 6.60% | Maricopa (MAR) 6.30% | Mohave (MOH) 5.60% | Navajo (NAV) 6.43% | Pima (PMA) 6.10% | Pinal (PNL) 6.70% | Santa Cruz (STC) 6.60% | Yavapai (YAV) 6.35% | Yuma (YMA) 6.712% | Apache (APA) / Greenlee (GRN) 6.10%
+
+TABLE 2 - Municipalities, Retail Sales (017) and single-item tiers (P = "Single Item Portion Over $X", W = "Single Item Over $X"; code in brackets):
+Phoenix PX MAR: Retail Sales 017 2.80 ; Retail Sales (Single Item Portion over $14,338) 366 2.00
+Tucson PMA: 017 2.60
+Mesa MAR: 017 2.00
+Chandler MAR: 017 1.50
+Gilbert MAR: 017 2.00
+Glendale MAR: 017 2.90 ; Retail Sales (Single Item Over $5,000) 2.20
+Scottsdale MAR: 017 1.70
+Peoria MAR: 017 1.80
+Tempe MAR: 017 1.80
+Surprise MAR: 017 2.80
+Avondale MAR: 017 2.50 ; Retail Sales (Single Item Over $5,000) 717 1.50
+Goodyear MAR: 017 2.50 ; Retail Sales (Single Item Over $5,000) 1.20
+Buckeye MAR: 017 3.00 ; Retail Sales (Single Item Over $5,000) 717 1.10
+El Mirage MAR: 017 3.00
+Fountain Hills MAR: 017 2.90
+Paradise Valley MAR: 017 2.50
+Queen Creek QC MAR/PNL: 017 2.25
+Apache Junction AJ MAR/PNL: 017 2.40 ; Retail Sales (Single Item Portion Over $2,000) 297 1.40
+Marana MA PMA/PNL: 017 2.50 ; Retails Sales (Single Item Over $5000) 717 2.00
+Oro Valley PMA: 017 2.50
+Sahuarita PMA: 017 2.00
+Yuma YMA: 017 1.70
+San Luis YMA: 017 4.00 ; P $2,500 1.50
+Flagstaff COC: 017 2.486
+Sedona SE COC/YAV: 017 3.50
+Lake Havasu City MOH: 017 2.00
+Kingman MOH: 017 3.00 ; W $10,000 2.50
+Bullhead City MOH: 017 2.00
+Prescott YAV: 017 2.95
+Prescott Valley YAV: 017 2.83
+Cottonwood YAV: 017 3.50
+Casa Grande PNL: 017 2.00 ; Retail Sales (Single Item Portion Over $5,000) 357 1.50
+Maricopa (city) PNL: 017 2.50
+San Tan Valley PNL: 017 2.25
+Sierra Vista COH: 017 1.95
+Douglas COH: 017 3.80 ; P $10,000 2.80
+Nogales STC: 017 2.00
+Show Low NAV: 017 2.00
+Payson GLA: 017 3.88
+Safford GRA: 017 2.50 ; W $5,000 1.00
+Florence PNL: 017 3.50

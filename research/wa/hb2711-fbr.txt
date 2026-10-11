@@ -1,0 +1,440 @@
+                                    FINAL BILL REPORT
+                                                 ESHB 2711
+
+
+                                                     C 255 L 26
+                                               Synopsis as Enacted
+
+Brief Description:       Concerning transportation resources.
+
+Sponsors:     House Committee on Transportation (originally sponsored by Representative Fey).
+
+House Committee on Transportation
+Senate Committee on Transportation
+
+      Background:
+
+      Fuel Taxes.
+
+      State fuel taxes apply to fuel licensees for the sales of both motor vehicle fuel (includes
+      gasoline) and special fuel (includes diesel).  The aggregate rate comprises individual taxes
+      enacted at different times and with specific revenue distributions made to certain state
+      accounts, and to counties and cities following specified percentage allocations.  Prior to July
+      1, 2025, the aggregate tax rate was 49.4 cents per gallon with respect to both motor vehicle
+      fuel and special fuel.
+
+      Beginning July 1, 2025, the fuel tax rate for motor vehicle fuel and special fuel was
+      increased by 6 cents per gallon, from 49.4 cents to 55.4 cents per gallon.  On July1,
+      2025, the fuel tax rate for special fuel was increased by 3 cents per gallon, and will be
+      increased to a total of 58.4 cents per gallon by an additional 3 cents per gallon to an
+      additional of 61.4 cents per gallon beginning July 1, 2027.  Revenue generated from these
+      fuel tax rate increases is distributed to the Motor Vehicle Fund (MVF), except that 2.5
+      percent is distributed to incorporated cities, and 2.5 percent is distributed to counties.
+
+      Fuel tax rates, except for the special fuel differential rates, are increased by an inflation
+      adjustment factor of 2 percent each year beginning July 1, 2026.  The special fuel
+      differential rate is increased by an inflation adjustment factor of 2 percent each year
+      beginning July 1, 2028.
+
+
+
+
+
+      This analysis was prepared by non-partisan legislative staff for the use of legislative
+      members in their deliberations. This analysis is not part of the legislation nor does it
+      constitute a statement of legislative intent.
+
+House Bill Report                                         - 1 -                                             ESHB 2711
+      General Retail Sales and Use Taxes.
+
+      Retail sales taxes are imposed on retail sales of most articles of tangible personal property,
+      digital products, and some services.  A retail sale is a sale to the final consumer or end user
+      of the property, digital product, or service.  If retail sales taxes are not collected when the
+      user acquires property, digital products, or services, then use tax applies to the value of the
+      property, digital product, or service when used in this state.  The state, all counties, and all
+      cities levy retail sales and use taxes.  The state sales and use tax rate is 6.5 percent.  State
+      sales and use tax revenues are deposited into the State General Fund.
+
+      The general retail sales tax provides for a deduction from the selling price, and the use tax
+      from the value of the article used, for the value of any trade-in property of like kind, for
+      certain categories of property, including vehicles, boats, and airplanes.  The trade-in must
+      be used as consideration for the purchase or acquisition of the property and must be
+      identified clearly on any sales agreement or invoice.  The tax then applies to the remainder
+      after the value is deducted.
+
+      Retail Sales and Use Taxes on Acquisitions of Luxury Vehicles, Luxury Aircraft, and
+      Recreational Vessels.
+
+      In 2025 legislation was enacted establishing new sales and use taxes on the purchase or
+      acquisition of certain luxury vehicles, luxury aircraft, and recreational vessels.
+
+      Beginning January 1, 2026, an 8 percent tax is imposed on the retail sale or use of a non-
+      commercial motor vehicle, including motor homes, that exceeds $100,000 in price.  The tax
+      applies to the portion of the price or value of the vehicle that exceeds a deduction amount of
+      $100,000 in fiscal year 2026.  At the start of each fiscal year, the deduction amount is
+      increased by 2 percent.
+
+      Beginning April 1, 2026, an additional 10 percent luxury aircraft tax applies to the sale or
+      use of a non-commercial aircraft exceeding $500,000.  The new luxury tax applies only to
+      the amount of the sale or the value of the aircraft that exceeds $500,000, treating the
+      $500,000 as a deduction.
+
+      Beginning July 1, 2026, a 0.5 percent tax applies to the sale or use of a recreational vessel.
+
+      For each of the new sales taxes enacted in 2025, the value of a trade-in vehicle may not be
+      deducted from the vehicle price in determining the tax.  A trade-in may be deducted from
+      the value when determining the use tax.
+
+      Aircraft Fuel Tax.
+
+      The aircraft fuel tax is 18 cents per gallon with the revenue deposited into the Aeronautics
+      Account.  Fuel exempted from this tax includes:
+
+
+
+House Bill Report                                          - 2 -                                              ESHB 2711
+          •   exported fuel;
+          •   fuel delivered to commercial air carriers operating under certificates of public
+              convenience and necessity;
+          •   interstate commercial sales;
+          •   fuel sold to a licensed aircraft fuel distributor;
+          •   fuel aircraft testing or experimental purposes; and
+          •   fuel used for emergency medical air transport entities.
+
+      Aircraft Registration Fee.
+
+      Aircraft, including commercial unpiloted aircraft systems, must be registered with the
+      Washington State Department of Transportation (WSDOT) in January of each calendar year
+      in which the aircraft is to be operated or based in Washington.  The state registration fee is
+      $15, with the revenue deposited into the Aeronautics Account.
+
+      Aircraft Excise Tax.
+
+      An annual excise tax is levied for using an aircraft in the state.  The tax ranges from $20 for
+      a home built plane to $4,000 for a larger aircraft operated by a commuter air carrier.
+      Revenue from the aircraft excise tax is deposited in the Aeronautics Account.  Aircraft
+      exempt from the annual excise tax include:
+          •   aircraft engaged in interstate commerce;
+          •   governmental aircraft;
+          •   aircraft registered by a foreign country;
+          •   aircraft registered in another state, unless based in this state for 90 days or longer;
+          •   aircraft owned by a manufacturer or dealer if part of their stock in trade;
+          •   aircraft owned by a manufacturer and used for testing or training purposes; and
+          •   commercial unpiloted aircraft systems.
+
+      Tire Fee.
+
+      A $5 per tire fee is imposed on the retail sale of new replacement vehicle tires.  Retailers are
+      permitted to retain a portion of the fee for costs associated with the proper management of
+      the waste vehicle tires by the retailer.  Of the proceeds to the state, the first $600,000 each
+      fiscal year is deposited into the Waste Tire Removal Account, and all remaining amounts
+      are deposited into the MVF.
+
+      Payments to Registered Tow Truck Operators for the Release of Vehicles to Indigent
+      Persons.
+
+      Registered tow truck operators (RTTOs) who impound vehicles from private or public
+      property, or who tow vehicles for law enforcement agencies, are regulated by the
+      Department of Licensing (DOL).  The RTTOs may impound, transport, and store
+      unauthorized vehicles and may dispose of abandoned vehicles.  An RTTO who has a valid
+
+
+
+House Bill Report                                         - 3 -                                             ESHB 2711
+      and signed impoundment authorization is determined to have a lien upon the impounded
+      vehicle for services provided in the towing and storage of the vehicle, unless the
+      impoundment is determined to have been invalid.
+
+      A vehicle may be redeemed by the legal owner or owners of the vehicle before the start of
+      an abandoned vehicle auction upon payment of towing and storage charges.  If a vehicle
+      remains unclaimed, the RTTO must conduct a sale of the vehicle at public auction.  The
+      RTTO may not hold a vehicle longer than 90 days without holding an auction for the
+      vehicle, except where a law enforcement or judicial order requires it.
+
+      The DOL is required to create a program that was to take effect February 1, 2026, to
+      compensate RTTOs for the cost of towing, storage, and other services incurred by RTTOs
+      for the towing of vehicles of indigent persons in certain circumstances.  As part of the
+      program, the DOL must provide a form to RTTOs on which an individual seeking the
+      release of the vehicle can self-certify that the individual is eligible under the program, and
+      the RTTO can self-certify that the impound is eligible under the program.  Once the form is
+      completed by the RTTO, the RTTO is required to release the vehicle to the applicant and no
+      longer has a lien or deficiency claim on the vehicle.
+
+      Following submission of the form by the RTTO and subject to the availability of funds, the
+      DOL is required to disburse funds to the eligible RTTO equal to the cost of the tow, storage,
+      or other services incurred by the RTTO during the course of the impound.
+
+      Clean Alternative Fuel Vehicle Report.
+
+      The Department of Revenue (DOR) must provide to the transportation committees of the
+      Legislature a semiannual report on the clean alternative fuel vehicle sales and use tax
+      exemption. The report must include information on the number of vehicles that qualified for
+      the exemption, the make and model of these vehicles, the dollar amount of exempted state
+      retail sales and use taxes, and the estimated future costs of leased vehicles that qualified for
+      the exemption.  The report is required August 1, 2028The exemption qualification period
+      ended on July 31, 2025.
+
+      Bus and Bus Facilities Grant Program.
+
+      In 2022 the Legislature enacted the Bus and Bus Facilities Brant Program at the WSDOT.
+      The purpose of the competitive grant program is to provide transit agencies grants for:
+          •  the replacement, expansion, rehabilitation, and purchase of transit rolling stock;
+          •  the construction, modification, or rehabilitation of transit facilities; and
+          •  funding to adapt to technological change or innovation through the retrofitting of
+             transit rolling stock and facilities.
+
+      Driver's Licenses and Identicards.
+
+
+
+
+House Bill Report                                         - 4 -                                             ESHB 2711
+      The DOL issues driver's licenses and identicards that are valid for up to eight years.  The
+      fee for an eight-year driver's license or identicard is $80, and the feefor a six-year driver's
+      license or identicard is $60.  Beginning July 1, 2028, and every three years thereafter, the
+      per-year fee amounts are increased by $1.  An additional $1flat fee is imposed on each
+      issuance or renewal of a driver's license or identicard.
+
+      An at-cost identicard, with the fee amount determined based on the production costs of the
+      identicard, may be provided if the applicant is:
+           •  is under the age of 25 and does not have a permanent residence address;
+           •  receives public assistance; or
+           •  is going to be, or has recently been, discharged from certain state and local facilities.
+
+      An enhanced driver license (EDL) or enhanced identicard (EID) may be issued to a
+      Washington resident who isa United States citizen if they have confirmed their identity and
+      citizenship.  A person applying for an EDL must be at least 18 years old and must pay a fee
+      in addition to the regular driver's license or identicard fee.  The additional fee for an eight-
+      year EDL or EID is $56, and the fee  for a six-year EDL or EID is $42.
+
+      Toll Collection Communication.
+
+      A notice of civil penalty may be issued by WSDOT when a toll is assessed through use of a
+      photo toll system and the toll is not paid by the toll payment due date.  An individual may
+      appeal a civil penalty by presenting evidence that a toll bill was not received due to it being
+      sent to an incorrect address that has since been corrected.  The envelope containing a toll
+      charge bill or a notice of civil penalty must prominently indicate that the contents are time
+      sensitive and related to a toll violation.
+
+      Public Transportation Benefit Area Annexations.
+
+      Public Transportation Benefit Areas (PTBA) are local governments established to operate
+      public transportation services.  In 2025 the Legislature enacted an optional PTBA
+      annexation process that authorizes an annexation of an adjacent city operating a transit
+      system and of certain county areas.
+
+      Ferry Credit Card Surcharge.
+
+      In 2025 the Washington State Ferries (WSF) was directed to implement a cost recovery
+      surcharge to recover at least 3 percent in credit card and other financial transaction costs
+      related to the collection of ferry fares.  The WSF must notify customers of the surcharge at
+      the point of sale and itemize the fee on customer receipts.
+
+      Account Investment Earnings.
+
+      Unless otherwise specified, the interest earnings on deposits to any account in the State
+
+
+
+House Bill Report                                          - 5 -                                             ESHB 2711
+      Treasury accrues to the State General Fund.
+
+      Summary:
+
+      Fuel Taxes.
+
+      Fuel taxes received attributable to the annual inflationary adjustments to the fuel tax rate are
+      distributed in the same manner as the non-inflationary 2025 increases in the motor fuel tax
+      and special fuel tax rates.
+
+      Retail Sales and Use Taxes on Acquisitions of Luxury Vehicles, and Recreational Vessels.
+
+      The use tax bases for the luxury vehicle tax and recreational vessel tax are modified to align
+      with the corresponding sales tax bases, prohibiting the value of any trade-in from being
+      deducted from the tax bases.
+
+      Motor homes are exempted from the sales and use taxes on luxury vehicles from July 1,
+      2026, through December 31, 2026.
+
+      The following changes are made to the retail sales and use taxes on luxury vehicles:
+          •   In the case of a lease requiring periodic payments, the tax may be remitted in equal
+              periodic payments over the term of the lease.
+          •   The exemptions available under the general retail sales and use tax to enrolled tribal
+              members and to nonresidents are extended to the sales and use taxes on luxury
+              vehicles.
+          •   Motor vehicle dealers are exempt from penalties and interest on any unpaid tax due
+              through June 30, 2026.
+
+      Luxury Aircraft Tax.
+
+      An additional 10 percent luxury tax on non-commercial aircraft, which would otherwise
+      have taken effect on April 1, 2026, is repealed in its entirety.
+
+      Aircraft Fuel Tax.
+
+      On November 1, 2026, the current aircraft fuel tax is increased from 18 cents per gallon to
+      25 cents per gallon.  The 7 cent increase must be deposited into the newly established
+      Sustainable Aviation Fuel Airport Infrastructure Account created in the state treasury.
+
+      Aircraft Registration Fee.
+
+      Beginning January 1, 2027, the annual aircraft registration fee is increased from $15 to $30.
+      The aircraft registration fee is then increased annually by 2 percent beginning January 1,
+      2028.  Increased revenue from the fee increase must be deposited in the Sustainable
+
+
+
+House Bill Report                                         - 6 -                                             ESHB 2711
+      Aviation Fuel Account.
+
+      Aircraft Excise Tax.
+
+      Beginning January 1, 2026, annual excise taxes are raised by a range of $70 to $1,095,
+      depending on aircraft type, increasing excise taxes due to a range of $120 to $1,220.
+
+      Beginning January 1, 2028, aircraft excise taxes are then increased by 2 percent each year.
+
+      Commercial unpiloted aircraft systems are made subject to the annual aircraft excise tax.
+
+      The increased amount of annual excise taxes, including the 2 percent annual adjustments, is
+      deposited into the Sustainable Aviation Fuel Account.
+
+      Sustainable Aviation Fuel Airport Infrastructure Account.
+
+      The Sustainable Aviation Fuel Airport Infrastructure Account is created in the state
+      treasury.  Twenty-eight percent of the revenue collected from aircraft fuel taxes by the
+      WSDOT, representing the increases in annual excise tax amounts, must be deposited in this
+      account.  These funds are subject to appropriation and may be used only for activities at
+      airports supporting sustainable aviation fuel infrastructure improvement and sustainable
+      aviation fuel infrastructure preservation projects.
+
+      Tire Fee.
+
+      Clarification is provided that the amount of the tire fee that a retailer is authorized to retain
+      is to be 25 cents per tire.
+
+
+      Registered Tow Truck Operators and the Department of Licensing Reimbursement Program
+      for Tows of Indigent Persons' Vehicles.
+
+      The program to reimburse RTTOs for the costs of towing indigent persons' vehicles is
+      delayed to July 1, 2027.
+
+      Clean Alternative Fuel Vehicle Report.
+
+      The report requirement is discontinued as of November 1, 2025.
+
+      Bus and Bus Facilities Grant Program.
+
+      The bus and bus facilities grant program is expanded to include safety or security
+      enhancements for transit rolling stock or transit facilities, except that grant funds may not be
+      used for expenses related to armed security.
+
+
+
+House Bill Report                                         - 7 -                                             ESHB 2711
+      Identicards and Older Drivers.
+
+      A program is established requiring the DOL to provide $5 reduced-fee identicards to
+      individuals70 years  or older who voluntarily replace their driver's license with an identicard
+      at the time the replacement is made.  The DOL must implement this program by January 1,
+      2028.
+
+      Toll Collection Communication.
+
+      The WSDOT is authorized to send toll bills and civil penalty notices by email, in addition to
+      by paper mail.  The email containing a toll charge bill or a notice of civil penalty must
+      prominently indicate that the contents are time sensitive and related to a toll violation.
+
+      Public Transportation Benefit Area Annexations.
+
+      Areas annexed into a PTBA under the annexation process enacted in 2025 are subject to the
+      taxes imposed by the PTBA.
+
+      Ferry Debit Card Surcharge.
+
+      The WSF is authorized to recover at least three percent in debit card transaction costs
+      related to the collection of ferry fares.
+
+      Account Interest Earnings.
+
+      Interest earnings from the following state accounts must remain with the respective
+      accounts:
+          •  the Agency Financial Transaction Account:
+          •  the Carbon Emissions Reduction Account;
+          •  the Climate Commitment Act Transportation Account;
+          •  the Complete Streets Grant Program Account;
+          •  the Cooper Jones Active Transportation Safety Account;
+          •  the Driver Licensing Technology Support Account;
+          •  the Ignition Interlock Device Revolving Account;
+          •  the Impaired Driving Safety Account;
+          •  the Interstate 5 Bridge Replacement Project Toll Facility Bond Retirement Account;
+          •  the License Plate Technology Account;
+          •  the Marine Fuel Tax Refund Account;
+          •  the Recreation Resource Account;
+          •  the Sandy Williams Connecting Communities Program Account;
+          •  the School Zone Safety Account;
+          •  the Sustainable Aviation Fuel Account; and
+          •  the Sustainable Aviation Fuel Airport Infrastructure Account.
+
+
+
+House Bill Report                                        - 8 -                                           ESHB 2711
+     Votes on Final Passage:
+
+            House       83    10
+            Senate      33    15    (Senate amended)
+            House       54    42    (House concurred)
+           Final Passage Votes
+      Effective:    June 11, 2026
+                    July 1, 2026 (Section 101, 102, 201–203, 301, and 302)
+                    March 31, 2026  (Section 401, 408, 601, and 1201)
+                    November 1, 2026 (Section 402 and 403)
+                    January 1, 2027 (Section 404, 406, and 407)
+                    July 1, 2031 (Section 405)
+                    Contingent (Section 1302)
+                    July 1, 2028 (Section 1303 and 1304)
+                    January 1, 2029 (Section 1305 and 1306)
+                    July 1, 2030 (Section 1308)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+House Bill Report                                      - 9 -                                          ESHB 2711

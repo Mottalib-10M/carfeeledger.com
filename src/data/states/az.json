@@ -1,0 +1,650 @@
+{
+ "abbr": "AZ",
+ "name": "Arizona",
+ "slug": "arizona",
+ "agency": {
+  "name": "Arizona Department of Transportation, Motor Vehicle Division",
+  "short": "MVD",
+  "url": "https://azdot.gov/mvd"
+ },
+ "taxAgency": {
+  "name": "Arizona Department of Revenue",
+  "url": "https://azdor.gov/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "The vehicle license tax is based on the manufacturer’s base retail price, not the price paid; without an MSRP the engine uses the price, which misstates the tax on a used car. Age is counted from the model year, while the law counts twelve-month periods from the first registration.",
+  "Electric and other alternative-fuel vehicles first registered in Arizona before 2023 kept a reduced vehicle license tax ($4 per $100 of 1% or 20% of the base price, minimum $5); the engine applies the regular rate to every vehicle.",
+  "Some cities (Glendale, Avondale, Goodyear, Buckeye, Marana, Kingman, Safford) list a lower rate for a “single item over” a threshold; the rate table does not say how it applies to a vehicle, so the city tax is shown as a range between the two rates.",
+  "Only the main cities and every county’s unincorporated area are listed; for another city, type its combined county and city rate.",
+  "The emissions test is applied to Maricopa County cities (area A) and Tucson-area cities in Pima County (area B); parts of Pinal and Yavapai counties near Phoenix are also in area A. Check the ADEQ map for your address.",
+  "Arizona sets no cap on the dealer documentation fee; type the dealer’s figure."
+ ],
+ "summary": {
+  "stateRate": 0.056,
+  "localRange": [
+   0.0,
+   0.05112
+  ],
+  "taxName": "transaction privilege tax (state, county and city)",
+  "tradeInCredit": true,
+  "titleFee": 4,
+  "regMethod": "flat",
+  "regYears": 1,
+  "docFeeCap": null,
+  "docFeeNote": "No legal cap; a separately stated, reasonable doc fee is not subject to transaction privilege tax.",
+  "evFee": null,
+  "phevFee": null,
+  "hybridFee": null,
+  "inspection": "emissions",
+  "inspectionWhere": "Emissions test in the Phoenix (every 2 years) and Tucson (every year) areas from the sixth registration year; electric vehicles exempt; no safety inspection.",
+  "inspectionFee": 16.15,
+  "annualValueTax": true
+ },
+ "params": {
+  "_src": "ador-rates, ars-28-5801, ars-28-2003, ars-49-551, adeq-fees",
+  "tax": {
+   "stateRate": 0.056,
+   "tradeInCredit": true,
+   "docFeeTaxable": false
+  },
+  "vlt": {
+   "valuePct": 0.6,
+   "firstRate": 2.8,
+   "laterRate": 2.89,
+   "decline": 0.1625,
+   "min": 10
+  },
+  "fees": {
+   "title": 4,
+   "reg": 8,
+   "airQuality": 1.5
+  },
+  "emissions": {
+   "A": {
+    "amount": 16.15,
+    "years": 2
+   },
+   "B": {
+    "amount": 16.15,
+    "years": 1
+   },
+   "exemptUnderAge": 5
+  }
+ },
+ "counties": [
+  {
+   "id": "phoenix",
+   "name": "Phoenix (Maricopa County)",
+   "countyRate": 0.007,
+   "cityRate": 0.027999999999999997,
+   "localRate": 0.035,
+   "tier": {
+    "over": 14338,
+    "rate": 0.02,
+    "portion": true
+   },
+   "area": "A"
+  },
+  {
+   "id": "tucson",
+   "name": "Tucson (Pima County)",
+   "countyRate": 0.005,
+   "cityRate": 0.026000000000000002,
+   "localRate": 0.031,
+   "area": "B"
+  },
+  {
+   "id": "mesa",
+   "name": "Mesa (Maricopa County)",
+   "countyRate": 0.007,
+   "cityRate": 0.02,
+   "localRate": 0.027,
+   "area": "A"
+  },
+  {
+   "id": "chandler",
+   "name": "Chandler (Maricopa County)",
+   "countyRate": 0.007,
+   "cityRate": 0.015,
+   "localRate": 0.022,
+   "area": "A"
+  },
+  {
+   "id": "gilbert",
+   "name": "Gilbert (Maricopa County)",
+   "countyRate": 0.007,
+   "cityRate": 0.02,
+   "localRate": 0.027,
+   "area": "A"
+  },
+  {
+   "id": "glendale",
+   "name": "Glendale (Maricopa County)",
+   "countyRate": 0.007,
+   "cityRate": 0.028999999999999998,
+   "localRate": 0.036,
+   "tier": {
+    "over": 5000,
+    "rate": 0.022000000000000002,
+    "portion": false
+   },
+   "area": "A"
+  },
+  {
+   "id": "scottsdale",
+   "name": "Scottsdale (Maricopa County)",
+   "countyRate": 0.007,
+   "cityRate": 0.017,
+   "localRate": 0.024,
+   "area": "A"
+  },
+  {
+   "id": "peoria",
+   "name": "Peoria (Maricopa County)",
+   "countyRate": 0.007,
+   "cityRate": 0.018000000000000002,
+   "localRate": 0.025,
+   "area": "A"
+  },
+  {
+   "id": "tempe",
+   "name": "Tempe (Maricopa County)",
+   "countyRate": 0.007,
+   "cityRate": 0.018000000000000002,
+   "localRate": 0.025,
+   "area": "A"
+  },
+  {
+   "id": "surprise",
+   "name": "Surprise (Maricopa County)",
+   "countyRate": 0.007,
+   "cityRate": 0.027999999999999997,
+   "localRate": 0.035,
+   "area": "A"
+  },
+  {
+   "id": "avondale",
+   "name": "Avondale (Maricopa County)",
+   "countyRate": 0.007,
+   "cityRate": 0.025,
+   "localRate": 0.032,
+   "tier": {
+    "over": 5000,
+    "rate": 0.015,
+    "portion": false
+   },
+   "area": "A"
+  },
+  {
+   "id": "goodyear",
+   "name": "Goodyear (Maricopa County)",
+   "countyRate": 0.007,
+   "cityRate": 0.025,
+   "localRate": 0.032,
+   "tier": {
+    "over": 5000,
+    "rate": 0.012,
+    "portion": false
+   },
+   "area": "A"
+  },
+  {
+   "id": "buckeye",
+   "name": "Buckeye (Maricopa County)",
+   "countyRate": 0.007,
+   "cityRate": 0.03,
+   "localRate": 0.037,
+   "tier": {
+    "over": 5000,
+    "rate": 0.011000000000000001,
+    "portion": false
+   },
+   "area": "A"
+  },
+  {
+   "id": "el-mirage",
+   "name": "El Mirage (Maricopa County)",
+   "countyRate": 0.007,
+   "cityRate": 0.03,
+   "localRate": 0.037,
+   "area": "A"
+  },
+  {
+   "id": "fountain-hills",
+   "name": "Fountain Hills (Maricopa County)",
+   "countyRate": 0.007,
+   "cityRate": 0.028999999999999998,
+   "localRate": 0.036,
+   "area": "A"
+  },
+  {
+   "id": "paradise-valley",
+   "name": "Paradise Valley (Maricopa County)",
+   "countyRate": 0.007,
+   "cityRate": 0.025,
+   "localRate": 0.032,
+   "area": "A"
+  },
+  {
+   "id": "queen-creek",
+   "name": "Queen Creek (Maricopa County)",
+   "countyRate": 0.007,
+   "cityRate": 0.0225,
+   "localRate": 0.0295,
+   "area": "A"
+  },
+  {
+   "id": "apache-junction",
+   "name": "Apache Junction (Maricopa County)",
+   "countyRate": 0.007,
+   "cityRate": 0.024,
+   "localRate": 0.031,
+   "tier": {
+    "over": 2000,
+    "rate": 0.013999999999999999,
+    "portion": true
+   },
+   "area": "A"
+  },
+  {
+   "id": "marana",
+   "name": "Marana (Pima County)",
+   "countyRate": 0.005,
+   "cityRate": 0.025,
+   "localRate": 0.03,
+   "tier": {
+    "over": 5000,
+    "rate": 0.02,
+    "portion": false
+   },
+   "area": "B"
+  },
+  {
+   "id": "oro-valley",
+   "name": "Oro Valley (Pima County)",
+   "countyRate": 0.005,
+   "cityRate": 0.025,
+   "localRate": 0.03,
+   "area": "B"
+  },
+  {
+   "id": "sahuarita",
+   "name": "Sahuarita (Pima County)",
+   "countyRate": 0.005,
+   "cityRate": 0.02,
+   "localRate": 0.025,
+   "area": "B"
+  },
+  {
+   "id": "yuma",
+   "name": "Yuma (Yuma County)",
+   "countyRate": 0.01112,
+   "cityRate": 0.017,
+   "localRate": 0.02812
+  },
+  {
+   "id": "san-luis",
+   "name": "San Luis (Yuma County)",
+   "countyRate": 0.01112,
+   "cityRate": 0.04,
+   "localRate": 0.05112,
+   "tier": {
+    "over": 2500,
+    "rate": 0.015,
+    "portion": true
+   }
+  },
+  {
+   "id": "flagstaff",
+   "name": "Flagstaff (Coconino County)",
+   "countyRate": 0.013,
+   "cityRate": 0.024860000000000004,
+   "localRate": 0.03786
+  },
+  {
+   "id": "sedona",
+   "name": "Sedona (Coconino County)",
+   "countyRate": 0.013,
+   "cityRate": 0.035,
+   "localRate": 0.048
+  },
+  {
+   "id": "lake-havasu-city",
+   "name": "Lake Havasu City (Mohave County)",
+   "countyRate": 0.0,
+   "cityRate": 0.02,
+   "localRate": 0.02
+  },
+  {
+   "id": "kingman",
+   "name": "Kingman (Mohave County)",
+   "countyRate": 0.0,
+   "cityRate": 0.03,
+   "localRate": 0.03,
+   "tier": {
+    "over": 10000,
+    "rate": 0.025,
+    "portion": false
+   }
+  },
+  {
+   "id": "bullhead-city",
+   "name": "Bullhead City (Mohave County)",
+   "countyRate": 0.0,
+   "cityRate": 0.02,
+   "localRate": 0.02
+  },
+  {
+   "id": "prescott",
+   "name": "Prescott (Yavapai County)",
+   "countyRate": 0.0075,
+   "cityRate": 0.029500000000000002,
+   "localRate": 0.037
+  },
+  {
+   "id": "prescott-valley",
+   "name": "Prescott Valley (Yavapai County)",
+   "countyRate": 0.0075,
+   "cityRate": 0.028300000000000002,
+   "localRate": 0.0358
+  },
+  {
+   "id": "cottonwood",
+   "name": "Cottonwood (Yavapai County)",
+   "countyRate": 0.0075,
+   "cityRate": 0.035,
+   "localRate": 0.0425
+  },
+  {
+   "id": "casa-grande",
+   "name": "Casa Grande (Pinal County)",
+   "countyRate": 0.011,
+   "cityRate": 0.02,
+   "localRate": 0.031,
+   "tier": {
+    "over": 5000,
+    "rate": 0.015,
+    "portion": true
+   }
+  },
+  {
+   "id": "maricopa",
+   "name": "Maricopa (Pinal County)",
+   "countyRate": 0.011,
+   "cityRate": 0.025,
+   "localRate": 0.036
+  },
+  {
+   "id": "san-tan-valley",
+   "name": "San Tan Valley (Pinal County)",
+   "countyRate": 0.011,
+   "cityRate": 0.0225,
+   "localRate": 0.0335
+  },
+  {
+   "id": "florence",
+   "name": "Florence (Pinal County)",
+   "countyRate": 0.011,
+   "cityRate": 0.035,
+   "localRate": 0.046
+  },
+  {
+   "id": "sierra-vista",
+   "name": "Sierra Vista (Cochise County)",
+   "countyRate": 0.01,
+   "cityRate": 0.0195,
+   "localRate": 0.0295
+  },
+  {
+   "id": "douglas",
+   "name": "Douglas (Cochise County)",
+   "countyRate": 0.01,
+   "cityRate": 0.038,
+   "localRate": 0.048,
+   "tier": {
+    "over": 10000,
+    "rate": 0.027999999999999997,
+    "portion": true
+   }
+  },
+  {
+   "id": "nogales",
+   "name": "Nogales (Santa Cruz County)",
+   "countyRate": 0.01,
+   "cityRate": 0.02,
+   "localRate": 0.03
+  },
+  {
+   "id": "show-low",
+   "name": "Show Low (Navajo County)",
+   "countyRate": 0.0083,
+   "cityRate": 0.02,
+   "localRate": 0.0283
+  },
+  {
+   "id": "payson",
+   "name": "Payson (Gila County)",
+   "countyRate": 0.01,
+   "cityRate": 0.0388,
+   "localRate": 0.0488
+  },
+  {
+   "id": "safford",
+   "name": "Safford (Graham County)",
+   "countyRate": 0.01,
+   "cityRate": 0.025,
+   "localRate": 0.035,
+   "tier": {
+    "over": 5000,
+    "rate": 0.01,
+    "portion": false
+   }
+  },
+  {
+   "id": "unincorporated-apache",
+   "name": "Unincorporated Apache County",
+   "countyRate": 0.005,
+   "cityRate": 0,
+   "localRate": 0.005
+  },
+  {
+   "id": "unincorporated-cochise",
+   "name": "Unincorporated Cochise County",
+   "countyRate": 0.01,
+   "cityRate": 0,
+   "localRate": 0.01
+  },
+  {
+   "id": "unincorporated-coconino",
+   "name": "Unincorporated Coconino County",
+   "countyRate": 0.013,
+   "cityRate": 0,
+   "localRate": 0.013
+  },
+  {
+   "id": "unincorporated-gila",
+   "name": "Unincorporated Gila County",
+   "countyRate": 0.01,
+   "cityRate": 0,
+   "localRate": 0.01
+  },
+  {
+   "id": "unincorporated-graham",
+   "name": "Unincorporated Graham County",
+   "countyRate": 0.01,
+   "cityRate": 0,
+   "localRate": 0.01
+  },
+  {
+   "id": "unincorporated-greenlee",
+   "name": "Unincorporated Greenlee County",
+   "countyRate": 0.005,
+   "cityRate": 0,
+   "localRate": 0.005
+  },
+  {
+   "id": "unincorporated-la-paz",
+   "name": "Unincorporated La Paz County",
+   "countyRate": 0.01,
+   "cityRate": 0,
+   "localRate": 0.01
+  },
+  {
+   "id": "unincorporated-maricopa",
+   "name": "Unincorporated Maricopa County",
+   "countyRate": 0.007,
+   "cityRate": 0,
+   "localRate": 0.007
+  },
+  {
+   "id": "unincorporated-mohave",
+   "name": "Unincorporated Mohave County",
+   "countyRate": 0.0,
+   "cityRate": 0,
+   "localRate": 0.0
+  },
+  {
+   "id": "unincorporated-navajo",
+   "name": "Unincorporated Navajo County",
+   "countyRate": 0.0083,
+   "cityRate": 0,
+   "localRate": 0.0083
+  },
+  {
+   "id": "unincorporated-pima",
+   "name": "Unincorporated Pima County",
+   "countyRate": 0.005,
+   "cityRate": 0,
+   "localRate": 0.005
+  },
+  {
+   "id": "unincorporated-pinal",
+   "name": "Unincorporated Pinal County",
+   "countyRate": 0.011,
+   "cityRate": 0,
+   "localRate": 0.011
+  },
+  {
+   "id": "unincorporated-santa-cruz",
+   "name": "Unincorporated Santa Cruz County",
+   "countyRate": 0.01,
+   "cityRate": 0,
+   "localRate": 0.01
+  },
+  {
+   "id": "unincorporated-yavapai",
+   "name": "Unincorporated Yavapai County",
+   "countyRate": 0.0075,
+   "cityRate": 0,
+   "localRate": 0.0075
+  },
+  {
+   "id": "unincorporated-yuma",
+   "name": "Unincorporated Yuma County",
+   "countyRate": 0.01112,
+   "cityRate": 0,
+   "localRate": 0.01112
+  }
+ ],
+ "defaultCounty": "phoenix",
+ "singular": [
+  "The yearly vehicle license tax is levied on 60% of the manufacturer’s base retail price at $2.80 per $100 in the first year, then on a value that drops 16.25% a year at $2.89 per $100 [ars-28-5801].",
+  "The vehicle license tax is never less than $10 a year [ars-28-5801-min].",
+  "Registration costs $8 and a certificate of title $4, among the lowest flat fees in the country [ars-28-2003].",
+  "Every registration adds a $1.50 air quality fee, except for electrically powered vehicles [ars-49-551].",
+  "The highway safety fee once collected with registration ended for registrations after June 30, 2021 [ars-28-2007].",
+  "A dealer sale pays the 5.6% state rate plus a county excise of up to 1.3% and a city rate; Phoenix taxes the portion of a single item above $14,338 at 2% instead of 2.8% [ador-rates].",
+  "The value of a trade-in is excluded from the taxed amount when it is deducted from the sales price [ars-42-5001].",
+  "A reasonable doc fee shown separately on the invoice is not subject to transaction privilege tax [ador-tpr97-2].",
+  "Cars in the Phoenix and Tucson areas need an emissions test from their sixth registration year, at $16.15 for the OBD test [adeq-fees].",
+  "Electrically powered vehicles are exempt from the emissions test [ars-49-542]."
+ ],
+ "sources": {
+  "ars-28-5801": {
+   "name": "A.R.S. § 28-5801, vehicle license tax rate",
+   "url": "https://www.azleg.gov/ars/28/05801.htm",
+   "quote": "During the first twelve months of the life of a vehicle ... the value of the vehicle is sixty percent of the manufacturer's base retail price ... During each succeeding twelve-month period ... the value of the vehicle is 16.25 percent less than the value for the preceding twelve-month period",
+   "accessed": "2026-10-11"
+  },
+  "ars-28-5801-min": {
+   "name": "A.R.S. § 28-5801(B)(3), minimum vehicle license tax",
+   "url": "https://www.azleg.gov/ars/28/05801.htm",
+   "quote": "The minimum amount of the vehicle license tax computed under this section is $10 per year for each vehicle that is subject to the tax.",
+   "accessed": "2026-10-11"
+  },
+  "ars-28-5805": {
+   "name": "A.R.S. § 28-5805, alternative fuel vehicles",
+   "url": "https://www.azleg.gov/ars/28/05805.htm",
+   "quote": "The registering officer shall collect the vehicle license tax on a motor vehicle that is powered by alternative fuel and that is initially registered from and after December 31, 2022 in accordance with section 28-5801.",
+   "accessed": "2026-10-11"
+  },
+  "ars-28-2003": {
+   "name": "A.R.S. § 28-2003, title and registration fees",
+   "url": "https://www.azleg.gov/ars/28/02003.htm",
+   "quote": "1. For each certificate of title, salvage certificate of title, restored salvage certificate of title or nonrepairable vehicle certificate of title, $4. ... 3. Except as provided in section 28-1177, for the registration of a motor vehicle, $8, except that the fee for motorcycles is $9.",
+   "accessed": "2026-10-11"
+  },
+  "ars-49-551": {
+   "name": "A.R.S. § 49-551, air quality fee",
+   "url": "https://www.azleg.gov/ars/49/00551.htm",
+   "quote": "shall pay, in addition to the registration fee, an annual air quality fee at the time of vehicle registration of $1.50. ... E. This section does not apply to an electrically powered golf cart or an electrically powered vehicle.",
+   "accessed": "2026-10-11"
+  },
+  "ars-28-2007": {
+   "name": "A.R.S. § 28-2007, highway safety fee (ended)",
+   "url": "https://www.azleg.gov/ars/28/02007.htm",
+   "quote": "Notwithstanding subsection A of this section, beginning from and after June 30, 2021, the registering officer may not collect a highway safety fee.",
+   "accessed": "2026-10-11"
+  },
+  "adot-oos": {
+   "name": "Arizona MVD, Out-of-State Vehicles (fee estimate)",
+   "url": "https://azdot.gov/mvd/services/vehicle-services/title-and-registration/out-state-vehicles",
+   "quote": "The following is required to obtain an Arizona title, registration and license plate ... VLT Fee: $0.00 Registration Fee: $8.00 Title Fee: $4.00 Air Quality Research Fee: $1.50 Total: $13.50",
+   "accessed": "2026-10-11"
+  },
+  "ador-rates": {
+   "name": "Arizona Department of Revenue, Transaction Privilege and Other Tax Rate Tables, effective October 1, 2026",
+   "url": "https://azdor.gov/sites/default/files/document/TPT_RATETABLE_10012026.pdf",
+   "quote": "Table 1 provides the tax rates which combine the state’s transaction privilege tax rate of 5.6% and the county excise tax rate. ... 017 Retail ... Maricopa (MAR) 6.30% ... Phoenix ... Retail Sales 017 2.80 Retail Sales (Single Item Portion over $14,338) 366 2.00",
+   "accessed": "2026-10-11"
+  },
+  "ars-42-5001": {
+   "name": "A.R.S. § 42-5001, definitions (trade-in, casual sales)",
+   "url": "https://www.azleg.gov/ars/42/05001.htm",
+   "quote": "does not include either: (a) Casual activities or sales. ... Gross income and gross proceeds of sales do not include ... the value of merchandise traded in on the purchase of new merchandise when the trade-in allowance is deducted from the sales price",
+   "accessed": "2026-10-11"
+  },
+  "ars-42-5155": {
+   "name": "A.R.S. § 42-5155, use tax",
+   "url": "https://www.azleg.gov/ars/42/05155.htm",
+   "quote": "There is levied and imposed an excise tax on the storage, use or consumption in this state of tangible personal property purchased from a retailer or utility business, as a percentage of the sales price.",
+   "accessed": "2026-10-11"
+  },
+  "ador-tpr97-2": {
+   "name": "Arizona Department of Revenue, Ruling TPR 97-2, Motor Vehicle Dealer's Documentation Fees",
+   "url": "https://azdor.gov/legal-research/rulings/tpr-97-2",
+   "quote": "Transaction privilege tax does not apply to doc fees if the fee is reasonable with respect to the value of the service provided and the fee is shown separately on the sales invoice and in the dealer's books and records.",
+   "accessed": "2026-10-11"
+  },
+  "adeq-fees": {
+   "name": "ADEQ myAZcar, Testing Information & Fees",
+   "url": "https://myazcar.com/testing-info-and-fees",
+   "quote": "Phoenix Area Fees ... On-board Diagnostic (OBD) | $16.15 ... Tucson Area Fees ... On-board Diagnostic (OBD) | $16.15",
+   "accessed": "2026-10-11"
+  },
+  "adeq-faq": {
+   "name": "ADEQ myAZcar, FAQs",
+   "url": "https://myazcar.com/faqs",
+   "quote": "Newer vehicles are exempt for the first 5 years of registration. ... Vehicles 1981 and newer that are light duty vehicles (not diesel) will require emissions every 2 years. Vehicles that are 1980 and older, and most vehicles in Tucson, require emissions every year.",
+   "accessed": "2026-10-11"
+  },
+  "ars-49-542": {
+   "name": "A.R.S. § 49-542, emissions inspection program (exemptions)",
+   "url": "https://www.azleg.gov/ars/49/00542.htm",
+   "quote": "(d) New vehicles before the sixth registration year after initial purchase or lease. ... (g) Electrically-powered vehicles.",
+   "accessed": "2026-10-11"
+  }
+ }
+}
