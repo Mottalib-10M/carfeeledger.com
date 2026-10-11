@@ -38,7 +38,7 @@ const r = calcState(def.slug);
 const ren = renewState(def.slug, 1);
 const srcLink = (k: string) => { const s = d.sources[k]; return s ? `<a href="${s.url}" target="_blank" rel="nofollow noopener noreferrer">${s.name.split(',')[0]}</a>` : ''; };
 const lineRows = r.lines.map((l) => [l.label + (l.deferred ? ' (within 12 months)' : ''), l.amount === null ? (l.range ? `${usd(l.range[0])} to ${usd(l.range[1])}` : 'varies') : usd(l.amount, 2), srcLink(l.source)]);
-const facts = d.singular.map((f) => f.replace(/\s*\[([a-z0-9-]+)\]\s*$/i, (_m, k) => (d.sources[k] ? ` <a href="${d.sources[k].url}" target="_blank" rel="nofollow noopener noreferrer">(${d.sources[k].name.split(',')[0]})</a>` : '')));
+const facts = d.singular.map((f) => f.replace(/\s*\[([a-z0-9-]+)\]\.?\s*$/i, (_m, k) => (d.sources[k] ? ` <a href="${d.sources[k].url}" target="_blank" rel="nofollow noopener noreferrer">(${d.sources[k].name.split(',')[0]})</a>.` : '.')));
 const rateTxt = S.localRange[1] > 0 ? `${pct(S.stateRate, 2)} + local ${pct(S.localRange[0], 2)} to ${pct(S.localRange[1], 2)}` : pct(S.stateRate, 2);
 ---
 <PageLayout title={def.title} description={def.description} lang={lang} jsonLd={jsonLd} faqs={def.faqs} related={related} sources={sources} breadcrumbs={[{ label: label(STATE_HUB), href: route(STATE_HUB, lang) }, { label: d.name }]}>

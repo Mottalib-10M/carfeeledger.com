@@ -22,7 +22,20 @@ export interface GParams {
     /** Tax charged on a used vehicle as a fixed amount plus rate on the rest (OK style): not used by default. */
     note?: string;
     localSource?: string;
+    /** Used-vehicle formula of a flat amount on the first $X then a rate on the rest (Oklahoma style). */
+    usedFlat?: { upTo: number; amount: number; rateAbove: number };
+    /** Local rate (county) capped at this amount of tax (e.g. Alabama/Tennessee style caps on local tax). */
+    localCap?: number;
   };
+  /** Extra state-level purchase taxes or percentage fees on the taxable price (e.g. a second state rate, a road fund %). */
+  taxExtra?: Array<{ id: string; label: string; rate: number; source: string; cap?: number; min?: number; if?: Cond; note?: string }>;
+  /**
+   * Value-based fees or taxes: amount = max(min, valueBase x pct x factor[k]) where k = vehicle age (depBy 'age')
+   * or years of ownership (depBy 'owned'), the last factor repeating. per100 = true means pct is per $100 (or use a plain decimal).
+   * round: 'ceil' rounds up to the dollar, 'dollar' to the nearest dollar. when 'once' = only at purchase.
+   * Optional `max` caps the amount. Optional `base: 'msrp'` uses the MSRP when typed (else the price).
+   */
+  valueFees?: Array<{ id: string; label: string; kind?: LineKind; pct: number; base: 'price' | 'msrp'; factors: number[]; depBy: 'age' | 'owned'; min?: number; max?: number; round?: 'ceil' | 'dollar'; when?: 'once' | 'cycle'; years?: number; source: string; if?: Cond; note?: string }>;
   /** Once-only fees at purchase: title, new plate, initial registration... */
   once: Fixed[];
   reg: { label: string; source: string; years?: number; type: 'flat'; amount: number }
@@ -79,20 +92,37 @@ const generic: StateEngine = (i, d) => {
   const base = taxableBase(i, { tradeInCredit: t.tradeInCredit, docFeeTaxable: t.docFeeTaxable });
   const stateRate = i.seller === 'private' && t.privateRate !== undefined ? t.privateRate : t.rate;
   let tax = base * stateRate;
+  if (t.usedFlat && i.condition === 'used') tax = base <= t.usedFlat.upTo ? t.usedFlat.amount : t.usedFlat.amount + (base - t.usedFlat.upTo) * t.usedFlat.rateAbove;
   if (t.cap !== undefined) tax = Math.min(tax, t.cap);
   const minApplied = t.minTax !== undefined && tax < t.minTax;
   if (minApplied) tax = t.minTax as number;
   const lr = localRate(i, d);
-  const localTax = lr * (t.localFirst !== undefined ? Math.min(base, t.localFirst) : base);
+  let localTax = lr * (t.localFirst !== undefined ? Math.min(base, t.localFirst) : base);
+  if (t.localCap !== undefined) localTax = Math.min(localTax, t.localCap);
   if (purchase) {
     lines.push(line({ id: 'sales-tax', label: t.label, kind: 'tax', amount: tax, when: 'once', source: t.source, note: t.cap !== undefined && base * stateRate > t.cap ? `Capped at $${t.cap.toLocaleString('en-US')}.` : minApplied ? `Minimum tax of $${t.minTax} applies.` : t.note }));
     if (lr > 0) lines.push(line({ id: 'local-tax', label: `Local tax (${+(lr * 100).toFixed(3)}%${t.localFirst ? ` on the first $${t.localFirst.toLocaleString('en-US')}` : ''})`, kind: 'tax', amount: localTax, when: 'once', source: t.localSource ?? t.source }));
+    for (const x of g.taxExtra ?? []) if (ok(x.if, i)) {
+      let a = base * x.rate; if (x.cap !== undefined) a = Math.min(a, x.cap); if (x.min !== undefined) a = Math.max(a, x.min);
+      lines.push(line({ id: x.id, label: x.label, kind: 'tax', amount: a, when: 'once', source: x.source, note: x.note }));
+    }
     for (const f of g.once) if (ok(f.if, i)) lines.push(line({ id: f.id, label: f.label, kind: f.kind ?? 'title', amount: f.amount, when: 'once', source: f.source, note: f.note }));
   }
   const yrs = g.reg.years ?? 1;
   lines.push(line({ id: 'reg', label: g.reg.label, kind: 'registration', amount: regAmount(g, i), years: yrs, when: 'cycle', source: g.reg.source }));
   const cty = county(i, d) as Record<string, unknown> | undefined;
   for (const f of g.cycle) if (ok(f.if, i, cty)) lines.push(line({ id: f.id, label: f.label, kind: f.kind ?? 'registration', amount: f.amount, years: f.years ?? yrs, when: 'cycle', source: f.source, note: f.note }));
+  for (const v of g.valueFees ?? []) {
+    if (!ok(v.if, i, cty)) continue;
+    if ((v.when ?? 'cycle') === 'once' && !purchase) continue;
+    const val = v.base === 'msrp' && i.msrp > 0 ? i.msrp : i.price;
+    const k = v.depBy === 'owned' ? i.ownedYears : age(i);
+    let a = val * v.pct * v.factors[Math.min(k, v.factors.length - 1)];
+    if (v.round === 'ceil') a = Math.ceil(a - 1e-9); else if (v.round === 'dollar') a = Math.round(a);
+    if (v.min !== undefined) a = Math.max(a, v.min);
+    if (v.max !== undefined) a = Math.min(a, v.max);
+    lines.push(line({ id: v.id, label: v.label, kind: v.kind ?? 'value', amount: a, years: v.years ?? yrs, when: v.when ?? 'cycle', source: v.source, note: v.note }));
+  }
   const c = county(i, d);
   if (g.countyFeeLabel && typeof c?.localFee === 'number') lines.push(line({ id: 'county-fee', label: `${g.countyFeeLabel} (${c.name})`, kind: 'local', amount: c.localFee, years: yrs, when: 'cycle', source: g.countyFeeSource ?? g.reg.source }));
   if (g.ev) {
