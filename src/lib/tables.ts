@@ -18,7 +18,7 @@ export function comparison(kind: TableKind): { headers: string[]; rows: Array<Ar
       case 'title': return [n, usd(S.titleFee, 2), money(sumK(r.lines, ['title', 'registration', 'plate', 'local', 'value']))];
       case 'renewal': return [n, money(renewState(s.slug, 1).perYear), money(renewState(s.slug, 1, { fuel: 'ev', weightLbs: 4200 }).perYear)];
       case 'inspection': return [n, S.inspection, S.inspectionFee === null ? '–' : Array.isArray(S.inspectionFee) ? `${usd(S.inspectionFee[0], 2)} to ${usd(S.inspectionFee[1], 2)}` : usd(S.inspectionFee, 2), S.inspectionWhere];
-      case 'ev': return [n, S.evFee === null ? 'none' : usd(S.evFee, 2), S.phevFee === null ? 'none' : usd(S.phevFee, 2), S.hybridFee === null ? 'none' : usd(S.hybridFee, 2)];
+      case 'ev': return [n, S.evFeeLabel ?? (S.evFee === null ? 'none' : usd(S.evFee, 2)), S.phevFeeLabel ?? (S.phevFee === null ? 'none' : usd(S.phevFee, 2)), S.hybridFee === null ? 'none' : usd(S.hybridFee, 2)];
       case 'docfee': return [n, S.docFeeCap === null ? 'no cap' : usd(S.docFeeCap, 2), S.docFeeNote];
       case 'property': return [n, S.annualValueTax ? 'yes' : 'no', money(sumK(r.lines, ['value']))];
       case 'otd': return [n, money(r.atPurchase), money(r.outTheDoor)];

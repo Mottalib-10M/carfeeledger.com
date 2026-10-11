@@ -127,6 +127,9 @@ export interface StateSummary {
   docFeeNote: string;
   /** Yearly EV surcharge (USD) or null if none. */
   evFee: number | null;
+  /** Text shown instead of evFee / phevFee when the 2026 amount is not published (e.g. indexed yearly from a statutory base). */
+  evFeeLabel?: string;
+  phevFeeLabel?: string;
   /** Yearly PHEV surcharge or null. */
   phevFee: number | null;
   /** Yearly hybrid (non plug-in) surcharge or null. */

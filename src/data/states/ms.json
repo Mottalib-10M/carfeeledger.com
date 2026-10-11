@@ -24,7 +24,10 @@
  ],
  "summary": {
   "stateRate": 0.05,
-  "localRange": [0, 0],
+  "localRange": [
+   0,
+   0
+  ],
   "taxName": "motor vehicle sales tax",
   "tradeInCredit": true,
   "titleFee": 9,
@@ -38,15 +41,28 @@
   "inspection": "none",
   "inspectionWhere": "Mississippi has no periodic safety or emissions inspection for private passenger cars.",
   "inspectionFee": null,
-  "annualValueTax": true
+  "annualValueTax": true,
+  "evFeeLabel": "$150 base, indexed",
+  "phevFeeLabel": "$75 base, indexed"
  },
  "params": {
   "_src": "mv-faq (rate, registration fee), biz-faq (casual sale), titles (title), code-2026 (privilege tax, tag fee split), ev-law (EV tax)",
-  "tax": { "rate": 0.05, "tradeInCredit": true, "docFeeTaxable": false, "privateExemptAge": 10 },
+  "tax": {
+   "rate": 0.05,
+   "tradeInCredit": true,
+   "docFeeTaxable": false,
+   "privateExemptAge": 10
+  },
   "title": 9,
   "privilege": 15,
-  "reg": { "tagAndDecals": 14, "decalsOnly": 12.75 },
-  "ev": { "evBase": 150, "hybridBase": 75 }
+  "reg": {
+   "tagAndDecals": 14,
+   "decalsOnly": 12.75
+  },
+  "ev": {
+   "evBase": 150,
+   "hybridBase": 75
+  }
  },
  "singular": [
   "Cars and light trucks of 10,000 lb or less pay a 5% sales tax instead of the 7% general rate, on the net price after dealer discounts and trade-in, with manufacturer rebates not deducted [mv-faq].",
