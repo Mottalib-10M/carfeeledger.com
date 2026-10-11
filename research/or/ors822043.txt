@@ -1,0 +1,311 @@
+
+ORS 822.043 – Dealer preparation and submission of documents; privilege tax
+OregonLaws
+Oregon Administrative Rules
+Oregon Revised Statutes
+ORCP
+Remove ads
+Login
+ ORS
+ Vol. 19
+ Title 59
+ Chap. 822. Regul. of Vehicle Related Businesses
+ § 822.043
+ORS 822.043
+Dealer preparation and submission of documents
+privilege tax
+Text
+Annotations
+(1)
+As used in this section:
+(a)
+“Integrator” has the meaning given that term in ORS 802.600 (Agreements to transact department business).
+(b)
+“Vehicle dealer” means a person issued a vehicle dealer certificate under ORS 822.020 (Issuance and renewal of certificate).
+(2)
+A vehicle dealer that the Department of Transportation has designated to act as an agent of the department under ORS 802.031 (Designation of dealers and others as agents of department) may elect to prepare, submit, or prepare and submit documents necessary to:
+(a)
+Issue or transfer a certificate of title for a vehicle;
+(b)
+Register a vehicle or transfer registration of a vehicle;
+(c)
+Issue a registration plate;
+(d)
+Verify and clear a title;
+(e)
+Perfect, release or satisfy a lien or other security interest;
+(f)
+Comply with federal security requirements; or
+(g)
+Render any other services for the purpose of complying with state and federal laws related to the sale of a vehicle.
+(3)
+A vehicle dealer who prepares any documents described in subsection (2) of this section:
+(a)
+May charge a purchaser of a vehicle a document processing fee for the preparation of those documents.
+(b)
+May not charge a purchaser of a vehicle a document processing fee for the submission of any document or the issuance of a registration plate.
+(c)
+May charge a purchaser of a vehicle a document processing fee for performing any of the services described in subsection (2) of this section in connection with preparing the documents described in subsection (2) of this section.
+(4)
+A purchaser of a vehicle may negotiate the amount of the document processing fee with a vehicle dealer, but in no case shall the document processing fee charged by a vehicle dealer under this section exceed:
+(a)
+$250, if the vehicle dealer uses an integrator; or
+(b)
+$200, if the vehicle dealer does not use an integrator.
+(5)
+If a vehicle dealer charges a document processing fee under subsection (4)(a) of this section, of the amount collected $35 shall be paid to the integrator.
+(6)
+Unless otherwise provided by rule, if a vehicle dealer uses an integrator and charges a document processing fee greater than that charged for not using an integrator, the dealer must inform the purchaser of the vehicle of the option of using an integrator to prepare the documents. The purchaser may then elect whether or not to have the vehicle dealer use an integrator to prepare the documents.
+(7)
+If the purchaser of a vehicle pays a document processing fee, the vehicle dealer shall prepare and submit all documents to complete the transaction as permitted by law.
+(8)
+Intentionally left blank —Ed.
+(a)
+A vehicle dealer who collects the privilege tax imposed under ORS 320.405 (Tax for privilege of engaging in business of selling motor vehicles at retail) from the purchaser of a taxable motor vehicle may collect the privilege tax at the same time and in the same manner as the vehicle dealer collects document processing fees under this section. The amount of the privilege tax shall be in addition to and not in lieu of document processing fees collected under this section.
+(b)
+A vehicle dealer may exclude the amount of the privilege tax from the capitalized cost and offering price of a taxable motor vehicle as those terms are defined by the Department of Justice by rule. [Formerly 802.033; 2015 c.708 §3; 2017 c.172 §1; 2017 c.750 §90a; 2023 c.232 §9]
+Note: 822.043 (Dealer preparation and submission of documents) was enacted into law by the Legislative Assembly but was not added to or made a part of the Oregon Vehicle Code or any chapter or series therein by legislative action. See Preface to Oregon Revised Statutes for further explanation.
+Source:
+Section 822.043 — Dealer preparation and submission of documents; privilege tax, https://www.­oregonlegislature.­gov/bills_laws/ors/ors822.­html (accessed May 26, 2025).
+822.005
+Acting as vehicle dealer without certificate
+822.007
+Injunction against person acting as vehicle dealer in violation of vehicle code or rule
+822.009
+Civil penalties for violations of statutes or rules
+822.015
+Exemptions from vehicle dealer certification requirement
+822.020
+Issuance and renewal of certificate
+822.022
+Restrictions on issuing certificates
+822.025
+Application contents
+822.027
+Education requirements for vehicle dealers
+822.030
+Bond or letter of credit requirements
+822.033
+Requirements for certificate of insurance
+822.035
+Investigation of application
+822.040
+Privileges granted by certificate
+822.042
+Procedures for transfer of interest in vehicle by vehicle dealer
+822.043
+Dealer preparation and submission of documents
+822.045
+Vehicle dealer offenses
+822.046
+Vehicle dealer’s duty to inform potential buyer if vehicle used for manufacture of controlled substances
+822.047
+Brokerage services
+822.048
+Remedy for failure to submit title
+822.050
+Revocation, cancellation or suspension of certificate
+822.055
+Failure to return revoked, canceled or suspended certificate
+822.060
+Illegal consignment practices
+822.065
+Violation of consigned vehicle transfer
+822.070
+Conducting illegal vehicle rebuilding business
+822.080
+Procedures for civil penalties imposed under ORS 822.009
+822.082
+“Recreational vehicle service facility” defined
+822.083
+“Show” defined
+822.084
+Show license
+822.086
+New recreational vehicle sales
+822.090
+Unlawful subleasing of motor vehicle
+822.093
+Sale of vehicles involving possessory liens
+822.094
+Transfer by lien claimant
+822.100
+Conducting a motor vehicle dismantling business without a certificate
+822.105
+Exemption from certificate requirement
+822.110
+Dismantler certificate
+822.115
+Application contents
+822.120
+Bond or letter of credit requirements
+822.125
+Privileges granted by certificate
+822.130
+Inspection of books, records, inventory and premises
+822.133
+Requirements of dismantler operating motor vehicle dismantling business
+822.135
+Improperly conducting motor vehicle dismantling business
+822.137
+Dismantler conduct resulting in civil penalty
+822.140
+Local government approval requirements
+822.145
+Imposition of sanctions
+822.150
+Failure to return revoked, canceled or suspended certificate or identification card
+822.200
+Operating illegal towing business
+822.205
+Certificate
+822.210
+Privileges granted by certificate
+822.213
+Transporting property for hire
+822.215
+Grounds for denial, suspension, revocation or refusal of certificate
+822.217
+Proportional registration for tow vehicles
+822.218
+Cancellation of identification device for proportionally registered tow vehicle
+822.220
+Authorization to obstruct traffic
+822.225
+Failure to remove injurious substance
+822.230
+City or county regulation of towing businesses
+822.235
+Recovery after theft
+822.250
+State Board of Towing
+822.255
+Chair and vice chair
+822.260
+Administrative officer for board
+822.265
+Rulemaking authority
+822.270
+State Board of Towing Account
+822.275
+Administration of oaths
+822.280
+Denial, suspension, revocation or refusal of towing business certificate
+822.285
+Additional powers of board
+822.290
+Denial of participation on Department of State Police tow rotation
+822.300
+Acting as vehicle transporter without certificate
+822.305
+Exemptions from vehicle transporter certification requirement
+822.310
+Privileges granted by certificate
+822.315
+Improper use of vehicle transporter plate
+822.325
+Failure to return revoked or suspended certificate
+822.500
+Operating commercial driver training school without certificate
+822.515
+Certificates
+822.600
+Failure of garage to report accident or bullet contact
+822.605
+False swearing relating to regulation of vehicle related businesses
+822.700
+Certification fees
+822.705
+Fee for issuance or renewal of vehicle dealer certificate
+822.990
+Civil penalties for violations of ORS 822.500
+822.992
+Civil penalties for violations related to dismantlers
+822.995
+Civil penalties for violations related to towing
+Current through early 2026
+§ 822.043. Dealer preparation & submission of documents's source at
+oregon .gov
+Stay Connected
+Join thousands of people who receive monthly site updates.
+Subscribe
+Get Legal Help
+The Oregon State Bar runs a service for finding
+an attorney in good standing. Initial consultations
+are usually free or discounted: Lawyer Referral Service
+Committed to Public Service
+We will always provide free access to the current law. In addition,
+we provide special support
+for non-profit, educational, and government users. Through social
+entre­pre­neurship, we’re lowering the cost of legal services and
+increasing citizen access.
+Navigate
+Find a Lawyer
+Blog
+About Us
+API
+Contact Us
+Reports
+Secondary Sources
+Privacy Policy
+California: | 
+Codes | 
+Colorado: | 
+C.R.S. | 
+Florida: | 
+Statutes | 
+Nevada: | 
+NRS | 
+New York: | 
+Laws | 
+Oregon: | 
+OAR, ORS | 
+Texas: | 
+Statutes | 
+World: | 
+Rome Statute, International Dictionary | 
+Location:
+https://oregon.public.law/statutes/ors_822.043
+Original Source:
+Section 822.043 — Dealer preparation and submission of documents; privilege tax,
+https://www.­oregonlegislature.­gov/bills_laws/ors/ors822.­html
+(last ac­cessed May 10, 2025).
+ Blank Outline Levels
+ ×
+ The legislature occasionally skips outline levels.
+ For example:
+(3) A person may apply [...]
+(4)(a) A person petitioning for relief [...]
+ In this example, (3), (4),
+ and (4)(a) are all outline levels, but 
+ (4) was
+ omitted by its authors. It's only implied. This presents an
+ interesting challenge when laying out the text. We've
+ decided to display a blank section with this note, in order
+ to aide readability.
+ Trust but verify.
+ Here is the original source for section 822.043
+ Do you have an opinion about this solution?
+ Drop us a line.
+ Close
+ORS Timeline
+This online publication of the ORS is up to date through
+early 2026.
+It consists of;
+the
+2023 edition
+of the ORS, and
+changes from the
+2024 regular session.
+Here's how the legislature
+describes the process
+ The ORS is published every two years. Each edition incorporates all laws, 
+ and changes to laws, enacted by the Legislative Assembly through the 
+ odd-numbered year regular session referenced in the volume titles for that 
+ edition.
+ The 2023 Edition does not include changes to the law enacted during the
+ 2024 regular session of the Eighty-second
+ Legislative Assembly. Changes to the law by the 2024 regular session
+ will be reflected in the 2025 Edition of Oregon Revised Statutes.…
+ The 2025 Edition will be available online in early 2026.
+Close

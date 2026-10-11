@@ -1,0 +1,12 @@
+SUT-6 - Single Article Tax - Overview and Application
+https://revenue.support.tn.gov/hc/en-us/articles/360058138992-SUT-6-Single-Article-Tax-Overview-and-Application
+updated 2025-03-27T14:59:35Z
+A single article is defined as one item of tangible personal property that is considered by common understanding to be a separate unit, apart from any accessories or extra parts. It should be capable of being sold as an independent unit. For example, a dining room table would be considered a single article. Multiple items of tangible personal property sold in sets, lots, suites, or other groupings that are sold for a single price are not single articles, such as a dining room set.
+The 7% state tax applies to the entire purchase price of the item or grouping of items. However, the local tax rate applies only to the first $1,600 of the sale price of a single article of tangible personal property. There is also an additional state tax of 2.75% applied to the amount in excess of $1,600 but less than or equal to $3,200.
+Assuming the local tax rate is 2.25%, state and local tax due on the sale of a dining room table that sold for $4,000 would be calculated in the following manner:
+State tax: full sales price is taxed at the general state tax rate 7%: $4,000 x 7% = $280.
+Local tax: first $1,600 of the price is taxed at the local rate 2.25%: $1,600 x 2.25% = $36.
+State tax: additional state tax at 2.75% on the price from $1601 to $3,200: $1,600 x 2.75% = $44.
+Total state and local tax due on the sale of the dining room table: $360.
+The sales price of taxable services, amusements, custom computer software, specified digital products and warranty or maintenance contracts are fully taxed at the local tax rate and are not taxed for the additional state tax rate at 2.75%. 
+Reference: Tenn. Code Ann. § 67-6-702.

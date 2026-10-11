@@ -1,0 +1,168 @@
+{
+ "abbr": "OR",
+ "name": "Oregon",
+ "slug": "oregon",
+ "agency": {
+  "name": "Oregon Driver & Motor Vehicle Services",
+  "short": "DMV",
+  "url": "https://www.oregon.gov/odot/dmv/"
+ },
+ "taxAgency": {
+  "name": "Oregon Department of Revenue",
+  "url": "https://www.oregon.gov/dor/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "Title and registration fees depend on the car's combined MPG rating, which the form does not ask: a gasoline car is computed in the 20-39 MPG band (most cars), with the under-20 and 40-plus amounts in the note; a hybrid or plug-in hybrid is shown as the official range between the 20-39 and 40-plus bands.",
+  "The DEQ emissions test applies only inside the Portland-area and Medford-area testing boundaries, which do not follow county lines; the calculator adds it for every address in Multnomah, Washington, Clackamas and Jackson counties.",
+  "The privilege tax is computed only on a new car bought from an Oregon dealer; a used car sold by a dealer with 7,500 miles or less that was never registered in Oregon is also taxable but is not detected by the form.",
+  "From July 1, 2027 (used electric cars) and January 1, 2028 (new electric cars), electric car owners pay an $86 two-year registration fee and choose a flat fee or a per-mile charge; the 2027-2028 amounts are not published yet, so later renewals use the 2026 fees.",
+  "Statute text was read in the 2025 edition of ORS chapter 320 and the 2023 edition of ORS chapter 822 through the Internet Archive copy of oregonlegislature.gov, which refused direct connections during this check."
+ ],
+ "summary": {
+  "stateRate": 0.005,
+  "localRange": [
+   0,
+   0
+  ],
+  "taxName": "vehicle privilege tax (new cars only; no sales tax)",
+  "tradeInCredit": false,
+  "titleFee": 106,
+  "regMethod": "mixed",
+  "regYears": 2,
+  "docFeeCap": 250,
+  "docFeeNote": "Capped at $250 when the dealer uses an integrator (electronic DMV processing), $200 otherwise; the buyer may negotiate it down.",
+  "evFee": 120,
+  "phevFee": null,
+  "hybridFee": null,
+  "inspection": "emissions",
+  "inspectionWhere": "DEQ emissions test every two years inside the Portland-area and Medford-area boundaries; cars of the last four model years and all-electric cars are exempt; no safety inspection.",
+  "inspectionFee": [
+   20,
+   25
+  ],
+  "annualValueTax": false
+ },
+ "params": {
+  "_src": "fees = DMV fee page; privilege = DOR page and ORS 320.405; deq-fees and deq-nmy = DEQ Vehicle Inspection Program",
+  "privilege": {
+   "rate": 0.005
+  },
+  "bands": {
+   "lt20": {
+    "title": 101,
+    "reg": 126
+   },
+   "mid": {
+    "title": 106,
+    "reg": 136
+   },
+   "gte40": {
+    "title": 116,
+    "reg": 216
+   },
+   "ev": {
+    "title": 192,
+    "reg": 376
+   }
+  },
+  "plate": 26,
+  "newTermMultiplier": 2,
+  "inspection": {
+   "newExemptYears": 4,
+   "years": 2,
+   "fees": {
+    "portland": 25,
+    "medford": 20
+   }
+  }
+ },
+ "counties": [
+  {
+   "id": "multnomah-county",
+   "name": "Multnomah County",
+   "localFee": 112,
+   "deq": "portland"
+  },
+  {
+   "id": "washington-county",
+   "name": "Washington County",
+   "localFee": 60,
+   "deq": "portland"
+  },
+  {
+   "id": "clackamas-county",
+   "name": "Clackamas County",
+   "localFee": 60,
+   "deq": "portland"
+  },
+  {
+   "id": "jackson-county",
+   "name": "Jackson County (Medford area)",
+   "localFee": 0,
+   "deq": "medford"
+  },
+  {
+   "id": "other",
+   "name": "Any other Oregon county",
+   "localFee": 0
+  }
+ ],
+ "defaultCounty": "multnomah-county",
+ "singular": [
+  "Oregon has no sales tax on cars; a new car sold by an Oregon dealer carries a 0.5% vehicle privilege tax that the dealer may pass on to the buyer [privilege].",
+  "The privilege tax is computed on the retail price, and neither a cash down payment nor a trade-in reduces it [privilege].",
+  "A buyer who brings home a new car from an out-of-state dealer owes the same 0.5% as a vehicle use tax before DMV will title it [privilege].",
+  "The title fee follows the car's combined MPG rating: $101 under 20 MPG, $106 from 20 to 39 MPG, $116 at 40 MPG or more and $192 for an all-electric car [fees].",
+  "A regular passenger registration lasts two years and costs $126, $136, $216 or $376 depending on the MPG band [fees].",
+  "A new car registered with its manufacturer's certificate of origin gets four years of registration, so the registration and county fees are doubled [fees].",
+  "Multnomah County adds $112 and Washington and Clackamas counties $60 to each two-year registration [fees].",
+  "Inside the Portland and Medford testing boundaries, gasoline and hybrid cars older than four model years pass a DEQ emissions test every two years for $25 or $20 [deq-fees].",
+  "A dealer document processing fee may not exceed $250 when the dealer uses an integrator, or $200 otherwise [doc-fee]."
+ ],
+ "sources": {
+  "fees": {
+   "name": "Oregon DMV, Vehicle Title, Registration and Permit Fees",
+   "url": "https://www.oregon.gov/odot/DMV/Pages/Fees/Vehicle.aspx",
+   "accessed": "2026-10-11",
+   "quote": "If the vehicle has a combined rating of 20 – 39 MPG, the fee is $106. ... For two-year registration: ... 20 - 39 MPG, the fee is $136. ... all electric and not enrolled in OReGO, the fee is $376*. ... Multnomah County, the county fee is $112."
+  },
+  "privilege": {
+   "name": "Oregon Department of Revenue, Vehicle Privilege and Use Taxes",
+   "url": "https://www.oregon.gov/dor/programs/businesses/Pages/Vehicle-privilege-and-use-taxes.aspx",
+   "accessed": "2026-10-11",
+   "quote": "One-half of 1 percent (.005) is due on the retail price of any taxable vehicle. ... Was driven 7,500 miles or less ... Cash down payments and/or trade-ins are not included in the retail sales price calculation."
+  },
+  "ors-320": {
+   "name": "ORS 320.405, privilege tax (2025 edition)",
+   "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors320.html",
+   "accessed": "2026-10-11",
+   "quote": "The privilege tax shall be computed at the rate of 0.5 percent of the retail sales price of the taxable motor vehicle. ... A vehicle dealer may collect the amount of the privilege tax computed on the retail sales price of a taxable motor vehicle from the purchaser"
+  },
+  "doc-fee": {
+   "name": "ORS 822.043, dealer document processing fee",
+   "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors822.html",
+   "accessed": "2026-10-11",
+   "quote": "in no case shall the document processing fee charged by a vehicle dealer under this section exceed: (a) $250, if the vehicle dealer uses an integrator; or (b) $200, if the vehicle dealer does not use an integrator."
+  },
+  "deq-fees": {
+   "name": "Oregon DEQ Vehicle Inspection Program, Fees",
+   "url": "https://www.oregon.gov/deq/Vehicle-Inspection/Pages/Fees.aspx",
+   "accessed": "2026-10-11",
+   "quote": "In the Portland Area, the vehicle testing fee is $25. This fee is due only after your vehicle receives a passing test result ... The Medford Area vehicle testing fee is $20."
+  },
+  "deq-nmy": {
+   "name": "Oregon DEQ, Recently Purchased and Newer Model Year Vehicles",
+   "url": "https://www.oregon.gov/deq/Vehicle-Inspection/Pages/nmy.aspx",
+   "accessed": "2026-10-11",
+   "quote": "If your vehicle is new (the model year is within the last four years), it is exempt from the testing requirements."
+  },
+  "deq-required": {
+   "name": "Oregon DEQ, Vehicles Tested and Exempted",
+   "url": "https://www.oregon.gov/deq/Vehicle-Inspection/Pages/Vehicles-Required-to-Test.aspx",
+   "accessed": "2026-10-11",
+   "quote": "All 1975 and newer cars, trucks, vans, motor homes and buses powered by gasoline, alternative fuels (such as propane) or hybrids registered within the Portland testing boundaries ... fully electric vehicles"
+  }
+ }
+}

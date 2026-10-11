@@ -1,0 +1,115 @@
+150-612-004-1 (Rev. 08-29-24)  1                                                                                             Form OR-591-C Instructions
+General instructions
+The vehicle use tax is 0.5 percent of the retail sales price 
+of taxable vehicles sold by a dealer outside of Oregon. A 
+taxable vehicle is one with up to 7 ,500 miles and a gross 
+vehicle weight rating (GVWR) of 26,000 lbs. or less. If 
+the vehicle doesn’t have an odometer, it’s taxable if it’s 
+sold with a manufacturer’s certificate of origin (MCO) 
+or manufacturer’s statement of origin (MSO). For more 
+information about which vehicle sales qualify, visit 
+  www.oregon.gov /dor.
+Once we have received and processed your return and 
+payment, we will send you a certificate of vehicle use 
+tax paid that you need to finish registering the vehicle 
+with the Department of Transportation, Driver and 
+Motor Vehicle Services (DMV). You can choose to have 
+the certificate sent by email or by standard mail.
+What is the applicable law? Oregon Revised Statutes 
+(ORS) 320.400–320.485.
+Form instructions
+Filer type.  Check if you are filing as a business with 
+and FEIN or and individual or sole proprietor with an 
+SSN.
+Sole Proprietor
+Individuals. (If sole proprietor using SSN).  Enter your 
+legal name.
+Social Security number (SSN). If you don’t have a FEIN, 
+enter your SSN.
+Business
+Businesses. Enter your business name as you filed it 
+with the Oregon Secretary of State.  
+Federal employer identification number (FEIN).   This 
+is a nine-digit number assigned by the IRS. Enter your 
+FEIN in this box.
+Doing business as (DBA). If you’re doing business under 
+a different name than the name above, enter that name 
+in this box.
+Date vehicle purchased. Enter the date the vehicle was 
+purchased.
+Mailing address. Enter your mailing address, city, state, 
+and ZIP code.
+Email address. If you want to receive an email with the 
+certificate showing the use tax has been paid, check the 
+box next to “Email my proof of tax paid certificate” and 
+provide your email address in the “Contact email” space. 
+Once the return and payment have been processed, the 
+certificate will be sent to the email address provided.
+If you don’t check the box, your certificate will be printed 
+and mailed.
+Due date. The return and payment are due 30 calendar 
+days following the date the vehicle was purchased.
+Penalty. If you don’t pay the tax by the due date, you’ll 
+be charged 5 percent of the unpaid tax. If you fail to file 
+within 30 days of the due date, an additional penalty of 
+20 percent of the unpaid tax will be due.
+Interest. Interest is charged on any unpaid tax from 
+the due date until the date payment in full is received. 
+The current interest rate can be found on our website at 
+ www.oregon.gov /dor.
+Vehicle information instructions
+Enter the make, year, vehicle identification number 
+(VIN), state and country where the vehicle was pur -
+chased. Please make sure the VIN is legible, as that will 
+be the number listed on your certificate.
+If you’re filing a return for a vehicle that doesn’t have a 
+VIN, enter the serial number. 
+Line instructions
+Line 1. Enter the cash sales price. The cash sales price is 
+not reduced by trade-in allowance or down payments, 
+and does not include charges for document fees, regis -
+tration fees, optional service contracts or extended war-
+ranties, gap insurance, etc. It does include any charges 
+for transportation of the vehicle before its sale. 
+Line 2. Enter the total of any dealer rebates or discounts.
+Line 3. Enter the total of any add-ons. Add-ons include 
+accessories, parts, or other products that are sold with a 
+vehicle, as well as any charges included for installation 
+or application labor, that are not included in the cash 
+sales price.
+Line 4.  Subtract line 2 from line 1, then add line 3 to 
+calculate the taxable sale amount.
+Line 5. Current tax rate.
+Line 6.  Multiply the taxable sale amount on line 4 by 
+0.005.
+Form OR-591-C Instructions
+Oregon Consumer Vehicle Use Tax Return 
+File your return on our website at  www.oregon.gov/dor.
+150-612-004-1 (Rev. 08-29-24)  2                                                                                             Form OR-591-C Instructions
+Line 7. Enter the total of any privilege, excise, sales, or 
+use taxes paid to another jurisdiction that are separately 
+stated on the sales documents. Only include taxes cal -
+culated on the value of the vehicle, not those calculated 
+on any services or charges that are not taxable to the 
+state of Oregon.
+Line 8. Subtract line 7 from line 6. This is your vehicle 
+use tax.
+How to file and pay
+Sign and date your return. Don’t use red ink or staple 
+your check or money order to this return. 
+Mail your return with payment to:
+ Oregon Vehicle Use Tax
+ Oregon Department of Revenue
+ PO Box 14630
+ Salem OR 97309-5050
+Do you have questions or need help?
+Oregon Special Business Programs
+ www.oregon.gov /dor/business
+503-945-8120
+osbp.help.dor@ dor.oregon.gov
+General information:
+ www.oregon.gov /dor
+503-378-4988 or 800-356-4222
+questions.dor@ dor.oregon.gov
+Contact us for ADA accommodations or assistance in 
+other languages.

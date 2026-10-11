@@ -1,0 +1,501 @@
+ 
+ 
+Briefing Paper  
+ 
+Utah State Legislature | Office of Legislative Research and General Counsel 
+ 
+ 
+ 
+  
+ 
+Vehicle Registration 
+Overview and Issues 
+ 
+ 
+ 
+ 
+Abstract 
+Vehicle registration fees are a key funding source for Utah’s state transportation systems, 
+including building new roads and ongoing maintenance on existing state roads. In recent 
+years, two issues related to out -of-state registration have become prevalent, including 
+Utah residents registering their vehicles , particularly luxury vehicles,  in Montana to avoid 
+sales tax , and registering commercial trailers in Idaho for administrative convenience and 
+lower registration fees . 
+ 
+Rachel Brooks, Policy Analyst 
+September 16, 2026 
+ 
+OLRGC is a nonpartisan staff office of the Legislature, and the contents of this document should not be 
+considered in support for or opposition to any particular policy. 
+ 
+ 
+2  Utah State Legislature | Office of Legislative Research and General Counsel 
+ 
+Table of Contents 
+ 
+Key Findings ....................................................................................................................................................... 3 
+Introduction ....................................................................................................................................................... 3 
+Vehicle Registration Fees and Taxes ................................................................................................................. 4 
+Registration fee ........................................................................................................................................................ 4 
+Uniform fee in lieu of property tax ............................................................................................................................. 5 
+Other fees and taxes ................................................................................................................................................. 6 
+Issues ................................................................................................................................................................. 7 
+“The Montana Loophole” ........................................................................................................................................... 7 
+Commercial trailers and out-of-state registrations ....................................................................................................... 9 
+Conclusion ........................................................................................................................................................ 11 
+Endnotes .......................................................................................................................................................... 12 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3  Utah State Legislature | Office of Legislative Research and General Counsel 
+ 
+Introduction 
+Vehicle registration serves multiple important purposes for the state, including vehicle identification for law 
+enforcement, regulation of other laws, including emissions testing, and record keeping related to titles, liens, 
+and ownership. One key purpose of vehicle registration is to be an integral source of transportation funding. 
+Registration fees function as a user fee for residents, which helps pay for Utah roads.  
+The Utah Constitution requires that vehicle registration fees be used for specific transportation purposes, 
+ensuring that they help pay for the state’s transportation system. Article XIII, Section 5, Subsection (6) 
+enumerates several allowable expenses for “proceeds from fees, taxes, and other charges related to the 
+operation of motor vehicles on public highway,” including: 
+• Costs of collection and administration 
+• Construction, maintenance, and repair of state and local roads 
+• Driver education 
+• Enforcement of state motor vehicle and traffic laws 
+• Payments for transportation-related bonds and debt obligations1 
+While some funds are retained by the Tax Commission’s Motor Vehicle Division (DMV) for its operations, the 
+majority of state registration fees go to the Transportation Fund. Vehicle registration fees make up about 12 
+percent of the Transportation Fund, reflecting approximately $104 million in Fiscal Year 2026.2 The largest 
+source of funding for the Transportation Fund is gas tax revenues, which make up about 75 percent of the 
+Transportation Fund’s revenue at approximately $668 million in FY2026.3   
+Additionally, the Utah Constitution requires property tax on tangible personal property. Article XIII, Section 2, 
+Subsection (6) states that the Legislature has the authority to exempt motor vehicles, boats, and other vehicles 
+required to be registered from property tax and instead establish a statewide uniform fee or tax.4 
+Key Findings 
+ Fees collected at the time of registration are comprised of three primary parts: 1) a state 
+vehicle registration fee; 2) a property tax component; and 3) other fees and taxes. 
+ Vehicle registration serves multiple important purposes, including funding for state 
+transportation systems. 
+ Utah citizens registering their vehicles out-of-state, including in Montana to avoid sales tax 
+and in Idaho for less expensive and more convenient trailer registration, has a negative 
+effect on Utah’s transportation systems.  
+ The Legislature could consider policy options to address out-of-state registration, including 
+a constitutional amendment to remove the requirement for property tax on certain vehicles 
+to compete with Idaho’s lower registration costs.  
+ 
+ 
+4  Utah State Legislature | Office of Legislative Research and General Counsel 
+ 
+Vehicle Registration Fees and Taxes 
+Utah’s vehicle registration fees and taxes consist of three primary components, which are all paid at the time of 
+registration to the DMV. While colloquially called “vehicle registration”, the 1) registration fee is only one part 
+of the total fees and taxes due, which also include 2) property tax, and 3) other fees. 
+Vehicles in Utah are primarily registered on an annual basis. A six-month registration option is available for 
+passenger cars and motorcycles, but it is infrequently used.5 As of January 1, 2026, certain vehicles that are 
+not subject to emissions inspections, which include trailers, off-highway vehicles, and electric vehicles, can 
+register for a two-year period.6 
+Additionally, non-commercial trailers under 750 pounds are exempt from registration. Permanent registration is 
+also available for certain trailers: 
+• Intrastate commercial trailers can be permanently registered for a $130 lifetime registration fee and a 
+$150 lifetime uniform fee in lieu of ad valorem property tax (See Page 10). 
+• Non-commercial trailers greater than 750 pounds can be permanently registered for a registration fee 
+four times the amount of the annual registration fee (currently $42), in addition to four times the 
+amount of the uniform fee in lieu of ad valorem property tax (corresponding age-based fee for the age 
+of the vehicle). 
+Registration fee 
+The registration fee is an amount set in statute by vehicle type (e.g., motorcycle, passenger car). Most fees are 
+indexed to inflation (Consumer Price Index) and adjusted annually by the Tax Commission on January 1.7 Due 
+to this annual adjustment, the fee amount assessed by the Tax Commission does not match the fee amount 
+listed in statute, which is not updated annually.  
+Figure 1 below shows the statutory fee amount for a 12-month registration compared to the adjusted 
+registration fee amount by vehicle type as of July 1, 2026.
+8  
+Figure 1: Selected9 Utah Registration Fees by Vehicle Type, Statutory Rates vs. Calendar Year 
+2026 Adjusted Rates 
+Vehicle Type Statutory fee Adjusted fee (2026) 
+Passenger vehicle with a GCWR10 of 14,000 
+pounds or less 
+$44 $58.25 
+Alternative fuel fee  
+These fees are in addition to the registration fee 
+above. 
+Electric11 and Other12: 
+$180 
+Hybrid Electric: $21.75 
+Plug-in Hybrid: $56.50 
+Electric and Other: $180 
+Hybrid Electric: $25 
+Plug-in Hybrid: $64 
+Motorcycle $46 $61.50 
+Vintage vehicle13 
+ 
+1983 or newer: $45.50 
+1982 or older: $40 initial; 
+exempt from renewal 
+1983 or newer: $60.25 
+1982 or older: $53.25 initial; 
+exempt from renewal 
+ATV $35 (statutory cap) $35 
+Street legal ATV and $72 (statutory cap) $72 
+ 
+ 
+5  Utah State Legislature | Office of Legislative Research and General Counsel 
+ 
+Street legal off-highway motorcycle  
+Snowmobile $26 (statutory cap) $26 
+Trailer over 750 pounds 
+Commercial trailer 750 pounds or less  
+Intrastate commercial trailer (not a travel trailer) 
+$31 
+$28.50 
+$130 (lifetime) 
+$42 
+$38 
+$171.50 
+Roadable aircraft $28.50 $29.50 
+Camper $0 (subject to county 
+property tax) 
+$0 
+Park model recreational vehicle 
+Motor vehicle over 14,000 pounds 
+$69.50, plus $19 for every 
+2,000 pounds over 16,000 
+GCVW 
+$92, plus $19 for every 
+2,000 pounds over 16,000 
+GCVW 
+ 
+Source: Utah State Tax Commission and Utah Code 41-1a-1206 
+2023 General Session H.B. 301, Transportation Tax Amendments, modified the gas tax and added an additional 
+$7 registration fee to most vehicles. This fee was added to statute as a separate $7 fee, rather than increasing 
+the base registration fees by vehicle type by $7 each. This registration fee is also indexed for inflation. The 
+adjusted amount is $7.50 for 2026. 
+Uniform fee in lieu of property tax 
+Utah assesses a uniform fee in lieu of property tax on vehicles registered in the state to meet the state’s 
+constitutional requirement for property tax on tangible personal property. This tax is collected by the Tax 
+Commission at the time of registration and remitted to local taxing authorities.  
+For most vehicles, this fee is assessed as an age-based fee, where age is a proxy for a vehicle’s value. 
+However, there are some vehicles where this fee is assessed as a value-based fee at 1.5 percent of the fair 
+market value of the vehicle as shown in Figure 2. 
+Figure 2: Utah Vehicles Assessed an Age-based vs. Value-based Uniform Fee in Lieu                       
+of Property Tax 
+Age-based fee Value-based fee 
+(1.5 percent Fair Market Value) 
+• Passenger vehicles, including cars, light trucks, and vans 
+• Off-highway vehicles 
+• Motorcycles 
+• Vessels under 31 feet in length 
+• Travel trailers, tent trailers, and campers 
+• Non-commercial trailers 
+• Personal watercraft 
+• Park model recreational vehicles 
+• Medium and heavy-duty trucks 
+(more than 14,001 pounds) 
+• Commercial trailers 
+• Vessels 31 feet and longer 
+Source: Utah Code Title 59, Chapter 2, Part 4 
+For vehicles assessed an age-based fee, each vehicle type has an age-based fee schedule in statute. For 
+example, the passenger vehicle fees are below in Figure 3. 
+ 
+ 
+6  Utah State Legislature | Office of Legislative Research and General Counsel 
+ 
+Figure 3: Uniform Statewide Fee for Passenger Cars, Light Trucks, Sport Utility Vehicles, and Vans 
+Model Year Uniform Statewide Age-based Fee 
+2024-2026  
+(Less than 3 years old) 
+$150 
+2021-2023 
+(3-6 years old) 
+$110 
+2018-2020 
+(6-9 years old) 
+$80 
+2015-2017 
+(9-12 years old) 
+$50 
+2014 & Older 
+(12+ years old) 
+$10 
+Source: Utah Code 59-2-405.1 
+Other fees and taxes 
+There are a variety of small fees assessed at the time of registration. Some fees are authorized in statute, 
+either as a fixed amount or subject to a statutory cap. Some fees are levied by the state and others at the local 
+government level.  
+Additionally, not all fees apply to all vehicle types. For example, the Brain and Spinal Cord Injury fee is only 
+imposed on motorcycles and off-highway vehicles. As shown in Figure 4, these fees often fund a specific 
+program or service. 
+Figure 4: Distribution and Fee Amount of Various Registration Fees and Taxes 
+Fee  State or local Fee amount Distribution 
+Air Pollution Control 
+(APC) fee 
+Local Up to $3.0014 
+(statutory cap) 
+Local health departments to fund 
+the county emissions inspection 
+programs 
+Corridor preservation 
+fee15 
+Local Up to $10 (statutory 
+cap) 
+County for corridor preservation 
+Electronic payment fee State  $3.00 DMV – Electronic Payment Fee 
+Restricted Account 
+Spinal cord injury State $1.00 for OHVs and 
+$0.50 for motorcycles 
+Brain and Spinal Cord Injury Fund 
+Driver’s education State $2.50 Uniform School Fund 
+Search and rescue State $0.50 Search and Rescue Financial 
+Assistance Program 
+Uninsured motorist 
+identification fee 
+State $1.00 DPS – Uninsured Motorist 
+Identification Restricted Account 
+License plate, title, and 
+other DMV service fees 
+State Varied DMV, except special group license 
+plate sponsoring entity 
+contributions  
+Source: Utah Code  
+ 
+ 
+7  Utah State Legislature | Office of Legislative Research and General Counsel 
+ 
+Issues  
+“The Montana Loophole” 
+A recurring vehicle registration issue in recent years has been out-of-state vehicle registrations to avoid taxes.16 
+As shown in Figure 5, Montana is one of five states that does not have a statewide sales tax (along with 
+Alaska, Delaware, New Hampshire, and Oregon).   
+Figure 5: State Sales Tax Rates, 202617 
+ 
+Source: Data - Tax Foundation; Map - OLRGC 
+Utah residents who purchase a vehicle and do not pay sales tax at the time of purchase are required to pay 
+use tax upon registration. Use tax is a tax imposed on an item when sales tax was not collected at the time of 
+purchase and is the buyer’s responsibility.  
+To avoid this, individuals will commonly purchase and subsequently register a vehicle in another state, such as 
+Montana, even though their primary residence is Utah; this is especially common with more expensive vehicles, 
+including luxury cars, RVs, and boats. Another way individuals avoid sales tax is to purchase a vehicle from a 
+
+ 
+ 
+8  Utah State Legislature | Office of Legislative Research and General Counsel 
+ 
+Utah dealership and claim that they reside in Montana and intend to register the vehicle there, resulting in the 
+dealer not collecting Utah sales tax at the time of the sale.  
+Additionally, there are many private companies that will help an individual form a business such as a limited 
+liability corporation (LLC) in Montana to avoid sales tax associated with vehicle purchases and registration.18 
+While registering a vehicle in an individual owner’s name in another state is illegal, creating an LLC and 
+registering vehicles under the business name is not illegal and has become a common loophole. In addition to 
+sales tax and possible registration fee benefits, registering a vehicle in Montana allows vehicle owners to avoid 
+emissions and safety inspections.    
+Current law 
+Upon establishing Utah residency, individuals are required to register their vehicle in the state within 60 days.19 
+Per Utah Code Section 41-1a-202(1)(c), as it relates to vehicle registration, the definition of “resident” is an 
+individual who: 
+• Establishes domicile in the state  
+• Remains in the state for an aggregate 
+period of more than six months in a 
+calendar year 
+• Works in the state on a non-seasonal 
+basis and does not commute into the 
+state; or 
+• Claims Utah residency to obtain a 
+driver license, register a vehicle, or benefits only available to residents, such as placing children in 
+school without paying non-resident tuition and fees. 
+There are residency exceptions for military members, out-of-state college students, and missionaries. There are 
+also residency requirements for businesses to determine if their vehicles should be treated as residents. Per 
+Utah Code Section 41-1a-202(1)(c)(i)(B), a “resident” is an individual, partnership, LLC, firm, corporation, 
+association, or other entity that: 
+• maintains a main office, branch office, or warehouse facility in this state and that bases and operates a 
+motor vehicle in this state; or 
+• operates a motor vehicle in intrastate transportation for non-seasonal work.  
+The residency requirements for an LLC or other entity are a different threshold than the requirements for an 
+individual. For example, if a Montana LLC has a warehouse in Utah and keeps a fleet of vehicles in the state, 
+the LLC is treated as a Utah resident for vehicle registration purposes.  
+As vehicle registration fees are an integral source of transportation funding, Utah residents registering their 
+vehicles in the state is critical for paying for state and local transportation infrastructure.  
+Legislative action 
+2025 General Session S.B. 52, Vehicle Registration Modifications, authorized the Tax Commission to contract 
+with Insure-Rite to compare insurance and registration records to determine compliance with Utah’s registration 
+and tax laws. The bill also created a $150 penalty for individuals found in violation of the law and provided 60 
+“Domicile” means a place where an individual has a fixed 
+permanent home and principal establishment, to which the 
+individual intends to return and where the individual and 
+their family voluntarily reside, not for a special or temporary 
+purpose, but with the intention of making a permanent 
+home.  
+ 
+ 
+9  Utah State Legislature | Office of Legislative Research and General Counsel 
+ 
+days for the owner to come into compliance. If the owner fails to come into compliance within 60 days, the Tax 
+Commission can impose a penalty equal to the greater of: 
+• $500; or 
+• an escalating penalty structure as shown in Figure 6. 20 
+Figure 6: Tax Commission Penalty Structure for Underpayment of Taxes 
+Cause of underpayment Penalty (percentage of the 
+underpayment) 
+Negligence 10 percent 
+Intentional disregard of law 15 percent 
+Intent to evade 50 percent 
+Fraud with intent to evade 100 percent 
+Source: Utah Code 59-1-401(7) 
+July 2026 data from the Tax Commission shows that in the previous six months of enforcement, 1,609 vehicles 
+were identified with Utah insurance and out-of-state registrations. Of these vehicles: 
+• 42 are registered in Alaska, one is registered in New Hampshire, 1,428 (88.8%) are registered in 
+Montana, and 136 are registered in Oregon21  
+• There are approximately 5 boats, 45 chassis, 66 medium duty commercial trucks or vans, 21 heavy duty 
+commercial trucks, 62 motorcycles, 4 trailers, 3 passenger buses, 6 ATVs, and 2 autocycles  
+• 1,393 are passenger cars and pickup trucks, with approximately 250 Ford pick-up trucks and more than 
+120 ultra-luxury vehicles including 17 Lamborghinis, 10 Ferraris, and 65 Porsches  
+• The five most common vehicles were: Ford F-150 (98), Ford F-350 Super Duty (80), Porsche 911 (38), 
+Tesla Model Y (31), and GMC Sierra 1500 (31) 
+The Tax Commission reported that as of June 26, 2026, it had issued 1,494 notices. 558 individuals responded 
+to those notices, paying a total of $1.6 million in sales tax and $32,540 in penalties. 
+If the Legislature is interested in additional measures to address this issue, policy considerations include: 
+• Exploring Utah’s current “residency” definition 
+• Addressing individuals who own a vehicle through an out-of-state entity but operate the vehicle in Utah 
+• Exploring longer registration periods including permanent registration 
+• Analyzing the penalties for tax and registration compliance 
+• Increasing resources for enforcement  
+• Engaging with surrounding state legislatures to address loopholes 
+Commercial trailers and out-of-state registrations 
+A second recurring vehicle registration issue in recent years has been a significant number of out-of-state 
+registrations of commercial trailers, particularly in Idaho. For purposes of this brief, references to trailers do not 
+include the power unit (truck). Power units are governed separately through apportioned registration 
+requirements under the International Registration Plan (IRP).22 
+ 
+ 
+10  Utah State Legislature | Office of Legislative Research and General Counsel 
+ 
+Many of these trailers are primarily operated in Utah but are registered in another state due to lower costs and 
+reduced administrative requirements. This is partly due to Utah’s constitutional requirement for property tax on 
+tangible personal property, meaning that trailers registered in Utah are subject to annual registration and 
+property tax.  
+By contrast, other states, including Idaho, do not assess property tax on vehicles, and allow a one-time 
+permanent or lifetime registration. In Utah, even if an individual participates in lifetime trailer registration, they 
+still need to interact with the DMV or a local government annually for property tax purposes. (2025’s H.B. 166 
+is the exception to this for intrastate commercial trailers only – see below).  
+While this issue is not endemic to Idaho, due to its proximity as a bordering state, trailers operated in Utah are 
+commonly registered in Idaho to save on cost and for convenience. For commercial entities, registering trailers 
+in Idaho may make financial and administrative sense. However, trailers that are registered outside the state 
+but operate on Utah’s roads may not contribute proportionally to the state’s transportation funding system, 
+despite benefitting from Utah’s transportation infrastructure.  
+States’ vehicle registration structures vary widely, including whether they assess property tax on vehicles and if 
+it is assessed at the state or county level. While Utah primarily uses an age-based fee as a proxy for vehicle 
+value, many other states, including neighboring states Arizona, Wyoming, Nevada, and Colorado, use a value-
+based fee structure. Some states assess an excise tax upon titling a vehicle, meaning that an individual pays 
+property tax once as opposed to annually. In some states, the registration fee itself is based on weight or age 
+of the vehicle.  
+Legislative action 
+In the 2025 General Session, the Legislature passed H.B. 166, Trailer Registration and Uniform Fee 
+Amendments, which allows certain trailer owners to pay a lifetime uniform fee. For an intrastate commercial 
+trailer that is not a travel trailer, the owner may elect to pay a $150 one-time fee in lieu of ad valorem property 
+tax that remains in effect for as long as the trailer is owned by that registrant. This is in addition to Utah’s 
+existing law, which allows trailers to register for a lifetime registration fee of $130.  
+Comparatively, Idaho, which does not assess property tax on vehicle registration, charges $99 for lifetime 
+trailer registration.23 While H.B. 166 does not make Utah competitive with Idaho in terms of cost ($280 versus 
+$99), it does reduce the administrative burden of registration for a subset of individuals.  
+In the 2026 General Session, the Legislature passed S.B. 190, Trailer Registration Amendments, which will take 
+effect on January 1, 2027. The bill allows lifetime registration for non-commercial trailers as long as they are 
+titled to the same owner. The owner must pay four times the annual taxes and fees, including the statewide 
+uniform fee in lieu of ad valorem property tax, and receive a non-expiring license plate decal. The bill also 
+established a $500 penalty for a person who fraudulently claims their trailer is an intrastate commercial trailer.  
+The Legislature could continue to modify Utah’s trailer registration laws. Policy considerations for possible 
+future legislative action include: 
+• Exploring where commercial trailers should be registered - the location where they primarily operate or 
+where the owner is located 
+• Considering a constitutional amendment to remove the requirement for property tax on trailers 
+ 
+ 
+11  Utah State Legislature | Office of Legislative Research and General Counsel 
+ 
+• Studying apportionment on trailers, similar to the IRP system for trucks, where trailers pay a percentage 
+per jurisdiction they operate in 
+Conclusion 
+Vehicle registration fees are a key component of funding Utah’s transportation system. In addition, the uniform 
+fee in lieu of ad valorem property tax paid as part of every vehicle registration funds local governments and 
+school districts.  
+In recent years, the Legislature has emphasized the importance of registration compliance and passed multiple 
+pieces of legislation aimed at capturing revenue from users of Utah’s roads who may not be paying their share. 
+Utah residents who register their vehicles in another state for the lower cost or convenience impact Utah’s 
+roads, bridges, and public schools.  
+In addition to state and local funding concerns, out-of-state vehicle registrations undermine tax compliance. 
+This creates tax equity concerns and reduces the accuracy of the state’s data on Utah’s fleet, which informs 
+transportation planning and infrastructure decisions. 
+  
+ 
+ 
+12  Utah State Legislature | Office of Legislative Research and General Counsel 
+ 
+Endnotes 
+ 
+1 Utah Constitution, Article XIII, § 5, Subsection (6), https://le.utah.gov/xcode/ArticleXIII/Article_XIII,_Section_5.html.  
+2Legislative Fiscal Analyst, 2025 presentation to the Transportation and Infrastructure Appropriations Subcommittee, 
+“UDOT Budget Overview”, June 17, 2025, https://le.utah.gov/interim/2025/pdf/00002714.pdf  
+3 Ibid.  
+4 Utah Constitution, Article XIII, Section 2, Subsection (6), 
+https://le.utah.gov/xcode/ArticleXIII/Article_XIII,_Section_2.html.  
+5 The DMV reports that there are 315 six-month registrations as of August 2026, out of more than 3.4 million total 
+registrations in the state.  
+6 H.B 514 (2025) https://le.utah.gov/Session/2025/bills/static/HB0514.html  
+7 The majority of registration fees are indexed and adjusted annually by the Tax Commission per Utah Code 41-1a-
+1206(3)(b). However, some fees are not adjusted including off-highway vehicles, snowmobiles, boats, street-legal all-
+terrain vehicles, and the extra weight fee per 2,000 pounds of weight over 16,000 pounds on farm trucks, heavy vehicles, 
+and park model recreational vehicles.    
+8 Several bills from the 2026 General Session will modify these fees, including H.B. 22 which will change vintage vehicle 
+registration on October 1, 2026 and S.B. 91 which will increase registration fees by $0.50 on January 1, 2027.  
+9 This document does not include an exhaustive list of all vehicles required to be registered, including watercraft and farm 
+trucks. 
+10 “Gross Combined Weight Rating” means the sum of gross vehicle weight rating (GVWR) of a vehicle and the weight of 
+any trailer attached to the vehicle and fully loaded. 
+11 “Electric” includes all electric motor vehicles and commercial electric vehicles with a GCWR of 6,001 pounds or more. 
+12 “Other” is a fuel other than gasoline, diesel, flex fuel, natural gas, electric, hybrid, plug-in hybrid, or propane. 
+13 H.B. 22 in the 2026 General Session modified vintage vehicle registration fees and will take effect on October 1, 2026. 
+Under the new structure, vehicles older than model year 1982 will be considered “classic cars” and will pay a one-time 
+registration fee of $40 (adjusted to $53.25 in 2026) and be exempt from renewal fees. Vehicles with a model year of 1983 
+and newer will be treated as regular passenger cars and pay the standard registration fee.   
+14 Only in the five emissions counties. Cache, Davis, and Salt Lake County assess a $3.00 fee. Utah and Weber Counties 
+assess a $2.00 fee.  
+15 Imposed in Box Elder, Davis, Iron, Morgan, Salt Lake, Summit, Tooele, Utah, Wasatch, Washington, and Weber 
+Counties. 
+16 Many news articles on this topic over the past two years, including national https://news.bloombergtax.com/daily-tax-
+report/utah-takes-montana-license-plate-fight-to-80-000-vehicle-owners and local publications 
+https://www.kuer.org/politics-government/2026-07-28/utah-is-cracking-down-on-scofflaws-using-the-montana-car-
+registration-loophole. 
+17 Utah’s state sales tax rate is 4.85 percent. However, there are two additional sales taxes that are charged uniformly 
+across the state: a 1.00 percent local sales tax and a 0.25 percent county option sales tax. These three taxes result in a 
+combined sales tax rate of 6.1 percent. Additionally, local governments also impose a variety of local option sales taxes, 
+authorized by the Legislature, including transportation, tourism, and zoo, arts, and parks taxes. 
+18 All Day $49 Montana is one such company, which advertises that they will help you form an LLC, title and register your 
+vehicle, all to avoid paying sales tax for $1,049. Their website states they are “on the way to helping over 100,000 clients.” 
+https://www.49dollarmontanaregisteredagent.com/montana-vehicle-registration; Another company, Montana Tags, 
+advertises that Montana LLC registration is legal in all 50 states https://montanatags.com/.  
+19 Utah Code 41-4a-202(3)(a) 
+20 This penalty structure, found in 59-1-401(7), was an already existing penalty structure and was not created by S.B. 52. 
+21 One vehicle reported by the Tax Commission was reported as “unregistered”.  
+22 Created in the early 1970s, IRP is an international agreement between the 48 contiguous U.S states, the District of 
+Columbia, and ten Canadian provinces to manage reciprocity of commercial vehicle registration. Vehicles are registered in 
+their home jurisdiction and pay a percentage fee based on distance traveled in each jurisdiction. IRP facilitates the 
+registration of commercial vehicles that operate across state and provincial borders, simplifying registration and 
+ 
+ 
+13  Utah State Legislature | Office of Legislative Research and General Counsel 
+ 
+ 
+administrative burden for interstate commercial travel and distributing registration fees across jurisdictions. IRP, now an 
+independent organization, manages registration for more than three million commercial vehicles.  
+23 Idaho Code, Title 49, Chapter 4, Section 436, Subsection (6) 
+https://legislature.idaho.gov/statutesrules/idstat/title49/t49ch4/sect49-434/  

@@ -1,0 +1,5 @@
+SUT-15 - Uniform Local Sales Tax Rate
+https://revenue.support.tn.gov/hc/en-us/articles/360058139912-SUT-15-Uniform-Local-Sales-Tax-Rate
+updated 2025-03-27T14:59:35Z
+Effective October 1, 2019, the election to use a uniform local Tennessee sales tax rate is not available to taxpayers. Regardless of when a lease contract was signed, the vendor will collect local sales tax at the local jurisdiction’s rate. This includes leases that were entered into before October 1 where the vendor was collecting local sales tax using the uniform rate.
+The Department of Revenue maintains a list of local sales tax rates on its website here.

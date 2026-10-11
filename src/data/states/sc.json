@@ -1,0 +1,118 @@
+{
+ "abbr": "SC",
+ "name": "South Carolina",
+ "slug": "south-carolina",
+ "agency": {
+  "name": "South Carolina Department of Motor Vehicles",
+  "short": "SCDMV",
+  "url": "https://www.scdmvonline.com/"
+ },
+ "taxAgency": {
+  "name": "South Carolina Department of Revenue",
+  "url": "https://dor.sc.gov/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "Every county taxes cars as personal property each year (county, school and city millage on an assessed value set by the county auditor), and the tax must be paid before the registration is issued or renewed; there is no statewide table, so the line has no amount.",
+  "On a private sale the infrastructure maintenance fee is 5% of the fair market value, which may be the price paid or a value from a national used-car guide adopted by SCDMV; the engine uses the price you type.",
+  "Whether a dealer closing fee is part of the gross proceeds that bear the 5% fee was not confirmed in the sections read; the engine leaves it out (it only matters when the fee is below the $500 cap).",
+  "The figures come from the South Carolina Code of Laws; the SCDMV website refused connections during this check."
+ ],
+ "summary": {
+  "stateRate": 0.05,
+  "localRange": [0, 0],
+  "taxName": "infrastructure maintenance fee (5%, $500 maximum)",
+  "tradeInCredit": true,
+  "titleFee": 15,
+  "regMethod": "flat",
+  "regYears": 2,
+  "docFeeCap": null,
+  "docFeeDefault": 225,
+  "docFeeNote": "No cap: a dealer files its closing fee with the Department of Consumer Affairs, and a fee of $225 or less is deemed approved; a higher fee can be reviewed for reasonableness.",
+  "evFee": 60,
+  "phevFee": 30,
+  "hybridFee": 30,
+  "inspection": "none",
+  "inspectionWhere": "No safety or emissions inspection for private passenger cars.",
+  "inspectionFee": null,
+  "annualValueTax": true
+ },
+ "params": {
+  "g": {
+   "tax": {
+    "label": "Infrastructure maintenance fee (5%, max $500)",
+    "rate": 0.05,
+    "cap": 500,
+    "tradeInCredit": true,
+    "docFeeTaxable": false,
+    "source": "imf",
+    "note": "5% of the price minus the trade-in, never more than $500; replaces the sales tax on cars."
+   },
+   "once": [
+    { "id": "title", "label": "Certificate of title", "amount": 15, "source": "title", "kind": "title" }
+   ],
+   "reg": { "label": "Biennial registration (private passenger car)", "source": "reg", "type": "flat", "amount": 40, "years": 2 },
+   "cycle": [],
+   "ev": { "ev": 60, "phev": 30, "hybrid": 30, "source": "road-use", "label": "Road use fee (biennial)" },
+   "ranges": [
+    { "id": "property-tax", "label": "County personal property tax on the car", "range": null, "kind": "value", "source": "property", "note": "Billed by your county each year at local millage; it must be paid before the registration is issued or renewed." }
+   ]
+  }
+ },
+ "singular": [
+  "South Carolina does not charge sales tax on a car: it collects an infrastructure maintenance fee of 5% of the price, capped at $500, when the car is first titled or registered in the state [imf].",
+  "The $500 cap is reached at a $10,000 price, so every car above that pays the same fee [imf].",
+  "A newcomer who already registered the car in another state pays a flat $250 infrastructure maintenance fee, and active-duty military are exempt [imf].",
+  "The value allowed for a trade-in is left out of the gross proceeds on which the 5% is computed [gross-proceeds].",
+  "Registration is biennial: $40 every two years for a private passenger car, $38 at age 64 and $36 at 65 or older [reg].",
+  "An all-electric car pays a biennial road use fee of $120 and a hybrid or plug-in hybrid $60, collected when the car is titled or registered [road-use].",
+  "A certificate of title, or its transfer, costs $15 [title].",
+  "SCDMV cannot issue a registration until the county property tax on the car for that year is paid [property].",
+  "A dealer closing fee of $225 or less is deemed approved by the Department of Consumer Affairs, and the fee must be displayed in the dealership and shown in advertisements [doc-fee]."
+ ],
+ "sources": {
+  "imf": {
+   "name": "S.C. Code § 56-3-627, infrastructure maintenance fee",
+   "url": "https://www.scstatehouse.gov/code/t56c003.php",
+   "accessed": "2026-10-11",
+   "quote": "If upon purchasing or leasing the item from a dealer, the owner or lessee first registers the item in this State, then the fee equals five percent, not to exceed five hundred dollars, of the gross proceeds of sales ... the fee equals two hundred fifty dollars."
+  },
+  "reg": {
+   "name": "S.C. Code § 56-3-620, biennial registration fees",
+   "url": "https://www.scstatehouse.gov/code/t56c003.php",
+   "accessed": "2026-10-11",
+   "quote": "(B) For persons under the age of sixty-five years the biennial registration fee for every private passenger motor vehicle, excluding trucks, is forty dollars."
+  },
+  "road-use": {
+   "name": "S.C. Code § 56-3-645, road use fees for electric and hybrid vehicles",
+   "url": "https://www.scstatehouse.gov/code/t56c003.php",
+   "accessed": "2026-10-11",
+   "quote": "shall pay a biennial road use fee of one hundred twenty dollars; and (2) by a combination of motor fuel ... and electricity ... shall pay a biennial road use fee of sixty dollars."
+  },
+  "title": {
+   "name": "S.C. Code § 56-19-420, certificate of title fee",
+   "url": "https://www.scstatehouse.gov/code/t56c019.php",
+   "accessed": "2026-10-11",
+   "quote": "(A) The Department of Motor Vehicles shall charge fifteen dollars for: (1) the issuance of a certificate of title; (2) the transfer of a certificate of title;"
+  },
+  "gross-proceeds": {
+   "name": "S.C. Code § 12-36-90, gross proceeds of sales",
+   "url": "https://www.scstatehouse.gov/code/t12c036.php",
+   "accessed": "2026-10-11",
+   "quote": "(2) The term does not include: ... (c) the value allowed for secondhand property transferred to the vendor as a trade-in;"
+  },
+  "property": {
+   "name": "S.C. Code §§ 12-37-2610 and 12-37-2640, property tax on motor vehicles",
+   "url": "https://www.scstatehouse.gov/code/t12c037.php",
+   "accessed": "2026-10-11",
+   "quote": "A registration may not be issued for motor vehicles until the ad valorem tax is paid for the year for which the registration is to be issued. ... The auditor shall determine the assessed value of the motor vehicle and shall calculate the amount of taxes on the vehicle."
+  },
+  "doc-fee": {
+   "name": "S.C. Code § 37-2-307, motor vehicle closing fees",
+   "url": "https://www.scstatehouse.gov/code/t37c002.php",
+   "accessed": "2026-10-11",
+   "quote": "If the maximum amount of the proposed closing fee the dealer intends to charge is not more than two hundred twenty-five dollars for each vehicle, the closing fee is considered to be approved by the department"
+  }
+ }
+}

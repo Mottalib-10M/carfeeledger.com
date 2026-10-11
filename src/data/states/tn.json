@@ -1,0 +1,640 @@
+{
+ "abbr": "TN",
+ "name": "Tennessee",
+ "slug": "tennessee",
+ "agency": {
+  "name": "Tennessee Department of Revenue, Vehicle Services (county clerks)",
+  "short": "DOR",
+  "url": "https://www.tn.gov/revenue/title-and-registration.html"
+ },
+ "taxAgency": {
+  "name": "Tennessee Department of Revenue",
+  "url": "https://www.tn.gov/revenue.html"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "Counties add a wheel tax and clerk fees to the registration; the Department of Revenue publishes no statewide table, so that line has no amount.",
+  "Local rates are the county-wide rates of the Department of Revenue rate file of March 2025 (the latest copy that could be read; tn.gov refused connections during this check), plus the 0.5% Nashville transit surcharge the Department's rate map shows for Davidson County. Many cities levy a higher rate than their county, up to 2.75%: type your city's rate if it differs.",
+  "The trade-in credit rests on Tenn. Code Ann. § 67-6-510(a), read through the Department's article on traded-in manufactured homes; no vehicle-specific article on trade-ins was found.",
+  "From 2028 the electric, hybrid and plug-in hybrid fees are indexed to inflation and the amounts are not published yet; renewals from 2028 show that line without an amount.",
+  "The title fee is the $11 state fee; county clerks may add processing fees that vary by county."
+ ],
+ "summary": {
+  "stateRate": 0.07,
+  "localRange": [
+   0.02,
+   0.0275
+  ],
+  "taxName": "sales tax plus single article tax",
+  "tradeInCredit": true,
+  "titleFee": 11,
+  "regMethod": "flat",
+  "regYears": 1,
+  "docFeeCap": null,
+  "docFeeNote": "No cap was found; the county clerk collects sales tax on the dealer's document fee.",
+  "evFee": 200,
+  "phevFee": 100,
+  "hybridFee": 100,
+  "inspection": "none",
+  "inspectionWhere": "No safety or emissions inspection: emissions testing ended on January 14, 2022 in Hamilton, Rutherford, Sumner, Williamson and Wilson counties and on February 4, 2022 in Davidson County.",
+  "inspectionFee": null,
+  "annualValueTax": false
+ },
+ "params": {
+  "_src": "sales-tax = DOR VTR-34; single-article = DOR SUT-6 (Tenn. Code Ann. 67-6-702); local-rates = DOR rate file TNR2025Q1MAR07; title = DOR LIEN-10; reg = DOR VR-4; ev-fee = DOR VR-5",
+  "tax": {
+   "rate": 0.07,
+   "tradeInCredit": true,
+   "docFeeTaxable": true,
+   "localFirst": 1600,
+   "singleArticle": {
+    "rate": 0.0275,
+    "from": 1600,
+    "to": 3200
+   }
+  },
+  "title": 11,
+  "reg": 26.5,
+  "ev": {
+   "ev": [
+    {
+     "from": 2024,
+     "fee": 200
+    },
+    {
+     "from": 2027,
+     "fee": 274
+    },
+    {
+     "from": 2028,
+     "fee": null
+    }
+   ],
+   "hybrid": [
+    {
+     "from": 2024,
+     "fee": 100
+    },
+    {
+     "from": 2028,
+     "fee": null
+    }
+   ]
+  }
+ },
+ "counties": [
+  {
+   "id": "anderson-county",
+   "name": "Anderson County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "bedford-county",
+   "name": "Bedford County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "benton-county",
+   "name": "Benton County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "bledsoe-county",
+   "name": "Bledsoe County",
+   "localRate": 0.0225
+  },
+  {
+   "id": "blount-county",
+   "name": "Blount County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "bradley-county",
+   "name": "Bradley County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "campbell-county",
+   "name": "Campbell County",
+   "localRate": 0.0225
+  },
+  {
+   "id": "cannon-county",
+   "name": "Cannon County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "carroll-county",
+   "name": "Carroll County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "carter-county",
+   "name": "Carter County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "cheatham-county",
+   "name": "Cheatham County",
+   "localRate": 0.0225
+  },
+  {
+   "id": "chester-county",
+   "name": "Chester County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "claiborne-county",
+   "name": "Claiborne County",
+   "localRate": 0.0225
+  },
+  {
+   "id": "clay-county",
+   "name": "Clay County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "cocke-county",
+   "name": "Cocke County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "coffee-county",
+   "name": "Coffee County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "crockett-county",
+   "name": "Crockett County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "cumberland-county",
+   "name": "Cumberland County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "davidson-county",
+   "name": "Davidson County",
+   "localRate": 0.0275,
+   "note": "2.25% county rate plus the 0.5% Nashville transit surcharge in force since February 1, 2025.",
+   "rateSource": "davidson"
+  },
+  {
+   "id": "decatur-county",
+   "name": "Decatur County",
+   "localRate": 0.025
+  },
+  {
+   "id": "dekalb-county",
+   "name": "DeKalb County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "dickson-county",
+   "name": "Dickson County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "dyer-county",
+   "name": "Dyer County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "fayette-county",
+   "name": "Fayette County",
+   "localRate": 0.0225
+  },
+  {
+   "id": "fentress-county",
+   "name": "Fentress County",
+   "localRate": 0.025
+  },
+  {
+   "id": "franklin-county",
+   "name": "Franklin County",
+   "localRate": 0.0225
+  },
+  {
+   "id": "gibson-county",
+   "name": "Gibson County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "giles-county",
+   "name": "Giles County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "grainger-county",
+   "name": "Grainger County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "greene-county",
+   "name": "Greene County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "grundy-county",
+   "name": "Grundy County",
+   "localRate": 0.0225
+  },
+  {
+   "id": "hamblen-county",
+   "name": "Hamblen County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "hamilton-county",
+   "name": "Hamilton County",
+   "localRate": 0.0225
+  },
+  {
+   "id": "hancock-county",
+   "name": "Hancock County",
+   "localRate": 0.02
+  },
+  {
+   "id": "hardeman-county",
+   "name": "Hardeman County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "hardin-county",
+   "name": "Hardin County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "hawkins-county",
+   "name": "Hawkins County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "haywood-county",
+   "name": "Haywood County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "henderson-county",
+   "name": "Henderson County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "henry-county",
+   "name": "Henry County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "hickman-county",
+   "name": "Hickman County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "houston-county",
+   "name": "Houston County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "humphreys-county",
+   "name": "Humphreys County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "jackson-county",
+   "name": "Jackson County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "jefferson-county",
+   "name": "Jefferson County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "johnson-county",
+   "name": "Johnson County",
+   "localRate": 0.02
+  },
+  {
+   "id": "knox-county",
+   "name": "Knox County",
+   "localRate": 0.0225
+  },
+  {
+   "id": "lake-county",
+   "name": "Lake County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "lauderdale-county",
+   "name": "Lauderdale County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "lawrence-county",
+   "name": "Lawrence County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "lewis-county",
+   "name": "Lewis County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "lincoln-county",
+   "name": "Lincoln County",
+   "localRate": 0.025
+  },
+  {
+   "id": "loudon-county",
+   "name": "Loudon County",
+   "localRate": 0.02
+  },
+  {
+   "id": "mcminn-county",
+   "name": "McMinn County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "mcnairy-county",
+   "name": "McNairy County",
+   "localRate": 0.0225
+  },
+  {
+   "id": "macon-county",
+   "name": "Macon County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "madison-county",
+   "name": "Madison County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "marion-county",
+   "name": "Marion County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "marshall-county",
+   "name": "Marshall County",
+   "localRate": 0.0225
+  },
+  {
+   "id": "maury-county",
+   "name": "Maury County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "meigs-county",
+   "name": "Meigs County",
+   "localRate": 0.02
+  },
+  {
+   "id": "monroe-county",
+   "name": "Monroe County",
+   "localRate": 0.0225
+  },
+  {
+   "id": "montgomery-county",
+   "name": "Montgomery County",
+   "localRate": 0.025
+  },
+  {
+   "id": "moore-county",
+   "name": "Moore County",
+   "localRate": 0.025
+  },
+  {
+   "id": "morgan-county",
+   "name": "Morgan County",
+   "localRate": 0.02
+  },
+  {
+   "id": "obion-county",
+   "name": "Obion County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "overton-county",
+   "name": "Overton County",
+   "localRate": 0.025
+  },
+  {
+   "id": "perry-county",
+   "name": "Perry County",
+   "localRate": 0.025
+  },
+  {
+   "id": "pickett-county",
+   "name": "Pickett County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "polk-county",
+   "name": "Polk County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "putnam-county",
+   "name": "Putnam County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "rhea-county",
+   "name": "Rhea County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "roane-county",
+   "name": "Roane County",
+   "localRate": 0.025
+  },
+  {
+   "id": "robertson-county",
+   "name": "Robertson County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "rutherford-county",
+   "name": "Rutherford County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "scott-county",
+   "name": "Scott County",
+   "localRate": 0.0225
+  },
+  {
+   "id": "sequatchie-county",
+   "name": "Sequatchie County",
+   "localRate": 0.0225
+  },
+  {
+   "id": "sevier-county",
+   "name": "Sevier County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "shelby-county",
+   "name": "Shelby County",
+   "localRate": 0.0225
+  },
+  {
+   "id": "smith-county",
+   "name": "Smith County",
+   "localRate": 0.02
+  },
+  {
+   "id": "stewart-county",
+   "name": "Stewart County",
+   "localRate": 0.0225
+  },
+  {
+   "id": "sullivan-county",
+   "name": "Sullivan County",
+   "localRate": 0.0225
+  },
+  {
+   "id": "sumner-county",
+   "name": "Sumner County",
+   "localRate": 0.0225
+  },
+  {
+   "id": "tipton-county",
+   "name": "Tipton County",
+   "localRate": 0.0225
+  },
+  {
+   "id": "trousdale-county",
+   "name": "Trousdale County",
+   "localRate": 0.0225
+  },
+  {
+   "id": "unicoi-county",
+   "name": "Unicoi County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "union-county",
+   "name": "Union County",
+   "localRate": 0.0225
+  },
+  {
+   "id": "van-buren-county",
+   "name": "Van Buren County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "warren-county",
+   "name": "Warren County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "washington-county",
+   "name": "Washington County",
+   "localRate": 0.025
+  },
+  {
+   "id": "wayne-county",
+   "name": "Wayne County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "weakley-county",
+   "name": "Weakley County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "white-county",
+   "name": "White County",
+   "localRate": 0.0225
+  },
+  {
+   "id": "williamson-county",
+   "name": "Williamson County",
+   "localRate": 0.0275
+  },
+  {
+   "id": "wilson-county",
+   "name": "Wilson County",
+   "localRate": 0.0275
+  }
+ ],
+ "defaultCounty": "shelby-county",
+ "singular": [
+  "Tennessee taxes a car at the 7% state rate on the whole price, then adds the local rate on the first $1,600 only [single-article].",
+  "On top of that comes a state single article tax of 2.75% on the slice of the price between $1,600 and $3,200, so at most $44 [single-article].",
+  "Because the local rate stops at $1,600, the county you live in changes the tax on a car by $44 at most [local-rates].",
+  "The sales tax is due on new and used cars alike, including a sale between private individuals, and the county clerk collects it at titling [sales-tax].",
+  "The county clerk also collects sales tax on the dealer's document fee shown on the bill of sale [doc-tax].",
+  "A standard passenger plate costs $26.50 a year before county fees [reg].",
+  "An all-electric car pays an extra $200 at each renewal through 2026 and $274 in 2027, while hybrids and plug-in hybrids pay $100 [ev-fee].",
+  "A trade-in lowers the tax: only the difference between the price of the car bought and the value of the one traded in is taxable [trade-in].",
+  "Tennessee ended vehicle emissions testing in 2022, in five counties in January and in Davidson County in February [emissions].",
+  "The title fee is $11, and noting a lien costs another $11 [title]."
+ ],
+ "sources": {
+  "sales-tax": {
+   "name": "Tennessee DOR, VTR-34 Sales Tax on a Vehicle Purchase",
+   "url": "https://revenue.support.tn.gov/hc/en-us/articles/360060395571-VTR-34-Sales-Tax-on-a-Vehicle-Purchase",
+   "accessed": "2026-10-11",
+   "quote": "Purchasers of new and used vehicles must pay state sales tax at the rate of 7 percent and the state single-article tax at the rate of 2.75 percent. Please keep in mind that each county may also have a wheel tax and local tax, which vary depending on the county."
+  },
+  "single-article": {
+   "name": "Tennessee DOR, SUT-6 Single Article Tax",
+   "url": "https://revenue.support.tn.gov/hc/en-us/articles/360058138992-SUT-6-Single-Article-Tax-Overview-and-Application",
+   "accessed": "2026-10-11",
+   "quote": "The 7% state tax applies to the entire purchase price ... the local tax rate applies only to the first $1,600 of the sale price of a single article ... There is also an additional state tax of 2.75% applied to the amount in excess of $1,600 but less than or equal to $3,200."
+  },
+  "local-rates": {
+   "name": "Tennessee DOR, sales tax rate file TNR2025Q1MAR07 (county jurisdictions)",
+   "url": "https://www.tn.gov/content/dam/tn/revenue/documents/taxes/sales/streamlined/2025/TNR2025Q1MAR07.csv",
+   "accessed": "2026-10-11",
+   "quote": "47,0,157,0.0225,0.0225,0.0225,0.0225,19890101,29991231 (Shelby County) ... 47,0,149,0.0275,0.0275,0.0275,0.0275,20000701,29991231 (Rutherford County)"
+  },
+  "davidson": {
+   "name": "Tennessee DOR, Local Sales Tax Rates map",
+   "url": "https://www.tn.gov/revenue/taxes/sales-and-use-tax/local-sales-tax/local-sales-tax-rates-map.html",
+   "accessed": "2026-10-11",
+   "quote": "There is an 0.5% local option transit surcharge in Davidson County beginning February 1, 2025. This effectively increases the local sales and food tax rates to 2.75%."
+  },
+  "trade-in": {
+   "name": "Tennessee DOR, SUT-45 Trade-In (Tenn. Code Ann. § 67-6-510(a))",
+   "url": "https://revenue.support.tn.gov/hc/en-us/articles/360058639631-SUT-45-Trade-In-of-Manufactured-Homes",
+   "accessed": "2026-10-11",
+   "quote": "If a used manufactured home is traded in for a new manufactured home, only the difference in the prices is taxable. ... Reference: Tenn. Code Ann. §§ 67-6-216(a), 67-6-510(a), and 67-6-336."
+  },
+  "doc-tax": {
+   "name": "Tennessee DOR, VTR-72 Tax on Document Fees",
+   "url": "https://revenue.support.tn.gov/hc/en-us/articles/360059968612-VTR-72-Tax-on-Document-Fees",
+   "accessed": "2026-10-11",
+   "quote": "The local county clerk’s office collects tax on the document fees on the bill of sale from a dealership."
+  },
+  "title": {
+   "name": "Tennessee DOR, LIEN-10 Fee to Note a Lien",
+   "url": "https://revenue.support.tn.gov/hc/en-us/articles/360060050212-LIEN-10-Fee-to-Note-a-Lien",
+   "accessed": "2026-10-11",
+   "quote": "The fees for noting a lien at the county clerks office are: $11 for noting of lien; $11 title fee; and Any applicable county processing fees, that vary."
+  },
+  "reg": {
+   "name": "Tennessee DOR, VR-4 Registration Fees",
+   "url": "https://revenue.support.tn.gov/hc/en-us/articles/360060097432--VR-4-Registration-Fees",
+   "accessed": "2026-10-11",
+   "quote": "The standard plate fee for a passenger vehicle is $26.50. ... Check with your local county clerk’s office for additional fees for vehicle registration."
+  },
+  "ev-fee": {
+   "name": "Tennessee DOR, VR-5 Registration Fees for Hybrid or Electric Vehicles",
+   "url": "https://revenue.support.tn.gov/hc/en-us/articles/360060541291-VR-5-Registration-Fees-for-Hybrid-or-Electric-Vehicles",
+   "accessed": "2026-10-11",
+   "quote": "For registration renewals on or after January 1, 2024, and prior to January 1, 2027: $200. For registration renewals on or after January 1, 2027, and prior to January 1, 2028: $274. ... hybrid ... prior to January 1, 2028: $100."
+  },
+  "emissions": {
+   "name": "Tennessee Department of Environment and Conservation, Vehicle Inspection Program",
+   "url": "https://www.tn.gov/environment/program-areas/apc-air-pollution-control-home/apc/vehicle-inspection-program1.html",
+   "accessed": "2026-10-11",
+   "quote": "As of January 14, 2022, residents in Hamilton, Williamson, Rutherford, Sumner, and Wilson counties may now register or renew their registration without an emissions testing certificate. Davidson County’s requirement for vehicle emissions testing ended on February 4, 2022."
+  }
+ }
+}

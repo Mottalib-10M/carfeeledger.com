@@ -1,0 +1,575 @@
+{
+ "abbr": "SD",
+ "name": "South Dakota",
+ "slug": "south-dakota",
+ "agency": {
+  "name": "South Dakota Department of Revenue, Motor Vehicle Division",
+  "short": "DOR",
+  "url": "https://dor.sd.gov/individuals/motor-vehicle/"
+ },
+ "taxAgency": {
+  "name": "South Dakota Department of Revenue",
+  "url": "https://dor.sd.gov/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "The first registration is prorated by month up to the owner's renewal month, which depends on the first letter of the last name; the calculator shows the full twelve-month license fee.",
+  "A dealer documentation fee stated separately from the price is not subject to the 4% excise tax but to state and municipal sales tax; the calculator does not add that sales tax (South Dakota sets no doc fee cap that was found, so the fee defaults to $0).",
+  "The $2 technology fee applies to certain title and registration transactions; the calculator counts it once per yearly registration.",
+  "Wheel tax rates use the 2,001 to 6,000 lb column of the county table, which is the same as the lighter column everywhere except Custer County ($2 per wheel under 2,001 lb); trucks over 6,000 lb pay higher rates in several counties.",
+  "A private sale without the approved bill of sale is taxed on the retail value of a national dealers' guide; the calculator uses the price you type.",
+  "Plate and registration mailing fees ($12 per set of plates, $2.50 per decal) are only due when the county mails them and are not included."
+ ],
+ "summary": {
+  "stateRate": 0.04,
+  "localRange": [
+   0,
+   0
+  ],
+  "taxName": "motor vehicle excise tax",
+  "tradeInCredit": true,
+  "titleFee": 10,
+  "regMethod": "mixed",
+  "regYears": 1,
+  "docFeeCap": null,
+  "docFeeNote": "No cap was found in South Dakota law; a separately stated doc fee bears sales tax rather than the 4% excise tax.",
+  "evFee": 100,
+  "phevFee": null,
+  "hybridFee": null,
+  "inspection": "none",
+  "inspectionWhere": "No safety or emissions inspection for passenger cars.",
+  "inspectionFee": null,
+  "annualValueTax": false
+ },
+ "params": {
+  "_src": "excise = SDCL 32-5B-1, 32-5B-2, 32-5B-4; license-fee = SDCL 32-5-6, 32-5-30 and DOR schedule; dor-fees = DOR fee tables; wheel = DOR county wheel tax table (revised 1/2026) and SDCL 32-5A-1; ev-fee = SDCL 32-5-188",
+  "tax": {
+   "rate": 0.04,
+   "tradeInCredit": true,
+   "docFeeTaxable": false,
+   "oldExempt": {
+    "minAge": 11,
+    "maxPrice": 2500
+   }
+  },
+  "title": 10,
+  "reg": {
+   "brackets": [
+    {
+     "upTo": 2000,
+     "amount": 36
+    },
+    {
+     "upTo": 4000,
+     "amount": 72
+    },
+    {
+     "upTo": 6000,
+     "amount": 108
+    },
+    {
+     "upTo": null,
+     "amount": 144
+    }
+   ],
+   "oldFactor": 0.7,
+   "oldFromAge": 10
+  },
+  "fees": [
+   {
+    "id": "hp-fee",
+    "label": "Highway patrol fee",
+    "amount": 1,
+    "source": "hp-fee"
+   },
+   {
+    "id": "solid-waste",
+    "label": "Solid waste fee",
+    "amount": 1,
+    "source": "dor-fees"
+   },
+   {
+    "id": "tech-fee",
+    "label": "Technology fee",
+    "amount": 2,
+    "source": "dor-fees"
+   }
+  ],
+  "wheels": 4,
+  "ev": 100
+ },
+ "counties": [
+  {
+   "id": "aurora-county",
+   "name": "Aurora County",
+   "wheelRate": 5.0,
+   "wheelMax": 60.0
+  },
+  {
+   "id": "beadle-county",
+   "name": "Beadle County",
+   "wheelRate": 2.0,
+   "wheelMax": 8.0
+  },
+  {
+   "id": "bennett-county",
+   "name": "Bennett County",
+   "wheelRate": 4.0,
+   "wheelMax": 48.0
+  },
+  {
+   "id": "bon-homme-county",
+   "name": "Bon Homme County",
+   "wheelRate": 2.0,
+   "wheelMax": 60.0
+  },
+  {
+   "id": "brookings-county",
+   "name": "Brookings County",
+   "wheelRate": 4.0,
+   "wheelMax": 20.0
+  },
+  {
+   "id": "brown-county",
+   "name": "Brown County",
+   "wheelRate": 4.0,
+   "wheelMax": 16.0
+  },
+  {
+   "id": "brule-county",
+   "name": "Brule County",
+   "wheelRate": 4.0,
+   "wheelMax": 48.0
+  },
+  {
+   "id": "buffalo-county",
+   "name": "Buffalo County",
+   "wheelRate": 3.0,
+   "wheelMax": 12.0
+  },
+  {
+   "id": "butte-county",
+   "name": "Butte County",
+   "wheelRate": 3.0,
+   "wheelMax": 12.0
+  },
+  {
+   "id": "campbell-county",
+   "name": "Campbell County",
+   "wheelRate": 2.0,
+   "wheelMax": 24.0
+  },
+  {
+   "id": "charles-mix-county",
+   "name": "Charles Mix County",
+   "wheelRate": 5.0,
+   "wheelMax": 60.0
+  },
+  {
+   "id": "clark-county",
+   "name": "Clark County",
+   "wheelRate": 5.0,
+   "wheelMax": 60.0
+  },
+  {
+   "id": "clay-county",
+   "name": "Clay County",
+   "wheelRate": 4.0,
+   "wheelMax": 16.0
+  },
+  {
+   "id": "codington-county",
+   "name": "Codington County",
+   "wheelRate": 2.0,
+   "wheelMax": 8.0
+  },
+  {
+   "id": "corson-county",
+   "name": "Corson County",
+   "wheelRate": 5.0,
+   "wheelMax": 60.0
+  },
+  {
+   "id": "custer-county",
+   "name": "Custer County",
+   "wheelRate": 2.5,
+   "wheelMax": 60.0
+  },
+  {
+   "id": "davison-county",
+   "name": "Davison County",
+   "wheelRate": 5.0,
+   "wheelMax": 60.0
+  },
+  {
+   "id": "day-county",
+   "name": "Day County",
+   "wheelRate": 4.0,
+   "wheelMax": 48.0
+  },
+  {
+   "id": "deuel-county",
+   "name": "Deuel County",
+   "wheelRate": 5.0,
+   "wheelMax": 60.0
+  },
+  {
+   "id": "dewey-county",
+   "name": "Dewey County",
+   "wheelRate": 5.0,
+   "wheelMax": 40.0
+  },
+  {
+   "id": "douglas-county",
+   "name": "Douglas County",
+   "wheelRate": 5.0,
+   "wheelMax": 60.0
+  },
+  {
+   "id": "edmunds-county",
+   "name": "Edmunds County",
+   "wheelRate": 4.0,
+   "wheelMax": 48.0
+  },
+  {
+   "id": "fall-river-county",
+   "name": "Fall River County",
+   "wheelRate": 2.0,
+   "wheelMax": 36.0
+  },
+  {
+   "id": "faulk-county",
+   "name": "Faulk County",
+   "wheelRate": 5.0,
+   "wheelMax": 60.0
+  },
+  {
+   "id": "grant-county",
+   "name": "Grant County",
+   "wheelRate": 5.0,
+   "wheelMax": 60.0
+  },
+  {
+   "id": "gregory-county",
+   "name": "Gregory County",
+   "wheelRate": 5.0,
+   "wheelMax": 60.0
+  },
+  {
+   "id": "haakon-county",
+   "name": "Haakon County",
+   "wheelRate": 4.0,
+   "wheelMax": 16.0
+  },
+  {
+   "id": "hamlin-county",
+   "name": "Hamlin County",
+   "wheelRate": 4.0,
+   "wheelMax": 16.0
+  },
+  {
+   "id": "hand-county",
+   "name": "Hand County",
+   "wheelRate": 5.0,
+   "wheelMax": 60.0
+  },
+  {
+   "id": "hanson-county",
+   "name": "Hanson County",
+   "wheelRate": 2.0,
+   "wheelMax": 60.0
+  },
+  {
+   "id": "harding-county",
+   "name": "Harding County",
+   "wheelRate": 0.0,
+   "wheelMax": 0.0
+  },
+  {
+   "id": "hughes-county",
+   "name": "Hughes County",
+   "wheelRate": 2.0,
+   "wheelMax": 60.0
+  },
+  {
+   "id": "hutchinson-county",
+   "name": "Hutchinson County",
+   "wheelRate": 5.0,
+   "wheelMax": 60.0
+  },
+  {
+   "id": "hyde-county",
+   "name": "Hyde County",
+   "wheelRate": 0.0,
+   "wheelMax": 0.0
+  },
+  {
+   "id": "jackson-county",
+   "name": "Jackson County",
+   "wheelRate": 4.0,
+   "wheelMax": 60.0
+  },
+  {
+   "id": "jerauld-county",
+   "name": "Jerauld County",
+   "wheelRate": 2.0,
+   "wheelMax": 8.0
+  },
+  {
+   "id": "jones-county",
+   "name": "Jones County",
+   "wheelRate": 0.0,
+   "wheelMax": 0.0
+  },
+  {
+   "id": "kingsbury-county",
+   "name": "Kingsbury County",
+   "wheelRate": 5.0,
+   "wheelMax": 60.0
+  },
+  {
+   "id": "lake-county",
+   "name": "Lake County",
+   "wheelRate": 5.0,
+   "wheelMax": 60.0
+  },
+  {
+   "id": "lawrence-county",
+   "name": "Lawrence County",
+   "wheelRate": 2.0,
+   "wheelMax": 8.0
+  },
+  {
+   "id": "lincoln-county",
+   "name": "Lincoln County",
+   "wheelRate": 5.0,
+   "wheelMax": 60.0
+  },
+  {
+   "id": "lyman-county",
+   "name": "Lyman County",
+   "wheelRate": 4.0,
+   "wheelMax": 16.0
+  },
+  {
+   "id": "marshall-county",
+   "name": "Marshall County",
+   "wheelRate": 5.0,
+   "wheelMax": 60.0
+  },
+  {
+   "id": "mccook-county",
+   "name": "McCook County",
+   "wheelRate": 5.0,
+   "wheelMax": 20.0
+  },
+  {
+   "id": "mcpherson-county",
+   "name": "McPherson County",
+   "wheelRate": 0.0,
+   "wheelMax": 0.0
+  },
+  {
+   "id": "meade-county",
+   "name": "Meade County",
+   "wheelRate": 5.0,
+   "wheelMax": 60.0
+  },
+  {
+   "id": "mellette-county",
+   "name": "Mellette County",
+   "wheelRate": 5.0,
+   "wheelMax": 40.0
+  },
+  {
+   "id": "miner-county",
+   "name": "Miner County",
+   "wheelRate": 4.0,
+   "wheelMax": 16.0
+  },
+  {
+   "id": "minnehaha-county",
+   "name": "Minnehaha County",
+   "wheelRate": 4.0,
+   "wheelMax": 60.0
+  },
+  {
+   "id": "moody-county",
+   "name": "Moody County",
+   "wheelRate": 5.0,
+   "wheelMax": 60.0
+  },
+  {
+   "id": "oglala-lakota-county",
+   "name": "Oglala Lakota County",
+   "wheelRate": 0.0,
+   "wheelMax": 0.0
+  },
+  {
+   "id": "pennington-county",
+   "name": "Pennington County",
+   "wheelRate": 5.0,
+   "wheelMax": 60.0
+  },
+  {
+   "id": "perkins-county",
+   "name": "Perkins County",
+   "wheelRate": 5.0,
+   "wheelMax": 50.0
+  },
+  {
+   "id": "potter-county",
+   "name": "Potter County",
+   "wheelRate": 2.0,
+   "wheelMax": 24.0
+  },
+  {
+   "id": "roberts-county",
+   "name": "Roberts County",
+   "wheelRate": 5.0,
+   "wheelMax": 60.0
+  },
+  {
+   "id": "sanborn-county",
+   "name": "Sanborn County",
+   "wheelRate": 5.0,
+   "wheelMax": 60.0
+  },
+  {
+   "id": "spink-county",
+   "name": "Spink County",
+   "wheelRate": 5.0,
+   "wheelMax": 60.0
+  },
+  {
+   "id": "stanley-county",
+   "name": "Stanley County",
+   "wheelRate": 4.0,
+   "wheelMax": 16.0
+  },
+  {
+   "id": "sully-county",
+   "name": "Sully County",
+   "wheelRate": 5.0,
+   "wheelMax": 60.0
+  },
+  {
+   "id": "todd-county",
+   "name": "Todd County",
+   "wheelRate": 2.0,
+   "wheelMax": 8.0
+  },
+  {
+   "id": "tripp-county",
+   "name": "Tripp County",
+   "wheelRate": 5.0,
+   "wheelMax": 40.0
+  },
+  {
+   "id": "turner-county",
+   "name": "Turner County",
+   "wheelRate": 5.0,
+   "wheelMax": 60.0
+  },
+  {
+   "id": "union-county",
+   "name": "Union County",
+   "wheelRate": 4.0,
+   "wheelMax": 48.0
+  },
+  {
+   "id": "walworth-county",
+   "name": "Walworth County",
+   "wheelRate": 5.0,
+   "wheelMax": 60.0
+  },
+  {
+   "id": "yankton-county",
+   "name": "Yankton County",
+   "wheelRate": 5.0,
+   "wheelMax": 60.0
+  },
+  {
+   "id": "ziebach-county",
+   "name": "Ziebach County",
+   "wheelRate": 2.0,
+   "wheelMax": 8.0
+  }
+ ],
+ "defaultCounty": "minnehaha-county",
+ "singular": [
+  "South Dakota replaces the sales tax on cars with a 4% motor vehicle excise tax on the purchase price, paid to the county treasurer at titling [excise].",
+  "The trade-in allowance is deducted before the 4% is applied, on a new car, a used car from a dealer and even a private sale [purchase-price].",
+  "A car eleven or more model years old sold for $2,500 or less before trade-in pays no excise tax [exempt].",
+  "The yearly license fee depends only on the manufacturer's shipping weight: $36 up to 2,000 lb, $72 up to 4,000 lb, $108 up to 6,000 lb and $144 above [license-fee].",
+  "Once a car is ten years old on January 1, its license fee drops to 70% of the normal amount [old-car].",
+  "Counties may add a wheel tax of up to $5 per wheel, with a maximum of $60 per vehicle [wheel-law].",
+  "Minnehaha County charges $4 per wheel, Pennington County $5, and five counties, among them Harding and Jones, charge no wheel tax at all [wheel].",
+  "A battery electric car pays an extra $100 every year at registration [ev-fee].",
+  "Plates are renewed in a month set by the first letter of the owner's last name, from January for A and B to November for T through Z [dor-fees].",
+  "The title costs $10 and recording a lien another $10 [dor-fees]."
+ ],
+ "sources": {
+  "excise": {
+   "name": "SDCL 32-5B-1, motor vehicle excise tax",
+   "url": "https://sdlegislature.gov/Statutes/32-5B-1",
+   "accessed": "2026-10-11",
+   "quote": "a person shall pay an excise tax at the rate of four percent on the purchase price of any motor vehicle ... This tax shall be in lieu of any tax levied by chapters 10-45, 10-46, and 10-46E on the sales of such vehicles."
+  },
+  "purchase-price": {
+   "name": "SDCL 32-5B-4, purchase price defined",
+   "url": "https://sdlegislature.gov/Statutes/32-5B-4",
+   "accessed": "2026-10-11",
+   "quote": "when a motor vehicle is taken in trade as a credit or part payment on a new motor vehicle, the credit or trade-in value allowed by the seller shall be deducted from the total consideration for the new motor vehicle to establish the purchase price;"
+  },
+  "exempt": {
+   "name": "SDCL 32-5B-2, exempt vehicles",
+   "url": "https://sdlegislature.gov/Statutes/32-5B-2",
+   "accessed": "2026-10-11",
+   "quote": "(12) Any motor vehicle sold or transferred that is eleven or more model years old and that is sold or transferred for two thousand five hundred dollars or less before trade-in;"
+  },
+  "license-fee": {
+   "name": "SDCL 32-5-6, fees for noncommercial automobiles",
+   "url": "https://sdlegislature.gov/Statutes/32-5-6",
+   "accessed": "2026-10-11",
+   "quote": "(1) Two thousand pounds or less, inclusive, thirty-six dollars; (2) From 2,001 to 4,000 pounds, inclusive, seventy-two dollars; (3) From 4,001 to 6,000 pounds, inclusive, one hundred eight dollars; and (4) Over 6,000 pounds, one hundred forty-four dollars."
+  },
+  "old-car": {
+   "name": "SDCL 32-5-30, vehicles ten years old or more",
+   "url": "https://sdlegislature.gov/Statutes/32-5-30",
+   "accessed": "2026-10-11",
+   "quote": "If any noncommercial motor vehicle, according to the manufacturer's model year designation, is ten years old or more on January first of the year for which a license fee is required, such fee shall be seventy percent of the fee ordinarily prescribed."
+  },
+  "hp-fee": {
+   "name": "SDCL 32-5-153, highway patrol fee",
+   "url": "https://sdlegislature.gov/Statutes/32-5-153",
+   "accessed": "2026-10-11",
+   "quote": "There is hereby imposed a fee of one dollar on each vehicle registered and licensed in this state for the purpose of administering the Division of Highway Patrol."
+  },
+  "ev-fee": {
+   "name": "SDCL 32-5-188, electric motor vehicle fee",
+   "url": "https://sdlegislature.gov/Statutes/32-5-188",
+   "accessed": "2026-10-11",
+   "quote": "In addition to the license fees paid pursuant to the provisions of this chapter for a motor vehicle, the owner of an electric motor vehicle shall pay an annual fee of one hundred dollars."
+  },
+  "dor-fees": {
+   "name": "South Dakota DOR, All Vehicles - Title, Fees & Registration",
+   "url": "https://dor.sd.gov/individuals/motor-vehicle/all-vehicles-title-fees-registration/",
+   "accessed": "2026-10-11",
+   "quote": "Motor Vehicle Excise Tax Fee | 4% of purchase price | Title Fee | $10 | Lien Notation Fee | $10 | Technology Fee (*) | $2 ... Solid Waste Fee | $1 | Highway Patrol Fee | $1 ... Electric Fee | $100"
+  },
+  "wheel": {
+   "name": "South Dakota DOR, County Wheel Tax (revised 1/2026)",
+   "url": "https://dor.sd.gov/businesses/motor-vehicle/county-wheel-tax/",
+   "accessed": "2026-10-11",
+   "quote": "County Wheel Tax Fees | County | Weight < 2001 | Weight 2001 - 4000 | Weight 4001 - 6000 | Weight > 6000 | Maximum | ... Minnehaha | $4 | $4 | $4 | $5 | $60"
+  },
+  "wheel-law": {
+   "name": "SDCL 32-5A-1, wheel tax rate and maximum",
+   "url": "https://sdlegislature.gov/Statutes/32-5A-1",
+   "accessed": "2026-10-11",
+   "quote": "Each county may, by ordinance, impose a wheel tax on all motor vehicles ... at a rate not to exceed five dollars per vehicle wheel. ... The total vehicle tax may not exceed sixty dollars per vehicle."
+  }
+ }
+}

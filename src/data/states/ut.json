@@ -1,0 +1,655 @@
+{
+ "abbr": "UT",
+ "name": "Utah",
+ "slug": "utah",
+ "agency": {
+  "name": "Utah State Tax Commission, Division of Motor Vehicles",
+  "short": "DMV",
+  "url": "https://dmv.utah.gov/"
+ },
+ "taxAgency": {
+  "name": "Utah State Tax Commission",
+  "url": "https://tax.utah.gov/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "Registration fees are indexed every January 1: the amounts are the 2026 adjusted fees published by the Legislature's research office; renewals in 2027 and later will be slightly higher, and the 2027 electric car fee is not published yet.",
+  "On a dealer sale the sales tax rate is the one of the dealer's location; on a private sale it is the rate where the car is registered. The list holds every county's unincorporated rate and the main cities (Tax Commission chart of July 1, 2026, resort tax excluded); type your rate for any other city.",
+  "Emissions inspection prices are set by the stations and were not published on a page that could be read, so the line has no amount.",
+  "The DMV license plate fee for new plates is set by the division's fee schedule and could not be read (dmv.utah.gov and tax.utah.gov refused connections during this check); it is not included.",
+  "The $6 title fee, the corridor preservation counties and the air pollution control fees come from DMV pages last archived in 2025."
+ ],
+ "summary": {
+  "stateRate": 0.0485,
+  "localRange": [
+   0.015,
+   0.031
+  ],
+  "taxName": "sales and use tax",
+  "tradeInCredit": true,
+  "titleFee": 6,
+  "regMethod": "mixed",
+  "regYears": 1,
+  "docFeeCap": null,
+  "docFeeNote": "No cap was found in Utah law; the document fee is a charge for a service needed to complete the sale and is taxed with the car.",
+  "evFee": 180,
+  "phevFee": 64,
+  "hybridFee": 25,
+  "inspection": "emissions",
+  "inspectionWhere": "Emissions inspection in Salt Lake, Davis, Utah, Weber and Cache counties, every two years until the car is six and every year after; cars less than two years old and electric cars are exempt.",
+  "inspectionFee": null,
+  "annualValueTax": true
+ },
+ "params": {
+  "g": {
+   "tax": {
+    "label": "Sales and use tax, state part (4.85%)",
+    "rate": 0.0485,
+    "tradeInCredit": true,
+    "docFeeTaxable": true,
+    "source": "rates",
+    "localSource": "rates",
+    "note": "On the price plus the document fee, minus the trade-in."
+   },
+   "once": [
+    {
+     "id": "title",
+     "label": "Certificate of title",
+     "amount": 6,
+     "source": "dmv-summary",
+     "kind": "title"
+    }
+   ],
+   "reg": {
+    "label": "Registration fee (2026 indexed amount)",
+    "source": "briefing",
+    "type": "flat",
+    "amount": 58.25
+   },
+   "cycle": [
+    {
+     "id": "reg-extra",
+     "label": "Additional registration fee (indexed)",
+     "amount": 7.5,
+     "source": "briefing"
+    },
+    {
+     "id": "e-pay",
+     "label": "Electronic payment fee",
+     "amount": 3,
+     "source": "briefing",
+     "note": "Charged on every registration, whatever the payment method."
+    },
+    {
+     "id": "driver-ed",
+     "label": "Driver education fee",
+     "amount": 2.5,
+     "source": "briefing"
+    },
+    {
+     "id": "uninsured",
+     "label": "Uninsured motorist identification fee",
+     "amount": 1,
+     "source": "briefing"
+    },
+    {
+     "id": "corridor",
+     "label": "County corridor preservation fee",
+     "amount": 10,
+     "kind": "local",
+     "source": "dmv-fees",
+     "if": {
+      "countyFlag": "corridor"
+     }
+    },
+    {
+     "id": "apc",
+     "label": "County air pollution control fee",
+     "amount": 3,
+     "kind": "local",
+     "source": "dmv-fees",
+     "if": {
+      "countyFlag": "apc3",
+      "fuel": [
+       "gas",
+       "hybrid",
+       "phev"
+      ]
+     }
+    },
+    {
+     "id": "apc",
+     "label": "County air pollution control fee",
+     "amount": 2,
+     "kind": "local",
+     "source": "dmv-fees",
+     "if": {
+      "countyFlag": "apc2",
+      "fuel": [
+       "gas",
+       "hybrid",
+       "phev"
+      ]
+     }
+    },
+    {
+     "id": "uniform-fee",
+     "label": "Uniform age-based fee in lieu of property tax",
+     "amount": 150,
+     "kind": "value",
+     "source": "uniform",
+     "if": {
+      "maxAge": 2
+     }
+    },
+    {
+     "id": "uniform-fee",
+     "label": "Uniform age-based fee in lieu of property tax",
+     "amount": 110,
+     "kind": "value",
+     "source": "uniform",
+     "if": {
+      "minAge": 3,
+      "maxAge": 5
+     }
+    },
+    {
+     "id": "uniform-fee",
+     "label": "Uniform age-based fee in lieu of property tax",
+     "amount": 80,
+     "kind": "value",
+     "source": "uniform",
+     "if": {
+      "minAge": 6,
+      "maxAge": 8
+     }
+    },
+    {
+     "id": "uniform-fee",
+     "label": "Uniform age-based fee in lieu of property tax",
+     "amount": 50,
+     "kind": "value",
+     "source": "uniform",
+     "if": {
+      "minAge": 9,
+      "maxAge": 11
+     }
+    },
+    {
+     "id": "uniform-fee",
+     "label": "Uniform age-based fee in lieu of property tax",
+     "amount": 10,
+     "kind": "value",
+     "source": "uniform",
+     "if": {
+      "minAge": 12
+     }
+    }
+   ],
+   "ev": {
+    "ev": 180,
+    "phev": 64,
+    "hybrid": 25,
+    "source": "briefing",
+    "label": "Alternative fuel registration fee"
+   },
+   "inspection": [
+    {
+     "id": "emissions",
+     "label": "Emissions inspection (station price)",
+     "amount": null,
+     "years": 2,
+     "newExemptYears": 2,
+     "countyFlag": "ims",
+     "fuelExempt": [
+      "ev"
+     ],
+     "source": "emissions",
+     "note": "Every two years until the car is six years old, then every year."
+    }
+   ]
+  }
+ },
+ "counties": [
+  {
+   "id": "beaver-county",
+   "name": "Beaver County",
+   "localRate": 0.015
+  },
+  {
+   "id": "box-elder-county",
+   "name": "Box Elder County",
+   "localRate": 0.018,
+   "corridor": true
+  },
+  {
+   "id": "cache-county",
+   "name": "Cache County",
+   "localRate": 0.0215,
+   "apc3": true,
+   "ims": true
+  },
+  {
+   "id": "carbon-county",
+   "name": "Carbon County",
+   "localRate": 0.015
+  },
+  {
+   "id": "daggett-county",
+   "name": "Daggett County",
+   "localRate": 0.028
+  },
+  {
+   "id": "davis-county",
+   "name": "Davis County",
+   "localRate": 0.023,
+   "corridor": true,
+   "apc3": true,
+   "ims": true
+  },
+  {
+   "id": "duchesne-county",
+   "name": "Duchesne County",
+   "localRate": 0.015
+  },
+  {
+   "id": "emery-county",
+   "name": "Emery County",
+   "localRate": 0.015
+  },
+  {
+   "id": "garfield-county",
+   "name": "Garfield County",
+   "localRate": 0.025
+  },
+  {
+   "id": "grand-county",
+   "name": "Grand County",
+   "localRate": 0.025
+  },
+  {
+   "id": "iron-county",
+   "name": "Iron County",
+   "localRate": 0.018,
+   "corridor": true
+  },
+  {
+   "id": "juab-county",
+   "name": "Juab County",
+   "localRate": 0.018
+  },
+  {
+   "id": "kane-county",
+   "name": "Kane County",
+   "localRate": 0.025
+  },
+  {
+   "id": "millard-county",
+   "name": "Millard County",
+   "localRate": 0.015
+  },
+  {
+   "id": "morgan-county",
+   "name": "Morgan County",
+   "localRate": 0.0185,
+   "corridor": true
+  },
+  {
+   "id": "piute-county",
+   "name": "Piute County",
+   "localRate": 0.015
+  },
+  {
+   "id": "rich-county",
+   "name": "Rich County",
+   "localRate": 0.018
+  },
+  {
+   "id": "salt-lake-county",
+   "name": "Salt Lake County (unincorporated areas)",
+   "localRate": 0.026,
+   "corridor": true,
+   "apc3": true,
+   "ims": true
+  },
+  {
+   "id": "san-juan-county",
+   "name": "San Juan County",
+   "localRate": 0.015
+  },
+  {
+   "id": "sanpete-county",
+   "name": "Sanpete County",
+   "localRate": 0.015
+  },
+  {
+   "id": "sevier-county",
+   "name": "Sevier County",
+   "localRate": 0.018
+  },
+  {
+   "id": "summit-county",
+   "name": "Summit County",
+   "localRate": 0.028,
+   "corridor": true
+  },
+  {
+   "id": "tooele-county",
+   "name": "Tooele County",
+   "localRate": 0.0175,
+   "corridor": true
+  },
+  {
+   "id": "uintah-county",
+   "name": "Uintah County",
+   "localRate": 0.016
+  },
+  {
+   "id": "utah-county",
+   "name": "Utah County",
+   "localRate": 0.025,
+   "corridor": true,
+   "apc2": true,
+   "ims": true
+  },
+  {
+   "id": "wasatch-county",
+   "name": "Wasatch County",
+   "localRate": 0.024,
+   "corridor": true
+  },
+  {
+   "id": "washington-county",
+   "name": "Washington County",
+   "localRate": 0.016,
+   "corridor": true
+  },
+  {
+   "id": "wayne-county",
+   "name": "Wayne County",
+   "localRate": 0.028
+  },
+  {
+   "id": "weber-county",
+   "name": "Weber County",
+   "localRate": 0.024,
+   "corridor": true,
+   "apc2": true,
+   "ims": true
+  },
+  {
+   "id": "salt-lake-city",
+   "name": "Salt Lake City (Salt Lake County)",
+   "localRate": 0.026,
+   "corridor": true,
+   "apc3": true,
+   "ims": true
+  },
+  {
+   "id": "west-valley-city",
+   "name": "West Valley City (Salt Lake County)",
+   "localRate": 0.026,
+   "corridor": true,
+   "apc3": true,
+   "ims": true
+  },
+  {
+   "id": "west-jordan",
+   "name": "West Jordan (Salt Lake County)",
+   "localRate": 0.026,
+   "corridor": true,
+   "apc3": true,
+   "ims": true
+  },
+  {
+   "id": "provo",
+   "name": "Provo (Utah County)",
+   "localRate": 0.026,
+   "corridor": true,
+   "apc2": true,
+   "ims": true
+  },
+  {
+   "id": "orem",
+   "name": "Orem (Utah County)",
+   "localRate": 0.026,
+   "corridor": true,
+   "apc2": true,
+   "ims": true
+  },
+  {
+   "id": "sandy",
+   "name": "Sandy (Salt Lake County)",
+   "localRate": 0.026,
+   "corridor": true,
+   "apc3": true,
+   "ims": true
+  },
+  {
+   "id": "st-george",
+   "name": "St George (Washington County)",
+   "localRate": 0.019,
+   "corridor": true
+  },
+  {
+   "id": "ogden",
+   "name": "Ogden (Weber County)",
+   "localRate": 0.024,
+   "corridor": true,
+   "apc2": true,
+   "ims": true
+  },
+  {
+   "id": "layton",
+   "name": "Layton (Davis County)",
+   "localRate": 0.024,
+   "corridor": true,
+   "apc3": true,
+   "ims": true
+  },
+  {
+   "id": "south-jordan",
+   "name": "South Jordan (Salt Lake County)",
+   "localRate": 0.026,
+   "corridor": true,
+   "apc3": true,
+   "ims": true
+  },
+  {
+   "id": "lehi",
+   "name": "Lehi (Utah County)",
+   "localRate": 0.026,
+   "corridor": true,
+   "apc2": true,
+   "ims": true
+  },
+  {
+   "id": "millcreek",
+   "name": "Millcreek (Salt Lake County)",
+   "localRate": 0.026,
+   "corridor": true,
+   "apc3": true,
+   "ims": true
+  },
+  {
+   "id": "taylorsville",
+   "name": "Taylorsville (Salt Lake County)",
+   "localRate": 0.026,
+   "corridor": true,
+   "apc3": true,
+   "ims": true
+  },
+  {
+   "id": "logan",
+   "name": "Logan (Cache County)",
+   "localRate": 0.0245,
+   "apc3": true,
+   "ims": true
+  },
+  {
+   "id": "herriman",
+   "name": "Herriman (Salt Lake County)",
+   "localRate": 0.026,
+   "corridor": true,
+   "apc3": true,
+   "ims": true
+  },
+  {
+   "id": "draper",
+   "name": "Draper (Salt Lake County)",
+   "localRate": 0.026,
+   "corridor": true,
+   "apc3": true,
+   "ims": true
+  },
+  {
+   "id": "murray",
+   "name": "Murray (Salt Lake County)",
+   "localRate": 0.028,
+   "corridor": true,
+   "apc3": true,
+   "ims": true
+  },
+  {
+   "id": "bountiful",
+   "name": "Bountiful (Davis County)",
+   "localRate": 0.024,
+   "corridor": true,
+   "apc3": true,
+   "ims": true
+  },
+  {
+   "id": "riverton",
+   "name": "Riverton (Salt Lake County)",
+   "localRate": 0.026,
+   "corridor": true,
+   "apc3": true,
+   "ims": true
+  },
+  {
+   "id": "spanish-fork",
+   "name": "Spanish Fork (Utah County)",
+   "localRate": 0.026,
+   "corridor": true,
+   "apc2": true,
+   "ims": true
+  },
+  {
+   "id": "eagle-mountain",
+   "name": "Eagle Mountain (Utah County)",
+   "localRate": 0.026,
+   "corridor": true,
+   "apc2": true,
+   "ims": true
+  },
+  {
+   "id": "cedar-city",
+   "name": "Cedar City (Iron County)",
+   "localRate": 0.019,
+   "corridor": true
+  },
+  {
+   "id": "park-city",
+   "name": "Park City (Summit County)",
+   "localRate": 0.031,
+   "corridor": true
+  },
+  {
+   "id": "saratoga-springs",
+   "name": "Saratoga Springs (Utah County)",
+   "localRate": 0.026,
+   "corridor": true,
+   "apc2": true,
+   "ims": true
+  },
+  {
+   "id": "american-fork",
+   "name": "American Fork (Utah County)",
+   "localRate": 0.026,
+   "corridor": true,
+   "apc2": true,
+   "ims": true
+  },
+  {
+   "id": "tooele-city",
+   "name": "Tooele City (Tooele County)",
+   "localRate": 0.0215,
+   "corridor": true
+  },
+  {
+   "id": "moab",
+   "name": "Moab (Grand County)",
+   "localRate": 0.029
+  }
+ ],
+ "defaultCounty": "salt-lake-county",
+ "singular": [
+  "Utah taxes a car at the combined sales tax rate of the place of sale, from 6.35% in several rural counties to 7.95% in Park City, and the resort community tax does not apply to vehicles [rates].",
+  "A trade-in is subtracted from the taxable price, but in a private sale only another vehicle counts as a trade-in [trade-in].",
+  "The dealer's charge for any service needed to complete the sale is part of the taxable price [doc-taxable].",
+  "The statute still says $44, but the 2026 registration fee for a passenger car after inflation indexing is $58.25, plus an indexed $7.50 add-on created in 2023 [briefing].",
+  "Instead of a property tax, every car pays a uniform age-based fee each year: $150 under 3 years, then $110, $80, $50 and $10 from 12 years on [uniform].",
+  "An electric car pays a $180 flat fee in 2026, or can join the Road Usage Charge program at 1.25 cents a mile up to that amount [ruc].",
+  "Hybrids pay an extra $25 and plug-in hybrids $64 a year after the 2026 indexing [briefing].",
+  "Eleven counties, including Salt Lake, Utah and Davis, add a $10 corridor preservation fee to each registration [dmv-fees].",
+  "Cars in Salt Lake, Davis, Utah, Weber and Cache counties need an emissions test, every two years while under six years old [emissions].",
+  "A new Utah title costs $6, the same as a duplicate [dmv-summary]."
+ ],
+ "sources": {
+  "rates": {
+   "name": "Utah State Tax Commission, sales and use tax rates in effect July 1, 2026 (simplified chart)",
+   "url": "https://files.tax.utah.gov/tax/salestax/rate/26q3simple.pdf",
+   "accessed": "2026-10-11",
+   "quote": "*Sales of motor vehicles, aircraft, watercraft, modular homes, manufactured homes and mobile homes are exempt from the resort communities tax. ... Salt Lake County 18-000 7.45% ... Salt Lake City 18-122 8.45% ... 7.45%"
+  },
+  "briefing": {
+   "name": "Utah Legislature, OLRGC briefing paper Vehicle Registration (Sept. 16, 2026)",
+   "url": "https://le.utah.gov/interim/2026/pdf/Vehicle_Registration.pdf",
+   "accessed": "2026-10-11",
+   "quote": "Passenger vehicle with a GCWR of 14,000 pounds or less $44 $58.25 ... Electric and Other: $180 Hybrid Electric: $25 Plug-in Hybrid: $64 ... The adjusted amount is $7.50 for 2026."
+  },
+  "uniform": {
+   "name": "Utah Code § 59-2-405.1, uniform age-based fee",
+   "url": "https://le.utah.gov/xcode/Title59/Chapter2/59-2-S405.1.html",
+   "accessed": "2026-10-11",
+   "quote": "the uniform fee for purposes of this section is as follows: Age of Vehicle | Uniform Fee | 12 or more years | $10 | 9 or more years but less than 12 years | $50 | 6 or more years but less than 9 years | $80 | 3 or more years but less than 6 years | $110 | Less than 3 years | $150"
+  },
+  "ruc": {
+   "name": "Utah Department of Transportation, Road Usage Charge program",
+   "url": "https://www.roadusagechargeutah.org/",
+   "accessed": "2026-10-11",
+   "quote": "The flat fee applicable to each 12-month vehicle registration period beginning in 2026 is $180. ... 1.25 cents per mile (the 2026 calendar year mileage rate) will be deducted from your prepaid wallet, up to the amount of the flat fee."
+  },
+  "dmv-fees": {
+   "name": "Utah DMV, Registration Taxes & Fees",
+   "url": "https://dmv.utah.gov/taxes-fees",
+   "accessed": "2026-10-11",
+   "quote": "The following counties have imposed a local option highway construction and transportation corridor preservation fee of $10 ... Salt Lake $3.00 Davis $3.00 Cache $3.00 Utah $2.00 Weber $2.00 ... The sales tax rate is calculated for the locality where the vehicle was purchased (if purchased from a dealer)"
+  },
+  "dmv-summary": {
+   "name": "Utah DMV, Summary of Common Fees",
+   "url": "https://dmv.utah.gov/taxes-fees/summary",
+   "accessed": "2026-10-11",
+   "quote": "New title – $6.00 Duplicate title – $6.00"
+  },
+  "trade-in": {
+   "name": "Utah Code § 59-12-104(17), trade-ins",
+   "url": "https://le.utah.gov/xcode/Title59/Chapter12/59-12-S104.html",
+   "accessed": "2026-10-11",
+   "quote": "tangible personal property ... traded in as full or part payment of the purchase price, except that for purposes of calculating sales or use tax upon vehicles not sold by a vehicle dealer, trade-ins are limited to other vehicles only"
+  },
+  "doc-taxable": {
+   "name": "Utah Code § 59-12-102(109), purchase price",
+   "url": "https://le.utah.gov/xcode/Title59/Chapter12/59-12-S102.html",
+   "accessed": "2026-10-11",
+   "quote": "\"Purchase price\" and \"sales price\" include: ... (iii) a charge by the seller for any service necessary to complete the sale;"
+  },
+  "emissions": {
+   "name": "Utah Code § 41-6a-1642, emissions inspection",
+   "url": "https://le.utah.gov/xcode/Title41/Chapter6A/41-6a-S1642.html",
+   "accessed": "2026-10-11",
+   "quote": "a motor vehicle that is less than two years old on January 1 ... shall only require the emissions inspection every two years for each vehicle. (ii) The provisions of Subsection (9)(c)(i) apply only to a vehicle that is less than six years old on January 1."
+  }
+ }
+}
