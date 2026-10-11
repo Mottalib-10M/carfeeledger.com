@@ -7,13 +7,21 @@ import type { FeeLine } from './engine/types';
 const link = (slug: string, name: string) => (STATE_PAGES.some((p) => p.slug === slug) ? `<a href="${route(stateId(slug), 'en')}">${name}</a>` : name);
 const sumK = (ls: FeeLine[], ks: string[]) => ls.filter((l) => ks.includes(l.kind) && l.amount !== null).reduce((s, l) => s + (l.amount as number), 0);
 const money = (x: number) => usd(x);
+/** Sum of the priced lines of these kinds, plus the official range of the unpriced ones (never added). */
+const moneyR = (ls: FeeLine[], ks: string[]) => {
+  const open = ls.filter((l) => ks.includes(l.kind) && l.amount === null);
+  if (!open.length) return money(sumK(ls, ks));
+  const lo = open.reduce((s, l) => s + (l.range?.[0] ?? 0), 0); const hi = open.reduce((s, l) => s + (l.range?.[1] ?? 0), 0);
+  const extra = hi > 0 ? `${usd(lo)} to ${usd(hi)}` : 'a local amount';
+  return sumK(ls, ks) > 0 ? `${money(sumK(ls, ks))} + ${extra}` : extra;
+};
 const rateTxt = (a: number, b: [number, number]) => (b[1] > 0 ? `${pct(a, 2)} + ${pct(b[0], 2)} to ${pct(b[1], 2)}` : pct(a, 2));
 export type TableKind = 'registration' | 'tax' | 'inspection' | 'ev' | 'docfee' | 'property' | 'title' | 'renewal' | 'otd';
 export function comparison(kind: TableKind): { headers: string[]; rows: Array<Array<string | number>>; align: Array<'l' | 'r'> } {
   const rows = STATE_LIST.map((s) => {
     const d = STATE_DATA[s.ab]; const S = d.summary; const r = calcState(s.slug); const n = link(s.slug, s.name);
     switch (kind) {
-      case 'tax': return [n, S.taxName, rateTxt(S.stateRate, S.localRange), S.tradeInCredit ? 'yes' : 'no', money(sumK(r.lines, ['tax']))];
+      case 'tax': return [n, S.taxName, rateTxt(S.stateRate, S.localRange), S.tradeInCredit ? 'yes' : 'no', moneyR(r.lines, ['tax'])];
       case 'registration': return [n, S.regMethod, `${S.regYears} yr`, money(sumK(r.lines, ['registration', 'plate', 'local', 'value', 'ev']))];
       case 'title': return [n, usd(S.titleFee, 2), money(sumK(r.lines, ['title', 'registration', 'plate', 'local', 'value']))];
       case 'renewal': return [n, money(renewState(s.slug, 1).perYear), money(renewState(s.slug, 1, { fuel: 'ev', weightLbs: 4200 }).perYear)];
@@ -21,7 +29,7 @@ export function comparison(kind: TableKind): { headers: string[]; rows: Array<Ar
       case 'ev': return [n, S.evFeeLabel ?? (S.evFee === null ? 'none' : usd(S.evFee, 2)), S.phevFeeLabel ?? (S.phevFee === null ? 'none' : usd(S.phevFee, 2)), S.hybridFee === null ? 'none' : usd(S.hybridFee, 2)];
       case 'docfee': return [n, S.docFeeCap === null ? 'no cap' : usd(S.docFeeCap, 2), S.docFeeNote];
       case 'property': return [n, S.annualValueTax ? 'yes' : 'no', money(sumK(r.lines, ['value']))];
-      case 'otd': return [n, money(r.atPurchase), money(r.outTheDoor)];
+      case 'otd': { const t = r.lines.filter((l) => l.kind === 'tax' && l.amount === null); return [n, t.length ? `${money(r.atPurchase)} + ${moneyR(t, ['tax'])} tax` : money(r.atPurchase), t.length ? `${money(r.outTheDoor)} + tax` : money(r.outTheDoor)]; }
     }
   });
   const H: Record<TableKind, [string[], Array<'l' | 'r'>]> = {

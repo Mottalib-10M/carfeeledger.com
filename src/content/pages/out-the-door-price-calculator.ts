@@ -3,7 +3,7 @@ import { KIT as K } from '../../lib/kit';
 
 const st = K.st;
 const n = st.N();
-const otd = st.rank((s) => K.calc(s).outTheDoor);
+const otd = st.rank((s) => K.calc(s).outTheDoor, { pricedTax: true });
 const lo = otd[0], hi = otd[otd.length - 1];
 const capped = st.count((S) => S.docFeeCap !== null);
 const tx = K.calc('texas');

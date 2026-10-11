@@ -23,8 +23,9 @@ const path = route('home', lang);
 const h = helpers();
 const sources = x.sources.filter((k) => SOURCES[k]).map((k) => ({ name: SOURCES[k].label, url: SOURCES[k].url }));
 const jsonLd = [websiteSchema(lang), organizationSchema(lang), webPageSchema({ name: x.h1, description: x.description, path, lang }), webApplicationSchema({ name: x.h1, description: x.description, path, lang }), faqSchema(x.faqs, lang)];
-const bill = STATE_LIST.map((s) => { const r = calcState(s.slug); const tax = r.lines.filter((l) => l.kind === 'tax').reduce((a, l) => a + (l.amount ?? 0), 0); return { s, r, tax, fees: r.atPurchase - tax, renew: renewState(s.slug, 1).perYear }; }).sort((a, b) => a.r.atPurchase - b.r.atPurchase);
-const rows = bill.map((b, i) => [String(i + 1), STATE_PAGES.some((p) => p.slug === b.s.slug) ? `<a href="${route(stateId(b.s.slug), lang)}">${b.s.name}</a>` : b.s.name, usd(b.tax), usd(b.fees), usd(b.r.atPurchase), usd(b.renew)]);
+const bill = STATE_LIST.map((s) => { const r = calcState(s.slug); const tax = r.lines.filter((l) => l.kind === 'tax').reduce((a, l) => a + (l.amount ?? 0), 0); const open = r.lines.filter((l) => l.kind === 'tax' && l.amount === null); return { s, r, tax, open, fees: r.atPurchase - tax, renew: renewState(s.slug, 1).perYear }; }).sort((a, b) => (a.open.length - b.open.length) || a.r.atPurchase - b.r.atPurchase);
+const openTxt = (b: (typeof bill)[number]) => b.open.map((l) => (l.range ? `${usd(l.range[0])} to ${usd(l.range[1])}` : 'set locally')).join(' + ');
+const rows = bill.map((b, i) => [b.open.length ? '–' : String(i + 1), STATE_PAGES.some((p) => p.slug === b.s.slug) ? `<a href="${route(stateId(b.s.slug), lang)}">${b.s.name}</a>` : b.s.name, b.open.length ? `${b.tax > 0 ? `${usd(b.tax)} + ` : ''}${openTxt(b)}` : usd(b.tax), usd(b.fees), b.open.length ? `${usd(b.r.atPurchase)} + tax` : usd(b.r.atPurchase), usd(b.renew)]);
 const sections = x.sections(h);
 ---
 <PageLayout title={x.title} description={x.description} lang={lang} jsonLd={jsonLd} faqs={x.faqs} sources={sources}>
@@ -39,7 +40,7 @@ const sections = x.sections(h);
   <section class="prose prose-slate max-w-none prose-headings:font-serif">
     <h2>{x.tableTitle}</h2>
     <Fragment set:html={x.tableIntro(h)} />
-    <Fragment set:html={table(['#', 'State', 'Purchase tax', 'Title, registration and other fees', 'Due at purchase', 'Renewal, year 2'], rows, `${P.reference.label[0].toUpperCase()}${P.reference.label.slice(1)}, ranked from the lowest bill. Doc fee included at the state cap where there is one. Calculated with each state's engine on ${day(LAST_UPDATED)}.`, ['r', 'l', 'r', 'r', 'r', 'r'])} />
+    <Fragment set:html={table(['#', 'State', 'Purchase tax', 'Title, registration and other fees', 'Due at purchase', 'Renewal, year 2'], rows, `${P.reference.label[0].toUpperCase()}${P.reference.label.slice(1)}, ranked from the lowest bill; a jurisdiction whose purchase tax depends on data the reference car does not carry (such as fuel economy) is listed last, unranked, with the official range. Doc fee included at the state cap where there is one. Calculated with each state's engine on ${day(LAST_UPDATED)}.`, ['r', 'l', 'r', 'r', 'r', 'r'])} />
   </section>
   <section class="prose prose-slate max-w-none prose-headings:font-serif mt-10">
     {sections.map((s) => <><h2>{s.title}</h2><Fragment set:html={s.html} /></>)}

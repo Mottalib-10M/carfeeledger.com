@@ -5,7 +5,7 @@ import { loan } from '../../lib/engine/loan';
 const st = K.st;
 const n = st.N();
 const five = (slug: string) => st.atPurchase(slug) + [1, 2, 3, 4].reduce((s, y) => s + K.renew(slug, y).perYear, 0);
-const r = st.rank(five);
+const r = st.rank(five, { pricedTax: true });
 const lo = r[0], hi = r[r.length - 1];
 const pct = K.pct(K.P.loan.defaultApr, 0);
 const L = loan({ price: 35000, down: 5000, tradeIn: 0, feesFinanced: st.atPurchase('texas'), apr: K.P.loan.defaultApr, months: 60 });

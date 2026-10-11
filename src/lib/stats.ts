@@ -4,8 +4,13 @@ import type { FeeLine, StateSummary } from './engine/types';
 const sumK = (ls: FeeLine[], ks: string[]) => ls.filter((l) => ks.includes(l.kind) && l.amount !== null).reduce((s, l) => s + (l.amount as number), 0);
 export const REG_KINDS = ['registration', 'plate', 'local', 'value', 'ev'];
 export interface Row { name: string; slug: string; abbr: string; value: number }
-export function rank(f: (slug: string) => number): Row[] {
-  return STATE_LIST.map((s) => ({ name: s.name, slug: s.slug, abbr: s.abbr, value: f(s.slug) })).sort((a, b) => a.value - b.value);
+/** true when the reference car's purchase tax has no exact amount in that state (e.g. DC excise set by fuel economy). */
+export const taxUnpriced = (slug: string, over = {}) => unpriced(slug, ['tax'], over);
+/** true when a line of these kinds has no exact amount for the reference car (its total would look too low). */
+export const unpriced = (slug: string, kinds: string[], over = {}) => calcState(slug, over).lines.some((l) => kinds.includes(l.kind) && l.amount === null && !(l.range && l.range[1] === 0));
+/** Ranking of the jurisdictions; pricedTax / priced = leave out those whose tax, or lines of those kinds, are only a range. */
+export function rank(f: (slug: string) => number, opts: { pricedTax?: boolean; priced?: string[] } = {}): Row[] {
+  return STATE_LIST.filter((s) => (!opts.pricedTax || !taxUnpriced(s.slug)) && (!opts.priced || !unpriced(s.slug, opts.priced))).map((s) => ({ name: s.name, slug: s.slug, abbr: s.abbr, value: f(s.slug) })).sort((a, b) => a.value - b.value);
 }
 export const regBill = (slug: string) => sumK(calcState(slug).lines, REG_KINDS);
 export const taxOf = (slug: string, over = {}) => sumK(calcState(slug, over).lines, ['tax']);

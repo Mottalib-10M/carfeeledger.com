@@ -3,7 +3,7 @@ import { KIT as K } from '../../lib/kit';
 
 const st = K.st;
 const n = st.N();
-const tax = st.rank((s) => st.taxOf(s));
+const tax = st.rank((s) => st.taxOf(s), { pricedTax: true });
 const lo = tax[0], hi = tax[tax.length - 1];
 const noTrade = st.which((S) => !S.tradeInCredit);
 const local = st.count((S) => S.localRange[1] > 0);

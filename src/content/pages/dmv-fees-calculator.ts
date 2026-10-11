@@ -3,7 +3,7 @@ import { KIT as K } from '../../lib/kit';
 
 const st = K.st;
 const n = st.N();
-const all = st.rank((s) => st.atPurchase(s));
+const all = st.rank((s) => st.atPurchase(s), { pricedTax: true });
 const lo = all[0], hi = all[all.length - 1];
 const partial = K.states.filter((s) => K.data(s.slug).exactness === 'partial').length;
 const ca = K.calc('california');

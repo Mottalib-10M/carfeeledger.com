@@ -2,7 +2,7 @@ import { definePage } from '../../lib/page-types';
 import { KIT as K } from '../../lib/kit';
 
 const st = K.st;
-const reg = st.rank(st.regBill);
+const reg = st.rank(st.regBill, { priced: st.REG_KINDS });
 const lo = reg[0], hi = reg[reg.length - 1];
 const med = st.median(reg.map((r) => r.value));
 const n = st.N();

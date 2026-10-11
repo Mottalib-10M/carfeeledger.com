@@ -3,11 +3,11 @@ import { KIT as K } from '../lib/kit';
 
 const st = K.st;
 const n = st.N();
-const bills = st.rank((s) => st.atPurchase(s));
+const bills = st.rank((s) => st.atPurchase(s), { pricedTax: true });
 const lo = bills[0];
 const hi = bills[bills.length - 1];
 const med = st.median(bills.map((b) => b.value));
-const regs = st.rank((s) => st.regBill(s));
+const regs = st.rank((s) => st.regBill(s), { priced: st.REG_KINDS });
 const noTax = st.which((S) => S.stateRate === 0);
 const evStates = st.count((S) => S.evFee !== null);
 const valueTax = st.count((S) => S.annualValueTax);

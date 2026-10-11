@@ -5,7 +5,7 @@ const st = K.st;
 const n = st.N();
 const titles = st.rank((s) => K.data(s).summary.titleFee);
 const tlo = titles[0], thi = titles[titles.length - 1];
-const tag = st.rank((s) => K.calc(s).lines.filter((l) => ['title', 'registration', 'plate', 'local', 'value'].includes(l.kind) && l.amount !== null).reduce((a, l) => a + (l.amount as number), 0));
+const tag = st.rank((s) => K.calc(s).lines.filter((l) => ['title', 'registration', 'plate', 'local', 'value'].includes(l.kind) && l.amount !== null).reduce((a, l) => a + (l.amount as number), 0), { priced: ['title', 'registration', 'plate', 'local', 'value'] });
 const lo = tag[0], hi = tag[tag.length - 1];
 const fl = K.calc('florida');
 const flInit = fl.lines.find((l) => l.id === 'initial-reg');

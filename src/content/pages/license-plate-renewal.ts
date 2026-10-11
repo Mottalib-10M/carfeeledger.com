@@ -3,9 +3,9 @@ import { KIT as K } from '../../lib/kit';
 
 const st = K.st;
 const n = st.N();
-const ren = st.rank((s) => st.renewOf(s));
+const ren = st.rank((s) => st.renewOf(s), { priced: st.REG_KINDS });
 const lo = ren[0], hi = ren[ren.length - 1];
-const evRen = st.rank((s) => st.renewOf(s, { fuel: 'ev', weightLbs: 4200 }));
+const evRen = st.rank((s) => st.renewOf(s, { fuel: 'ev', weightLbs: 4200 }), { priced: st.REG_KINDS });
 const ca1 = K.renew('california', 1), ca5 = K.renew('california', 5);
 
 export default definePage({
