@@ -13,7 +13,7 @@ const top = counties.filter((c) => c.localRate === Math.max(...counties.map((x) 
 export default defineState({
   slug: 'florida',
   title: 'Florida Registration Fees 2026: $225 Fee, Tax, Title, Weight',
-  description: `Florida registration fees for 2026: $225 initial fee without a plate to transfer, weight-based registration, $75.75 title, 6% tax plus county surtax on the first $5,000. New car: ${K.usd(r.atPurchase)}.`,
+  description: `Florida registration fees 2026: $225 initial fee, weight-based tag, $75.75 title, 6% tax plus county surtax on the first $5,000. New $35,000 car: ${K.usd(r.atPurchase)}.`,
   h1: 'Florida registration fees',
   intro: 'Florida charges little to renew a car but a lot to put a first Florida plate on it.',
   resume: `A new $35,000 gasoline car bought from a Miami-Dade dealer costs ${K.usd(r.atPurchase)} in taxes and fees at purchase, before any dealer fee: ${K.usd(v('sales-tax'))} of 6% state sales tax, ${K.usd(v('local-tax'))} of county surtax (1% on the first $5,000 only), the $75.75 title, the $225 initial registration fee charged when there is no Florida plate to transfer onto the car, and ${K.usd(v('reg'))} of registration for a car of 3,500 pounds or more, add-on fees included. After that the yearly renewal is just the weight fee, from $28.10 to $46.10 for a car. Florida has no inspection and no yearly tax on the car's value. The dealer fee is not capped: Florida only requires a printed disclosure on every document where it appears, and the fee is taxed with the car.`,
@@ -28,7 +28,7 @@ export default defineState({
     { q: 'Why do I have to pay $225 to register a car in Florida?', a: 'It is the initial registration fee Florida charges when no Florida license plate is transferred onto the vehicle. You avoid it by moving a plate from a car you no longer own; you pay it if this is your first Florida registration, including after moving from another state.' },
     { q: 'How much is the Florida car sales tax with the county surtax?', a: `6% of the price after the trade-in, plus the county surtax on the first $5,000 only. In Miami-Dade, a $35,000 car pays ${K.usd(v('sales-tax'))} of state tax (the dealer fee included) and ${K.usd(v('local-tax'))} of surtax. In counties without a surtax, only the 6% applies.` },
     { q: 'How much does it cost to renew a car registration in Florida?', a: 'For an automobile, $28.10 a year under 2,500 pounds, $36.10 from 2,500 to 3,499 pounds and $46.10 from 3,500 pounds, add-on fees included, as published by county tax collectors. Two-year renewals cost twice as much. Payment by card adds a processing fee.' },
-    { q: 'Does Florida require a vehicle inspection?', a: 'No. Florida has no safety inspection and no emissions test for private passenger cars, so no inspection fee appears in the calculator. The yearly bill is therefore only the weight-based registration fee.' },
+    { q: 'Does Florida require a vehicle inspection?', a: 'No. Florida has no safety inspection and no emissions test for private passenger cars, so no inspection fee appears in the calculator. The yearly bill is therefore only the weight-based registration fee and the small local and service charges added by the county tax collector.' },
   ],
   related: ['dmv-fees-calculator', 'title-and-registration-fees', 'car-sales-tax-calculator', 'state:georgia', 'state:texas', 'car-registration-fees'],
 });

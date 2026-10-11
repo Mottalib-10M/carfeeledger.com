@@ -10,7 +10,7 @@ const renewEv = K.renew('virginia', 1, { fuel: 'ev', weightLbs: 4200 });
 export default defineState({
   slug: 'virginia',
   title: 'Virginia Car Tax and DMV Fees 2026: 4.15% SUT, Title, HUF',
-  description: `Virginia car tax and DMV fees for 2026: 4.15% sales and use tax (minimum $75), $15 title, $30.75 registration, EV highway use fee $135.63. New $35,000 car: ${K.usd(r.atPurchase)}.`,
+  description: `Virginia car tax and DMV fees 2026: 4.15% sales and use tax (minimum $75), $15 title, $30.75 registration, EV use fee $135.63. New $35,000 car: ${K.usd(r.atPurchase)}.`,
   h1: 'Virginia car sales tax and DMV fees',
   intro: 'Virginia charges little at the DMV counter; the real yearly cost of a car there is the personal property tax your county or city sends.',
   resume: `A new $35,000 gasoline car titled in Fairfax County costs ${K.usd(r.atPurchase)} in state taxes and DMV fees at purchase: ${K.usd(v('sales-tax'))} of motor vehicle sales and use tax at 4.15%, the $15 original title, ${K.usd(v('reg'))} of yearly registration for a car of 4,000 lb or less and the $2 Northern Virginia emissions fee. Two lines are not in that total. The highway use fee applies to gasoline and hybrid cars rated 25 mpg or more and depends on the EPA rating, from $0 to $135.63 a year. And every county and city taxes cars as personal property, at its own rate on its own valuation, billed each year. A trade-in does not lower the tax: with a $10,000 trade-in the tax stays ${K.usd(v('sales-tax', trade))}. A new electric SUV of 4,200 lb pays ${K.usd(ev.atPurchase)} at purchase and about ${K.usd(renewEv.perYear)} a year to renew, before the local tax.`,

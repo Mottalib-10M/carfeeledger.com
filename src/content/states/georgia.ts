@@ -11,7 +11,7 @@ const renewEv = K.renew('georgia', 1, { fuel: 'ev', weightLbs: 4200 });
 export default defineState({
   slug: 'georgia',
   title: 'Georgia TAVT and Tag Fees 2026: 7% Title Tax, $20 Plate, EV',
-  description: `Georgia car fees for 2026: one-time 7% title ad valorem tax instead of sales tax, $18 title, $20 yearly plate, $238.59 EV fee, Atlanta emissions. New $35,000 car: ${K.usd(r.atPurchase)}.`,
+  description: `Georgia car fees 2026: a one-time 7% title ad valorem tax instead of sales tax, $18 title, $20 yearly plate, $238.59 EV fee. A new $35,000 car: ${K.usd(r.atPurchase)}.`,
   h1: 'Georgia car tax and tag fees',
   intro: 'Georgia pays for roads and local services with one large tax at titling and very small fees afterwards.',
   resume: `A new $35,000 gasoline car costs ${K.usd(r.atPurchase)} in taxes and fees at purchase in Georgia: ${K.usd(v('sales-tax'))} of title ad valorem tax (TAVT) at 7%, the $18 title application fee and the $20 yearly plate fee. There is no sales tax on top and no yearly tax on the car's value afterwards: the TAVT, in force since March 1, 2013, replaced both. That is why a Georgia renewal is among the cheapest in the country, $20 a year for a gasoline car, while the purchase is not. Fully electric cars add an alternative fuel fee of $238.59 a year for registrations from July 2026, indexed each July. A dealer trade-in lowers the TAVT; on a used car the tax uses the state's assessment value rather than the price, and buyers inside the 13-county Atlanta test area need a yearly emissions test once the car is three model years old.`,
@@ -28,7 +28,7 @@ export default defineState({
     { q: 'How is the Georgia TAVT calculated on a used car?', a: 'At 7% of the value listed in the state motor vehicle assessment manual, which averages wholesale and retail values, whatever price you paid. A dealer trade-in reduces that value; a trade between private individuals does not. Check the DOR TAVT estimator before you buy.' },
     { q: 'Do I pay sales tax and TAVT on a car in Georgia?', a: 'No, only the TAVT. Since March 1, 2013 it replaces the sales tax on cars and the annual ad valorem tax that owners used to pay each year at renewal. Cars bought before that date can still be under the old annual tax.' },
     { q: 'How much is the yearly tag renewal in Georgia?', a: 'Twenty dollars for a passenger car or light pickup under the TAVT system, plus the alternative fuel fee for a fully electric car ($238.59 for registrations starting between July 1, 2026 and June 30, 2027) and, inside the 13 Atlanta-area counties, the emissions test paid to the station.' },
-    { q: 'How much TAVT does a new resident pay in Georgia?', a: 'Three percent of the fair market value instead of seven, provided the vehicle was already titled in the new resident’s name, according to the Department of Revenue. The $18 title and the $20 plate fee are added.' },
+    { q: 'How much TAVT does a new resident pay in Georgia?', a: 'Three percent of the fair market value instead of seven, provided the vehicle was already titled in the new resident’s name, according to the Department of Revenue. The $18 title and the $20 plate fee are added on top, and the tax is paid once, when the car is first titled in Georgia.' },
   ],
   related: ['car-sales-tax-calculator', 'vehicle-inspection-cost', 'ev-registration-fee-by-state', 'state:florida', 'state:texas', 'car-registration-fees'],
 });
