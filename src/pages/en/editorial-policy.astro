@@ -1,0 +1,19 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { route } from '../../i18n/routes';
+import { AUTHOR_NAME, REVIEW_CYCLE_MONTHS } from '../../data/site-config';
+const lang = 'en';
+---
+<PageLayout title="Editorial policy of Car Fee Ledger: state sources, updates, fixes" description="How Car Fee Ledger reads DMV and revenue department schedules, turns them into tested engines, dates every figure and corrects a fee when a state changes it or a reader reports it." lang={lang} noindex={true} breadcrumbs={[{ label: 'Editorial policy' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none prose-headings:font-serif">
+    <h1>Editorial policy</h1>
+    <h2>Sources we accept</h2>
+    <p>A fee or a rate enters a data file only if it was read on the website of the body that sets or collects it: a state motor vehicle agency, a department of revenue, a legislature's code, a state regulation, an environmental agency for emissions tests, or a county tax collector for county fees. Each entry keeps the address, the date read and a short quotation. Other calculators, dealer pages, insurers' articles and national "average fee" rankings are never used as sources, even when they agree with the state.</p>
+    <h2>How a page is written</h2>
+    <p>No amount is typed into a page: the prose reads it from the state's data file through the engine, so a corrected fee corrects every page that mentions it. When a state publishes only a range, or leaves the amount to private stations or to local governments, the page shows the range or says that there is none, and the engine leaves that line out of the totals.</p>
+    <h2>Independence</h2>
+    <p>{AUTHOR_NAME} is paid by no dealer, lender, insurer, title service or inspection station. The site sells no leads and shows no advertising today; if advertising is added one day, it will be labeled and kept away from the calculators.</p>
+    <h2>Updates and corrections</h2>
+    <p>The 51 data files are reread at least every {REVIEW_CYCLE_MONTHS} months and at each change of year, when many states index their fees, plus whenever a reader reports a new schedule. A wrong figure is corrected in the data file, its test is updated and the date at the top of the page changes. Write through the <a href={route('contact', lang)}>contact page</a>; the arithmetic is on the <a href={route('method', lang)}>method page</a>.</p>
+  </div>
+</PageLayout>

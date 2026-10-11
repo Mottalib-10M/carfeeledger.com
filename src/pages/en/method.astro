@@ -1,0 +1,50 @@
+---
+/** Method: the data files, the engines, a worked example, how ranges are handled, tests and limits. Figures from the kit. */
+import PageLayout from '../../layouts/PageLayout.astro';
+import { route } from '../../i18n/routes';
+import { KIT as K } from '../../lib/kit';
+import { table } from '../../lib/helpers';
+import { STATE_LIST, STATE_DATA } from '../../lib/data';
+import { STATE_ENGINES } from '../../lib/engine/registry';
+import { breadcrumbSchema, webPageSchema } from '../../lib/seo';
+const lang = 'en';
+const path = route('method', lang);
+const ex = K.calc('texas');
+const exUsed = K.calc('california', { condition: 'used', seller: 'private', price: 18000, modelYear: 2021, fuel: 'ev', weightLbs: 4200 });
+const custom = STATE_LIST.filter((s) => STATE_ENGINES[s.ab]).length;
+const methods = ['flat', 'weight', 'value', 'age', 'horsepower', 'mixed'].map((m) => [m, String(STATE_LIST.filter((s) => STATE_DATA[s.ab].summary.regMethod === m).length), STATE_LIST.filter((s) => STATE_DATA[s.ab].summary.regMethod === m).map((s) => s.abbr).join(', ') || '–']);
+const partial = STATE_LIST.filter((s) => STATE_DATA[s.ab].exactness === 'partial');
+const rows = ex.lines.map((l) => [l.label, l.amount === null ? 'not priced' : K.usd(l.amount, 2), l.when === 'once' ? 'once' : `every ${l.years ?? 1} year(s)`]);
+const title = 'DMV Fee Method 2026: How 51 State Schedules Become One Total';
+const description = 'How Car Fee Ledger turns each 2026 state fee schedule into a tested engine: tax base, trade-in credit, registration formulas, county rates, ranges when a state leaves a fee open.';
+---
+<PageLayout title={title} description={description} lang={lang} jsonLd={[webPageSchema({ name: 'How the fees are calculated', description, path, lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'How the fees are calculated', path }])]} breadcrumbs={[{ label: 'How the fees are calculated' }]}>
+  <article class="prose prose-slate max-w-none prose-headings:font-serif">
+    <h1>How the fees are calculated</h1>
+    <p>There is no national price list for registering a car. Each of the {STATE_LIST.length} jurisdictions sets its own purchase tax, title fee, registration formula, plate fees, inspection rules and, more and more, a surcharge for electric and hybrid cars; counties and cities add their own layer in about half of them. This page explains how those rules become the totals shown by the calculator, and where the arithmetic has to stop because a state leaves the amount to someone else.</p>
+    <h2>1. One data file per jurisdiction</h2>
+    <p>Each state (and DC) has a file holding every number its engine needs, the official source of each block, the date it was read and a short quotation of the passage. The file also says whether every line of an ordinary car can be computed ("exact") or whether at least one line is only a range ("partial"), and lists the reason. Counties appear when the local tax or a county fee changes the bill, with every county when the state publishes a county table.</p>
+    <h2>2. One engine per formula</h2>
+    <p>States whose rules fit a common pattern (a rate on the price, a title fee, a flat, weight-bracket or age-bracket registration fee, a yearly add-on, an EV fee, an inspection) run through one shared engine fed by their data file. States with their own arithmetic, such as a value-based fee that depreciates on a schedule, a tax on the first few thousand dollars only, or a two-year first registration, have an engine of their own: {custom} of them today. Registration formulas used across the country:</p>
+    <Fragment set:html={table(['Registration based on', 'Jurisdictions', 'Which'], methods, 'From the data files of the 51 jurisdictions.', ['l', 'r', 'l'])} />
+    <h2>3. The tax base</h2>
+    <p>The purchase tax starts from the agreed price. Three questions change it, and the engine asks each state's rule: is the trade-in deducted, is the dealer's documentation fee part of the taxable price, and is the tax capped or limited to a slice of the price. A private-party sale is taxed in some states on a book value the buyer cannot know in advance; there the engine taxes the price and says so in a note.</p>
+    <h2>4. Worked example: a new car in Texas</h2>
+    <p>For {K.P.reference.label}, in Harris County, the Texas engine returns:</p>
+    <Fragment set:html={table(['Line', 'Amount', 'Paid'], rows, `Due at purchase ${K.usd(ex.atPurchase)}, out the door ${K.usd(ex.outTheDoor)}.`, ['l', 'r', 'l'])} />
+    <p>The 24 months of registration come from the Texas rule that a new car sold by a Texas dealer is registered for two years; the documentation fee is the $225 figure the Texas regulator presumes reasonable, and it is not taxed because the Comptroller excludes it from the taxable price.</p>
+    <h2>5. When a state leaves an amount open</h2>
+    <p>Some charges have no single official amount: a smog or safety test priced freely by stations, a personal property tax set by each town, a fee that depends on a book value only the agency holds. The calculator lists those lines under "Not added", with the official range when one exists, and never adds them to the totals. In California, for example, a used electric car bought from a private seller for $18,000 owes {K.usd(exUsed.atPurchase)} at purchase, and the registration package of {K.usd(exUsed.firstYear - exUsed.atPurchase)} falls due at the next expiration date of the seller's registration, which the calculator shows apart. Jurisdictions with at least one open line today: {partial.map((s) => s.abbr).join(', ') || 'none'}.</p>
+    <h2>6. The reference car</h2>
+    <p>Comparison tables across the site use the same car everywhere: {K.P.reference.label}. It is a yardstick, not a typical purchase; change any input in the calculator to see your own case.</p>
+    <h2>7. What the calculation cannot know</h2>
+    <ul>
+      <li>Special or personalized plates, late penalties, duplicate titles and lien recording fees.</li>
+      <li>Local add-ons adopted between two readings of a county table, and city rates inside counties where the state publishes only county rates.</li>
+      <li>The value an agency assigns to a used car when it does not use the price you paid.</li>
+      <li>Credits for tax already paid in another state when you move, and military, disability or farm exemptions.</li>
+    </ul>
+    <h2>8. Tests and updates</h2>
+    <p>Every engine is tested on a new car from a dealer, a used electric car from a private seller, a renewal one year later and the bracket edges where a fee jumps, and on the worked examples states publish (California's VLF table, Texas's fee chart). The data files are reread at each change of year and whenever a reader reports a new schedule through the <a href={route('contact', lang)}>contact page</a>.</p>
+  </article>
+</PageLayout>

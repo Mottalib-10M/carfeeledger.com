@@ -1,0 +1,891 @@
+{
+ "abbr": "CA",
+ "name": "California",
+ "slug": "california",
+ "agency": {
+  "name": "California Department of Motor Vehicles",
+  "short": "DMV",
+  "url": "https://www.dmv.ca.gov/"
+ },
+ "taxAgency": {
+  "name": "California Department of Tax and Fee Administration (CDTFA)",
+  "url": "https://cdtfa.ca.gov/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "County and district fees are read from DMV Appendix 1A; where a county program shows a sunset date already passed, the fee is shown as a $1 range rather than an amount.",
+  "Smog check station prices are not regulated by the Bureau of Automotive Repair: only the $8.25 certificate fee is fixed, so a biennial or change-of-ownership smog check is shown without a price.",
+  "Health and Safety Code 44060(d)(1) sets the smog abatement fee at $25 for vehicles seven or eight model-years old while the DMV fee table lists $20; the engine applies $20 for the first six model-years and shows years seven and eight as a $20-$33 range.",
+  "On a used car the registration year of the seller carries over: registration, CHP fee, VLF and TIF are due at the next expiration date, recalculated on the new purchase price (shown as due within 12 months)."
+ ],
+ "summary": {
+  "stateRate": 0.0725,
+  "localRange": [
+   0,
+   0.0375
+  ],
+  "taxName": "sales and use tax",
+  "tradeInCredit": false,
+  "titleFee": 15,
+  "regMethod": "value",
+  "regYears": 1,
+  "docFeeCap": 85,
+  "docFeeNote": "$85 for dealers enrolled as DMV private industry partners (electronic registration), $70 for the others (Vehicle Code 4456.5); the fee is taxable.",
+  "evFee": 121,
+  "phevFee": null,
+  "hybridFee": null,
+  "inspection": "emissions",
+  "inspectionWhere": "Biennial smog check for gasoline and hybrid vehicles older than eight model years (smog abatement fee instead before that) and at change of ownership for vehicles older than four model years; electric vehicles are exempt.",
+  "inspectionFee": 8.25,
+  "annualValueTax": true
+ },
+ "params": {
+  "tax": {
+   "stateRate": 0.0725,
+   "tradeInCredit": false,
+   "docFeeTaxable": true,
+   "_src": "cdtfa-dealers"
+  },
+  "reg": {
+   "base": 76,
+   "chp": 34,
+   "_src": "dmv-fees"
+  },
+  "vlf": {
+   "rate": 0.0065,
+   "classWidth": 200,
+   "depreciation": [
+    1,
+    0.9,
+    0.8,
+    0.7,
+    0.6,
+    0.5,
+    0.4,
+    0.3,
+    0.25,
+    0.2,
+    0.15
+   ],
+   "_src": "dmv-vlf"
+  },
+  "tif": {
+   "brackets": [
+    {
+     "upTo": 4999.99,
+     "amount": 33
+    },
+    {
+     "upTo": 24999.99,
+     "amount": 66
+    },
+    {
+     "upTo": 34999.99,
+     "amount": 132
+    },
+    {
+     "upTo": 59999.99,
+     "amount": 198
+    },
+    {
+     "upTo": null,
+     "amount": 231
+    }
+   ],
+   "_src": "dmv-fees"
+  },
+  "rif": {
+   "amount": 121,
+   "minModelYear": 2020,
+   "_src": "dmv-fees"
+  },
+  "smog": {
+   "abatement": 20,
+   "abatementMaxAge": 5,
+   "abatementRange78": [
+    20,
+    33
+   ],
+   "exemptRenewalAge": 8,
+   "transferFee": 8,
+   "transferMaxAge": 3,
+   "certificate": 8.25,
+   "_src": "bar-faq"
+  },
+  "transfer": {
+   "fee": 15,
+   "_src": "dmv-fees"
+  },
+  "plate": {
+   "reflectorized": 1,
+   "_src": "dmv-fees"
+  }
+ },
+ "counties": [
+  {
+   "id": "alameda-county",
+   "name": "Alameda County",
+   "localRate": 0.03,
+   "countyFee": [
+    21,
+    22
+   ]
+  },
+  {
+   "id": "alpine-county",
+   "name": "Alpine County",
+   "localRate": 0.0,
+   "countyFee": [
+    1,
+    1
+   ]
+  },
+  {
+   "id": "amador-county",
+   "name": "Amador County",
+   "localRate": 0.005,
+   "countyFee": [
+    5,
+    5
+   ]
+  },
+  {
+   "id": "butte-county",
+   "name": "Butte County",
+   "localRate": 0.01,
+   "countyFee": [
+    5,
+    6
+   ]
+  },
+  {
+   "id": "calaveras-county",
+   "name": "Calaveras County",
+   "localRate": 0.01,
+   "countyFee": [
+    1,
+    1
+   ]
+  },
+  {
+   "id": "colusa-county",
+   "name": "Colusa County",
+   "localRate": 0.005,
+   "countyFee": [
+    8,
+    8
+   ]
+  },
+  {
+   "id": "contra-costa-county",
+   "name": "Contra Costa County",
+   "localRate": 0.015,
+   "countyFee": [
+    11,
+    11
+   ]
+  },
+  {
+   "id": "del-norte-county-unincorporated-area",
+   "name": "Del Norte County (unincorporated area)",
+   "localRate": 0.01,
+   "countyFee": [
+    9,
+    9
+   ]
+  },
+  {
+   "id": "el-dorado-county",
+   "name": "El Dorado County",
+   "localRate": 0.0,
+   "countyFee": [
+    9,
+    10
+   ]
+  },
+  {
+   "id": "fresno-county",
+   "name": "Fresno County",
+   "localRate": 0.00725,
+   "countyFee": [
+    21,
+    21
+   ]
+  },
+  {
+   "id": "glenn-county",
+   "name": "Glenn County",
+   "localRate": 0.0,
+   "countyFee": [
+    7,
+    7
+   ]
+  },
+  {
+   "id": "humboldt-county",
+   "name": "Humboldt County",
+   "localRate": 0.015,
+   "countyFee": [
+    10,
+    10
+   ]
+  },
+  {
+   "id": "imperial-county",
+   "name": "Imperial County",
+   "localRate": 0.005,
+   "countyFee": [
+    8,
+    9
+   ]
+  },
+  {
+   "id": "inyo-county",
+   "name": "Inyo County",
+   "localRate": 0.005,
+   "countyFee": [
+    1,
+    1
+   ]
+  },
+  {
+   "id": "kern-county-unincorporated-area",
+   "name": "Kern County (unincorporated area)",
+   "localRate": 0.01,
+   "countyFee": [
+    10,
+    10
+   ]
+  },
+  {
+   "id": "kings-county",
+   "name": "Kings County",
+   "localRate": 0.0,
+   "countyFee": [
+    23,
+    23
+   ]
+  },
+  {
+   "id": "lake-county",
+   "name": "Lake County",
+   "localRate": 0.0,
+   "countyFee": [
+    3,
+    3
+   ]
+  },
+  {
+   "id": "lassen-county",
+   "name": "Lassen County",
+   "localRate": 0.0,
+   "countyFee": [
+    6,
+    6
+   ]
+  },
+  {
+   "id": "los-angeles-county",
+   "name": "Los Angeles County",
+   "localRate": 0.03,
+   "countyFee": [
+    11,
+    11
+   ]
+  },
+  {
+   "id": "madera-county",
+   "name": "Madera County",
+   "localRate": 0.005,
+   "countyFee": [
+    22,
+    22
+   ]
+  },
+  {
+   "id": "marin-county",
+   "name": "Marin County",
+   "localRate": 0.01,
+   "countyFee": [
+    21,
+    21
+   ]
+  },
+  {
+   "id": "mariposa-county",
+   "name": "Mariposa County",
+   "localRate": 0.01,
+   "countyFee": [
+    0,
+    0
+   ]
+  },
+  {
+   "id": "mendocino-county",
+   "name": "Mendocino County",
+   "localRate": 0.00625,
+   "countyFee": [
+    9,
+    9
+   ]
+  },
+  {
+   "id": "merced-county",
+   "name": "Merced County",
+   "localRate": 0.005,
+   "countyFee": [
+    24,
+    24
+   ]
+  },
+  {
+   "id": "modoc-county",
+   "name": "Modoc County",
+   "localRate": 0.0,
+   "countyFee": [
+    0,
+    0
+   ]
+  },
+  {
+   "id": "mono-county",
+   "name": "Mono County",
+   "localRate": 0.0,
+   "countyFee": [
+    2,
+    2
+   ]
+  },
+  {
+   "id": "monterey-county-unincorporated-area",
+   "name": "Monterey County (unincorporated area)",
+   "localRate": 0.015,
+   "countyFee": [
+    11,
+    11
+   ]
+  },
+  {
+   "id": "napa-county",
+   "name": "Napa County",
+   "localRate": 0.005,
+   "countyFee": [
+    10,
+    10
+   ]
+  },
+  {
+   "id": "nevada-county",
+   "name": "Nevada County",
+   "localRate": 0.0025,
+   "countyFee": [
+    6,
+    6
+   ]
+  },
+  {
+   "id": "orange-county",
+   "name": "Orange County",
+   "localRate": 0.005,
+   "countyFee": [
+    11,
+    11
+   ]
+  },
+  {
+   "id": "placer-county",
+   "name": "Placer County",
+   "localRate": 0.0,
+   "countyFee": [
+    8,
+    8
+   ]
+  },
+  {
+   "id": "plumas-county",
+   "name": "Plumas County",
+   "localRate": 0.0,
+   "countyFee": [
+    8,
+    8
+   ]
+  },
+  {
+   "id": "riverside-county",
+   "name": "Riverside County",
+   "localRate": 0.005,
+   "countyFee": [
+    12,
+    13
+   ]
+  },
+  {
+   "id": "sacramento-county",
+   "name": "Sacramento County",
+   "localRate": 0.005,
+   "countyFee": [
+    10,
+    11
+   ]
+  },
+  {
+   "id": "san-benito-county",
+   "name": "San Benito County",
+   "localRate": 0.01,
+   "countyFee": [
+    9,
+    9
+   ]
+  },
+  {
+   "id": "san-bernardino-county",
+   "name": "San Bernardino County",
+   "localRate": 0.005,
+   "countyFee": [
+    12,
+    12
+   ]
+  },
+  {
+   "id": "san-diego-county",
+   "name": "San Diego County",
+   "localRate": 0.005,
+   "countyFee": [
+    7,
+    7
+   ]
+  },
+  {
+   "id": "san-francisco-county",
+   "name": "San Francisco County",
+   "localRate": 0.01375,
+   "countyFee": [
+    20,
+    21
+   ]
+  },
+  {
+   "id": "san-joaquin-county",
+   "name": "San Joaquin County",
+   "localRate": 0.005,
+   "countyFee": [
+    24,
+    24
+   ]
+  },
+  {
+   "id": "san-luis-obispo-county",
+   "name": "San Luis Obispo County",
+   "localRate": 0.0,
+   "countyFee": [
+    9,
+    9
+   ]
+  },
+  {
+   "id": "san-mateo-county",
+   "name": "San Mateo County",
+   "localRate": 0.02125,
+   "countyFee": [
+    20,
+    20
+   ]
+  },
+  {
+   "id": "santa-barbara-county",
+   "name": "Santa Barbara County",
+   "localRate": 0.005,
+   "countyFee": [
+    9,
+    9
+   ]
+  },
+  {
+   "id": "santa-clara-county",
+   "name": "Santa Clara County",
+   "localRate": 0.025,
+   "countyFee": [
+    21,
+    21
+   ]
+  },
+  {
+   "id": "santa-cruz-county-unincorporated-area",
+   "name": "Santa Cruz County (unincorporated area)",
+   "localRate": 0.0225,
+   "countyFee": [
+    12,
+    12
+   ]
+  },
+  {
+   "id": "shasta-county",
+   "name": "Shasta County",
+   "localRate": 0.0,
+   "countyFee": [
+    5,
+    5
+   ]
+  },
+  {
+   "id": "sierra-county",
+   "name": "Sierra County",
+   "localRate": 0.0,
+   "countyFee": [
+    2,
+    2
+   ]
+  },
+  {
+   "id": "siskiyou-county",
+   "name": "Siskiyou County",
+   "localRate": 0.0,
+   "countyFee": [
+    3,
+    3
+   ]
+  },
+  {
+   "id": "solano-county",
+   "name": "Solano County",
+   "localRate": 0.00125,
+   "countyFee": [
+    12,
+    12
+   ]
+  },
+  {
+   "id": "sonoma-county",
+   "name": "Sonoma County",
+   "localRate": 0.02,
+   "countyFee": [
+    12,
+    12
+   ]
+  },
+  {
+   "id": "stanislaus-county",
+   "name": "Stanislaus County",
+   "localRate": 0.00625,
+   "countyFee": [
+    22,
+    22
+   ]
+  },
+  {
+   "id": "sutter-county",
+   "name": "Sutter County",
+   "localRate": 0.0,
+   "countyFee": [
+    7,
+    7
+   ]
+  },
+  {
+   "id": "tehama-county",
+   "name": "Tehama County",
+   "localRate": 0.0,
+   "countyFee": [
+    7,
+    7
+   ]
+  },
+  {
+   "id": "trinity-county",
+   "name": "Trinity County",
+   "localRate": 0.0,
+   "countyFee": [
+    9,
+    9
+   ]
+  },
+  {
+   "id": "tulare-county",
+   "name": "Tulare County",
+   "localRate": 0.005,
+   "countyFee": [
+    22,
+    22
+   ]
+  },
+  {
+   "id": "tuolumne-county",
+   "name": "Tuolumne County",
+   "localRate": 0.0,
+   "countyFee": [
+    6,
+    7
+   ]
+  },
+  {
+   "id": "ventura-county",
+   "name": "Ventura County",
+   "localRate": 0.0,
+   "countyFee": [
+    9,
+    9
+   ]
+  },
+  {
+   "id": "yolo-county",
+   "name": "Yolo County",
+   "localRate": 0.0,
+   "countyFee": [
+    10,
+    10
+   ]
+  },
+  {
+   "id": "yuba-county-unincorporated-area",
+   "name": "Yuba County (unincorporated area)",
+   "localRate": 0.01,
+   "countyFee": [
+    9,
+    9
+   ]
+  },
+  {
+   "id": "city-anaheim",
+   "name": "City of Anaheim (Orange County)",
+   "localRate": 0.005,
+   "countyFee": [
+    11,
+    11
+   ]
+  },
+  {
+   "id": "city-bakersfield",
+   "name": "City of Bakersfield (Kern County)",
+   "localRate": 0.01,
+   "countyFee": [
+    10,
+    10
+   ]
+  },
+  {
+   "id": "city-chula-vista",
+   "name": "City of Chula Vista (San Diego County)",
+   "localRate": 0.015,
+   "countyFee": [
+    7,
+    7
+   ]
+  },
+  {
+   "id": "city-fontana",
+   "name": "City of Fontana (San Bernardino County)",
+   "localRate": 0.015,
+   "countyFee": [
+    12,
+    12
+   ]
+  },
+  {
+   "id": "city-fremont",
+   "name": "City of Fremont (Alameda County)",
+   "localRate": 0.03,
+   "countyFee": [
+    21,
+    22
+   ]
+  },
+  {
+   "id": "city-fresno",
+   "name": "City of Fresno (Fresno County)",
+   "localRate": 0.011,
+   "countyFee": [
+    21,
+    21
+   ]
+  },
+  {
+   "id": "city-irvine",
+   "name": "City of Irvine (Orange County)",
+   "localRate": 0.005,
+   "countyFee": [
+    11,
+    11
+   ]
+  },
+  {
+   "id": "city-long-beach",
+   "name": "City of Long Beach (Los Angeles County)",
+   "localRate": 0.0375,
+   "countyFee": [
+    11,
+    11
+   ]
+  },
+  {
+   "id": "city-los-angeles",
+   "name": "City of Los Angeles (Los Angeles County)",
+   "localRate": 0.03,
+   "countyFee": [
+    11,
+    11
+   ]
+  },
+  {
+   "id": "city-modesto",
+   "name": "City of Modesto (Stanislaus County)",
+   "localRate": 0.01625,
+   "countyFee": [
+    22,
+    22
+   ]
+  },
+  {
+   "id": "city-oakland",
+   "name": "City of Oakland (Alameda County)",
+   "localRate": 0.035,
+   "countyFee": [
+    21,
+    22
+   ]
+  },
+  {
+   "id": "city-oxnard",
+   "name": "City of Oxnard (Ventura County)",
+   "localRate": 0.02,
+   "countyFee": [
+    9,
+    9
+   ]
+  },
+  {
+   "id": "city-riverside",
+   "name": "City of Riverside (Riverside County)",
+   "localRate": 0.015,
+   "countyFee": [
+    12,
+    13
+   ]
+  },
+  {
+   "id": "city-sacramento",
+   "name": "City of Sacramento (Sacramento County)",
+   "localRate": 0.015,
+   "countyFee": [
+    10,
+    11
+   ]
+  },
+  {
+   "id": "city-san-bernardino",
+   "name": "City of San Bernardino (San Bernardino County)",
+   "localRate": 0.015,
+   "countyFee": [
+    12,
+    12
+   ]
+  },
+  {
+   "id": "city-san-diego",
+   "name": "City of San Diego (San Diego County)",
+   "localRate": 0.005,
+   "countyFee": [
+    7,
+    7
+   ]
+  },
+  {
+   "id": "city-san-francisco",
+   "name": "City of San Francisco (San Francisco County)",
+   "localRate": 0.01375,
+   "countyFee": [
+    20,
+    21
+   ]
+  },
+  {
+   "id": "city-san-jose",
+   "name": "City of San Jose (Santa Clara County)",
+   "localRate": 0.0275,
+   "countyFee": [
+    21,
+    21
+   ]
+  },
+  {
+   "id": "city-santa-ana",
+   "name": "City of Santa Ana (Orange County)",
+   "localRate": 0.02,
+   "countyFee": [
+    11,
+    11
+   ]
+  },
+  {
+   "id": "city-stockton",
+   "name": "City of Stockton (San Joaquin County)",
+   "localRate": 0.0175,
+   "countyFee": [
+    24,
+    24
+   ]
+  }
+ ],
+ "defaultCounty": "los-angeles-county",
+ "singular": [
+  "California charges a vehicle license fee of 0.65% of the purchase price instead of a property tax, and it shrinks for 11 renewal years on a fixed schedule (100%, 90%, 80%... down to 15%) [dmv-vlf].",
+  "The VLF restarts at 100% when a car changes hands: a used car bought for $18,000 pays VLF on $18,000, not on its original sticker price [dmv-vlf].",
+  "The Transportation Improvement Fee adds $33 to $231 a year depending on the vehicle's value, in five brackets [dmv-fees].",
+  "Zero-emission vehicles of model year 2020 and later pay a $121 Road Improvement Fee at each renewal, but not at the first registration of a new ZEV bought from a dealer [dmv-fees].",
+  "A trade-in does not reduce California sales tax: on a $20,000 car with a $4,000 trade-in, tax is due on $20,000 [cdtfa-dealers].",
+  "Use tax follows the buyer's home address, from 7.25% in many rural counties to 11% in Long Beach (rates effective October 1, 2026) [cdtfa-rates].",
+  "Gasoline and hybrid cars skip the smog check for their first eight model years and pay a smog abatement fee at renewal instead; electric cars never need one [bar-faq].",
+  "Smog check prices are set by each station, not by the state; only the $8.25 certificate fee is fixed [bar-faq].",
+  "Dealer document fees are capped at $85 for dealers that register cars electronically with the DMV, and $70 for the others [doc-fee]."
+ ],
+ "sources": {
+  "dmv-fees": {
+   "name": "California DMV, Registration Fees (registration $76, CHP $34, TIF, RIF, transfer, smog abatement)",
+   "url": "https://www.dmv.ca.gov/portal/vehicle-registration/registration-fees/",
+   "accessed": "2026-10-11",
+   "quote": "Original registration/renewal $76* ... Includes the Alternative Fuel/Technology Fee ($3) ... RIF ... $121 ... Vehicle Value $5,000-$24,999 VR Fee Increase $66"
+  },
+  "dmv-vlf": {
+   "name": "California DMV, Vehicle Industry Registration Procedures Manual, Vehicle License Fee, and VLF Rate Table REG 360",
+   "url": "https://www.dmv.ca.gov/portal/handbook/vehicle-industry-registration-procedures-manual-2/collection-and-payment-of-fees-and-penalties/vehicle-license-fee/",
+   "accessed": "2026-10-11",
+   "quote": "After 1/1/05 is .65 percent of the market value of the vehicle. The market value of a vehicle is depreciated for each registration year of its life in accordance with the 11th year depreciation schedule"
+  },
+  "dmv-county": {
+   "name": "California DMV, VIRPM Appendix 1A, County and City Fees",
+   "url": "https://www.dmv.ca.gov/portal/handbook/vehicle-industry-registration-procedures-manual-2/appendix-1a-county-and-city-fees/",
+   "accessed": "2026-10-11",
+   "quote": "Service Authority Freeway Emergency (SAFE) NO SUNSET VC 9250.10 $1/Non-CVRA ... County Transportation Projects Fee (CTPF) $10 VC 9250.4"
+  },
+  "cdtfa-rates": {
+   "name": "CDTFA, California City & County Sales & Use Tax Rates (effective October 1, 2026)",
+   "url": "https://cdtfa.ca.gov/taxes-and-fees/rates.aspx",
+   "accessed": "2026-10-11",
+   "quote": "Los Angeles County | 10.250% ... Long Beach | 11.000% ... Alpine County | 7.250%"
+  },
+  "cdtfa-dealers": {
+   "name": "CDTFA, Tax Guide for Motor Vehicle Dealers, Industry Topics (trade-ins, documentation fees)",
+   "url": "https://cdtfa.ca.gov/industry/motor-vehicle-dealers/industry-topics.htm",
+   "accessed": "2026-10-11",
+   "quote": "If you accept a trade-in on the sale of a vehicle, you must still report the total selling price ... You cannot deduct the allowance for the trade-in. ... taxable sales include ... documentation fees (doc fees)"
+  },
+  "bar-faq": {
+   "name": "California Bureau of Automotive Repair, Smog Check FAQ",
+   "url": "https://www.bar.ca.gov/consumer/smog-check-program/faq/",
+   "accessed": "2026-10-11",
+   "quote": "Eight model years and newer - do not need a Smog Check for vehicle registration renewal. Instead, California law requires a smog abatement fee ... Inspection prices are not regulated by BAR. ... The station must charge a $8.25 Smog Check certificate fee."
+  },
+  "hsc-44060": {
+   "name": "California Health and Safety Code section 44060(d)(1), smog abatement fee",
+   "url": "https://california.public.law/codes/health_and_safety_code_section_44060",
+   "accessed": "2026-10-11",
+   "quote": "Motor vehicles exempted ... that are seven or eight model-years old shall be subject to an annual smog abatement fee of twenty-five dollars ($25)."
+  },
+  "doc-fee": {
+   "name": "California DMV, Dealer's Document Preparation and Electronic Filing Service Fee (Vehicle Code 4456.5)",
+   "url": "https://www.dmv.ca.gov/portal/handbook/vehicle-industry-registration-procedures-manual-2/collection-and-payment-of-fees-and-penalties/dealers-document-preparation-and-electronic-filing-service-fee/",
+   "accessed": "2026-10-11",
+   "quote": "the document processing charge shall not exceed eighty-five dollars ($85). If a dealer does not have a contractual agreement ... shall not exceed seventy dollars ($70)."
+  }
+ }
+}

@@ -1,0 +1,31 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import LegalIdentity from '../../components/LegalIdentity.astro';
+import { route } from '../../i18n/routes';
+import { AUTHOR_NAME, AUTHOR_DESC, CONTACT_EMAIL } from '../../data/site-config';
+import { STATE_LIST, STATE_DATA } from '../../lib/data';
+import { profilePageSchema, breadcrumbSchema } from '../../lib/seo';
+const lang = 'en';
+const path = route('about', lang);
+const nSources = Object.values(STATE_DATA).reduce((s, d) => s + Object.keys(d.sources).length, 0);
+const partial = STATE_LIST.filter((s) => STATE_DATA[s.ab].exactness === 'partial').length;
+const title = 'Car Fee Ledger: who publishes the 51 state DMV fee engines';
+const description = 'Car Fee Ledger is published by Radif Partners: the 2026 tax, title, registration and inspection fees of all 50 states and DC, each line tied to the state agency that sets it.';
+---
+<PageLayout title={title} description={description} lang={lang} jsonLd={[profilePageSchema({ path, lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'About', path }])]} breadcrumbs={[{ label: 'About' }]}>
+  <article class="prose prose-slate max-w-none prose-headings:font-serif">
+    <h1>About Car Fee Ledger</h1>
+    <p>{AUTHOR_DESC.en}</p>
+    <h2>Why this site exists</h2>
+    <p>Search for a DMV fee calculator and the first result is usually a state's own tool, which knows one state and stops at registration. The independent calculators that follow cover a dozen or fifteen states, or ask you to type a "tax rate" you do not know. This site does better than the first Google result because it computes, in one pass, what buying and registering a car really costs in all {STATE_LIST.length} jurisdictions: the purchase tax at your county's rate, the title, the registration formula the state actually uses (flat, weight, value, age or horsepower), the yearly tax on value where there is one, the EV or hybrid surcharge, the inspection, and the dealer documentation fee where the law caps it. Every line of the result names the state source it comes from.</p>
+    <h2>Who publishes it</h2>
+    <p>The site is published by {AUTHOR_NAME}, a company that builds calculators from official schedules. It is not a DMV, a dealer, a lender, an insurer or a title service, and it has no commercial link with any of them. No page asks for your name, your VIN or your phone number, and there is no advertising on the site today.</p>
+    <LegalIdentity lang={lang} />
+    <h2>What we read, and what we refuse</h2>
+    <p>We read the fee pages and fee charts of the motor vehicle agencies, the motor vehicle tax pages of the departments of revenue, the statutes and regulations behind them, the county rate tables they point to, and the emissions program pages of the environmental agencies: {nSources} official documents across the 51 data files, each saved with the date it was read and a short quotation of the passage used. We refuse figures from other calculators, from dealers, from insurers' blogs and from "average registration cost" rankings, because none of them shows its source. When a state does not publish enough to compute a line exactly, the calculator says so and shows the official range instead of a guess: that is the case for at least one line in {partial} of the {STATE_LIST.length} jurisdictions, and each state page lists what it cannot know.</p>
+    <h2>How it is checked</h2>
+    <p>Each jurisdiction has its own data file and its own tested engine. Before each release the test suite runs every engine on a new car, a used electric car from a private seller, a renewal a year later and the brackets where a fee jumps, and compares the results with the examples the states publish when they publish one. The <a href={route('method', lang)}>method page</a> explains the arithmetic and the <a href={route('editorial', lang)}>editorial policy</a> says how corrections are made.</p>
+    <h2>Contact</h2>
+    <p>A fee that changed, a county rate we missed, a better official source: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> or the <a href={route('contact', lang)}>contact page</a>. We cannot look up a specific vehicle record or a DMV case, but we check every report against the state's own page.</p>
+  </article>
+</PageLayout>

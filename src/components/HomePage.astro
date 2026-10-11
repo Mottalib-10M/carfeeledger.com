@@ -1,0 +1,57 @@
+---
+/**
+ * Home, in its own order for this subject: the fee calculator first (state, county, car), the promise in
+ * one ruled note, the folded answer, the 51-row bill for one same car (every state name opens its page),
+ * the three things that change a car's bill from state to state, the tools by family, then the FAQ.
+ * Text: src/content/home.ts.
+ */
+import PageLayout from '../layouts/PageLayout.astro';
+import Clamp from './Clamp.astro';
+import Tool from './Tool.astro';
+import { HOME } from '../content/home';
+import { route } from '../i18n/routes';
+import { GROUPS } from '../i18n/nav';
+import { helpers, SOURCES, table } from '../lib/helpers';
+import { PAGES, STATE_PAGES, stateId } from '../lib/pages';
+import { STATE_LIST, calcState, renewState, P } from '../lib/data';
+import { usd, day } from '../lib/fmt';
+import { faqSchema, organizationSchema, websiteSchema, webPageSchema, webApplicationSchema } from '../lib/seo';
+import { LAST_UPDATED } from '../data/site-config';
+const lang = 'en';
+const x = HOME;
+const path = route('home', lang);
+const h = helpers();
+const sources = x.sources.filter((k) => SOURCES[k]).map((k) => ({ name: SOURCES[k].label, url: SOURCES[k].url }));
+const jsonLd = [websiteSchema(lang), organizationSchema(lang), webPageSchema({ name: x.h1, description: x.description, path, lang }), webApplicationSchema({ name: x.h1, description: x.description, path, lang }), faqSchema(x.faqs, lang)];
+const bill = STATE_LIST.map((s) => { const r = calcState(s.slug); const tax = r.lines.filter((l) => l.kind === 'tax').reduce((a, l) => a + (l.amount ?? 0), 0); return { s, r, tax, fees: r.atPurchase - tax, renew: renewState(s.slug, 1).perYear }; }).sort((a, b) => a.r.atPurchase - b.r.atPurchase);
+const rows = bill.map((b, i) => [String(i + 1), STATE_PAGES.some((p) => p.slug === b.s.slug) ? `<a href="${route(stateId(b.s.slug), lang)}">${b.s.name}</a>` : b.s.name, usd(b.tax), usd(b.fees), usd(b.r.atPurchase), usd(b.renew)]);
+const sections = x.sections(h);
+---
+<PageLayout title={x.title} description={x.description} lang={lang} jsonLd={jsonLd} faqs={x.faqs} sources={sources}>
+  <header class="mb-5">
+    <h1 class="font-serif text-3xl font-bold text-navy-900 md:text-4xl">{x.h1}</h1>
+    <p class="mt-3 text-lg text-navy-700">{x.intro}</p>
+    <p class="mt-2 text-sm text-navy-600">Fee schedules of the 51 jurisdictions checked on <time datetime={LAST_UPDATED}>{day(LAST_UPDATED)}</time> · <a href={route('method', lang)} class="underline">How the fees are calculated</a> · <a href={route('about', lang)} class="underline">Who publishes this</a></p>
+  </header>
+  <div data-outil><Tool kind="fees" state="california" idPrefix="home" /></div>
+  <aside class="boxnote my-8"><p class="boxnote-title">{x.promiseTitle}</p><p class="text-navy-800">{x.promise}</p></aside>
+  <Clamp text={x.resume} lang={lang} id="clamp-home" class="my-8" />
+  <section class="prose prose-slate max-w-none prose-headings:font-serif">
+    <h2>{x.tableTitle}</h2>
+    <Fragment set:html={x.tableIntro(h)} />
+    <Fragment set:html={table(['#', 'State', 'Purchase tax', 'Title, registration and other fees', 'Due at purchase', 'Renewal, year 2'], rows, `${P.reference.label[0].toUpperCase()}${P.reference.label.slice(1)}, ranked from the lowest bill. Doc fee included at the state cap where there is one. Calculated with each state's engine on ${day(LAST_UPDATED)}.`, ['r', 'l', 'r', 'r', 'r', 'r'])} />
+  </section>
+  <section class="prose prose-slate max-w-none prose-headings:font-serif mt-10">
+    {sections.map((s) => <><h2>{s.title}</h2><Fragment set:html={s.html} /></>)}
+  </section>
+  <section class="mt-10" data-chrome>
+    {GROUPS.map((g) => (
+      <div class="mb-6">
+        <h2 class="font-serif text-xl font-bold text-navy-900">{g.label}</h2>
+        <ul class="mt-3 grid gap-x-6 gap-y-2 text-sm sm:grid-cols-2 lg:grid-cols-3">
+          {PAGES.filter((p) => p.group === g.id).map((p) => <li><a href={route(p.id, lang)} class="font-medium text-accent-700 underline-offset-2 hover:underline">{p.nav}</a><span class="block text-navy-600">{p.card}</span></li>)}
+        </ul>
+      </div>
+    ))}
+  </section>
+</PageLayout>

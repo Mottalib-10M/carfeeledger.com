@@ -1,0 +1,212 @@
+{
+ "abbr": "GA",
+ "name": "Georgia",
+ "slug": "georgia",
+ "agency": {
+  "name": "Georgia Department of Revenue, Motor Vehicle Division",
+  "short": "DOR MVD",
+  "url": "https://dor.georgia.gov/motor-vehicles"
+ },
+ "taxAgency": {
+  "name": "Georgia Department of Revenue",
+  "url": "https://dor.georgia.gov/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "On a used car, TAVT is due on the value in the state motor vehicle assessment manual (average of wholesale and retail), not on the price paid; the engine uses the price and says so.",
+  "On a new car, TAVT is due on the greater of the selling price and the manual value; the engine uses the selling price.",
+  "Emissions test prices are set by the testing stations; the Clean Air Force pages read do not state a fee, so the test is shown without an amount.",
+  "Plug-in hybrids pay the alternative fuel fee only if the owner chooses an alternative fuel plate; the engine leaves it out and says so."
+ ],
+ "summary": {
+  "stateRate": 0.07,
+  "localRange": [
+   0,
+   0
+  ],
+  "taxName": "title ad valorem tax (TAVT)",
+  "tradeInCredit": true,
+  "titleFee": 18,
+  "regMethod": "flat",
+  "regYears": 1,
+  "docFeeCap": null,
+  "docFeeNote": "Georgia does not regulate the amount of dealer fees, but they must be included in any advertised price (Georgia Attorney General).",
+  "evFee": 238.59,
+  "phevFee": null,
+  "hybridFee": null,
+  "inspection": "emissions",
+  "inspectionWhere": "Yearly emissions test in 13 metro Atlanta counties for gasoline cars and light trucks except the three newest model years and those 25 model years or older; no safety inspection.",
+  "inspectionFee": null,
+  "annualValueTax": false
+ },
+ "params": {
+  "g": {
+   "tax": {
+    "label": "Title ad valorem tax (7% of fair market value)",
+    "rate": 0.07,
+    "tradeInCredit": true,
+    "docFeeTaxable": false,
+    "source": "tavt",
+    "note": "Replaces sales tax and the yearly ad valorem tax."
+   },
+   "once": [
+    {
+     "id": "title",
+     "label": "Original title application fee",
+     "amount": 18,
+     "source": "fees",
+     "kind": "title"
+    }
+   ],
+   "reg": {
+    "label": "License plate registration fee",
+    "source": "fees",
+    "type": "flat",
+    "amount": 20
+   },
+   "cycle": [],
+   "ev": {
+    "ev": 238.59,
+    "source": "afv",
+    "label": "Alternative fuel vehicle fee (electric)"
+   },
+   "inspection": [
+    {
+     "id": "emissions",
+     "label": "Yearly emissions test (station price)",
+     "amount": null,
+     "years": 1,
+     "source": "caf",
+     "newExemptYears": 3,
+     "countyFlag": "emissions",
+     "fuelExempt": [
+      "ev"
+     ],
+     "note": "Required before renewal in the 13-county Atlanta area; price set by the station."
+    }
+   ]
+  }
+ },
+ "counties": [
+  {
+   "id": "cherokee-county",
+   "name": "Cherokee County",
+   "emissions": true
+  },
+  {
+   "id": "clayton-county",
+   "name": "Clayton County",
+   "emissions": true
+  },
+  {
+   "id": "cobb-county",
+   "name": "Cobb County",
+   "emissions": true
+  },
+  {
+   "id": "coweta-county",
+   "name": "Coweta County",
+   "emissions": true
+  },
+  {
+   "id": "dekalb-county",
+   "name": "DeKalb County",
+   "emissions": true
+  },
+  {
+   "id": "douglas-county",
+   "name": "Douglas County",
+   "emissions": true
+  },
+  {
+   "id": "fayette-county",
+   "name": "Fayette County",
+   "emissions": true
+  },
+  {
+   "id": "forsyth-county",
+   "name": "Forsyth County",
+   "emissions": true
+  },
+  {
+   "id": "fulton-county",
+   "name": "Fulton County",
+   "emissions": true
+  },
+  {
+   "id": "gwinnett-county",
+   "name": "Gwinnett County",
+   "emissions": true
+  },
+  {
+   "id": "henry-county",
+   "name": "Henry County",
+   "emissions": true
+  },
+  {
+   "id": "paulding-county",
+   "name": "Paulding County",
+   "emissions": true
+  },
+  {
+   "id": "rockdale-county",
+   "name": "Rockdale County",
+   "emissions": true
+  },
+  {
+   "id": "other",
+   "name": "Any other Georgia county",
+   "emissions": false
+  }
+ ],
+ "defaultCounty": "fulton-county",
+ "singular": [
+  "Georgia has no sales tax on cars: since March 1, 2013 a one-time title ad valorem tax (TAVT) replaces both the sales tax and the yearly tax on the car's value [tavt].",
+  "TAVT is 7.0% of the fair market value, and that value comes from the state assessment manual, not only from the price on the bill of sale [faq].",
+  "A dealer trade-in reduces the TAVT base; a trade-in between private individuals does not [faq].",
+  "New residents pay TAVT at 3% when they bring a car already titled in their name, and family transfers can pay 0.5% [tavt].",
+  "The yearly plate fee for an ordinary car is only $20, among the lowest in the country, and the title costs $18 [fees].",
+  "Fully electric cars pay a yearly alternative fuel fee, indexed every July: $238.59 for registrations from July 1, 2026 to June 30, 2027 [afv].",
+  "Thirteen counties around Atlanta require a yearly emissions test, but the three newest model years are exempt (2024 and newer for 2026) [caf].",
+  "Georgia does not cap dealer fees; the Attorney General requires them to be included in the advertised price [doc-fee]."
+ ],
+ "sources": {
+  "tavt": {
+   "name": "Georgia DOR, Vehicle Taxes: Title Ad Valorem Tax (TAVT) and Annual Ad Valorem Tax",
+   "url": "https://dor.georgia.gov/motor-vehicles/vehicle-registration-license-plates/vehicle-taxes-title-ad-valorem-tax-tavt-and",
+   "accessed": "2026-10-11",
+   "quote": "The current TAVT rate is 7.0% of the fair market value of the vehicle. ... It replaced sales tax and annual ad valorem tax"
+  },
+  "faq": {
+   "name": "Georgia DOR, Title Ad Valorem Tax (TAVT) FAQ",
+   "url": "https://dor.georgia.gov/title-ad-valorem-tax-tavt-faq",
+   "accessed": "2026-10-11",
+   "quote": "For a used motor vehicle, the fair market value is the value identified in the state motor vehicle assessment manual ... A reduction is made for the trade-in when the sale was made by a dealer, but not when the sale was made by a private individual."
+  },
+  "fees": {
+   "name": "Georgia DOR, Motor Vehicles Fees, Fines and Penalties",
+   "url": "https://dor.georgia.gov/motor-vehicles/vehicle-registration-license-plates/motor-vehicles-fees-fines-and-penalties",
+   "accessed": "2026-10-11",
+   "quote": "Original Title Application Fee | $18 ... License Plate Registration or Renewal Fee | $20 | Regular passenger car or lightweight pick-up truck"
+  },
+  "afv": {
+   "name": "Georgia DOR, Alternative Fuel and Low-Speed Vehicles Annual Licensing Fees, July 2026",
+   "url": "https://dor.georgia.gov/alternative-fuel-and-low-speed-vehicles-annual-licensing-fees-july-2026",
+   "accessed": "2026-10-11",
+   "quote": "Effective July 1, 2026 ... Non-Commercial Motor Vehicle Fee: $238.59 ... Hybrid-electric vehicles that are not plug-in hybrid-electric vehicles [are not subject]"
+  },
+  "caf": {
+   "name": "Georgia's Clean Air Force, Frequently Asked Questions",
+   "url": "https://cleanairforce.com/frequently-asked-questions",
+   "accessed": "2026-10-11",
+   "quote": "For registration in 2026, the three most recent model years are exempt from emissions testing, which includes 2024 or newer model year vehicles."
+  },
+  "doc-fee": {
+   "name": "Georgia Attorney General, Consumer Protection Division: maximum dealer doc fee",
+   "url": "https://consumered.georgia.gov/ask-ed/2019-10-30/what-maximum-amount-car-dealer-can-charge-doc-fees",
+   "accessed": "2026-10-11",
+   "quote": "Georgia does not regulate how much a car dealer can charge in dealer fees, also frequently referred to as “document fees”"
+  }
+ }
+}

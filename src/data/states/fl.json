@@ -1,0 +1,486 @@
+{
+ "abbr": "FL",
+ "name": "Florida",
+ "slug": "florida",
+ "agency": {
+  "name": "Florida Department of Highway Safety and Motor Vehicles",
+  "short": "FLHSMV",
+  "url": "https://www.flhsmv.gov/"
+ },
+ "taxAgency": {
+  "name": "Florida Department of Revenue",
+  "url": "https://floridarevenue.com/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "The FLHSMV fee pages refuse automated readers; registration and title amounts are taken from the Pinellas County Tax Collector, which publishes the state schedule with the add-on fees included.",
+  "The license plate issuance fee charged with a new plate is not included (no official amount read).",
+  "Trucks of 5,000 lb and more are charged by gross vehicle weight, which the form does not ask: the engine uses the 3,001-4,999 lb amount and says so."
+ ],
+ "summary": {
+  "stateRate": 0.06,
+  "localRange": [
+   0,
+   0.02
+  ],
+  "taxName": "sales and use tax plus county discretionary surtax",
+  "tradeInCredit": true,
+  "titleFee": 75.75,
+  "regMethod": "weight",
+  "regYears": 1,
+  "docFeeCap": null,
+  "docFeeNote": "No cap; Florida requires the dealer to print a disclosure on every document listing the predelivery service fee (Florida Statutes 501.976(18)). The fee is part of the taxable sales price.",
+  "evFee": null,
+  "phevFee": null,
+  "hybridFee": null,
+  "inspection": "none",
+  "inspectionWhere": "No safety or emissions inspection for private passenger vehicles.",
+  "inspectionFee": null,
+  "annualValueTax": false
+ },
+ "params": {
+  "g": {
+   "tax": {
+    "label": "State sales tax (6%)",
+    "rate": 0.06,
+    "tradeInCredit": true,
+    "docFeeTaxable": true,
+    "source": "fs-212",
+    "localFirst": 5000,
+    "localSource": "dr15dss"
+   },
+   "once": [
+    {
+     "id": "title",
+     "label": "Certificate of title (electronic)",
+     "amount": 75.75,
+     "source": "pinellas",
+     "kind": "title"
+    },
+    {
+     "id": "initial-reg",
+     "label": "Initial registration fee (no Florida plate to transfer)",
+     "amount": 225,
+     "source": "pinellas",
+     "kind": "plate",
+     "note": "Not charged if you move a Florida plate from a car you no longer own."
+    }
+   ],
+   "reg": {
+    "label": "Registration (weight class, state add-on fees included)",
+    "source": "pinellas",
+    "type": "weight",
+    "brackets": [
+     {
+      "upTo": 2499,
+      "amount": 28.1
+     },
+     {
+      "upTo": 3499,
+      "amount": 36.1
+     },
+     {
+      "upTo": null,
+      "amount": 46.1
+     }
+    ],
+    "truckBrackets": [
+     {
+      "upTo": 1999,
+      "amount": 28.1
+     },
+     {
+      "upTo": 3000,
+      "amount": 36.1
+     },
+     {
+      "upTo": null,
+      "amount": 46.1
+     }
+    ]
+   },
+   "cycle": []
+  }
+ },
+ "counties": [
+  {
+   "id": "alachua-county",
+   "name": "Alachua County",
+   "localRate": 0.015
+  },
+  {
+   "id": "baker-county",
+   "name": "Baker County",
+   "localRate": 0.01
+  },
+  {
+   "id": "bay-county",
+   "name": "Bay County",
+   "localRate": 0.01
+  },
+  {
+   "id": "bradford-county",
+   "name": "Bradford County",
+   "localRate": 0.01
+  },
+  {
+   "id": "brevard-county",
+   "name": "Brevard County",
+   "localRate": 0.01
+  },
+  {
+   "id": "broward-county",
+   "name": "Broward County",
+   "localRate": 0.01
+  },
+  {
+   "id": "calhoun-county",
+   "name": "Calhoun County",
+   "localRate": 0.015
+  },
+  {
+   "id": "charlotte-county",
+   "name": "Charlotte County",
+   "localRate": 0.01
+  },
+  {
+   "id": "citrus-county",
+   "name": "Citrus County",
+   "localRate": 0
+  },
+  {
+   "id": "clay-county",
+   "name": "Clay County",
+   "localRate": 0.015
+  },
+  {
+   "id": "collier-county",
+   "name": "Collier County",
+   "localRate": 0
+  },
+  {
+   "id": "columbia-county",
+   "name": "Columbia County",
+   "localRate": 0.015
+  },
+  {
+   "id": "desoto-county",
+   "name": "DeSoto County",
+   "localRate": 0.015
+  },
+  {
+   "id": "dixie-county",
+   "name": "Dixie County",
+   "localRate": 0.01
+  },
+  {
+   "id": "duval-county",
+   "name": "Duval County",
+   "localRate": 0.015
+  },
+  {
+   "id": "escambia-county",
+   "name": "Escambia County",
+   "localRate": 0.015
+  },
+  {
+   "id": "flagler-county",
+   "name": "Flagler County",
+   "localRate": 0.01
+  },
+  {
+   "id": "franklin-county",
+   "name": "Franklin County",
+   "localRate": 0.015
+  },
+  {
+   "id": "gadsden-county",
+   "name": "Gadsden County",
+   "localRate": 0.015
+  },
+  {
+   "id": "gilchrist-county",
+   "name": "Gilchrist County",
+   "localRate": 0.01
+  },
+  {
+   "id": "glades-county",
+   "name": "Glades County",
+   "localRate": 0.01
+  },
+  {
+   "id": "gulf-county",
+   "name": "Gulf County",
+   "localRate": 0.01
+  },
+  {
+   "id": "hamilton-county",
+   "name": "Hamilton County",
+   "localRate": 0.02
+  },
+  {
+   "id": "hardee-county",
+   "name": "Hardee County",
+   "localRate": 0.01
+  },
+  {
+   "id": "hendry-county",
+   "name": "Hendry County",
+   "localRate": 0.015
+  },
+  {
+   "id": "hernando-county",
+   "name": "Hernando County",
+   "localRate": 0.005
+  },
+  {
+   "id": "highlands-county",
+   "name": "Highlands County",
+   "localRate": 0.015
+  },
+  {
+   "id": "hillsborough-county",
+   "name": "Hillsborough County",
+   "localRate": 0.015
+  },
+  {
+   "id": "holmes-county",
+   "name": "Holmes County",
+   "localRate": 0.015
+  },
+  {
+   "id": "indian-river-county",
+   "name": "Indian River County",
+   "localRate": 0.01
+  },
+  {
+   "id": "jackson-county",
+   "name": "Jackson County",
+   "localRate": 0.015
+  },
+  {
+   "id": "jefferson-county",
+   "name": "Jefferson County",
+   "localRate": 0.01
+  },
+  {
+   "id": "lafayette-county",
+   "name": "Lafayette County",
+   "localRate": 0.01
+  },
+  {
+   "id": "lake-county",
+   "name": "Lake County",
+   "localRate": 0.01
+  },
+  {
+   "id": "lee-county",
+   "name": "Lee County",
+   "localRate": 0.005
+  },
+  {
+   "id": "leon-county",
+   "name": "Leon County",
+   "localRate": 0.015
+  },
+  {
+   "id": "levy-county",
+   "name": "Levy County",
+   "localRate": 0.01
+  },
+  {
+   "id": "liberty-county",
+   "name": "Liberty County",
+   "localRate": 0.015
+  },
+  {
+   "id": "madison-county",
+   "name": "Madison County",
+   "localRate": 0.015
+  },
+  {
+   "id": "manatee-county",
+   "name": "Manatee County",
+   "localRate": 0.01
+  },
+  {
+   "id": "marion-county",
+   "name": "Marion County",
+   "localRate": 0.015
+  },
+  {
+   "id": "martin-county",
+   "name": "Martin County",
+   "localRate": 0.005
+  },
+  {
+   "id": "miami-dade-county",
+   "name": "Miami-Dade County",
+   "localRate": 0.01
+  },
+  {
+   "id": "monroe-county",
+   "name": "Monroe County",
+   "localRate": 0.015
+  },
+  {
+   "id": "nassau-county",
+   "name": "Nassau County",
+   "localRate": 0.01
+  },
+  {
+   "id": "okaloosa-county",
+   "name": "Okaloosa County",
+   "localRate": 0.01
+  },
+  {
+   "id": "okeechobee-county",
+   "name": "Okeechobee County",
+   "localRate": 0.01
+  },
+  {
+   "id": "orange-county",
+   "name": "Orange County",
+   "localRate": 0.005
+  },
+  {
+   "id": "osceola-county",
+   "name": "Osceola County",
+   "localRate": 0.015
+  },
+  {
+   "id": "palm-beach-county",
+   "name": "Palm Beach County",
+   "localRate": 0.005
+  },
+  {
+   "id": "pasco-county",
+   "name": "Pasco County",
+   "localRate": 0.01
+  },
+  {
+   "id": "pinellas-county",
+   "name": "Pinellas County",
+   "localRate": 0.01
+  },
+  {
+   "id": "polk-county",
+   "name": "Polk County",
+   "localRate": 0.01
+  },
+  {
+   "id": "putnam-county",
+   "name": "Putnam County",
+   "localRate": 0.01
+  },
+  {
+   "id": "st-johns-county",
+   "name": "St. Johns County",
+   "localRate": 0.005
+  },
+  {
+   "id": "st-lucie-county",
+   "name": "St. Lucie County",
+   "localRate": 0.01
+  },
+  {
+   "id": "santa-rosa-county",
+   "name": "Santa Rosa County",
+   "localRate": 0.01
+  },
+  {
+   "id": "sarasota-county",
+   "name": "Sarasota County",
+   "localRate": 0.01
+  },
+  {
+   "id": "seminole-county",
+   "name": "Seminole County",
+   "localRate": 0.01
+  },
+  {
+   "id": "sumter-county",
+   "name": "Sumter County",
+   "localRate": 0.01
+  },
+  {
+   "id": "suwannee-county",
+   "name": "Suwannee County",
+   "localRate": 0.01
+  },
+  {
+   "id": "taylor-county",
+   "name": "Taylor County",
+   "localRate": 0.01
+  },
+  {
+   "id": "union-county",
+   "name": "Union County",
+   "localRate": 0.01
+  },
+  {
+   "id": "volusia-county",
+   "name": "Volusia County",
+   "localRate": 0.005
+  },
+  {
+   "id": "wakulla-county",
+   "name": "Wakulla County",
+   "localRate": 0.015
+  },
+  {
+   "id": "walton-county",
+   "name": "Walton County",
+   "localRate": 0.01
+  },
+  {
+   "id": "washington-county",
+   "name": "Washington County",
+   "localRate": 0.015
+  }
+ ],
+ "defaultCounty": "miami-dade-county",
+ "singular": [
+  "Florida's county surtax on a car applies only to the first $5,000 of the price, so it can never add more than $100 even in a 2% county [fs-212054].",
+  "The surtax follows the county on the buyer's registration address, not the county where the dealer sits [fs-212054].",
+  "A buyer without a Florida plate to move pays a one-time $225 initial registration fee on top of the regular registration [pinellas].",
+  "Registration is priced by weight in three automobile classes: under 2,500 lb, 2,500 to 3,499 lb, and 3,500 lb and up [pinellas].",
+  "A Florida title transfer costs $75.75 when processed electronically, plus a $20 late fee after 30 days [pinellas].",
+  "Florida has no safety or emissions inspection for ordinary passenger cars [pinellas].",
+  "Florida deducts a trade-in from the taxable price, and the dealer's predelivery fee counts as part of the price [fs-212].",
+  "There is no legal cap on Florida dealer fees, but each document must carry a printed disclosure that the charge is dealer profit and cost [doc-fee]."
+ ],
+ "sources": {
+  "pinellas": {
+   "name": "Pinellas County Tax Collector, Fees (registration by weight, initial registration fee, title fees)",
+   "url": "https://pinellastaxcollector.gov/fees/",
+   "accessed": "2026-10-11",
+   "quote": "A $225.00 initial registration fee will be collected when there is no Florida license plate to transfer ... Automobile | 2500 – 3499 | $36.10 ... Florida Title Transfer | $75.75"
+  },
+  "dr15dss": {
+   "name": "Florida Department of Revenue, DR-15DSS Discretionary Sales Surtax Information for Calendar Year 2026",
+   "url": "https://floridarevenue.com/Forms_library/current/dr15dss_26.pdf",
+   "accessed": "2026-10-11",
+   "quote": "Alachua 1.5% ... Broward 1% ... Citrus None"
+  },
+  "fs-212054": {
+   "name": "Florida Statutes 212.054, Discretionary sales surtax; limitations",
+   "url": "https://www.flsenate.gov/Laws/Statutes/2025/212.054",
+   "accessed": "2026-10-11",
+   "quote": "The sales amount above $5,000 on any item of tangible personal property shall not be subject to the surtax."
+  },
+  "fs-212": {
+   "name": "Florida Statutes 212.09 (trade-ins deducted) and 212.02(16) (sales price)",
+   "url": "https://www.flsenate.gov/Laws/Statutes/2025/212.09",
+   "accessed": "2026-10-11",
+   "quote": "the tax levied by this chapter shall be paid on the sales price of the new article, less the credit for the used article taken in trade"
+  },
+  "doc-fee": {
+   "name": "Florida Statutes 501.976(18), dealer predelivery service charge disclosure",
+   "url": "https://www.flsenate.gov/Laws/Statutes/2025/501.976",
+   "accessed": "2026-10-11",
+   "quote": "Charge a customer for any predelivery service without having printed on all documents that include a line item for predelivery service the following disclosure"
+  }
+ }
+}

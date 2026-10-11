@@ -1,0 +1,139 @@
+{
+ "abbr": "NJ",
+ "name": "New Jersey",
+ "slug": "new-jersey",
+ "agency": {
+  "name": "New Jersey Motor Vehicle Commission",
+  "short": "MVC",
+  "url": "https://www.nj.gov/mvc/"
+ },
+ "taxAgency": {
+  "name": "New Jersey Division of Taxation",
+  "url": "https://www.nj.gov/treasury/taxation/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "The trade-in deduction is applied as in New Jersey's sales tax practice; no Division of Taxation page stating it was opened during this reading.",
+  "Cars of exactly 3,500 lb are placed in the under-3,500 lb class; the MVC table says 'under' and 'over' 3,500 lb without naming the boundary.",
+  "The ZEV fee after July 2028 is assumed to stay at $290: the law as summarized by the MVC adds $10 a year for four years after 2024 and says nothing after.",
+  "No dealer documentation fee cap was found in the MVC and Taxation pages read."
+ ],
+ "summary": {
+  "stateRate": 0.06625,
+  "localRange": [
+   0,
+   0
+  ],
+  "taxName": "sales and use tax",
+  "tradeInCredit": true,
+  "titleFee": 60,
+  "regMethod": "mixed",
+  "regYears": 1,
+  "docFeeCap": null,
+  "docFeeNote": "No cap found in the official pages read for this release.",
+  "evFee": 270,
+  "phevFee": null,
+  "hybridFee": null,
+  "inspection": "both",
+  "inspectionWhere": "Safety and emissions inspection every two years, after a five-year exemption for new cars; 100% electric vehicles are exempt. Free at state inspection facilities, for a fee at licensed private facilities.",
+  "inspectionFee": 0,
+  "annualValueTax": false
+ },
+ "params": {
+  "tax": {
+   "rate": 0.06625,
+   "tradeInCredit": true,
+   "docFeeTaxable": true,
+   "_src": "tax-rate"
+  },
+  "reg": {
+   "code7": 32,
+   "code8": 57,
+   "code8FromLbs": 3501,
+   "ttf1": 7.5,
+   "ttf2": 12.5,
+   "ttf2Years": 2,
+   "csf": 7,
+   "newTermYears": 4,
+   "_src": "calc-js"
+  },
+  "title": {
+   "fee": 60,
+   "withLien": 85,
+   "_src": "regfees"
+  },
+  "zev": {
+   "schedule": [
+    {
+     "from": "2024-07-01",
+     "fee": 250
+    },
+    {
+     "from": "2025-07-01",
+     "fee": 260
+    },
+    {
+     "from": "2026-07-01",
+     "fee": 270
+    },
+    {
+     "from": "2027-07-01",
+     "fee": 280
+    },
+    {
+     "from": "2028-07-01",
+     "fee": 290
+    }
+   ],
+   "_src": "regfees"
+  },
+  "inspection": {
+   "newExemptYears": 5,
+   "years": 2,
+   "_src": "insp"
+  }
+ },
+ "singular": [
+  "A new car bought in New Jersey must be registered for four years at once, so the first registration bill is about four times the yearly one [calc-js].",
+  "The yearly fee depends on two things only: whether the car weighs under or over 3,500 lb ($32 or $57 of base fee) and whether it is within two model years ($12.50 more) [regfees].",
+  "Each registration also carries a $7.50 fee and a $7 fee that the MVC's own calculator adds per year, which is why the published totals are $46.50 to $84 [calc-js].",
+  "Zero-emission cars pay an extra yearly fee created in 2024: $250 at first, then $10 more each July, $270 for registrations from July 2026 [regfees].",
+  "A new ZEV pays four years of that fee with its four-year registration: for one registered between July 2026 and June 2027, the years 2026 to 2029 [regfees].",
+  "Electric cars lost their sales tax exemption: since July 1, 2025 they pay the full 6.625% [zev-tax].",
+  "Inspections come every two years, but a new car gets a five-year exemption, and all-electric cars are never inspected [insp].",
+  "A title costs $60, or $85 with a lien [regfees]."
+ ],
+ "sources": {
+  "regfees": {
+   "name": "NJ MVC, Registration and Title Fees",
+   "url": "https://www.nj.gov/mvc/vehicles/regfees.htm",
+   "accessed": "2026-10-11",
+   "quote": "7 | within 2 years | Under 3,500 lbs. | $59.00 ... 8 | older than 2 years | Over 3,500 lbs. | $71.50 ... Beginning July 1, 2024, the annual fee is $250. The annual fee increases $10 per year for four years thereafter. ... Transfer of the title is $60 (or $85 with a lien)."
+  },
+  "calc-js": {
+   "name": "NJ MVC, 4-Year Registration Fee Calculator (official calculator code, functions.js)",
+   "url": "https://www.nj.gov/mvc/regfee/index.html",
+   "accessed": "2026-10-11",
+   "quote": "Beginning October 1, 2004, full payment of a four-year registration (reg.) is required for NEW passenger automobiles. [functions.js: type7 initialRate=32.00; type8 57.00; ttf1=7.50; ttf2=12.50; csf=7.00]"
+  },
+  "tax-rate": {
+   "name": "NJ Division of Taxation, Sales and Use Tax",
+   "url": "https://www.nj.gov/treasury/taxation/businesses/salestax/index.shtml",
+   "accessed": "2026-10-11",
+   "quote": "New Jersey assesses a 6.625% Sales Tax on sales of most tangible personal property"
+  },
+  "zev-tax": {
+   "name": "NJ Division of Taxation, Notice: Regarding Sales of Zero Emission Vehicles",
+   "url": "https://www.nj.gov/treasury/taxation/zevnotice.shtml",
+   "accessed": "2026-10-11",
+   "quote": "P.L. 2024, c. 19 repeals the Sales and Use Tax exemption on sales ... of zero emission vehicles ... July 1, 2025, and after | 6.625%"
+  },
+  "insp": {
+   "name": "NJ MVC, Vehicle Inspections and Inspection FAQs",
+   "url": "https://www.nj.gov/mvc/inspection/aboutinsp.htm",
+   "accessed": "2026-10-11",
+   "quote": "Vehicles need to be inspected once every two years in New Jersey with the exception of new vehicles. New vehicles need a five-year inspection. [FAQ: exempt ... 100% Electric vehicles; private facility ... for a fee]"
+  }
+ }
+}

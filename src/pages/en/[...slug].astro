@@ -1,0 +1,16 @@
+---
+/** Every calculator or guide page (src/content/pages/) and every state page (src/content/states/). */
+import ContentPage from '../../components/ContentPage.astro';
+import StatePage from '../../components/StatePage.astro';
+import { PAGES, STATE_PAGES, pageById, STATE_HUB } from '../../lib/pages';
+import type { PageDef, StateDef } from '../../lib/page-types';
+export function getStaticPaths() {
+  const hub = pageById(STATE_HUB)?.slug ?? STATE_HUB;
+  return [
+    ...PAGES.map((page) => ({ params: { slug: page.slug }, props: { page, state: undefined } })),
+    ...STATE_PAGES.map((state) => ({ params: { slug: `${hub}/${state.slug}` }, props: { page: undefined, state } })),
+  ];
+}
+const { page, state } = Astro.props as { page?: PageDef; state?: StateDef };
+---
+{page ? <ContentPage page={page} /> : <StatePage def={state!} />}

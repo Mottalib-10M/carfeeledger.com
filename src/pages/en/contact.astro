@@ -1,0 +1,26 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import LegalIdentity from '../../components/LegalIdentity.astro';
+import { CONTACT_EMAIL } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { contactPageSchema } from '../../lib/seo';
+const lang = 'en';
+const path = route('contact', lang);
+const description = 'Write to the publisher of Car Fee Ledger about a fee, a county rate or a state source. We check data reports against the state; we cannot look up a vehicle record or a DMV case.';
+---
+<PageLayout title="Contact Car Fee Ledger: fee corrections, sources and embedding" description={description} lang={lang} noindex={true} jsonLd={[contactPageSchema({ name: 'Contact', description, path, lang })]} breadcrumbs={[{ label: 'Contact' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none prose-headings:font-serif">
+    <h1>Contact</h1>
+    <p>E-mail: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. Please never send a VIN, a plate number, a title or a driver's license: we do not need them to check a fee.</p>
+    <h2>Useful messages</h2>
+    <ul>
+      <li>A fee that differs from your DMV or county receipt: give the state, the county, the inputs (or paste the share link) and the amount on the receipt. We compare it with the state's schedule and correct the data file if the schedule changed.</li>
+      <li>A new fee chart, a law that changes a fee, or a county rate table we have not used.</li>
+      <li>Embedding the calculator on your site: start with the <a href={route('widget', lang)}>embed page</a>.</li>
+    </ul>
+    <h2>What we cannot do</h2>
+    <p>We are not a DMV and cannot see your registration, renew it, explain a late penalty on your account or speed up a title. For that, the state agency named on each state page is the right door. The <a href={route('method', lang)}>method page</a> says what our figures can and cannot know.</p>
+    <h2>Publisher</h2>
+    <LegalIdentity lang={lang} />
+  </div>
+</PageLayout>

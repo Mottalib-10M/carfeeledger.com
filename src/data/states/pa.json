@@ -1,0 +1,308 @@
+{
+ "abbr": "PA",
+ "name": "Pennsylvania",
+ "slug": "pennsylvania",
+ "agency": {
+  "name": "Pennsylvania Department of Transportation, Driver and Vehicle Services",
+  "short": "PennDOT",
+  "url": "https://www.pa.gov/agencies/dmv"
+ },
+ "taxAgency": {
+  "name": "Pennsylvania Department of Revenue",
+  "url": "https://www.pa.gov/agencies/revenue"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "The trade-in deduction from the taxable price is applied as in Pennsylvania's sales tax law; the statute itself could not be opened during this reading (the legislature site refused the request).",
+  "Safety and emissions inspections are done by private stations whose prices PennDOT does not set; the inspection is listed without an amount.",
+  "On a used car, the Department of Revenue can assess tax on fair market value when the stated price is far below it; the engine taxes the price.",
+  "No legal maximum for the dealer documentation fee was found in the PennDOT and Revenue pages read; the calculator uses the figure you type."
+ ],
+ "summary": {
+  "stateRate": 0.06,
+  "localRange": [
+   0,
+   0.02
+  ],
+  "taxName": "sales and use tax",
+  "tradeInCredit": true,
+  "titleFee": 72,
+  "regMethod": "flat",
+  "regYears": 1,
+  "docFeeCap": null,
+  "docFeeNote": "No cap found in the official pages read for this release; type the dealer's fee.",
+  "evFee": 250,
+  "phevFee": 63,
+  "hybridFee": null,
+  "inspection": "both",
+  "inspectionWhere": "Yearly safety inspection for most passenger cars and light trucks statewide, plus an emissions inspection in the counties of the state's emissions program; stations set the price.",
+  "inspectionFee": null,
+  "annualValueTax": false
+ },
+ "params": {
+  "g": {
+   "tax": {
+    "label": "Sales tax (6%)",
+    "rate": 0.06,
+    "tradeInCredit": true,
+    "docFeeTaxable": true,
+    "source": "rev-sut",
+    "localSource": "rev-sut"
+   },
+   "once": [
+    {
+     "id": "title",
+     "label": "Certificate of title",
+     "amount": 72,
+     "source": "mv70s",
+     "kind": "title"
+    }
+   ],
+   "reg": {
+    "label": "Passenger vehicle registration (standard plate included)",
+    "source": "mv70s",
+    "type": "flat",
+    "amount": 48
+   },
+   "cycle": [],
+   "countyFeeLabel": "County fee for local use",
+   "countyFeeSource": "local-fee",
+   "ev": {
+    "ev": 250,
+    "phev": 63,
+    "source": "ruc",
+    "label": "Road user charge"
+   },
+   "inspection": [
+    {
+     "id": "safety",
+     "label": "Yearly safety inspection (station price)",
+     "amount": null,
+     "years": 1,
+     "source": "safety-faq",
+     "note": "Valid one year; price set by the inspection station."
+    }
+   ]
+  }
+ },
+ "counties": [
+  {
+   "id": "allegheny-county",
+   "name": "Allegheny County",
+   "localRate": 0.01,
+   "localFee": 5
+  },
+  {
+   "id": "beaver-county",
+   "name": "Beaver County",
+   "localRate": 0,
+   "localFee": 5
+  },
+  {
+   "id": "bedford-county",
+   "name": "Bedford County",
+   "localRate": 0,
+   "localFee": 5
+  },
+  {
+   "id": "berks-county",
+   "name": "Berks County",
+   "localRate": 0,
+   "localFee": 5
+  },
+  {
+   "id": "blair-county",
+   "name": "Blair County",
+   "localRate": 0,
+   "localFee": 5
+  },
+  {
+   "id": "bucks-county",
+   "name": "Bucks County",
+   "localRate": 0,
+   "localFee": 5
+  },
+  {
+   "id": "butler-county",
+   "name": "Butler County",
+   "localRate": 0,
+   "localFee": 5
+  },
+  {
+   "id": "cambria-county",
+   "name": "Cambria County",
+   "localRate": 0,
+   "localFee": 5
+  },
+  {
+   "id": "centre-county",
+   "name": "Centre County",
+   "localRate": 0,
+   "localFee": 5
+  },
+  {
+   "id": "chester-county",
+   "name": "Chester County",
+   "localRate": 0,
+   "localFee": 5
+  },
+  {
+   "id": "cumberland-county",
+   "name": "Cumberland County",
+   "localRate": 0,
+   "localFee": 5
+  },
+  {
+   "id": "dauphin-county",
+   "name": "Dauphin County",
+   "localRate": 0,
+   "localFee": 5
+  },
+  {
+   "id": "delaware-county",
+   "name": "Delaware County",
+   "localRate": 0,
+   "localFee": 5
+  },
+  {
+   "id": "erie-county",
+   "name": "Erie County",
+   "localRate": 0,
+   "localFee": 5
+  },
+  {
+   "id": "greene-county",
+   "name": "Greene County",
+   "localRate": 0,
+   "localFee": 5
+  },
+  {
+   "id": "lackawanna-county",
+   "name": "Lackawanna County",
+   "localRate": 0,
+   "localFee": 5
+  },
+  {
+   "id": "lycoming-county",
+   "name": "Lycoming County",
+   "localRate": 0,
+   "localFee": 5
+  },
+  {
+   "id": "mifflin-county",
+   "name": "Mifflin County",
+   "localRate": 0,
+   "localFee": 5
+  },
+  {
+   "id": "montgomery-county",
+   "name": "Montgomery County",
+   "localRate": 0,
+   "localFee": 5
+  },
+  {
+   "id": "philadelphia-county",
+   "name": "Philadelphia County",
+   "localRate": 0.02,
+   "localFee": 5
+  },
+  {
+   "id": "pike-county",
+   "name": "Pike County",
+   "localRate": 0,
+   "localFee": 5
+  },
+  {
+   "id": "schuylkill-county",
+   "name": "Schuylkill County",
+   "localRate": 0,
+   "localFee": 5
+  },
+  {
+   "id": "susquehanna-county",
+   "name": "Susquehanna County",
+   "localRate": 0,
+   "localFee": 5
+  },
+  {
+   "id": "union-county",
+   "name": "Union County",
+   "localRate": 0,
+   "localFee": 5
+  },
+  {
+   "id": "wayne-county",
+   "name": "Wayne County",
+   "localRate": 0,
+   "localFee": 5
+  },
+  {
+   "id": "westmoreland-county",
+   "name": "Westmoreland County",
+   "localRate": 0,
+   "localFee": 5
+  },
+  {
+   "id": "york-county",
+   "name": "York County",
+   "localRate": 0,
+   "localFee": 5
+  },
+  {
+   "id": "other",
+   "name": "Any other Pennsylvania county",
+   "localRate": 0,
+   "localFee": 0
+  }
+ ],
+ "defaultCounty": "philadelphia-county",
+ "singular": [
+  "Pennsylvania adds 2% to its 6% sales tax in Philadelphia and 1% in Allegheny County; everywhere else the rate on a car is 6% [rev-sut].",
+  "Registering a passenger car costs a flat $48 a year, and the fee includes the first standard plate [mv70s].",
+  "A Pennsylvania title costs $72, and recording a lien adds $36 per lien [mv70s].",
+  "Since 2025 electric cars pay a road user charge with registration: $250 for one year or $500 for two in 2026, and plug-in hybrids pay a quarter of it, $63 [ruc].",
+  "From January 1, 2027 the road user charge follows the consumer price index each year [ruc].",
+  "27 counties, Philadelphia and Allegheny among them, add a $5 yearly fee for local use collected by PennDOT with registration [local-fee].",
+  "If a used car's stated price is far below its fair market value, the Department of Revenue can bill the tax on the fair market value under its understated value program [rev-uv].",
+  "Most cars need a yearly safety inspection, with a sticker valid one year from the month of inspection [safety-faq]."
+ ],
+ "sources": {
+  "mv70s": {
+   "name": "PennDOT Form MV-70S, Bureau of Motor Vehicles Schedule of Fees",
+   "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bmv/bmv-forms/mv-70s.pdf",
+   "accessed": "2026-10-11",
+   "quote": "*Passenger $48.00 $96.00 ... Certificate of Title $72.00 ... Recording a Lien ... $36.00 ... 1 Year Registration $250 $63"
+  },
+  "ruc": {
+   "name": "PennDOT, Road User Charge for Electric and Plug-In Hybrid Vehicles",
+   "url": "https://www.pa.gov/agencies/dmv/vehicle-services/road-user-charge",
+   "accessed": "2026-10-11",
+   "quote": "2026 | One year: $250 Two year: $500 | One year: $63 Two year: $126 | Each Jan. 1 thereafter | Tied to consumer price index (CPI)"
+  },
+  "rev-sut": {
+   "name": "Pennsylvania Department of Revenue, Sales, Use and Hotel Occupancy Tax",
+   "url": "https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/sales-use-and-hotel-occupancy-tax",
+   "accessed": "2026-10-11",
+   "quote": "The Pennsylvania sales tax rate is 6 percent. By law, a 1 percent local tax is added to purchases made in Allegheny County, and 2 percent local tax is added to purchases made in Philadelphia."
+  },
+  "rev-uv": {
+   "name": "Pennsylvania Department of Revenue, Motor Vehicle Understated Value Program",
+   "url": "https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/sales-use-and-hotel-occupancy-tax/use-tax/motor-vehicle-understated-value-program",
+   "accessed": "2026-10-11",
+   "quote": "additional sales tax may be due in cases where a vehicle’s purchase price is significantly lower than fair market value"
+  },
+  "local-fee": {
+   "name": "PennDOT Fact Sheet, Fee for Local Use, Participating Counties",
+   "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bmv/bmv-fact-sheets/fs-feelocal.pdf",
+   "accessed": "2026-10-11",
+   "quote": "a county may pass an ordinance to implement an annual fee of $5 for each vehicle registered to an address located in that county"
+  },
+  "safety-faq": {
+   "name": "PennDOT, Safety Inspection Program (For Consumers) FAQs",
+   "url": "https://www.pa.gov/agencies/dmv/faqs/motor-vehicle-faqs/safety-inspection-consumers-faqs",
+   "accessed": "2026-10-11",
+   "quote": "Upon passing a safety inspection, most passenger cars and light trucks will receive an inspection sticker valid for one year from the month of inspection"
+  }
+ }
+}

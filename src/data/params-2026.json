@@ -1,0 +1,38 @@
+{
+  "_lisezmoi": "Site-wide parameters. State fees live in src/data/states/<ab>.json, one file per jurisdiction, each figure with its official source. This file holds the reference vehicle used by every comparison table and the sources of the site-wide pages.",
+  "year": 2026,
+  "retrieved_at": "2026-10-11",
+  "valid_from": "2026-01-01",
+  "valid_to": "2026-12-31",
+  "reference": {
+    "label": "a new $35,000 gasoline car of 3,500 lb bought from a dealer, no trade-in, default county",
+    "vehicle": {
+      "price": 35000, "tradeIn": 0, "modelYear": 2026, "year": 2026, "weightLbs": 3500, "fuel": "gas", "body": "car",
+      "condition": "new", "seller": "dealer", "county": "", "localRateOverride": null, "msrp": 0, "docFee": -1,
+      "transaction": "purchase", "ownedYears": 0
+    }
+  },
+  "loan": {
+    "formula": "M = P x r / (1 - (1 + r)^-n), r = APR / 12, n = months",
+    "defaultApr": 0.07,
+    "defaultMonths": 60
+  },
+  "sources": {
+    "cfpb-auto-loan": {
+      "url": "https://www.consumerfinance.gov/consumer-tools/auto-loans/",
+      "label": "Consumer Financial Protection Bureau, Auto loans (how APR, term and amount financed set the payment)"
+    },
+    "reg-z": {
+      "url": "https://www.consumerfinance.gov/rules-policy/regulations/1026/18/",
+      "label": "Regulation Z (Truth in Lending), 12 CFR 1026.18, content of the APR and finance charge disclosure"
+    },
+    "ftc-car-buying": {
+      "url": "https://consumer.ftc.gov/articles/buying-new-car",
+      "label": "Federal Trade Commission, Buying a New Car (fees, add-ons and the out-the-door price)"
+    },
+    "irs-sales-tax": {
+      "url": "https://www.irs.gov/taxtopics/tc503",
+      "label": "IRS Topic 503, Deductible taxes (state and local sales tax on a vehicle, personal property tax on value)"
+    }
+  }
+}

@@ -1,0 +1,1670 @@
+{
+ "abbr": "TX",
+ "name": "Texas",
+ "slug": "texas",
+ "agency": {
+  "name": "Texas Department of Motor Vehicles",
+  "short": "TxDMV",
+  "url": "https://www.txdmv.gov/"
+ },
+ "taxAgency": {
+  "name": "Texas Comptroller of Public Accounts",
+  "url": "https://comptroller.texas.gov/taxes/motor-vehicle/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "Private-party used sales are taxed on the price or the standard presumptive value (SPV), whichever is higher; the form cannot know the SPV, so the engine taxes the price and says so.",
+  "The emissions test itself is paid to the station; the OCCC bulletin uses $18.50 as an example, but the station portion depends on the area and is shown without an amount. The $2.75 state portion is exact.",
+  "A new car sold by a Texas dealer receives 24 months of initial registration; the engine charges two years of the annual registration and county fees (TxDMV Registration Manual 22.9 sets the 24 months, the fee chart gives the annual amounts)."
+ ],
+ "summary": {
+  "stateRate": 0.0625,
+  "localRange": [
+   0,
+   0
+  ],
+  "taxName": "motor vehicle sales and use tax",
+  "tradeInCredit": true,
+  "titleFee": 33,
+  "regMethod": "weight",
+  "regYears": 1,
+  "docFeeCap": null,
+  "docFeeDefault": 225,
+  "docFeeNote": "No hard cap: a documentary fee of $225 or less is presumed reasonable; above $225 the dealer must file a cost analysis with the OCCC (7 TAC 84.205). The doc fee is not taxable.",
+  "evFee": 200,
+  "phevFee": null,
+  "hybridFee": null,
+  "inspection": "emissions",
+  "inspectionWhere": "Safety inspections ended for non-commercial vehicles on January 1, 2025 (a $7.50 inspection program replacement fee is paid with registration instead); emissions tests remain in 17 counties around Houston, Dallas-Fort Worth, Austin and El Paso, with new vehicles exempt for two years.",
+  "inspectionFee": 2.75,
+  "annualValueTax": false
+ },
+ "params": {
+  "tax": {
+   "rate": 0.0625,
+   "tradeInCredit": true,
+   "docFeeTaxable": false,
+   "_src": "cpa-tax"
+  },
+  "reg": {
+   "base": 50.75,
+   "baseHeavy": 54,
+   "heavyFromLbs": 6001,
+   "texasSure": 1,
+   "processing": 4.75,
+   "newDealerYears": 2,
+   "_src": "txdmv-reg"
+  },
+  "title": {
+   "emissionsCounty": 33,
+   "other": 28,
+   "_src": "title-fee"
+  },
+  "inspection": {
+   "replacement": 7.5,
+   "replacementNew2yr": 16.75,
+   "emissionsState": 2.75,
+   "_src": "txdmv-reg"
+  },
+  "ev": {
+   "annual": 200,
+   "newTwoYear": 400,
+   "_src": "txdmv-reg"
+  }
+ },
+ "counties": [
+  {
+   "id": "anderson-county",
+   "name": "Anderson County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "andrews-county",
+   "name": "Andrews County",
+   "localFee": 7.0,
+   "emissions": false
+  },
+  {
+   "id": "angelina-county",
+   "name": "Angelina County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "aransas-county",
+   "name": "Aransas County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "archer-county",
+   "name": "Archer County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "armstrong-county",
+   "name": "Armstrong County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "atascosa-county",
+   "name": "Atascosa County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "austin-county",
+   "name": "Austin County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "bailey-county",
+   "name": "Bailey County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "bandera-county",
+   "name": "Bandera County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "bastrop-county",
+   "name": "Bastrop County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "baylor-county",
+   "name": "Baylor County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "bee-county",
+   "name": "Bee County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "bell-county",
+   "name": "Bell County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "bexar-county",
+   "name": "Bexar County",
+   "localFee": 21.5,
+   "emissions": false
+  },
+  {
+   "id": "blanco-county",
+   "name": "Blanco County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "borden-county",
+   "name": "Borden County",
+   "localFee": 0.0,
+   "emissions": false
+  },
+  {
+   "id": "bosque-county",
+   "name": "Bosque County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "bowie-county",
+   "name": "Bowie County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "brazoria-county",
+   "name": "Brazoria County",
+   "localFee": 10.0,
+   "emissions": true
+  },
+  {
+   "id": "brazos-county",
+   "name": "Brazos County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "brewster-county",
+   "name": "Brewster County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "briscoe-county",
+   "name": "Briscoe County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "brooks-county",
+   "name": "Brooks County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "brown-county",
+   "name": "Brown County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "burleson-county",
+   "name": "Burleson County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "burnet-county",
+   "name": "Burnet County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "caldwell-county",
+   "name": "Caldwell County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "calhoun-county",
+   "name": "Calhoun County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "callahan-county",
+   "name": "Callahan County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "cameron-county",
+   "name": "Cameron County",
+   "localFee": 21.5,
+   "emissions": false
+  },
+  {
+   "id": "camp-county",
+   "name": "Camp County",
+   "localFee": 10.5,
+   "emissions": false
+  },
+  {
+   "id": "carson-county",
+   "name": "Carson County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "cass-county",
+   "name": "Cass County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "castro-county",
+   "name": "Castro County",
+   "localFee": 11.0,
+   "emissions": false
+  },
+  {
+   "id": "chambers-county",
+   "name": "Chambers County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "cherokee-county",
+   "name": "Cherokee County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "childress-county",
+   "name": "Childress County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "clay-county",
+   "name": "Clay County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "cochran-county",
+   "name": "Cochran County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "coke-county",
+   "name": "Coke County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "coleman-county",
+   "name": "Coleman County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "collin-county",
+   "name": "Collin County",
+   "localFee": 11.5,
+   "emissions": true
+  },
+  {
+   "id": "collingsworth-county",
+   "name": "Collingsworth County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "colorado-county",
+   "name": "Colorado County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "comal-county",
+   "name": "Comal County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "comanche-county",
+   "name": "Comanche County",
+   "localFee": 11.0,
+   "emissions": false
+  },
+  {
+   "id": "concho-county",
+   "name": "Concho County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "cooke-county",
+   "name": "Cooke County",
+   "localFee": 11.0,
+   "emissions": false
+  },
+  {
+   "id": "coryell-county",
+   "name": "Coryell County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "cottle-county",
+   "name": "Cottle County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "crane-county",
+   "name": "Crane County",
+   "localFee": 1.5,
+   "emissions": false
+  },
+  {
+   "id": "crockett-county",
+   "name": "Crockett County",
+   "localFee": 5.0,
+   "emissions": false
+  },
+  {
+   "id": "crosby-county",
+   "name": "Crosby County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "culberson-county",
+   "name": "Culberson County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "dallam-county",
+   "name": "Dallam County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "dallas-county",
+   "name": "Dallas County",
+   "localFee": 11.5,
+   "emissions": true
+  },
+  {
+   "id": "dawson-county",
+   "name": "Dawson County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "deaf-smith-county",
+   "name": "Deaf Smith County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "delta-county",
+   "name": "Delta County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "denton-county",
+   "name": "Denton County",
+   "localFee": 11.5,
+   "emissions": true
+  },
+  {
+   "id": "dewitt-county",
+   "name": "DeWitt County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "dickens-county",
+   "name": "Dickens County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "dimmitt-county",
+   "name": "Dimmitt County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "donley-county",
+   "name": "Donley County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "duval-county",
+   "name": "Duval County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "eastland-county",
+   "name": "Eastland County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "ector-county",
+   "name": "Ector County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "edwards-county",
+   "name": "Edwards County",
+   "localFee": 11.0,
+   "emissions": false
+  },
+  {
+   "id": "ellis-county",
+   "name": "Ellis County",
+   "localFee": 10.0,
+   "emissions": true
+  },
+  {
+   "id": "el-paso-county",
+   "name": "El Paso County",
+   "localFee": 20.0,
+   "emissions": true
+  },
+  {
+   "id": "erath-county",
+   "name": "Erath County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "falls-county",
+   "name": "Falls County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "fannin-county",
+   "name": "Fannin County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "fayette-county",
+   "name": "Fayette County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "fisher-county",
+   "name": "Fisher County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "floyd-county",
+   "name": "Floyd County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "foard-county",
+   "name": "Foard County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "fort-bend-county",
+   "name": "Fort Bend County",
+   "localFee": 11.5,
+   "emissions": true
+  },
+  {
+   "id": "franklin-county",
+   "name": "Franklin County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "freestone-county",
+   "name": "Freestone County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "frio-county",
+   "name": "Frio County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "gaines-county",
+   "name": "Gaines County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "galveston-county",
+   "name": "Galveston County",
+   "localFee": 10.0,
+   "emissions": true
+  },
+  {
+   "id": "garza-county",
+   "name": "Garza County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "gillespie-county",
+   "name": "Gillespie County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "glasscock-county",
+   "name": "Glasscock County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "goliad-county",
+   "name": "Goliad County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "gonzales-county",
+   "name": "Gonzales County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "gray-county",
+   "name": "Gray County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "grayson-county",
+   "name": "Grayson County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "gregg-county",
+   "name": "Gregg County",
+   "localFee": 9.0,
+   "emissions": false
+  },
+  {
+   "id": "grimes-county",
+   "name": "Grimes County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "guadalupe-county",
+   "name": "Guadalupe County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "hale-county",
+   "name": "Hale County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "hall-county",
+   "name": "Hall County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "hamilton-county",
+   "name": "Hamilton County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "hansford-county",
+   "name": "Hansford County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "hardeman-county",
+   "name": "Hardeman County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "hardin-county",
+   "name": "Hardin County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "harris-county",
+   "name": "Harris County",
+   "localFee": 11.5,
+   "emissions": true
+  },
+  {
+   "id": "harrison-county",
+   "name": "Harrison County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "hartley-county",
+   "name": "Hartley County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "haskell-county",
+   "name": "Haskell County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "hays-county",
+   "name": "Hays County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "hemphill-county",
+   "name": "Hemphill County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "henderson-county",
+   "name": "Henderson County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "hidalgo-county",
+   "name": "Hidalgo County",
+   "localFee": 20.0,
+   "emissions": false
+  },
+  {
+   "id": "hill-county",
+   "name": "Hill County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "hockley-county",
+   "name": "Hockley County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "hood-county",
+   "name": "Hood County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "hopkins-county",
+   "name": "Hopkins County",
+   "localFee": 11.0,
+   "emissions": false
+  },
+  {
+   "id": "houston-county",
+   "name": "Houston County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "howard-county",
+   "name": "Howard County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "hudspeth-county",
+   "name": "Hudspeth County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "hunt-county",
+   "name": "Hunt County",
+   "localFee": 11.0,
+   "emissions": false
+  },
+  {
+   "id": "hutchinson-county",
+   "name": "Hutchinson County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "irion-county",
+   "name": "Irion County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "jack-county",
+   "name": "Jack County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "jackson-county",
+   "name": "Jackson County",
+   "localFee": 10.5,
+   "emissions": false
+  },
+  {
+   "id": "jasper-county",
+   "name": "Jasper County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "jeff-davis-county",
+   "name": "Jeff Davis County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "jefferson-county",
+   "name": "Jefferson County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "jim-hogg-county",
+   "name": "Jim Hogg County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "jim-wells-county",
+   "name": "Jim Wells County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "johnson-county",
+   "name": "Johnson County",
+   "localFee": 11.5,
+   "emissions": true
+  },
+  {
+   "id": "jones-county",
+   "name": "Jones County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "karnes-county",
+   "name": "Karnes County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "kaufman-county",
+   "name": "Kaufman County",
+   "localFee": 11.5,
+   "emissions": true
+  },
+  {
+   "id": "kendall-county",
+   "name": "Kendall County",
+   "localFee": 11.0,
+   "emissions": false
+  },
+  {
+   "id": "kenedy-county",
+   "name": "Kenedy County",
+   "localFee": 0.0,
+   "emissions": false
+  },
+  {
+   "id": "kent-county",
+   "name": "Kent County",
+   "localFee": 0.0,
+   "emissions": false
+  },
+  {
+   "id": "kerr-county",
+   "name": "Kerr County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "kimble-county",
+   "name": "Kimble County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "king-county",
+   "name": "King County",
+   "localFee": 0.0,
+   "emissions": false
+  },
+  {
+   "id": "kinney-county",
+   "name": "Kinney County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "kleberg-county",
+   "name": "Kleberg County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "knox-county",
+   "name": "Knox County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "lamar-county",
+   "name": "Lamar County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "lamb-county",
+   "name": "Lamb County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "lampasas-county",
+   "name": "Lampasas County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "la-salle-county",
+   "name": "La Salle County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "lavaca-county",
+   "name": "Lavaca County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "lee-county",
+   "name": "Lee County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "leon-county",
+   "name": "Leon County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "liberty-county",
+   "name": "Liberty County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "limestone-county",
+   "name": "Limestone County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "lipscomb-county",
+   "name": "Lipscomb County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "live-oak-county",
+   "name": "Live Oak County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "llano-county",
+   "name": "Llano County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "loving-county",
+   "name": "Loving County",
+   "localFee": 0.0,
+   "emissions": false
+  },
+  {
+   "id": "lubbock-county",
+   "name": "Lubbock County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "lynn-county",
+   "name": "Lynn County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "madison-county",
+   "name": "Madison County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "marion-county",
+   "name": "Marion County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "martin-county",
+   "name": "Martin County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "mason-county",
+   "name": "Mason County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "matagorda-county",
+   "name": "Matagorda County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "maverick-county",
+   "name": "Maverick County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "mcculloch-county",
+   "name": "McCulloch County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "mclennan-county",
+   "name": "McLennan County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "mcmullen-county",
+   "name": "McMullen County",
+   "localFee": 0.0,
+   "emissions": false
+  },
+  {
+   "id": "medina-county",
+   "name": "Medina County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "menard-county",
+   "name": "Menard County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "midland-county",
+   "name": "Midland County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "milam-county",
+   "name": "Milam County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "mills-county",
+   "name": "Mills County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "mitchell-county",
+   "name": "Mitchell County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "montague-county",
+   "name": "Montague County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "montgomery-county",
+   "name": "Montgomery County",
+   "localFee": 10.0,
+   "emissions": true
+  },
+  {
+   "id": "moore-county",
+   "name": "Moore County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "morris-county",
+   "name": "Morris County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "motley-county",
+   "name": "Motley County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "nacogdoches-county",
+   "name": "Nacogdoches County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "navarro-county",
+   "name": "Navarro County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "newton-county",
+   "name": "Newton County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "nolan-county",
+   "name": "Nolan County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "nueces-county",
+   "name": "Nueces County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "ochiltree-county",
+   "name": "Ochiltree County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "oldham-county",
+   "name": "Oldham County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "orange-county",
+   "name": "Orange County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "palo-pinto-county",
+   "name": "Palo Pinto County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "panola-county",
+   "name": "Panola County",
+   "localFee": 1.5,
+   "emissions": false
+  },
+  {
+   "id": "parker-county",
+   "name": "Parker County",
+   "localFee": 11.5,
+   "emissions": true
+  },
+  {
+   "id": "parmer-county",
+   "name": "Parmer County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "pecos-county",
+   "name": "Pecos County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "polk-county",
+   "name": "Polk County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "potter-county",
+   "name": "Potter County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "presidio-county",
+   "name": "Presidio County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "rains-county",
+   "name": "Rains County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "randall-county",
+   "name": "Randall County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "reagan-county",
+   "name": "Reagan County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "real-county",
+   "name": "Real County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "red-river-county",
+   "name": "Red River County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "reeves-county",
+   "name": "Reeves County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "refugio-county",
+   "name": "Refugio County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "roberts-county",
+   "name": "Roberts County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "robertson-county",
+   "name": "Robertson County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "rockwall-county",
+   "name": "Rockwall County",
+   "localFee": 11.5,
+   "emissions": true
+  },
+  {
+   "id": "runnels-county",
+   "name": "Runnels County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "rusk-county",
+   "name": "Rusk County",
+   "localFee": 11.0,
+   "emissions": false
+  },
+  {
+   "id": "sabine-county",
+   "name": "Sabine County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "san-augustine-county",
+   "name": "San Augustine County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "san-jacinto-county",
+   "name": "San Jacinto County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "san-patricio-county",
+   "name": "San Patricio County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "san-saba-county",
+   "name": "San Saba County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "schleicher-county",
+   "name": "Schleicher County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "scurry-county",
+   "name": "Scurry County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "shackelford-county",
+   "name": "Shackelford County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "shelby-county",
+   "name": "Shelby County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "sherman-county",
+   "name": "Sherman County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "smith-county",
+   "name": "Smith County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "somervell-county",
+   "name": "Somervell County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "starr-county",
+   "name": "Starr County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "stephens-county",
+   "name": "Stephens County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "sterling-county",
+   "name": "Sterling County",
+   "localFee": 0.0,
+   "emissions": false
+  },
+  {
+   "id": "stonewall-county",
+   "name": "Stonewall County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "sutton-county",
+   "name": "Sutton County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "swisher-county",
+   "name": "Swisher County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "tarrant-county",
+   "name": "Tarrant County",
+   "localFee": 10.0,
+   "emissions": true
+  },
+  {
+   "id": "taylor-county",
+   "name": "Taylor County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "terrell-county",
+   "name": "Terrell County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "terry-county",
+   "name": "Terry County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "throckmorton-county",
+   "name": "Throckmorton County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "titus-county",
+   "name": "Titus County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "tom-green-county",
+   "name": "Tom Green County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "travis-county",
+   "name": "Travis County",
+   "localFee": 11.5,
+   "emissions": true
+  },
+  {
+   "id": "trinity-county",
+   "name": "Trinity County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "tyler-county",
+   "name": "Tyler County",
+   "localFee": 11.0,
+   "emissions": false
+  },
+  {
+   "id": "upshur-county",
+   "name": "Upshur County",
+   "localFee": 11.0,
+   "emissions": false
+  },
+  {
+   "id": "upton-county",
+   "name": "Upton County",
+   "localFee": 5.0,
+   "emissions": false
+  },
+  {
+   "id": "uvalde-county",
+   "name": "Uvalde County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "val-verde-county",
+   "name": "Val Verde County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "van-zandt-county",
+   "name": "Van Zandt County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "victoria-county",
+   "name": "Victoria County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "walker-county",
+   "name": "Walker County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "waller-county",
+   "name": "Waller County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "ward-county",
+   "name": "Ward County",
+   "localFee": 0.0,
+   "emissions": false
+  },
+  {
+   "id": "washington-county",
+   "name": "Washington County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "webb-county",
+   "name": "Webb County",
+   "localFee": 20.0,
+   "emissions": false
+  },
+  {
+   "id": "wharton-county",
+   "name": "Wharton County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "wheeler-county",
+   "name": "Wheeler County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "wichita-county",
+   "name": "Wichita County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "wilbarger-county",
+   "name": "Wilbarger County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "willacy-county",
+   "name": "Willacy County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "williamson-county",
+   "name": "Williamson County",
+   "localFee": 11.5,
+   "emissions": true
+  },
+  {
+   "id": "wilson-county",
+   "name": "Wilson County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "winkler-county",
+   "name": "Winkler County",
+   "localFee": 7.5,
+   "emissions": false
+  },
+  {
+   "id": "wise-county",
+   "name": "Wise County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "wood-county",
+   "name": "Wood County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "yoakum-county",
+   "name": "Yoakum County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "young-county",
+   "name": "Young County",
+   "localFee": 10.0,
+   "emissions": false
+  },
+  {
+   "id": "zapata-county",
+   "name": "Zapata County",
+   "localFee": 11.5,
+   "emissions": false
+  },
+  {
+   "id": "zavala-county",
+   "name": "Zavala County",
+   "localFee": 11.5,
+   "emissions": false
+  }
+ ],
+ "defaultCounty": "harris-county",
+ "singular": [
+  "Texas taxes a car at a flat 6.25% statewide, with no city or county add-on, and deducts the trade-in from the taxable price [cpa-tax].",
+  "On a private-party used sale, tax is due on the price or on the vehicle's standard presumptive value, whichever is higher, unless a certified appraisal shows a lower value [spv].",
+  "The dealer documentary fee is not part of the taxable price in Texas, and fees of $225 or less are presumed reasonable [cpa-consideration].",
+  "Since January 1, 2025, ordinary cars no longer need a safety inspection; owners pay a $7.50 inspection program replacement fee with registration instead [txdmv-reg].",
+  "Seventeen counties still require an emissions test, with a $2.75 state portion collected at registration [txdmv-reg].",
+  "A new car bought from a Texas dealer gets 24 months of registration, with a $16.75 inspection replacement fee covering both years [regman].",
+  "Fully electric cars pay $200 a year, or $400 when a new EV receives its first two-year registration; hybrids pay nothing extra [txdmv-reg].",
+  "County road and bridge, transportation and child safety fees add $0 to $31.50 a year depending on the county [fee-chart].",
+  "The title fee is $33 in emissions counties and $28 elsewhere [title-fee]."
+ ],
+ "sources": {
+  "txdmv-reg": {
+   "name": "TxDMV, Register Your Vehicle (fees)",
+   "url": "https://www.txdmv.gov/motorists/register-your-vehicle",
+   "accessed": "2026-10-11",
+   "quote": "The standard fee for cars and lighter pickup trucks is a base registration fee of $50.75 ... Inspection Replacement Fee $7.50 ... Emissions Inspection Fee $2.75 ... Inspection Replacement Fee (new two-year vehicles) $16.75 ... new electric vehicles issued two years of registration ... will be assessed a $400 fee."
+  },
+  "fee-chart": {
+   "name": "TxDMV Fee Chart 1C, Texas Registration Fees effective January 1, 2026 (local fees by county)",
+   "url": "https://www.txdmv.gov/sites/default/files/body-files/FeeChart_1C.pdf",
+   "accessed": "2026-10-11",
+   "quote": "EFFECTIVE January 1, 2026 EXPIRES December 31, 2026 ... Bexar $21.50 ... Borden $0"
+  },
+  "regman": {
+   "name": "TxDMV Motor Vehicle Registration Manual (April 2026), 22.9 24 Months of Registration and P&H fee",
+   "url": "https://content.govdelivery.com/attachments/TXDMV/2026/05/06/file_attachments/3641955/Reg%20Manual%20April%202026.pdf",
+   "accessed": "2026-10-11",
+   "quote": "Passenger cars and light trucks sold on a MCO by a Texas dealer must receive 24 months of initial registration ... A $4.75 P&H Fee will be assessed on certain registration transactions."
+  },
+  "cpa-tax": {
+   "name": "Texas Comptroller, Motor Vehicle Sales and Use Tax",
+   "url": "https://comptroller.texas.gov/taxes/motor-vehicle/sales-use.php",
+   "accessed": "2026-10-11",
+   "quote": "Sales: 6.25 percent of sales price, minus any trade-in allowance. The taxable value of private-party purchases of used motor vehicles may be based on the standard presumptive value."
+  },
+  "cpa-consideration": {
+   "name": "Texas Comptroller, Publication 96-254, Total Consideration",
+   "url": "https://comptroller.texas.gov/taxes/publications/96-254/total-consideration.php",
+   "accessed": "2026-10-11",
+   "quote": "The following items are not part of total consideration ... separately stated charge for preparing and processing documents related to the transfer of a motor vehicle, usually called a documentary fee"
+  },
+  "title-fee": {
+   "name": "Tarrant County Tax Assessor-Collector, Title Fees",
+   "url": "https://www.tarrantcountytx.gov/en/tax/motor-vehicle/FAQs-Motor-Vehicle-Titles/title-fees.html",
+   "accessed": "2026-10-11",
+   "quote": "Title fees in Texas are based on the county you live in and can be $28 or $33, depending on whether you reside in an emissions compliant county."
+  },
+  "occc-inspection": {
+   "name": "OCCC Bulletin B25-1, Inspection Program Replacement Fee and Emissions Fee",
+   "url": "https://occc.texas.gov/wp-content/uploads/2025/11/b25-1-mvsf-inspection-replacement-emissions-fee.pdf",
+   "accessed": "2026-10-11",
+   "quote": "The motor vehicle inspection program replacement fee is a $7.50 fee paid to the state ... a dealer pays $18.50 to an inspection station and $2.75 to the state for the emissions inspection"
+  },
+  "doc-fee": {
+   "name": "7 Texas Administrative Code 84.205, Documentary Fee",
+   "url": "https://www.law.cornell.edu/regulations/texas/7-Tex-Admin-Code-SS-84-205",
+   "accessed": "2026-10-11",
+   "quote": "A seller is not required to provide a notification or cost analysis to the OCCC before charging a documentary fee of $225 or less."
+  },
+  "spv": {
+   "name": "TxDMV, Standard Presumptive Values",
+   "url": "https://www.txdmv.gov/standard-presumptive-calculator",
+   "accessed": "2026-10-11",
+   "quote": "Texans who buy a used vehicle from anyone other than a licensed vehicle dealer are required to pay motor vehicle sales tax of 6.25 percent on the purchase price or standard presumptive value (SPV), whichever is the highest value."
+  }
+ }
+}

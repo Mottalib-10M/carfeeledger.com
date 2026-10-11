@@ -1,0 +1,922 @@
+{
+ "abbr": "NY",
+ "name": "New York",
+ "slug": "new-york",
+ "agency": {
+  "name": "New York State Department of Motor Vehicles",
+  "short": "DMV",
+  "url": "https://dmv.ny.gov/"
+ },
+ "taxAgency": {
+  "name": "New York State Department of Taxation and Finance",
+  "url": "https://www.tax.ny.gov/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "Sales tax rates are those of Publication 718 (effective March 1, 2025), still listed as current by the Tax Department; cities with their own rate (Yonkers, Oswego, Ithaca...) can be typed in the local rate override.",
+  "The minimum two-year registration fee of $32.50 for 6, 8 or 12-cylinder cars is not applied because the form does not ask the number of cylinders; it only matters below 1,951 lb.",
+  "Inspection amounts are the maximum fees of the DMV's VS-77 chart; the New York Metropolitan Area emissions rate is applied in the 12 MCTD counties, on the assumption that the two areas coincide (the VS-77 chart does not list the NYMA counties).",
+  "The dealer documentation fee is treated as part of the taxable receipt; no Tax Department page stating it explicitly was read.",
+  "No dealer documentation fee cap was read on an official page for this release."
+ ],
+ "summary": {
+  "stateRate": 0.04,
+  "localRange": [
+   0.03,
+   0.04875
+  ],
+  "taxName": "state and local sales tax",
+  "tradeInCredit": true,
+  "titleFee": 50,
+  "regMethod": "weight",
+  "regYears": 2,
+  "docFeeCap": null,
+  "docFeeNote": "Not verified on an official page for this release; type the dealer's fee.",
+  "evFee": null,
+  "phevFee": null,
+  "hybridFee": null,
+  "inspection": "both",
+  "inspectionWhere": "Yearly safety inspection for every car and at each change of owner, plus an OBD II emissions test except for cars under two model years, over 25 model years, and electric cars.",
+  "inspectionFee": [
+   21,
+   37
+  ],
+  "annualValueTax": false
+ },
+ "params": {
+  "tax": {
+   "stateRate": 0.04,
+   "tradeInCredit": true,
+   "docFeeTaxable": true,
+   "_src": "pub718"
+  },
+  "reg": {
+   "brackets": [
+    [
+     1650,
+     26.0
+    ],
+    [
+     1750,
+     27.5
+    ],
+    [
+     1850,
+     29.0
+    ],
+    [
+     1950,
+     31.0
+    ],
+    [
+     2050,
+     32.5
+    ],
+    [
+     2150,
+     34.0
+    ],
+    [
+     2250,
+     35.5
+    ],
+    [
+     2350,
+     37.5
+    ],
+    [
+     2450,
+     39.0
+    ],
+    [
+     2550,
+     40.5
+    ],
+    [
+     2650,
+     42.0
+    ],
+    [
+     2750,
+     43.5
+    ],
+    [
+     2850,
+     45.5
+    ],
+    [
+     2950,
+     47.0
+    ],
+    [
+     3050,
+     48.5
+    ],
+    [
+     3150,
+     50.0
+    ],
+    [
+     3250,
+     52.0
+    ],
+    [
+     3350,
+     53.5
+    ],
+    [
+     3450,
+     55.0
+    ],
+    [
+     3550,
+     56.5
+    ],
+    [
+     3650,
+     59.0
+    ],
+    [
+     3750,
+     61.5
+    ],
+    [
+     3850,
+     64.0
+    ],
+    [
+     3950,
+     66.5
+    ],
+    [
+     4050,
+     69.0
+    ],
+    [
+     4150,
+     71.0
+    ],
+    [
+     4250,
+     73.5
+    ],
+    [
+     4350,
+     76.0
+    ],
+    [
+     4450,
+     78.5
+    ],
+    [
+     4550,
+     81.0
+    ],
+    [
+     4650,
+     83.5
+    ],
+    [
+     4750,
+     85.5
+    ],
+    [
+     4850,
+     88.0
+    ],
+    [
+     4950,
+     90.5
+    ],
+    [
+     5050,
+     93.0
+    ],
+    [
+     5150,
+     95.5
+    ],
+    [
+     5250,
+     98.0
+    ],
+    [
+     5350,
+     100.5
+    ],
+    [
+     5450,
+     102.5
+    ],
+    [
+     5550,
+     105.0
+    ],
+    [
+     5650,
+     107.5
+    ],
+    [
+     5750,
+     110.0
+    ],
+    [
+     5850,
+     112.5
+    ],
+    [
+     5950,
+     115.0
+    ],
+    [
+     6050,
+     117.0
+    ],
+    [
+     6150,
+     119.5
+    ],
+    [
+     6250,
+     122.0
+    ],
+    [
+     6350,
+     124.5
+    ],
+    [
+     6450,
+     127.0
+    ],
+    [
+     6550,
+     129.5
+    ],
+    [
+     6650,
+     131.5
+    ],
+    [
+     6750,
+     134.0
+    ],
+    [
+     6850,
+     136.5
+    ],
+    [
+     6950,
+     139.0
+    ],
+    [
+     null,
+     140.0
+    ]
+   ],
+   "evMin2yr": 32.5,
+   "years": 2,
+   "mctd2yr": 50,
+   "useTaxSplitLbs": 3500,
+   "_src": "fees"
+  },
+  "once": {
+   "plate": 25,
+   "title": 50,
+   "_src": "fees"
+  },
+  "inspection": {
+   "safety": 10,
+   "emissionsMetro": 27,
+   "emissionsUpstate": 11,
+   "emissionsExemptUnderAge": 2,
+   "emissionsExemptOverAge": 25,
+   "_src": "vs77"
+  }
+ },
+ "counties": [
+  {
+   "id": "albany-county",
+   "name": "Albany County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    10,
+    20
+   ],
+   "mctd": false
+  },
+  {
+   "id": "allegany-county",
+   "name": "Allegany County",
+   "localRate": 0.045,
+   "useTax2yr": [
+    10,
+    20
+   ],
+   "mctd": false
+  },
+  {
+   "id": "broome-county",
+   "name": "Broome County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    10,
+    20
+   ],
+   "mctd": false
+  },
+  {
+   "id": "cattaraugus-county",
+   "name": "Cattaraugus County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    10,
+    20
+   ],
+   "mctd": false
+  },
+  {
+   "id": "cayuga-county",
+   "name": "Cayuga County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    0,
+    0
+   ],
+   "mctd": false
+  },
+  {
+   "id": "chautauqua-county",
+   "name": "Chautauqua County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    10,
+    20
+   ],
+   "mctd": false
+  },
+  {
+   "id": "chemung-county",
+   "name": "Chemung County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    10,
+    20
+   ],
+   "mctd": false
+  },
+  {
+   "id": "chenango-county",
+   "name": "Chenango County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    10,
+    20
+   ],
+   "mctd": false
+  },
+  {
+   "id": "clinton-county",
+   "name": "Clinton County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    10,
+    20
+   ],
+   "mctd": false
+  },
+  {
+   "id": "columbia-county",
+   "name": "Columbia County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    0,
+    0
+   ],
+   "mctd": false
+  },
+  {
+   "id": "cortland-county",
+   "name": "Cortland County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    10,
+    20
+   ],
+   "mctd": false
+  },
+  {
+   "id": "delaware-county",
+   "name": "Delaware County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    0,
+    0
+   ],
+   "mctd": false
+  },
+  {
+   "id": "dutchess-county",
+   "name": "Dutchess County",
+   "localRate": 0.04125,
+   "useTax2yr": [
+    10,
+    20
+   ],
+   "mctd": true
+  },
+  {
+   "id": "erie-county",
+   "name": "Erie County",
+   "localRate": 0.0475,
+   "useTax2yr": [
+    10,
+    20
+   ],
+   "mctd": false
+  },
+  {
+   "id": "essex-county",
+   "name": "Essex County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    0,
+    0
+   ],
+   "mctd": false
+  },
+  {
+   "id": "franklin-county",
+   "name": "Franklin County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    10,
+    20
+   ],
+   "mctd": false
+  },
+  {
+   "id": "fulton-county",
+   "name": "Fulton County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    0,
+    0
+   ],
+   "mctd": false
+  },
+  {
+   "id": "genesee-county",
+   "name": "Genesee County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    10,
+    20
+   ],
+   "mctd": false
+  },
+  {
+   "id": "greene-county",
+   "name": "Greene County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    0,
+    0
+   ],
+   "mctd": false
+  },
+  {
+   "id": "hamilton-county",
+   "name": "Hamilton County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    0,
+    0
+   ],
+   "mctd": false
+  },
+  {
+   "id": "herkimer-county",
+   "name": "Herkimer County",
+   "localRate": 0.0425,
+   "useTax2yr": [
+    0,
+    0
+   ],
+   "mctd": false
+  },
+  {
+   "id": "jefferson-county",
+   "name": "Jefferson County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    0,
+    0
+   ],
+   "mctd": false
+  },
+  {
+   "id": "lewis-county",
+   "name": "Lewis County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    0,
+    0
+   ],
+   "mctd": false
+  },
+  {
+   "id": "livingston-county",
+   "name": "Livingston County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    10,
+    20
+   ],
+   "mctd": false
+  },
+  {
+   "id": "madison-county",
+   "name": "Madison County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    10,
+    20
+   ],
+   "mctd": false
+  },
+  {
+   "id": "monroe-county",
+   "name": "Monroe County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    10,
+    20
+   ],
+   "mctd": false
+  },
+  {
+   "id": "montgomery-county",
+   "name": "Montgomery County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    10,
+    20
+   ],
+   "mctd": false
+  },
+  {
+   "id": "nassau-county",
+   "name": "Nassau County",
+   "localRate": 0.04625,
+   "useTax2yr": [
+    30,
+    30
+   ],
+   "mctd": true
+  },
+  {
+   "id": "new-york-city",
+   "name": "New York City",
+   "localRate": 0.04875,
+   "useTax2yr": [
+    30,
+    30
+   ],
+   "mctd": true
+  },
+  {
+   "id": "niagara-county",
+   "name": "Niagara County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    10,
+    20
+   ],
+   "mctd": false
+  },
+  {
+   "id": "oneida-county",
+   "name": "Oneida County",
+   "localRate": 0.0475,
+   "useTax2yr": [
+    10,
+    20
+   ],
+   "mctd": false
+  },
+  {
+   "id": "onondaga-county",
+   "name": "Onondaga County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    10,
+    20
+   ],
+   "mctd": false
+  },
+  {
+   "id": "ontario-county",
+   "name": "Ontario County",
+   "localRate": 0.035,
+   "useTax2yr": [
+    0,
+    0
+   ],
+   "mctd": false
+  },
+  {
+   "id": "orange-county",
+   "name": "Orange County",
+   "localRate": 0.04125,
+   "useTax2yr": [
+    0,
+    0
+   ],
+   "mctd": true
+  },
+  {
+   "id": "orleans-county",
+   "name": "Orleans County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    10,
+    20
+   ],
+   "mctd": false
+  },
+  {
+   "id": "oswego-county",
+   "name": "Oswego County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    10,
+    20
+   ],
+   "mctd": false
+  },
+  {
+   "id": "otsego-county",
+   "name": "Otsego County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    0,
+    0
+   ],
+   "mctd": false
+  },
+  {
+   "id": "putnam-county",
+   "name": "Putnam County",
+   "localRate": 0.04375,
+   "useTax2yr": [
+    10,
+    20
+   ],
+   "mctd": true
+  },
+  {
+   "id": "rensselaer-county",
+   "name": "Rensselaer County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    10,
+    20
+   ],
+   "mctd": false
+  },
+  {
+   "id": "rockland-county",
+   "name": "Rockland County",
+   "localRate": 0.04375,
+   "useTax2yr": [
+    10,
+    20
+   ],
+   "mctd": true
+  },
+  {
+   "id": "st-lawrence-county",
+   "name": "St. Lawrence County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    0,
+    0
+   ],
+   "mctd": false
+  },
+  {
+   "id": "saratoga-county",
+   "name": "Saratoga County",
+   "localRate": 0.03,
+   "useTax2yr": [
+    0,
+    0
+   ],
+   "mctd": false
+  },
+  {
+   "id": "schenectady-county",
+   "name": "Schenectady County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    10,
+    20
+   ],
+   "mctd": false
+  },
+  {
+   "id": "schoharie-county",
+   "name": "Schoharie County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    0,
+    0
+   ],
+   "mctd": false
+  },
+  {
+   "id": "schuyler-county",
+   "name": "Schuyler County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    10,
+    20
+   ],
+   "mctd": false
+  },
+  {
+   "id": "seneca-county",
+   "name": "Seneca County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    0,
+    0
+   ],
+   "mctd": false
+  },
+  {
+   "id": "steuben-county",
+   "name": "Steuben County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    10,
+    20
+   ],
+   "mctd": false
+  },
+  {
+   "id": "suffolk-county",
+   "name": "Suffolk County",
+   "localRate": 0.0475,
+   "useTax2yr": [
+    30,
+    60
+   ],
+   "mctd": true
+  },
+  {
+   "id": "sullivan-county",
+   "name": "Sullivan County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    10,
+    20
+   ],
+   "mctd": false
+  },
+  {
+   "id": "tioga-county",
+   "name": "Tioga County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    10,
+    20
+   ],
+   "mctd": false
+  },
+  {
+   "id": "tompkins-county",
+   "name": "Tompkins County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    10,
+    20
+   ],
+   "mctd": false
+  },
+  {
+   "id": "ulster-county",
+   "name": "Ulster County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    10,
+    20
+   ],
+   "mctd": false
+  },
+  {
+   "id": "warren-county",
+   "name": "Warren County",
+   "localRate": 0.03,
+   "useTax2yr": [
+    10,
+    20
+   ],
+   "mctd": false
+  },
+  {
+   "id": "washington-county",
+   "name": "Washington County",
+   "localRate": 0.03,
+   "useTax2yr": [
+    10,
+    20
+   ],
+   "mctd": false
+  },
+  {
+   "id": "wayne-county",
+   "name": "Wayne County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    0,
+    0
+   ],
+   "mctd": false
+  },
+  {
+   "id": "westchester-county",
+   "name": "Westchester County",
+   "localRate": 0.04375,
+   "useTax2yr": [
+    30,
+    60
+   ],
+   "mctd": true
+  },
+  {
+   "id": "wyoming-county",
+   "name": "Wyoming County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    10,
+    20
+   ],
+   "mctd": false
+  },
+  {
+   "id": "yates-county",
+   "name": "Yates County",
+   "localRate": 0.04,
+   "useTax2yr": [
+    10,
+    20
+   ],
+   "mctd": false
+  }
+ ],
+ "defaultCounty": "new-york-city",
+ "singular": [
+  "New York registers passenger cars for two years at a time, with a fee set by weight in 100-pound steps, from $26 under 1,651 lb to $140 from 6,951 lb [fees].",
+  "Twelve counties around New York City (the five boroughs, Dutchess, Nassau, Orange, Putnam, Rockland, Suffolk and Westchester) add a Metropolitan Commuter Transportation District fee of $50 per two-year registration [fees].",
+  "Most counties also charge a vehicle use tax with registration: $10 per two years under 3,501 lb and $20 above in upstate counties, $30 in New York City, up to $60 in Suffolk and Westchester for heavier cars [fees].",
+  "Sales tax combines the 4% state rate with the county or city rate of your address, from 7% in Saratoga, Warren and Washington counties to 8.875% in New York City [pub718].",
+  "A trade-in a dealer takes for resale reduces the taxable price, but manufacturers' rebates do not [tb-trade].",
+  "A first registration adds a $25 plate fee and a $50 title certificate fee [fees].",
+  "Every car is inspected every 12 months and at each change of owner; the emissions test skips cars under two model years, over 25, and electric cars [inspections].",
+  "The maximum inspection fee is $10 for safety plus $27 for the emissions test in the New York Metropolitan Area, or $11 elsewhere [vs77]."
+ ],
+ "sources": {
+  "fees": {
+   "name": "New York DMV, Registration Fees, Use Taxes and Supplemental Fees (Passenger Vehicles)",
+   "url": "https://dmv.ny.gov/registration/registration-fees-use-taxes-and-supplemental-fees-passenger-vehicles",
+   "accessed": "2026-10-11",
+   "quote": "3,451 - 3,550 lbs. | $56.50 ... Supplemental MCTD fee - $50 for two years ($25 per year) ... $10 for 2 years ($5/year) ... $25.00 for vehicle plates and $50.00 title certificate fee"
+  },
+  "pub718": {
+   "name": "NY Department of Taxation and Finance, Publication 718, Sales and Use Tax Rates by Jurisdiction (effective March 1, 2025)",
+   "url": "https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf",
+   "accessed": "2026-10-11",
+   "quote": "New York State only 4 ... *New York City 8⅞ ... Saratoga – except 7 ... *Rates in these jurisdictions include 3/8% imposed for the benefit of the Metropolitan Commuter Transportation District."
+  },
+  "tb-trade": {
+   "name": "NY Tax Bulletin, Taxable Receipt: How Discounts, Trade-Ins, and Additional Charges Affect Sales Tax",
+   "url": "https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/st/taxable_receipt.htm",
+   "accessed": "2026-10-11",
+   "quote": "when you accept something as a trade-in and reduce your selling price accordingly, sales tax is only due on the reduced price ... This is most common with sales and purchases of motor vehicles."
+  },
+  "inspections": {
+   "name": "New York DMV, About New York State Inspections",
+   "url": "https://dmv.ny.gov/inspections/about-new-york-state-inspections",
+   "accessed": "2026-10-11",
+   "quote": "Vehicles must be inspected every 12 months ... less than two model years old ... are exempt from emissions inspection"
+  },
+  "vs77": {
+   "name": "New York DMV, VS-77 Inspection Groups and Fee Chart",
+   "url": "https://dmv.ny.gov/forms/vs77.pdf",
+   "accessed": "2026-10-11",
+   "quote": "GROUP 1 — Light Vehicles ... $10.00 ... OBD II Emissions Inspection ... $27.00 [within the NYMA] $11.00 [outside of the NYMA]"
+  }
+ }
+}

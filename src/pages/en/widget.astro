@@ -1,0 +1,21 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { SITE_URL } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { breadcrumbSchema } from '../../lib/seo';
+const lang = 'en';
+const code = `<iframe src="${SITE_URL}/embed/car-fees/" title="Car tax, title and registration fees by state" width="100%" height="1250" style="border:0;max-width:1000px" loading="lazy"></iframe>`;
+---
+<PageLayout title="Embed the car tax and registration fee calculator, free" description="Put a 51-state car tax, title, registration and inspection fee calculator on your site with one iframe line, free. It updates itself when states change their 2026 fee schedules." lang={lang} noindex={true} jsonLd={[breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'Embed the calculator', path: route('widget', lang) }])]} breadcrumbs={[{ label: 'Embed the calculator' }]} showAuthor={false}>
+  <header class="mb-6">
+    <h1 class="font-serif text-3xl font-bold text-navy-900 md:text-4xl">Embed the fee calculator</h1>
+    <p class="mt-3 text-lg text-navy-700">One line of code puts the full calculator, all 50 states and DC with their counties, on your page. When a state changes a fee, the embedded copy changes with it.</p>
+  </header>
+  <div class="prose prose-slate max-w-none">
+    <p>Who uses it: credit unions and their auto loan pages, used-car listing sites, driving schools, local newsrooms writing about a fee increase, relocation guides. Terms: keep the credit line under the frame visible, do not change the figures, and present the result as an estimate of public fees, not as a dealer's offer. The frame sets no cookie and sends us nothing about your visitors. Questions: <a href={route('contact', lang)}>contact page</a>.</p>
+    <pre class="overflow-x-auto rounded-lg bg-navy-900 p-4 text-sm text-white"><code>{code}</code></pre>
+  </div>
+  <div class="mt-8 overflow-hidden rounded-xl border border-navy-200">
+    <iframe src="/embed/car-fees/" title="Car tax, title and registration fees by state" width="100%" height="1250" style="border:0" loading="lazy"></iframe>
+  </div>
+</PageLayout>

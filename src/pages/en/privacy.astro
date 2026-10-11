@@ -1,0 +1,29 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import LegalIdentity from '../../components/LegalIdentity.astro';
+import { CONTACT_EMAIL, LAST_UPDATED, LEGAL, SITE_URL, CLARITY_ID } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+const lang = 'en';
+---
+<PageLayout title="Privacy policy of Car Fee Ledger: no VIN, no plate, no account" description="What the car fee calculators process: no cookies, no account, no VIN, plate or phone number collected, nothing passed to dealers or lenders. Your rights under US state laws and the GDPR." lang={lang} noindex={true} breadcrumbs={[{ label: 'Privacy' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none prose-headings:font-serif">
+    <h1>Privacy policy</h1>
+    <p>This policy covers {SITE_URL}. Car fee and car loan sites often collect a VIN, a ZIP code and a phone number to resell them to dealers, lenders or insurers. This one was built so that it needs none of them. The publisher is established in France: the EU General Data Protection Regulation applies to everything the site does, for every visitor, and residents of US states with a consumer privacy law, California among them, keep at least the rights listed here.</p>
+    <p>No cookie is set by this site, and the calculators store nothing on your device.</p>
+    <h2>1. Who is responsible</h2>
+    <LegalIdentity lang={lang} />
+    <h2>2. What stays in your browser</h2>
+    <p>Your state, county, the price of the car, its weight, its fuel, a trade-in or a loan rate: every calculation runs in your own browser. Nothing is sent to us or to anyone else, and nothing is tied to your identity. The "copy share link" button writes your inputs into the page address so you can send the result to someone; whoever receives the link can read those inputs.</p>
+    <h2>3. What is processed</h2>
+    <h3>Hosting logs</h3><p>Like every web host, GitHub records the IP address, time, page requested and browser type of each request to keep the service secure. Legal basis: legitimate interest. Retention follows GitHub's own policy.</p>
+    {CLARITY_ID
+      ? <><h3>Anonymous stability monitoring, without cookies</h3><p>To find broken pages and scripts, the site loads Microsoft Clarity (Microsoft Ireland Operations Limited, Dublin) in its cookie-free mode: errors, loading times, clicks that lead nowhere and scrolling are measured per page view, without cookies and without linking visits; page content and everything you type are masked. Microsoft receives the technical data of the request, including the IP address. Legal basis: legitimate interest in a working site (Article 6(1)(f) GDPR). You can object by blocking clarity.ms or by writing to us.</p></>
+      : <><h3>No analytics</h3><p>No audience measurement, analytics, advertising or social media tool is loaded today. If a stability monitoring tool is added, this page will name it and say what it records and how to refuse it before it is switched on.</p></>}
+    <h3>E-mails</h3><p>If you write to us, we keep your address and message to answer, and delete them three years after the last exchange. You do not need to send a VIN, a plate number or a receipt with your name to report a figure.</p>
+    <h2>4. No sale, no sharing, no leads</h2><p>We do not sell or share personal information, we pass nothing to dealers, lenders, insurers or title services, and we build no profiles. There is no advertising on the site.</p>
+    <h2>5. Recipients and transfers</h2><p>The host, GitHub, Inc., is in the United States; request data may be processed there under the EU–US Data Privacy Framework.</p>
+    <h2>6. Your rights</h2><p>You may ask for access, correction, deletion, restriction or portability, or object to processing, by writing to <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>; we answer within one month. You may also complain to the {LEGAL.supervisoryAuthority} (<a href={LEGAL.supervisoryAuthorityUrl} rel="nofollow noopener" target="_blank">{LEGAL.supervisoryAuthorityUrl}</a>).</p>
+    <h2>7. Children</h2><p>The site is meant for adults buying or registering a vehicle. It is not directed at children under 13 and collects nothing from them.</p>
+    <p>See also the <a href={route('cookies', lang)}>cookies page</a> and the <a href={route('terms', lang)}>legal notice</a>. Updated: {LAST_UPDATED}.</p>
+  </div>
+</PageLayout>

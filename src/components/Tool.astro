@@ -1,0 +1,19 @@
+---
+/** Renders the calculator of a page as a hydrated island, with the state data file it needs as a prop. */
+import FeeCalc from './calc/FeeCalc';
+import LoanCalc from './calc/LoanCalc';
+import { route } from '../i18n/routes';
+import { STATE_LIST, bySlug, P } from '../lib/data';
+import type { ToolKind } from '../lib/page-types';
+import type { VehicleInput } from '../lib/engine/types';
+interface Props { kind: ToolKind; state?: string; lock?: boolean; idPrefix?: string; defaults?: Partial<VehicleInput> }
+const { kind, state = 'california', lock = false, idPrefix, defaults } = Astro.props;
+const states = STATE_LIST.map((s) => ({ value: s.slug, label: s.name, ab: s.ab }));
+const initial = bySlug(STATE_LIST.some((s) => s.slug === state) ? state : STATE_LIST[0].slug);
+const methodHref = route('method', 'en');
+const pre = idPrefix ?? kind.slice(0, 4);
+const evDefaults: Partial<VehicleInput> = kind === 'ev' ? { fuel: 'ev', weightLbs: 4200 } : {};
+---
+{kind === 'loan' || kind === 'tco'
+  ? <LoanCalc client:load states={states} initial={initial} mode={kind} year={P.year} methodHref={methodHref} idPrefix={pre} apr={P.loan.defaultApr} months={P.loan.defaultMonths} />
+  : <FeeCalc client:load states={states} initial={initial} lock={lock} mode={kind} defaults={{ ...evDefaults, ...(defaults ?? {}) }} year={P.year} methodHref={methodHref} idPrefix={pre} />}

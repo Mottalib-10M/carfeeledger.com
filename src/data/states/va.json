@@ -1,0 +1,261 @@
+{
+ "abbr": "VA",
+ "name": "Virginia",
+ "slug": "virginia",
+ "agency": {
+  "name": "Virginia Department of Motor Vehicles",
+  "short": "DMV",
+  "url": "https://www.dmv.virginia.gov/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "Localities set and bill their own personal property tax on vehicles and, in many places, a local registration fee; DMV does not publish a statewide table, so neither is added.",
+  "The highway use fee of fuel-efficient gasoline and hybrid cars (25 mpg or more combined) depends on the car's EPA rating, which the form does not ask; it is shown as a range up to the electric-vehicle amount.",
+  "Safety inspection and Northern Virginia emissions test prices are paid to stations and were not read on an official page for this release.",
+  "No dealer documentation fee cap was read on an official page for this release.",
+  "Whether a dealer processing fee is part of the 'sale price' is not stated in the definition read; the engine leaves it out of the taxable price."
+ ],
+ "summary": {
+  "stateRate": 0.0415,
+  "localRange": [
+   0,
+   0
+  ],
+  "taxName": "motor vehicle sales and use tax",
+  "tradeInCredit": false,
+  "titleFee": 15,
+  "regMethod": "weight",
+  "regYears": 1,
+  "docFeeCap": null,
+  "docFeeNote": "Not verified on an official page for this release; type the dealer's fee.",
+  "evFee": 135.63,
+  "phevFee": null,
+  "hybridFee": null,
+  "inspection": "both",
+  "inspectionWhere": "Emissions inspection in Arlington, Fairfax, Loudoun, Prince William and Stafford counties and five Northern Virginia cities ($2 yearly emissions fee with registration); statewide safety inspection by stations.",
+  "inspectionFee": 2,
+  "annualValueTax": true
+ },
+ "params": {
+  "g": {
+   "tax": {
+    "label": "Motor vehicle sales and use tax (4.15%, minimum $75)",
+    "rate": 0.0415,
+    "minTax": 75,
+    "tradeInCredit": false,
+    "docFeeTaxable": false,
+    "source": "va-code"
+   },
+   "once": [
+    {
+     "id": "title",
+     "label": "Original title",
+     "amount": 15,
+     "source": "fee-chart",
+     "kind": "title"
+    }
+   ],
+   "reg": {
+    "label": "Registration (by empty weight)",
+    "source": "fee-chart",
+    "type": "weight",
+    "brackets": [
+     {
+      "upTo": 4000,
+      "amount": 30.75
+     },
+     {
+      "upTo": 6500,
+      "amount": 35.75
+     },
+     {
+      "upTo": null,
+      "amount": 44.75
+     }
+    ]
+   },
+   "cycle": [
+    {
+     "id": "emissions-fee",
+     "label": "Emissions program fee (Northern Virginia)",
+     "amount": 2,
+     "kind": "inspection",
+     "source": "emissions",
+     "if": {
+      "countyFlag": "emissions"
+     }
+    }
+   ],
+   "ev": {
+    "ev": 135.63,
+    "source": "fee-chart",
+    "label": "Highway use fee (electric vehicle)"
+   },
+   "ranges": [
+    {
+     "id": "huf",
+     "label": "Highway use fee if the car is rated 25 mpg or more",
+     "range": [
+      0,
+      135.63
+     ],
+     "kind": "ev",
+     "source": "huf",
+     "note": "85% of the gas tax a 23.7 mpg car pays minus what yours pays, on 11,600 miles; depends on your EPA rating.",
+     "if": {
+      "fuel": [
+       "gas",
+       "hybrid",
+       "phev"
+      ]
+     }
+    },
+    {
+     "id": "ppt",
+     "label": "Local personal property tax on the vehicle",
+     "range": null,
+     "kind": "value",
+     "source": "fee-chart",
+     "note": "Set and billed by your county or city each year."
+    }
+   ]
+  }
+ },
+ "counties": [
+  {
+   "id": "arlington-county",
+   "name": "Arlington County",
+   "emissions": true
+  },
+  {
+   "id": "fairfax-county",
+   "name": "Fairfax County",
+   "emissions": true
+  },
+  {
+   "id": "loudoun-county",
+   "name": "Loudoun County",
+   "emissions": true
+  },
+  {
+   "id": "prince-william-county",
+   "name": "Prince William County",
+   "emissions": true
+  },
+  {
+   "id": "stafford-county",
+   "name": "Stafford County",
+   "emissions": true
+  },
+  {
+   "id": "city-of-alexandria",
+   "name": "City of Alexandria",
+   "emissions": true
+  },
+  {
+   "id": "city-of-fairfax",
+   "name": "City of Fairfax",
+   "emissions": true
+  },
+  {
+   "id": "city-of-falls-church",
+   "name": "City of Falls Church",
+   "emissions": true
+  },
+  {
+   "id": "city-of-manassas",
+   "name": "City of Manassas",
+   "emissions": true
+  },
+  {
+   "id": "city-of-manassas-park",
+   "name": "City of Manassas Park",
+   "emissions": true
+  },
+  {
+   "id": "city-of-virginia-beach",
+   "name": "City of Virginia Beach",
+   "emissions": false
+  },
+  {
+   "id": "chesterfield-county",
+   "name": "Chesterfield County",
+   "emissions": false
+  },
+  {
+   "id": "henrico-county",
+   "name": "Henrico County",
+   "emissions": false
+  },
+  {
+   "id": "city-of-norfolk",
+   "name": "City of Norfolk",
+   "emissions": false
+  },
+  {
+   "id": "city-of-chesapeake",
+   "name": "City of Chesapeake",
+   "emissions": false
+  },
+  {
+   "id": "city-of-richmond",
+   "name": "City of Richmond",
+   "emissions": false
+  },
+  {
+   "id": "city-of-newport-news",
+   "name": "City of Newport News",
+   "emissions": false
+  },
+  {
+   "id": "other",
+   "name": "Any other Virginia county or city",
+   "emissions": false
+  }
+ ],
+ "defaultCounty": "fairfax-county",
+ "singular": [
+  "Virginia taxes a car purchase at 4.15% of the sales price with a minimum of $75, and DMV collects it at titling [fee-chart].",
+  "Virginia gives no tax credit for a trade-in: the law defines the sale price without any allowance for trade-ins, but excludes manufacturer rebates [va-code].",
+  "Registration is cheap and weight-based: $30.75 a year up to 4,000 lb and $35.75 from 4,001 to 6,500 lb for a passenger car [fee-chart].",
+  "The bigger yearly bill is local: counties and cities tax vehicles as personal property and many add a local registration fee [fee-chart].",
+  "Electric cars pay a yearly highway use fee of $135.63 in the 2026 fee chart, updated every July 1 [fee-chart].",
+  "Gasoline and hybrid cars rated 25 mpg or more also pay a highway use fee, computed as 85% of the gas tax they avoid compared with a 23.7 mpg car over 11,600 miles [huf].",
+  "Cars garaged in five Northern Virginia counties and five cities need an emissions inspection and pay a $2 emissions fee with registration [emissions].",
+  "A two-year registration costs twice the annual fee, with a small discount for renewing online [registration].",
+  "The original title costs $15 [fee-chart]."
+ ],
+ "sources": {
+  "fee-chart": {
+   "name": "Virginia DMV, DMV 201 Fee Chart (08/10/2026)",
+   "url": "https://www.dmv.virginia.gov/sites/default/files/dmv201.pdf",
+   "accessed": "2026-10-11",
+   "quote": "Passenger - 4,000 lbs or less $30.75 ... Passenger - 4,001 lbs to 6,500 lbs $35.75 ... Electric Vehicle $135.63 ... Original title $15.00 ... Vehicle sales and use tax 4.15% of sales price, minimum charge $75.00."
+  },
+  "huf": {
+   "name": "Virginia DMV, Highway Use Fee",
+   "url": "https://www.dmv.virginia.gov/vehicles/taxes-fees/highway-use",
+   "accessed": "2026-10-11",
+   "quote": "HUF= [((11,600 average miles traveled * fuels tax rate ) / 23.7) - ((11,600 average miles traveled * fuels tax rate) / vehicle's MPG rating)] * .85"
+  },
+  "emissions": {
+   "name": "Virginia DMV, Emissions Inspection",
+   "url": "https://www.dmv.virginia.gov/vehicles/registration/emissions",
+   "accessed": "2026-10-11",
+   "quote": "Counties of Arlington, Fairfax, Loudoun, Prince William or Stafford; Cities of Alexandria, Fairfax, Falls Church, Manassas or Manassas Park"
+  },
+  "registration": {
+   "name": "Virginia DMV, Register Your Vehicle",
+   "url": "https://www.dmv.virginia.gov/vehicles/registration/first-reg",
+   "accessed": "2026-10-11",
+   "quote": "Two-year registration costs twice the annual fee"
+  },
+  "va-code": {
+   "name": "Code of Virginia § 58.1-2401, definitions (sale price)",
+   "url": "https://law.lis.virginia.gov/vacode/title58.1/chapter24/section58.1-2401/",
+   "accessed": "2026-10-11",
+   "quote": "\"Sale price\" means the total price paid for a motor vehicle ... without any allowance or deduction for trade-ins or unpaid liens or encumbrances. However, \"sale price\" does not include (i) any manufacturer rebate"
+  }
+ }
+}

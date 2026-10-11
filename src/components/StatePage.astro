@@ -1,0 +1,71 @@
+---
+/**
+ * One state: a strip of its rules, the calculator locked on the state, the folded answer, the prose written
+ * for this state, the state's distinctive sourced facts, the full breakdown of the reference car (each line
+ * with its source), the limits of the calculation, then the state's official sources.
+ */
+import PageLayout from '../layouts/PageLayout.astro';
+import MiniSim from './calc/MiniSim';
+import Clamp from './Clamp.astro';
+import Tool from './Tool.astro';
+import { route, ROUTES } from '../i18n/routes';
+import { label } from '../i18n/nav';
+import { t } from '../i18n/ui';
+import { pageById, statePageById, stateId, STATE_HUB } from '../lib/pages';
+import { helpers, table } from '../lib/helpers';
+import { STATE_LIST, bySlug, calcState, renewState, P } from '../lib/data';
+import { usd, pct, day } from '../lib/fmt';
+import { articleSchema, faqSchema, breadcrumbSchema, webPageSchema, webApplicationSchema } from '../lib/seo';
+import { AUTHOR_NAME } from '../data/site-config';
+import type { StateDef } from '../lib/page-types';
+interface Props { def: StateDef }
+const { def } = Astro.props;
+const lang = 'en';
+const ui = t(lang);
+const d = bySlug(def.slug);
+const S = d.summary;
+const id = stateId(def.slug);
+const path = route(id, lang);
+const jsonLd = [webApplicationSchema({ name: def.h1, description: def.description, path, lang }), articleSchema({ title: def.h1, description: def.description, path, lang }), webPageSchema({ name: def.h1, description: def.description, path, lang }), breadcrumbSchema([{ name: ui.breadcrumbHome, path: route('home', lang) }, { name: label(STATE_HUB), path: route(STATE_HUB, lang) }, { name: d.name, path }])];
+if (def.faqs.length) jsonLd.push(faqSchema(def.faqs, lang));
+const nameOf = (slug: string) => STATE_LIST.find((s) => s.slug === slug)?.name ?? slug;
+const card = (rid: string) => pageById(rid)?.card ?? (statePageById(rid) ? `Every fee line for ${nameOf(statePageById(rid)!.slug)}, with its source` : '');
+const related = def.related.filter((r) => ROUTES.some((x) => x.id === r)).map((r) => ({ href: route(r, lang), name: label(r), description: card(r) }));
+const sources = Object.values(d.sources).map((s) => ({ name: s.name, url: s.url }));
+const parts = def.body(helpers()).split(/<!--mini:([A-Za-z0-9_-]+)(?:\|([A-Za-z0-9+/=]+))?-->/);
+const decode = (b?: string) => (b ? Buffer.from(b, 'base64').toString('utf8') : undefined);
+const r = calcState(def.slug);
+const ren = renewState(def.slug, 1);
+const srcLink = (k: string) => { const s = d.sources[k]; return s ? `<a href="${s.url}" target="_blank" rel="nofollow noopener noreferrer">${s.name.split(',')[0]}</a>` : ''; };
+const lineRows = r.lines.map((l) => [l.label + (l.deferred ? ' (within 12 months)' : ''), l.amount === null ? (l.range ? `${usd(l.range[0])} to ${usd(l.range[1])}` : 'varies') : usd(l.amount, 2), srcLink(l.source)]);
+const facts = d.singular.map((f) => f.replace(/\s*\[([a-z0-9-]+)\]\s*$/i, (_m, k) => (d.sources[k] ? ` <a href="${d.sources[k].url}" target="_blank" rel="nofollow noopener noreferrer">(${d.sources[k].name.split(',')[0]})</a>` : '')));
+const rateTxt = S.localRange[1] > 0 ? `${pct(S.stateRate, 2)} + local ${pct(S.localRange[0], 2)} to ${pct(S.localRange[1], 2)}` : pct(S.stateRate, 2);
+---
+<PageLayout title={def.title} description={def.description} lang={lang} jsonLd={jsonLd} faqs={def.faqs} related={related} sources={sources} breadcrumbs={[{ label: label(STATE_HUB), href: route(STATE_HUB, lang) }, { label: d.name }]}>
+  <article>
+    <header class="mb-5">
+      <p class="text-sm font-semibold uppercase tracking-wide text-accent-700">{d.abbr} · {d.agency.name}</p>
+      <h1 class="mt-1 font-serif text-3xl font-bold text-navy-900 md:text-4xl">{def.h1}</h1>
+      <p class="mt-3 text-lg text-navy-700">{def.intro}</p>
+      <p class="mt-3 text-sm text-navy-600">Fee schedules read on <time datetime={d.verified}>{day(d.verified)}</time> · {ui.reviewedBy} <a href={route('about', lang)} class="underline hover:text-navy-900">{AUTHOR_NAME}</a> · <a href={route('method', lang)} class="underline hover:text-navy-900">{label('method')}</a></p>
+    </header>
+    <dl data-chrome class="mb-6 grid grid-cols-2 gap-3 sm:grid-cols-4">
+      <div class="rounded-lg border border-navy-200 p-3"><dt class="text-xs text-navy-600">{S.taxName}</dt><dd class="tabular-nums text-base font-bold text-navy-900">{rateTxt}</dd></div>
+      <div class="rounded-lg border border-navy-200 p-3"><dt class="text-xs text-navy-600">Title fee</dt><dd class="tabular-nums text-xl font-bold text-navy-900">{usd(S.titleFee, 2)}</dd></div>
+      <div class="rounded-lg border border-navy-200 p-3"><dt class="text-xs text-navy-600">Registration based on</dt><dd class="text-xl font-bold text-navy-900">{S.regMethod}</dd></div>
+      <div class="rounded-lg border border-navy-200 p-3"><dt class="text-xs text-navy-600">EV surcharge</dt><dd class="tabular-nums text-xl font-bold text-navy-900">{S.evFee === null ? 'none' : `${usd(S.evFee, 2)}/yr`}</dd></div>
+    </dl>
+    <div data-outil class="mb-8"><Tool kind="fees" state={def.slug} lock={true} idPrefix={`${d.abbr.toLowerCase()}f`} /></div>
+    <Clamp text={def.resume} lang={lang} id={`clamp-${def.slug}`} class="mb-8" />
+    <div class="prose prose-slate max-w-none prose-headings:font-serif">
+      {parts.map((p, i) => i % 3 === 0 ? <Fragment set:html={p ?? ''} /> : i % 3 === 1 ? <MiniSim client:load kind={p} arg={decode(parts[i + 1])} href={path} /> : null)}
+      <h2>What sets {d.name} apart</h2>
+      <ul>{facts.map((f) => <li set:html={f} />)}</ul>
+      {d.gaps.length > 0 && (<><h2>What the {d.name} calculation cannot know</h2><ul>{d.gaps.map((g) => <li>{g}</li>)}</ul></>)}
+    </div>
+    <section data-chrome class="mt-10">
+      <h2 class="font-serif text-2xl font-bold text-navy-900">Line by line: the reference car in {d.name}</h2>
+      <Fragment set:html={table(['Fee', 'Amount', 'Source'], lineRows, `${P.reference.label[0].toUpperCase()}${P.reference.label.slice(1)}. Due at purchase ${usd(r.atPurchase)}; renewal the next year about ${usd(ren.perYear)}.`, ['l', 'r', 'l'])} />
+    </section>
+  </article>
+</PageLayout>

@@ -1,0 +1,17 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { LAST_UPDATED, CLARITY_ID } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+const lang = 'en';
+---
+<PageLayout title="Cookies on Car Fee Ledger: none set, and how to check it" description="Car Fee Ledger sets no cookie and stores nothing in your browser while you price a car: no tracking, no advertising, no lead capture. How to check it in your browser's developer tools." lang={lang} noindex={true} breadcrumbs={[{ label: 'Cookies' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none prose-headings:font-serif">
+    <h1>Cookies</h1>
+    <p>This site sets no cookie. It uses no local storage either: the calculators keep your inputs only in the page you are looking at, and in its address if you press "copy share link".</p>
+    <h2>Why there is no consent banner</h2>
+    <p>A banner is required when a site stores or reads information on your device that is not strictly necessary. Nothing of the kind happens here, so there is nothing to accept or refuse. {CLARITY_ID ? 'The stability monitoring by Microsoft Clarity, described in the privacy policy, runs in a cookie-free mode and stores nothing on your device.' : 'No analytics or advertising script is loaded.'}</p>
+    <h2>Check it yourself</h2>
+    <p>Open your browser's developer tools (F12 on most computers), go to the Application or Storage tab and look under Cookies and Local Storage for this site while using a calculator: both stay empty. The Network tab shows that changing the price or the county sends no request; only the first switch to a new state loads that state's fee file from this site, and the result is computed on your device.</p>
+    <p>More in the <a href={route('privacy', lang)}>privacy policy</a>. Updated: {LAST_UPDATED}.</p>
+  </div>
+</PageLayout>

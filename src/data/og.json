@@ -1,0 +1,13 @@
+{
+ "accent": "#1F4E79",
+ "symbol": "CAR",
+ "variants": [
+  {
+   "file": "og-en.png",
+   "title": "What a car really costs\nto buy and register, by state",
+   "subtitle": "Sales tax · title · registration · inspection · EV fee",
+   "badge": "51 DMV fee schedules · 2026",
+   "brand": "Car Fee Ledger"
+  }
+ ]
+}

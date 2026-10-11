@@ -1,0 +1,26 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import LegalIdentity from '../../components/LegalIdentity.astro';
+import { AUTHOR_NAME, CONTACT_EMAIL, LAST_UPDATED, LEGAL, SITE_NAMES, SITE_URL } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+const lang = 'en';
+---
+<PageLayout title={`${SITE_NAMES[lang]} legal notice: publisher, host and terms of use`} description="Publisher and host of Car Fee Ledger, why every fee shown is an estimate from published state schedules and not a DMV receipt, intellectual property, embedding and governing law." lang={lang} noindex={true} breadcrumbs={[{ label: 'Legal notice' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none prose-headings:font-serif">
+    <h1>Legal notice and terms of use</h1>
+    <p>Information given under Article 6 III-1 of French law no. 2004-575 of 21 June 2004, the publisher being established in France.</p>
+    <h2>Publisher</h2>
+    <LegalIdentity lang={lang} />
+    <p>Publication director: {AUTHOR_NAME}, responsible for the content of {SITE_URL}.</p>
+    <h2>Host</h2>
+    <LegalIdentity mode="hosting" lang={lang} />
+    <h2>Estimates, not receipts</h2>
+    <p>{SITE_NAMES[lang]} applies the fee schedules and tax rates that state agencies, legislatures and counties publish to the vehicle you describe. It is not a government agency, does not register vehicles and does not collect any fee. An amount shown here creates no obligation for anyone: the amount due is the one your motor vehicle agency, county tax office or dealer charges. Laws, local rates and agency practice take precedence over any figure on this site. The method and its limits are on the <a href={route('method', lang)}>method page</a>.</p>
+    <h2>Liability</h2><p>Every figure is read on the official page cited and the engines are tested before each release, yet states change fees during the year and errors cannot be ruled out. The publisher is not liable for a decision based on an estimate alone. Please report any difference through the <a href={route('contact', lang)}>contact page</a>.</p>
+    <h2>Intellectual property</h2><p>Texts, design and code belong to the publisher; short quotations with a link back are welcome. Statutes, fee schedules and tax rate tables quoted on the site belong to the public bodies that issue them and are cited with their source.</p>
+    <h2>Embedding</h2><p>The fee calculator may be embedded for free with its credit line visible: see the <a href={route('widget', lang)}>embed page</a>.</p>
+    <h2>Personal data</h2><p>The site sets no cookie and keeps nothing you type in the calculators, such as a price or a county. Details: <a href={route('privacy', lang)}>privacy policy</a> and <a href={route('cookies', lang)}>cookies page</a>.</p>
+    <h2>Reporting unlawful content</h2><p>Write to <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> with the address of the page.</p>
+    <h2>Governing law</h2><p>French law applies; failing an amicable settlement, the courts of {LEGAL.jurisdiction} have jurisdiction. Updated: {LAST_UPDATED}.</p>
+  </div>
+</PageLayout>
