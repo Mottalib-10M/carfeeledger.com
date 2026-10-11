@@ -16,7 +16,7 @@ const topRate = st.summaries().map((x) => ({ name: x.name, r: x.S.stateRate + x.
 
 export const HOME = {
   title: 'Car Registration Fees by State 2026: Tax, Title, DMV Fees',
-  description: `Car registration fees by state for 2026: sales tax by county, title, plates, value taxes, EV fees and inspection, computed from each DMV schedule in ${n} jurisdictions.`,
+  description: `Car registration fees by state for 2026: county sales tax, title, plates, value taxes, EV fees and inspection, from each DMV schedule in ${n} jurisdictions.`,
   h1: 'What your car costs at the DMV, state by state',
   intro: 'Pick the state and county, describe the car, and the calculator applies that state’s own formula: weight, value, age, county rates and the fees only it charges.',
   promiseTitle: 'Why this calculator and not the DMV’s',

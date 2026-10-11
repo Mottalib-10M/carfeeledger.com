@@ -16,7 +16,7 @@ export default definePage({
   nav: 'Out-the-door price calculator',
   card: 'The final price of a car: price, taxes, government fees and doc fee, minus your trade-in.',
   title: 'Out-the-Door Price Calculator 2026: Every State Fee Added',
-  description: `Out-the-door price calculator for 2026: car price plus your state's sales tax, title, plates, registration and capped doc fee, minus trade-in, in all ${n} jurisdictions.`,
+  description: `Out-the-door price calculator for 2026: price plus your state's sales tax, title, plates, registration and doc fee, minus trade-in, in all ${n} jurisdictions.`,
   h1: 'Out-the-door price calculator',
   intro: 'The out-the-door price is the only number that matters at signing: everything you owe, government fees included.',
   resume: `The out-the-door price is the agreed price of the car plus the purchase tax, the title, the plates and registration, any county fees, inspection and EV charges collected at purchase, and the dealer's documentation fee, minus the trade-in. For a $35,000 car with no trade-in, it ranges from ${K.usd(lo.value)} in ${lo.name} to ${K.usd(hi.value)} in ${hi.name}, so the same sticker can mean very different checks depending on where the car is registered. Asking for the out-the-door price in writing, before talking about monthly payments, is the simplest way to compare two dealers. This calculator builds it from the state's own fee schedule; ${capped} jurisdictions cap the documentation fee by law, and the calculator uses that cap unless you type the dealer's figure.`,

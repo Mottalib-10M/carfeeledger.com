@@ -17,7 +17,7 @@ export default definePage({
   nav: 'Vehicle property tax',
   card: 'States that tax a car’s value every year, how the value is set and how fast the tax falls.',
   title: 'Vehicle Property Tax 2026: States That Tax a Car Every Year',
-  description: `Vehicle property tax in 2026: the ${withTax.length} jurisdictions that tax a car's value each year, with registration or by local bill, how value is set and how it depreciates.`,
+  description: `Vehicle property tax in 2026: the ${withTax.length} jurisdictions that tax a car's value each year, with registration or by local bill, how value is set and how it falls.`,
   h1: 'Vehicle property tax by state',
   intro: 'In some states the car is taxed like property every year, on top of the purchase tax.',
   resume: `${withTax.length} of the ${n} jurisdictions charge a yearly tax or fee based on the value of a passenger car, either collected with the registration (California's vehicle license fee, for example) or billed separately by a county or town at its own rate. The value is usually the purchase price or the manufacturer's price, reduced each year on a fixed schedule. California applies ${K.pct(dep.rate, 2)} to the price class of the car, then ${dep.depreciation.map((x) => `${Math.round(x * 100)}%`).slice(0, 4).join(', ')} and so on down to ${Math.round(dep.depreciation[dep.depreciation.length - 1] * 100)}% over eleven years: for a $35,000 car, ${K.usd(ca1?.amount ?? 0)} the first year and ${K.usd(ca6?.amount ?? 0)} at the sixth. Where a town sets the rate, the exact amount depends on a local mill rate the state does not publish centrally; the calculator then shows the official range and says so instead of averaging.`,

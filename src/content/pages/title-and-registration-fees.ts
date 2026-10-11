@@ -18,7 +18,7 @@ export default definePage({
   nav: 'Tag and title fees',
   card: 'Title, plates and first registration: the government fees beside the sales tax, by state.',
   title: 'Tag and Title Fees 2026: Title and Registration by State',
-  description: `Tag and title fees for 2026 in all ${n} jurisdictions: title from ${K.usd(tlo.value, 2)} to ${K.usd(thi.value, 2)}, plates and first registration, computed for your car and county.`,
+  description: `Tag and title fees for 2026 in all ${n} jurisdictions: title from ${K.usd(tlo.value, 2)} to ${K.usd(thi.value, 2)}, plates and the first registration, computed for your own car and county.`,
   h1: 'Tag and title fees by state',
   intro: '"Tag and title" is the dealer’s shorthand for the government fees other than the sales tax: the title, the plates and the first registration.',
   resume: `A certificate of title costs from ${K.usd(tlo.value, 2)} in ${tlo.name} to ${K.usd(thi.value, 2)} in ${thi.name}, but the title is rarely the large part of a "tag and title" line. Plates, the first registration period, county fees and, in some states, a yearly tax on the car's value collected with registration usually weigh more. For a new $35,000 car, title plus first registration comes to ${K.usd(lo.value)} in ${lo.name} and ${K.usd(hi.value)} in ${hi.name}. One-time charges can surprise newcomers: Florida adds a ${K.usd(flInit?.amount ?? 0)} initial registration fee when there is no Florida plate to move onto the car. The calculator separates each of these lines and leaves the sales tax on its own line, so that a buyer's order can be checked item by item and any fee that the state does not charge stands out at once.`,

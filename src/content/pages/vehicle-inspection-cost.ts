@@ -16,7 +16,7 @@ export default definePage({
   nav: 'Vehicle inspection cost',
   card: 'Which states require a safety or emissions inspection, who is exempt and what the official fee is.',
   title: 'Vehicle Inspection Cost 2026: Safety and Emissions by State',
-  description: `Vehicle inspection cost for 2026: which of the ${n} jurisdictions require a safety or emissions test, new-car exemptions, counties covered and the official fee or fee cap.`,
+  description: `Vehicle inspection cost for 2026: which of the ${n} jurisdictions require a safety or emissions test, new-car exemptions, counties and the official fee or cap.`,
   h1: 'Vehicle inspection cost by state',
   intro: 'Whether you need an inspection at all depends on the state, sometimes on the county, and on the age and fuel of the car.',
   resume: `In 2026, ${none} of the ${n} jurisdictions require no periodic inspection for an ordinary private car, ${emis} require an emissions test in all or part of the state, and ${safety.length} keep a safety inspection${safety.length ? ` (${K.listOf(safety)})` : ''}. Texas ended safety inspections for non-commercial vehicles on January 1, 2025 and now collects a $7.50 replacement fee with registration instead, while 17 Texas counties still test emissions. New cars are usually exempt for their first years: three model years in metro Atlanta, eight in California before the first smog check. Prices are often set by the stations rather than by the state; where a state sets a fee or a cap, the calculator adds it (${priced} jurisdictions), and where it does not, the line is shown without an amount instead of an invented average.`,

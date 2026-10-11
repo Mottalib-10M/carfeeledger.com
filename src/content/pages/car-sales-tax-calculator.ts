@@ -19,7 +19,7 @@ export default definePage({
   nav: 'Car sales tax calculator',
   card: 'State and county tax on a car purchase, with each state’s rule on trade-ins, doc fees and caps.',
   title: 'Car Sales Tax Calculator 2026: State and County Rates',
-  description: `Car sales tax calculator for 2026: the state and county rate on a car in all ${n} jurisdictions, trade-in credit or not, doc fee taxed or not, caps and first-dollar limits.`,
+  description: `Car sales tax calculator for 2026: state and county rate on a car in all ${n} jurisdictions, trade-in credit or not, doc fee taxed or not, caps and limits.`,
   h1: 'Car sales tax calculator',
   intro: 'The tax on a car is rarely just the state rate times the price: the base, the county and the trade-in all change it.',
   resume: `On a new $35,000 car bought from a dealer with no trade-in, the purchase tax runs from ${K.usd(lo.value)} in ${lo.name} to ${K.usd(hi.value)} in ${hi.name}${zero.length ? `, and ${K.listOf(zero)} charge no general tax on the purchase` : ''}. Three rules explain most of the spread besides the rate itself. First, the trade-in: most states tax only the difference between the price and the trade-in, but ${noTrade.length ? K.listOf(noTrade) : 'a few states'} tax the full price. Second, local taxes: in ${local} jurisdictions a county or city rate is added, and it follows the buyer's home address. Third, the base: some states tax the dealer's documentation fee, some cap the tax or apply the local rate only to the first few thousand dollars, as Florida does with its first $5,000. The calculator applies each of these rules from the state's own tax pages.`,

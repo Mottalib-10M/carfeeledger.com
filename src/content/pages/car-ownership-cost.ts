@@ -18,7 +18,7 @@ export default definePage({
   nav: 'Car ownership cost',
   card: 'Taxes, fees, renewals and loan interest over the years you keep the car, in your state.',
   title: 'Car Ownership Cost 2026: Taxes, Renewals and Loan by State',
-  description: `Car ownership cost calculator for 2026: purchase taxes and fees, yearly registration renewals and loan interest over 3 to 10 years in any of the ${n} jurisdictions, plus your own insurance.`,
+  description: `Car ownership cost calculator for 2026: purchase taxes, yearly renewals and loan interest over 3 to 10 years in any of the ${n} jurisdictions, plus insurance.`,
   h1: 'Car ownership cost calculator',
   intro: 'What a car costs you is the price plus everything the state, the lender and the insurer collect while you keep it.',
   resume: `Over five years, the government part alone (the taxes and fees at purchase plus four yearly renewals) costs from ${K.usd(lo.value)} in ${lo.name} to ${K.usd(hi.value)} in ${hi.name} for the same $35,000 gasoline car. Financing adds interest: on a five-year loan at ${pct} APR with $5,000 down and the Texas taxes and fees rolled in, the interest comes to ${K.usd(L.interest)}. Insurance and fuel depend on you, your car and your driving, so the calculator asks for your own figures instead of using an average. It does not count depreciation, maintenance or repairs, which no official schedule sets. What it does count, it takes from the same state engines as the rest of the site: purchase tax, title, registration, value-based taxes as they decline, EV surcharges and inspections, year by year.`,

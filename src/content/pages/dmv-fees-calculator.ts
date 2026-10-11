@@ -17,7 +17,7 @@ export default definePage({
   nav: 'DMV fees calculator',
   card: 'Tax, title, registration, plates, inspection and EV fee for any car in any state, line by line.',
   title: 'DMV Fees Calculator 2026: Tax, Title and Plates, Any State',
-  description: `DMV fees calculator for 2026: tax, title, registration, plates, inspection and EV fees for any car in all ${n} jurisdictions, each line sourced to the state that sets it.`,
+  description: `DMV fees calculator for 2026: tax, title, registration, plates, inspection and EV fees for any car in all ${n} jurisdictions, each line sourced to its state.`,
   h1: 'DMV fees calculator',
   intro: 'Type the car once and get every government charge of the state where you will register it, with the source of each line.',
   resume: `A DMV fee estimate is only as good as the state formula behind it, so this calculator runs a separate engine for each of the ${n} jurisdictions and returns every charge as its own line: purchase tax at your county's rate, title, registration, plates, county fees, value-based yearly taxes, EV or hybrid surcharge, inspection, and the dealer documentation fee where a law caps it. For a new $35,000 gasoline car from a dealer, the taxes and fees due at purchase range from ${K.usd(lo.value)} in ${lo.name} to ${K.usd(hi.value)} in ${hi.name}. When a state leaves an amount to stations or towns, the line is listed apart with its official range instead of being guessed; ${partial} jurisdictions have at least one such line. The result also gives what you will pay to renew a year later.`,

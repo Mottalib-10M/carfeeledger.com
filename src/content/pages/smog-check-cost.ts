@@ -14,7 +14,7 @@ export default definePage({
   nav: 'Smog check cost',
   card: 'California’s smog check rules and fees, and the emissions test of every other state that has one.',
   title: 'Smog Check Cost 2026: Fees, Exemptions and Who Must Test',
-  description: `Smog check cost in 2026: California's $${sm.certificate.toFixed(2)} certificate fee, $${sm.abatement} abatement fee and exemptions, and the emissions tests of the other states, by county and model year.`,
+  description: `Smog check cost in 2026: California's $${sm.certificate.toFixed(2)} certificate fee, $${sm.abatement} abatement fee and exemptions, plus the emissions tests other states require by county.`,
   h1: 'Smog check cost and rules',
   intro: '"Smog check" is California’s name for its emissions test; other states call it an emissions or I/M inspection.',
   resume: `In California, a gasoline or hybrid car skips the smog check for its first ${sm.exemptRenewalAge} model years and pays a $${sm.abatement} smog abatement fee with each renewal instead; after that it needs a smog check every two years, and at a change of ownership if it is more than ${sm.transferMaxAge + 1} model years old (newer cars pay an $${sm.transferFee} smog transfer fee). The state does not set the price of the test: the Bureau of Automotive Repair says stations price it freely, but every certificate carries an $${sm.certificate.toFixed(2)} state fee. Electric cars are exempt. Outside California, ${emisStates.length} jurisdictions in this site's data run an emissions program in all or part of their territory${emisStates.length ? ` (${K.listOf(emisStates)})` : ''}, usually around their largest metro areas, with their own exemptions for new cars. The calculator shows which lines apply to your car and county.`,

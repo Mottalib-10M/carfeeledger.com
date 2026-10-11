@@ -17,7 +17,7 @@ export default definePage({
   nav: 'Car payment calculator',
   card: 'Monthly payment, interest and total cost, with the real taxes and fees of your state in the loan.',
   title: 'Car Payment Calculator 2026 With Your State Tax and Fees',
-  description: 'Car payment calculator for 2026: monthly payment, total interest and amount financed, with your state’s real sales tax, title and registration fees rolled into the auto loan.',
+  description: 'Car payment calculator for 2026: monthly payment, total interest and amount financed, with your state’s sales tax, title and registration rolled into the loan.',
   h1: 'Car payment calculator',
   intro: 'Most payment calculators forget that the tax and the DMV fees are usually financed too.',
   resume: `A car payment depends on four numbers: the amount financed, the APR, the number of months and nothing else. The trap is the first one. If you finance a $35,000 car in Los Angeles County with $5,000 down and roll in the taxes and fees, the amount financed is ${K.usd(L60.amountFinanced)}, not $30,000, because the state and county charges at purchase come to ${K.usd(ca.atPurchase)}. At ${pct} APR over 60 months, that is ${K.usd(L60.monthly)} a month instead of the ${K.usd(noFees)} a calculator without fees would show, and ${K.usd(L60.interest)} of interest in total. Stretching the same loan to 72 months lowers the payment to ${K.usd(L72.monthly)} but raises the interest to ${K.usd(L72.interest)}. This calculator takes the taxes and fees from your state's engine and lets you pay them in cash instead.`,
