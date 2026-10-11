@@ -1,0 +1,605 @@
+ 
+ 
+ 
+ 
+ORIGINAL HOUSE ENGROSSED 
+BILL NO. HB0145 
+ 
+ENROLLED ACT NO. 33, HOUSE OF REPRESENTATIVES 
+ 
+SIXTY-EIGHTH LEGISLATURE OF THE STATE OF WYOMING 
+2026 BUDGET SESSION 
+ 
+ 
+ 
+ 
+   
+ 1  
+ 
+AN ACT relating to taxation and revenue; amending the 
+collection of and process for alternative fuel taxes; 
+providing a per kilowatt hour license tax on electricity 
+used to propel an electric vehicle; amending and providing 
+definitions; reducing the annual decal fee for plug-in 
+hybrid vehicles; requiring display of per kilowatt hour 
+taxes; amending sales of alternative fuels from sales 
+taxation; making conforming amendments; requiring 
+rulemaking; and providing for an effective date. 
+ 
+Be It Enacted by the Legislature of the State of Wyoming: 
+ 
+Section 1.  W.S. 31-3-102(a)(xxiii) and by creating a 
+new paragraph (xxiv), 39-15-105(a)(v) by creating a new 
+subparagraph (E), 39-17-301(a)(iii), (iv), (vii), (xiii), 
+(xvi), (xxv), (xxviii), (xxxviii), (xlviii) and by creating 
+new paragraphs (l) through (lii), 39-17-303(a) by creating 
+a new paragraph (iii), (c) by creating new paragraphs (ii) 
+and (iii), 39-17-304(a)(intro) and by creating a new 
+paragraph (iv), 39-17-307(a)(i) through (iv), (b)(i) and 
+(iii), 39-17-308(c)(ii) and 39-17-309(c)(i), (ii) and (iv) 
+are amended to read: 
+ 
+31-3-102.  Miscellaneous fees. 
+ 
+(a)  The following fees shall be collected for the 
+instruments or privileges indicated: 
+ 
+(xxiii)  An annual decal which that shall include 
+the bucking horse and rider emblem for a plug-in registered 
+and licensed electric an all-electric vehicle as defined in 
+W.S. 39-17-301(a)(xxxviii) 39-17-301(a)(l) .$200.00 $100.00 
+ 
+(xxiv)  An annual decal that shall include the 
+bucking horse and rider emblem for a plug-in hybrid 
+ 
+ 
+ 
+ 
+ORIGINAL HOUSE ENGROSSED 
+BILL NO. HB0145 
+ 
+ENROLLED ACT NO. 33, HOUSE OF REPRESENTATIVES 
+ 
+SIXTY-EIGHTH LEGISLATURE OF THE STATE OF WYOMING 
+2026 BUDGET SESSION 
+ 
+ 
+ 
+ 
+ 2  
+ 
+electric vehicle as defined in W.S. 
+39-17-301(a)(xxxviii)............................... $50.00 
+ 
+39-15-105.  Exemptions. 
+ 
+(a)  The following sales or leases are exempt from the 
+excise tax imposed by this article: 
+ 
+(v)  For the purpose of exempting sales of 
+services and tangible personal property which are 
+alternatively taxed, the following are exempt: 
+ 
+(E)  Sales of alternative fuels taxed under 
+W.S. 39-17-301 through 39-17-311. 
+ 
+39-17-301.  Definitions. 
+ 
+(a)  As used in this article: 
+ 
+(iii)  "Alternative fuels" includes pure 
+methanol, ethanol and other alcohols, blends of eighty-five 
+percent (85%) or more of alcohol with gasoline, natural 
+gas, liquid fuels produced from natural gas, liquefied 
+petroleum gas or propane, coal-derived liquid fuels, 
+hydrogen, electricity sold or dispensed at a DC fast 
+charging station, pure biodiesel (B100), fuels other than 
+alcohol which are derived from biological materials, 
+renewable diesel and P-Series fuels. The state of Wyoming 
+may designate by rule other fuels as alternative fuels if 
+not previously defined as fuels under this chapter; 
+ 
+(iv)  "Billed gallons" means the gallons, 
+gasoline gallon equivalent (GGE), or diesel gallon 
+equivalent (DGE) or kilowatt hours billed to the customer; 
+ 
+ 
+ 
+ 
+ 
+ORIGINAL HOUSE ENGROSSED 
+BILL NO. HB0145 
+ 
+ENROLLED ACT NO. 33, HOUSE OF REPRESENTATIVES 
+ 
+SIXTY-EIGHTH LEGISLATURE OF THE STATE OF WYOMING 
+2026 BUDGET SESSION 
+ 
+ 
+ 
+ 
+ 3  
+ 
+(vii)  "Bulk alternative fuel" means thirty-five 
+(35) gallons or more or the gasoline gallon equivalent, or 
+the diesel gallon equivalent, or gasoline gallon equivalent 
+for electricity delivered at one (1) time, excluding 
+alternative fuels delivered into the attached tanks or 
+auxiliary tanks of a licensed motor vehicle; 
+ 
+(xiii)  "Dealer" means any person who dispenses, 
+sells or offers to sell alternative fuel at a specific 
+location in this state, including any person selling or 
+offering to sell alternative fuel at Wyoming airports; 
+ 
+(xvi)  "Dispenser" means the point of taxation 
+for compressed natural gas, and liquefied natural gas and 
+any other alternative fuel designated by the department. 
+The "dispenser" is the point where the gas alternative fuel 
+is delivered into the fuel supply tank of a motor vehicle; 
+ 
+(xxv)  "Gasoline gallon equivalent" or "GGE" 
+means the gasoline gallon equivalent applied to 
+nonliquefied compressed natural gas in the amount of five 
+and sixty-six hundredths (5.66) pounds of compressed 
+natural gas;. The gasoline gallon equivalent applied to 
+electricity is 33.56 kilowatt hours (kWh); 
+ 
+(xxviii)  "Hybrid electric vehicle" means a 
+vehicle that uses two (2) or more distinct power sources to 
+move the vehicle neither of which can be recharged from any 
+external source of electricity including a wall socket. 
+"Hybrid electric vehicle" includes a vehicle which includes 
+an internal combustion engine and one (1) or more electric 
+motors but vehicles which that use other mechanisms to 
+capture and use energy may also be included. "Hybrid 
+electric vehicle" does not include an all-electric vehicle 
+or a plug-in hybrid electric vehicle; 
+ 
+ 
+ 
+ 
+ORIGINAL HOUSE ENGROSSED 
+BILL NO. HB0145 
+ 
+ENROLLED ACT NO. 33, HOUSE OF REPRESENTATIVES 
+ 
+SIXTY-EIGHTH LEGISLATURE OF THE STATE OF WYOMING 
+2026 BUDGET SESSION 
+ 
+ 
+ 
+ 
+ 4  
+ 
+ 
+(xxxviii)  "Plug-in hybrid electric vehicle" 
+means any motor vehicle that uses two (2) or more distinct 
+power sources to move the vehicle and one (1) of which can 
+be recharged from any external source of electricity, 
+including a wall socket, and the electricity stored in the 
+rechargeable battery drives or contributes to drive the 
+wheels of the vehicle. "Plug-in hybrid electric vehicle" 
+does not include a hybrid electric vehicle, an all-electric 
+vehicle, a motorcycle as defined in W.S. 31-1-101(a)(xv)(E) 
+or a multipurpose vehicle as defined in W.S. 
+31-1-101(a)(xv)(M); 
+ 
+(xlviii)  "User" means any person who uses 
+alternative fuel within this state in an internal 
+combustion engine for the generation of power to propel a 
+motor vehicle upon a highway; 
+ 
+(l)  "All-electric vehicle" means a motor vehicle 
+that uses only electric energy to propel the vehicle, can 
+be recharged from an external source of electricity and can 
+use stored electricity to drive or contribute to driving 
+the wheels of the motor vehicle. "All-electric vehicle" 
+shall not include a hybrid electric vehicle, a plug-in 
+hybrid electric vehicle, a motorcycle as defined in W.S. 
+31-1-101(a)(xv)(E) or a multipurpose vehicle as defined in 
+W.S. 31-1-101(a)(xv)(M); 
+ 
+(li)  "Charge" means to receive and store 
+electric energy; 
+ 
+(lii)  "DC (direct current) fast charging 
+station" means a device used to charge a plug-in hybrid 
+electric vehicle or an all-electric vehicle that meets the 
+definition of "DC Level 1," "DC Level 2" or "DC Level 3" as 
+ 
+ 
+ 
+ 
+ORIGINAL HOUSE ENGROSSED 
+BILL NO. HB0145 
+ 
+ENROLLED ACT NO. 33, HOUSE OF REPRESENTATIVES 
+ 
+SIXTY-EIGHTH LEGISLATURE OF THE STATE OF WYOMING 
+2026 BUDGET SESSION 
+ 
+ 
+ 
+ 
+ 5  
+ 
+defined in Standard J1772 of the SAE International 
+standards and any future updates to those standards, or an 
+equivalent power output level. 
+ 
+39-17-303.  Imposition. 
+ 
+(a)  Taxable event. The following shall apply: 
+ 
+(iii)  There is levied and shall be collected a 
+license tax on all electric energy sold or dispensed for 
+sale or use in this state for charging a plug-in hybrid 
+electric vehicle or an all-electric vehicle at a DC fast 
+charging station. 
+ 
+(c)  Taxpayer. The following shall apply: 
+ 
+(ii)  Each dealer dispensing or selling 
+electricity for charging motor vehicles at a DC fast 
+charging station shall collect the license tax imposed by 
+this article and is liable for the entire amount of license 
+taxes imposed. Each DC fast charging station shall be 
+metered as to the amount of electric energy sold or 
+dispensed for charging; 
+ 
+(iii)  Every person who sells or offers to sell 
+to the retail trade electricity at a DC fast charging 
+station for use in motor vehicles shall conspicuously 
+display the price per kilowatt hour including all 
+applicable taxes. 
+ 
+39-17-304.  Taxation rate. 
+ 
+(a)  Except as otherwise provided by this section and 
+W.S. 39-17-305, the total tax on alternative fuel used to 
+propel a motor vehicle shall be twenty-four cents ($.24) 
+ 
+ 
+ 
+ 
+ORIGINAL HOUSE ENGROSSED 
+BILL NO. HB0145 
+ 
+ENROLLED ACT NO. 33, HOUSE OF REPRESENTATIVES 
+ 
+SIXTY-EIGHTH LEGISLATURE OF THE STATE OF WYOMING 
+2026 BUDGET SESSION 
+ 
+ 
+ 
+ 
+ 6  
+ 
+per gallon. The gasoline gallon equivalent (GGE) shall be 
+used for compressed natural gas, or liquid petroleum gas. 
+or electricity. The diesel gallon equivalent (DGE) shall be 
+used for liquefied natural gas or renewable diesel. The 
+rate shall be imposed as follows: 
+ 
+(iv)  Notwithstanding paragraphs (i) through 
+(iii) of this subsection, there is levied and shall be 
+collected a license tax of three and one-half cents ($.035) 
+per kilowatt hour on all electricity sold or dispensed for 
+sale or use in this state to propel a motor vehicle except 
+for electricity exempted under W.S. 39-17-305. 
+ 
+39-17-307.  Compliance; collection procedures. 
+ 
+(a)  Returns and reports. The following shall apply: 
+ 
+(i)  On or before the last day of each month a 
+date required by department rule: 
+ 
+(A)  When alternative fuel is purchased to 
+propel a motor vehicle or distributed in Wyoming from a 
+Wyoming licensed supplier, the supplier shall report, using 
+the appropriate equivalency formula, to the department all 
+gallons or kilowatt hours sold in the state during the 
+preceding calendar month and remit all taxes due for 
+alternative fuel sold to an end user; 
+ 
+(B)  When alternative fuel is purchased out 
+of Wyoming for use, sale or distribution to propel a motor 
+vehicle in Wyoming, the Wyoming licensed supplier shall 
+report, using the appropriate equivalency formula, to the 
+department all gallons or kilowatt hours used, sold or 
+distributed during the preceding calendar month and remit 
+ 
+ 
+ 
+ 
+ORIGINAL HOUSE ENGROSSED 
+BILL NO. HB0145 
+ 
+ENROLLED ACT NO. 33, HOUSE OF REPRESENTATIVES 
+ 
+SIXTY-EIGHTH LEGISLATURE OF THE STATE OF WYOMING 
+2026 BUDGET SESSION 
+ 
+ 
+ 
+ 
+ 7  
+ 
+all taxes due under this article for fuel sold to an end 
+user; 
+ 
+(C)  Each Wyoming licensed supplier with a 
+Wyoming retail location shall report, using the appropriate 
+equivalency formula, to the department all gallons or 
+kilowatt hours of alternative fuel used to propel a motor 
+vehicle during the preceding calendar month and remit taxes 
+due under this article for fuel sold to an end user or a 
+retail location; 
+ 
+(D)  When alternative fuel is purchased in 
+Wyoming from a Wyoming licensed refiner, the refiner shall 
+report, using the appropriate equivalency formula, to the 
+department all gallons used, sold or distributed during the 
+preceding calendar month and remit all taxes due for fuel 
+sold to an end user; 
+ 
+(E)  Each Wyoming licensed distributor, 
+importer, exporter with Wyoming retail locations shall 
+report, using the appropriate equivalency formula, to the 
+department all gallons or kilowatt hours of alternative 
+fuel imported and used to propel a motor vehicle during the 
+preceding calendar month and remit taxes due under this 
+article for fuel sold to an end user or a retail location; 
+ 
+(F)  Each Wyoming licensed importer shall 
+report, using the appropriate equivalency formula, to the 
+department all gallons or kilowatt hours imported and used 
+to propel a motor vehicle during the preceding calendar 
+month and remit taxes due under this article for fuel sold 
+to an end user unless the tax has been paid to an 
+out-of-state licensed supplier; 
+ 
+ 
+ 
+ 
+ 
+ORIGINAL HOUSE ENGROSSED 
+BILL NO. HB0145 
+ 
+ENROLLED ACT NO. 33, HOUSE OF REPRESENTATIVES 
+ 
+SIXTY-EIGHTH LEGISLATURE OF THE STATE OF WYOMING 
+2026 BUDGET SESSION 
+ 
+ 
+ 
+ 
+ 8  
+ 
+(G)  Any person acquiring biodiesel (B100), 
+ethanol or other alcohols, methanol, butane or other 
+blending components to blend with gasoline, diesel or 
+alternative fuels shall report to the department all 
+gallons of biodiesel (B100) ethanol or other alcohols, and 
+methanol, butane or other blending components, purchased 
+and blended during the preceding calendar month any period 
+as required by department rule and remit all additional 
+taxes due. 
+ 
+(ii)  Each person transporting, conveying or 
+bringing alternative fuel used to propel a motor vehicle 
+into this state for sale, use or distribution in this state 
+shall furnish the department a verified statement showing 
+the number of gallons or kilowatt hours, using the 
+appropriate equivalency formula, of alternative fuel 
+delivered during the month any period as required by 
+department rule and preceding the report, the name of the 
+person to whom the delivery was made and the place of 
+delivery; 
+ 
+(iii)  Each person who exports alternative fuel 
+from this state shall report the number of gallons or 
+kilowatt hours exported, using the appropriate equivalency 
+formula, the destination state and the name of the person 
+to whom exported; 
+ 
+(iv)  On or before the last day of each month a 
+date required by department rule: 
+ 
+(A)  Each dealer, who is not licensed as a 
+distributor, shall submit a statement to the department in 
+a format required by the department showing the number of 
+gallons, gasoline gallon equivalent, kilowatt hours or 
+diesel gallon equivalent of alternative fuel acquired, the 
+ 
+ 
+ 
+ 
+ORIGINAL HOUSE ENGROSSED 
+BILL NO. HB0145 
+ 
+ENROLLED ACT NO. 33, HOUSE OF REPRESENTATIVES 
+ 
+SIXTY-EIGHTH LEGISLATURE OF THE STATE OF WYOMING 
+2026 BUDGET SESSION 
+ 
+ 
+ 
+ 
+ 9  
+ 
+person who supplied the alternative fuel and the total 
+gallons, kilowatt hours or gallon equivalents sold during 
+the preceding calendar month or dispensed and remit any 
+taxes due if the point of taxation is at the dispenser; 
+ 
+(B)  Each distributor or importer shall, if 
+applicable, submit a statement to the department in a 
+format required by the department for the preceding 
+calendar month for the purpose of obtaining a refund from 
+the department for taxes paid pursuant to this section. 
+ 
+(b)  Payment. The following shall apply: 
+ 
+(i)  On or before the last day of each month a 
+date required by department rule, every supplier, refiner, 
+terminal operator, importer and dealer shall pay to the 
+department all license taxes imposed by this article which 
+are due based upon the statement submitted under W.S. 
+39-17-307(a)(i). Payment may be made by electronic funds 
+transfer; 
+ 
+(iii)  A distributor or importer who owns a bulk 
+plant in this state may take a shrinkage credit of one 
+percent (1%) on gross gallons, if applicable, of bulk 
+alternative fuel purchased directly from a terminal and 
+delivered in this state for use, sale or distribution. This 
+credit may be claimed on the monthly any tax return 
+required by department rule. A distributor or importer who 
+does not own a bulk plant, but owns retail locations and 
+distributes alternative fuel to those locations only shall 
+be entitled to the shrinkage credit on gross gallons, if 
+applicable, of bulk alternative fuel delivered. The 
+shrinkage credit may not apply to some alternative fuels. 
+The department shall promulgate rules which specify the 
+ 
+ 
+ 
+ 
+ORIGINAL HOUSE ENGROSSED 
+BILL NO. HB0145 
+ 
+ENROLLED ACT NO. 33, HOUSE OF REPRESENTATIVES 
+ 
+SIXTY-EIGHTH LEGISLATURE OF THE STATE OF WYOMING 
+2026 BUDGET SESSION 
+ 
+ 
+ 
+ 
+ 10  
+ 
+applicability of the credit and provide an application 
+process for the credit. 
+ 
+39-17-308.  Enforcement. 
+ 
+(c)  Penalties. The following shall apply: 
+ 
+(ii)  If any person fails or refuses to file the 
+monthly a statement as required by department rule and 
+remit the tax as provided by W.S. 39-17-307(a)(i), the 
+department shall make a statement for that person from the 
+best information available and from such statement shall 
+determine the amount of license taxes required to be paid 
+and add thereto a penalty of ten percent (10%) of the taxes 
+due. The department shall notify the delinquent taxpayer of 
+the total amount due by serving written notice upon such 
+person personally or by United States mail to the last 
+known address as shown on the records of the department. If 
+the delinquent taxpayer proves to the department that the 
+delinquency was due to a reasonable cause, the department 
+shall waive the penalty provided in this paragraph. If the 
+delinquent taxpayer after receiving the statement prepared 
+by the department later renders to the department a true 
+statement covering the same calendar month period, the 
+department shall use such statement, adding the penalty of 
+ten percent (10%) and interest of one percent (1%) per 
+month on the license taxes from the due date until payment. 
+The penalty shall be waived by the department upon 
+satisfactory written proof the delinquency was due to a 
+reasonable cause; 
+ 
+39-17-309.  Taxpayer remedies. 
+ 
+(c)  Refunds. The following shall apply: 
+ 
+ 
+ 
+ 
+ 
+ORIGINAL HOUSE ENGROSSED 
+BILL NO. HB0145 
+ 
+ENROLLED ACT NO. 33, HOUSE OF REPRESENTATIVES 
+ 
+SIXTY-EIGHTH LEGISLATURE OF THE STATE OF WYOMING 
+2026 BUDGET SESSION 
+ 
+ 
+ 
+ 
+ 11  
+ 
+(i)  On or before the last day of each month a 
+date required by department rule, every distributor shall, 
+if applicable, submit a statement to the department on 
+forms furnished by or in a format required by the 
+department for the preceding calendar month for the purpose 
+of obtaining a refund from the department for taxes paid 
+pursuant to W.S. 39-17-307(a)(i); 
+ 
+(ii)  Any person exporting alternative motor 
+vehicle fuel from Wyoming for which the license tax has 
+been paid is subject to a refund of the license tax paid. 
+The refund request shall be submitted on or before the last 
+day of the month a date required by department rule on 
+forms provided by or in a format required by the 
+department. The refund request is invalid if not submitted 
+within one (1) year of the date of purchase; 
+ 
+(iv)  The department shall by rule promulgated 
+pursuant to W.S. 39-17-302(a) prescribe procedures under 
+which an alternative fuel user who is entitled to at least 
+a two hundred fifty dollar ($250.00) refund of tax under 
+this article for purchases and use of alternative fuel to 
+propel a motor vehicle in any calendar month may apply for 
+and receive the refund at any time after the last day of 
+that month according to a timeline required by the 
+department pursuant to department rule; 
+ 
+Section 2.  The department of transportation and the 
+department of revenue shall promulgate all rules necessary 
+to implement this act. 
+ 
+ 
+ 
+ 
+ 
+ORIGINAL HOUSE ENGROSSED 
+BILL NO. HB0145 
+ 
+ENROLLED ACT NO. 33, HOUSE OF REPRESENTATIVES 
+ 
+SIXTY-EIGHTH LEGISLATURE OF THE STATE OF WYOMING 
+2026 BUDGET SESSION 
+ 
+ 
+ 
+ 
+ 12  
+ 
+Section 3.  This act is effective July 1, 2026. 
+ 
+(END) 
+ 
+ 
+    
+Speaker of the House   President of the Senate 
+ 
+   
+ Governor  
+   
+ TIME APPROVED: _________  
+   
+ DATE APPROVED: _________  
+ 
+I hereby certify that this act originated in the House. 
+ 
+ 
+ 
+ 
+Chief Clerk 
+ 

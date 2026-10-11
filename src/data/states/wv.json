@@ -1,0 +1,182 @@
+{
+ "abbr": "WV",
+ "name": "West Virginia",
+ "slug": "west-virginia",
+ "agency": {
+  "name": "West Virginia Division of Motor Vehicles",
+  "short": "DMV",
+  "url": "https://dmv.wv.gov/"
+ },
+ "taxAgency": {
+  "name": "West Virginia State Tax Department",
+  "url": "https://tax.wv.gov/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "Every county assessor taxes vehicles as personal property each year at the county's own levy and valuation; the DMV publishes no statewide table, so the tax is shown without an amount (proof of payment is required to renew).",
+  "On a private sale, a vehicle two model years old or newer is taxed on its NADA Clean Loan value whatever the price, and a price below 50% of that value needs a notarized bill of sale; the form does not ask the book value, so the engine taxes the price.",
+  "The safety inspection fee is capped by law at $19 but stations may charge less or nothing, so the inspection is shown as a $0 to $19 range every two years.",
+  "The dealer documentary fee is capped by the DMV Commissioner on the advice of the Motor Vehicle Dealers Advisory Board (W. Va. Code 17A-6-18a), but the 2026 cap amount was not found on an official page; type the dealer's fee.",
+  "A trade-in lowers the 6% tax only when it is titled in West Virginia in the buyer's name; the engine deducts any trade-in typed."
+ ],
+ "summary": {
+  "stateRate": 0.06,
+  "localRange": [
+   0,
+   0
+  ],
+  "taxName": "motor vehicle sales tax (titling tax)",
+  "tradeInCredit": true,
+  "titleFee": 15,
+  "regMethod": "flat",
+  "regYears": 1,
+  "docFeeCap": null,
+  "docFeeNote": "Set by the DMV Commissioner under W. Va. Code 17A-6-18a; the 2026 amount was not published on an official page read, so type the dealer's fee.",
+  "evFee": 200,
+  "phevFee": 100,
+  "hybridFee": 100,
+  "inspection": "safety",
+  "inspectionWhere": "Every registered vehicle needs a safety inspection once every two years at a station licensed by the West Virginia State Police, within 10 days of buying a car that has no valid sticker.",
+  "inspectionFee": [
+   0,
+   19
+  ],
+  "annualValueTax": true
+ },
+ "params": {
+  "g": {
+   "tax": {
+    "label": "Motor vehicle sales tax (6%)",
+    "rate": 0.06,
+    "minTax": 30,
+    "tradeInCredit": true,
+    "docFeeTaxable": false,
+    "source": "titles",
+    "note": "6% of the net price (price minus a West Virginia-titled trade-in); $30 when the net price is $500 or less."
+   },
+   "once": [
+    {
+     "id": "title",
+     "label": "Certificate of title",
+     "amount": 15,
+     "source": "titles",
+     "kind": "title",
+     "note": "$10 more when a lien is recorded."
+    }
+   ],
+   "reg": {
+    "label": "Class A registration (1 year, standard plate)",
+    "source": "regfees",
+    "type": "flat",
+    "amount": 51.5
+   },
+   "cycle": [],
+   "ev": {
+    "ev": 200,
+    "phev": 100,
+    "hybrid": 100,
+    "source": "alt-fuel",
+    "label": "Alternative fuel registration fee"
+   },
+   "inspection": [
+    {
+     "id": "inspection",
+     "label": "Safety inspection (every 2 years, up to $19)",
+     "amount": null,
+     "range": [
+      0,
+      19
+     ],
+     "years": 2,
+     "source": "insp-fee",
+     "note": "State law caps the station fee at $19; stations may charge less."
+    }
+   ],
+   "ranges": [
+    {
+     "id": "ppt",
+     "label": "County personal property tax on the vehicle",
+     "range": null,
+     "kind": "value",
+     "source": "registrations",
+     "note": "Assessed by the county assessor and collected by the sheriff each year; the receipt is needed to renew."
+    }
+   ]
+  }
+ },
+ "singular": [
+  "West Virginia charges a 6% titling sales tax on the net purchase price, or a flat $30 when the net price is $500 or less [titles].",
+  "A trade-in lowers the taxed price only if it is titled in West Virginia in the buyer's name, and manufacturer rebates stay taxable [titles].",
+  "A car two years old or newer bought from a private seller is taxed on its NADA Clean Loan value, whatever price is written on the bill of sale [titles].",
+  "The tax rose from 5% to 6% on July 1, 2017, and the old 5% title privilege tax was abolished in 2008 in favor of the consumers sales tax on vehicles [code-sales-tax].",
+  "A standard passenger plate costs $51.50 a year, which already includes a $1 litter fee and a 50-cent insurance enforcement fee [regfees].",
+  "Hybrids and plug-in hybrids add $100 a year to the registration and fully electric cars add $200 [alt-fuel].",
+  "Renewing a registration requires proof that the county personal property tax on the vehicle was paid [registrations].",
+  "The State Police require a safety inspection of every registered vehicle once every two years [insp].",
+  "A station may charge at most $19 for the inspection and any headlight adjustment, and charging is optional [insp-fee].",
+  "Dealer documentary fees are not part of the price subject to the 6% motor vehicle sales tax [seminar]."
+ ],
+ "sources": {
+  "titles": {
+   "name": "West Virginia DMV, Titles",
+   "url": "https://dmv.wv.gov/titles",
+   "accessed": "2026-10-11",
+   "quote": "Standard fees include a $15.00 title fee , a 6% titling sales tax on vehicles with a net purchase price over $500 (or a flat $30.00 if the net price is under $500), a $10.00 lien recording fee (if applicable)"
+  },
+  "regfees": {
+   "name": "West Virginia DMV, Motor Vehicle Registration Fees brochure (revised 05/2024)",
+   "url": "https://webapps.transportation.wv.gov/TWS/WVDOTDocumentStorageMigration/PDF/Webapps/DMV/DMVFormSearch/Registration-Fees-Brochure.pdf",
+   "accessed": "2026-10-11",
+   "quote": "For hybrid vehicles, add $100 per year to the fee listed below. For electric and alternative fuel vehicles , add $200 per year. ... Standard Graphic (Default) $51.50 $51.50"
+  },
+  "alt-fuel": {
+   "name": "W. Va. Code 17A-10-3c, Additional registration fees for alternative fuel vehicles",
+   "url": "https://code.wvlegislature.gov/17A-10-3c/",
+   "accessed": "2026-10-11",
+   "quote": "(b) The annual registration fee for a vehicle operating on a combination of electricity and petrochemical fuels is $100. (c) The annual registration fee for a vehicle operating exclusively on electricity is $200."
+  },
+  "code-sales-tax": {
+   "name": "W. Va. Code 11-15-3c, Consumers sales tax on motor vehicle sales",
+   "url": "https://code.wvlegislature.gov/11-15-3c/",
+   "accessed": "2026-10-11",
+   "quote": "so much of the sale price or consideration as is represented by the exchange of other vehicles ... shall be deducted ... beginning July 1, 2017, the rate of tax imposed by this section shall increase to six percent of the sales price"
+  },
+  "registrations": {
+   "name": "West Virginia DMV, Registrations",
+   "url": "https://dmv.wv.gov/vehicle-services/vehicles/registrations",
+   "accessed": "2026-10-11",
+   "quote": "Personal property tax is assessed by the County Assessor and collected by the County Sheriff. Proof of payment of the tax or an affidavit from the Assessor is required before license plate renewal."
+  },
+  "insp-fee": {
+   "name": "W. Va. Code 17C-16-6, inspection fee",
+   "url": "https://code.wvlegislature.gov/17C-16-6/",
+   "accessed": "2026-10-11",
+   "quote": "A fee of not more than $19 may be charged for an inspection and any necessary headlight adjustment to proper focus, not including any replacement parts required, and the issuance of the certificate, but the imposition of the charge is not mandatory."
+  },
+  "insp": {
+   "name": "W. Va. Code 17C-16-4, periodic inspection",
+   "url": "https://code.wvlegislature.gov/17C-16-4/",
+   "accessed": "2026-10-11",
+   "quote": "The Superintendent of the West Virginia State Police shall require that every motor vehicle, trailer, semitrailer, and pole trailer registered in this state be inspected once every two years"
+  },
+  "new-residents": {
+   "name": "West Virginia DMV, Moving to WV",
+   "url": "https://dmv.wv.gov/moving-wv",
+   "accessed": "2026-10-11",
+   "quote": "Title Fee $15.00 Lien Fee (if applicable) $10.00 Regular Registration Fee $51.50 The titling sales 6% sales tax on a vehicles' value has been eliminated for new residents moving into West Virginia with a vehicle already title in their name in another state"
+  },
+  "seminar": {
+   "name": "West Virginia DMV, 2025 Motor Vehicles Titling Seminar",
+   "url": "https://webapps.transportation.wv.gov/TWS/WVDOTDocumentStorageMigration/PDF/Transportation/DMV/DMVFormSearch/Motor-Vehicles-Titling-Seminar-Manual.pdf",
+   "accessed": "2026-10-11",
+   "quote": "Items Not Subject To 6% Motor Vehicle Sales Tax  Warranty  Service Contracts  Discounts  Documentary Fees  Gap Insurance"
+  },
+  "doc-fee": {
+   "name": "W. Va. Code 17A-6-18a, Motor Vehicle Dealers Advisory Board",
+   "url": "https://code.wvlegislature.gov/17A-6-18a/",
+   "accessed": "2026-10-11",
+   "quote": "to advise the commissioner on setting documentary charges or similar charges motor vehicle dealers may charge consumers for documentary services in relation to securing a title, which such charges the commissioner is hereby granted authority to set"
+  }
+ }
+}

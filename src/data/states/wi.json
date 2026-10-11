@@ -1,0 +1,661 @@
+{
+ "abbr": "WI",
+ "name": "Wisconsin",
+ "slug": "wisconsin",
+ "agency": {
+  "name": "Wisconsin Department of Transportation, Division of Motor Vehicles",
+  "short": "WisDOT DMV",
+  "url": "https://wisconsindot.gov/Pages/dmv/default.aspx"
+ },
+ "taxAgency": {
+  "name": "Wisconsin Department of Revenue",
+  "url": "https://www.revenue.wi.gov/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "Emissions test prices in the seven southeastern counties were not found on an official page (the WIVIP site refused automated reading), so the test is shown without an amount.",
+  "About 60 towns, villages and cities add their own wheel tax on top of any county wheel tax; the calculator lists the county wheel taxes plus the cities of Milwaukee, Madison and Green Bay. For any other municipality, add its wheel tax from the WisDOT list.",
+  "Wisconsin sets no cap on the dealer service fee; WisDOT only requires it to be reasonable and disclosed, so type the dealer's fee. The engine taxes it, as the Department of Revenue does for service fees for forms and inspections; a separate fee for filing the title application electronically is not taxable.",
+  "The $12 plate issuance fee and the $85 registration are left out by DMV when plates are transferred from a car you no longer own; the engine assumes new plates.",
+  "A $3 temporary plate fee at an agent and a $5 counter fee at a DMV service center depend on how you apply and are not added."
+ ],
+ "summary": {
+  "stateRate": 0.05,
+  "localRange": [
+   0,
+   0.029
+  ],
+  "taxName": "state and county sales and use tax",
+  "tradeInCredit": true,
+  "titleFee": 214.5,
+  "regMethod": "flat",
+  "regYears": 1,
+  "docFeeCap": null,
+  "docFeeNote": "No cap: WisDOT lets dealers set an optional service fee that must be reasonable and disclosed; it is taxable.",
+  "evFee": 175,
+  "phevFee": 75,
+  "hybridFee": 75,
+  "inspection": "emissions",
+  "inspectionWhere": "Emissions test every two years from the fourth model year for gasoline, diesel and hybrid cars kept in Kenosha, Milwaukee, Ozaukee, Racine, Sheboygan, Washington and Waukesha counties; no safety inspection.",
+  "inspectionFee": null,
+  "annualValueTax": false
+ },
+ "params": {
+  "g": {
+   "tax": {
+    "label": "State sales tax (5%)",
+    "rate": 0.05,
+    "tradeInCredit": true,
+    "docFeeTaxable": true,
+    "source": "mv1",
+    "localSource": "rates",
+    "note": "5% of the price minus the trade-in; county and Milwaukee city tax follow where the car is kept."
+   },
+   "once": [
+    {
+     "id": "title",
+     "label": "Certificate of title",
+     "amount": 214.5,
+     "source": "title-fees",
+     "kind": "title",
+     "note": "$10 more to list a loan."
+    },
+    {
+     "id": "plate-issuance",
+     "label": "License plate issuance fee (2 plates)",
+     "amount": 12,
+     "source": "act181",
+     "kind": "plate",
+     "note": "Not charged when you transfer plates from a car you no longer own."
+    }
+   ],
+   "reg": {
+    "label": "Automobile registration (1 year)",
+    "source": "auto-plate",
+    "type": "flat",
+    "amount": 85
+   },
+   "cycle": [],
+   "countyFeeLabel": "Wheel tax",
+   "countyFeeSource": "wheel-tax",
+   "ev": {
+    "ev": 175,
+    "phev": 75,
+    "hybrid": 75,
+    "source": "fuel-surcharge"
+   },
+   "inspection": [
+    {
+     "id": "emissions",
+     "label": "Emissions test (every 2 years, southeastern counties)",
+     "amount": null,
+     "years": 2,
+     "source": "trans131",
+     "newExemptYears": 4,
+     "countyFlag": "emissions",
+     "fuelExempt": [
+      "ev"
+     ],
+     "note": "Required from the fourth model year, then every other year before renewal, and within 45 days of a purchase for cars over five model years old."
+    }
+   ]
+  }
+ },
+ "counties": [
+  {
+   "id": "adams-county",
+   "name": "Adams County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "ashland-county",
+   "name": "Ashland County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "barron-county",
+   "name": "Barron County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "bayfield-county",
+   "name": "Bayfield County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "brown-county",
+   "name": "Brown County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "buffalo-county",
+   "name": "Buffalo County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "burnett-county",
+   "name": "Burnett County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "calumet-county",
+   "name": "Calumet County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "chippewa-county",
+   "name": "Chippewa County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "clark-county",
+   "name": "Clark County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "columbia-county",
+   "name": "Columbia County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "crawford-county",
+   "name": "Crawford County",
+   "localRate": 0.005,
+   "emissions": false,
+   "localFee": 20
+  },
+  {
+   "id": "dane-county",
+   "name": "Dane County",
+   "localRate": 0.005,
+   "emissions": false,
+   "localFee": 40
+  },
+  {
+   "id": "dodge-county",
+   "name": "Dodge County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "door-county",
+   "name": "Door County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "douglas-county",
+   "name": "Douglas County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "dunn-county",
+   "name": "Dunn County",
+   "localRate": 0.005,
+   "emissions": false,
+   "localFee": 20
+  },
+  {
+   "id": "eau-claire-county",
+   "name": "Eau Claire County",
+   "localRate": 0.005,
+   "emissions": false,
+   "localFee": 30
+  },
+  {
+   "id": "florence-county",
+   "name": "Florence County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "fond-du-lac-county",
+   "name": "Fond du Lac County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "forest-county",
+   "name": "Forest County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "grant-county",
+   "name": "Grant County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "green-county",
+   "name": "Green County",
+   "localRate": 0.005,
+   "emissions": false,
+   "localFee": 25
+  },
+  {
+   "id": "green-lake-county",
+   "name": "Green Lake County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "iowa-county",
+   "name": "Iowa County",
+   "localRate": 0.005,
+   "emissions": false,
+   "localFee": 25
+  },
+  {
+   "id": "iron-county",
+   "name": "Iron County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "jackson-county",
+   "name": "Jackson County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "jefferson-county",
+   "name": "Jefferson County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "juneau-county",
+   "name": "Juneau County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "kenosha-county",
+   "name": "Kenosha County",
+   "localRate": 0.005,
+   "emissions": true
+  },
+  {
+   "id": "kewaunee-county",
+   "name": "Kewaunee County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "la-crosse-county",
+   "name": "La Crosse County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "lafayette-county",
+   "name": "Lafayette County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "langlade-county",
+   "name": "Langlade County",
+   "localRate": 0.005,
+   "emissions": false,
+   "localFee": 15
+  },
+  {
+   "id": "lincoln-county",
+   "name": "Lincoln County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "manitowoc-county",
+   "name": "Manitowoc County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "marathon-county",
+   "name": "Marathon County",
+   "localRate": 0.005,
+   "emissions": false,
+   "localFee": 25
+  },
+  {
+   "id": "marinette-county",
+   "name": "Marinette County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "marquette-county",
+   "name": "Marquette County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "menominee-county",
+   "name": "Menominee County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "milwaukee-county",
+   "name": "Milwaukee County, outside the city of Milwaukee",
+   "localRate": 0.009,
+   "emissions": true,
+   "localFee": 30
+  },
+  {
+   "id": "monroe-county",
+   "name": "Monroe County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "oconto-county",
+   "name": "Oconto County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "oneida-county",
+   "name": "Oneida County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "outagamie-county",
+   "name": "Outagamie County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "ozaukee-county",
+   "name": "Ozaukee County",
+   "localRate": 0.005,
+   "emissions": true
+  },
+  {
+   "id": "pepin-county",
+   "name": "Pepin County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "pierce-county",
+   "name": "Pierce County",
+   "localRate": 0.005,
+   "emissions": false,
+   "localFee": 35
+  },
+  {
+   "id": "polk-county",
+   "name": "Polk County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "portage-county",
+   "name": "Portage County",
+   "localRate": 0.005,
+   "emissions": false,
+   "localFee": 30
+  },
+  {
+   "id": "price-county",
+   "name": "Price County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "racine-county",
+   "name": "Racine County",
+   "localRate": 0.005,
+   "emissions": true
+  },
+  {
+   "id": "richland-county",
+   "name": "Richland County",
+   "localRate": 0.005,
+   "emissions": false,
+   "localFee": 20
+  },
+  {
+   "id": "rock-county",
+   "name": "Rock County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "rusk-county",
+   "name": "Rusk County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "st-croix-county",
+   "name": "St. Croix County",
+   "localRate": 0.005,
+   "emissions": false,
+   "localFee": 20
+  },
+  {
+   "id": "sauk-county",
+   "name": "Sauk County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "sawyer-county",
+   "name": "Sawyer County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "shawano-county",
+   "name": "Shawano County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "sheboygan-county",
+   "name": "Sheboygan County",
+   "localRate": 0.005,
+   "emissions": true
+  },
+  {
+   "id": "taylor-county",
+   "name": "Taylor County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "trempealeau-county",
+   "name": "Trempealeau County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "vernon-county",
+   "name": "Vernon County",
+   "localRate": 0.005,
+   "emissions": false,
+   "localFee": 25
+  },
+  {
+   "id": "vilas-county",
+   "name": "Vilas County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "walworth-county",
+   "name": "Walworth County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "washburn-county",
+   "name": "Washburn County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "washington-county",
+   "name": "Washington County",
+   "localRate": 0.005,
+   "emissions": true
+  },
+  {
+   "id": "waukesha-county",
+   "name": "Waukesha County",
+   "localRate": 0,
+   "emissions": true
+  },
+  {
+   "id": "waupaca-county",
+   "name": "Waupaca County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "waushara-county",
+   "name": "Waushara County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "winnebago-county",
+   "name": "Winnebago County",
+   "localRate": 0,
+   "emissions": false
+  },
+  {
+   "id": "wood-county",
+   "name": "Wood County",
+   "localRate": 0.005,
+   "emissions": false
+  },
+  {
+   "id": "city-of-milwaukee",
+   "name": "City of Milwaukee",
+   "localRate": 0.029,
+   "emissions": true,
+   "localFee": 71
+  },
+  {
+   "id": "city-of-madison",
+   "name": "City of Madison, Dane County",
+   "localRate": 0.005,
+   "emissions": false,
+   "localFee": 80
+  },
+  {
+   "id": "city-of-green-bay",
+   "name": "City of Green Bay, Brown County",
+   "localRate": 0.005,
+   "emissions": false,
+   "localFee": 25
+  }
+ ],
+ "defaultCounty": "milwaukee-county",
+ "singular": [
+  "Wisconsin taxes a car at 5% plus the county tax where the car is customarily kept, not where the dealer is [pb202].",
+  "Seventy counties add 0.5%, Milwaukee County adds 0.9% since January 1, 2024, and Waukesha and Winnebago counties add nothing [rates].",
+  "The city of Milwaukee is the only Wisconsin city with its own sales tax, 2% since January 1, 2024, which also applies to cars kept in the city [rates].",
+  "A trade-in made in the same transaction is subtracted from the price before the tax is figured [pb202].",
+  "The title fee rose by $50 on October 1, 2025, to $214.50 for an original title or a transfer [title-fees].",
+  "Since April 13, 2026, new plates carry a $6 issuance fee per plate, $12 for a car with two plates [act181].",
+  "A passenger car registration is $85 a year, and electric cars add a $175 surcharge while hybrids and plug-in hybrids add $75 [fuel-surcharge].",
+  "Counties and municipalities may add a wheel tax of their own choosing; Milwaukee County charges $30 and the city of Milwaukee another $41 [wheel-tax].",
+  "Cars in seven southeastern counties need an emissions test from their fourth model year and every two years after that [trans131].",
+  "Dealers may charge an optional service fee with no state cap, but WisDOT reserves the right to audit it for reasonableness [doc-fee]."
+ ],
+ "sources": {
+  "mv1": {
+   "name": "WisDOT, Title/License Plate Application MV1 (10/2026)",
+   "url": "https://wisconsindot.gov/Documents/formdocs/mv1.pdf",
+   "accessed": "2026-10-11",
+   "quote": "State Sales Tax (amount subject to tax x 0.05) ... Local Sales Tax ... Passenger Vehicle $85 ... License Plate Issuance Fee - $12 ($6 per plate)"
+  },
+  "pb202": {
+   "name": "Wisconsin Department of Revenue, Publication 202, Sales and Use Tax Information for Motor Vehicle Sales",
+   "url": "https://www.revenue.wi.gov/DOR%20Publications/pb202.pdf",
+   "accessed": "2026-10-11",
+   "quote": "If the sale of a motor vehicle and the trade-in are one transaction, the sales price or purchase price subject to Wisconsin sales or use tax does not include the amount allowed for the trade-in."
+  },
+  "rates": {
+   "name": "Wisconsin Department of Revenue, Tax Rates (guidance 100047, January 16, 2026)",
+   "url": "https://www.revenue.wi.gov/Pages/FAQS/pcs-taxrates.aspx",
+   "accessed": "2026-10-11",
+   "quote": "Seventy Wisconsin counties have adopted a 0.5% county tax. ... The 2% city of Milwaukee sales and use tax is effective January 1, 2024. ... Sells a motor vehicle ... that will be customarily kept in a county that adopted the county tax or a city that adopted a city tax."
+  },
+  "service-fee": {
+   "name": "Wisconsin Department of Revenue, Publication 202, service fees",
+   "url": "https://www.revenue.wi.gov/DOR%20Publications/pb202.pdf",
+   "accessed": "2026-10-11",
+   "quote": "Sales price subject to tax includes amounts charged by the seller as \"service fees\" for completing any sales-related or lease-related vehicle inspection or forms which are required by law or rule"
+  },
+  "title-fees": {
+   "name": "WisDOT, Vehicle title fees",
+   "url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/titles.aspx",
+   "accessed": "2026-10-11",
+   "quote": "Title - Original or transfer of title $214.50 for original title or title transfer ... Security interest (lien): New listing ... $10"
+  },
+  "act181": {
+   "name": "WisDOT, Legislation Affecting DMV",
+   "url": "https://wisconsindot.gov/Pages/dmv/vehicles/frms-pubs/Legislation-Affecting-DMV.aspx",
+   "accessed": "2026-10-11",
+   "quote": "Act 181: $6 Per Plate Issuance Fee ... the \"fee of $6 per plate for the issuance of new registration plates that are not replacement plates\" ... The WI DMV began collecting the new issuance on Monday, April 13, 2026."
+  },
+  "auto-plate": {
+   "name": "WisDOT, Automobile license plates",
+   "url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/auto.aspx",
+   "accessed": "2026-10-11",
+   "quote": "Regular automobile ... Registration period 1 year Plate expiration May expire in any month Fee $85 Wheel tax and/or vehicle fuel surcharge may apply"
+  },
+  "fuel-surcharge": {
+   "name": "WisDOT, Vehicle fuel surcharge",
+   "url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/fuelfee.aspx",
+   "accessed": "2026-10-11",
+   "quote": "A $75 annual surcharge for hybrid electric vehicles ... capable of using both electricity and gasoline ... The annual combined electric surcharge fee is now $175 for electric vehicles"
+  },
+  "wheel-tax": {
+   "name": "WisDOT, Municipal or county vehicle registration fee (wheel tax)",
+   "url": "https://wisconsindot.gov/pages/dmv/vehicles/title-plates/wheeltax.aspx",
+   "accessed": "2026-10-11",
+   "quote": "State law does not specify the amount of the wheel tax. ... Madison (city; $40) Milwaukee (city; $41) ... Dane County ($40) ... Milwaukee County ($30)"
+  },
+  "emissions": {
+   "name": "WisDOT, Emission test",
+   "url": "https://wisconsindot.gov/Pages/dmv/vehicles/rnew-plts/emissiontest.aspx",
+   "accessed": "2026-10-11",
+   "quote": "Vehicles customarily kept in one of these seven southeastern Wisconsin counties require an emissions test: Kenosha, Milwaukee, Ozaukee, Racine, Sheboygan, Washington and Waukesha."
+  },
+  "trans131": {
+   "name": "Wis. Adm. Code Trans 131.03, Emission inspection (as filed with US EPA, 2025)",
+   "url": "https://www.epa.gov/system/files/documents/2025-04/wi-trans131.pdf",
+   "accessed": "2026-10-11",
+   "quote": "A vehicle is first subject to the requirements of this chapter when the vehicle is 4 model years old. ... This requirement applies when the vehicle is 4 model years old and every 2 years thereafter."
+  },
+  "doc-fee": {
+   "name": "WisDOT, Dealer newsletter, October 2025 (dealer selling price best practices)",
+   "url": "https://wisconsindot.gov/Documents/dmv/dlr-agents/tips-tls-dlr/pd-oct-2025.pdf",
+   "accessed": "2026-10-11",
+   "quote": "A service fee may be assessed to a purchaser or lessee for completing any sales-related or lease-related vehicle inspection or forms required by law, provided the dealer makes full disclosure ... the department reserves the right to audit fees to determine if that are reasonable."
+  }
+ }
+}

@@ -1,0 +1,278 @@
+{
+ "abbr": "WY",
+ "name": "Wyoming",
+ "slug": "wyoming",
+ "agency": {
+  "name": "Wyoming Department of Transportation, Motor Vehicle Services (county clerks and treasurers)",
+  "short": "WYDOT",
+  "url": "https://www.dot.state.wy.us/home/titles_plates_registration.html"
+ },
+ "taxAgency": {
+  "name": "Wyoming Department of Revenue, Excise Tax Division",
+  "url": "https://excise-tax-div.wyo.gov/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "exact",
+ "gaps": [
+  "The county registration fee is figured on the factory price (the MSRP of the make, model and trim when new), not on what you paid: type the MSRP in the form, otherwise the engine uses the price, which is only right for a new car sold at sticker.",
+  "A vehicle registered for the first time in Wyoming part-way through a registration year may pay a prorated fee; the engine shows a full year.",
+  "The Teton Village and Grand Targhee resort districts add 2% on sales inside the districts; vehicle tax follows the county of the owner's residence, so the engine uses the Teton County rate.",
+  "No dealer documentary fee cap was found in Wyoming law; type the dealer's fee (it is part of the taxed price)."
+ ],
+ "summary": {
+  "stateRate": 0.04,
+  "localRange": [
+   0,
+   0.03
+  ],
+  "taxName": "sales and use tax",
+  "tradeInCredit": true,
+  "titleFee": 15,
+  "regMethod": "value",
+  "regYears": 1,
+  "docFeeCap": null,
+  "docFeeNote": "No cap found in Wyoming law; the fee is part of the price subject to sales tax.",
+  "evFee": 100,
+  "phevFee": 50,
+  "hybridFee": null,
+  "inspection": "none",
+  "inspectionWhere": "No periodic safety or emissions inspection for passenger cars; a $10 VIN inspection applies in the cases W.S. 31-2-103 lists, such as a vehicle coming from another state.",
+  "inspectionFee": null,
+  "annualValueTax": true
+ },
+ "params": {
+  "g": {
+   "tax": {
+    "label": "State sales and use tax (4%)",
+    "rate": 0.04,
+    "tradeInCredit": true,
+    "docFeeTaxable": true,
+    "source": "form107",
+    "localSource": "rates",
+    "note": "Collected by the county treasurer before the first registration, at the rate of the county where the owner lives."
+   },
+   "once": [
+    {
+     "id": "title",
+     "label": "Certificate of title",
+     "amount": 15,
+     "source": "title31",
+     "kind": "title"
+    }
+   ],
+   "reg": {
+    "label": "State registration fee (passenger car)",
+    "source": "title31",
+    "type": "flat",
+    "amount": 30
+   },
+   "cycle": [],
+   "valueFees": [
+    {
+     "id": "county-fee",
+     "label": "County registration fee (3% of a share of the factory price)",
+     "kind": "value",
+     "pct": 0.03,
+     "base": "msrp",
+     "factors": [
+      0.6,
+      0.5,
+      0.4,
+      0.3,
+      0.2,
+      0.15
+     ],
+     "depBy": "age",
+     "min": 5,
+     "source": "title31",
+     "note": "3% of 60% of the factory price in the first year of service, then 50%, 40%, 30%, 20% and 15% from the sixth year; minimum $5."
+    }
+   ],
+   "ev": {
+    "ev": 100,
+    "phev": 50,
+    "source": "hb145",
+    "label": "Annual electric vehicle decal"
+   }
+  }
+ },
+ "counties": [
+  {
+   "id": "albany-county",
+   "name": "Albany County",
+   "localRate": 0.02
+  },
+  {
+   "id": "big-horn-county",
+   "name": "Big Horn County",
+   "localRate": 0.01
+  },
+  {
+   "id": "campbell-county",
+   "name": "Campbell County",
+   "localRate": 0.01
+  },
+  {
+   "id": "carbon-county",
+   "name": "Carbon County",
+   "localRate": 0.02
+  },
+  {
+   "id": "converse-county",
+   "name": "Converse County",
+   "localRate": 0.01
+  },
+  {
+   "id": "crook-county",
+   "name": "Crook County",
+   "localRate": 0.01
+  },
+  {
+   "id": "fremont-county",
+   "name": "Fremont County",
+   "localRate": 0.01
+  },
+  {
+   "id": "goshen-county",
+   "name": "Goshen County",
+   "localRate": 0.0125
+  },
+  {
+   "id": "hot-springs-county",
+   "name": "Hot Springs County",
+   "localRate": 0.02
+  },
+  {
+   "id": "johnson-county",
+   "name": "Johnson County",
+   "localRate": 0.01
+  },
+  {
+   "id": "laramie-county",
+   "name": "Laramie County",
+   "localRate": 0.01
+  },
+  {
+   "id": "lincoln-county",
+   "name": "Lincoln County",
+   "localRate": 0.01
+  },
+  {
+   "id": "natrona-county",
+   "name": "Natrona County",
+   "localRate": 0.01
+  },
+  {
+   "id": "niobrara-county",
+   "name": "Niobrara County",
+   "localRate": 0.02
+  },
+  {
+   "id": "park-county",
+   "name": "Park County",
+   "localRate": 0.0
+  },
+  {
+   "id": "platte-county",
+   "name": "Platte County",
+   "localRate": 0.02
+  },
+  {
+   "id": "sheridan-county",
+   "name": "Sheridan County",
+   "localRate": 0.02
+  },
+  {
+   "id": "sublette-county",
+   "name": "Sublette County",
+   "localRate": 0.0
+  },
+  {
+   "id": "sweetwater-county",
+   "name": "Sweetwater County",
+   "localRate": 0.02
+  },
+  {
+   "id": "teton-county",
+   "name": "Teton County",
+   "localRate": 0.03
+  },
+  {
+   "id": "uinta-county",
+   "name": "Uinta County",
+   "localRate": 0.01
+  },
+  {
+   "id": "washakie-county",
+   "name": "Washakie County",
+   "localRate": 0.01
+  },
+  {
+   "id": "weston-county",
+   "name": "Weston County",
+   "localRate": 0.01
+  }
+ ],
+ "defaultCounty": "laramie-county",
+ "singular": [
+  "Wyoming's car registration is mostly a county fee of 3% of a declining share of the factory price: 60% in the first year of service down to 15% from the sixth year [title31].",
+  "The factory price is the manufacturer's suggested retail price of the make, model and trim when new, so a used car keeps paying on its original sticker price [title31].",
+  "On top of the county fee, the state registration fee for a passenger car is $30 and a certificate of title costs $15 [title31].",
+  "Vehicle sales tax is not collected by the dealer but by the county treasurer before the first registration, at the rate of the county where the owner lives [title39].",
+  "The state rate is 4%, and county option taxes bring the total from 4% in Park and Sublette counties to 7% in Teton County [rates].",
+  "A trade-in reduces the taxed price only if its title is already in the buyer's name, and documentary fees are part of the taxed price [form107].",
+  "Since July 1, 2026, an all-electric car pays a $100 annual decal fee instead of $200, and a plug-in hybrid pays $50 [hb145].",
+  "The tax on a vehicle must be paid within 65 days of the purchase, with a 10% penalty of at least $25 after that [form107].",
+  "Titles and liens are handled by the county clerk and plates by the county treasurer of the county where the owner lives [wydot]."
+ ],
+ "sources": {
+  "title31": {
+   "name": "Wyoming Statutes Title 31, W.S. 31-3-101 and 31-3-102 (compiled May 2026)",
+   "url": "https://wyoleg.gov/statutes/compress/title31.pdf",
+   "accessed": "2026-10-11",
+   "quote": "A county registration fee computed as follows, or five dollars ($5.00), whichever is greater: (A) 3% of 60% of the factory price ... (F) 3% of 15% ... sixth year of service and thereafter. ... Passenger cars $30.00 ... Certificate of title ... $15.00"
+  },
+  "title39": {
+   "name": "Wyoming Statutes W.S. 39-15-107(b)(i), collection of tax on motor vehicles",
+   "url": "https://wyoleg.gov/statutes/compress/title39.pdf",
+   "accessed": "2026-10-11",
+   "quote": "The taxes imposed shall be collected by the county treasurer prior to the first registration in Wyoming ... The county treasurer shall collect and remit to the department the tax in effect in the county of the owner's principal residence"
+  },
+  "trade-in": {
+   "name": "Wyoming Statutes W.S. 39-15-105(a)(ix)(A), trade-in exclusion",
+   "url": "https://wyoleg.gov/statutes/compress/title39.pdf",
+   "accessed": "2026-10-11",
+   "quote": "The trade-in value of tangible personal property shall be excluded from the sales price of new tangible personal property when trade-in and purchase occur in one (1) transaction"
+  },
+  "rates": {
+   "name": "Wyoming Department of Revenue, Sale/Use and Lodging Tax Rates by Locality, effective 10/01/2026",
+   "url": "https://excise-tax-div.wyo.gov/sales-use-tax-rate-charts",
+   "accessed": "2026-10-11",
+   "quote": "Laramie 4% + 1% = 5% ... Park 4% = 4% ... Sublette 4% = 4% ... Teton 4% + 1% + 2% = 7% ... Goshen 4% + 1% + 0.25% = 5.25%"
+  },
+  "form107": {
+   "name": "Wyoming Department of Revenue, Form 107, Sales/Use Tax Statement for Motor Vehicle Sales",
+   "url": "https://www.dot.state.wy.us/files/live/sites/wydot/files/shared/Motor%20Vehicle%20Services/WYSalesUseTaxStatementForMotorVehicleSales_08.01.22.pdf",
+   "accessed": "2026-10-11",
+   "quote": "Total sales price must include all costs incurred by the vendor ... documentary fees ... Trade-in vehicle's title must already be in purchaser's name to reduce sales/use tax ... Payment of the sales/use tax must be made within 65 days of the date of purchase."
+  },
+  "hb145": {
+   "name": "Wyoming Legislature, 2026 HB0145, Enrolled Act No. 33",
+   "url": "https://wyoleg.gov/2026/Enroll/HB0145.pdf",
+   "accessed": "2026-10-11",
+   "quote": "An annual decal which that shall include the bucking horse and rider emblem for ... an all-electric vehicle ... $200.00 $100.00 ... plug-in hybrid electric vehicle ... $50.00 ... This act is effective July 1, 2026."
+  },
+  "wydot": {
+   "name": "WYDOT, Titles, Plates and Registration",
+   "url": "https://www.dot.state.wy.us/home/titles_plates_registration.html",
+   "accessed": "2026-10-11",
+   "quote": "Standard license plates and vehicle registrations are obtained through the local county treasurer in the county seat of the county of residence. ... Wyoming titles and lien filings are processed through the local county clerk office"
+  },
+  "county-calc": {
+   "name": "Uinta County Treasurer, Calculate Cost For Plates",
+   "url": "https://uintacountywy.gov/884/Calculate-Cost-For-Plates",
+   "accessed": "2026-10-11",
+   "quote": "Wyoming Statutes dictate the calculation of all registration fees. Therefore, the fees are the same no matter what county a vehicle is registered in. ... $20,000 X 60% X .03 = $360.00"
+  }
+ }
+}

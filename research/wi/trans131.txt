@@ -1,0 +1,1165 @@
+145  Trans 131.02DEPARTMENT OF TRANSPORTATION
+File inserted into Admin. Code 8−1−2023. May not be current beginning 1 month after insert date. For current adm. code see:
+http://docs.legis.wisconsin.gov/code/admin_code
+Register July 2023 No. 811
+Chapter Trans 131
+MOTOR VEHICLE INSPECTION AND MAINTENANCE PROGRAM (MVIP)
+Trans 131.01 Purpose and scope.
+Trans 131.02 Definitions.
+Trans 131.03 Emission inspection and reinspection.
+Trans 131.04 Waiver of compliance.
+Trans 131.05 Waiver emission equipment inspection.
+Trans 131.06 Inspection compliance.
+Trans 131.07 Voluntary inspections.
+Trans 131.08 Letter of temporary exemption from  emission inspection require -
+ments.
+Trans 131.09 Temporary operating permits.
+Trans 131.10 Reciprocity.
+Trans 131.11 Audits of inspection facilities.
+Trans 131.12 Equipment specifications and quality control.
+Trans 131.13 Licensing of inspectors.
+Trans 131.14 Remote sensing.
+Trans 131.15 Performance monitoring of repair facilities.
+Trans 131.16 Automotive emission repair technician training.
+Trans 131.17 Notification of inspection requirements.
+Note:  Chapter Trans 131 as it existed on June 30, 1993 was repealed and a new
+ch. Trans 131 was created effective July 1, 1993.
+Trans 131.01 Purpose and scope.  (1) STATUTORY AU-
+THORITY .  As authorized by ss. 110.06, 110.20 (9) and 227.11 (2)
+(a), Stats., the purpose of this chapter is to establish the depart -
+ment’s  administrative interpretation of s. 1 10.20, Stats., relating
+to a motor vehicle emissions inspection program.
+(2) APPLICABILITY .  This chapter applies  to all nonexempt
+vehicles customarily kept in those counties certified by the depart-
+ment of natural resources under s. 1 10.20 (5) (a), Stats.  It also
+applies to all nonexempt vehicles customarily kept in any county
+whose board of supervisors has adopted a resolution under s.
+110.20 (5) (b), Stats.,  requesting the department establish an
+inspection and maintenance program, and applies to any nonex -
+empt vehicle which a person presents for a voluntary inspection
+at an inspection station pursuant  to s. 1 10.20 (7), Stats., and s.
+Trans 131.07.  For purposes of determining where a vehicle is cus-
+tomarily kept, the county of domicile as indicated by the vehicle
+owner and contained in the department’ s title data base shall be
+used.  In the absence of an indicated county of domicile, the owner
+or lessee’ s post office address shall be used to determine  county
+of domicile.  The department may determine whether the vehicle
+domicile location is consistent with the owner or lessee’ s post
+office address or with other information that indicates the custom-
+ary location of the vehicle.  The department may change a vehicle
+domicile location in department title records to make it consistent
+with the results of its determination, and may require the vehicle
+to undergo emission inspection as required in this chapter.  If the
+vehicle owner or lessee disputes the department’ s determination,
+the vehicle owner or lessee may present evidence satisfactory to
+the department of  the correct vehicle domicile location.  The
+department decision as to correct vehicle domicile location shall
+be the final decision of the department.
+Note:  Forms used in this chapter are MV 2016, substitute renewal notice; MV
+2470, vehicle inspection report; MV 2472, application for letter of temporary ex -
+emption from emission test requirements; MV 2588, exchanged engine certificate;
+MV 2594, quality assurance inspection report.  Copies can be obtained from the Wis-
+consin Department of T ransportation, Dealer and Agent Section, P . O. Box 7909,
+Madison, WI 53707−7909.
+History:  Cr. Register, June, 1993, No. 450, eff. 7−1−93; CR 07−114: am. (2) Reg-
+ister June 2008 No. 630, eff. 7−1−08; CR 10−088: am. (2) Register December 2010
+No. 660, eff. 1−1−11.
+Trans 131.02 Definitions.  Words and phrases defined in
+s. 110.20, Stats., have the same meaning in this chapter unless  a
+different definition is specified.  In this chapter:
+(1) “Air pollution control equipment” or “emission  equip -
+ment” means any equipment or feature which constitutes an op -
+erational element, device or mechanism which is part of the air
+pollution control system on a motor vehicle.
+(1m) “Authorized inspection facility” means a self−service
+inspection facility, or a private inspection facility, or an inspection
+station or facility operated by the department, or by a contractor
+or subcontractor authorized by the department to perform emis -
+sion inspections.
+(2) “CO” means carbon monoxide.
+(3m) “Collector vehicle” means a nonexempt vehicle with a
+collector special interest vehicle registration under s.  341.266,
+Stats.
+(6) “Contractor” means a person with  whom the department
+has a contract  that provides for the operation of one or more
+inspection stations or for the performance of emission inspection
+at an authorized inspection facility other than an inspection station
+or for the performance of a service related to the Wisconsin vehi-
+cle emission inspection program.
+(6m) “DLC” means data link connector on a vehicle equipped
+with an OBD II system.
+(6r) “DTC” means diagnostic trouble code stored by a ve -
+hicle’s  OBD II system.
+(7) “Department” means the Wisconsin department of trans-
+portation.
+(8) “Electronic reporting,” “electronically reported” or
+“reported electronically” means reported directly  to the depart -
+ment or its contractor electronically in  a format specified by the
+department.
+(9) “Emission limitations” means the maximum vehicle emis-
+sion concentrations in s. NR 485.04.
+Note:  Chapter NR 485 may be obtained from the Wisconsin Department of Natu-
+ral Resources, Bureau of Air Management, P.O. Box 7921, Madison, WI 53707.
+(10) “Emission inspection” means the OBD II inspection.
+(12) “Exempt vehicles” means all vehicles other than nonex-
+empt vehicles which are identified in s. 285.30 (5), Stats., and s.
+NR 485.04 (10).
+(13) “Exhaust emission” or “exhaust gas” means the  com -
+bination of substances emitted into the atmosphere from the tail-
+pipe or tailpipes of a motor vehicle.
+(15) “Federal rule” means 40 CFR part 51, subpart S, inspec-
+tion/maintenance program requirements; final rule.
+Note:  All references made to the Federal Rule in this document are to 40 CFR Part
+51, Subpart S Inspection/Maintenance Program Requirements; Final Rule dated No-
+vember 5, 1992, as amended through January 1, 2001.
+(17) “GPM” means grams per mile.
+(18) “GVWR” means gross vehicle weight rating and has the
+same meaning as provided in s. 340.01 (19r), Stats.
+(19) “Government vehicle” means a motor vehicle both
+owned by this state or by any county, municipality, or federally−
+recognized American Indian tribe or band and registered under s.
+341.26 (2m), Stats., or a vehicle owned or leased  by the United
+States.
+(20) “HC” means hydrocarbon.
+(20m) “Hobbyist vehicle” means a nonexempt vehicle with a
+hobbyist registration under s. 341.268, Stats.
+146 Trans 131.02 WISCONSIN ADMINISTRATIVE CODE
+File inserted into Admin. Code 8−1−2023. May not be current beginning 1 month after insert date. For current adm. code see:
+http://docs.legis.wisconsin.gov/code/admin_code
+Register July 2023 No. 811
+(21) “Homemade vehicle” has the same meaning as provided
+in s. 341.268, Stats.
+(22) “Inspection” means the mandatory vehicle emission in -
+spection required by s. 1 10.20, Stats., consisting of an OBD II
+inspection.
+(23) “Inspection report” has the same meaning as provided in
+sub. (54).
+(24) “Inspection station” means an inspection facility oper -
+ated by a party under contract with the department for the purpose
+of conducting vehicle emission inspections required by s. 110.20,
+Stats.
+(25) “Inspector” means the individual who  performs the ve-
+hicle emission inspection for the contractor or subcontractor.
+(26) “MIL” means malfunction indicator lamp.
+(28) “Master automotive technician” means a person possess-
+ing the highest level of any nationally recognized certification or-
+ganization for automotive emission−related diagnosis and repair.
+(29) “Model year” means the date of manufacture of the origi-
+nal vehicle within the annual production period of the vehicle as
+designated by the manufacturer , or if a reconstructed or home -
+made vehicle, the first year of titling.  If the manufacturer does not
+designate a production period, the term “model year” means the
+calendar year of manufacture.  Determination of model year shall
+be as indicated in the VIN or on the vehicle’ s registration docu-
+ments.
+(31) “New vehicle” means a motor vehicle to which the legal
+title has never been transferred to an ultimate retail purchaser  as
+defined in s. Trans 139.02.
+(34) “OBD II” means the  on−board diagnostic system
+installed on 1996 and newer vehicles by the manufacturer that
+meets the regulations promulgated by the USEPA under 42 USC
+7401−7671q.
+(34m) “OBD inspection” or “OBD II inspection” means  an
+emissions related inspection in which the vehicle’ s on−board
+computer is accessed to evaluate the status of the vehicle’ s emis-
+sion control system.
+(35) “Performance monitoring” means the system of evaluat-
+ing automotive repair facilities’ performance by collecting and re-
+porting the repair data as recorded on the vehicle inspection report
+or as reported electronically, upon performance of the repair.
+(36) “Person” means an individual, corporation, association,
+firm, partnership, joint stock company, public or municipal corpo-
+ration, political subdivision, the state or any agency thereof, and
+the federal government.
+(37) “Proper” or “properly” means meeting original manufac-
+turer’s  equipment standards or the equivalent.
+(37m) “Readiness monitors” means the tests performed inter-
+nally by a vehicle’ s OBD II system that determine if an emission
+component is ready to be checked by the on−board vehicle com-
+puter.
+(38) “Recognized automotive emission repair technician”
+means a person who has received and has proof of formal training
+in both diagnosis and repair of automotive engines and related
+systems.
+(39) “Recognized repair facility” means a franchised new car
+dealer or other business with a W isconsin sales tax number that
+performs emission repairs as a regular part of its business activi-
+ties and employs at least one recognized automotive emission re-
+pair technician.
+(40) “Reconstructed vehicle” has the same  meaning as pro -
+vided in s. 341.268 (1) (d), Stats.
+(41) “Registration” has the same meaning as provided in s.
+344.01 (2) (e), Stats.
+(42) “Remote sensing test” means the test conducted under s.
+Trans 131.14.
+(44) “Tamper” or “tampering” has the same meaning as in s.
+285.30 (6) (a) 3., Stats.
+(45) “Technical assistance center” means either a  separate
+contractor facility or a portion of an inspection station which, un-
+der the direction of a master automotive  technician, is equipped
+to perform both emission inspections and complete diagnostic
+evaluations of nonexempt vehicles.
+(48) “Truck” has the same meaning as “motor truck” as pro-
+vided in s. 340.01 (34), Stats.
+(50) “USEPA” means the United States Environmental Pro -
+tection Agency.
+(50m) “USEPA technical guidance” means the USEPA publi-
+cation “Performing Onboard Diagnostic System Checks as Part of
+a Vehicle Inspection  and Maintenance Program,” dated June,
+2001, which is incorporated herein by reference.  Any alternative
+inspection procedures or changes in procedural details shall  be
+approved by the USEPA administrator prior to use.
+Note:  Copies are on file with the Legislative Reference Bureau and the Attorney
+General’s  office.  These procedures are available in published form from the Wiscon-
+sin Department of Transportation, Bureau of Field Services, P. O. Box 7909, Room
+253, Madison, WI 53707−7909 and can be accessed on the internet at http://www.-
+epa.gov/otaq/regs/im/obd/r01015.pdf.
+(51) “Van” means a motor vehicle constructed on a truck
+chassis, or indicated as a truck on the manufacturer’ s statement of
+origin, with a completely enclosed driver and cargo compartment
+useable as a cargo carrying vehicle or as a passenger vehicle de-
+pending upon equipment.
+(52) “Vehicle” or “motor vehicle” has the same meaning as
+provided in s. 340.01 (35), Stats.
+(53) “Vehicle inspection notice” means a document mailed to
+vehicle owners as a result of failing a remote sensing test indicat-
+ing that the nonexempt vehicle has been inspected in accordance
+with the provisions of s. Trans 131.14 and, if necessary, shall be
+presented at an inspection station or other authorized inspection
+facility for inspection under s. 110.20 (6) (a) 4., Stats.
+(54) “Vehicle inspection report” means  a serially numbered
+document issued at an inspection station or authorized inspection
+facility or technical assistance center or by an inspector desig -
+nated by the department to perform the functions of a  technical
+assistance center at the time of vehicle inspection, indicating that
+the vehicle has been inspected in accordance with the provisions
+of this chapter, and may include data reported electronically.
+(55) “VIN” means a unique vehicle identification number as
+defined in s. 340.01 (23r), Stats.
+(56) “V oluntary inspection” means the voluntary presentation
+of a nonexempt vehicle for an emission inspection.
+(56m) “Waiver” means a conditional one−cycle  exemption
+from emission inspection that may be granted to a vehicle owner
+or lessee.
+(57) “Waiver emission equipment inspection” means a visual
+inspection conducted to determine the presence  and proper con-
+nection of selected emission equipment on vehicles presented for
+waiver determination under s. Trans 131.04.
+(58) “Waiver investigator” means the department  employee
+or designated contractor representative who  approves or disap -
+proves applications for waivers.
+History:  Cr. Register , June, 1993, No. 450, ef f. 7−1−93; emer g. revise ef f.
+12−4−95; am. (intro.), renum. (1) to (4), (6) to (10), (14) to (16), (18) to (22), (24),
+(26) to (28) and (34) to (42) to be (2), (3), (6) to (10), (12), (13), (16), (19) to (25),
+(29) to (32), (36), (37), (41), (43), (44), (48), (51), (52), (54), (56), (58), respectively,
+and am. (6), (8) to (10), (12), (19), (22), (23), (25), (29), (32), (43), (44), (51), (52),
+(54), (56), (58), cr. (1), (3m), (4), (14), (15), (18), (20m), (27), (28), (34), (35), (38),
+(39), (40), (42), (45), (47), (49), (50), (50m), (53), (55) and (57), r. (5), (12), (13), (23),
+(25), (29), (30), r . and recr . (11), (17), (33), Register , April, 1996, No. 484, ef f.
+5−1−96; correction in (44) made under s. 13.93 (2m) (b) 7., Stats., Register, August,
+1996, No. 488; correction made to delete duplicative subsection and correction in
+(12) and (20m) made under s. 13.93 (2m) (b) 7., Stats., Register, April, 1999, No. 520;
+cr. (6m), (6r), (26), (34m), (37m), am. (11), (22), (32), (50m) and (58), Register, May,
+2001, No. 545, eff. 6−1−01; CR 07−114: cr. (1m) and (56m), r. (3), (4), (11), (14), (16),
+(27), (30), (32), (33), (43), (47) and (49), am. (6), (6r), (10), (22), (25), (34) to (35),
+(50m), (53) and (54), r. and recr. (8) Register June 2008 No. 630, ef f. 7−1−08; CR
+147  Trans 131.03DEPARTMENT OF TRANSPORTATION
+File inserted into Admin. Code 8−1−2023. May not be current beginning 1 month after insert date. For current adm. code see:
+http://docs.legis.wisconsin.gov/code/admin_code
+Register July 2023 No. 811
+10−088: am. (1m), (6), (10), (34m), (50m), (54) and (56m) Register December 2010
+No. 660, eff. 1−1−11; CR 22−048: am. (19) Register July 2023 No. 811, eff. 8−1−23.
+Trans 131.03 Emission inspection and reinspec -
+tion.  (1) GENERAL.  (a)  All nonexempt vehicles that are custom-
+arily kept in counties certified under s. 110.20 (5) (a), Stats., or in
+a county whose county board adopts a resolution under s. 110.20
+(5) (b), Stats., shall be inspected as provided in this chapter.  Pen-
+alty for failure to comply with this section consists of either denial
+of registration renewal or suspension of vehicle registration as set
+forth in s. 341.63 (1) (e), Stats.
+Note:  The 6 counties of Kenosha, Milwaukee, Ozaukee, Racine, Washington and
+Waukesha were certified by the department of natural resources in a letter to the de-
+partment dated August 21, l981.  Sheboygan County was certified by the department
+of natural resources in a letter to the department dated April 20, 1992.
+(b)  Nothing in this chapter waives an expired registration be-
+cause of failure to pass inspection requirements by the registration
+deadline.
+(c)  A vehicle is first subject to the requirements of this chapter
+when the vehicle is 4 model years old.
+(d)  For purposes of calculating the number of model years of
+vehicle age under ss. 110.20 (13) and 285.30 (5), Stats., a model
+year shall be considered synonymous with a calendar  year.  Not
+satisfying the inspection requirements of this chapter prior to the
+date of registration expiration shall not extend vehicle age.
+Note:  For example, a 2004 model year vehicle shall be considered as being more
+than 4 model years old commencing January 1, 2008.
+(2) WHEN INSPECTION REQUIRED.  Nonexempt vehicles subject
+to an inspection shall have the inspection completed as provided
+in this chapter when any of the following apply:
+(a)  No more than 180 days prior to renewal of annual registra-
+tion.  This requirement applies when the vehicle is 4 model years
+old and every 2 years thereafter.
+(b)  W ithin 45 days of an ownership change registration is -
+suance for vehicles more than 5 model years old at the time of
+ownership change, unless the vehicle passed inspection within
+180 days prior to such ownership change registration, or
+Note:  For example, a 2004 model year vehicle shall be considered as being more
+than 4 model years old commencing January 1, 2008.
+(c)  Within 45 days of notification of failing a remote sensing
+test, as required by s. 110.20 (9) (g), Stats.
+(d)  W ithin 45 days of collector or hobbyist registration is -
+suance.
+(3) DOCUMENT REQUIREMENTS.  Each vehicle presented for in-
+spection at an inspection station or at an authorized inspection
+facility shall be accompanied by at least one of the following doc-
+uments which identifies the vehicle by make, model year , VIN,
+and license plate number:
+(a)  A current Wisconsin vehicle license renewal notice.
+(b)  A current Wisconsin certificate of registration.
+(c)  A current Wisconsin certificate of title.
+(d)  A vehicle inspection report if a reinspection, unless repair
+performance data has, upon performance of  the repair , been
+reported electronically.
+(e)  A letter of temporary exemption issued by the department.
+(f)  A properly completed substitute renewal notice, form
+MVD 2016.
+(g)  A letter issued by the department notifying the vehicle
+owner that the vehicle requires inspection.
+(h)  A properly completed voluntary inspection request form,
+obtainable from the manager at each of the inspection stations or
+at other authorized inspection facilities as determined by the
+department.
+(4) SCOPE AND NATURE OF INSPECTION.  The vehicle emission
+inspection shall consist of an OBD II inspection which indicates
+whether the MIL is commanded on and, if so, the DTCs causing
+the command.
+(5) EMISSION STANDARDS.  (a)  Vehicles that meet any of the
+following conditions shall fail the inspection:
+1.  The DLC is missing, has been tampered with, or is other-
+wise inoperable.
+2.  The MIL does not illuminate at all when the ignition key
+is turned to the “key on, engine off” position.
+3.  The MIL illuminates continuously or flashes when the
+vehicle is in the “key on, engine running “ condition, even if no
+DTCs are present.
+4.  A scan tool indicates that any DTCs are present and that the
+vehicle’s  MIL status is commanded on.
+(b)  If the MIL is not commanded to be illuminated, the vehicle
+shall pass the OBD inspection, even if DTCs are present.
+(6) EMISSION INSPECTION.  (a)  General requirements.  1.  Vehi-
+cles shall be inspected in an as−received condition.   Prior to
+inspection, the engine shall be operating at the manufacturer ’s
+recommended engine idle speed without excessive smoke, at nor-
+mal operating temperature, not overheating, as indicated by
+gauge, warning light or boiling radiator, and with all accessories
+off.
+2.  The vehicle shall be nearly level when inspected in order
+to prevent abnormal fuel distribution.
+4.  Vehicles that are designed to operate with more than one
+type of fuel shall be inspected on the fuel in use at the time of
+inspection.
+(d)  OBD inspection procedures.  1.  An OBD II inspection shall
+be performed on all model year 1996 and newer vehicles equipped
+with OBD II systems.  The OBD inspection shall be performed ac-
+cording to the procedures specified in section 85.2222 of the fed-
+eral rule.
+2.  If the vehicle’ s DLC cannot be located, or is located such
+that an inspector cannot reasonably access it during the course of
+a vehicle inspection, the vehicle shall receive a waiver equipment
+inspection as provided in s. T rans 131.05 and, pending the out -
+come of this inspection, be referred to a technical assistance center
+or other facility or inspector designated by the department to per-
+form the functions of a technical assistance center for issuance of
+a technical waiver of compliance as provided in s. T rans 131.04
+(1) (b).
+3.  The inspector shall connect  the inspection system to the
+vehicle by connecting the vehicle’ s DLC to the OBD II inspection
+system.  The inspection system shall  determine what readiness
+monitors are supported by the vehicle’ s OBD II system, and per-
+form a readiness evaluation  or applicable readiness monitors in
+accordance with the USEPA technical guidance.  If the readiness
+evaluation indicates that any on−board tests are not complete, the
+vehicle shall be rejected from inspection.  V ehicles rejected
+because on−board tests are not complete shall be required to leave
+the inspection station, pursue a means of completing on−board
+tests, and return for inspection.
+4.  An exception is allowed for model year 1996 to model year
+2000 vehicles, with 2 or fewer unset readiness monitors, and for
+model year 2001 and newer vehicles with no more than one unset
+readiness monitor.  Vehicles from those model years which would
+otherwise pass the OBD inspection, but for  the unset readiness
+monitors in question, may be issued a passing certificate without
+being required to operate the vehicle in such a way as to activate
+those particular readiness monitors.  Vehicles from those model
+years with unset readiness monitors which also have DTCs stored
+resulting in the MIL to be commanded on shall fail  the OBD in-
+spection.
+5.  If the inspection computer system is not able to download
+the vehicle OBD II records, the OBD inspection shall be aborted,
+and the vehicle shall be reinspected with an OBD II inspection in
+a separate inspection facility inspection lane.
+8.  If the malfunction indicator  status indicates that the MIL
+has been commanded to be illuminated, the inspection system
+148 Trans 131.03 WISCONSIN ADMINISTRATIVE CODE
+File inserted into Admin. Code 8−1−2023. May not be current beginning 1 month after insert date. For current adm. code see:
+http://docs.legis.wisconsin.gov/code/admin_code
+Register July 2023 No. 811
+shall record all DTCs resulting in MIL illumination in the vehicle
+inspection record.
+10.  Vehicles failing the OBD inspection may not be reregis-
+tered within the state of Wisconsin until such failing items have
+been repaired or replaced if necessary as required by s. 285.30 (6),
+Stats.
+(10) REINSPECTIONS.  (a)  V ehicles failing initial  inspection
+may receive a reinspection at no additional charge under the fol-
+lowing conditions:
+1.  The reinspection shall take place within 30 days of the ini-
+tial inspection or the owner or lessee shall present satisfactory evi-
+dence that the repairs and adjustments which were performed on
+the vehicle could not have been made within 30 days of the initial
+inspection.  Additionally, the vehicle shall have been repaired or
+adjusted according to s. 110.20, Stats., and this chapter.
+2.  The vehicle shall be accompanied by its previous vehicle
+inspection reports.  Repair information, as completed by the per-
+son performing the repairs, shall be indicated in the space  pro-
+vided on the reports, unless it is reported electronically, upon per-
+formance of the repair .  The completed repair section on  the
+vehicle inspection report, or the data reported electronically, shall
+indicate all of the following:
+a.  The repairs performed as well as any recognized automo-
+tive emission repair technician recommended repairs not  per -
+formed per owner’ s request.
+b.  The name, address and telephone number of the repair fa-
+cility.
+c.  The name of the individual who performed the repairs.
+d.  If available, the  appropriate identification number of the
+recognized repair facility and technician.
+3.  The vehicle is not prohibited from inspection pursuant to
+sub. (11).
+(b)  2.  A vehicle that fails the  OBD inspection shall be rein -
+spected after repair provided a readiness evaluation indicates that:
+a.  All applicable on−board tests are complete for the compo-
+nent for which the vehicle failed its prior inspection, and
+b.  All applicable on–board  tests are complete except as
+allowed under sub. (6) (d).
+Note:  For example, a catalytic monitor must be ready after a catalyst is repaired.
+(c)  If the vehicle passes the reinspection, the contractor shall
+retain all previously−issued vehicle inspection reports and issue
+a vehicle inspection report indicating compliance.  If the vehicle
+does not pass the reinspection, the contractor shall issue a vehicle
+inspection report indicating non−compliance.  If the owner or les-
+see requests a waiver of compliance from emission limitations,
+the waiver investigator shall review the request and shall either
+approve or deny the request in accord with s. Trans 131.04.  If ap-
+proved, the waiver investigator shall retain all previously−issued
+vehicle inspection reports, except the latest on which the  waiver
+is indicated as granted.
+(d)  The following limitations on the total number of  inspec-
+tions performed at no additional char ge shall apply for each ve -
+hicle requiring compliance with this chapter:
+1.  A vehicle may receive no more than 2 reinspections.  The
+reinspections shall occur within 30 days of initial inspection.
+2.  If the vehicle does not meet applicable emission inspection
+standards, the owner or lessee may apply for a waiver of com -
+pliance from these standards in accord with s. Trans 131.04.
+(e)  Nonexempt vehicles may be reinspected at any time ac -
+cording to the voluntary inspection procedure of s. Trans 131.07.
+(11) INSPECTION PROHIBITED.  The inspector shall refuse to per-
+form any inspection required by this section for any vehicle if any
+of the following apply:
+(b)  The vehicle is carrying explosives or other hazardous mate-
+rial which is recognized as a safety hazard by the contractor.
+(c)  The vehicle is towing a trailer or another vehicle which is
+considered a safety hazard by the contractor.
+(d)  Gasoline, oil or other fluid  leaks are considered a safety
+hazard by the contractor.
+(e)  The vehicle exhibits excessive idle speed, in the judgment
+of the contractor.
+(f)  The vehicle is emitting smoke in amounts greater than the
+limitations specified in s. NR 485.05.
+(j)  The vehicle is subject to a manufacturer’ s recall for emis-
+sion problems and the recall repair has not been performed.  Ve-
+hicles for which emission−related recall notices have been issued
+shall have the recall repairs completed prior to submitting the ve-
+hicle for inspection.  The owners or lessees of these vehicles shall
+present proof of compliance with the recall notice at time of in -
+spection, unless the emission−related recall notice has been issued
+within 45 days prior to submitting the vehicle for inspection.  This
+paragraph applies to vehicles for which emission−related recall
+notices have been issued after January 1, 1995.
+(k)  The vehicle operator refuses to disclose the odometer read-
+ing to the inspector.
+(m)  Upon a reinspection, the vehicle operator fails to provide
+a properly completed repair form to the inspector, unless the repair
+information is reported electronically , upon performance of the
+repair.
+(n)  The vehicle exhibits any condition which is recognized as
+a safety hazard by the contractor, or any condition that appears to
+the contractor as making the vehicle unsafe for inspection.
+(o)  Vehicles shall be rejected from inspection if a scan of the
+vehicle’s  OBD II system reveals a “not ready” status for 3 or more
+readiness monitors on model year 1996 through model year 2000
+vehicles, or for 2 or more readiness monitors on model year 2001
+and newer vehicles, as provided in 40 CFR 85.2222 (c) (2).
+(12) RECONSTRUCTED AND HOMEMADE VEHICLES.  Any nonex-
+empt vehicle registered as reconstructed or homemade under s.
+341.268, Stats., shall be  inspected for compliance with require -
+ments applicable to the model year of the vehicle as indicated on
+the vehicle’ s registration documents,  unless the owner both re -
+quests that the vehicle be inspected by engine year and provides
+a completed MV2588, exchanged engine certification form, to the
+waiver investigator.  In addition, the vehicle owner shall locate the
+engine number on the engine for purposes of engine year verifica-
+tion by the waiver investigator.
+(13) VEHICLES WITH EXCHANGED ENGINES.  (a)  A motor ve -
+hicle with an exchanged engine shall be subject to OBD II inspec-
+tion compliance standards established in s. Trans 131.03 (5).
+(14) TRUCKS AND V ANS.  All trucks and vans shall be inspected
+in accord with the standards applicable  to the manufacturer ’s
+GVWR as indicated either in the vehicle’ s identification number
+or on the vehicle’s doorpost.  If there is no manufacturer’ s GVWR
+available, then the vehicle shall be inspected according to the reg-
+istered GVWR as indicated on the vehicle’ s entry document
+described in sub. (3).
+(15) VEHICLE INSPECTION REPORT.  (a)  The operator of each ve-
+hicle inspected shall receive a vehicle inspection report, MV
+2470, at the conclusion of the inspection.  The vehicle inspection
+report data may also be reported electronically .  The inspection
+report, or the vehicle inspection report data reported  electroni-
+cally, shall indicate:
+1.  Inspection serial number.
+2.  Date of the inspection.
+3.  VIN.
+4.  Year, make and type of the vehicle.
+5.  Number of cylinders or engine displacement.
+6.  Transmission type.
+7.  Fuel type.
+8.  Present odometer reading in thousands of miles.
+149  Trans 131.04DEPARTMENT OF TRANSPORTATION
+File inserted into Admin. Code 8−1−2023. May not be current beginning 1 month after insert date. For current adm. code see:
+http://docs.legis.wisconsin.gov/code/admin_code
+Register July 2023 No. 811
+12.  The results of any OBD inspection.
+13.  The final result.
+14.  Instructions indicating that the inspection report, together
+with the vehicle, shall be returned to any inspection station or
+other authorized inspection facility for reinspection to occur.
+15.  Space to indicate who repaired the vehicle, such as owner,
+repair facility or other private party.
+16.  Space to indicate the name, address and telephone number
+of the facility where repairs occurred.
+17.  Space to indicate the appropriate identification number of
+the recognized repair facility and technician, if available.
+18.  Space to indicate the cost of parts and labor for emission−
+related repair.
+19.  Space to indicate the emission−related repairs performed.
+20.  Space to  indicate the emission−related repairs recom -
+mended, but not performed per owner’ s request.
+21.  Advisory diagnostic information for failing vehicles.
+22.  Vehicle license number, if available.
+23.  Inspection station or other authorized inspection facility
+number, and inspector number if the inspection is performed by
+an inspector.
+24.  Emission inspection start time and the time of final emis-
+sions result determination.
+25.  GVWR.
+26.  Inspection number, such as initial, first reinspection, or
+subsequent reinspection number.
+28.  A statement indicating the availability of emission war -
+ranty coverage as provided in section 207 of the Clean Air Act.
+29.  A statement certifying that the inspection is performed in
+accordance with applicable federal regulations.
+30.  The cause for any aborted or rejected inspection.
+31.  Other information as the department may reasonably re-
+quire to enable it to determine compliance with this chapter, state
+laws, federal laws and regulations.
+(b)  Each operator of a vehicle failing the inspection shall
+receive an inspection report supplement containing repair , rein-
+spection and waiver application instructions, as well as informa-
+tion on the possible causes of failure found during the inspection.
+(c)  Each operator of a vehicle failing the initial inspection shall
+receive a list of recognized automotive emission repair techni -
+cians and recognized repair facilities by area which includes infor-
+mation required under s. Trans 131.15.  This listing may include
+other consumer information useful in obtaining vehicle emission
+repair service.
+History:  Cr. Register, June, 1993, No. 450, eff. 7−1−93; am. (1) (a), (2) (intro.),
+(a), (b), (3) (intro.), (6) (a) 1., (7) (a) to (c), r. and recr. (2) (c), (6) (b), (c), cr. (2) (d),
+(6) (a) 4., r. (3) (f), (7) (d), (8), (9), renum. (3) (g) to (i) to be (f) to (h), (10) and (12)
+to be (12) and (14) and am. all, renum. (11) to be (13) and am. (b) and (c), renum. (8),
+(9) and (13) to be (10), (11) and (15) and r. and recr., Register, April, 1996, No. 484,
+eff. 5−1−96; correction in (1) (d) and (7) (c) made under s. 13.93 (2m) (b) 7., Stats.,
+Register, April, 1999, No. 520; am. (2)  (b), Register, August, 2000, No. 536, ef f.
+9−1−00; am. (4), (6) (b) 3., (7) (a) (intro.), (c), (9) (g), r. (6) (b) 8., (8) (g), (15) (a) 12.,
+renum. (10) (b) to be (10) (b) 1., cr. (6) (d), (10) (b) 2., (11) (o), Register, May, 2001,
+No. 545, eff. 6−1−01; CR 01−121: am. (2) (a), Register March 2002 No. 555, ef f.
+4−1−02; CR 07−114: am. (title), (1) (a), (c), (2) (intro.) and (a), (3) (intro.), (d) and
+(h), (4), (6) (d) 1., 3., 5., 8. and 10., (10) (a) 2., (b) 2., (d) 2., (11) (m) to (o), (12), (13)
+(a), (14) and (15) (a) (intro.), 14. and 23., (b) and (c), r. and recr. (5), (6) (d) 2., r. (6)
+(a) 3., (b), Table 2 and (c), (d) 6., 7., and 9., (7) to (9), (10) (b) 1., (11) (a) and (g) to
+(i), (13) (b) to (d), (15) (a) 9. to 11. and 27. Register June 2008 No. 630, eff. 7−1−08;
+CR 10−088: am. (title), (4), (6) (title), (a) 1., 2., 4., (d) 2., 3., 5., and 8., (10) (a) 3. and
+(d) 2., (11) (title), (n) and (o) and (15) (a) 1., 2., 12., 23., 24. and 29. Register Decem-
+ber 2010 No. 660, eff. 1−1−11; 2013 Wis. Act 363: r. (11) (L), am. (15) (c) Register
+May 2014 No. 701, eff. 6−1−14.
+Trans 131.04 Waiver of compliance.  (1) ELIGIBILITY .
+A vehicle which fails the initial inspection, and which after repair
+or adjustment, or both, again fails the inspection, shall be eligible
+for a waiver of compliance valid until the next required inspection
+of the vehicle provided the following conditions are met:
+(a)  For all 1996 and newer model year vehicles which have not
+exceeded the terms of the manufacturer ’ s emission performance
+or defect warranty coverage at the time of the scheduled emission
+inspection, the operator shall either present  a written statement
+from a vehicle dealership or other manufacturer ’ s designated
+agent declaring that the vehicle is not eligible for emission control
+system warranty work, or present a dated invoice indicating that
+the vehicle has received eligible emission control system warran-
+ty work.
+(b)  The emission related repairs and adjustments made to the
+vehicle’s  emission control system, including cost for parts  and
+labor, have been performed on the vehicle within 180 days prior
+to renewal of annual registration or within 180 days of vehicle
+ownership change registration and such repairs and  adjustments
+are indicated in the space provided on  the vehicle inspection
+report by the person performing the repairs, unless the repair
+information is reported electronically , upon performance of the
+repair.  If the labor for vehicle repair is performed without charge
+or cost, only the cost of replacement parts shall be indicated.  An
+itemized receipt indicating the parts, labor cost, and  date of pur-
+chase shall be provided to the waiver investigator.
+(c)  1.  For all vehicles which have exceeded the terms of the
+manufacturer’s  emission performance or defect warranty cover -
+age at the time  of the scheduled emission inspection, the owner
+shall have emission related repairs performed on the vehicle at a
+recognized repair facility as defined in s. Trans 131.02 (39) or by
+a recognized automotive emission repair technician as defined in
+s. Trans 131.02 (38).  The operator shall present a vehicle inspec-
+tion report with the repair information section completed accord-
+ing to s. T rans 131.03 (13), unless it is reported  electronically,
+upon performance of the repair.  The statement shall contain the
+actual cost of emission related repairs performed on the vehicle
+including itemized costs for parts and labor.  If the labor for vehi-
+cle repair is performed without  charge or cost, only the cost of
+replacement parts shall be indicated.  An itemized receipt  indi-
+cating the parts, labor cost and date of repair shall be provided to
+the waiver investigator.
+2.  Proof of recognized automotive emission repair technician
+training shall consist of either ASE certification in level L1, or
+valid documentation indicating successful completion of a WISE-
+TECH course under s. Trans 131.16 or an equivalent program as
+determined by the department.
+(d)  The vehicle shall pass a waiver emission equipment inspec-
+tion as described in s. Trans 131.05.
+(2) CRITERIA.  A vehicle which meets the eligibility require -
+ments of sub. (1) may receive a waiver of compliance valid until
+the next required inspection of the vehicle if it meets any one of
+the following conditions:
+(b)  Technical difficulties in the manufacturer’ s design or con-
+struction of the vehicle or restrictions imposed by the department
+on the operation of vehicles registered under s. 341.14 (1m),
+Stats., prevent emission inspection of the vehicle.
+(c)  After repairs are  performed by a recognized automotive
+emission technician, a complete, documented, physical and func-
+tional diagnosis and inspection performed at a technical assist -
+ance center by the master automotive technician or at another
+facility by an inspector designated by the department to perform
+the functions of a technical assistance center shows that no addi-
+tional emission related repairs could produce a passing result.
+(d)  If the owner is in compliance with the requirements set
+forth in s. 110.20 (13), Stats., the department shall issue a waiver
+of compliance as required by s. 110.20 (13), Stats.
+History:  Cr. Register, June, 1993, No. 450, eff. 7−1−93; emerg. am. (1) (intro.),
+(a) and (b), (2) (intro.), (a) and (b), r . and recr. (1) (c), cr . (1) (d) and (2) (c), ef f.
+12−4−95; am. (1) (intro.), (a), (b), (2) (intro.), (a), (b), r. and recr. (1) (c), cr. (1) (d),
+(2) (c), Register, April, 1996, No. 484, eff. 5−1−96; am. (1) (intro.), Register, May,
+2001, No. 545, eff. 6−1−01; CR 01−121: am. (1) (b), Register March 2002 No. 555,
+eff. 4−1−02; CR: 07−114: am. (1) (intro.), (a), (b) and (c) 1. and 2., r. (2) (a), cr. (2)
+(d) Register June 2008 No. 630, eff. 7−1−08; CR 10−088: am. (2) (b) and (c) Register
+December 2010 No. 660, eff. 1−1−11.
+150 Trans 131.05 WISCONSIN ADMINISTRATIVE CODE
+File inserted into Admin. Code 8−1−2023. May not be current beginning 1 month after insert date. For current adm. code see:
+http://docs.legis.wisconsin.gov/code/admin_code
+Register July 2023 No. 811
+Trans 131.05 Waiver emission equipment inspec -
+tion.  (1) PURPOSE.  When a vehicle owner or lessee requests a
+waiver of compliance from emission inspection standards, the
+emission equipment shall be inspected by the waiver investigator.
+This waiver emission equipment inspection is designed to detect
+either tampering or disrepair on the vehicle.  The waiver emission
+equipment inspection does not include removal or disassembly of
+parts except for removal of the fuel cap.  The waiver investigator
+shall determine both the presence and proper connection, if origi-
+nally equipped, of the following:
+(a)  A properly sized fuel filler restrictor.
+(b)  A properly connected catalytic converter.
+(c)  A proper fuel cap.
+(d)  A proper evaporative emission control canister system.
+(e)  A properly connected positive crankcase ventilation sys -
+tem.
+(f)  A proper exhaust gas recirculation system.
+(g)  A proper air pump system.
+(h)  A properly installed thermostatic air cleaner system.
+(i)  A properly connected oxygen sensor.
+(j)  An operational and non−active MIL or other emission ser-
+vice indicator light, regardless of whether the MIL or emission
+service indicator light is illuminated.
+(3) CONSEQUENCES.  V ehicles failing the waiver emission
+equipment inspection shall not receive a waiver of compliance or
+acceptance for voluntary inspection under s. T rans 131.07 until
+the failing  emission equipment items are either repaired or
+replaced.
+History:  Cr. Register, June, 1993, No. 450, eff. 7−1−93; emerg. am. (1) to (3), cr.
+(1) (i) and (j), eff. 12−4−95; am. (1), (2), (3), cr. (1) (i), (j), Register, April, 1996, No.
+484, eff. 5−1−96; am. (1) (j), Register, May, 2001, No. 545, eff. 6−1−01; CR 07−114:
+r. (2), am. (3) Register June 2008 No. 630, eff. 7−1−08; CR 10−088: am. (1) (intro.)
+and (j) and (3) Register December 2010 No. 660, eff. 1−1−11.
+Trans 131.06 Inspection compliance.  (1) REGISTRA-
+TION ELIGIBILITY .  To be eligible for license plate renewal or owner-
+ship change registration, collector registration, or hobbyist regis-
+tration, a vehicle shall comply with one of the following:
+(a)  Either pass the emission inspection or receive a waiver of
+compliance from emission limitations.
+(b)  Receive  a temporary exemption according to s. T rans
+131.08.
+(2) EVIDENCE.  Evidence of inspection compliance shall con-
+sist of one of the following:
+(a)  A vehicle inspection report indicating either “passed” or on
+which the waiver investigator has indicated “waived.”
+(b)  An entry on the  department’ s data records indicating the
+vehicle license number, VIN, inspection serial number , and the
+notation “passed”or “waived.”
+History:  Cr. Register, June, 1993, No. 450, eff. 7−1−93; emerg. am. (1) (intro.)
+and (2), r. (1) (a), renum. (1) (b) and am., eff. 12−4−95; am. (1) (intro.), (2), r. (1) (a),
+renum. (1) (b) to be (a) and am., cr. (1) (b), Register, April, 1996, No. 484, eff. 5−1−96;
+CR 10−088: am. (2) (b) Register December 2010 No. 660, eff. 1−1−11.
+Trans 131.07 Voluntary inspections.  (1) CRITERIA.
+The contractor shall inspect any nonexempt vehicle presented for
+inspection at an inspection station or other authorized inspection
+facility provided:
+(a)  The  vehicle operator provides a properly completed re -
+quest for voluntary emission inspection form, obtainable from the
+manager at each of the emission inspection stations or at other
+authorized inspection facilities as determined by the department.
+(b)  The vehicle is not prohibited from inspection under s. Trans
+131.03 (11).
+(c)  The operator presents payment to the contractor of a mone-
+tary fee as determined by contract.
+(2) EFFECT.  The voluntary presentation of a  vehicle for in -
+spection in accordance with sub. (1) shall not impose any require-
+ment upon a vehicle owner to comply with this chapter.
+History:  Cr. Register, June, 1993, No. 450, eff. 7−1−93; emerg. am. eff. 12−4−95;
+am. Register, April, 1996, No. 484, eff. 5−1−96; CR 07−114: am. (1) (intro.), (a) and
+(2) Register June 2008 No. 630, eff. 7−1−08; CR 10−088: am. (1) (b) Register Decem-
+ber 2010 No. 660, eff. 1−1−11.
+Trans 131.08 Letter of temporary exemption from
+emission inspection requirements.  (1) ELIGIBILITY .  When
+a vehicle subject to the emission inspection requirements of this
+chapter is unavailable for an inspection due to either the vehicle’s
+absence or inoperative condition, or the owner ’ s or lessee’ s ab-
+sence or incapacity, during the 180 day period prior to the license
+expiration date, or within 45 days of an ownership change regis-
+tration or registration as  a collector or hobbyist vehicle, and in -
+spection is not available under s. Trans 131.10, the owner or lessee
+may request of the department a letter of temporary exemption
+from the requirements of this chapter.
+(2) APPLICATION.  The department shall provide an application
+form, MVD2472, on which the vehicle owner or lessee shall state
+their name, permanent address, temporary address, if used, and
+daytime telephone number .  The vehicle owner or lessee shall
+identify the vehicle involved, provide the reason for requesting a
+letter of temporary exemption, certify that the vehicle is unavail-
+able for emission inspection, and state the date when the vehicle
+will again be operated within a W isconsin county subject to the
+emission inspection requirements of this chapter.
+(3) ISSUANCE.  Upon approval of the application by the depart-
+ment, a letter of temporary exemption shall be issued to the ve -
+hicle owner or lessee.  Such approval letter shall allow the owner
+or lessee to proceed with vehicle registration renewal.  As a condi-
+tion of granting the letter of temporary exemption, the department
+shall require that the vehicle be inspected within 30 days of  the
+date the applicant indicates that the vehicle will again be operated
+within a Wisconsin county subject to the emission inspection re-
+quirements of this chapter.
+(4) DURATION.  A letter of temporary exemption shall not be
+valid longer than the period of registration renewal.
+History:  Cr. Register, June, 1993, No. 450, eff. 7−1−93; emerg. am., eff. 12−4−95;
+am. (1) to (3), Register, April, 1996, No. 484, eff. 5−1−96; CR 01−121: am. (1), Reg-
+ister March 2002 No. 555, eff. 4−1−02.
+Trans 131.09 Temporary operating permits.
+(1) GENERAL.  The department or  its designated representative
+may issue a temporary operating permit, valid for not more than
+30 days, to allow time for inspection and necessary repairs and ad-
+justments of any vehicle subject to inspection under s. 110.20 (6),
+Stats.  No temporary operating permit shall be issued for a vehicle
+with registration expired for more than 90 days.
+(2) APPLICATION.  The department shall provide an application
+form, MV2505, on which the vehicle  owner or lessee shall state
+their name, permanent address, and daytime telephone number .
+The vehicle owner or lessee shall identify  the vehicle involved,
+and provide the reason for requesting a temporary operating per-
+mit.
+(3) ISSUANCE.  Upon approval of the application, the depart -
+ment shall issue a temporary license plate to the vehicle owner or
+lessee.  Such plate shall contain the date of expiration.  The owner
+or lessee shall affix the temporary license plate to the vehicle in
+accord with the requirements of s. 341.09 (5), Stats.
+(4) TERM.  A temporary operating permit shall be valid for 30
+days after issuance.  The department may approve the application
+for a second or third temporary operating permit provided that ap-
+plication is made within 90 days of the vehicle’s registration expi-
+ration date.
+History:  Emerg. cr., eff. 12−4−95; cr. Register, April, 1996, No. 484, eff. 5−1−96;
+correction in (3) made under s. 13.93 (2m) (b) 7., Stats., Register, April, 1999, No.
+520; CR 07−114: am. (3) Register June 2008 No. 630, eff. 7−1−08.
+151  Trans 131.13DEPARTMENT OF TRANSPORTATION
+File inserted into Admin. Code 8−1−2023. May not be current beginning 1 month after insert date. For current adm. code see:
+http://docs.legis.wisconsin.gov/code/admin_code
+Register July 2023 No. 811
+Trans 131.10 Reciprocity.  (1) COMPLIANCE.  When a ve-
+hicle subject to the emission inspection requirements of this chap-
+ter is unavailable for an inspection due to the vehicle’ s absence
+from the W isconsin inspection area  during the 180 day period
+prior to the license expiration date, or within 45 days of an owner-
+ship change registration or registration as a collector or hobbyist
+vehicle, but is operating in another nonattainment area requiring
+vehicle emission inspections, the owner or lessee shall submit an
+official vehicle inspection report, or the equivalent document,
+from that area indicating that the vehicle has passed the emission
+inspection in that area.
+(2) REGISTRATION ELIGIBILITY .  The submission of satisfactory
+evidence of emission inspection compliance from another nonat-
+tainment area shall allow the owner or lessee to proceed with ve-
+hicle registration renewal or to satisfy ownership change, collec-
+tor, or hobbyist vehicle registration inspection requirements.
+(3) EXCEPTION.  When a vehicle operates in a nonattainment
+area which does not allow the inspection of vehicles from other
+nonattainment areas, the owner or lessee may apply for a tempo-
+rary exemption under s. Trans 131.08.
+History:  Emerg. cr., eff. 12−4−95; cr. Register, April, 1996, No. 484, eff. 5−1−96;
+CR 01−121: am. (1), Register March 2002 No. 555, eff. 4−1−02.
+Trans 131.1 1 Audits of inspection facilities.
+(1) GENERAL.  Representatives of the department or its designated
+agent shall conduct audits of inspection equipment, procedures,
+personnel and records as follows:
+(a)  All contractor inspection functions, including those occur-
+ring at the inspection stations, other authorized inspection facili-
+ties, technical assistance centers or other facility by an inspector
+designated by the department to perform the functions of a techni-
+cal assistance center, and vehicles used to conduct remote sensing,
+shall be audited on an unscheduled basis, at a minimum, according
+to the frequency established in the federal rule.
+(b)  Scheduled audits may be performed at any time.
+(c)  Either the department or its agent may conduct covert au-
+dits in order to satisfy the requirements of the federal rule.
+(d)  Audits shall be performed according to written procedures
+either established or approved by the department.
+(2) EQUIPMENT AUDITS.  (c)  Equipment used to perform
+remote sensing tests shall be audited according to written proce-
+dures either established or approved by the department.
+(d)  Equipment used to perform OBD inspections shall be au-
+dited according to written  procedures either established or ap -
+proved by the department.
+(e)  If equipment fails to operate within contractually specified
+tolerance during an overt or covert audit, the department’s quality
+assurance auditor shall  immediately re−audit the failing equip -
+ment.  If the equipment fails again, the department’ s quality assur-
+ance auditor shall require the station manager to close the affected
+lane or other authorized inspection facility or emission inspection
+operation until such time as the equipment is properly repaired
+and documentation of corrective actions is available for review by
+the department.
+(3) PENALTIES.  Equipment failure shall result in the  im -
+position of a penalty .  Penalties are established in the  penalty
+schedule section of the contract and may require that the contrac-
+tor either incur liquidated damages or suspend or revoke inspector
+licenses, or both.
+History:  Cr. Register, June, 1993, No. 450, eff. 7−1−93; renum. Trans 131.09 to
+be 131.11 and r. and recr., Register, April, 1996, No. 484, eff. 5−1−96; renum. (2) (d)
+to be (2) (e), cr. (2) (d), am. (3) (b), Register, May, 2001, No. 545, eff. 6−1−01; CR
+07−114: am. (1) (a) and (2) (e), r . (2) (a) and (b) Register June 2008 No. 630, ef f.
+7−1−08; CR 10−088: am. (1) (intro.) and (a) and (2) (e) Register December 2010 No.
+660, eff. 1−1−11; 2013 Wis. Act 363: renum. (3) (a) to (3), r. (3) (b) Register May 2014
+No. 701, eff. 6−1−14.
+Trans 131.12 Equipment specifications and quality
+control.  (1) GENERAL.  All equipment utilized for emission in-
+spections shall be calibrated and maintained according to the stan-
+dards established in the federal rule.
+(2) SPECIFICATIONS.  Equipment used to perform OBD inspec-
+tions shall meet the most current version of each of the following
+SAE International standards: J1850, J1962, J1978, and J1979.
+(3) QUALITY CONTROL.  All equipment used in the  emission
+inspection process shall be maintained according to all manufac-
+turer specifications.
+History:  Cr. Register, June, 1993, No. 450, eff. 7−1−93; renum. Trans 131.10 to
+be 131.12 and r. and recr., Register, April, 1996, No. 484, eff. 5−1−96; cr. (2) (d), Reg-
+ister, May, 2001, No. 545, eff. 6−1−01; CR 07−114: r. and recr. (2), am. (3) Register
+June 2008 No. 630, eff. 7−1−08; CR 10−088: am. (3) Register December 2010 No.
+660, eff. 1−1−11.
+Trans 131.13 Licensing of inspectors.  (1) TRAINING.
+(a)  All contractor employees and all employees of any authorized
+inspection facility subcontractor who perform any official inspec-
+tion functions shall have a license issued by the contractor .  No
+person may either receive a license or have a license renewed as
+an inspector unless the person demonstrates to the department, by
+training and examination, proficiency in all of the following:
+1.  Air pollution causes and effects.
+2.  Purpose, function and goals of the inspection program.
+3.  State inspection regulations.
+4.  Inspection procedures and rationale for their design.
+5.  Emission control devices, configuration and inspection.
+6.  Inspection equipment operation and maintenance.
+7.  Quality control procedures.
+8.  Public relations.
+9.  Safety and health issues related to the inspection process.
+(b)  Trainees shall both pass, by a minimum of 80% correct re-
+sponses, a written test and demonstrate the ability, without the as-
+sistance of another person, to conduct a proper inspection as a con-
+dition of successfully completing a licensing examination
+administered by a party other than the contractor.
+(c)  An applicant for a vehicle emissions inspection license who
+fails an examination for inspector shall successfully complete the
+applicable vehicle emissions inspector training program prior  to
+reexamination for license.
+(2) LICENSING.  Upon completion of training and all other li -
+censing requirements, the contractor shall issue a photo identifica-
+tion badge containing the inspector’ s photograph, name, unique,
+non−transferable inspector number and the expiration date of the
+inspector’s  license.  Training and licensing records for each em-
+ployee so licensed shall be maintained both at the contractor ’s
+headquarters and at the employee’ s primary inspection station or
+other authorized inspection facility.
+(3) RENEWAL.  Licenses issued to vehicle emissions inspectors
+shall be valid for 2 years.  Inspectors shall complete both refresher
+training and testing prior to license renewal.
+(4) AUDITING.  Representatives of the department or its desig-
+nated agent shall conduct both overt and covert, scheduled and un-
+scheduled audits.
+(5) PENALTIES.  Failure of either the contractor or any of its
+employees or of any authorized inspection facility subcontractor
+or its employees to pass any portion of an overt or covert  audit
+shall result in the imposition of a penalty.  These penalties, estab-
+lished in the penalty schedule section of the contract, may require
+that the contractor either suspend or revoke inspector licenses or
+incur liquidated damages, or both.
+(6) CHALLENGE MECHANISM.  (a)  A motorist who alleges that
+either an incorrect inspection occurred or that fraud or abuse in -
+fluenced the results of the inspection may contest the results  of
+that inspection by notifying the department immediately after the
+inspection, or as soon as possible after discovering the problem.
+(b)  The department’ s quality assurance representative shall
+investigate the complaint.  If the results of that investigation indi-
+cate that the inspection may have occurred incorrectly or that
+152 Trans 131.13 WISCONSIN ADMINISTRATIVE CODE
+File inserted into Admin. Code 8−1−2023. May not be current beginning 1 month after insert date. For current adm. code see:
+http://docs.legis.wisconsin.gov/code/admin_code
+Register July 2023 No. 811
+fraud or abuse may have influenced the results of the inspection,
+the department’ s quality assurance representative shall arrange
+for a reinspection at the technical assistance center or other facility
+by an inspector designated by the department to perform the func-
+tions of a technical assistance  center at a time convenient to all
+parties.
+(c)  Results of the  technical assistance center inspection or
+inspection by an inspector designated by the department to per -
+form the functions of a technical assistance center shall supersede
+the results of the contested station lane or other authorized inspec-
+tion facility inspection.
+History:  Cr. Register, June, 1993, No. 450, eff. 7−1−93; r. and recr. Register, April,
+1996, No. 484, eff. 5−1−96; am. (1) (a) (intro.), (2), (5) (a) and (b), Register, May,
+2001, No. 545, eff. 6−1−01; CR 07−114: am. (1) (a) and 6., (2), (5) (a) and (b) and
+(6) (c) Register June 2008 No. 630, eff. 7−1−08; CR 10−088: am. (1) (a) 4. and 6. and
+(6) (b) and (c) Register December 2010 No. 660, ef f. 1−1−11; 2013 Wis. Act 363:
+renum. (5) (a) to (5), r. (5) (b) Register May 2014 No. 701, eff. 6−1−14.
+Trans 131.14 Remote sensing.  (1) GENERAL.  The con-
+tractor shall use remote sensing to measure the in−use vehicle
+emissions in any county identified under s. 110.20 (5), Stats.  Any
+nonexempt vehicle that has passed its last emission reinspection
+under s. Trans 131.03 (11), and fails the remote sensing test by ex-
+ceeding the remote emission standards under sub. (4), shall have
+an emission inspection under s. 110.20 (9) (g), Stats.  Penalty for
+failure to comply with this section consists of suspension of vehi-
+cle registration as set forth in s. 341.63 (1) (e), Stats.
+(2) WHEN INSPECTION REQUIRED.  (a)  The owner or lessee of
+a nonexempt vehicle that fails the remote sensing test shall have
+an emission inspection within 45 days of notification of a remote
+sensing test failure.
+(b)  Vehicles that fail the remote sensing test, but are scheduled
+to receive an emission inspection required under s. 1 10.20 (6),
+Stats., within 90 days of remote sensing test failure, or for which
+temporary exemptions will expire within 30 days of remote sens-
+ing test failure, shall receive notification of the remote sensing test
+failure but are  exempt from the inspection requirements of s.
+110.20 (9) (g), Stats.
+(c)  Vehicles that have a valid emission inspection waiver at the
+time of remote sensing test failure are exempt from the inspection
+requirements of s. 110.20 (9) (g), Stats.
+(3) SCOPE AND NATURE OF REMOTE SENSING TEST.  The test shall
+consist of using an open−path infrared sensor to measure the con-
+centration of one or more of the following pollutants present in the
+vehicle’s  exhaust:
+(a)  Hydrocarbons.
+(b)  Carbon monoxide.
+(c)  Carbon dioxide.
+(d)  Oxides of nitrogen.
+(4) EMISSION STANDARDS.  Vehicles that exceed the standards
+shown in Table 1 shall fail the remote sensing test:
+TABLE 1
+MODEL YEAR GVWR
+REMOTE SENSING
+STANDARD
+HC(ppm) CO(%) NOx(%)
+ 1996 and newer All 400 2.0 Reserved
+Note:  Changes to these standards may occur either if the USEPA establishes re-
+mote sensing standards or if the department’s program evaluation indicates that mod-
+ifications should occur to identify more accurately gross polluting vehicles.
+(5) VEHICLE INSPECTION NOTICE.  The contractor shall mail a
+vehicle inspection notice to the owner or lessee of vehicles that fail
+a remote sensing test conducted under this section.  The  vehicle
+inspection notice shall be mailed to the owner’ s or lessee’s address
+indicated on the department’ s registration database.  The vehicle
+inspection notice shall include all of the following:
+(a)  Remote sensing test serial number.
+(b)  Date, location and time of the remote sensing test.
+(c)  License plate number.
+(d)  VIN.
+(e)  Emission remote sensing test results and standards for the
+vehicle.
+(f)  Instructions indicating that the report, together with the ve-
+hicle, shall be brought to any inspection station or other autho -
+rized inspection facility to receive an inspection as required under
+s. Trans 131.14 (2), if required.
+(g)  Information describing the remote sensing test.
+(h)  Explanation of both the legal requirements and registration
+penalties for failure to comply with an inspection notice.
+(i)  Other information that the department may decide to in -
+clude to improve understanding of the remote sensing test.
+(6) REMOTE SENSING EQUIPMENT SPECIFICATIONS AND MAINTE-
+NANCE.  (a)  All equipment utilized for remote sensing emission
+measurement shall be calibrated and maintained according to the
+manufacturer’s  specifications or as superseded by contract.
+(b)  Remote sensing equipment, personnel and procedures
+shall be subject to periodic audits by the department under s. Trans
+131.11.
+History:  Cr. Register, June, 1993, No. 450, eff. 7−1−93; r. and recr. Register, April,
+1996, No. 484, eff. 5−1−96; CR 07−114: am. (1), (2) (a), (4) and (5) (f) Register June
+2008 No. 630, eff. 7−1−08; CR 10−088: am. (3) (title) and (5) (a), (b) and (e) Register
+December 2010 No. 660, eff. 1−1−11.
+Trans 131.15 Performance monitoring of repair fa-
+cilities.  (1) GENERAL.  The department, through its emission
+inspection contractor, shall both collect emission repair data and
+inform the public and automotive repair industry regarding repair
+efficacy.
+(2) DATA COLLECTION.  Whenever a nonexempt vehicle  re -
+ceives a reinspection, the contractor shall  collect the following
+emission repair information from the vehicle inspection report as
+required by s. Trans 131.03 (11):
+(a)  The repairs performed.
+(b)  Any technician recommended repairs not performed,  per
+owner’s  request.
+(c)  The name and address of the facility that performed the re-
+pairs.
+(d)  The name of the person who performed the repairs.
+(e)  The identification number, if available, of the recognized
+repair facility or recognized automotive emission repair techni -
+cian, or both.
+(3) REPORTING.  (a)  The contractor shall compile a report
+which includes the emission repair facility name, address, tele -
+phone number, number  of vehicles submitted for reinspection,
+and percentages indicating the number of vehicles that have
+passed, failed, and received waivers after repair.
+(b)  Beginning in the third month  of the vehicle emission in -
+spection program, the contractor shall produce a summary report
+of the performance of local repair facilities that have repaired ve-
+hicles for reinspection.  The report shall be provided to the motor-
+ist at the time of initial vehicle emission inspection  failure.  The
+report shall be updated on a quarterly basis.
+(c)  Repair facilities shall receive summary reports at  least
+quarterly.  Reports to the repair facility shall include all informa-
+tion made available to the public and may include reports on indi-
+vidual technicians if so requested by the employing repair facility.
+(d)  The department may include additional statistics that con-
+vey information on the relative ability of repair  facilities in pro-
+viding effective emission repair.
+History:  Emerg. cr., eff. 12−4−95; cr. Register, April, 1996, No. 484, eff. 5−1−96;
+CR 10−088: am. (1) Register December 2010 No. 660, eff. 1−1−11.
+Trans 131.16 Automotive emission repair techni -
+cian training.  (1) GENERAL.  The department, in cooperation
+with community and technical colleges located in counties certi-
+fied under s. 110.20 (5) (a), Stats., shall establish guidelines for
+153  Trans 131.17DEPARTMENT OF TRANSPORTATION
+File inserted into Admin. Code 8−1−2023. May not be current beginning 1 month after insert date. For current adm. code see:
+http://docs.legis.wisconsin.gov/code/admin_code
+Register July 2023 No. 811
+assessing programs  for automotive emission repair technician
+education and training available at both public and private facili-
+ties.  The department shall designate programs  that meet these
+guidelines as  W isconsin emission technician training, or
+WISETECH, programs.  Any  public or private facility of fering
+automotive emission repair technician  training may request
+WISETECH designation from the department.
+(2) CRITERIA.  To meet WISETECH standards, training cour-
+ses shall, at a minimum, include instruction in:
+(a)  Diagnosis  and repair of malfunctions in computer con -
+trolled close−loop vehicles.
+(b)  Application of emission control theory and diagnostic data
+to the diagnosis and repair of vehicles failing OBD inspection.
+(c)  Utilization of diagnostic information on systematic or re-
+peated failures observed in OBD inspection.
+(d)  General training on the various subsystems related to en -
+gine emission control.
+(3) EQUIPMENT.  Both private and public facilities offering WI-
+SETECH designated automotive emission repair training courses
+shall have  available, and maintain in good working condition,
+tools and equipment necessary for the proper diagnosis, adjust -
+ment and repair of all nonexempt vehicles.  All equipment utilized
+in the training courses shall be maintained according to the manu-
+facturer’s  specifications.
+(4) PROGRAM RECOGNITION.  Programs shall be designated as
+meeting WISETECH standards if in compliance with  one of the
+following:
+(a)  The department approves the course curricula, equipment
+and facility.
+(b)  The training facility presents documentation that the
+course meets National Automotive Technician Education Foun-
+dation, Inc., standards.
+(5) TECHNICIAN RECOGNITION.  (a)  A person successfully com-
+pleting all phases of a WISETECH training program shall achieve
+the designation of “recognized automotive emission repair techni-
+cian” as defined in s. Trans 131.02 (38).
+(b)  A person who satisfactorily completes a WISETECH ap-
+proved automotive emission training course shall receive from the
+organization providing the training, an identification card which
+states the technician’ s name, the name and location of the course,
+the date of completion and a WISETECH identification number.
+(6) REPORTING.  Both private and public facilities offering WI-
+SETECH automotive emission repair training courses shall sup -
+ply the department with the names of the persons registered in
+their course, the percentage  successfully passing the course and
+the names and WISETECH identification numbers of those pass-
+ing.
+(7) SUPPLEMENTAL TRAINING.  The department may authorize
+periodic supplemental training as a requirement for a person to
+maintain the status of WISETECH automotive emission repair
+technician.
+(8) QUALITY ASSURANCE.  (a)  WISETECH training programs
+are subject to periodic monitoring by the department or its repre-
+sentative to  assure that courses continue to meet WISETECH
+standards.
+(b)  The department may  use performance monitoring as de -
+scribed in s. Trans 131.15 to evaluate both the emission repair suc-
+cess of the technicians and the effectiveness of WISETECH des-
+ignated courses.
+History:  Emerg. cr., eff. 12−4−95; cr. Register, April, 1996, No. 484, eff. 5−1−96;
+am. (2) (b) and (c), Register, May, 2001, No. 545, eff. 6−1−01; CR 07−114: am. (2)
+(b), (c) and (3) Register June 2008 No. 630, eff. 7−1−08.
+Trans 131.17 Notification of inspection  require -
+ments.  As part of the notification process for vehicle registration
+renewal under s. 341.08 (4m),  Stats., or for inspection required
+due to ownership change registration under s. 1 10.20 (6) (a) 2.,
+Stats., or for inspection required due to registration as a collector
+or hobbyist vehicle, the department shall include notification to
+vehicle owners whose vehicles either are or may be subject to the
+inspection requirements of this chapter.
+History:  Cr. Register, June, 1993, No. 450, eff. 7−1−93; emerg. renum. and am.,
+eff. 12−4−95; renum. from Trans 131.15, Register, April, 1996, No. 484, eff. 5−1−96.
