@@ -1,0 +1,287 @@
+                                                STATE OF NEVADA                                                                                                        REV-F013A
+                                                                                                                          SUT:                      -                   -
+                                   DEPARTMENT OF TAXATION                                                                         Return for Period Ending:
+                                   COMBINED SALES AND USE TAX RETURN                                                                         Due on or Before:
+                                                                                                                                                       Date Paid:
+
+
+
+Business or Individual’s Name
+Mailing Address                                                                                                                Mail Returns to: State of Nevada - Sales/Use Tax
+City, State, Zip                                                                                                                                      3850 Arrowhead Drive
+                                                                                                                                                      Carson City, NV 89706
+ This return can be filed on My Nevada Tax at https:/MyNVTax.nv.gov and                                              Make checks payable to: Nevada Department of Taxation
+ all calculations will be performed for you.
+
+     Check this box if this is an amended return for the specified filing period.                           Check this box if filing Schedule A. (If checked, ensure District
+                                                                                                            sales and use tax amounts are excluded from County totals below)
+                                                               SALES TAX                                                                                USE TAX
+ ENTER AMOUNT OF
+  SALES OR USE TAX                                                                                                                     AMOUNT
+MEASURE PER COUNTY         TOTAL                 EXEMPT                TAXABLE               TAX          CALCULATED                                       TAX          CALCULATED
+   (OR COUNTY OF                                                                                                                     SUBJECT TO
+DELIVERY OR STORAGE)       SALES                  SALES                  SALES               RATE               TAX                                        RATE                TAX
+                                                                                                                                       USE TAX
+TAX CALCULATION           COLUMN A               - COLUMN B             = COLUMN C        x COLUMN D        = COLUMN E                 COLUMN F          x COLUMN G        = COLUMN H
+     FORMULA
+01 CARSON CITY                                                                              7.600%                                                         7.600%
+02 CHURCHILL                                                                                7.600%                                                         7.600%
+03 CLARK                                                                                    8.375%                                                         8.375%
+04 DOUGLAS                                                                                  7.100%                                                         7.100%
+05 ELKO                                                                                     7.100%                                                         7.100%
+06 ESMERALDA                                                                                6.850%                                                         6.850%
+07 EUREKA                                                                                   6.850%                                                         6.850%
+08 HUMBOLDT                                                                                 6.850%                                                         6.850%
+09 LANDER                                                                                   7.100%                                                         7.100%
+10 LINCOLN                                                                                  7.100%                                                         7.100%
+11 LYON                                                                                     7.100%                                                         7.100%
+12 MINERAL                                                                                  6.850%                                                         6.850%
+13 NYE                                                                                      7.600%                                                         7.600%
+14 PERSHING                                                                                 7.100%                                                         7.100%
+15 STOREY                                                                                   7.600%                                                         7.600%
+16 WASHOE                                                                                   8.265%                                                         8.265%
+17 WHITE PINE                                                                               7.725%                                                         7.725%
+TOTALS
+
+                   18.    SUM OF COLUMN E       →                                                 18.                         19.    SUM OF COLUMN H        →    19.
+                   18a.  SCHEDULE A - LINE 10a →                                                  18a.                        19a.  SCHEDULE A - LINE 10b                                    →19a.
+                   18b.  TOTAL SALES TAX (LINE 18 + LINE 18a) →                                   18b.                        19b.  NET USE TAX (LINE 19 + 19a) →19b.
+                   18c.  ENTER COLLECTION ALLOWANCE FOR TIMELY FILING (LINE 18b x 0.25%) →        18c.
+                   18d.  NET SALES TAX (LINE 18b - LINE 18c) →                                    18d.                          COLLECTION ALLOWANCE IS FOR SALES TAX ONLY.
+                                                                                                                                THERE IS NO COLLECTION ALLOWANCE FOR USE TAX
+
+I HEREBY CERTIFY THAT THIS RETURN INCLUDING ANY ACCOMPANYING
+SCHEDULE AND STATEMENTS HAS BEEN EXAMINED BY ME AND TO THE BEST OF
+MY KNOWLEDGE AND BELIEF IS A TRUE, CORRECT AND COMPLETE RETURN.                                         20. NET SALES AND USE TAX (LINE 18d + LINE 19b)           20.
+ RETURN MUST BE SIGNED                                                                                  21. PENALTY (See instructions for rate and calculation)   21.
+
+                                                                                                        22. INTEREST (See instructions for rate and calculation)  22.
+SIGNATURE OF TAXPAYER OR AUTHORIZED AGENT                                                               23. PLUS SURCHARGE FROM SCHEDULE B                        23.
+
+                                                                                                        24. PLUS LIABILITIES ESTABLISHED BY THE DEPARTMENT        24.
+TITLE                                                PHONE NUMBER (WITH AREA CODE)                      25. LESS CREDIT(S) APPROVED BY THE DEPARTMENT             25.
+
+                                                                                                        26. TOTAL AMOUNT DUE AND PAYABLE                          26.
+FEDERAL TAX ID NUMBER (EIN OR SSN)                                 DATE                                 27. TOTAL AMOUNT REMITTED WITH RETURN                     27.
+                                        STATE OF NEVADA                                                                                      REV-F013A
+                                                                                                       SUT:                  -                -
+                             DEPARTMENT OF TAXATION                                                                    Return for Period:
+                                  SALES AND USE TAX: SUPPLEMENTAL                                                      Due on or Before:
+                                SCHEDULE A - TOURISM IMPROVEMENT                                                                Date Paid:
+                             DISTRICTS & SPORTS AND ENTERTAINMENT
+                                      IMPROVEMENT DISTRICT (SEID)
+
+
+Business or Individual’s Name
+Mailing Address                                                                                    Attach and submit with Page 1, if applicable.
+
+City, State, Zip
+This return can be filed on My Nevada Tax at https://MyNVTax.nv.gov and                            Make checks payable to: Nevada Department of Taxation
+all calculations will be performed for you.
+
+                                                        SALES TAX                                                                 USE TAX
+
+ ENTER AMOUNT OF SALES                                                                     CALCULATED              AMOUNT            TAX       CALCULATED
+OR USE TAX MEASURE PER     TOTAL             EXEMPT            TAXABLE           TAX                              SUBJECT TO
+ DISTRICT (OR DISTRICT OF  SALES              SALES              SALES          RATE             TAX                                 RATE           TAX
+ DELIVERY OR STORAGE)                                                                                               USE TAX
+
+  TAX CALCULATION          COLUMN A          - COLUMN B         = COLUMN C     x COLUMN D     = COLUMN E            COLUMN F       x COLUMN G     = COLUMN H
+      FORMULA
+
+01 4TH & STEWART                                                                 8.375%                                             8.375%
+02 AREA 15                                                                       8.375%                                             8.375%
+03 CABELA'S                                                                      8.265%                                             8.265%
+04 FREIGHT HOUSE                                                                 8.265%                                             8.265%
+
+05 LEGENDS                                                                       8.265%                                             8.265%
+06 SYMPHONY PARK                                                                 8.375%                                             8.375%
+07 TESSERA                                                                       8.265%                                             8.265%
+08 SEID STADIUM                                                                  8.375%                                             8.375%
+09 VEGAS IMMERSIVE                                                               8.375%                                             8.375%
+
+
+                                                             10a.   SUM OF COLUMN E →  10a.                     10b.  SUM OF COLUMN H  →  10b.
+
+                                                             TRANSFER THIS AMOUNT TO LINE 18a ON PAGE 1.        TRANSFER THIS AMOUNT TO LINE 19a ON PAGE 1.
+                                          STATE OF NEVADA                                                                                          REV-F013A
+                                                                                                           SUT:                   -                -
+                              DEPARTMENT OF TAXATION                                                                        Return for Period:
+                                SALES AND USE TAX: SUPPLEMENTAL                                                             Due on or   Before:
+                              SCHEDULE B - LIQUOR SURCHARGE FEE                                                                      Date Paid:
+
+
+
+Business or Individual’s Name
+Mailing Address
+City, State, Zip                                                                                        Attach and submit with Page 1, if applicable.
+
+
+This return can be filed on My Nevada Tax at https://MyNVTax.nv.gov and                                 Make checks payable to: Nevada Department of Taxation
+all calculations will be performed for you.
+
+
+This supplemental schedule is for covered food establishments to report the liquor surcharge fees owed on alcoholic beverages sealed by the
+covered food establishment and sold to a consumer to-go or delivered by the covered food establishment or a delivery support service.
+
+
+
+ ENTER NUMBER OF   TOTAL SINGLE         SURCHARGE PER              TOTAL FEE             The liquor surcharge may be collected and remitted only
+ SINGLE SERVINGS
+ SOLD PER COUNTY   SERVINGS SOLD        SINGLE SERVING                OWED               if the board of county commissioners of a county and the
+  (OR COUNTY OF
+    DELIVERY )         COLUMN A             x COLUMN    B          = COLUMN C            governing body of an incorporated city has adopted an
+01 CARSON CITY                                 $0.50                                     ordinance authorizing its collection.
+02 CHURCHILL                                   $0.50
+
+03 CLARK                                       $0.50
+04 DOUGLAS                                     $0.50
+05 ELKO                                        $0.50
+06 ESMERALDA                                   $0.50
+
+07 EUREKA                                      $0.50
+08 HUMBOLDT                                    $0.50
+09 LANDER                                      $0.50
+
+10 LINCOLN                                     $0.50
+11 LYON                                        $0.50
+12 MINERAL                                     $0.50
+13 NYE                                         $0.50
+14 PERSHING                                    $0.50
+
+15 STOREY                                      $0.50
+16 WASHOE                                      $0.50
+17 WHITE PINE                                  $0.50
+
+
+                                 18.  SUM OF COLUMN   C →  18.
+
+                                 TRANSFER THIS AMOUNT TO LINE 23                 ON PAGE 1.
+                                            COMBINED SALES AND USE TAX RETURN INSTRUCTIONS
+                                         (This return is for use by sellers of tangible personal property  who are registered with the Department             .)
+   A RETURN MUST BE FILED EVEN IF NO TAX LIABILITY EXISTS. IF YOU FILE THIS RETURN ON MY NEVADA TAX, THE CALCULATIONS
+                                                                                    WILL BE DONE FOR YOU.
+Please note: If this is an amended return                                                                   for the specified filing period, please ensure the box is checked. Alternatively, you can file an amended return on My
+                                                                                              Nevada Tax.
+LINES 1 THROUGH 17:
+    COLUMN A: TOTAL SALES - On the appropriate county line, enter the amount of all sales (excluding the sales tax collected) related to Nevada business including
+                      (a) cash sales; (b) conditional sales; (c) sales exempt from tax.
+    COLUMN B: EXEMPT SALES - Enter that portion of your sales not subject to tax, i.e., sales (a) for which you receive a resale certificate; (b) to Federal                                                                                                                                                                                                                                                      Government,
+                      State of Nevada, its agencies, cities or counties and school districts; (c) to religious or charitable organizations for which you have copies of exemption
+                      letters on file;  (d) newspapers of general circulation published at least once a week; (e) animals, seeds, annual plants and fertilizer, the end product of
+                      which is food  for human consumption; (f) motor vehicle or special fuels used in internal combustion or diesel engines; (g) wood, presto logs, pellets,
+                      petroleum, gas  and any other matter used to produce domestic heat; (h) prescription medicines dispensed pursuant to a  prescription of a licensed
+                      physician, dentist or chiropodist; (i) food products sold for home preparation and consumption; and/or (j) out-of-state sales           .
+
+    COLUMN C: TAXABLE SALES - Total Sales (Column A) - Exempt Sales (Column B) = Taxable Sales (Column C).
+    COLUMN E: CALCULATED TAX - Taxable Sales (Column C) × Tax Rate (Column D) = Calculated Tax (Column E).
+    COLUMN F:  AMOUNT SUBJECT TO USE TAX - On the appropriate county line, enter (a) the purchase price of merchandise, equipment or other tangible personal
+                      property purchased without payment of Nevada tax (by use of your resale certificate, or any other reason) and that was stored, used or consumed by you
+                      rather than being resold.  NOTE:  If you have a contract exemption, give contract exemption number.
+
+    COLUMN H: CALCULATED TAX - Amount Subject to Use Tax (Column F) × Tax Rate (Column G) = Calculated Tax (Column H).
+LINE 18:             Enter the sum of Column E, Calculated Tax.
+LINE 18a:            Enter the amount on Line 10a of  Sales and Use Tax: Supplemental Schedule A - Tourism Improvement Districts & Sports and Entertainment
+                     Improvement District (SEID).
+LINE 18b:            Enter the Total Sales Tax by adding Line 18 to Line 18a.
+LINE 18c:            Collection Allowance - only take the collection allowance if the return and taxes are postmarked on or before the due date as shown on the face of the
+                     return. If not postmarked by the due date, the Collection Allowance is not allowed. To calculate the Collection Allowance, multiply Line 18b × 0.25%
+                     (or .0025). NOTE: Pursuant to NRS 372.370, the Collection Allowance is applicable to Sales Tax only.
+LINE 18d:            Enter the amount of Net Sales Tax by subtracting Line 18c from Line 18b.
+LINE 19:             Enter the sum of Column H, Calculated Tax.
+LINE 19a:            Enter the amount on Line 10b of  Sales and Use Tax: Supplemental Schedule A - Tourism Improvement Districts & Sports and Entertainment
+                     Improvement District (SEID).
+LINE 19b:            Enter the amount of Net Use Tax by adding Line 19 to Line 19a.
+LINE 20:             Enter the Net Sales and Use Tax by adding Line 18d to Line 19b.
+LINE 21:             If this return is not submitted/postmarked and taxes are not paid on or before the due date as shown on the face of this return, the amount of penalty due is
+                     based on the number of days the payment is late per NAC 360.395 (see table below). The maximum penalty amount is 10%.
+
+                          Number of 'ays /ate                  Penalty Percentage                     Multiply by:
+                                    1 - 10                                2%                               0.02
+                                   11 -      15                           4%                               0.04
+                                   16 -      20                           6%                               0.06
+                                    21-30                                 8%                               0.08
+                                     31 +                                10%                               0.10
+                     Determine the number of days late the payment is and multiply the net tax owed (Line 20) by the appropriate rate based on the table above. The result is
+                     the amount of penalty that should be entered. For example, the taxes were due on January 20th but not paid until February 4th. The number of days late
+                     is 15 so the penalty is 4%. The penalty amount is automatically calculated if you complete this form on My Nevada Tax.
+LINE 22:             If this return is not submitted/postmarked and taxes are not paid on or before the due date as shown on the face of this return, interest will accrue. To
+                     calculate interest, multiply Line 20 x 0.75% (or .0075) for each month, or fraction thereof, the payment is late. The interest amount is automatically
+                     calculated if you complete this form on My Nevada Tax.
+LINE 23:             Enter the amount of Total Fees Owed from Sales and Use Tax: Supplemental Schedule B - Liquor Surcharge Fee, if applicable.
+LINE 24:             Enter any amount due for prior reporting periods for which you have received a notice.
+LINE 25:             Enter amount due to you for overpayment made in prior reporting periods for which you have received a Department of Taxation credit notice. Do not
+                     take the credit if you have applied for a refund. NOTE: Only credits established by the Department may be used.
+LINE 26:             Enter the total amount due and payable to the Department of Taxation by adding Lines 20 through 24 and subtracting Line 25.
+LINE 27:             Enter the total amount remitted with the return.
+
+If you have questions concerning this return, please call our Call Center at (866) 962-3707, Monday through Friday.
+       SALES AND USE TAX: SUPPLEMENTAL SCHEDULE A                                    - TOURISM IMPROVEMENT DISTRICTS &
+                   SPORTS AND ENTERTAINMENT IMPROVEMENT DISTRICT (SEID) INSTRUCTIONS
+      This schedule         is for use by sellers of tangible personal property reporting tax in a special district, which has been approved by the Department.
+
+LINES 1 THROUGH 9:
+
+    COLUMN A:   TOTAL SALES - On the appropriate                          district line, enter the amount of all sales (excluding the sales tax collected) related to Nevada business within the
+                       appropriate district boundaries including (a) cash sales; (b) conditional sales; (c) sales exempt from tax.
+
+    COLUMN B:   EXEMPT SALES - Enter that portion of your sales not subject to tax, i.e., sales (a) for which you receive a resale certificate; (b) to Federal
+                      Government, State of Nevada, its agencies, cities or counties and school districts; (c) to religious or charitable organizations for which you have copies
+                      of exemption letters on file;  (d) newspapers of general circulation published at least once a week; (e) animals, seeds, annual plants and fertilizer, the
+                      end product of which is food  for human consumption; (f) motor vehicle or special fuels used in internal combustion or diesel engines; (g) wood, presto
+                      logs, pellets, petroleum, gas  and any other matter used to produce domestic heat; (h) prescription medicines dispensed pursuant to a  prescription of a
+                      licensed physician, dentist or chiropodist; (i) food products sold for home preparation and consumption; and/or (j) out-of-state sales           .
+
+    COLUMN C:   TAXABLE SALES - Total Sales (Column A) - Exempt Sales (Column B) = Taxable Sales (Column C).
+
+    COLUMN E:   CALCULATED TAX - Taxable Sales (Column C) × Tax Rate (Column D) = Calculated Tax (Column E).
+
+    COLUMN F:   AMOUNT SUBJECT TO USE TAX - On the appropriate district line, enter (a) the purchase price of merchandise, equipment or other tangible personal
+                     property purchased without payment of Nevada tax (by use of your resale               certificate, or any other reason) and that was stored, used or consumed by you
+                     within the appropriate district boundaries rather than being resold.  NOTE:  If you have a contract exemption, give contract exemption number.
+
+   COLUMN H: CALCULATED TAX - Amount Subject to Use Tax (Column F) × Tax Rate (Column G) = Calculated Tax (Column H).
+
+LINE 10a:                              Enter the sum of Column E. Transfer this amount to       Page 1, Line 18a.
+
+LINE 10a:                             Enter the sum of Column H. Transfer this amount to Page 1, Line 19a.
+
+     SALES AND USE TAX: SUPPLEMENTAL SCHEDULE B                                                              - LIQUOR SURCHARGE FEE INSTRUCTIONS
+
+This schedule                       is for use by a covered food establishment   (establishment) registered with the Department that sells alcoholic beverages  to consumers for
+                            to-go or delivery by the establishment, or by a delivery support service acting on behalf of an establishment.
+
+Pursuant to Nevada Revised Statutes  369.4891, an  establishment may sell at retail an alcoholic beverage in a container sealed by the     establishment for
+consumption off the premises after the board of county commissioners of a county or the governing body of an incorporated city enacts an ordinance
+authorizing such sales. Such alcoholic beverages may also be delivered by a delivery support service acting on behalf of an establishment.
+
+A $.50 surcharge applies to the retail sale of each      single serving of an alcoholic beverage sold in a container sealed by a         n establishment for consumption
+off the premises. A single serving of an alcoholic beverage is the volume of an individual alcoholic beverage according to the menu, recipe or practice
+of the          establishment making the sale to a consumer. If multiple servings of an alcoholic beverage are sold at retail and sealed in a single container for
+consumption off the premises, the surcharge must be collected for each such serving. The surcharge is to be charged, collected and remitted to the
+Department by the     establishment, or by a delivery support service acting on behalf of an establishment                        , on the establishment's or delivery support
+service's monthly or quarterly REV-F013A Combined Sales and Use Tax Return on Page 1, Line 23.
+
+
+LINES 1 THROUGH 17:
+
+     COLUMN A:                          TOTAL SINGLE SERVINGS SOLD                                - Enter the   total single servings sold                              during the reporting period. Enter an amount on all applicable county Lines
+                       (1 - 17).
+    COLUMN B:   SURCHARGE PER                          SINGLE SERVING                                 - This is the surcharge   fee per single            serving. The surcharge fee is $.50 per single serving.
+
+    COLUMN C:   TOTAL FEE OWED - Enter the total                                                                            fee owed     per county for                       the reporting period. This amount is Column A multiplied by                  Column B for each
+                      applicable county.
+
+
+LINE 18:              Enter the sum of Column C on this line. This is the Total Surcharge Fees Owed. Transfer this amount to Page 1, Line 23.
+
+
+
+Complete and detailed records of all sales, as well as income from all sources and expenditures for all purposes, must be kept so your return
+can be verified by a Department auditor.
+
+ IF APPLICABLE, YOU MUST SUMBIT THE                                                                              SE     SUPPLEMENTAL SCHEDULE                                 S WITH PAGE 1- COMBINED SALES
+AND USE TAX RETURN.
+
+DO NOT SUBMIT A PHOTOCOPY OF A PRIOR PERIOD FORM OR YOUR FILING WILL POST INCORRECTLY.                                                                                                                           If you
+have questions concerning these schedule      s, please call our Call Center a t (866) 962-3707, Monday through Friday.

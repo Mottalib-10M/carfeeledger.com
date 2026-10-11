@@ -1,0 +1,77 @@
+                                                                         HB2 - DMV Fee updates                Effective Date 1/1/2026
+Law                                  Title                                                                                  Current Fee                         New Fee                   Difference
+260:21 V(a)                          Identification Cards - NDID                                                               $10.00                            $20.00                      $10.00
+
+261:20 I(a)                          New title                                                                                 $25.00                            $35.00                      $10.00
+261:20 I(b)                          Title transfer                                                                            $25.00                            $35.00                      $10.00
+261:20 I(c)                          duplicate title                                                                           $25.00                            $35.00                      $10.00
+261:20 I(d)                          distinctive title                                                                         $20.00                            $40.00                      $20.00
+261:20 I(e)                          filing notice secutity interest                                                           $20.00                            $20.00
+261:20 I(f)                          title search                                                                              $20.00                            $20.00
+261:20 I(g)                          filing assignment security interest                                                       $2.00                             $2.00
+261:20 I(h)                          NH Issued VIN                                                                             $30.00                            $40.00                      $10.00
+261:20 I(i)                          Salvage Decal                                                                             $50.00                            $60.00                      $10.00
+
+261:57                               Twenty Day Temp reg (20TM2/20TMM)                                                         $10.00                            $20.00                      $10.00
+
+261:141 III (a)                      agricultural vehicles (AGRI)                                                              $3.60                             $12.00                      $8.40
+261:141 III (b)                      agricultural tractors (FMTR)                                                              $1.80                             $12.00                      $10.20
+261:141 III (c)                      air compressor (CONET)                                                                    $6.00                             $11.00                      $5.00
+261:141 III (d)                      cement mixers (CONET)                                                                     $6.00                             $11.00                      $5.00
+261:141 III (e)                      saw rigs or log splitters (CONET)                                                         $6.00                             $11.00                      $5.00
+261:141 III (f)                      anitque motorcycle (AMOT)                                                                 $2.40                             $12.00                      $9.60
+261:141 III (g)                      0-3000 lbs                                                                    $31.20 ($2.60 per  month)          $42.00 ($3.50 per month)               $10.80
+                                     3001-5000 lbs                                                                  $43.20 ($3.60 per month)          $48.00 ($4.00 per month)               $4.80
+                                     5001-8000 lbs                                                                  $55.20 ($4.60 per month)          $66.00 ($5.50 per month)               $10.80
+                                     8001-73,280 lbs                                                                     $0.96 per 100 lbs                 $1.06 per 100 lbs                 $0.10
+261:141 III (h)                      over 73,280 lbs                                                                     $1.44 per 100 lbs                 $1.58 per 100 lbs                 $0.14
+261:141 III (i)                      additional semi trailer with TKTR                                                         $24.00                            $26.40                      $2.40
+261:141 III (j)                      trailers
+                                     0-1000 lbs                                                                                $3.00                             $3.30                       $0.30
+                                     1001-1500 lbs                                                                             $6.00                             $6.60                       $0.60
+                                     1501-3000 lbs                                                                             $12.00                            $13.20                      $1.20
+                                     3001-5000 lbs                                                                             $24.00                            $26.40                      $2.40
+                                     5001-8000 lbs                                                                             $36.00                            $39.60                      $3.60
+                                     8001-up                                                                             $0.60 per 100 lbs                 $0.66 per 100 lbs                 $0.06
+261:141 III (k)                      semi no TKTR (min 10,000 lbs)                                                       $0.60 per 100 lbs                 $0.66 per 100 lbs                 $0.06
+261:141 III (l)                       1/3 rate (SCOMM)                                                                     1/3 weight chart (i)                1/3 weight chart (i)
+261:141 III (m)                       Farm truck (FARM) 1st 16,000 lbs                                                             $24.00                             $36.00                       $12.00
+                                      16,001 and above                                                                        $0.74 per 100                       $1.44 per 100                    $0.70
+261:141 III (n)                       additional semi trailer with Farm Truck                                                      $24.00                             $36.00                       $12.00
+261:141 III (o)                       motorcycles                                                                                  $15.00                             $30.00                       $15.00
+261:141 III (p)                       moped                                                                                        $3.00                              $14.00                       $11.00
+261:141 III (q)                       school bus - non-profit                                                                      $24.00                             $24.00
+261:141 III ( r)                      Antique (ANTI/IANTI)                                                                         $6.00                              $16.00                       $10.00
+261:141 III (s)                       road oiler                                                                                   $72.00                             $72.00
+261:141 III (t)                       repair dealer plate first set                                                                $24.00                             $24.00
+                                      additional reapair plates                                                                    $9.00                              $18.00                       $9.00
+261:141 III (u)                       new/used/wholesale dealer plate first set                                                   $200.00                            $400.00                      $200.00
+                                      additional dealer/wholesale plates                                                           $12.00                             $24.00                       $12.00
+261:141 III (v)                       auto recycle dealer plate first 7,000 lbs                                                    $30.00                             $60.00                       $30.00
+                                      over 7,000 lbs per 100                                                                       $0.74                              $1.44                        $0.70
+261:141 III (w)                       motorcycle dealer plate first set                                                            $12.00                             $24.00                       $12.00
+                                      additional motorcycle plates                                                                 $3.00                              $6.00                        $3.00
+261:141 III (x)                       moped dealer plate first set                                                                 $12.00                             $24.00                       $12.00
+                                      additional moped plates                                                                      $3.00                              $6.00                        $3.00
+261:141 III (y)                       transport dealer plate first set                                                             $36.00                             $72.00                       $36.00
+                                      additional transport plates                                                                  $18.00                             $36.00                       $18.00
+261:141 III (z)                       utility dealer plate first set                                                               $36.00                             $72.00                       $36.00
+                                      additional utility plates                                                                    $9.00                              $18.00                       $9.00
+261:141 III (aa)                      ski area vehicle                                                                             $6.00                              $6.00
+261:141 III (bb)                      construction equipment (CONEQ)                                                               $25.00                             $40.00                       $15.00
+261:141 III (cc)                      vanity plates                                                                                $40.00                             $60.00                       $20.00
+261:141 III (dd)                      agricultural/industrial utility vehicles                                             1/3 weight chart (g)               1/3 weight chart (g)
+
+261:141 VII (f)                       replacement decal                                                                            $1.00                              $5.00                        $4.00
+
+261:141 IX                            duplicate/certified registration                                                             $15.00                             $20.00                       $5.00
+
+263:42 II                             certified copy reg, license or driving record                                                $15.00                             $20.00                       $5.00
+263:42 IV                             Duplicate license                                                                            $10.00                             $20.00                       $10.00
+263:42 IV a                           new license for change of address                                                            $3.00                              $10.00                       $7.00
+270 E:5-a, II (a)                    Boat Fee Decals - lake restoration & preservation fund                                      $9.50                             $12.50                       $3.00
+
+
+
+266:1                                Inspections Authorized                                                                     $50.00                              $0.00
+266:2                                fees                                                                                        $3.25                              $0.00

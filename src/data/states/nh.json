@@ -1,0 +1,173 @@
+{
+ "abbr": "NH",
+ "name": "New Hampshire",
+ "slug": "new-hampshire",
+ "agency": {
+  "name": "New Hampshire Division of Motor Vehicles",
+  "short": "DMV",
+  "url": "https://www.dmv.nh.gov/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "Each city or town adds its own small fees at registration (clerk, municipal agent, transportation improvement fund, waste or parking funds). Only Manchester's list was read on an official page; for other towns the line has no amount.",
+  "The municipal permit fee is charged on the maker's list price; when you do not type the MSRP the engine uses the price, which understates it for a used car. A first registration that is shorter or longer than 12 months is prorated by the town.",
+  "The state fee applies to the gross weight bands of RSA 261:141 (up to 3,000 lb, 3,001 to 5,000 lb, 5,001 to 8,000 lb); the engine places the car by the weight typed.",
+  "The 2026 state fees (title $35, weight fees $42, $48 and $66) were read on a town's official copy of the HB 2 fee table; the DMV's own PDF and the RSA pages blocked automated reading.",
+  "The safety and emissions inspection program has been suspended since February 2026 while the state's repeal is litigated in federal court; if the courts restore it, an inspection would be due again.",
+  "New Hampshire has no sales tax on vehicles. No dealer documentation fee cap was read in New Hampshire law for this release."
+ ],
+ "summary": {
+  "stateRate": 0,
+  "localRange": [
+   0,
+   0
+  ],
+  "taxName": "no sales tax (municipal permit fee on list price)",
+  "tradeInCredit": false,
+  "titleFee": 35,
+  "regMethod": "mixed",
+  "regYears": 1,
+  "docFeeCap": null,
+  "docFeeNote": "No cap read in New Hampshire law for this release; type the dealer's fee.",
+  "evFee": 100,
+  "phevFee": 50,
+  "hybridFee": null,
+  "inspection": "none",
+  "inspectionWhere": "The yearly state safety and emissions inspection has been suspended since February 2026 after its repeal; stations no longer issue stickers while the federal court case continues.",
+  "inspectionFee": null,
+  "annualValueTax": true
+ },
+ "params": {
+  "_src": "manchester (permit mills, local fees, EV surcharge), hb2-2026 (title and weight fees from January 1, 2026), jackson (plates)",
+  "title": 35,
+  "plates": 8,
+  "permit": {
+   "mills": [
+    18,
+    15,
+    12,
+    9,
+    6,
+    3
+   ],
+   "min": 0
+  },
+  "stateReg": [
+   {
+    "upTo": 3000,
+    "amount": 42
+   },
+   {
+    "upTo": 5000,
+    "amount": 48
+   },
+   {
+    "upTo": null,
+    "amount": 66
+   }
+  ],
+  "ev": {
+   "ev": 100,
+   "phev": 50
+  }
+ },
+ "counties": [
+  {
+   "id": "manchester",
+   "name": "City of Manchester",
+   "fees": [
+    {
+     "id": "title-app",
+     "label": "Title application fee",
+     "amount": 2,
+     "when": "once"
+    },
+    {
+     "id": "town-clerk",
+     "label": "Town clerk fee",
+     "amount": 2,
+     "when": "cycle"
+    },
+    {
+     "id": "municipal-agent",
+     "label": "Municipal agent fee",
+     "amount": 3,
+     "when": "cycle"
+    },
+    {
+     "id": "waste",
+     "label": "Waste reclamation fee",
+     "amount": 3,
+     "when": "cycle"
+    },
+    {
+     "id": "mti",
+     "label": "Municipal transportation improvement fee",
+     "amount": 5,
+     "when": "cycle"
+    },
+    {
+     "id": "parking",
+     "label": "Parking trust fund fee",
+     "amount": 2,
+     "when": "cycle"
+    },
+    {
+     "id": "data",
+     "label": "Renewal data processing fee",
+     "amount": 1,
+     "when": "renewal"
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "name": "Any other New Hampshire city or town"
+  }
+ ],
+ "defaultCounty": "manchester",
+ "singular": [
+  "New Hampshire charges no sales tax on cars; the big bill is the municipal permit fee paid to your city or town at every registration [manchester].",
+  "The permit fee is $18 per $1,000 of the original list price for a current model year car, then $15, $12, $9, $6 and finally $3 from the fifth year [manchester].",
+  "The state part of the registration rose on January 1, 2026 to $42 a year up to 3,000 lb, $48 from 3,001 to 5,000 lb and $66 from 5,001 to 8,000 lb [hb2-2026].",
+  "The title fee rose from $25 to $35 on January 1, 2026 [hb2-2026].",
+  "Battery electric cars pay a $100 yearly surcharge and plug-in hybrids $50, deposited in the highway fund [manchester].",
+  "Manchester adds its own fees: $2 clerk, $3 municipal agent, $3 waste reclamation, $5 transportation improvement and $2 parking trust fund, plus $2 for a title application [manchester].",
+  "A set of two standard passenger plates costs $8, once [jackson].",
+  "The yearly vehicle inspection program has been suspended since February 2026, and stations no longer issue state stickers [inspection].",
+  "Registration starts at the town office, which collects the permit, and the town can then complete the state part as an agent of the DMV [manchester]."
+ ],
+ "sources": {
+  "manchester": {
+   "name": "City of Manchester, Tax Collector, Explanation of Fees (motor vehicle registration)",
+   "url": "https://www.manchesternh.gov/Departments/Tax-Collector/Motor-Vehicle-Registration/Explanation-of-Fees",
+   "accessed": "2026-10-11",
+   "quote": "Auto registration tax rates per $1,000 of MSRP: $18, $15, $12, $9, $6 and $3 ... Town Clerk (TC) - $2.00 ... Municipal Agent (MA) - $3.00 ... Battery electric vehicles ... shall be assessed a surcharge of $100 ... Plug-in hybrid vehicles ... $50."
+  },
+  "hb2-2026": {
+   "name": "Town of Chesterfield, HB 2 DMV fee updates effective January 1, 2026",
+   "url": "https://www.chesterfield.nh.gov/DocumentCenter/View/523/Motor-Vehicle-Registration-Fee-Updates---HB2",
+   "accessed": "2026-10-11",
+   "quote": "261:20 I(a) New title $25.00 $35.00 ... 261:141 III (g) 0-3000 lbs $31.20 ($2.60 per month) $42.00 ($3.50 per month) ... 3001-5000 lbs $43.20 ... $48.00 ... 5001-8000 lbs $55.20 ... $66.00"
+  },
+  "jackson": {
+   "name": "Town of Jackson, Town Clerk, Auto Registration",
+   "url": "https://www.jackson-nh.gov/departments/town-clerk-tax-collector/auto-registration/",
+   "accessed": "2026-10-11",
+   "quote": "Standard Passenger plates – $8.00 one-time fee for a set of 2 ... there is a $35 state fee if not initiated at a dealership and a $2 local fee."
+  },
+  "inspection": {
+   "name": "NH Division of Motor Vehicles, Inspections & Emissions (public guidance of February 13, 2026)",
+   "url": "https://www.dmv.nh.gov/vehicles-boats-and-titles/inspections-emissions",
+   "accessed": "2026-10-11",
+   "quote": "The vehicle inspection program is suspended until further notice. Inspection stations will no longer be authorized to issue state inspection stickers and vehicles will not be required to obtain an annual state inspection at this time."
+  },
+  "concord": {
+   "name": "City of Concord, Motor Vehicle Registration Fee Changes",
+   "url": "https://www.concordnh.gov/m/newsflash/Home/Detail/5075?arc=9853",
+   "accessed": "2026-10-11",
+   "quote": "The State of New Hampshire has passed its biennial budget, and included in that legislation is a new statewide motor vehicle fee schedule that will take effect on January 1, 2026."
+  }
+ }
+}

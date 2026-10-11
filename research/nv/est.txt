@@ -1,0 +1,162 @@
+
+ Nevada DMV Vehicle Registration Estimate
+ Nevada Home Page 
+ DMV Home Page 
+ All DMV Online Services 
+ Privacy 
+ Adobe Reader 
+ State of Nevada Vehicle Registration Fee Estimation
+ To estimate the fees accurately, we will search the DMV database using the VIN you enter. If the VIN search was successful,
+ we will use the MSRP from our database. Otherwise, we will use the MSRP you have entered. 
+ Please note that items marked with ( * 
+ ) are required. 
+ County Vehicle Based In 
+ Select... 
+ CARSON CITY 
+ CHURCHILL 
+ CLARK 
+ DOUGLAS 
+ ELKO 
+ ESMERALDA 
+ EUREKA 
+ HUMBOLDT 
+ LANDER 
+ LINCOLN 
+ LYON 
+ MINERAL 
+ NYE 
+ PERSHING 
+ STOREY 
+ WASHOE 
+ WHITE PINE 
+ You must select a county 
+ Vehicle Identification Number (VIN) 
+ Only Alphanumeric characters allowed 
+ Vehicle Type 
+ Auto, Passenger Van, Motor Home 
+ Motorcycle 
+ Truck, Cargo Van, Bus 
+ Trailer i.e. Utility, Boat 
+ Travel Trailer, 5th Wheel, Tent 
+ MOPED 
+ Gross Weight Range 
+ Lbs. 
+ Unladen Weight 
+ Lbs. 
+ Vehicle Year 
+ Select... 
+ 2027 
+ 2026 
+ 2025 
+ 2024 
+ 2023 
+ 2022 
+ 2021 
+ 2020 
+ 2019 
+ 2018 
+ 2017 
+ 2016 
+ 2015 
+ 2014 
+ 2013 
+ 2012 
+ 2011 
+ 2010 or Older 
+ You must select a Vehicle Year 
+ Vehicle Make 
+ Vehicle MSRP 
+ You must enter vehicle Manufacturer Suggested Retail Price 
+ Data entered should be a dollar amount 
+ × 
+ Auto, Light Truck, Motor Home Information
+ Use this type for most private passenger cars, pickups,
+ SUVs (Sport Utility Vehicles), under 6,000 pounds declared gross weight, including commercial vehicles
+ which operate within Nevada only.  Use this type also for all
+ private motor homes and RVs regardless of weight.
+ VIN = Vehicle Identification 
+ Number. - This is found on your registration slip, title, Dealers
+ Report of Sale or the lower driver's side corner of the windshield on most
+ vehicles. Be sure to check this number carefully and type it in accurately.
+ FAQs 
+ - 
+ DMV Registration Page 
+ - 
+ DMV Home Page 
+ Close 
+ × 
+ MSRP Information
+ Manufacturers Suggested Retail Price - when the vehicle was NEW. (What the 
+ vehicle retailed for when first offered for sale). The MSRP on new vehicles can be obtained from the Internet and other 
+ printed sources. The MSRP on used vehicles can be determined from the
+ vehicle registration.
+ This estimate will be based on the MSRP you entered. Fees may be different depending
+ on the actual MSRP.
+ We will search the DMV database using the VIN you enter. If the VIN search was successful,
+ we will use the MSRP from our database. Otherwise, we will use the MSRP you have entered. 
+ An accurate MSRP is essential in determining your ESTIMATED registration fees.
+ Nevada governmental services taxes are calculated on the depreciated MSRP. See our 
+ FAQs for a sample calculation.  
+ FAQs 
+ - 
+ DMV Registration Page 
+ - 
+ DMV Home Page 
+ Close 
+ × 
+ Vehicle Type Information
+ Auto, Passenger Van, Motor Home 
+ Use this type for most private passenger cars, pickups,
+ SUVs (Sport Utility Vehicles), under 6,000 pounds declared gross weight, including commercial vehicles
+ which operate within Nevada only.  Use this type also for all
+ private motor homes and RVs regardless of weight.
+ VIN = Vehicle Identification 
+ Number. - This is found on your registration slip, title, Dealers
+ Report of Sale or the lower driver's side corner of the windshield on most
+ vehicles. Be sure to check this number carefully and type it in accurately.
+ Motorcycle 
+ Motorcycles over 50 cc's and capable of speeds over 30 miles per hour must
+ be registered and insured to be driven on public streets and highways.
+ Motorcycle registrations are assessed a Motorcycle Safety Fee to fund
+ training and safety programs from the Nevada
+ Office of Traffic Safety
+ .  Visit www.NevadaRider.com 
+ or call (800) 889-8779.
+ Learn critical skills
+ needed to ride safely. Take a Motorcycle Safety Foundation sponsored Rider
+ Course. Call toll free (800) 446-9227. Be sure to wear proper protective
+ clothing.
+ Please remember a helmet is required in Nevada. Drive Safe. Ride
+ sober. Ride responsible.
+ Truck, Cargo Van, Bus 
+ Use this type for any vehicle, other than private motor homes, which is over
+ 6,000 lbs. declared gross weight. Select the proper weight range from the
+ menu.  This is used in calculating the basic registration fee.
+ If you operate any vehicle in interstate commerce, you
+ must obtain an apportioned registration through the DMV Motor Carrier
+ section.  Any vehicle which weighs 26,001 pounds or more also must
+ register through Motor Carrier. Motor Homes are considered a recreational
+ vehicle regardless of weight and are exempt from Motor Carrier registration
+ requirements.   CLICK HERE 
+ or call 1-877-368-7828 ext. 5. 
+ Trailer i.e. Utility, Boat 
+ Use this type for utility and boat trailers.  The unladen weight is 
+ listed on your registration slip.
+ The Registration Fee is based on weight for utility, boat trailers, travel trailers,
+ 5th wheels, and tent trailers.   Governmental Services and
+ Supplemental Government Services taxes are based on value and age (depreciated MSRP).
+ Travel Trailer, 5th Wheel, Tent 
+ Registration Fee is $27.00 plus Governmental Services Tax and 
+ Supplemental Governmental Services Tax. (see explanation in Cost Info) 
+ Trailers only need one plate which costs $.50 for the Prison Industries 
+ Fee.
+ Moped 
+ Mopeds must be registered if the motor 50cc and under, or 1500 watts and under, and the
+ moped is capable of no more than 30 miles per hour. Insurance is not required.
+ You must hold a Class C or higher driver’s license.
+ FAQs 
+ - 
+ DMV Registration Page 
+ - 
+ DMV Home Page 
+ Close 

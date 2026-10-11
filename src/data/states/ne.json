@@ -1,0 +1,1571 @@
+{
+ "abbr": "NE",
+ "name": "Nebraska",
+ "slug": "nebraska",
+ "agency": {
+  "name": "Nebraska Department of Motor Vehicles",
+  "short": "DMV",
+  "url": "https://dmv.nebraska.gov/"
+ },
+ "taxAgency": {
+  "name": "Nebraska Department of Revenue",
+  "url": "https://revenue.nebraska.gov/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "Several cities (Omaha and Lincoln among them) charge a yearly wheel tax of $10 to $370 set by local ordinance; the DMV does not publish a city table, so it is shown as a range.",
+  "The motor vehicle tax and fee are set on the MSRP of the vehicle when new; if you do not type it, the engine uses the price, which understates them for a used car.",
+  "The $1 tire fee counts every new tire including the spare, so a new car pays $4 or $5 depending on the spare; it is shown as a range.",
+  "Plates cost $4.10 each and a passenger car gets two; nothing is charged when you move plates you already own to the new car.",
+  "The motor vehicle tax chart read on the DMV site is marked Rev 2019; the Nebraska Legislature statute site could not be reached to compare it with the current text of section 60-3,185.",
+  "No dealer documentation fee cap was read in Nebraska law for this release; Nebraska taxes that fee as part of the sale price."
+ ],
+ "summary": {
+  "stateRate": 0.055,
+  "localRange": [
+   0,
+   0.02
+  ],
+  "taxName": "state and local sales tax",
+  "tradeInCredit": true,
+  "titleFee": 10,
+  "regMethod": "mixed",
+  "regYears": 1,
+  "docFeeCap": null,
+  "docFeeNote": "No cap read in Nebraska law for this release; the fee is part of the taxable price.",
+  "evFee": 150,
+  "phevFee": 75,
+  "hybridFee": null,
+  "inspection": "none",
+  "inspectionWhere": "No periodic safety or emissions inspection; a $10 sheriff's identification inspection is required only for a vehicle brought from another state, an assembled vehicle or a salvage title.",
+  "inspectionFee": null,
+  "annualValueTax": true
+ },
+ "params": {
+  "_src": "form6 (taxable price, trade-in, tire fee), local-rates (city rates), title, dmv-fees (registration, add-ons, plates, alternative fuel fee), tax-chart (motor vehicle tax and fee), mv-2025 (wheel tax range)",
+  "tax": {
+   "rate": 0.055,
+   "tradeInCredit": true,
+   "docFeeTaxable": true
+  },
+  "title": 10,
+  "platePer": 4.1,
+  "plates": 2,
+  "tireFee": [
+   4,
+   5
+  ],
+  "reg": 15,
+  "regAddOns": 5.5,
+  "mvTax": {
+   "lowBrackets": [
+    {
+     "upTo": 3999.99,
+     "base": 25
+    },
+    {
+     "upTo": 5999.99,
+     "base": 35
+    },
+    {
+     "upTo": 7999.99,
+     "base": 45
+    },
+    {
+     "upTo": 9999.99,
+     "base": 60
+    }
+   ],
+   "stepFrom": 10000,
+   "stepBase": 100,
+   "stepSize": 2000,
+   "stepAmount": 40,
+   "maxBase": 1900,
+   "fractions": [
+    1,
+    0.9,
+    0.8,
+    0.7,
+    0.6,
+    0.51,
+    0.42,
+    0.33,
+    0.24,
+    0.15,
+    0.15,
+    0.07,
+    0.07,
+    0
+   ],
+   "secondYearNewerModel": 0.95
+  },
+  "mvFee": {
+   "brackets": [
+    {
+     "upTo": 19999.99,
+     "byAge": [
+      5,
+      5,
+      5
+     ]
+    },
+    {
+     "upTo": 39999.99,
+     "byAge": [
+      20,
+      14,
+      7
+     ]
+    },
+    {
+     "upTo": null,
+     "byAge": [
+      30,
+      21,
+      10.5
+     ]
+    }
+   ]
+  },
+  "altFuel": {
+   "ev": 150,
+   "phev": 75
+  },
+  "wheelTax": [
+   0,
+   370
+  ]
+ },
+ "counties": [
+  {
+   "id": "adams",
+   "name": "Adams",
+   "localRate": 0.01
+  },
+  {
+   "id": "ainsworth",
+   "name": "Ainsworth",
+   "localRate": 0.015
+  },
+  {
+   "id": "albion",
+   "name": "Albion",
+   "localRate": 0.015
+  },
+  {
+   "id": "alliance",
+   "name": "Alliance",
+   "localRate": 0.015
+  },
+  {
+   "id": "alma",
+   "name": "Alma",
+   "localRate": 0.02
+  },
+  {
+   "id": "ansley",
+   "name": "Ansley",
+   "localRate": 0.01
+  },
+  {
+   "id": "arapahoe",
+   "name": "Arapahoe",
+   "localRate": 0.015
+  },
+  {
+   "id": "arcadia",
+   "name": "Arcadia",
+   "localRate": 0.01
+  },
+  {
+   "id": "arlington",
+   "name": "Arlington",
+   "localRate": 0.015
+  },
+  {
+   "id": "arnold",
+   "name": "Arnold",
+   "localRate": 0.01
+  },
+  {
+   "id": "ashland",
+   "name": "Ashland",
+   "localRate": 0.015
+  },
+  {
+   "id": "atkinson",
+   "name": "Atkinson",
+   "localRate": 0.015
+  },
+  {
+   "id": "auburn",
+   "name": "Auburn",
+   "localRate": 0.01
+  },
+  {
+   "id": "bancroft",
+   "name": "Bancroft",
+   "localRate": 0.015
+  },
+  {
+   "id": "bassett",
+   "name": "Bassett",
+   "localRate": 0.015
+  },
+  {
+   "id": "battle-creek",
+   "name": "Battle Creek",
+   "localRate": 0.015
+  },
+  {
+   "id": "bayard",
+   "name": "Bayard",
+   "localRate": 0.01
+  },
+  {
+   "id": "beatrice",
+   "name": "Beatrice",
+   "localRate": 0.02
+  },
+  {
+   "id": "beaver-city",
+   "name": "Beaver City",
+   "localRate": 0.01
+  },
+  {
+   "id": "beaver-crossing",
+   "name": "Beaver Crossing",
+   "localRate": 0.01
+  },
+  {
+   "id": "beemer",
+   "name": "Beemer",
+   "localRate": 0.015
+  },
+  {
+   "id": "bellevue",
+   "name": "Bellevue",
+   "localRate": 0.015
+  },
+  {
+   "id": "bellwood",
+   "name": "Bellwood",
+   "localRate": 0.015
+  },
+  {
+   "id": "benedict",
+   "name": "Benedict",
+   "localRate": 0.015
+  },
+  {
+   "id": "benkelman",
+   "name": "Benkelman",
+   "localRate": 0.015
+  },
+  {
+   "id": "bennet",
+   "name": "Bennet",
+   "localRate": 0.01
+  },
+  {
+   "id": "bennington",
+   "name": "Bennington",
+   "localRate": 0.015
+  },
+  {
+   "id": "bertrand",
+   "name": "Bertrand",
+   "localRate": 0.015
+  },
+  {
+   "id": "big-springs",
+   "name": "Big Springs",
+   "localRate": 0.01
+  },
+  {
+   "id": "blair",
+   "name": "Blair",
+   "localRate": 0.015
+  },
+  {
+   "id": "bloomfield",
+   "name": "Bloomfield",
+   "localRate": 0.01
+  },
+  {
+   "id": "blue-hill",
+   "name": "Blue Hill",
+   "localRate": 0.015
+  },
+  {
+   "id": "brainard",
+   "name": "Brainard",
+   "localRate": 0.01
+  },
+  {
+   "id": "bridgeport",
+   "name": "Bridgeport",
+   "localRate": 0.01
+  },
+  {
+   "id": "broken-bow",
+   "name": "Broken Bow",
+   "localRate": 0.015
+  },
+  {
+   "id": "brownville",
+   "name": "Brownville",
+   "localRate": 0.01
+  },
+  {
+   "id": "bruning",
+   "name": "Bruning",
+   "localRate": 0.015
+  },
+  {
+   "id": "burwell",
+   "name": "Burwell",
+   "localRate": 0.015
+  },
+  {
+   "id": "byron",
+   "name": "Byron",
+   "localRate": 0.01
+  },
+  {
+   "id": "cairo",
+   "name": "Cairo",
+   "localRate": 0.01
+  },
+  {
+   "id": "callaway",
+   "name": "Callaway",
+   "localRate": 0.01
+  },
+  {
+   "id": "cambridge",
+   "name": "Cambridge",
+   "localRate": 0.02
+  },
+  {
+   "id": "cedar-rapids",
+   "name": "Cedar Rapids",
+   "localRate": 0.01
+  },
+  {
+   "id": "central-city",
+   "name": "Central City",
+   "localRate": 0.015
+  },
+  {
+   "id": "ceresco",
+   "name": "Ceresco",
+   "localRate": 0.015
+  },
+  {
+   "id": "chadron",
+   "name": "Chadron",
+   "localRate": 0.02
+  },
+  {
+   "id": "chambers",
+   "name": "Chambers",
+   "localRate": 0.01
+  },
+  {
+   "id": "chappell",
+   "name": "Chappell",
+   "localRate": 0.02
+  },
+  {
+   "id": "chester",
+   "name": "Chester",
+   "localRate": 0.01
+  },
+  {
+   "id": "clarks",
+   "name": "Clarks",
+   "localRate": 0.015
+  },
+  {
+   "id": "clarkson",
+   "name": "Clarkson",
+   "localRate": 0.015
+  },
+  {
+   "id": "clatonia",
+   "name": "Clatonia",
+   "localRate": 0.005
+  },
+  {
+   "id": "clay-center",
+   "name": "Clay Center",
+   "localRate": 0.015
+  },
+  {
+   "id": "clearwater",
+   "name": "Clearwater",
+   "localRate": 0.015
+  },
+  {
+   "id": "coleridge",
+   "name": "Coleridge",
+   "localRate": 0.01
+  },
+  {
+   "id": "columbus",
+   "name": "Columbus",
+   "localRate": 0.015
+  },
+  {
+   "id": "cordova",
+   "name": "Cordova",
+   "localRate": 0.01
+  },
+  {
+   "id": "cortland",
+   "name": "Cortland",
+   "localRate": 0.01
+  },
+  {
+   "id": "cozad",
+   "name": "Cozad",
+   "localRate": 0.015
+  },
+  {
+   "id": "crawford",
+   "name": "Crawford",
+   "localRate": 0.015
+  },
+  {
+   "id": "creighton",
+   "name": "Creighton",
+   "localRate": 0.01
+  },
+  {
+   "id": "crete",
+   "name": "Crete",
+   "localRate": 0.02
+  },
+  {
+   "id": "crofton",
+   "name": "Crofton",
+   "localRate": 0.015
+  },
+  {
+   "id": "curtis",
+   "name": "Curtis",
+   "localRate": 0.015
+  },
+  {
+   "id": "dakota-city",
+   "name": "Dakota City",
+   "localRate": 0.01
+  },
+  {
+   "id": "dannebrog",
+   "name": "Dannebrog",
+   "localRate": 0.01
+  },
+  {
+   "id": "davey",
+   "name": "Davey",
+   "localRate": 0.015
+  },
+  {
+   "id": "david-city",
+   "name": "David City",
+   "localRate": 0.02
+  },
+  {
+   "id": "daykin",
+   "name": "Daykin",
+   "localRate": 0.01
+  },
+  {
+   "id": "deweese",
+   "name": "DeWeese",
+   "localRate": 0.01
+  },
+  {
+   "id": "dewitt",
+   "name": "DeWitt",
+   "localRate": 0.01
+  },
+  {
+   "id": "decatur",
+   "name": "Decatur",
+   "localRate": 0.02
+  },
+  {
+   "id": "deshler",
+   "name": "Deshler",
+   "localRate": 0.01
+  },
+  {
+   "id": "diller",
+   "name": "Diller",
+   "localRate": 0.01
+  },
+  {
+   "id": "dodge",
+   "name": "Dodge",
+   "localRate": 0.015
+  },
+  {
+   "id": "doniphan",
+   "name": "Doniphan",
+   "localRate": 0.01
+  },
+  {
+   "id": "dorchester",
+   "name": "Dorchester",
+   "localRate": 0.015
+  },
+  {
+   "id": "douglas",
+   "name": "Douglas",
+   "localRate": 0.015
+  },
+  {
+   "id": "duncan",
+   "name": "Duncan",
+   "localRate": 0.015
+  },
+  {
+   "id": "eagle",
+   "name": "Eagle",
+   "localRate": 0.01
+  },
+  {
+   "id": "edgar",
+   "name": "Edgar",
+   "localRate": 0.015
+  },
+  {
+   "id": "edison",
+   "name": "Edison",
+   "localRate": 0.01
+  },
+  {
+   "id": "elgin",
+   "name": "Elgin",
+   "localRate": 0.01
+  },
+  {
+   "id": "elm-creek",
+   "name": "Elm Creek",
+   "localRate": 0.015
+  },
+  {
+   "id": "elmwood",
+   "name": "Elmwood",
+   "localRate": 0.015
+  },
+  {
+   "id": "elwood",
+   "name": "Elwood",
+   "localRate": 0.01
+  },
+  {
+   "id": "emerson",
+   "name": "Emerson",
+   "localRate": 0.015
+  },
+  {
+   "id": "eustis",
+   "name": "Eustis",
+   "localRate": 0.015
+  },
+  {
+   "id": "ewing",
+   "name": "Ewing",
+   "localRate": 0.015
+  },
+  {
+   "id": "exeter",
+   "name": "Exeter",
+   "localRate": 0.015
+  },
+  {
+   "id": "fairbury",
+   "name": "Fairbury",
+   "localRate": 0.02
+  },
+  {
+   "id": "fairfield",
+   "name": "Fairfield",
+   "localRate": 0.015
+  },
+  {
+   "id": "falls-city",
+   "name": "Falls City",
+   "localRate": 0.02
+  },
+  {
+   "id": "farnam",
+   "name": "Farnam",
+   "localRate": 0.01
+  },
+  {
+   "id": "filley",
+   "name": "Filley",
+   "localRate": 0.01
+  },
+  {
+   "id": "fordyce",
+   "name": "Fordyce",
+   "localRate": 0.01
+  },
+  {
+   "id": "fort-calhoun",
+   "name": "Fort Calhoun",
+   "localRate": 0.015
+  },
+  {
+   "id": "franklin",
+   "name": "Franklin",
+   "localRate": 0.01
+  },
+  {
+   "id": "fremont",
+   "name": "Fremont",
+   "localRate": 0.015
+  },
+  {
+   "id": "friend",
+   "name": "Friend",
+   "localRate": 0.02
+  },
+  {
+   "id": "fullerton",
+   "name": "Fullerton",
+   "localRate": 0.02
+  },
+  {
+   "id": "geneva",
+   "name": "Geneva",
+   "localRate": 0.02
+  },
+  {
+   "id": "genoa",
+   "name": "Genoa",
+   "localRate": 0.02
+  },
+  {
+   "id": "gering",
+   "name": "Gering",
+   "localRate": 0.02
+  },
+  {
+   "id": "gibbon",
+   "name": "Gibbon",
+   "localRate": 0.015
+  },
+  {
+   "id": "gordon",
+   "name": "Gordon",
+   "localRate": 0.015
+  },
+  {
+   "id": "gothenburg",
+   "name": "Gothenburg",
+   "localRate": 0.015
+  },
+  {
+   "id": "grafton",
+   "name": "Grafton",
+   "localRate": 0.015
+  },
+  {
+   "id": "grand-island",
+   "name": "Grand Island",
+   "localRate": 0.02
+  },
+  {
+   "id": "grant",
+   "name": "Grant",
+   "localRate": 0.01
+  },
+  {
+   "id": "greeley",
+   "name": "Greeley",
+   "localRate": 0.015
+  },
+  {
+   "id": "greenwood",
+   "name": "Greenwood",
+   "localRate": 0.01
+  },
+  {
+   "id": "gresham",
+   "name": "Gresham",
+   "localRate": 0.015
+  },
+  {
+   "id": "gretna",
+   "name": "Gretna",
+   "localRate": 0.02
+  },
+  {
+   "id": "guide-rock",
+   "name": "Guide Rock",
+   "localRate": 0.015
+  },
+  {
+   "id": "hallam",
+   "name": "Hallam",
+   "localRate": 0.01
+  },
+  {
+   "id": "halsey",
+   "name": "Halsey",
+   "localRate": 0.005
+  },
+  {
+   "id": "harrison",
+   "name": "Harrison",
+   "localRate": 0.015
+  },
+  {
+   "id": "hartington",
+   "name": "Hartington",
+   "localRate": 0.015
+  },
+  {
+   "id": "harvard",
+   "name": "Harvard",
+   "localRate": 0.01
+  },
+  {
+   "id": "hastings",
+   "name": "Hastings",
+   "localRate": 0.015
+  },
+  {
+   "id": "hay-springs",
+   "name": "Hay Springs",
+   "localRate": 0.01
+  },
+  {
+   "id": "hebron",
+   "name": "Hebron",
+   "localRate": 0.015
+  },
+  {
+   "id": "hemingford",
+   "name": "Hemingford",
+   "localRate": 0.015
+  },
+  {
+   "id": "henderson",
+   "name": "Henderson",
+   "localRate": 0.015
+  },
+  {
+   "id": "hickman",
+   "name": "Hickman",
+   "localRate": 0.015
+  },
+  {
+   "id": "hildreth",
+   "name": "Hildreth",
+   "localRate": 0.01
+  },
+  {
+   "id": "holdrege",
+   "name": "Holdrege",
+   "localRate": 0.015
+  },
+  {
+   "id": "hooper",
+   "name": "Hooper",
+   "localRate": 0.01
+  },
+  {
+   "id": "howells",
+   "name": "Howells",
+   "localRate": 0.015
+  },
+  {
+   "id": "hubbard",
+   "name": "Hubbard",
+   "localRate": 0.015
+  },
+  {
+   "id": "hubbell",
+   "name": "Hubbell",
+   "localRate": 0.01
+  },
+  {
+   "id": "humboldt",
+   "name": "Humboldt",
+   "localRate": 0.015
+  },
+  {
+   "id": "humphrey",
+   "name": "Humphrey",
+   "localRate": 0.02
+  },
+  {
+   "id": "hyannis",
+   "name": "Hyannis",
+   "localRate": 0.01
+  },
+  {
+   "id": "imperial",
+   "name": "Imperial",
+   "localRate": 0.01
+  },
+  {
+   "id": "jackson",
+   "name": "Jackson",
+   "localRate": 0.015
+  },
+  {
+   "id": "jansen",
+   "name": "Jansen",
+   "localRate": 0.01
+  },
+  {
+   "id": "juniata",
+   "name": "Juniata",
+   "localRate": 0.015
+  },
+  {
+   "id": "kearney",
+   "name": "Kearney",
+   "localRate": 0.015
+  },
+  {
+   "id": "kenesaw",
+   "name": "Kenesaw",
+   "localRate": 0.015
+  },
+  {
+   "id": "kimball",
+   "name": "Kimball",
+   "localRate": 0.01
+  },
+  {
+   "id": "lavista",
+   "name": "LaVista",
+   "localRate": 0.02
+  },
+  {
+   "id": "laurel",
+   "name": "Laurel",
+   "localRate": 0.01
+  },
+  {
+   "id": "lawrence",
+   "name": "Lawrence",
+   "localRate": 0.01
+  },
+  {
+   "id": "leigh",
+   "name": "Leigh",
+   "localRate": 0.015
+  },
+  {
+   "id": "lewellen",
+   "name": "Lewellen",
+   "localRate": 0.01
+  },
+  {
+   "id": "lexington",
+   "name": "Lexington",
+   "localRate": 0.015
+  },
+  {
+   "id": "lincoln",
+   "name": "Lincoln",
+   "localRate": 0.0175
+  },
+  {
+   "id": "lindsay",
+   "name": "Lindsay",
+   "localRate": 0.015
+  },
+  {
+   "id": "linwood",
+   "name": "Linwood",
+   "localRate": 0.01
+  },
+  {
+   "id": "loomis",
+   "name": "Loomis",
+   "localRate": 0.01
+  },
+  {
+   "id": "louisville",
+   "name": "Louisville",
+   "localRate": 0.015
+  },
+  {
+   "id": "loup-city",
+   "name": "Loup City",
+   "localRate": 0.02
+  },
+  {
+   "id": "lyons",
+   "name": "Lyons",
+   "localRate": 0.02
+  },
+  {
+   "id": "madison",
+   "name": "Madison",
+   "localRate": 0.015
+  },
+  {
+   "id": "malcolm",
+   "name": "Malcolm",
+   "localRate": 0.01
+  },
+  {
+   "id": "manley",
+   "name": "Manley",
+   "localRate": 0.005
+  },
+  {
+   "id": "marquette",
+   "name": "Marquette",
+   "localRate": 0.015
+  },
+  {
+   "id": "maywood",
+   "name": "Maywood",
+   "localRate": 0.015
+  },
+  {
+   "id": "mccook",
+   "name": "McCook",
+   "localRate": 0.02
+  },
+  {
+   "id": "mccool-junction",
+   "name": "McCool Junction",
+   "localRate": 0.015
+  },
+  {
+   "id": "meadow-grove",
+   "name": "Meadow Grove",
+   "localRate": 0.015
+  },
+  {
+   "id": "milford",
+   "name": "Milford",
+   "localRate": 0.01
+  },
+  {
+   "id": "milligan",
+   "name": "Milligan",
+   "localRate": 0.015
+  },
+  {
+   "id": "minatare",
+   "name": "Minatare",
+   "localRate": 0.01
+  },
+  {
+   "id": "minden",
+   "name": "Minden",
+   "localRate": 0.02
+  },
+  {
+   "id": "mitchell",
+   "name": "Mitchell",
+   "localRate": 0.015
+  },
+  {
+   "id": "monroe",
+   "name": "Monroe",
+   "localRate": 0.015
+  },
+  {
+   "id": "morrill",
+   "name": "Morrill",
+   "localRate": 0.01
+  },
+  {
+   "id": "mullen",
+   "name": "Mullen",
+   "localRate": 0.02
+  },
+  {
+   "id": "murray",
+   "name": "Murray",
+   "localRate": 0.01
+  },
+  {
+   "id": "nebraska-city",
+   "name": "Nebraska City",
+   "localRate": 0.015
+  },
+  {
+   "id": "nehawka",
+   "name": "Nehawka",
+   "localRate": 0.01
+  },
+  {
+   "id": "neill",
+   "name": "Neill",
+   "localRate": 0.015
+  },
+  {
+   "id": "neligh",
+   "name": "Neligh",
+   "localRate": 0.01
+  },
+  {
+   "id": "nelson",
+   "name": "Nelson",
+   "localRate": 0.015
+  },
+  {
+   "id": "newman-grove",
+   "name": "Newman Grove",
+   "localRate": 0.015
+  },
+  {
+   "id": "niobrara",
+   "name": "Niobrara",
+   "localRate": 0.01
+  },
+  {
+   "id": "norfolk",
+   "name": "Norfolk",
+   "localRate": 0.02
+  },
+  {
+   "id": "north-bend",
+   "name": "North Bend",
+   "localRate": 0.015
+  },
+  {
+   "id": "north-platte",
+   "name": "North Platte",
+   "localRate": 0.02
+  },
+  {
+   "id": "oakland",
+   "name": "Oakland",
+   "localRate": 0.015
+  },
+  {
+   "id": "oconto",
+   "name": "Oconto",
+   "localRate": 0.01
+  },
+  {
+   "id": "odell",
+   "name": "Odell",
+   "localRate": 0.01
+  },
+  {
+   "id": "ogallala",
+   "name": "Ogallala",
+   "localRate": 0.015
+  },
+  {
+   "id": "omaha",
+   "name": "Omaha",
+   "localRate": 0.015
+  },
+  {
+   "id": "orchard",
+   "name": "Orchard",
+   "localRate": 0.015
+  },
+  {
+   "id": "ord",
+   "name": "Ord",
+   "localRate": 0.015
+  },
+  {
+   "id": "osceola",
+   "name": "Osceola",
+   "localRate": 0.015
+  },
+  {
+   "id": "oshkosh",
+   "name": "Oshkosh",
+   "localRate": 0.02
+  },
+  {
+   "id": "osmond",
+   "name": "Osmond",
+   "localRate": 0.015
+  },
+  {
+   "id": "oxford",
+   "name": "Oxford",
+   "localRate": 0.015
+  },
+  {
+   "id": "palmer",
+   "name": "Palmer",
+   "localRate": 0.015
+  },
+  {
+   "id": "palmyra",
+   "name": "Palmyra",
+   "localRate": 0.01
+  },
+  {
+   "id": "papillion",
+   "name": "Papillion",
+   "localRate": 0.02
+  },
+  {
+   "id": "pawnee-city",
+   "name": "Pawnee City",
+   "localRate": 0.02
+  },
+  {
+   "id": "paxton",
+   "name": "Paxton",
+   "localRate": 0.02
+  },
+  {
+   "id": "pender",
+   "name": "Pender",
+   "localRate": 0.015
+  },
+  {
+   "id": "peru",
+   "name": "Peru",
+   "localRate": 0.01
+  },
+  {
+   "id": "petersburg",
+   "name": "Petersburg",
+   "localRate": 0.01
+  },
+  {
+   "id": "pierce",
+   "name": "Pierce",
+   "localRate": 0.01
+  },
+  {
+   "id": "pilger",
+   "name": "Pilger",
+   "localRate": 0.015
+  },
+  {
+   "id": "plainview",
+   "name": "Plainview",
+   "localRate": 0.015
+  },
+  {
+   "id": "platte-center",
+   "name": "Platte Center",
+   "localRate": 0.015
+  },
+  {
+   "id": "plattsmouth",
+   "name": "Plattsmouth",
+   "localRate": 0.015
+  },
+  {
+   "id": "pleasanton",
+   "name": "Pleasanton",
+   "localRate": 0.01
+  },
+  {
+   "id": "plymouth",
+   "name": "Plymouth",
+   "localRate": 0.015
+  },
+  {
+   "id": "ponca",
+   "name": "Ponca",
+   "localRate": 0.015
+  },
+  {
+   "id": "ralston",
+   "name": "Ralston",
+   "localRate": 0.015
+  },
+  {
+   "id": "randolph",
+   "name": "Randolph",
+   "localRate": 0.015
+  },
+  {
+   "id": "ravenna",
+   "name": "Ravenna",
+   "localRate": 0.015
+  },
+  {
+   "id": "red-cloud",
+   "name": "Red Cloud",
+   "localRate": 0.015
+  },
+  {
+   "id": "republican-city",
+   "name": "Republican City",
+   "localRate": 0.01
+  },
+  {
+   "id": "rising-city",
+   "name": "Rising City",
+   "localRate": 0.01
+  },
+  {
+   "id": "roca",
+   "name": "Roca",
+   "localRate": 0.015
+  },
+  {
+   "id": "rulo",
+   "name": "Rulo",
+   "localRate": 0.01
+  },
+  {
+   "id": "rushville",
+   "name": "Rushville",
+   "localRate": 0.015
+  },
+  {
+   "id": "sargent",
+   "name": "Sargent",
+   "localRate": 0.02
+  },
+  {
+   "id": "schuyler",
+   "name": "Schuyler",
+   "localRate": 0.015
+  },
+  {
+   "id": "scottsbluff",
+   "name": "Scottsbluff",
+   "localRate": 0.015
+  },
+  {
+   "id": "scribner",
+   "name": "Scribner",
+   "localRate": 0.015
+  },
+  {
+   "id": "seward",
+   "name": "Seward",
+   "localRate": 0.02
+  },
+  {
+   "id": "shelby",
+   "name": "Shelby",
+   "localRate": 0.015
+  },
+  {
+   "id": "shickley",
+   "name": "Shickley",
+   "localRate": 0.01
+  },
+  {
+   "id": "sidney",
+   "name": "Sidney",
+   "localRate": 0.02
+  },
+  {
+   "id": "silver-creek",
+   "name": "Silver Creek",
+   "localRate": 0.01
+  },
+  {
+   "id": "south-sioux-city",
+   "name": "South Sioux City",
+   "localRate": 0.015
+  },
+  {
+   "id": "spalding",
+   "name": "Spalding",
+   "localRate": 0.015
+  },
+  {
+   "id": "spencer",
+   "name": "Spencer",
+   "localRate": 0.01
+  },
+  {
+   "id": "springfield",
+   "name": "Springfield",
+   "localRate": 0.015
+  },
+  {
+   "id": "springview",
+   "name": "Springview",
+   "localRate": 0.01
+  },
+  {
+   "id": "st-edward",
+   "name": "St. Edward",
+   "localRate": 0.015
+  },
+  {
+   "id": "st-paul",
+   "name": "St. Paul",
+   "localRate": 0.015
+  },
+  {
+   "id": "stanton",
+   "name": "Stanton",
+   "localRate": 0.015
+  },
+  {
+   "id": "sterling",
+   "name": "Sterling",
+   "localRate": 0.01
+  },
+  {
+   "id": "stromsburg",
+   "name": "Stromsburg",
+   "localRate": 0.015
+  },
+  {
+   "id": "stuart",
+   "name": "Stuart",
+   "localRate": 0.015
+  },
+  {
+   "id": "superior",
+   "name": "Superior",
+   "localRate": 0.015
+  },
+  {
+   "id": "sutherland",
+   "name": "Sutherland",
+   "localRate": 0.015
+  },
+  {
+   "id": "sutton",
+   "name": "Sutton",
+   "localRate": 0.015
+  },
+  {
+   "id": "syracuse",
+   "name": "Syracuse",
+   "localRate": 0.01
+  },
+  {
+   "id": "tecumseh",
+   "name": "Tecumseh",
+   "localRate": 0.015
+  },
+  {
+   "id": "tekamah",
+   "name": "Tekamah",
+   "localRate": 0.02
+  },
+  {
+   "id": "terrytown",
+   "name": "Terrytown",
+   "localRate": 0.01
+  },
+  {
+   "id": "thedford",
+   "name": "Thedford",
+   "localRate": 0.01
+  },
+  {
+   "id": "tilden",
+   "name": "Tilden",
+   "localRate": 0.015
+  },
+  {
+   "id": "trenton",
+   "name": "Trenton",
+   "localRate": 0.015
+  },
+  {
+   "id": "uehling",
+   "name": "Uehling",
+   "localRate": 0.01
+  },
+  {
+   "id": "unadilla",
+   "name": "Unadilla",
+   "localRate": 0.015
+  },
+  {
+   "id": "upland",
+   "name": "Upland",
+   "localRate": 0.015
+  },
+  {
+   "id": "utica",
+   "name": "Utica",
+   "localRate": 0.015
+  },
+  {
+   "id": "valentine",
+   "name": "Valentine",
+   "localRate": 0.015
+  },
+  {
+   "id": "valley",
+   "name": "Valley",
+   "localRate": 0.015
+  },
+  {
+   "id": "verdigre",
+   "name": "Verdigre",
+   "localRate": 0.015
+  },
+  {
+   "id": "wahoo",
+   "name": "Wahoo",
+   "localRate": 0.02
+  },
+  {
+   "id": "wakefield",
+   "name": "Wakefield",
+   "localRate": 0.01
+  },
+  {
+   "id": "waterloo",
+   "name": "Waterloo",
+   "localRate": 0.02
+  },
+  {
+   "id": "wauneta",
+   "name": "Wauneta",
+   "localRate": 0.01
+  },
+  {
+   "id": "wausa",
+   "name": "Wausa",
+   "localRate": 0.01
+  },
+  {
+   "id": "waverly",
+   "name": "Waverly",
+   "localRate": 0.015
+  },
+  {
+   "id": "wayne",
+   "name": "Wayne",
+   "localRate": 0.015
+  },
+  {
+   "id": "weeping-water",
+   "name": "Weeping Water",
+   "localRate": 0.015
+  },
+  {
+   "id": "west-point",
+   "name": "West Point",
+   "localRate": 0.02
+  },
+  {
+   "id": "wilber",
+   "name": "Wilber",
+   "localRate": 0.015
+  },
+  {
+   "id": "wisner",
+   "name": "Wisner",
+   "localRate": 0.02
+  },
+  {
+   "id": "wood-river",
+   "name": "Wood River",
+   "localRate": 0.015
+  },
+  {
+   "id": "wymore",
+   "name": "Wymore",
+   "localRate": 0.015
+  },
+  {
+   "id": "wynot",
+   "name": "Wynot",
+   "localRate": 0.015
+  },
+  {
+   "id": "york",
+   "name": "York",
+   "localRate": 0.02
+  },
+  {
+   "id": "dakota-county",
+   "name": "Dakota County, outside a city with its own tax",
+   "localRate": 0.005
+  },
+  {
+   "id": "none",
+   "name": "No local sales tax (rural area or town without one)",
+   "localRate": 0
+  }
+ ],
+ "defaultCounty": "omaha",
+ "singular": [
+  "Nebraska's motor vehicle tax is a property tax set by the MSRP: a car that listed at $34,000 to $35,999 starts at a $580 base tax [tax-chart].",
+  "The base tax falls with age, to 90% in the second year, 51% in the sixth and 7% in the twelfth and thirteenth years, and nothing is due from the fourteenth year [tax-chart].",
+  "A separate motor vehicle fee of $5, $20 or $30 depends on the MSRP band and drops to 70% after five years and 35% after ten, but never reaches zero [tax-chart].",
+  "The state sales tax is 5.5% and cities may add up to 2%, with Lincoln at 1.75% and Omaha at 1.5% from July 1, 2026 [local-rates].",
+  "The address on the registration decides which local sales tax applies to a car, not the dealer's address [form6].",
+  "A dealer's document processing charge is part of the taxable sales price, while the trade-in is deducted [form6].",
+  "Every passenger registration costs $15 plus $5.50 of add-ons for emergency medical services, the DMV, recreation roads and the county [dmv-fees].",
+  "Electric and hydrogen cars pay a $150 alternative fuel fee at each registration, plug-in hybrids $75 [dmv-fees].",
+  "In 2025 Nebraska motorists paid about $45 million of city wheel taxes, which range from $10 to $370 a year [mv-2025].",
+  "A Nebraska title costs $10 at the county treasurer, and a car from another state needs a $10 sheriff's inspection first [vin-inspection]."
+ ],
+ "sources": {
+  "dmv-fees": {
+   "name": "Nebraska DMV, Registration Fees and Taxes",
+   "url": "https://dmv.nebraska.gov/dvr/reg/registration-fees-and-taxes",
+   "accessed": "2026-10-11",
+   "quote": "$15.00 - Registration fee for passenger and leased vehicles. ... .50 - Emergency Medical System ... $2.00 - Department of Motor Vehicles Cash Fund ... $1.50 - State Recreation Road Fund ... $1.50 - County General Fund ... $4.10 - Plate Fee per plate ... $150.00 - An alternative fuel fee"
+  },
+  "tax-chart": {
+   "name": "Nebraska DMV, Motor Vehicle Tax Calculation Table and Motor Vehicle Fee Calculation (60-3,185)",
+   "url": "https://dmv.nebraska.gov/sites/dmv.nebraska.gov/files/doc/dvr/MV_Tax_Fee_Chart.pdf",
+   "accessed": "2026-10-11",
+   "quote": "$34,000 to $35,999 $580.00 ... First Year 100% Second Year 90% ... Fourteenth Year and Older 0% ... MSRP=$20,000 to $39,999 20.00$ 14.00$ 7.00$"
+  },
+  "mv-2025": {
+   "name": "Nebraska DMV, 2025 Motor Vehicle Taxes",
+   "url": "https://dmv.nebraska.gov/sites/default/files/doc/data/MV-Revenue/2025_MV_Taxes&Fees.pdf",
+   "accessed": "2026-10-11",
+   "quote": "The State rate is 5 -1/2%, and local sales tax can vary up to 2.5% more. ... Wheel Tax is charged annually by several cities ranging from $10 to $370"
+  },
+  "local-rates": {
+   "name": "Nebraska Department of Revenue, Local Sales and Use Tax Rates effective July 1, 2026",
+   "url": "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2026/salestax/slstax_rates_07-01-2026.pdf",
+   "accessed": "2026-10-11",
+   "quote": "Lincoln 1.75% 7.25% (.0725) ... Omaha 1.5% 7.0% (.07) ... Dakota County* 0.5% 6.0% (.06)"
+  },
+  "form6": {
+   "name": "Nebraska Department of Revenue, Sales/Use Tax and Tire Fee Statement for Motor Vehicle Sales (Form 6)",
+   "url": "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2025/salestax/f_6.pdf",
+   "accessed": "2026-10-11",
+   "quote": "Items that must be included in the total sales price are ... Document processing charges ... Line 6. Motor vehicles registered at an address within the boundaries of a taxing jurisdiction that imposes a local tax, are subject to local tax."
+  },
+  "title": {
+   "name": "Nebraska DMV, Motor Vehicle Certificate of Title",
+   "url": "https://dmv.nebraska.gov/dvr/title/motor-vehicle-certificate-title",
+   "accessed": "2026-10-11",
+   "quote": "A fee of $10.00, payable to the County Treasurer, and proper evidence of ownership must accompany the application for title."
+  },
+  "plates": {
+   "name": "Nebraska DMV, 2023-2029 License Plates",
+   "url": "https://dmv.nebraska.gov/sites/dmv.nebraska.gov/files/doc/dvr/plates/2023_Series_Plates.pdf",
+   "accessed": "2026-10-11",
+   "quote": "Passenger Issued in the 90 non-alpha/numeric counties to all motor vehicles designed to carry ten passengers or less ... 2 Plates"
+  },
+  "vin-inspection": {
+   "name": "Nebraska DMV, Vehicle Inspections",
+   "url": "https://dmv.nebraska.gov/dvr/title/vehicle-inspection",
+   "accessed": "2026-10-11",
+   "quote": "Vehicle inspections are required for: all vehicles ... brought into Nebraska from Out-of-State ... The County Sheriff conducts vehicle inspections. ... The fee for a Sheriff's Inspection is $10.00."
+  },
+  "form6-tire": {
+   "name": "Nebraska Department of Revenue, Form 6 instructions (trade-in and tire fee)",
+   "url": "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2025/salestax/f_6.pdf",
+   "accessed": "2026-10-11",
+   "quote": "2 Less trade-in allowance ... 10 Tire fee (Number of new tires ______ multiplied by $1) ... Motor vehicle dealers selling new motor vehicles ... are required to indicate the number of new tires, including the spare"
+  }
+ }
+}

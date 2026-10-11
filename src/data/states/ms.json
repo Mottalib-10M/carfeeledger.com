@@ -1,0 +1,113 @@
+{
+ "abbr": "MS",
+ "name": "Mississippi",
+ "slug": "mississippi",
+ "agency": {
+  "name": "Mississippi Department of Revenue, Motor Vehicle Services",
+  "short": "DOR",
+  "url": "https://www.dor.ms.gov/motor-vehicle"
+ },
+ "taxAgency": {
+  "name": "Mississippi Department of Revenue",
+  "url": "https://www.dor.ms.gov/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "Ad valorem tax is due with every tag: 30% of the MSRP, depreciated over 10 years, times the millage your county, city and school district set, less the legislative tag credit the DOR recalculates each year. The millage is not published in one statewide table, so the line has no amount.",
+  "The electric vehicle tax ($150 in Section 27-19-21) and the hybrid tax ($75) are raised every July 1 by the prior year's inflation rate; the indexed amount for the year starting July 1, 2026 was not found on an official page, so the line has no amount and the summary shows the statutory base.",
+  "Whether a plug-in hybrid pays the hybrid tax is assumed from the hybrid definition; the DOR page read only says electric and hybrid fees apply at registration and renewal.",
+  "A private (casual) sale is taxed at 5% of the DOR assessment value for that model, which the form does not ask; the tax line has no amount (vehicles 10 years old or more are exempt).",
+  "Counties may add their own road and bridge privilege tax and cities a municipal privilege tax; they were not read on an official statewide page and are not included.",
+  "No local sales tax is added: the City of Jackson's 1% special tax covers only sales taxed at 7% or more, and the City of Tupelo's 0.25% levy on retail sales was not confirmed for vehicles.",
+  "Whether a dealer documentation fee is part of the taxable price was not stated in the pages read; the engine leaves it out. No cap on that fee was read in Mississippi law."
+ ],
+ "summary": {
+  "stateRate": 0.05,
+  "localRange": [0, 0],
+  "taxName": "motor vehicle sales tax",
+  "tradeInCredit": true,
+  "titleFee": 9,
+  "regMethod": "flat",
+  "regYears": 1,
+  "docFeeCap": null,
+  "docFeeNote": "No cap read in Mississippi law for this release; type the dealer's fee.",
+  "evFee": 150,
+  "phevFee": 75,
+  "hybridFee": 75,
+  "inspection": "none",
+  "inspectionWhere": "Mississippi has no periodic safety or emissions inspection for private passenger cars.",
+  "inspectionFee": null,
+  "annualValueTax": true
+ },
+ "params": {
+  "_src": "mv-faq (rate, registration fee), biz-faq (casual sale), titles (title), code-2026 (privilege tax, tag fee split), ev-law (EV tax)",
+  "tax": { "rate": 0.05, "tradeInCredit": true, "docFeeTaxable": false, "privateExemptAge": 10 },
+  "title": 9,
+  "privilege": 15,
+  "reg": { "tagAndDecals": 14, "decalsOnly": 12.75 },
+  "ev": { "evBase": 150, "hybridBase": 75 }
+ },
+ "singular": [
+  "Cars and light trucks of 10,000 lb or less pay a 5% sales tax instead of the 7% general rate, on the net price after dealer discounts and trade-in, with manufacturer rebates not deducted [mv-faq].",
+  "A used car bought from a private person is taxed at 5% of a pre-determined value for that kind of car, not the purchase price, and only when it is less than ten years old [biz-faq].",
+  "Every private passenger vehicle pays a $15 annual highway privilege tax to the state [code-2026].",
+  "The registration fee is $14 for a first registration and $12.75 for a renewal, collected by the county tax collector [mv-faq].",
+  "The $14 is made of a $5 tag-and-decals fee, a $4 fee for the Mississippi Trauma Care Systems Fund and a $5 additional registration fee; decals alone cost $3.75 instead of $5 [code-2026].",
+  "Ad valorem tax is paid with the tag every year, on an assessed value of 30% of the MSRP depreciated over 10 years, with a minimum assessed value of $100 for passenger vehicles [ad-valorem].",
+  "Since 1994 a legislative tag credit funded by motor vehicle sales tax revenue lowers that ad valorem tax, and the DOR resets its percentage every year [ad-valorem].",
+  "The annual electric vehicle tax was set at $150 and is raised every July 1 by the prior year's inflation rate, rounded to the whole dollar [ev-law].",
+  "A Mississippi certificate of title costs $9, or $39 with the 72-hour Fast Track service [titles].",
+  "A vehicle bought in Mississippi must be registered within 30 business days, and missing the 30-day deadline adds a $250 penalty to the usual late penalties [registration]."
+ ],
+ "sources": {
+  "mv-faq": {
+   "name": "Mississippi DOR, Motor Vehicle Frequently Asked Questions",
+   "url": "https://www.dor.ms.gov/motor-vehicle/motor-vehicle-frequently-asked-questions",
+   "accessed": "2026-10-11",
+   "quote": "Registration Fees: $12.75 for renewals $14.00 for first-time registrations ... The general sales tax rate is 5% on the net purchase price (after dealer's discounts and trade-ins). This does not include manufacturer's rebates."
+  },
+  "biz-faq": {
+   "name": "Mississippi DOR, Business Tax Frequently Asked Questions",
+   "url": "https://www.dor.ms.gov/business/business-tax-frequently-asked-questions",
+   "accessed": "2026-10-11",
+   "quote": "Sales of motor vehicles that are less than ten years old made by persons not regularly engaged in business are subject to sales tax. ... The sales tax due is calculated by a pre-determined value for that kind of car. The purchase price is not used"
+  },
+  "titles": {
+   "name": "Mississippi DOR, Motor Vehicle Titles",
+   "url": "https://www.dor.ms.gov/TagsTitles/Pages/default.aspx",
+   "accessed": "2026-10-11",
+   "quote": "Mississippi Title Application Costs Motor Vehicle Title: $9.00 ... Fast Track Title: $39.00"
+  },
+  "code-2026": {
+   "name": "Mississippi Legislature, SB 3114 (2026), text of Sections 27-19-5 and 27-19-43 as in force",
+   "url": "https://billstatus.ls.state.ms.us/documents/2026/html/SB/3100-3199/SB3114IN.htm",
+   "accessed": "2026-10-11",
+   "quote": "On the owner or operator of each private carrier of passengers...$15.00 ... a license tag and two (2) decals, a fee of Five Dollars ($5.00) ... a fee of Four Dollars ($4.00) ... a registration fee of Five Dollars ($5.00) in addition"
+  },
+  "ev-law": {
+   "name": "Mississippi Legislature, HB 303 (2023), text of Section 27-19-21 (electric vehicles)",
+   "url": "https://billstatus.ls.state.ms.us/documents/2023/html/HB/0300-0399/HB0303IN.htm",
+   "accessed": "2026-10-11",
+   "quote": "The amount of the tax shall be One Hundred Fifty Dollars ($150.00). ... Beginning July 1, 2021, and each succeeding July 1 thereafter, the rate of the tax ... shall be adjusted by increasing the tax by a percentage amount equal to the United States inflation rate"
+  },
+  "ad-valorem": {
+   "name": "Mississippi DOR, Motor Vehicle Ad Valorem Taxes",
+   "url": "https://www.dor.ms.gov/motor-vehicle/motor-vehicle-ad-valorem-taxes",
+   "accessed": "2026-10-11",
+   "quote": "Assessed value has been established as 30% of the Manufacturer's Suggested Retail Price plus a reduction of a certain percentage for depreciation over 10 years. A minimum assessed value is set at $100.00 for passenger vehicles."
+  },
+  "registration": {
+   "name": "Mississippi DOR, Motor Vehicle Registration and Renewal",
+   "url": "https://www.dor.ms.gov/motor-vehicle/motor-vehicle-registration-and-renewal",
+   "accessed": "2026-10-11",
+   "quote": "If you have recently bought a vehicle, you must register it within 30 business days of the purchase date. ... Failure to register your vehicle within 30 days will result in standard late penalties and an additional $250 penalty."
+  },
+  "rates": {
+   "name": "Mississippi DOR, Sales Tax Rates",
+   "url": "https://www.dor.ms.gov/business/sales-tax-rates",
+   "accessed": "2026-10-11",
+   "quote": "Automobiles and light trucks (10,000 lbs. or less) ...... 5%"
+  }
+ }
+}

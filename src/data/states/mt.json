@@ -1,0 +1,232 @@
+{
+ "abbr": "MT",
+ "name": "Montana",
+ "slug": "montana",
+ "agency": {
+  "name": "Montana Department of Justice, Motor Vehicle Division",
+  "short": "MVD",
+  "url": "https://mvdmt.gov/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "Montana has no sales tax, but each county may levy a local option motor vehicle tax of up to 0.7% of the depreciated MSRP, or a flat fee. Only the Yellowstone County rate (0.5%) was read on an official page; for every other county the line shows the legal range from $0 to 0.7%.",
+  "The county option tax is based on the MSRP; when you do not type it, the engine uses the price, which understates the tax on a used car. Pickups and SUVs registered as trucks use the truck column of the depreciation table (the law has a separate, slightly different sport utility column).",
+  "Vehicles 17 years old or more are depreciated a further 10% a year from the 16-year value until $500; the engine keeps the 16-year percentage for them.",
+  "The light truck gross vehicle weight fee depends on the rated capacity (1/2, 3/4 or 1 ton), which the form does not ask; it is shown as a range.",
+  "The 3% MVD administrative fee is applied to the state fees and donations, not to the county option tax; the law charges it on all fees and donations under Title 61.",
+  "The first registration of a new car may cover 13 to 24 months depending on the period the county assigns; the engine shows one year.",
+  "No dealer documentation fee cap was read in Montana law for this release."
+ ],
+ "summary": {
+  "stateRate": 0,
+  "localRange": [
+   0,
+   0
+  ],
+  "taxName": "no sales tax (county option tax on value)",
+  "tradeInCredit": false,
+  "titleFee": 12,
+  "regMethod": "age",
+  "regYears": 1,
+  "docFeeCap": null,
+  "docFeeNote": "No cap read in Montana law for this release; type the dealer's fee.",
+  "evFee": 130,
+  "phevFee": 70,
+  "hybridFee": null,
+  "inspection": "none",
+  "inspectionWhere": "Montana has no periodic safety or emissions inspection for private passenger cars.",
+  "inspectionFee": null,
+  "annualValueTax": true
+ },
+ "params": {
+  "_src": "mca-reg (61-3-321 fees), mca-title (61-3-203), mca-ev (61-3-572, 61-3-571, 61-3-573), mca-option (61-3-537), mca-value (61-3-503 table), mca-permanent (61-3-562), mca-admin (61-3-111), yellowstone (county rate 0.5%, GVW fees)",
+  "reg": {
+   "brackets": [
+    {
+     "maxAge": 4,
+     "amount": 217
+    },
+    {
+     "maxAge": 10,
+     "amount": 87
+    },
+    {
+     "maxAge": null,
+     "amount": 28
+    }
+   ],
+   "luxury": {
+    "msrpOver": 150000,
+    "maxAge": 10,
+    "amount": 825
+   }
+  },
+  "mhp": 10,
+  "parks": 9,
+  "parksPermanent": 6,
+  "tbi": 1,
+  "title": 12,
+  "plate": 12,
+  "adminRate": 0.03,
+  "ev": {
+   "class2From": 6000,
+   "ev": [
+    130,
+    190
+   ],
+   "phev": [
+    70,
+    100
+   ],
+   "evPermanent": [
+    260,
+    380
+   ],
+   "phevPermanent": [
+    140,
+    200
+   ]
+  },
+  "optionTax": {
+   "maxRate": 0.007,
+   "minValue": 500,
+   "car": [
+    1,
+    0.9,
+    0.8,
+    0.69,
+    0.58,
+    0.49,
+    0.41,
+    0.33,
+    0.26,
+    0.21,
+    0.17,
+    0.14,
+    0.12,
+    0.1,
+    0.09,
+    0.09,
+    0.09,
+    0.09
+   ],
+   "truck": [
+    1,
+    0.96,
+    0.91,
+    0.86,
+    0.8,
+    0.73,
+    0.66,
+    0.57,
+    0.49,
+    0.43,
+    0.37,
+    0.31,
+    0.26,
+    0.22,
+    0.18,
+    0.15,
+    0.13,
+    0.12
+   ]
+  },
+  "permanent": {
+   "fromAge": 11,
+   "fee": 87.5,
+   "insurance": 5,
+   "optionTaxTimes": 5
+  },
+  "gvwTruck": [
+   7,
+   17.5
+  ]
+ },
+ "counties": [
+  {
+   "id": "yellowstone",
+   "name": "Yellowstone County",
+   "optionRate": 0.005
+  },
+  {
+   "id": "other",
+   "name": "Any other Montana county"
+  }
+ ],
+ "defaultCounty": "yellowstone",
+ "singular": [
+  "At registration a Montana owner pays the registration fee in lieu of tax, any county option tax and the listed donations; no sales tax is charged on the purchase [mca-303].",
+  "The yearly registration fee depends only on age: $217 up to 4 years old, $87 from 5 to 10 years and $28 from 11 years [mca-reg].",
+  "A car 11 years old or more can be registered permanently for an $87.50 fee plus five years of county option tax, and the permanent registration ends when the car is sold [mca-permanent].",
+  "Light vehicles with an MSRP over $150,000 pay an extra $825 a year until they are 10 years old [mca-reg].",
+  "Counties may add a local option tax of up to 0.7% of the depreciated MSRP, and Yellowstone County charges 0.5% [yellowstone].",
+  "The taxable value follows a statutory table: a new car is valued at 90% of its MSRP in its model year, 80% the next year and 49% at four years old, never below $500 [mca-value].",
+  "Electric cars under 6,000 lb pay $130 a year on top of registration and plug-in hybrids $70; hybrids that do not plug in pay nothing extra [mca-ev].",
+  "Every registration carries a $10 Highway Patrol fee and a $9 state parks fee that owners may decline [mca-reg].",
+  "The Motor Vehicle Division adds a 3% administrative fee to the fees and donations it collects [mca-admin].",
+  "A light vehicle title costs $12 until June 30, 2028, when it drops to $7 [mca-title]."
+ ],
+ "sources": {
+  "mca-reg": {
+   "name": "Montana Code Annotated 2025, 61-3-321 (registration fees)",
+   "url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0030/part_0030/section_0210/0610-0030-0030-0210.html",
+   "accessed": "2026-10-11",
+   "quote": "(i) if the vehicle is 4 or less years old, $217; (ii) if the vehicle is 5 through 10 years old, $87; and (iii) if the vehicle is 11 or more years old, $28. ... a fee of $12 must be collected when a new set of standard license plates ... is issued"
+  },
+  "mca-title": {
+   "name": "Montana Code Annotated 2025, 61-3-203 (title fee)",
+   "url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0030/part_0020/section_0030/0610-0030-0020-0030.html",
+   "accessed": "2026-10-11",
+   "quote": "Until June 30, 2028, a person applying for a certificate of title shall pay ... (b) $12 if the vehicle for which application is made is a light vehicle or a truck or bus that weighs 1 ton or less."
+  },
+  "mca-303": {
+   "name": "Montana Code Annotated 2025, 61-3-303 (original registration, donations)",
+   "url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0030/part_0030/section_0030/0610-0030-0030-0030.html",
+   "accessed": "2026-10-11",
+   "quote": "a person registering a motor vehicle shall pay ... the fees in lieu of tax or registration fees as required for: (i) a light vehicle under 61-3-321 or 61-3-562, in addition to, if applicable, any local option tax or fee under 61-3-537 ... an automatic donation of $1"
+  },
+  "mca-ev": {
+   "name": "Montana Code Annotated 2025, 61-3-572 (additional electric vehicle registration fees)",
+   "url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0030/part_0050/section_0720/0610-0030-0050-0720.html",
+   "accessed": "2026-10-11",
+   "quote": "The annual registration fees for electric vehicles other than plug-in hybrid electric vehicles is as follows: (a) $130 for class 1 vehicles; (b) $190 for class 2 vehicles ... plug-in hybrid electric vehicles ... (a) $70 for class 1 vehicles; (b) $100"
+  },
+  "mca-ev-class": {
+   "name": "Montana Code Annotated 2025, 61-3-571 (definitions) and 61-3-573 (permanent EV fee)",
+   "url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0030/part_0050/section_0710/0610-0030-0050-0710.html",
+   "accessed": "2026-10-11",
+   "quote": "\"Class 1 vehicle\" means a vehicle having an unladen gross weight of less than 6,000 pounds."
+  },
+  "mca-option": {
+   "name": "Montana Code Annotated 2025, 61-3-537 (local option motor vehicle tax)",
+   "url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0030/part_0050/section_0370/0610-0030-0050-0370.html",
+   "accessed": "2026-10-11",
+   "quote": "A county may impose a local option motor vehicle tax on motor vehicles subject to the registration fee imposed under 61-3-321(2) or 61-3-562 at a rate of up to 0.7% of the value determined under 61-3-503 or a local flat fee"
+  },
+  "mca-value": {
+   "name": "Montana Code Annotated 2025, 61-3-503 (assessment, depreciation table)",
+   "url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0030/part_0050/section_0030/0610-0030-0050-0030.html",
+   "accessed": "2026-10-11",
+   "quote": "the depreciated value for the taxation of light vehicles is computed by multiplying the manufacturer's suggested retail price by a percentage multiplier based on the type and age of the light vehicle ... If the depreciated value is less than $500, the department shall value the motor vehicle at $500."
+  },
+  "mca-permanent": {
+   "name": "Montana Code Annotated 2025, 61-3-562 (permanent registration)",
+   "url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0030/part_0050/section_0620/0610-0030-0050-0620.html",
+   "accessed": "2026-10-11",
+   "quote": "The owner of a light vehicle 11 years old or older ... may permanently register the light vehicle upon payment of an $87.50 registration fee ... and an amount equal to five times the local option motor vehicle tax ... The permanent registration ... may not be transferred to a new owner."
+  },
+  "mca-admin": {
+   "name": "Montana Code Annotated 2025, 61-3-111 (administrative fee)",
+   "url": "https://leg.mt.gov/bills/mca/title_0610/chapter_0030/part_0010/section_0110/0610-0030-0010-0110.html",
+   "accessed": "2026-10-11",
+   "quote": "The motor vehicle division of the department shall charge, impose, and collect a 3% administrative fee on all fees and donations charged under 23-2-809, 23-2-617, and this title"
+  },
+  "yellowstone": {
+   "name": "Yellowstone County Treasurer, Motor Vehicle Tax & Fee Schedules",
+   "url": "https://www.yellowstonecountymt.gov/Treasurer/MotorV/schedules.asp",
+   "accessed": "2026-10-11",
+   "quote": "The County Option Tax is calculated at one half percent of the taxable value of the vehicle ... 3% fee assessed on all MVD financial transaction ... MHP Salary and Retention Fee $10.00 ... Light MV FWP Park Fee (Optional) $9.00 ... 1/2 ton = $7.00"
+  }
+ }
+}

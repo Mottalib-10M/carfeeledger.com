@@ -1,0 +1,229 @@
+{
+ "abbr": "NV",
+ "name": "Nevada",
+ "slug": "nevada",
+ "agency": {
+  "name": "Nevada Department of Motor Vehicles",
+  "short": "DMV",
+  "url": "https://dmv.nv.gov/"
+ },
+ "taxAgency": {
+  "name": "Nevada Department of Taxation",
+  "url": "https://tax.nv.gov/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "The governmental services tax uses the original MSRP; without it the engine uses the price, which understates the tax on a used car.",
+  "The age used in the depreciation schedule is counted as the calendar year minus the model year (at least one year once the car has been registered); the DMV computes it from its own records.",
+  "DMV pages disagree on the price of standard plates ($3.50 on the FAQ page, $10 plate recovery plus a $1 prison fee on the replacement page), so plates are shown as a range.",
+  "Emissions test prices are set by each station in the Las Vegas and Reno urban areas; the line has no amount, and remote parts of Clark and Washoe counties are exempt.",
+  "The DMV fee estimator could not be used to cross-check (it requires a VIN and a captcha).",
+  "No dealer documentation fee cap was read on an official Nevada page for this release; Nevada taxes that fee."
+ ],
+ "summary": {
+  "stateRate": 0.0685,
+  "localRange": [
+   0,
+   0.01525
+  ],
+  "taxName": "sales tax",
+  "tradeInCredit": true,
+  "titleFee": 28.25,
+  "regMethod": "flat",
+  "regYears": 1,
+  "docFeeCap": null,
+  "docFeeNote": "No cap read on an official Nevada page for this release; the fee is subject to sales tax.",
+  "evFee": null,
+  "phevFee": null,
+  "hybridFee": null,
+  "inspection": "emissions",
+  "inspectionWhere": "Yearly emissions test for gasoline cars based in the urban areas of Clark and Washoe counties from the fourth registration of a new car (hybrids from their sixth model year); electric cars are exempt.",
+  "inspectionFee": null,
+  "annualValueTax": true
+ },
+ "params": {
+  "_src": "county-rates (sales tax by county), automotive (trade-in, doc fee taxable), regfees (registration, title, supplemental GST, private sales), nrs-371 (GST rate, schedule, minimum), plates (range), emission (smog rules)",
+  "tax": {
+   "rate": 0.0685,
+   "tradeInCredit": true,
+   "docFeeTaxable": true
+  },
+  "title": 28.25,
+  "plates": [
+   3.5,
+   11
+  ],
+  "reg": 33,
+  "gst": {
+   "valuation": 0.35,
+   "basic": 0.04,
+   "supplemental": 0.01,
+   "min": 16,
+   "schedule": [
+    1,
+    0.95,
+    0.85,
+    0.75,
+    0.65,
+    0.55,
+    0.45,
+    0.35,
+    0.25,
+    0.15
+   ]
+  },
+  "smog": {
+   "gasFromAge": 3,
+   "hybridFromAge": 5
+  }
+ },
+ "counties": [
+  {
+   "id": "carson-city",
+   "name": "Carson City",
+   "localRate": 0.0075
+  },
+  {
+   "id": "churchill-county",
+   "name": "Churchill County",
+   "localRate": 0.0075,
+   "supplemental": true
+  },
+  {
+   "id": "clark-county",
+   "name": "Clark County",
+   "localRate": 0.01525,
+   "supplemental": true,
+   "smog": true
+  },
+  {
+   "id": "douglas-county",
+   "name": "Douglas County",
+   "localRate": 0.0025
+  },
+  {
+   "id": "elko-county",
+   "name": "Elko County",
+   "localRate": 0.0025
+  },
+  {
+   "id": "esmeralda-county",
+   "name": "Esmeralda County",
+   "localRate": 0.0
+  },
+  {
+   "id": "eureka-county",
+   "name": "Eureka County",
+   "localRate": 0.0
+  },
+  {
+   "id": "humboldt-county",
+   "name": "Humboldt County",
+   "localRate": 0.0
+  },
+  {
+   "id": "lander-county",
+   "name": "Lander County",
+   "localRate": 0.0025
+  },
+  {
+   "id": "lincoln-county",
+   "name": "Lincoln County",
+   "localRate": 0.0025
+  },
+  {
+   "id": "lyon-county",
+   "name": "Lyon County",
+   "localRate": 0.0025
+  },
+  {
+   "id": "mineral-county",
+   "name": "Mineral County",
+   "localRate": 0.0
+  },
+  {
+   "id": "nye-county",
+   "name": "Nye County",
+   "localRate": 0.0075
+  },
+  {
+   "id": "pershing-county",
+   "name": "Pershing County",
+   "localRate": 0.0025
+  },
+  {
+   "id": "storey-county",
+   "name": "Storey County",
+   "localRate": 0.0075
+  },
+  {
+   "id": "washoe-county",
+   "name": "Washoe County",
+   "localRate": 0.01415,
+   "smog": true
+  },
+  {
+   "id": "white-pine-county",
+   "name": "White Pine County",
+   "localRate": 0.00875
+  }
+ ],
+ "defaultCounty": "clark-county",
+ "singular": [
+  "Nevada's yearly governmental services tax is 4 cents per dollar of a valuation equal to 35% of the original MSRP, whatever price you paid [regfees].",
+  "That valuation depreciates by law to 95% after one year, 85% after two and 55% after five, and stops at 15% from nine years [nrs-371].",
+  "Clark and Churchill counties add a voter-approved supplemental governmental services tax of 1 cent per dollar of the same valuation for road projects [regfees].",
+  "The minimum governmental services tax is $16 a year, so even an old car pays it [nrs-371].",
+  "A passenger car pays a flat $33 registration fee whatever its weight [regfees].",
+  "Sales tax runs from 6.85% in the smallest rural counties to 8.375% in Clark County and 8.265% in Washoe County [county-rates].",
+  "Private party sales, family sales and gifts are not subject to sales tax; the tax applies to dealer sales on the actual purchase price [regfees].",
+  "A trade-in lowers the taxable price, and a dealer's document fee is subject to sales tax [automotive].",
+  "New cars skip the emissions test for their first three registrations and hybrids for five model years [emission].",
+  "A first Nevada title costs $28.25 [regfees]."
+ ],
+ "sources": {
+  "regfees": {
+   "name": "Nevada DMV, Vehicle Registration Fees",
+   "url": "https://dmv.nv.gov/regfees.htm",
+   "accessed": "2026-10-11",
+   "quote": "Passenger Car ... $33 ... DMV Valuation = 35% of the original MSRP ... Governmental Services tax is 4% of the depreciated valuation ... Supplemental GST Voter-approved tax for highway construction (Clark and Churchill counties only) ... Private Party Sales, Family Sales and Gifts: These are not subject to sales taxes."
+  },
+  "nrs-371": {
+   "name": "NRS 371.040 and 371.060, governmental services tax and depreciation schedule",
+   "url": "https://www.leg.state.nv.us/NRS/NRS-371.html",
+   "accessed": "2026-10-11",
+   "quote": "New 100 percent; 1 year 95 percent; 2 years 85 percent ... 9 years or more 15 percent ... the minimum amount of the governmental services tax ... $16 for any other vehicle."
+  },
+  "county-rates": {
+   "name": "Nevada Department of Taxation, Combined Sales and Use Tax Return REV-F013A (rates by county, 2026)",
+   "url": "https://tax.nv.gov/wp-content/uploads/2026/01/REV-F013A-Sales-and-Use-Tax-Return.pdf",
+   "accessed": "2026-10-11",
+   "quote": "01 CARSON CITY 7.600% ... 03 CLARK 8.375% ... 06 ESMERALDA 6.850% ... 16 WASHOE 8.265% 17 WHITE PINE 7.725%"
+  },
+  "automotive": {
+   "name": "Nevada Department of Taxation, Automotive industry sales tax guide",
+   "url": "https://tax.nv.gov/wp-content/uploads/2024/03/Automotive.pdf",
+   "accessed": "2026-10-11",
+   "quote": "Trade in of a vehicle towards the purchase of another vehicle, reduces the purchase price by the value of the trade in. Sales tax is computed and paid on the net selling price. ... document fees are subject to sales tax."
+  },
+  "plates": {
+   "name": "Nevada DMV, Duplicate and Replacement License Plates",
+   "url": "https://dmv.nv.gov/plateslost.htm",
+   "accessed": "2026-10-11",
+   "quote": "When swapping for a new set of standard plates (qty. 2), you will be responsible for the original plate fees plus a small substitution charge, totaling $16 ... $10 Plate Recovery $5 Sub-plate Fee $1 Prison Fee"
+  },
+  "faq": {
+   "name": "Nevada DMV, Frequently Asked Questions",
+   "url": "https://dmv.nv.gov/faqs.htm",
+   "accessed": "2026-10-11",
+   "quote": "Plate Costs: Range from $3.50, standard, up to $96, specialty/personalized."
+  },
+  "emission": {
+   "name": "Nevada DMV, Emission Control Program",
+   "url": "https://dmv.nv.gov/emission.htm",
+   "accessed": "2026-10-11",
+   "quote": "Based in the urban areas of Clark or Washoe county ... A new vehicle at its fourth registration. The first three registrations are exempt. Hybrids are exempt for five model years."
+  }
+ }
+}

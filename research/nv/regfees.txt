@@ -1,0 +1,224 @@
+ 
+ Nevada DMV
+ Vehicle Registration Fees
+ A detailed overview of Nevada’s vehicle registration fee structure,
+ including Governmental Services Tax, and how depreciation are calculated
+ Check Registration and Insurance Status 
+ My
+ Vehicle 
+ Vehicle Registration Fees
+ Registration Fees and Taxes
+ Nevada charges a Registration Fee, a Governmental Services Tax and, in some counties,
+ a Supplemental Governmental Services Tax.
+ Registration
+ Fee
+ Funds state road construction and the DMV operating budget.
+ Governmental
+ Services Tax
+ Funds local governments, school districts and
+ the state General Fund.
+ Supplemental
+ GST
+ Voter-approved tax for highway construction
+ (Clark and Churchill counties only).
+ Special Fees:
+ There is a $6 Safety Fee on motorcycle registrations that
+ funds
+ Nevada Rider
+ safety programs and training.
+ Other taxes which determine the final cost include fees for
+ license plates and VIN registration.
+ The fee for a first-time Nevada title is $28.25. The DMV
+ collects sales taxes on many out-of-state dealer sales.
+ Complete Guide to Registration Fees and Taxes
+ Registration Fee 
+ Tax Calculation 
+ Tax Exemption 
+ Late Fees 
+ Sales Tax 
+ Registration fees are charged based on the class of the vehicle and its
+ weight.
+ ( 
+ NRS 482.480
+ and
+ 482.482
+ ).
+ Use the Registration
+ Fee Calculator to estimate your fees accurately. 
+ Vehicle Type
+ Weight/Details
+ Registration Fee
+ Passenger Car (reconstructed or specially constructed) 
+ Regardless of weight or passenger capacity 
+ $33 
+ Motorcycle 
+ N/A 
+ $33 + $6 safety fee (except trimobiles) 
+ Moped 
+ N/A 
+ $33 
+ Travel Trailer 
+ N/A 
+ $27 
+ Trailer or Semitrailer 
+ Unladen weight ≤ 1,000 lbs 
+ $12 
+ Trailer 
+ Unladen weight > 1,000 lbs 
+ $24 
+ Golf Cart Permit 
+ N/A 
+ $10 (annual) 
+ Low-Speed Vehicle 
+ N/A 
+ $33 
+ Motor Truck, Truck-Tractor or Bus 
+ < 6,000 lbs 
+ $33 
+ Motor Truck, Truck-Tractor or Bus 
+ 6,000 - 8,499 lbs 
+ $38 
+ Motor Truck, Truck-Tractor or Bus 
+ 8,500 - 10,000 lbs 
+ $48 
+ Motor Truck, Truck-Tractor or Bus 
+ 10,001 - 26,000 lbs 
+ $12 per 1,000 lbs or fraction 
+ Motor Truck, Truck-Tractor or Bus 
+ 26,001 - 80,000 lbs 
+ $17 per 1,000 lbs or fraction (max $1,360) 
+ Commercial Vehicles Note: 
+ For vehicles 26,001 pounds and heavier, see
+ Motor Carrier Registration
+ .
+ Commercial vehicles with a declared gross weight of 10,000
+ pounds or more and trailers
+ with an unladen weight of 4,000 pounds or more use a different
+ schedule.
+ See NRS Chapter 371.
+ How Taxes Are Calculated
+ Taxes are based on the original Manufacturers Suggested Retail Price
+ (MSRP) set when the vehicle was new.
+ ( 
+ NRS Chapter 371
+ )
+ Tax Calculation Steps
+ 1 
+ Start with the MSRP – Taxes are
+ based on the original MSRP (unchanged for life of the vehicle).
+ 2 
+ Calculate DMV Valuation – DMV
+ Valuation = 35% of the original MSRP
+ 3 
+ Apply Depreciation 
+ Year 1: Reduce DMV Valuation by 5%
+ Each year after: Reduce by 10% per year
+ Minimum value: Depreciation stops at 15% of the original
+ DMV Valuation
+ 4 
+ Calculate Supplemental Governmental Services
+ Tax – Multiply the same depreciated DMV Valuation
+ by $0.01 per $1
+ Note: The minimum Governmental Services Tax is
+ $16.00.
+ Example Calculation
+ Vehicle 2 years old with an original MSRP of $20,000
+ Original MSRP
+ $20,000
+ × 0.35 (DMV Valuation)
+ DMV Valuation
+ Will not change over time (NRS 371.060)
+ × 0.35 (DMV
+ Valuation)
+ $7,000
+ Depreciated Valuation
+ DMV Valuation is depreciated 15% - vehicle
+ is two years old (NRS 371.050)
+ × 0.04
+ (Governmental Services
+ Tax)
+ $5,950
+ Governmental Services Tax
+ Governmental Services tax is 4% of the
+ depreciated valuation (NRS 371.040)
+ $238
+ Supplemental Governmental Services
+ Tax
+ DMV Valuation is depreciated 15% - vehicle
+ is two years old (NRS 371.050)
+ $60
+ Total Taxes
+ $298
+ Depreciation Schedule:
+ The DMV Valuation (35% of MSRP) is depreciated 5% after the
+ first year, then 10% per year thereafter until it reaches a
+ minimum of 15%.
+ Important: You must claim your tax exemption at the
+ time you register or renew your vehicle. Exemptions are not credited
+ or refunded after the fact.
+ County Assessor Exemptions
+ County Assessors can approve Governmental Services tax
+ relief for:
+ Veterans with certain dates of service
+ Disabled veterans and their surviving
+ spouses
+ The blind
+ GST Exemptions: Contact your County
+ Assessor for specific requirements and see
+ NRS Chapter 371
+ .
+ These exemptions apply only to the Governmental
+ Services Tax.
+ Active Duty Military:
+ Active duty military members who are residents of
+ another state but stationed in Nevada qualify for a full
+ exemption on Governmental Services Tax. This exemption
+ may be transferred to a spouse. See
+ Military Licensing
+ .
+ Native Americans:
+ Native American tribal members who reside on tribal
+ lands qualify for a Governmental Services Tax exemption.
+ You must have the
+ Application for Governmental Services Tax Exemption (VP
+ 154)
+ signed by the Tribal Chairperson.
+ Farmer/Rancher:
+ Larger farm vehicles may be taxed on their unladen
+ weight rather than the declared gross weight. Use the
+ Farmer/Rancher Affidavit (VP 159)
+ .
+ Warning: Nevada does not have a grace period on
+ expired registrations. Your
+ registration expires on the date listed, not at the end of the
+ month.
+ If You’re Late, You Must Pay:
+ The full registration and taxes for the coming year
+ The pro-rated Registration Fee, Governmental Services Taxes
+ and Supplemental Governmental Services taxes for the period
+ of time the vehicle was not registered
+ $6 per month late penalty on the past-due
+ Registration Fee
+ 10% penalty on the past-due Governmental
+ Services and
+ Supplemental Governmental Services taxes ($6 minimum,
+ calculated every 15 days)
+ Note: Late fees are not charged for any
+ period in which the motorist had a valid movement permit.
+ See the
+ Nevada Department of Taxation
+ Sales and Use Tax Publications for current tax rates by county.
+ Nevada Dealer Sales:
+ Taxes are paid to the dealer based on the actual purchase
+ price.
+ Out-of-State Dealer Sales:
+ An out-of-state dealer may or may not collect sales tax.
+ Many dealers remit sales tax payments with the title
+ paperwork sent to the DMV Central Services Division.
+ See
+ Out-of-State Dealer Sales
+ for more information.
+ Private Party Sales, Family Sales and
+ Gifts:
+ These are not subject to sales taxes.
+ 
