@@ -22,7 +22,7 @@ export function StatePick({ id, value, onChange, states, lock, label = 'State', 
     <div className="grid grid-rows-subgrid row-span-3 content-start gap-y-0">
       <span className="mb-1 block text-sm font-medium text-navy-700">{label}</span>
       <p className="flex h-12 items-center rounded-lg border border-navy-200 bg-navy-50 px-4 font-semibold text-navy-900">{name}</p>
-      {help && <span className="mt-1 text-xs text-navy-500">{help}</span>}
+      {help && <span className="mt-1 text-xs text-navy-600">{help}</span>}
     </div>
   );
   return <SelectField id={id} label={label} value={value} onChange={onChange} options={states} help={help} />;

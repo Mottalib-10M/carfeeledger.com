@@ -26,7 +26,7 @@ export default definePage({
     { q: 'Which state is cheapest to own a car in?', a: `For the government fees alone over five years on a $35,000 gasoline car, ${lo.name} comes out lowest and ${hi.name} highest in the data of this site. The ranking changes with the car: value-based states weigh more on expensive new cars, weight-based states on heavy trucks, and EV surcharges on electric cars.` },
     { q: 'Why is insurance not filled in automatically?', a: 'Because no official source gives the premium a given driver will pay. Averages published by regulators describe past premiums across all drivers, and your rate depends on your record, your car, your coverage and your ZIP code. Type the figure from your quote to include it.' },
     { q: 'Does keeping a car longer lower the yearly cost?', a: 'The purchase tax and title are paid once, so they weigh less per year the longer you keep the car, and value-based taxes fall with age. Flat registration and EV fees stay the same. Loan interest stops when the loan is repaid, which is why the calculator shows the cost over the years you choose.' },
-    { q: 'Is depreciation included?', a: 'No. Depreciation is a real cost but it depends on the model, the mileage and the market, and no official schedule gives it. The calculator sticks to amounts set by law or chosen by you.' },
+    { q: 'Is depreciation included?', a: 'No. Depreciation is a real cost but it depends on the model, the mileage and the market, and no official schedule gives it. The calculator sticks to amounts set by law or chosen by you, so add your own estimate of the resale value at the end of the period.' },
   ],
   body: (h) => `
 <h2>What the calculator adds</h2>

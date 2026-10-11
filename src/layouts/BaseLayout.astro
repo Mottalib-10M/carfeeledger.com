@@ -122,7 +122,7 @@ const otherLocales = LOCALES.filter((l) => l !== lang);
     <main id="main-content" class="pt-16">
       {breadcrumbs.length > 0 && (
         <nav aria-label={ui.breadcrumbLabel} class="mx-auto max-w-6xl px-4 pt-4">
-          <ol class="flex flex-wrap items-center gap-1 text-sm text-navy-500">
+          <ol class="flex flex-wrap items-center gap-1 text-sm text-navy-600">
             <li><a href={homeHref} class="hover:text-navy-900">{ui.breadcrumbHome}</a></li>
             {breadcrumbs.map((item) => (<li class="flex items-center gap-1"><span aria-hidden="true">/</span>{item.href ? <a href={item.href} class="hover:text-navy-900">{item.label}</a> : <span class="text-navy-700" aria-current="page">{item.label}</span>}</li>))}
           </ol>
@@ -137,7 +137,7 @@ const otherLocales = LOCALES.filter((l) => l !== lang);
         </div>
         {popular.length > 0 && (<div class="mt-8 border-t border-navy-200 pt-6"><h2 class="mb-2 text-sm font-semibold text-navy-900">{ui.footerPopular}</h2><p class="flex flex-wrap gap-x-4 gap-y-1 text-sm text-navy-600">{popular.map((p) => <a href={p.href} class="hover:text-navy-900">{p.label}</a>)}</p></div>)}
         <div class="mt-8 border-t border-navy-200 pt-8">
-          <div class="flex flex-col items-center gap-2 text-center text-sm text-navy-500">
+          <div class="flex flex-col items-center gap-2 text-center text-sm text-navy-600">
             <p><span class="inline-flex items-center gap-1.5 rounded-full border border-green-200 bg-green-50 px-3 py-0.5 text-xs font-medium text-green-700"><span class="inline-block h-1.5 w-1.5 rounded-full bg-green-500" aria-hidden="true"></span>{ui.footerValidated} · {YEAR}</span></p>
             <p>{ui.footerBrowser}</p>
             <p>{ui.asOf} {YEAR}, {ui.lastUpdated} <time datetime={LAST_UPDATED}>{displayDate(LAST_UPDATED, LANG_TAGS[lang])}</time></p>

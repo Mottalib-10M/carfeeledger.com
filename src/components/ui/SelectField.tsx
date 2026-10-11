@@ -9,7 +9,7 @@ export default function SelectField({ id, label, value, onChange, options, help,
         className="w-full rounded-lg border border-navy-300 h-12 bg-white px-3 text-navy-900 focus:border-accent-500 focus:outline-none focus:ring-2 focus:ring-accent-500/20">
         {options.map((o) => <option key={o.value} value={o.value}>{o.label}</option>)}
       </select>
-      {help && <p id={`${id}-help`} className="mt-1 text-xs text-navy-500">{help}</p>}
+      {help && <p id={`${id}-help`} className="mt-1 text-xs text-navy-600">{help}</p>}
     </div>
   );
 }

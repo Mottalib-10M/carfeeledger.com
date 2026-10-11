@@ -134,11 +134,11 @@ export default function FeeCalc({ states, initial, lock = false, mode = 'fees', 
         <table className="mt-4 w-full text-sm">
           <caption className="sr-only">Fee breakdown</caption>
           <tbody className="divide-y divide-navy-200">
-            {now.map((l) => <tr key={l.id}><td className="py-1.5 pr-3 text-navy-700">{l.label}{l.years && l.years > 1 ? ` (${l.years} years)` : ''}{l.note && <span className="block text-xs text-navy-500">{l.note}</span>}</td><td className="tabular-nums py-1.5 text-right text-navy-900">{usd(l.amount as number, 2)}</td></tr>)}
+            {now.map((l) => <tr key={l.id}><td className="py-1.5 pr-3 text-navy-700">{l.label}{l.years && l.years > 1 ? ` (${l.years} years)` : ''}{l.note && <span className="block text-xs text-navy-600">{l.note}</span>}</td><td className="tabular-nums py-1.5 text-right text-navy-900">{usd(l.amount as number, 2)}</td></tr>)}
             {later.length > 0 && <tr><td colSpan={2} className="pt-3 text-xs font-semibold uppercase tracking-wide text-navy-600">Due within the first 12 months</td></tr>}
-            {later.map((l) => <tr key={l.id}><td className="py-1.5 pr-3 text-navy-700">{l.label}{l.note && <span className="block text-xs text-navy-500">{l.note}</span>}</td><td className="tabular-nums py-1.5 text-right text-navy-900">{usd(l.amount as number, 2)}</td></tr>)}
+            {later.map((l) => <tr key={l.id}><td className="py-1.5 pr-3 text-navy-700">{l.label}{l.note && <span className="block text-xs text-navy-600">{l.note}</span>}</td><td className="tabular-nums py-1.5 text-right text-navy-900">{usd(l.amount as number, 2)}</td></tr>)}
             {r.unpriced.length > 0 && <tr><td colSpan={2} className="pt-3 text-xs font-semibold uppercase tracking-wide text-navy-600">Not added: no single official amount</td></tr>}
-            {r.unpriced.map((l) => <tr key={l.id}><td className="py-1.5 pr-3 text-navy-700">{l.label}{l.note && <span className="block text-xs text-navy-500">{l.note}</span>}</td><td className="tabular-nums py-1.5 text-right text-navy-900">{l.range ? `${usd(l.range[0])} to ${usd(l.range[1])}` : 'varies'}</td></tr>)}
+            {r.unpriced.map((l) => <tr key={l.id}><td className="py-1.5 pr-3 text-navy-700">{l.label}{l.note && <span className="block text-xs text-navy-600">{l.note}</span>}</td><td className="tabular-nums py-1.5 text-right text-navy-900">{l.range ? `${usd(l.range[0])} to ${usd(l.range[1])}` : 'varies'}</td></tr>)}
           </tbody>
         </table>
         {r.notes.map((n) => <p key={n} className="mt-2 text-xs text-navy-700">{n}</p>)}

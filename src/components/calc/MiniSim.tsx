@@ -32,7 +32,7 @@ export default function MiniSim({ kind, lang = 'en', href, arg }: Props) {
           <table className="mt-3 w-full text-sm"><tbody className="divide-y divide-navy-200">
             {out.rows.map(([l, x]) => <tr key={l}><td className="py-1.5 pr-3 text-navy-600">{l}</td><td className="tabular-nums py-1.5 text-right text-navy-900">{x}</td></tr>)}
           </tbody></table>
-          {out.note && <p className="mt-2 text-xs text-navy-500">{out.note}</p>}
+          {out.note && <p className="mt-2 text-xs text-navy-600">{out.note}</p>}
         </div>
       </div>
       {href && spec.cta && <a href={href} className="mt-4 inline-block text-sm font-medium text-accent-700 hover:underline">{spec.cta} →</a>}

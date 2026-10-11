@@ -55,7 +55,7 @@ const rateTxt = S.localRange[1] > 0 ? `${pct(S.stateRate, 2)} + local ${pct(S.lo
       <div class="rounded-lg border border-navy-200 p-3"><dt class="text-xs text-navy-600">Registration based on</dt><dd class="text-xl font-bold text-navy-900">{S.regMethod}</dd></div>
       <div class="rounded-lg border border-navy-200 p-3"><dt class="text-xs text-navy-600">EV surcharge</dt><dd class="tabular-nums text-xl font-bold text-navy-900">{S.evFee === null ? 'none' : `${usd(S.evFee, 2)}/yr`}</dd></div>
     </dl>
-    <div data-outil class="mb-8"><Tool kind="fees" state={def.slug} lock={true} idPrefix={`${d.abbr.toLowerCase()}f`} /></div>
+    <div data-outil data-chrome class="mb-8"><Tool kind="fees" state={def.slug} lock={true} idPrefix={`${d.abbr.toLowerCase()}f`} /></div>
     <Clamp text={def.resume} lang={lang} id={`clamp-${def.slug}`} class="mb-8" />
     <div class="prose prose-slate max-w-none prose-headings:font-serif">
       {parts.map((p, i) => i % 3 === 0 ? <Fragment set:html={p ?? ''} /> : i % 3 === 1 ? <MiniSim client:load kind={p} arg={decode(parts[i + 1])} href={path} /> : null)}
