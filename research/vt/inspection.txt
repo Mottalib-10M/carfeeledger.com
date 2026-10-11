@@ -1,0 +1,237 @@
+ 
+ Vehicle Inspections | Department of Motor Vehicles 
+ Skip to main content
+ An Official Vermont Government
+ Website
+ Beware of Scams: Fraudulent Messages Targeting Vermont Drivers 
+ Agency of Transportation 
+ Department of Motor Vehicles
+ Menu 
+ myDMV - Online Services 
+ License 
+ Licenses 
+ Identity Documents 
+ Motorcycle Endorsement 
+ Renew 
+ Address Change 
+ Name Change 
+ Replacement 
+ Suspensions 
+ License Restrictions 
+ Foreign Licenses 
+ Fees 
+ Mature Drivers 
+ Commercial Driver's License (CDL) 
+ Registration 
+ Registrations 
+ New 
+ Renew 
+ Transfer 
+ Address Change 
+ Replacement 
+ License Plates 
+ Cancellation 
+ Fees 
+ Tax & Title 
+ Tax & Title 
+ Tax 
+ Title 
+ Vehicle Identification Number (VIN) 
+ Forms 
+ Commercial Vehicles 
+ Commercial Vehicles 
+ International Registration Plan (IRP) 
+ Fuel Tax 
+ Permits 
+ Municipal Weight Limits 
+ School Bus 
+ School Bus Driver Training 
+ School Bus Clinic Calendar 
+ Rental Company License 
+ Commercial Trucking Fees 
+ Automated Clearing House (ACH) 
+ Enforcement & Safety 
+ Enforcement & Safety 
+ Abandoned Vehicles 
+ Dealer Services 
+ Driving Records Requests 
+ Driver Training Instructors 
+ Hearings 
+ Motor Carrier Safety Assistance Program 
+ Motor Vehicle Laws 
+ Our Roads, Our Safety 
+ Safety on Recreational Trails 
+ Tips for Buying a Used Vehicle 
+ Vehicle Inspections 
+ Violation Codes 
+ Media Release 
+ Driver Education 
+ Driver Education 
+ Driver Training Schools 
+ Driver's Manual - Audio 
+ Vermont Rider Education Program (VREP) 
+ Off Road Vehicle Safety & Training 
+ Locations 
+ Locations 
+ Montpelier Main Office 
+ Bennington 
+ Dummerston 
+ Newport 
+ Rutland 
+ Saint Albans 
+ Saint Johnsbury 
+ South Burlington 
+ Springfield 
+ White River Junction 
+ Town Clerks 
+ Military Veterans 
+ Military 
+ Military License Plates 
+ Military Test Waiver 
+ About Us 
+ About Us 
+ Accessibility 
+ Interpreter Services 
+ Blue Envelope Program 
+ Deaf Visor Card 
+ ​Administrative Rules 
+ Contact Us 
+ Encrypted Email 
+ External Links 
+ Fair and Impartial Policing 
+ Media Inquiries 
+ People With Disabilities 
+ Personally Identifiable Information (PII) 
+ Public Records 
+ Social Media 
+ Title VI 
+ Languages 
+ Search 
+ Search 
+ Submit 
+ Home 
+ Vermont Highway Patrol 
+ Vehicle Inspections 
+ Vehicle Inspections 
+ Automotive Emissions Repair Assistance 
+ Vehicle Readiness 
+ On-Board Diagnostics (OBD II) 
+ Emissions Warranty 
+ Inspection Station Locator 
+ Open Recalls 
+ Inspection History (lookup by VIN) 
+ Inspection FAQs 
+ Inspection stations in Vermont are privately owned and operated by our business partners. Inspection stations and certified Inspection Mechanics are licensed by DMV to conduct inspections as prescribed in the Vermont Periodic Inspection Manual.
+ Vermont has required safety inspections on vehicles since 1935 and inspection procedures became Administrative Rules in the 1960s.
+ Emissions inspections have been required since 1997.
+ DMV currently licenses, regulates and manages approximately 1,600 inspection station licenses and the licenses of approximately 5,000 certified Inspection Mechanics.
+ Questions and Feedback
+ Please use our online contact form to ask questions about the AVIP program.
+ Inspection Stations and Mechanics
+ Find information about becoming a certified Inspection Station or Inspection Mechanic .
+ Or, use our contact form for inspection stations to ask a question.
+ Download the PDF form to your computer and then open it with Adobe Reader
+ Related Forms & Information
+ Title 
+ Sort descending
+ ID# 
+ Description
+ Application for Appointment as an Official Inspection Station 
+VN-016
+ To apply as an official inspection station. 
+ Inspection Mechanic Certification Application 
+VN-201
+ To apply for a VT inspection mechanic. 
+ Inspection Mechanic Certification Exam (Motorcycle) 
+VN-204
+ To apply for Vermont inspection mechanic for motorcycles. 
+ Inspection Mechanic Certification Exam (School Buses) 
+VN-203
+ To apply for Vermont inspection mechanic for school buses. 
+ Periodic Inspection Manual 
+VN-113
+ Vermont Periodic Inspection Manual 
+ FAQs.
+ Where can I find a vehicle inspection station? 
+ You can find a nearby vehicle inspection station using the AVIP online locator. Just visit vt-avip.com/VTPublicWeb/stationLocator to search by town, ZIP code, or station name.
+ I have an Agriculture plate, do I need to get an inspection? 
+ Yes, see 23 V.S.A. § 1222 Inspection of registered vehicles 
+ Are emissions system repairs covered by the vehicle manufacturer warranty? 
+ Depending on the model year and mileage of your vehicle, emissions system repairs may be covered by the vehicle manufacturer. Vermont law requires that a vehicle’s entire emissions control system be warranted for a minimum of 3 years or 50,000 miles. Warranty coverage for the more expensive emissions control components is extended to at least 7 years or 70,000 miles, and the catalytic converter is covered up to 8 years or 80,000 miles. Some vehicles’ emissions control systems are warranted up to 15 years or 150,000 miles! Be sure to check your owner’s manual or warranty booklet! For more information on warranty coverage visit: https://dec.vermont.gov/sites/dec/files/aqc/mobile-sources/documents/Warranty.pdf 
+ Is there a grace period for Vehicle Inspection? 
+ No
+ What if my vehicle has an emissions problem? 
+ Have your emissions problem diagnosed and determine if the repair is covered under emissions warranty. You will need to make the repair and return for a re-test to get a pass sticker. Low-income motorists who are struggling to afford emissions-related repairs may be eligible for assistance through the Automotive Emissions Repair Assistance Program .
+ Why do we have emissions testing? 
+ Federal law requires Vermont to have an emissions testing program. Ensuring your vehicle is in proper working order allows for;
+ Early detection of defects that lead to repairs that improve vehicle performance and fuel economy.
+ Repairing a defect before it gets worse saves money.
+ Protecting our environment and our health by identifying vehicle problems that cause increased air pollution.
+ What are some possible reasons for failing the OBD check on a vehicle inspection? 
+ The vehicle’s OBD system connector has been removed or is otherwise not working properly. The OBD check cannot be completed if the connector is missing or is not working properly. 
+ The Malfunction Indicator Light does not illuminate when the ignition key is turned to the “on” position. When the vehicle’s OBD system detects a problem, it turns on the warning light to alert the driver of a problem. However, if the light cannot illuminate because the bulb has burned out or is otherwise not working, the driver would not be alerted to the problem. 
+ The Malfunction Indicator Light on the instrument panel is on (and/or commanded by the vehicle’s onboard computer) while the engine is running. This indicates that the OBD system has identified a problem that must be repaired. In this case, one or more diagnostic trouble codes will also be reported by the vehicle’s OBD system and these codes will help your technician diagnose and repair your vehicle. 
+ What equipment is needed to inspect OBD Systems? 
+ A scan tool with generic OBD II capability is necessary to perform the required check. A scan tool is a very useful device which is commonly used to assist in the diagnosis and repair of a variety of vehicle problems. Many inspection stations already own scan tools which can also be used to perform the required OBD check, but those inspection stations which do not will need to have one in order to inspect 1996 and newer vehicles. At a minimum, scan tools must be capable of :
+ automatic initialization with any vehicle,
+ determining readiness status of OBD monitors,
+ determining malfunction indicator light status, and
+ retrieving diagnostic trouble codes.
+ Any scan tool which complies with Society of Automotive Engineers Recommended Practice J1978 is acceptable. Scan tools are available from a number of well known equipment manufacturers.
+ March 19, 2026 
+ TAGS:
+ Vehicle Inspection
+ Featured Article
+ August 18, 2026
+ IRP and IFTA New Account Processing Delays 
+ IRP and IFTA New Account Processing Delays 
+ The Vermont Department of Motor Vehicles Commercial Vehicle Office is advising customers to expect delays in the processing of new International Registration Plan (IRP) and International Fuel Tax Agreement (IFTA) accounts . Please note that before a new IRP or IFTA account can be established, Vermont is required to verify that the applicant meets applicable residency and/or established place of business requirements . This process requires the submission and review of supporting documentation.
+ Customers applying for a new account should be prepared to provide the required documentation and allow additional time for review and processing. Applications that are incomplete or require additional documentation may take longer to process or be able to obtain their credentials.
+ To help avoid unnecessary delays: 
+ Submit all required documentation with your application.
+ Ensure documents are current, legible, and clearly identify the applicant and Vermont location.
+ Respond promptly to any requests from the Commercial Vehicle Office for additional information or documentation.
+ Do not assume that an application is complete until all required residency or established place of business requirements have been verified.
+ The Commercial Vehicle Office appreciates your patience and cooperation as we complete these required verification procedures. These measures help ensure Vermont remains compliant with IRP and IFTA requirements and maintains the integrity of the registration and fuel tax programs.
+ Contact Us
+ Vermont Department of Motor Vehicles 
+120 State Street
+Montpelier, VT 05603-0001
+ Monday-Friday: 7:45 am - 4:00 pm
+ Note: On the third Wednesday of each month , DMV offices open at 8:45 AM 
+ email telephone 
+ Public Records 
+ Connect with Us
+ Facebook 
+ Twitter 
+ Reddit 
+ Youtube 
+ Quick Links
+ Vermont Voter Portal 
+ Bulletins 
+ FAQ 
+ Media Release - Enforcement 
+ Media Release - General 
+ News 
+ FMCSA Title VI Program 
+ Contact Us 
+ Traveler Info
+ Amtrak 
+ GO! Vermont - Commuting & Transit 
+ Park & Rides 
+ Request a Tourism Map 
+ Road Cameras 
+ Welcome Centers 
+ Winter Central 
+ Road Conditions
+ Chittenden County Traffic 
+ New England 511 
+ Vermont Alerts 
+ Vermont Road Weather Stations 
+ Vtrans Snow Plow Tracker 
+Return to top 
+ The Vermont Department of Motor Vehicles is committed to ensuring accessibility for all. For language assistance, reasonable accommodation, or support with in‑person DMV services, please call 802‑828‑2000 . For digital accessibility issues or information in an alternative format visit our accessibility information page .
+ Copyright © 2026 State of Vermont All rights reserved. | 
+ Web Policies 
+ Accessibility 
+ Privacy 

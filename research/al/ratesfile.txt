@@ -1,0 +1,126 @@
+SOURCE: https://www.revenue.alabama.gov/sales-use/local-cities-and-counties-tax-rates-text-file/
+ACCESSED: 2026-10-11
+
+
+Local Cities and Counties Tax Rates Text File - Alabama Department of Revenue
+Skip to content
+An official website of the Alabama State government.
+Here's how you know
+The .gov means it's official
+Government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on an official government site.
+The site is secure
+The https:// ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+News
+About
+Help Center
+Careers
+Where’s My Refund
+News
+About
+Help Center
+Careers
+Where’s My Refund
+MyAlabamaTaxes
+MyDMV
+Forms
+Rules
+Tax Types
+Make A Payment
+Forms
+Rules
+Tax Types
+Make A Payment
+Forms
+Rules
+Tax Types
+News
+About
+Help Center
+Make A Payment
+Careers
+Where’s My Refund
+Forms
+Rules
+Tax Types
+News
+About
+Help Center
+Make A Payment
+Careers
+Where’s My Refund
+Services
+Services
+Audit and Appeals
+Business and License
+Collections
+Entity Registration
+Human Resources
+Income Tax
+Legal
+Motor Vehicle
+Property Tax
+Sales and Use
+Tax Incentives
+Tax Policy
+Local Cities and Counties Tax Rates Text File
+Sales and Use >
+Local Cities and Counties Tax Rates Text File
+Search ...
+All Divisions
+Audit and Appeals
+Business and License
+Collections
+Entity Registration
+Human Resources
+Income Tax
+Investigations
+Legal
+Make A Payment
+Motor Vehicle
+Office of the Commissioner
+Property Tax
+Sales and Use
+Tax Incentives
+Tax Policy
+Taxpayer Advocacy
+Search
+More In Sales and Use
+Alabama Severe Weather Preparedness Sales Tax Holiday
+2026 Police Jurisdiction Deannexations, Ordinances and Maps
+Contact Information for All Localities
+City and County Rate and Code Explanations
+Back-to-School Sales Tax Holiday
+Local Tax Liaisons
+Back-to-School Sales Tax Holiday – Local Government Exemption Limitations
+ONE SPOT Info for Localities
+2024 Police Jurisdiction Deannexations, Ordinances and Maps
+Alabama Vehicle Drive-Out Provision
+Back To Sales and Use Home
+The taxrates.csv file is a comma-delimited file (i.e., fields separated by commas) that contains local tax rate information for all Alabama cities and counties that levy a sales, use, lodgings or rental tax (includes both state-administered local taxes and nonstate-administered local taxes). This text file should be compatible with practically any spreadsheet or database application. This file will be updated on a monthly basis by the Sales and Use Tax Division.
+taxrates.csv – Original file which includes current and historical information.
+(Updated for October 2026)
+taxrates_current.csv – A “taxrates” file with current, active information only.
+(Updated for October 202 6)
+See current state tax rates.
+(New sales and use tax food/grocery rate effective September 1, 2025.)
+Instructions and descriptions of the data included in the taxrates file.
+Employment
+Careers at aldor
+human resources
+state job application
+state personnel
+internship
+Legal
+Legal Division
+Public Records Request
+To report a criminal tax violation,
+please call 251-344-4737
+Contact
+375 South Ripley Street
+Montgomery, AL 36104
+Contact Us
+THE CODE OF ALABAMA 1975
+Facebook-f
+X-twitter
+Instagram
+Youtube

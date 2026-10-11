@@ -1,0 +1,211 @@
+{
+ "abbr": "AL",
+ "name": "Alabama",
+ "slug": "alabama",
+ "agency": {
+  "name": "Alabama Department of Revenue, Motor Vehicle Division",
+  "short": "ALDOR MVD",
+  "url": "https://www.revenue.alabama.gov/motor-vehicle/"
+ },
+ "taxAgency": {
+  "name": "Alabama Department of Revenue",
+  "url": "https://www.revenue.alabama.gov/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "The yearly ad valorem (property) tax on the car is 15% of market value times the local millage, collected with the tag; ALDOR does not publish one statewide millage, so it is shown without an amount.",
+  "City sales and use taxes on vehicles come on top of the county rate; the county entries carry the county rate read in the ALDOR local rate file, and a city rate must be typed in the local rate box.",
+  "License plate issuing officials may add a $1.50 title commission and some counties add local title or issuance fees; only the $15 state fee and the mandatory $1.50 designated agent commission are added.",
+  "No dealer documentation fee cap was read on an official Alabama page for this release."
+ ],
+ "summary": {
+  "stateRate": 0.02,
+  "localRange": [
+   0,
+   0.035
+  ],
+  "taxName": "automotive sales and use tax",
+  "tradeInCredit": true,
+  "titleFee": 15,
+  "regMethod": "flat",
+  "regYears": 1,
+  "docFeeCap": null,
+  "docFeeNote": "Not verified on an official Alabama page for this release; type the dealer's fee.",
+  "evFee": 203,
+  "phevFee": 103,
+  "hybridFee": null,
+  "inspection": "none",
+  "inspectionWhere": "Alabama has no safety or emissions inspection for private passenger cars.",
+  "inspectionFee": null,
+  "annualValueTax": true
+ },
+ "params": {
+  "g": {
+   "tax": {
+    "label": "State automotive sales tax (2%)",
+    "rate": 0.02,
+    "tradeInCredit": true,
+    "docFeeTaxable": false,
+    "source": "state-rates",
+    "localSource": "taxrates",
+    "note": "The value of a vehicle taken in trade is deducted from the taxed price."
+   },
+   "once": [
+    {
+     "id": "title",
+     "label": "Title application fee",
+     "amount": 15,
+     "source": "title-fee",
+     "kind": "title"
+    },
+    {
+     "id": "title-commission",
+     "label": "Designated agent commission on the title application",
+     "amount": 1.5,
+     "source": "title-fee",
+     "kind": "title"
+    }
+   ],
+   "reg": {
+    "label": "Standard passenger plate registration",
+    "source": "plates",
+    "type": "flat",
+    "amount": 23
+   },
+   "cycle": [],
+   "ev": {
+    "ev": 203,
+    "phev": 103,
+    "source": "ev-fee",
+    "label": "Additional registration fee (Rebuild Alabama Act)"
+   },
+   "ranges": [
+    {
+     "id": "ad-valorem",
+     "label": "Yearly ad valorem tax on the vehicle (paid with the tag)",
+     "range": null,
+     "kind": "value",
+     "source": "valuation",
+     "note": "Market value x 15% assessment ratio x your local millage; collected by the county with each registration."
+    }
+   ]
+  }
+ },
+ "counties": [
+  {
+   "id": "jefferson-county",
+   "name": "Jefferson County (county rate; Birmingham and other cities add their own)",
+   "localRate": 0.0075
+  },
+  {
+   "id": "madison-county",
+   "name": "Madison County outside Huntsville (0.5% + 0.25% county-wide)",
+   "localRate": 0.0075
+  },
+  {
+   "id": "mobile-county",
+   "name": "Mobile County outside Mobile and Prichard",
+   "localRate": 0.01
+  },
+  {
+   "id": "city-of-mobile",
+   "name": "City of Mobile (county 0.5% + city 2.25%)",
+   "localRate": 0.0275
+  },
+  {
+   "id": "montgomery-county",
+   "name": "Montgomery County outside the city",
+   "localRate": 0.00333
+  },
+  {
+   "id": "city-of-montgomery",
+   "name": "City of Montgomery (county 0.333% + city 1.25%)",
+   "localRate": 0.01583
+  },
+  {
+   "id": "baldwin-county",
+   "name": "Baldwin County (county rate)",
+   "localRate": 0.0125
+  },
+  {
+   "id": "shelby-county",
+   "name": "Shelby County (county rate)",
+   "localRate": 0.00375
+  },
+  {
+   "id": "tuscaloosa-county",
+   "name": "Tuscaloosa County outside cities and police jurisdictions",
+   "localRate": 0.01875
+  },
+  {
+   "id": "city-of-tuscaloosa",
+   "name": "City of Tuscaloosa (county 0.75% + city 1.125%)",
+   "localRate": 0.01875
+  },
+  {
+   "id": "lee-county",
+   "name": "Lee County outside Auburn, Opelika and Phenix City",
+   "localRate": 0.01
+  },
+  {
+   "id": "other",
+   "name": "Any other Alabama county or city (type your local rate)",
+   "localRate": 0
+  }
+ ],
+ "defaultCounty": "jefferson-county",
+ "singular": [
+  "Alabama taxes a car purchase at a reduced automotive rate of 2%, half the 4% general sales tax rate [state-rates].",
+  "The agreed value of a car taken in trade on another vehicle is left out of the taxed price, but on a trade-up the allowance cannot exceed the price of the car sold [trade-in-rule].",
+  "Counties and cities add their own automotive rates, often well below their general rates: Jefferson County charges 0.75% on vehicles and the City of Mobile 2.25% on top of a 0.5% county rate [taxrates].",
+  "A standard passenger plate costs $23 a year, the same as a pickup with a declared gross weight up to 8,000 lb [plates].",
+  "The title application fee is $15, and the designated agent that files it adds a $1.50 commission [title-fee].",
+  "Under the Rebuild Alabama Act, battery electric cars pay an extra $203 a year and plug-in hybrids $103 since July 1, 2023, with a $3 increase every fourth year [ev-fee].",
+  "The yearly property tax on a private car is assessed at 15% of its market value and must be paid before the tag can be renewed [valuation]."
+ ],
+ "sources": {
+  "state-rates": {
+   "name": "Alabama Department of Revenue, State Sales and Use Tax Rates",
+   "url": "https://www.revenue.alabama.gov/sales-use/state-sales-use-tax-rates/",
+   "accessed": "2026-10-11",
+   "quote": "Sales and Use Tax Rates (§§40-23-2, 40-23-37, 40-23-61, and 40-23-63, Code of Ala. 1975) General: 4% ... Automotive: 2%"
+  },
+  "taxrates": {
+   "name": "Alabama Department of Revenue, local cities and counties tax rates file (taxrates_current.csv)",
+   "url": "https://www.revenue.alabama.gov/wp-content/uploads/2024/03/taxrates_current.csv",
+   "accessed": "2026-10-11",
+   "quote": "7037,JEFFERSON COUNTY,37,ST,AUTO,SELF,20250101,,0.75 ... 9149,MOBILE,49,ST,AUTO,SELF,20121101,,2.25 ... 7749,MOBILE COUNTY CL PRICH & MOBIL,49,ST,AUTO,SELF,19890101,,0.5"
+  },
+  "trade-in-rule": {
+   "name": "Alabama Administrative Code r. 810-6-1-.22, trade-in of tangible personal property",
+   "url": "https://www.revenue.alabama.gov/wp-content/uploads/2021/12/810-6-1-.22-2.pdf",
+   "accessed": "2026-10-11",
+   "quote": "(a) The agreed value placed on automotive vehicles ... taken in trade on sales of other automotive vehicles ... On so called \"trade-ups\" this allowance cannot exceed the sales price of the vehicles sold by the dealer."
+  },
+  "plates": {
+   "name": "Alabama Department of Revenue, License Plates (Standard Passenger)",
+   "url": "https://www.revenue.alabama.gov/license-plates/",
+   "accessed": "2026-10-11",
+   "quote": "Standard Passenger ... Code Section: 40-12-242 and 40-12-273 ... Registration Fees: Motorcycle: $15.00 Automobile: $23.00 Pickup truck: $23.00 – 105.00 ... 0 – 8,000lbs.: $23.00"
+  },
+  "title-fee": {
+   "name": "Alabama Department of Revenue, FAQ: cost of an Alabama certificate of title",
+   "url": "https://www.revenue.alabama.gov/faqs/what-is-the-cost-to-make-application-for-alabama-certificate-of-title/",
+   "accessed": "2026-10-11",
+   "quote": "The title application fee is $15.00 for each application for Alabama certificate of title for a motor vehicle. ... Designated agents shall add the sum of $1.50 as the commission for each application processed."
+  },
+  "ev-fee": {
+   "name": "Alabama Department of Revenue, MVD Memo 2023-002, registration fee increase for battery electric and plug-in hybrid vehicles",
+   "url": "https://www.revenue.alabama.gov/memo-2023-002-registration-fee-increase-battery-electric-and-plug-in-hybrid-vehicles/",
+   "accessed": "2026-10-11",
+   "quote": "beginning July 1, 2023, the additional registration fee for those vehicles shall be: $203 for each battery electric vehicle. $103 for each plug-in hybrid electric vehicle."
+  },
+  "valuation": {
+   "name": "Alabama Department of Revenue, Vehicle Valuation (motor vehicle ad valorem tax)",
+   "url": "https://www.revenue.alabama.gov/property-tax/vehicle-valuation/",
+   "accessed": "2026-10-11",
+   "quote": "To calculate the assessed value for a motor vehicle, multiply the market value by the appropriate assessment ratio and the applicable millage rate. ... Class IV Motor Vehicles (15% assessment ratio): This class includes all private passenger motor vehicles"
+  }
+ }
+}

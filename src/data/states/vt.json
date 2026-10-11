@@ -1,0 +1,142 @@
+{
+ "abbr": "VT",
+ "name": "Vermont",
+ "slug": "vermont",
+ "agency": {
+  "name": "Vermont Department of Motor Vehicles",
+  "short": "DMV",
+  "url": "https://dmv.vermont.gov/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "Purchase and use tax is due on the greater of the price and the J.D. Power clean trade-in value; the form does not ask the book value, so the engine taxes the price (a private sale below book value would owe more).",
+  "Safety and emissions inspection prices are set and posted by each private station; the state does not publish a fee, so the inspection is shown without an amount.",
+  "No dealer documentation fee cap was read on an official Vermont page for this release; type the dealer's fee."
+ ],
+ "summary": {
+  "stateRate": 0.06,
+  "localRange": [
+   0,
+   0
+  ],
+  "taxName": "purchase and use tax",
+  "tradeInCredit": true,
+  "titleFee": 42,
+  "regMethod": "flat",
+  "regYears": 1,
+  "docFeeCap": null,
+  "docFeeNote": "No cap read on an official Vermont page for this release; type the dealer's fee.",
+  "evFee": 89,
+  "phevFee": 44.5,
+  "hybridFee": null,
+  "inspection": "both",
+  "inspectionWhere": "Every registered vehicle needs a safety inspection once a year, plus an OBD emissions inspection for vehicles 16 model years old or less, within 15 days of registering in Vermont.",
+  "inspectionFee": null,
+  "annualValueTax": false
+ },
+ "params": {
+  "g": {
+   "tax": {
+    "label": "Purchase and use tax (6%)",
+    "rate": 0.06,
+    "tradeInCredit": true,
+    "docFeeTaxable": false,
+    "source": "tax",
+    "note": "6% of the price or the J.D. Power clean trade-in value, whichever is greater, minus the trade-in."
+   },
+   "once": [
+    {
+     "id": "title",
+     "label": "Certificate of title",
+     "amount": 42,
+     "source": "vd119i",
+     "kind": "title"
+    }
+   ],
+   "reg": {
+    "label": "Auto registration (1 year)",
+    "source": "fees",
+    "type": "flat",
+    "amount": 89
+   },
+   "cycle": [
+    {
+     "id": "clean-air",
+     "label": "Clean Air Fund fee",
+     "amount": 2,
+     "source": "fees",
+     "kind": "registration",
+     "if": {
+      "fuel": [
+       "gas",
+       "hybrid",
+       "phev"
+      ]
+     },
+     "note": "Included in the $91 gas, hybrid and plug-in hybrid registration; not charged on a battery electric car."
+    }
+   ],
+   "ev": {
+    "ev": 89,
+    "phev": 44.5,
+    "source": "ev-fee",
+    "label": "EV infrastructure fee"
+   },
+   "inspection": [
+    {
+     "id": "inspection",
+     "label": "Yearly safety and OBD emissions inspection (station price)",
+     "amount": null,
+     "years": 1,
+     "source": "inspection",
+     "note": "Due within 15 days of registering in Vermont, then once a year; each station sets and posts its price."
+    }
+   ]
+  }
+ },
+ "singular": [
+  "Vermont charges a 6% purchase and use tax on the price or the J.D. Power clean trade-in value, whichever is greater [tax].",
+  "The value of a trade-in vehicle is subtracted before the 6% is applied [vd119i].",
+  "A buyer who thinks the J.D. Power value is too high can submit a Vermont Dealer Appraisal form, and DMV does not accept values from online research [vd119i].",
+  "Cars and light trucks have no maximum purchase and use tax; only trucks of 10,100 lb or more and trailers are capped at $2,486 [vd119i].",
+  "Every certificate of title costs $42, and recording a lien adds $14 [vd119i].",
+  "A one-year car registration costs $91 for a gas car, $135.50 for a plug-in hybrid and $178 for a battery electric car [fees].",
+  "The electric premium is an EV infrastructure fee of $89 a year for a battery electric car and $44.50 for a plug-in hybrid, meant for charging stations until a mileage-based fee exists [ev-fee].",
+  "The gas and plug-in hybrid registration includes a $2 Clean Air Fund fee, which is why the base fee of a battery electric car is $89 instead of $91 [fees].",
+  "Every Vermont-registered vehicle must pass a safety inspection once a year, plus an OBD emissions check when it is 16 model years old or less [inspection].",
+  "A car new to Vermont must be inspected within 15 days of registration, and each station sets and posts its own inspection price [inspection]."
+ ],
+ "sources": {
+  "tax": {
+   "name": "Vermont DMV, Purchase and Use Tax",
+   "url": "https://dmv.vermont.gov/tax-title/vehicle-taxation",
+   "accessed": "2026-10-11",
+   "quote": "Purchase and Use Tax is due at the time of registration and/or title at the rate of 6% of the purchase price or the J. D. Power clean trade-in value, whichever is greater"
+  },
+  "vd119i": {
+   "name": "Vermont DMV, Registration, Tax & Title Application instructions (VD-119i, 09/2025)",
+   "url": "https://dmv.vermont.gov/sites/dmv/files/documents/VD-119i-Registration_Tax_Title_Instructions.pdf",
+   "accessed": "2026-10-11",
+   "quote": "All Titles (except ATV) = $42.00, ATV Titles = $27.00. Lien fee = $14.00. ... 6% of the purchase price or the JD Power value, whichever is higher, minus the value of any trade-in vehicle or any other allowable credit."
+  },
+  "fees": {
+   "name": "Vermont DMV, Vehicle Registration Fees",
+   "url": "https://dmv.vermont.gov/registrations/fees",
+   "accessed": "2026-10-11",
+   "quote": "Where applicable, the fees below include a $2.00 Clean Air Fund Fee and an EV Infrastructure Fee. ... Auto (car) 1 Year $91.00 $135.50 $178.00 $159.25 2 Years $167.00 $256.00 $341.00"
+  },
+  "ev-fee": {
+   "name": "Vermont DMV, EV Infrastructure Fee",
+   "url": "https://dmv.vermont.gov/registrations/fees/ev-infrastructure-fee",
+   "accessed": "2026-10-11",
+   "quote": "Plug-In Hybrid Vehicles (PHEV) One-Year ... Registration Fee $91.00 ... Infrastructure Fee $44.50 ... Battery Electric Vehicles (BEV) ... Registration Fee $89.00 $163.00 Infrastructure Fee $89.00 $178.00 Total $178.00 $341.00"
+  },
+  "inspection": {
+   "name": "23 V.S.A. § 1222, Inspection of registered vehicles",
+   "url": "https://legislature.vermont.gov/statutes/section/23/013/01222",
+   "accessed": "2026-10-11",
+   "quote": "all motor vehicles registered in this State shall undergo a safety and visual emissions inspection once each year ... shall be inspected within 15 days following the date of its registration ... the fee shall be prominently posted"
+  }
+ }
+}

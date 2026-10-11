@@ -1,0 +1,544 @@
+{
+ "abbr": "IN",
+ "name": "Indiana",
+ "slug": "indiana",
+ "agency": {
+  "name": "Indiana Bureau of Motor Vehicles",
+  "short": "BMV",
+  "url": "https://www.in.gov/bmv/"
+ },
+ "taxAgency": {
+  "name": "Indiana Department of Revenue",
+  "url": "https://www.in.gov/dor/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "The yearly vehicle excise tax comes from a class (manufacturer's original retail price) by age table that the generic engine cannot read; the full table is in params.custom and the line is shown as the official range until a dedicated engine is written.",
+  "County vehicle excise surtax and wheel tax, and municipal surtax, are set by local ordinance (flat or percentage) and BMV publishes no complete current table; shown without an amount.",
+  "The Clean Air Car Check pages read (Lake and Porter counties) do not state a test fee; the test is shown without an amount.",
+  "Indiana has no fixed dollar cap in the fee chart for dealer documentation fees; the Secretary of State will not take enforcement action at or below $261.72 from July 1, 2026, which is used as the reference figure."
+ ],
+ "summary": {
+  "stateRate": 0.07,
+  "localRange": [
+   0,
+   0
+  ],
+  "taxName": "sales tax",
+  "tradeInCredit": true,
+  "titleFee": 15,
+  "regMethod": "mixed",
+  "regYears": 1,
+  "docFeeCap": null,
+  "docFeeDefault": 261.72,
+  "docFeeNote": "No enforcement action at or below $261.72 from July 1, 2026 (CPI-adjusted each year); the fee is subject to sales tax and must be in the advertised price.",
+  "evFee": 242,
+  "phevFee": null,
+  "hybridFee": 81,
+  "inspection": "emissions",
+  "inspectionWhere": "Emissions test every other year in Lake and Porter counties for gasoline cars and light trucks, except the four newest model years; no safety inspection.",
+  "inspectionFee": null,
+  "annualValueTax": true
+ },
+ "params": {
+  "g": {
+   "tax": {
+    "label": "Indiana sales tax (7%)",
+    "rate": 0.07,
+    "tradeInCredit": true,
+    "docFeeTaxable": true,
+    "source": "sib28s",
+    "note": "Trade-in deducted only in a like-kind exchange; documentation fees are taxable."
+   },
+   "once": [
+    {
+     "id": "title",
+     "label": "Certificate of title",
+     "amount": 15,
+     "source": "fee-chart",
+     "kind": "title"
+    }
+   ],
+   "reg": {
+    "label": "Registration fee (passenger $21.35; truck up to 11,000 lb $30.35)",
+    "source": "fee-chart",
+    "type": "weight",
+    "brackets": [
+     {
+      "upTo": null,
+      "amount": 21.35
+     }
+    ],
+    "truckBrackets": [
+     {
+      "upTo": 11000,
+      "amount": 30.35
+     },
+     {
+      "upTo": null,
+      "amount": 30.35
+     }
+    ]
+   },
+   "cycle": [
+    {
+     "id": "tiif",
+     "label": "Transportation Infrastructure Improvement Fee",
+     "amount": 15,
+     "source": "fee-chart",
+     "kind": "registration"
+    }
+   ],
+   "ev": {
+    "ev": 242,
+    "hybrid": 81,
+    "source": "fee-chart",
+    "label": "Hybrid/electric supplemental fee"
+   },
+   "inspection": [
+    {
+     "id": "emissions",
+     "label": "Emissions test every other year (Lake and Porter counties)",
+     "amount": null,
+     "years": 2,
+     "source": "cacc-about",
+     "newExemptYears": 4,
+     "countyFlag": "emissions",
+     "fuelExempt": [
+      "ev"
+     ],
+     "note": "Gasoline cars and light trucks; the four newest model years are exempt; fee not stated on the pages read."
+    }
+   ],
+   "ranges": [
+    {
+     "id": "excise",
+     "label": "Vehicle excise tax (class by original retail price and age)",
+     "range": [
+      12,
+      532
+     ],
+     "kind": "value",
+     "source": "excise",
+     "note": "Yearly; class set by the manufacturer's original retail price, amount falls with age (see params.custom)."
+    },
+    {
+     "id": "local-surtax",
+     "label": "County / municipal vehicle excise surtax or wheel tax",
+     "range": null,
+     "kind": "local",
+     "source": "vehicle-registration",
+     "note": "Only where the county or city adopted one by ordinance; flat or percentage."
+    }
+   ]
+  },
+  "custom": {
+   "formula": "Vehicle excise tax (yearly, passenger vehicles): class = row of `excise.classes` whose [from, upTo] contains the manufacturer's original retail price (MSRP; use the price when msrp = 0); age = registration year - model year, capped at 9 (9+); amount = classes[class].byAge[age]. Line id 'excise', kind 'value', when 'cycle', replaces the 'excise' range line.",
+   "source": "excise",
+   "example": "New 2026 car, MSRP $35,000, registered in 2026: class 16 ($35,000 to $42,499), age 0 = $469; renewal in 2027 (age 1) = $407.",
+   "excise": {
+    "_src": "excise",
+    "classes": [
+     {
+      "class": 1,
+      "from": 0,
+      "upTo": 1499,
+      "byAge": [
+       12,
+       12,
+       12,
+       12,
+       12,
+       12,
+       12,
+       12,
+       12,
+       12
+      ]
+     },
+     {
+      "class": 2,
+      "from": 1500,
+      "upTo": 2249,
+      "byAge": [
+       36,
+       30,
+       27,
+       24,
+       18,
+       12,
+       12,
+       12,
+       12,
+       12
+      ]
+     },
+     {
+      "class": 3,
+      "from": 2250,
+      "upTo": 2999,
+      "byAge": [
+       50,
+       50,
+       42,
+       33,
+       24,
+       18,
+       12,
+       12,
+       12,
+       12
+      ]
+     },
+     {
+      "class": 4,
+      "from": 3000,
+      "upTo": 3999,
+      "byAge": [
+       50,
+       50,
+       50,
+       50,
+       48,
+       36,
+       24,
+       18,
+       12,
+       12
+      ]
+     },
+     {
+      "class": 5,
+      "from": 4000,
+      "upTo": 5499,
+      "byAge": [
+       66,
+       57,
+       50,
+       50,
+       50,
+       50,
+       42,
+       24,
+       12,
+       12
+      ]
+     },
+     {
+      "class": 6,
+      "from": 5500,
+      "upTo": 6999,
+      "byAge": [
+       84,
+       74,
+       63,
+       52,
+       50,
+       50,
+       49,
+       30,
+       18,
+       12
+      ]
+     },
+     {
+      "class": 7,
+      "from": 7000,
+      "upTo": 8499,
+      "byAge": [
+       103,
+       92,
+       77,
+       64,
+       52,
+       50,
+       50,
+       40,
+       21,
+       12
+      ]
+     },
+     {
+      "class": 8,
+      "from": 8500,
+      "upTo": 9999,
+      "byAge": [
+       123,
+       110,
+       93,
+       78,
+       64,
+       50,
+       50,
+       50,
+       34,
+       12
+      ]
+     },
+     {
+      "class": 9,
+      "from": 10000,
+      "upTo": 12499,
+      "byAge": [
+       150,
+       134,
+       115,
+       98,
+       82,
+       65,
+       52,
+       50,
+       40,
+       12
+      ]
+     },
+     {
+      "class": 10,
+      "from": 12500,
+      "upTo": 14999,
+      "byAge": [
+       172,
+       149,
+       130,
+       112,
+       96,
+       79,
+       65,
+       53,
+       50,
+       12
+      ]
+     },
+     {
+      "class": 11,
+      "from": 15000,
+      "upTo": 17999,
+      "byAge": [
+       207,
+       179,
+       156,
+       135,
+       115,
+       94,
+       78,
+       64,
+       50,
+       21
+      ]
+     },
+     {
+      "class": 12,
+      "from": 18000,
+      "upTo": 21999,
+      "byAge": [
+       250,
+       217,
+       189,
+       163,
+       139,
+       114,
+       94,
+       65,
+       50,
+       26
+      ]
+     },
+     {
+      "class": 13,
+      "from": 22000,
+      "upTo": 24999,
+      "byAge": [
+       300,
+       260,
+       225,
+       184,
+       150,
+       121,
+       96,
+       65,
+       50,
+       30
+      ]
+     },
+     {
+      "class": 14,
+      "from": 25000,
+      "upTo": 29999,
+      "byAge": [
+       350,
+       304,
+       265,
+       228,
+       195,
+       160,
+       132,
+       91,
+       50,
+       36
+      ]
+     },
+     {
+      "class": 15,
+      "from": 30000,
+      "upTo": 34999,
+      "byAge": [
+       406,
+       353,
+       307,
+       257,
+       210,
+       169,
+       134,
+       91,
+       50,
+       42
+      ]
+     },
+     {
+      "class": 16,
+      "from": 35000,
+      "upTo": 42499,
+      "byAge": [
+       469,
+       407,
+       355,
+       306,
+       261,
+       214,
+       177,
+       129,
+       63,
+       49
+      ]
+     },
+     {
+      "class": 17,
+      "from": 42500,
+      "upTo": null,
+      "byAge": [
+       532,
+       461,
+       398,
+       347,
+       296,
+       242,
+       192,
+       129,
+       63,
+       50
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "counties": [
+  {
+   "id": "marion-county",
+   "name": "Marion County (Indianapolis)",
+   "emissions": false
+  },
+  {
+   "id": "lake-county",
+   "name": "Lake County",
+   "emissions": true
+  },
+  {
+   "id": "allen-county",
+   "name": "Allen County (Fort Wayne)",
+   "emissions": false
+  },
+  {
+   "id": "hamilton-county",
+   "name": "Hamilton County",
+   "emissions": false
+  },
+  {
+   "id": "st-joseph-county",
+   "name": "St. Joseph County (South Bend)",
+   "emissions": false
+  },
+  {
+   "id": "elkhart-county",
+   "name": "Elkhart County",
+   "emissions": false
+  },
+  {
+   "id": "tippecanoe-county",
+   "name": "Tippecanoe County",
+   "emissions": false
+  },
+  {
+   "id": "vanderburgh-county",
+   "name": "Vanderburgh County (Evansville)",
+   "emissions": false
+  },
+  {
+   "id": "porter-county",
+   "name": "Porter County",
+   "emissions": true
+  },
+  {
+   "id": "other",
+   "name": "Any other Indiana county",
+   "emissions": false
+  }
+ ],
+ "defaultCounty": "marion-county",
+ "singular": [
+  "Every Indiana registration carries a yearly vehicle excise tax read from a 17-class table: the class is fixed by the car's original retail price and the amount drops each year until age 9 [excise].",
+  "A new car with a $35,000 to $42,499 original price pays $469 of excise tax in its first year and $407 the next [excise].",
+  "The registration fee itself is only $21.35 for a passenger car, plus a $15 Transportation Infrastructure Improvement Fee at every registration [fee-chart].",
+  "Electric cars pay a $242 supplemental fee and hybrids $81 each year under the current BMV fee chart [fee-chart].",
+  "Indiana charges 7% sales tax on a vehicle and deducts a trade-in only when it is a like-kind exchange titled in the buyer's name [sib28s].",
+  "Dealer documentation fees are taxable in Indiana, while a separately stated convenience fee for BMV paperwork is not [sib28s].",
+  "The Secretary of State will not take action on documentation fees at or below $261.72 from July 1, 2026, a figure adjusted for inflation each year [doc-fee].",
+  "Only Lake and Porter counties, next to Chicago, require an emissions test, every other year, and the four newest model years are exempt [cacc-about].",
+  "Some counties and cities add their own vehicle excise surtax or wheel tax by ordinance, either a flat amount or a percentage [vehicle-registration]."
+ ],
+ "sources": {
+  "fee-chart": {
+   "name": "Indiana BMV, Fee Chart",
+   "url": "https://www.in.gov/bmv/files/Fee_Chart.pdf",
+   "accessed": "2026-10-11",
+   "quote": "Passenger motor vehicle $21.35 ... Truck ≤ 11,000 pounds, for hire bus, mini truck $30.35 ... Transportation Infrastructure Improvement Fee $15.00 Electric Vehicle Supplemental Fee $242.00 Hybrid Vehicle Supplemental Fee $81.00 ... Issue, duplicate or replace title $15.00"
+  },
+  "excise": {
+   "name": "Indiana BMV, Excise Tax Information",
+   "url": "https://www.in.gov/bmv/fees-taxes/vehicle-registration-fees-and-taxes/excise-tax-information",
+   "accessed": "2026-10-11",
+   "quote": "The excise tax amount is based on the vehicle class and age. ... The class of a vehicle is based on the vehicle value as determined by the manufacturer’s original retail price. ... CLASS 16 Price: $35,000 to $42,499 | $469 | $407 | $355"
+  },
+  "vehicle-registration": {
+   "name": "Indiana BMV, Vehicle Registration Fees & Taxes",
+   "url": "https://www.in.gov/bmv/fees-taxes/vehicle-registration-fees-and-taxes",
+   "accessed": "2026-10-11",
+   "quote": "A vehicle is assessed a county tax when the county in which the vehicle is registered has adopted a county tax by ordinance. A county tax may be either a flat rate or a percentage rate tax."
+  },
+  "sib28s": {
+   "name": "Indiana Department of Revenue, Sales Tax Information Bulletin #28S (May 2026)",
+   "url": "https://www.in.gov/dor/files/reference/sib28s.pdf",
+   "accessed": "2026-10-11",
+   "quote": "the normal 7% rate ... The deduction for a trade-in allowance applies only to “like-kind exchanges” ... the services attributable to documentation fees will be considered to be charges by the seller for services necessary to complete the sale and will be subject to sales tax."
+  },
+  "doc-fee": {
+   "name": "Indiana Secretary of State, Auto Dealer Services Division, Documentation Preparation Fee Adjustment in 2026",
+   "url": "https://www.in.gov/dA/c815ec222a/Doc-Fees-in-2026.pdf",
+   "accessed": "2026-10-11",
+   "quote": "the Division advises that it will not take enforcement action related to documentation preparation fees at or below $261.72 as of July 1, 2026."
+  },
+  "emissions": {
+   "name": "Indiana Department of Environmental Management, Vehicle Emissions Testing Program",
+   "url": "https://www.in.gov/idem/airquality/vehicle-emissions-testing-program/",
+   "accessed": "2026-10-11",
+   "quote": "Indiana’s vehicle emissions testing requirements apply in Lake and Porter counties."
+  },
+  "cacc-about": {
+   "name": "Clean Air Car Check (IDEM testing program), About Emissions Testing",
+   "url": "https://cleanaircarcheck.com/about-emissions-testing/",
+   "accessed": "2026-10-11",
+   "quote": "Gasoline-powered passenger vehicles and light duty trucks with a Gross Vehicle Weight Rating (GVWR) of 9,000 pounds or less that are being registered in Lake or Porter County, Indiana are required to pass an emissions test every other year.  There is an exemption for the four newest model years."
+  }
+ }
+}

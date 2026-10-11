@@ -1,0 +1,483 @@
+SOURCE: https://www.revenue.alabama.gov/sales-use/city-and-county-tax-rates/
+ACCESSED: 2026-10-11
+
+
+City and County Rate and Code Explanations - Alabama Department of Revenue
+Skip to content
+An official website of the Alabama State government.
+Here's how you know
+The .gov means it's official
+Government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on an official government site.
+The site is secure
+The https:// ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+News
+About
+Help Center
+Careers
+Where’s My Refund
+News
+About
+Help Center
+Careers
+Where’s My Refund
+MyAlabamaTaxes
+MyDMV
+Forms
+Rules
+Tax Types
+Make A Payment
+Forms
+Rules
+Tax Types
+Make A Payment
+Forms
+Rules
+Tax Types
+News
+About
+Help Center
+Make A Payment
+Careers
+Where’s My Refund
+Forms
+Rules
+Tax Types
+News
+About
+Help Center
+Make A Payment
+Careers
+Where’s My Refund
+Services
+Services
+Audit and Appeals
+Business and License
+Collections
+Entity Registration
+Human Resources
+Income Tax
+Legal
+Motor Vehicle
+Property Tax
+Sales and Use
+Tax Incentives
+Tax Policy
+City and County Rate and Code Explanations
+Sales and Use >
+City and County Rate and Code Explanations
+Search ...
+All Divisions
+Audit and Appeals
+Business and License
+Collections
+Entity Registration
+Human Resources
+Income Tax
+Investigations
+Legal
+Make A Payment
+Motor Vehicle
+Office of the Commissioner
+Property Tax
+Sales and Use
+Tax Incentives
+Tax Policy
+Taxpayer Advocacy
+Search
+Municipalities With PJ Rates Other Than 1/2 Corporate Limit Rate
+Typically, the police jurisdiction (PJ) rate will be one-half the regular corporate limits (CL) tax rate; however, some municipalities may levy a PJ rate other than one-half the regular tax rate. Contact ALDOR if you have a question regarding a municipality’s PJ rate. The municipalities listed below have a PJ rate other than 1/2 the regular rate.
+Municipality | Code | Tax Type | Rate Type | CL Rate | PJ Rate |
+Arab | 9448 | Rental Tax (prior to 9/1/2019) | Automotive | 1.000 | 1.000 |
+Arab | 9448 | Rental Tax (prior to 9/1/2019) | General | 3.000 | 3.000 |
+Arab | 9448 | Rental Tax (prior to 9/1/2019) | Linen | 3.000 | 3.000 |
+Hanceville | 9119 | Lodgings (prior to 6/1/2022) | General | 3.000 | 1.000 |
+Lanett | 9616 | Consumers Use | Automotive | 1.000 | 0.500 |
+Lanett | 9616 | Consumers Use | Farm | 2.000 | 1.000 |
+Lanett | 9616 | Consumers Use | General | 5.000 | 2.500 |
+Lanett | 9616 | Consumers Use | Mfg. Machine | 2.500 | 1.000 |
+Lanett | 9616 | Sales Tax | Amusement | 5.000 | 2.500 |
+Lanett | 9616 | Sales Tax | Auto | 0.700 | 0.350 |
+Lanett | 9616 | Sales Tax | Farm | 2.500 | 1.000 |
+Lanett | 9616 | Sales Tax | General | 5.000 | 2.500 |
+Lanett | 9616 | Sales Tax | Mfg. Machine | 2.500 | 1.000 |
+Lanett | 9616 | Sales Tax | Vending | 5.000 | 2.500 |
+Lanett | 9616 | Sellers Use | Automotive | 1.000 | 0.500 |
+Lanett | 9616 | Sellers Use | Farm | 2.000 | 1.000 |
+Lanett | 9616 | Sellers Use | General | 5.000 | 2.500 |
+Lanett | 9616 | Sellers Use | Mfg. Machine | 2.500 | 1.000 |
+Mobile | 9149 | Lodgings | General | 8.000 | 3.000 |
+Valley Head | 9357 | Lodgings | General | 5.000 | 1.500 |
+Municipal Code Explanations
+Locality | Locality Code | Explanation |
+Arab | 9448 | Arab tax rates for sales and rentals made within the corporate limits and police jurisdiction of the city. |
+Arab Lodg – Other | 9248 | Arab per room campsite fee for each campsite within the corporate limits of the city. |
+Arab Lodg-Room Fee & Lodging | 9548 | Arab general tax rate for lodgings provided within the corporate limits and police jurisdiction of the city. And Arab per room fee for lodgings provided only within the corporate limits of the city. |
+Clanton | 9416 | Clanton tax rates for sales made within the corporate limits of the city. |
+Clanton Lodgings | 9516 | Clanton tax rates for lodgings provided within the corporate limits of the city. |
+Chelsea | 9158 | Chelsea tax rates for sales made within the corporate limits of the city. |
+Chelsea Lodgings & Rental | 9258 | Chelsea tax rates for rentals made and lodging provided within the corporate limits of the city. |
+Childersburg | 9627 | Childersburg tax rates for sales made within the corporate limits and police jurisdiction of the city. |
+Childersburg Lodgings & Rental | 9527 | Childersburg tax rates for rentals made and lodgings provided within the corporate limits and police jurisdiction of the city. |
+Columbiana | 9368 | SALES TAX – ALCOH: Columbiana additional 4% sales tax on the retail sale of any liquor or alcoholic beverages, excepting beer, sold for on or off premises consumption. This tax is in addition to the 4% general sales tax levy . |
+Decatur | 9152 | Decatur tax rates for sales and rentals made, and lodgings provided, within the corporate limits and police jurisdiction of the city. |
+Decatur Lodgings Room Fee | 9552 | Decatur per room fee for lodgings provided within the corporate limits and police jurisdiction of the city. |
+Elba | 9385 | Elba tax rates for sales made within the corporate limits and police jurisdiction of the city. |
+Elba Rental | 9185 | Elba tax rates for rentals made within the corporate limits and police jurisdiction of the city. |
+Evergreen | 9432 | Evergreen tax rates for sales made within the corporate limits and police jurisdiction of the city. |
+Evergreen Lodgings | 9532 | Evergreen tax rates for lodgings provided within the corporate limits and police jurisdiction of the city. |
+Fairfield S&U | 9132 | Fairfield tax rates for sales made within the corporate limits and police jurisdiction of the city. |
+Fairfield Rent & Lodg | 9232 | Fairfield tax rates for rentals made within the corporate limits and police jurisdiction of the city. And Fairfield tax rates for lodgings provided within the corporate limits of the city. |
+Fayette | 9488 | Fayette tax rates for sales made within the corporate limits and police jurisdiction of the city. |
+Fayette Lodgings & Rental | 9588 | Fayette tax rates for rentals made and lodgings provided within the corporate limits and police jurisdiction of the city. |
+Greenville | 9435 | Greenville tax rates for sales and rentals made within the corporate limits of the city. |
+Greenville Lodgings | 9535 | Greenville tax rates for lodgings provided within the corporate limits of the city. |
+Greenville Lodgings Room Fee | 9235 | Greenville per room fee for lodgings provided within the corporate limits of the city. |
+Haleyville | 9000 | Haleyville tax rates for sales made within the corporate limits and police jurisdiction of the city.
+|
+Haleyville Lodgings | 9500 | Haleyville tax rates for lodgings provided within the corporate limits of the city. |
+City Of Mobile | 9149 | SALES TAX – REST: In addition to the sales and use tax rates currently displayed on our website for the categories of automotive, farm, general and manufacturing machinery, the City of Mobile levies a Food Service Establishment Tax rate within the corporate limits only. The Food Service Establishment Tax is a five percent (5%) sales tax levied, in lieu of the five 5% general sales tax , on the gross proceeds of sales at retail of food and/or beverages sold for consumption. The rate type is noted as “Restaurant” in My Alabama Taxes and as “REST” in the ADOR local rates.
+RENTAL TAX – TRANV: In addition to the rental tax rates currently displayed on our website for the categories of automotive, general and linen, the City of Mobile levies a tax rate that applies to the short term rental of a motor vehicle used primary for the transportation of 15 or fewer passengers, for a period of sixty (60) or fewer consecutive days, and the vendor has five or more vehicles for rent on a regular basis to the public. |
+City Of Montgomery | 9454 | RENTAL TAX – TRANV: In addition to the rental tax rates currently displayed on our website for the categories of automotive, general and linen, the City of Montgomery levies a tax rate that applies to the short term rental of a motor vehicle used primary for the transportation of 15 or fewer passengers, for a period of sixty (60) or fewer consecutive days, and the vendor has five or more vehicles for rent on a regular basis to the public. |
+Oxford | 9315 | SALES TAX – ALCOH: Oxford 5% sales tax on the retail sale of alcoholic beverages by businesses licensed under Section 28-3A-21(a)(6), Section 28-3A-21(a)(7), Section 28-3A-21(a)(8), Section 28-3A-21(a)(14), or Section 28-3A-21(a)(15), Code of Alabama 1975. This tax is lieu of the 5% general sales tax and is effective through December 31, 2020.
+Beginning January 1, 2021 : Oxford 7% sales tax on the retail sale of any liquor or alcoholic beverages, sold for on or off premises consumption. This tax is in lieu of the 5% general sales tax. |
+Phenix City Within Lee Co | 9283 | Phenix City tax rates for sales made, and lodgings provided, within the corporate limits of the city that is located within Lee County. |
+Phenix City Within Russell Co | 9383 | Phenix City tax rates for sales made, and lodgings provided, within the corporate limits and police jurisdiction of the city that is located within Russell County. |
+Pike Road | 9149 | RENTAL TAX – TRANV: In addition to the rental tax rates currently displayed on our website for the categories of automotive, general and linen, the Town of Pike Road levies a tax rate that applies to the short term rental of a motor vehicle used primary for the transportation of 15 or fewer passengers, for a period of sixty (60) or fewer consecutive days, and the vendor has five or more vehicles for rent on a regular basis to the public. |
+Prattville | 9365 | SALES TAX – REST: In addition to the sales and use tax rates currently displayed on our website for the categories of automotive, farm, general and manufacturing machinery, the City of Prattville requires separate reporting of sales at the restaurant rate category (REST). This tax rate category pertains primarily to restaurants and other establishments that sell food (pubs, cafes, etc.) as opposed to retail merchants. Reporting in the restaurant rate category is done in lieu of reporting at the general sales tax rate category for sales made at the referenced establishments. The rate type is noted as “Restaurant” in MAT and as “REST” in the ADOR local rates. |
+Rainbow City Rental | 9266 | Rainbow City tax rates for rentals made within the corporate limits and police jurisdiction of the city. |
+Rainbow City | 9666 | Rainbow City tax rates for sales made within the corporate limits and police jurisdiction of the city. |
+Roanoke | 9319 | Roanoke tax rates for sales and rentals made within the corporate limits of the city. |
+Roanoke Lodgings | 9019 | Roanoke tax rates for lodgings provided within the corporate limits of the city. |
+Samson Sales | 9317 | Samson tax rates for sales made within the corporate limits and police jurisdiction of the city. |
+Samson Use | 9217 | Samson tax rates for purchases of tangible personal property stored, used or consumed within the corporate limits and police jurisdiction of the city. |
+Saraland | 9758 | Saraland tax rates for sales made within the corporate limits and police jurisdiction of the city. |
+Saraland Lodgings Rental | 9785 | Saraland tax rates for rentals made and lodgings provided within the corporate limits and police jurisdiction of the city. |
+Scottsboro | 9410 | Scottsboro tax rates for sales made within the corporate limits and police jurisdiction of the city; and rentals made within the corporate limits of the city. |
+Scottsboro Lodg – Other | 9210 | Scottsboro tax rates for lodgings provided at campsites or RV sites within the corporate limits and police jurisdiction of the city. |
+Scottsboro Lodg – Rooms & Lodging | 9510 | Scottsboro tax rates for lodgings provided within the corporate limits and police jurisdiction of the city, excluding lodgings provided at campsites or RV sites. |
+Selma | 9320 | Selma tax rates for sales made within, purchases of tangible personal property stored, used, or consumed, and rentals made within the corporate limits and police jurisdiction of the city. |
+Selma Lodgings | 9379 | Selma tax rates for lodgings provided within the corporate limits and police jurisdiction of the city. |
+Spanish Fort | 9102 | Spanish Fort tax rates for sales made inside the corporate limits and police jurisdiction of Spanish Fort. |
+Spanish Fort East Shore Dist | 9202 | Spanish Fort tax rates for sales made inside the district of the Eastern Shore Centre. |
+Spanish Fort Town Center Dist | 9203 | Spanish Fort tax rates for sales made inside the district of the Spanish Fort Town Center. |
+Tallassee Lodg & Rental Within Elmore Co | 9564 | Tallassee tax rates for rentals made and lodgings provided within the corporate limits and police jurisdiction of Tallassee that are located in Elmore County. |
+Tallassee Within Elmore Co | 9364 | Tallassee tax rates for sales made within the corporate limits and police jurisdiction of the city that is located within Elmore County. |
+Tallassee Lodg & Rental Within Tallapoosa Co | 9563 | Tallassee tax rates for rentals made and lodgings provided within the corporate limits and police jurisdiction of Tallassee that are located in Tallapoosa Co. |
+Tallassee Within Tallapoosa Co | 9363 | Tallassee tax rates for sales made within the corporate limits and police jurisdiction of the city that is located within Tallapoosa County. |
+Thomasville | 9405 | SALES TAX – REST: In addition to the sales and use tax rates currently displayed on our website for the categories of automotive, farm, general and manufacturing machinery, the City of Thomasville levies a Food Service Establishment Tax rate within the corporate limits and police jurisdiction of the City. The Food Service Establishment Tax is an additional 1% sales tax levied on the gross proceeds of sales at retail of food and/or beverages sold for consumption. The rate type is noted as “Restaurant” in My Alabama Taxes and as “REST” in the ALDOR local rates. This tax is in addition to the 5% general sales tax levy. |
+Westover Rental | 9565 | Westover tax rates for rentals made within the corporate limits and police jurisdiction of the city. |
+Westover Sales & Use | 9765 | Westover tax rates for sales made within and purchases of tangible personal property stored, used, or consumed within the corporate limits and police jurisdiction of the city.
+|
+Winfield | 9458 | Winfield tax rates for sales made within the corporate limits and police jurisdiction of the city. |
+Winfield Lodg & Rental | 9558 | Winfield tax rates for rentals made and lodgings provided within the corporate limits and police jurisdiction of the city. |
+York Lodgings & Use | 9244 | York tax rates for lodging provided and purchases of tangible personal property stored, used or consumed within the corporate limits of the city. |
+York | 9444 | York tax rates for sales made within the corporate limits of the city. |
+County Code Explanations
+The following county code explanations pertain to those counties that have multiple county codes.
+Locality | Locality Code | Explanation |
+Autauga Co Lodg CL Prattville | 7701 | Autauga County lodgings tax rates for lodgings offered inside the corporate limits of Prattville. |
+Autauga Co Lodg Exc Prattville | 7501 | Autauga County lodgings tax rates for lodgings offered outside the corporate limits of Prattville. |
+Baldwin County | 7002 | Baldwin County tax rates for sales made within the county |
+Baldwin County Lodgings Tax District | 7702 | Baldwin County District Lodgings Tax rates for lodgings offered inside the corporate limits of Gulf Shores, the corporate limits of Orange Beach and the unincorporated areas of Baldwin County south of the Intracoastal Waterway and west of the corporate limits of Gulf Shores. In addition to the areas defined above additional incorporated and unincorporated areas may elect to be included in the Baldwin County District Lodgings. If in doubt about whether you are in the Baldwin County District Lodgings or not, please contact Baldwin County at 251-943-5061. |
+Bullock County | 7006 | Bullock County tax rates for sales made within the county. |
+Bullock County Lodgings | 7506 | Bullock County lodgings tax rates for lodgings offered inside the county. |
+Calhoun Co – Uninc Area / PJ | 7008 | Calhoun County tax rates for sales made within the unincorporated areas of the county and for sales made inside the police jurisdictions of Blue Mountain, Oxford, and Southside. |
+Calhoun Co PJ – Gle/HC/Wea | 7108 | Calhoun County tax rates for sales made inside the police jurisdictions of Glencoe, Hobson City, and Weaver. |
+Calhoun Co PJ – An/Jac/Pie | 7208 | Calhoun County tax rates for sales made inside the police jurisdictions of Anniston, Jacksonville and Piedmont. |
+Calhoun Co – Ohatchee PJ | 7308 | Calhoun County tax rates for sales made inside the police jurisdiction of Ohatchee. |
+Calhoun Co – CL | 7408 | Calhoun County tax rates for sales made inside the corporate limits of Oxford, Anniston, Ohatchee, Jacksonville, Piedmont, Weaver, Hobson City, Glencoe & Southside. |
+Calhoun Co Lodgings | 7508 | Calhoun County lodgings tax rates for lodgings offered inside the county. |
+Calhoun Co Rental | 7608 | Calhoun County rental tax rates for rentals made inside the county. |
+Chambers Co – CL | 7009 | Chambers County tax rates for sales made within the corporate limits of LaFayette, Valley, Lanett, Waverly, and Five Points. |
+Chambers Co – Unincorp Areas | 7109 | Chambers County tax rates for sales made outside the corporate limits of LaFayette, Valley, Lanett, Waverly, and Five Points ; and outside of the police jurisdiction of Lanett, Valley, Lafayette, Waverly, and Five Points. |
+Chambers Co PJ – Lanett | 7209 | The Chambers Co PJ – Lanett tax was discontinued effective 12/31/2023 (Chambers Co Unincorp Areas – 7109 is in effect for that area effective 1/1/2024). Prior to that, these rates were for Chambers County sales made outside the corporate limits but within the police jurisdiction of Lanett |
+Chambers Co PJ – Valley | 7309 | Chambers County tax rates for sales made outside the corporate limits but within the police jurisdiction of Valley. |
+Chambers Co PJ – Lafayette | 7409 | Chambers County tax rates for sales made outside the corporate limits but within the police jurisdiction of LaFayette. |
+Chambers Co PJ – Waverly | 7609 | Chambers County tax rates for sales made outside the corporate limits but within the police jurisdiction of Waverly. |
+Chambers Co PJ – Five Points SLS | 7070 | Chambers County sales tax rates for sales made outside the corporate limits but within the police jurisdiction of Five Points. |
+Chambers Co PJ – Five Points USE | 7071 | Chambers County use tax rates for purchases stored, used or consumed outside the corporate limits but within the police jurisdiction of Five Points. |
+Chambers Co PJ – Wadley | 7170 | Chambers County tax rates for sales made outside the corporate limits but within the police jurisdiction of Wadley. |
+Chambers County Lodg & Rental | 7509 | Chambers County tax rates for rentals made and lodgings provided within the county. |
+Cherokee County | 7010 | Cherokee County tax rates for sales made within the county. |
+Cherokee County Lodgings | 7510 | Cherokee County lodgings tax rates for lodgings offered inside the county. |
+Chilton County Exc 4 Cities | 7011 | Chilton County tax rates for sales made outside the corporate limits of Clanton, Jemison, Maplesville, and Thorsby. |
+Chilton County CL 4 Cities | 7711 | Chilton County tax rates for sales made inside the corporate limits of Clanton, Jemison, Maplesville, and Thorsby. |
+Chilton County Lodgings | 7511 | Chilton County lodgings tax rates for lodgings offered inside the county. |
+Clarke County | 7013 | Clarke County tax rates for sales made within the county. |
+Clarke County Lodgings | 7513 | Clarke County lodgings tax rates for lodgings offered inside the county. |
+Cleburne County | 7015 | Cleburne County tax rates for sales made within the county. |
+Cleburne Co Lodg | 7515 | Cleburne Co Lodgings tax rates for lodgings offered within the county but outside the corporate limits of Heflin. |
+Cleburne Co Lodg Heflin | 7715 | Cleburne Co Lodgings tax rates for lodgings offered inside the corporate limits of Heflin. |
+Colbert County | 7017 | Colbert County tax rates for sales made within the county. |
+Colbert County Lodgings | 7517 | Colbert County lodgings tax rates for lodgings offered inside the county. |
+Conecuh County | 7018 | Conecuh County tax rates for sales made within the county. |
+Conecuh County Lodgings | 7518 | Conecuh County lodgings tax rates for lodgings offered inside the county. |
+Coosa County | 7019 | Coosa County tax rates for sales made within the county. |
+Coosa County Lodgings | 7519 | Coosa County lodgings tax rates for lodgings offered inside the county. |
+Covington County | 7020 | Covington County tax rates for sales made within the county. |
+Covington County Lodgings | 7520 | Covington County lodgings tax rates for lodgings offered inside the county. |
+Cullman Co | 7022 | Cullman County tax rates for sales made within the county but outside the corporate limits and police jurisdiction of Arab. |
+Cullman Co PJ Arab | 7122 | Cullman County tax rates for sales made within the corporate limits or within the police jurisdiction of Arab. |
+Cullman County Lodgings | 7522 | Cullman County lodgings tax rates for lodgings offered inside the county. |
+Dale County | 7023 | Dale County tax rates for sales made within the county but outside the corporate limits of Daleville and Ozark. |
+Dale County CL Daleville & Ozark | 7723 | Dale County tax rates for sales made inside the corporate limits of Daleville and Ozark. |
+Dekalb County | 7025 | Dekalb County tax rates for sales made within the county. |
+Dekalb County Lodgings | 7525 | Dekalb County lodgings tax rates for lodgings offered inside the county but outside the corporate limits of Fort Payne. |
+Dekalb Co Lodg Fort Payne | 7725 | Dekalb County lodgings tax rates for lodgings offered inside the corporate limits of the city of Fort Payne. |
+Elmore County | 7026 | Elmore County tax rates for sales made within the county, but outside the corporate limits of Prattville. |
+Elmore Co CL Prattville | 7726 | Elmore County tax rates for sales made inside the corporate limits of Prattville. |
+Elmore Co Enhan Unincorp & 4PJ | 7470 | Elmore County general sales, use, and rentals in the unincorporated areas of the county and within the police jurisdiction of Deatsville, Coosada, Prattville, and Wetumpka. This tax is in addition to the education fund tax levy – 7026. |
+Elmore Co Enhan CL Wetumpka | 7471 | Elmore County general tax rates for sales, use and rentals made within the corporate limits of Wetumpka. This tax is in addition to the education fund tax levy – 7026. |
+Elmore Co Enhan CL Eclectic | 7472 | Elmore County general tax rates for rentals made within the corporate limits of Eclectic. |
+Elmore Co Enhan PJ Eclectic | 7473 | Elmore County general tax rates for sales, use and rentals made inside the police jurisdiction of Eclectic. This tax is in addition to the education fund tax levy – 7026. |
+Elmore Co Enhan CL Millbrook | 7474 | Elmore County general tax rates for rentals made within the corporate limits of Millbrook. |
+Elmore Co Enhan PJ Millbrook | 7475 | Elmore County general tax rates for sales, use and rentals made inside the police jurisdiction of Millbrook. This tax is in addition to the education fund tax levy – 7026. |
+Elmore Co Enhan CL Tallassee | 7476 | Elmore County general tax rates for rentals made within the corporate limits of Tallassee. |
+Elmore Co Enhan PJ Tallassee | 7477 | Elmore County general tax rates for sales, use and rentals made inside the police jurisdiction of Tallassee. This tax is in addition to the education fund tax levy – 7026. |
+Elmore Co Enhan CL Elmore | 7478 | Elmore County general tax rates for sales, use and rentals made within the corporate limits of the Town of Elmore. This tax is in addition to the education fund tax levy – 7026. |
+Elmore Co Enhan PJ Elmore | 7479 | Elmore County general tax rates for sales, use and rentals made inside the police jurisdiction of the Town of Elmore. This tax is in addition to the education fund tax levy – 7026. |
+Elmore Co Enhan CL Deatsville | 7480 | Elmore County general tax rates for sales, use and rentals made within the corporate limits of Deatsville. This tax is in addition to the education fund tax levy – 7026. |
+Elmore Co Enhan CL Coosada | 7481 | Elmore County general tax rates for rentals made within the corporate limits of Coosada. |
+Elmore Co Enhan CL Prattville | 7482 | Elmore County general tax rates for rentals made within the corporate limits of Prattville. |
+Elmore Co Lodg CL 4 Cities | 7572 | Elmore County lodgings tax rates for lodgings offered inside the corporate limits of Elmore, Deatsville, Coosada, and Eclectic. |
+Elmore Co Lodg Millbr Coopdist | 7574 | Elmore County lodgings tax rates for lodgings offered inside the Millbrook Cooperative District. |
+Elmore Co Lodg Millbrook pj | 7573 | Elmore County lodgings tax rates for lodgings offered inside the police jurisdiction of Millbrook. |
+Elmore Co Lodg Pratt/Millbr CL | 7571 | Elmore County lodgings tax rates for lodgings offered inside the corporate limits of Prattville and Millbrook. |
+Elmore Co Lodg Rmfee Exc Pratt | 7576 | Elmore County lodgings tax room fee rates for lodgings offered outside the corporate limits of Prattville. |
+Elmore Co Lodg Rmfee Pratt CL | 7575 | Elmore County lodgings tax room fee rates for lodgings offered inside the corporate limits of Prattville. |
+Elmore Co Lodg Tallassee CL | 7569 | Elmore County lodgings tax rates for lodgings offered inside the corporate limits of Tallassee. |
+Elmore Co Lodg Tallassee PJ | 7570 | Elmore County lodgings tax rates for lodgings offered inside the police jurisdiction of Tallassee. |
+Elmore Co Lodg Uninc&PJ5Cities | 7526 | Elmore County lodgings tax rates for lodgings offered inside the police jurisdiction of Prattville, Elmore, Deatsville, Coosada, and Eclectic, or unincorporated areas. |
+Elmore Co Lodg Wetumpka CL | 7567 | Elmore County lodgings tax rates for lodgings offered inside the corporate limits of Wetumpka. |
+Elmore Co Lodg Wetumpka PJ | 7568 | Elmore County lodgings tax rates for lodgings offered inside the police jurisdiction of Wetumpka. |
+Escambia County | 7027 | Escambia County tax rates for sales made inside the corporate limits |
+Escambia Co PJ 4 Cities | 7127 | Escambia County tax levied for sales made outside the corporate limits, but within the police jurisdictions of Atmore, Brewton, East Brewton, and Flomaton. |
+Escambia Co PJ 1 City | 7227 | Escambia County tax levied for sales made outside the corporate limits, but within the police jurisdiction of Riverview. |
+Escambia Co Exc 5 Cities | 7727 | Escambia County tax levied for sales made within the county but outside the corporate limits of Pollard and outside the police jurisdictions of Atmore, Brewton, East Brewton, Flomaton, and Riverview. |
+Etowah County | 7028 | Etowah County tax rates for sales made within the county. |
+Etowah County Lodgings | 7528 | Etowah County lodgings tax rates for lodgings offered inside the county. |
+Etowah County Lodgings Room Fee | 7628 | Etowah County per room lodgings fee for lodgings offered inside the county. |
+Greene County | 7032 | Greene County tax rates for sales made within the county. |
+Greene County Lodgings | 7532 | Greene County lodgings tax rates for lodgings offered inside the county. |
+Henry County | 7034 | Henry County tax rates for sales made within the county. |
+Henry County Lodgings | 7534 | Henry County lodgings tax rates for lodgings offered inside the county. |
+Houston County | 7035 | Houston County tax rates for sales made within the county. |
+Houston Co Lodg Exc Dothan | 7535 | Houston County lodgings tax rates for lodgings offered inside the county but outside the corporate limits of Dothan. |
+Houston County Lodg CL Dothan | 7577 | Houston County lodgings tax rates for lodgings offered inside the corporate limits of Dothan. |
+Jackson County | 7036 | Jackson County tax rates for sales made within the county. |
+Jackson County Lodgings | 7536 | Jackson County lodgings tax rates for lodgings offered inside the county. |
+Jefferson County | 7037 | Jefferson County general fund and, effective 01/01/2025, Jefferson County Special Revenue tax levies that apply to all taxpayers conducting the sales of, storage of or consuming of tangible personnel property in Jefferson County. |
+Jefferson Co Education | 7137 | The Jefferson County Education tax was discontinued effective 7/31/2017 (replaced by Jefferson Co Special Revenue tax – 7337). Prior to that, the Jefferson County education fund tax levy applied to all taxpayers conducting the sales of, storage of or consuming of tangible personnel property in Jefferson County. This tax was in addition to the general fund tax levy – 7037. |
+Jefferson Co Restaurant Alcoh | 7237 | Jefferson County additional 3% sales tax on the retail sale of alcoholic beverages & beer sold by restaurants. Sales of wine and champagne by restaurants are excluded. This tax is in addition to the general fund tax levy – 7037 and special revenue tax levy – 7337. |
+Jefferson Co Special Revenue | 7337 | The Jefferson County Special Revenue tax that was in effect under this locality code from 8/1/2017 through 12/31/2025, is now incorporated in the rates for Jefferson County 7037 locality code effective 1/1/2025. Jefferson County Special Revenue tax levy that applies to all taxpayers conducting the sales of, storage of or consuming of tangible personnel property in Jefferson County. This tax is in addition to the general fund tax levy – 7037. |
+Jefferson Co Rental Tax | 7437 | The Transportation Automotive Vehicle rental tax rate is levied against any person, organization, or other entity engaging or continuing in Jefferson County in the business of leasing or renting any passenger automotive vehicle, the duration of the lease being not more than one year. |
+Jefferson County Lodgings | 7537 | Jefferson County lodgings tax rates for lodgings offered inside the county. |
+Lauderdale County | 7039 | Lauderdale County tax rates for sales made within the county but outside the corporate limits of Florence. |
+Lauderdale County Florence | 7739 | Lauderdale County tax rates for sales made inside the corporate limits of Florence. |
+Lauderdale Co Lodg Anderson | 7139 | Lauderdale County lodgings tax rates for lodgings offered inside the corporate limits of Anderson. |
+Lauderdale Co Lodg Florence | 7239 | Lauderdale County lodgings tax rates for lodgings offered inside the corporate limits of Florence. |
+Lauderdale Co Lodg Killen | 7339 | Lauderdale County lodgings tax rates for lodgings offered inside the corporate limits of Killen. |
+Lauderdale Co Lodg Lexington | 7439 | Lauderdale County lodgings tax rates for lodgings offered inside the corporate limits of Lexington. |
+Lauderdale Co Lodg Rogersville | 7169 | Lauderdale County lodgings tax rates for lodgings offered inside the corporate limits of Rogersville. |
+Lauderdale Co Lodg St Florian | 7639 | Lauderdale County lodgings tax rates for lodgings offered inside the corporate limits of St Florian. |
+Lauderdale Co Lodg Waterloo | 7069 | Lauderdale County lodgings tax rates for lodgings offered inside the corporate limits of Waterloo. |
+Lauderdale Co Lodg Uninc | 7539 | Lauderdale County lodgings tax rates for lodgings offered inside the county but outside the corporate limits of Anderson, Florence, Killen, Lexington, Rogersville, St Florian and Waterloo. |
+Lee Co | 7041 | Lee County tax rates for sales made within the county but outside the corporate limits and police jurisdiction of Opelika and Phenix City, and for sales made within the county but outside the corporate limits of Auburn. |
+Lee Co PJ Opelika | 7141 | Lee County tax rates for sales made outside the corporate limits of Opelika but within the police jurisdiction of Opelika. |
+Lee Co PJ Phenix City | 7241 | Lee County tax rates for sales made outside the corporate limits of Phenix City but within the police jurisdiction of Phenix City. |
+Lee Co CL Aub/ope/phenix | 7741 | Lee County tax rates for sales made inside the corporate limits of Auburn, Opelika and Phenix City. |
+Lee County Lodgings | 7541 | Lee County lodgings tax rates for lodgings offered inside the county. |
+Macon County | 7044 | Macon County tax rates for sales made within the county. |
+Macon County Lodgings | 7544 | Macon County lodgings tax rates for lodgings offered inside the county. |
+Madison Co Exc CL Huntsville | 7045 | Madison County tax rates for sales made inside the county but outside the corporate limits of Huntsville. This tax is in addition to the tax levy – 7745. |
+Madison Co County-wide Tax | 7745 | Madison County tax rates for sales made inside the county. This tax is in addition to the tax levy – 7045. |
+Madison County Lodgings | 7545 | Madison County lodgings tax rates for lodgings offered inside the county. |
+Marion County | 7047 | Marion County tax rates for sales made within the county but outside the corporate limits of Winfield. |
+Marion County CL Winfield | 7747 | Marion County tax rates for sales made inside the corporate limits of Winfield. |
+Marion County Lodgings | 7547 | Marion County lodgings tax rates for lodgings offered inside the county. |
+Marshall Co Exc 4 Cities | 7048 | Marshall County tax rates for sales made within the county but outside the corporate limits of Albertville, Arab, Boaz and Guntersville. |
+Marshall Co CL 4 Cities | 7748 | Marshall County tax rates for sales made inside the corporate limits of Albertville, Arab, Boaz and Guntersville. |
+Marshall County Lodgings | 7548 | Marshall County lodgings tax rates for lodgings offered inside the county. |
+Mobile County | 7049 | Mobile County tax rates for sales made within the county but outside the corporate limits of Prichard and Mobile. |
+Mobile Co CL Prich/mobile | 7749 | Mobile County tax rates for sales made inside the corporate limits of Prichard and Mobile. |
+Mobile County Lodgings | 7549 | Mobile County lodgings tax rates for lodgings offered inside the county. |
+Monroe County | 7050 | Monroe County tax rates for sales made within the county. |
+Monroe County Lodgings | 7550 | Monroe County lodgings tax rates for lodgings offered inside the county. |
+Montgomery County | 7051 | Montgomery County tax rates for sales made within the county. |
+Montgomery County Lodgings | 7551 | Montgomery County lodgings tax rates for lodgings offered inside the county. |
+Morgan Co Unincorp Areas | 7052 | Morgan County tax rates for sales made within the county but outside the corporate limits of the above-named cities and towns (i.e. Eva, Priceville, Somerville, Decatur, Hartselle, Falkville and Trinity). |
+Morgan Co CL Priceville | 7252 | Morgan County tax rates for sales made inside the corporate limits of Priceville. |
+Morgan Co CL Somerville | 7352 | Morgan County tax rates for sales made inside the corporate limits of Somerville. |
+Morgan Co CL Eva | 7452 | Morgan County tax rates for sales made inside the corporate limits of Eva. |
+Morgan Co Dec/Har/Fal/Tr | 7752 | Morgan County tax rates for sales made inside the corporate limits of Decatur, Hartselle, Falkville and Trinity. |
+Pickens County | 7054 | Pickens County tax rates for sales made within the county. |
+Pickens County Lodgings | 7554 | Pickens County lodgings tax rates for lodgings offered inside the county. |
+Pike County Exc CL Troy | 7055 | Pike County tax rates for sales made within the county but outside the corporate limits of Troy. |
+Pike County CL Troy | 7755 | Pike County tax rates for sales made inside the corporate limits of Troy. |
+Pike Co Lodg Banks | 7155 | Pike County lodgings tax rates for lodgings offered inside the corporate limits of Banks. |
+Pike Co Lodg Brundidge | 7255 | Pike County lodgings tax rates for lodgings offered inside the corporate limits of Brundidge. |
+Pike Co Lodg Goshen | 7355 | Pike County lodgings tax rates for lodgings offered inside the corporate limits of Goshen. |
+Pike Co Lodg Troy | 7455 | Pike County lodgings tax rates for lodgings offered inside the corporate limits of Troy. |
+Pike Co Lodg Uninc | 7555 | Pike County lodgings tax rates for lodgings offered inside the county but outside the corporate limits of Banks, Brundidge, Goshen, and Troy. |
+Randolph County | 7056 | Randolph County tax rates for sales made within the county. |
+Randolph County Lodgings | 7556 | Randolph County lodgings tax rates for lodgings offered inside the county. |
+Russell Co | 7057 | Russell County tax rates for sales made within the county but outside the corporate limits and police jurisdiction of Hurtsboro and Phenix City. |
+Russell Co PJ | 7157 | Russell County tax rates for sales made outside the corporate limits of Hurtsboro and Phenix City but within the police jurisdiction of Hurtsboro and Phenix City. |
+Russell Co CL | 7757 | Russell County tax rates for sales made inside the corporate limits of Hurtsboro and Phenix City. |
+Russell County Lodgings | 7557 | Russell County lodgings tax rates for lodgings offered inside the county. |
+Russell County Rental | 7257 | Russell County tax rates for rentals made inside the county. |
+Shelby County | 7058 | Shelby County tax rates for sales made within the county. |
+Shelby County Lodgings | 7558 | Shelby County lodgings tax rates for lodgings offered inside the county. |
+St Clair Co | 7059 | St. Clair County tax rates for sales made within the county but outside the corporate limits of Pell City. |
+St Clair Co CL Pell City | 7759 | St. Clair County tax rates for lodgings offered, or leases and sales made inside the corporate limits of Pell City. |
+Sumter County | 7060 | Sumter County tax rates for sales made within the county. |
+Sumter County Lodgings | 7560 | Sumter County lodgings tax rates for lodgings offered inside the county. |
+Talladega Co | 7061 | Talladega County tax rates for sales made within the county but outside the corporate limits and police jurisdiction of any city. |
+Talladega Co PJ | 7161 | Talladega County tax rates for sales made outside the corporate limits of any city but within the police jurisdiction of a city. |
+Talladega Co CL | 7761 | Talladega County tax rates for sales made inside the corporate limits of any city. |
+Talladega Co Lodgings | 7561 | Talladega County lodgings tax rates for lodgings offered inside the county. |
+Tallapoosa County | 7062 | Tallapoosa County tax rates for sales made within the county. |
+Tallapoosa Co Lodg Jack Gap PJ | 7362 | Tallapoosa County lodgings tax rates for lodgings offered inside the police jurisdiction of Jackson Gap. |
+Tallapoosa Co Lodg Unic Areas | 7562 | Tallapoosa County lodgings tax rates for lodgings offered in unincorporated areas. |
+Tallapoosa Co Lodg TallasseePJ | 7262 | Tallapoosa County lodgings tax rates for lodgings offered inside the police jurisdiction of Tallassee. |
+Tuscaloosa Co | 7063 | Tuscaloosa County tax rates for sales made within the county but outside the corporate limits and police jurisdiction of any city/town that levies a sales tax. |
+Tuscaloosa Co PJ | 7163 | Tuscaloosa County tax rates for sales made outside the corporate limits of any city/town that levies a sales tax but within the police jurisdiction of said city/town. |
+Tuscaloosa Co CL | 7763 | Tuscaloosa County tax rates for sales made inside the corporate limits of any city/town that levies a sales tax. |
+Tuscaloosa Co Coal CL | 7263 | Tuscaloosa County tax rates for sales/purchases of coal mining machinery made inside the corporate limits of any city/town that levies a sales tax. |
+Tuscaloosa Co Coal PJ | 7363 | Tuscaloosa County tax rates for sales/purchases of coal mining machinery made outside the corporate limits but within the police jurisdiction of any city/town that levies a sales tax. |
+Tuscaloosa Co Coal | 7463 | Tuscaloosa County tax rates for sales/purchases of coal mining machinery made outside the corporate limits and police jurisdiction of any city/town that levies a sales tax. |
+Walker County | 7064 | Walker County tax rates for sales made within the county. |
+Walker County Lodgings | 7564 | Walker County lodgings tax rates for lodgings offered inside the county. |
+Wilcox County | 7066 | Wilcox County tax rates for sales made within the county. |
+Wilcox County Lodgings | 7566 | Wilcox County lodgings tax rates for lodgings offered inside the county. |
+Unabated Counties:
+Explanation: Tax applies only to approved Abatement Project Filers per Section 40-9B, Code of Alabama 1975.
+Autauga County-7801
+Baldwin County-7802
+Barbour County-7803
+Bibb County-7804
+Blount County-7805
+Bullock County-7806
+Butler County-7807
+Calhoun County-7808
+Chambers County-7809
+Cherokee County-7810
+Chilton County-7811
+Choctaw County-7812
+Clarke County-7813
+Clay County-7814
+Cleburne County-7815
+Coffee County-7816
+Colbert County-7817
+Conecuh County-7818
+Coosa County-7819
+Covington County-7820
+Crenshaw County-7821
+Cullman County-7822
+Dale County-7823
+Dale Co Cl Dalv & Ozk-7871
+Dallas County-7824
+Dekalb County-7825
+Elmore County-7826
+Escambia County-7827
+Etowah County-7828
+Fayette County-7829
+Franklin County-7830
+Geneva County-7831
+Greene County-7832
+Hale County-7833
+Henry County-7834
+Houston County-7835
+Jackson County-7836
+Jefferson County-7837
+Lamar County-7838
+Lauderdale County-7839
+Lauderdale Co Florence-7869
+Lawrence County-7840
+Lee County-7841
+Lee Co PJ Opelika – 7865
+Lee Co PJ Phenix City – 7868
+Lee Co CL Aub & Ope & Phenix – 7870
+Limestone County-7842
+Lowndes County-7843
+Macon County-7844
+Madison Co Co-wide Tax-7885
+Madison Co Exc Cl Huntsv-7845
+Marengo County-7846
+Marion Co Exc Winfld CL-7847
+Marshall Co CL 4 Cities-7948
+Marshall Co Exc 4 Cities-7848
+Mobile County-7849
+Monroe County-7850
+Montgomery County-7851
+Morgan County-7852
+Morgan Co Dec/Har/Hal/Tr-7874
+Morgan Co Cl Eva-7875
+Morgan Co Cl Pricevl-7872
+Morgan Co Cl Somervl-7873
+Perry County-7853
+Pickens County-7854
+Pike County-7855
+Randolph County-7856
+Russell County-7857
+Shelby County-7858
+St Clair County-7859
+Sumter County-7860
+Talladega County-7861
+Tallapoosa County-7862
+Tuscaloosa County-7863
+Walker County-7864
+Wilcox County-7866
+Winston County-7867
+Municipalities
+Albertville-9897
+Alexander City-9958
+Arab-9848
+Athens-9864
+Boaz-9884
+Brewton-9806
+Chelsea-9957
+Cullman-9870
+Daleville-9843
+Elba-9885
+Enterprise-9821
+Evergreen-9832
+Florence-9855
+Geneva-9803
+Gerogiana-9853
+Guntersville-9844
+Haleyville-9800
+Hartselle-9807
+Homewood-9891
+Mckenzie-9819
+Opp-9828
+Oxford-9815
+Ozark-9839
+Pelham-9852
+Pell City-9921
+Saraland-9858
+Tallassee/Tallapoosa Co-9863
+Tallassee/Elmore Co-9963
+Thomasville-9805
+Vestavia Hills-9833
+Westover-9865
+Employment
+Careers at aldor
+human resources
+state job application
+state personnel
+internship
+Legal
+Legal Division
+Public Records Request
+To report a criminal tax violation,
+please call 251-344-4737
+Contact
+375 South Ripley Street
+Montgomery, AL 36104
+Contact Us
+THE CODE OF ALABAMA 1975
+Facebook-f
+X-twitter
+Instagram
+Youtube

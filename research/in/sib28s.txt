@@ -1,0 +1,443 @@
+Source: https://www.in.gov/dor/files/reference/sib28s.pdf
+Accessed: 2026-10-11
+
+ 
+Indiana Department of Revenue  
+Indiana Government Center • 100 N. Senate Ave. Indianapolis, IN 46204 • dor.in.gov 
+ 
+1 
+Sales Tax Information Bulletin #28S 
+Subject: Sales of Motor Vehicles and Trailers 
+Publication Date: May 2026 
+Effective Date: Upon Publication 
+References: IC 6-2.5-1-5; IC 6-2.5-1-6; IC 6-2.5-2-2; IC 6-2.5-2-3; IC 2.5-3-6; 
+IC 6-2.5-3-7; IC 6-2.5-4-10; IC 6-2.5-5-38.2; IC 6-2.5-5-39; IC 6-
+2.5-9-12; IC 6 -2.5-13-1; IC 9 -13-2-42; Treasury Reg. 1.132-
+5(o)(2); Revenue Procedure 2001-56 
+Replaces Bulletin #28S, dated April 2023 
+Disclaimer: Information bulletins are intended to provide nontechnical assistance to the general public. Every attempt 
+is made to provide information that is consistent with the appropriate statutes, rules, and court decisions. Any 
+information that is not consistent with the law, regulations, or court decisions is not binding on either the department 
+or the taxpayer. Therefore, the information provided herein should serve only as a foundation for further investigation 
+and study of the current law and procedures related to the subject matter covered herein. 
+Summary of Changes 
+Apart from technical, nonsubstantive changes, this bulletin has been updated to provide guidance 
+on legislative changes included in Senate Enrolled Act 243 (2026) creating restrictions on the 
+purchases of watercraft and cargo trailers by nonresident limited liability companies, partnerships, 
+corporations, or other closely held businesses. 
+Introduction 
+Generally, the sale of any motor vehicle or trailer is subject to Indiana sales and use tax unless 
+such transaction is entitled to a statutory exemption. If a motor vehicle or trailer is purchased from 
+a registered Indiana dealer, the dealer must collect Indiana sales tax and provide to the purchaser 
+a completed Form ST -108 or Form ST -108NR showing the tax has been paid. If the purchaser 
+claims an exemption and tax is not collected by the dealer, the statement at the bottom of Form 
+ST-108E must be completed disclosing the reason code for the exemption. It must also be signed 
+by the purchaser. When a purchaser claims an exemption on Form ST-108E, the dealer must retain 
+a completed copy of the ST -108E exemption certificate to document the exempted sale. An 
+exemption Form ST-105D may be used to document dealer- to-dealer sales that are exempt for 
+the purpose of resale. 
+Indiana Department of Revenue • Sales Tax Information Bulletin #28S 
+2 
+General Application of Sales Tax 
+Absent a statutory exemption, all sales of motor vehicles and trailers purchased in Indiana are 
+subject to Indiana sales and use tax. This includes sales where the purchaser intends to 
+immediately register, license, and/or title the motor vehicle or trailer for use in another 
+state. 
+If the motor vehicle is to be moved and titled in another state or country within 30 days of the 
+sale, Indiana sales tax at the rate imposed by that other state or country may apply instead of the 
+normal 7% rate. If the other state’s sales tax rate applies, Indiana sales tax shall still be collected 
+by the dealer and remitted to the Indiana Department of Revenue. Refer to Sales Tax Information 
+Bulletin #84 (available online at in.gov/dor/resources/tax-library/information-bulletins/sales-tax-
+information-bulletins/) and the department’s website (including the “Dealer Information” page at 
+in.gov/dor/business-tax/dealer-information/) for more details. 
+Recreational Vehicles and Trailers Only 
+Nonresident purchasers of recreational vehicles and cargo trailers are exempt from Indiana sales 
+tax if the purchaser’s state of registration offers similar treatment to Indiana purchasers of 
+recreational vehicles (RV) and cargo trailers. The purchaser mus t affirm the RV or trailer will be 
+registered/titled within 30 days in a state that allows an exemption to an Indiana resident who 
+purchases an RV or a cargo trailer to be registered/titled in Indiana (i.e., a “reciprocal” state).  
+However, dealers must collect Indiana sales tax on sales to a nonresident of Indiana if registering 
+or titling in one of the following nonreciprocal states (as well as any foreign country, including 
+Canada and Mexico): 
+Arizona   California   Florida    
+Hawaii    Massachusetts   Michigan  
+North Carolina   South Carolina  
+Trailer Sale Note: In addition to the nonreciprocal states listed above, an Indiana dealer must 
+collect the Indiana sales tax on the sale of cargo trailers to residents of Kentucky, Maine, and 
+Rhode Island, because these states are not reciprocal with Indiana as it relates to trailer sales. 
+A special tax rate applies to the purchase of recreational vehicles and cargo trailers by 
+nonresidents of nonreciprocal states, which is the rate of the intended destination state or country. 
+For further information concerning the sale of RVs and trailers in Indiana, consult Sales Tax 
+Information Bulletin #72 , available  online at in.gov/dor/resources/tax-library/information-
+bulletins/sales-tax-information-bulletins/.  
+To claim an exemption for a transaction involving a recreational vehicle or cargo trailer, the 
+purchaser must complete Form ST -137RV. The original signed copy must be mailed to the 
+department within 30 days of delivery. The dealer must retain a completed copy of Form ST-137RV 
+to document the exempted sale. Form ST -137RV is available at in.gov/dor/tax- forms/sales-tax-
+forms/.  
+Indiana Department of Revenue • Sales Tax Information Bulletin #28S 
+3 
+Amount Subject to Tax 
+Rebates Versus Various Other Forms of Discounts 
+Any adjustment shown on a customer’s purchase agreement for which the dealer receives 
+payment or credit from a third party is to be treated as a payment and is not a reduction of the 
+taxable selling price. 
+A manufacturer’s rebate is not an allowable deduction from the taxable selling price if the dealer 
+receives payment for such rebate, as shown on the customer’s purchase agreement. A 
+manufacturer’s rebate, as shown on the customer’s written purchase agreement, is a form of 
+payment. It is not a reduction in the dealer’s gross retail selling price. 
+Example: An automobile manufacturer provides a $2,000 rebate to a customer on the purchase 
+of a specified model of automobile. The customer negotiates a $20,000 purchase price on the 
+automobile. The customer then has a choice: pay $20,000 to the dealer and receive $2,000 in 
+cash directly from the manufacturer, in which case the sales price would be $20,000; or assign 
+the rebate to the dealer and pay an additional $18,000 for the automobile. If the amount of 
+the rebate is known by the dealer at the time of the sale and the rebate is identified as a 
+manufacturer’s rebate on documentation received by the purchaser, the rebate is included in 
+the sales price. Thus, the sales price is $20,000 whether the customer keeps the rebate or 
+applies the rebate as a payment to the purchase price. 
+A manufacturer’s price reduction is considered deductible for sales tax purposes because the 
+manufacturer is actually reducing the selling price of the vehicle. The dealer does not receive the 
+amount of the price reduction as consideration for the sale. 
+A dealer’s price discount is also considered deductible in determining the amount on which sales 
+tax is charged. The selling price is reduced by the dealer’s price discount. The dealer does not 
+receive the amount of the price discount as consideration for the sale. 
+An employee discount arises when an automobile manufacturer has an automobile purchase 
+plan for its qualified employees or qualified employees of an affiliate. Pursuant to the plan, the 
+employee can purchase a vehicle from an authorized dealership at a predetermined price. If the 
+dealer receives a reimbursement from the manufacturer or affiliate for the benefit of the 
+employee, the reimbursement is not included in the sales price. 
+Regardless of the name assigned to a discount or price reduction, any unreimbursed discount is 
+not treated as consideration. Any reference to a “manufacturer’s price reduction” or “dealer’s price 
+discount” in the examples below apply to any unreimbursed discount.   
+Trade-in Allowance 
+The deduction for a trade-in allowance applies only to “like-kind exchanges” in which the motor 
+vehicle or trailer to be traded in is owned and titled in the name of the customer. A like- kind 
+exchange means a motor vehicle traded for another motor vehicle or a trailer traded for another 
+Indiana Department of Revenue • Sales Tax Information Bulletin #28S 
+4 
+trailer between two persons. A trade-in of a motor vehicle for a trailer is not a “like-kind exchange” 
+and is not deductible in the calculation of the amount of the taxable gross retail income received 
+by the dealer. Similarly, exchanges of motorcycles for motor vehicles and similar  trades are not 
+like-kind exchanges. 
+The persons making the exchange must each own the property prior to the exchange. If there are 
+more than two persons involved in the exchange, then it does not constitute a “ like-kind 
+exchange”. For example, if Person 1 sells their vehicle to Dealership A and immediately uses the 
+funds to buy another vehicle at Dealership B, this would not constitute a “like-kind exchange”.  
+A married couple will be treated as owning the property as a unit, rather than individually. If the 
+vehicle being exchanged is in one spouse’s name and the newly purchased vehicle will be in the 
+other spouse’s name, the couple will be treated as one person for the purposes of constituting a 
+like-kind exchange. In order to validate that they are a married couple, they will need to provide 
+a copy of their marriage license to the dealer confirming that they live at the same address.  
+Further, to constitute a like- kind exchange, the re must be a reciprocal exchange of like -kind 
+vehicles as part of a single transaction. If cash, property of unlike kind, or credit is given by the 
+dealer to the purchaser to use towards a future purchase, this will not constitute a reciprocal, like-
+kind exchange. The future purchase of a vehicle would be considered a separate transaction, and 
+the cash, credit, or unlike kind property received by the purchaser from the previous transaction 
+will not reduce the gross retail income of the future purchase of a vehicle. 
+Non-like-kind exchanges are merely another form of a payment to the dealer and do not reduce 
+the dealer’s gross retail income. Note: one exception to the general rule that a motor vehicle 
+traded in for a trailer does not constitute a “like-kind exchange” is when a motorized recreational 
+vehicle is traded in for a non- motorized recreational vehicle. In such a case, the department 
+considers the motorized and non-motorized recreational vehicles to be like-kind. 
+For further clarification regarding like-kind exchanges, refer to Sales Tax Information Bulletin #92, 
+available online at in.gov/dor/resources/tax -library/information-bulletins/sales-tax-information-
+bulletins/.  
+Separately Stated Fees 
+Fees for services performed after the transfer of a vehicle or trailer are not considered part of 
+the sales price and, therefore, are not subject to sales tax. Transfer of a vehicle or trailer takes 
+place upon physical delivery when the purchaser takes possession and control of the property, 
+even though the title may not have yet been transferred. The dealer must maintain adequate 
+records to show which services pertain to the fees charged and that the services were performed 
+after the transfer of the vehicle or trailer to be exempted from sales tax. Fees charged for services 
+performed prior to the customer taking physical possession of the vehicle or trailer are subject 
+to sales tax. 
+Historically, separately stated fees labeled as “documentation fees” were presumed to be at least 
+partially excluded from gross retail income because all or part of the fee was considered to be 
+compensation for preparing and submitting documents to the Indiana Bureau of Motor Vehicles 
+Indiana Department of Revenue • Sales Tax Information Bulletin #28S 
+5 
+on behalf of the purchaser to complete titling and in some cases registration of the vehicle.  Such 
+services were considered to be a separately bargained for service that took place after the transfer 
+of possession of the vehicle to the customer.  However, the General Assembly added IC 9-14.1-3-
+3 effective July 1, 2016, which established a separate “convenience fee” that allowed dealers to 
+charge for performing the services that have historically been excluded from the retail unitary 
+transaction and represented by the documentation fee. As such, fees that meet the definition of 
+a separately stated “convenience fee” are not subject to sales tax. While dealers may still charge a 
+separate documentation fee in addition to the convenience fee, the services attributable to 
+documentation fees will be considered to be charges by the seller for services necessary to 
+complete the sale and will be subject to sales tax.  
+Value of Traded-In Vehicles 
+The value of property from a like -kind exchange is  deductible from the taxable gross retail 
+income for Indiana sales tax purposes. To be an exempt trade, the vehicle traded -in must be 
+owned and titled in the name of the customer. Any debt owed on the traded -in vehicle is not 
+treated as consideration for purposes of determining gross retail income. Further, if the value of 
+a traded-in vehicle is in excess of the purchased vehicle, the consideration for the purchased 
+vehicle is treated as zero. 
+Negative equity from a traded-in vehicle is not included in the taxable gross retail income for 
+Indiana sales tax purposes. Negative equity is the amount of encumbrance or lien owed on a 
+vehicle in excess of the gross trade-in value of the vehicle. Thus, if a vehicle is sold for a set amount 
+of taxable consideration and any negative equity is financed as part of the sale, the negative equity 
+portion of the transaction is not part of the taxable consideration for the vehicle.   
+Sales - Examples of Taxable Selling Price  
+The selling price upon which the tax is based for purposes of calculating the sales tax is indicated 
+by the following examples: 
+NOTE: T =Taxable, Amount Subject to Tax; E = Exempt, reduces taxable selling price 
+A. (1) Price before Discount $12,000  T 
+ (2) Dealer Discount $500  E 
+ (3) Trade-In Value (like-kind) $4,000  E 
+ (4) Taxable Selling Price $7,500 
+The dealer discount (number 2) is a reduction in selling price and is an allowable deduction from 
+the amount subject to tax. Number 3 is consideration received by the seller; however, per statute, 
+it is deductible from the amount subject to sales tax. The taxable selling price is 1 minus 2 minus 
+3. 
+B. (1) Price before Discount $12,000  T 
+ (2) Dealer Discount $500  E 
+ (3) Trade-In Value (like-kind) $4,000  E 
+Indiana Department of Revenue • Sales Tax Information Bulletin #28S 
+6 
+ (4) Mfg Rebate Paid Directly to “Customer” $1,000 
+ (5) Taxable Selling Price $7,500 
+Numbers 2 and 3 reduce the amount subject to sales tax, whereas number 4 does not reduce the 
+amount subject to sales tax. Note: In this example, the rebate is paid to the customer, not the 
+dealer. Compare this example to Example C below. These examples show that regardless of 
+who receives the rebate, it does not reduce the taxable selling price of the vehicle . The 
+taxable selling price is number 1 minus 2 minus 3. 
+C. (1) Price before Discount $12,000  T 
+ (2) Dealer Discount $500  E 
+ (3) Trade-In Value (like-kind) $4,000  E 
+ (4) Mfg Rebate Paid or Assigned to “Dealer” $1,000 
+ (5) Taxable Selling Price $7,500 
+Number 2 is a reduction from the selling price per statute. Number 3 is consideration received by 
+the seller; however, per statute, it is deductible from the amount subject to sales tax. The 
+manufacturer rebate, number 4, is paid to the seller by the manufacturer and is not an allowable 
+deduction from the taxable selling price of the vehicle. The taxable selling price is number 1 minus 
+2 minus 3. 
+D. (1) Price before Discount $12,000  T 
+ (2) Discount $500  E 
+ (3) Trade-In Value (like-kind) $4,000  E 
+ (4) Mfg Price Reduction (not paid to  $1,000  E 
+       customer or dealer)  
+ (5) Taxable Selling Price $6,500 
+Numbers 2, 3, and 4 are all allowable as a reduction of the amount of gross retail income subject 
+to sales tax. Numbers 2 and 4 are true selling price reductions because the seller does not receive 
+any payment. Number 3 is consideration (payment) received by the seller; however, like- kind 
+exchanges (trade-in) are allowable as a reduction of the selling price subject to tax per Indiana 
+Code. The taxable selling price is number 1 minus 2 minus 3 minus 4. 
+E. (1) Price before Discount $12,000  T 
+ (2) Employee Discount $1,500  E 
+ (3) Trade-In Value (like-kind) $4,000  E 
+ (4) Taxable Selling Price $6,500 
+Number 2 is exempt as an employee discount from the manufacturer that may or may not appear 
+on the purchase agreement. Number 3 is consideration received by the seller; however, per 
+statute, it is deductible from the amount subject to tax. 
+F. (1) Price before Discount $12,000  T 
+ (2) Employee Discount $1,500  E 
+ (3) Trade-In Value (like-kind) $5,000  E 
+ (4) Debt in Excess of Trade-in  $4,000  E 
+Indiana Department of Revenue • Sales Tax Information Bulletin #28S 
+7 
+         Value (to be financed)  
+ (5) Taxable Selling Price $5,500 
+ (6) Nontaxable Portion of Financed  $4,000 
+       Amount shown in (4)  
+In this example, it is assumed that a vehicle with a gross trade -in value of $5,000 is subject to a 
+$9,000 encumbrance, and the $4,000 in excess of the gross value is refinanced. Thus, the gross 
+transaction involved is $14,500 ($12,000 price before discount minus $1,500 employee discount 
+plus $4,000 negative equity refinanced). Number 2 is exempt as an employee discount from the 
+manufacturer that may or may not appear on the purchase agreement. The gross value in number 
+3 is consideration received by the seller; however, per statute, it is deductible from the amount 
+subject to tax. Number 4 is not taxable consideration received by the seller; rather, it represents 
+refinancing of a pre-existing loan, and is reflected as number 6. The debt up to the value of t he 
+traded-in vehicle (i.e., $5,000) is not consideration. 
+G. (1) Price before Discount $30,000  T 
+ (2) Trade-In Value of Purchased  $10,000  E 
+        Vehicle Previously Leased    
+ (3) Taxable Selling Price $20,000 
+Number 2 is allowable as a reduction of the amount of gross retail income subject to sales tax. 
+Number 2 is consideration (payment) received by the seller; however, like-kind exchanges (trade-
+in) are allowable as a reduction of the selling price subject to  tax per Indiana Code. The trade-in 
+value is deductible as long as the leased vehicle has become the property of the lessee through 
+either the customer purchasing the leased vehicle and paying sales tax on the purchase price of 
+the leased vehicle or the dealer/finance company purchasing the leased vehicle on behalf of the 
+customer and paying sales tax on the full price of the leased vehicle. The taxable selling price is 
+number 1 minus 2. 
+However, if the customer merely returned the leased vehicle to the dealer after the term of the 
+lease expired without buying out the remainder of the vehicle, the value of the previously-leased 
+vehicle would not be a reduction in the taxable selling price.  The transaction becomes a normal 
+transaction as set forth in Example A. 
+Interstate Commerce Rules and Special Tax Rate 
+Sales Where the Customer Picks Up the Vehicle in Indiana 
+If the vehicle is to be moved and titled in another state or country within thirty (30) days of the 
+sale, Indiana sales tax at the rate imposed by that other state or country  may apply. Any such 
+sales tax collected at the rate of the other state must be remitted to the Indiana Department of 
+Revenue, not to the other state’s revenue collection agency. Refer to Sales Tax Information Bulletin 
+#84 and the department’s website for more details. 
+However, dealers should be aware that effective July 1, 2023, if the vehicle is:  
+Indiana Department of Revenue • Sales Tax Information Bulletin #28S 
+8 
+• purchased by a limited liability company, partnership, corporation, or other closely held 
+business organized in another state that does not have a sales tax or equivalent tax (i.e., 
+Montana, Alaska, Delaware, Oregon, and New Hampshire); 
+• at least one member, partner, or officer of the business is a resident of Indiana; and  
+• the vehicle will be titled and registered in the state in which the business is organized;  
+it is presumed that the purpose of such registration and titling was to evade paying Indiana sales 
+tax (unless another exemption applies). Any purchase of a  vehicle made by an Indiana resident 
+under this scenario made after June 30, 2023, is subject to collection of any unpaid Indiana sales 
+or use tax on the transaction and any penalty permitted to be applied to the purchase under IC 
+6-8.1-10. Beginning July 1 , 2026, the purchaser will also be subject to a $500 penalty for each 
+transaction made after June 30, 2026. 
+Vehicles Delivered Outside Indiana 
+A vehicle or trailer sold in interstate commerce is not subject to the Indiana sales tax. To qualify 
+as being “sold in interstate commerce,” the vehicle or trailer must be physically delivered, by 
+the selling dealer to a delivery point outside Indiana. The delivery may be made by the dealer 
+or the dealer may hire a third-party carrier. Terms and the method of delivery must be indicated 
+on the sales invoice. The dealer must document terms of delivery and must keep a copy of such 
+terms of delivery to substantiate the interstate sale. The exemption does not apply to sales to out-
+of-state buyers in which the buyer takes physical possession of a vehicle or trailer in Indiana, nor 
+is the exemption valid if the buyer, and not the seller, hires a third -party carrier to transport the 
+vehicle or trailer outside Indiana. If the buyer hires the carrier, the carrier is acting as an agent for 
+the buyer; thus, the buyer takes physical possession within Indiana. Possession taken within the 
+state does not qualify as an inters tate sale. Please also note that delivery into another state for 
+the purpose of tax avoidance is still subject to Indiana sales tax (e.g., delivery is made directly 
+across the border). 
+Sales Where the Customer Purchases the Vehicle in Another State 
+If an Indiana resident purchases a vehicle in another st ate where the vehicle is received by the 
+Indiana resident in that other state, they may be required to pay that state’s sales tax. When the 
+vehicle is registered at the Indiana Bureau of Motor Vehicles, the resident is required to pay use 
+tax on any difference in the tax rate of the purchasing state and Indiana.  
+Indiana residents should also be aware that effective July 1, 2023, it is presumed that vehicles 
+purchased by an Indiana resident and subsequently:  
+• transferred to a limited liability company, partnership, corporation, or other closely held 
+business organized in another state and in which the resident is a member, partner, or 
+officer; and  
+• titled and registered in the state in which the business is organized; and  
+• that state does not have a sales tax or equivalent tax;  
+Indiana Department of Revenue • Sales Tax Information Bulletin #28S 
+9 
+that the purpose of such registration and titling was to evade paying Indiana sales or use tax in 
+violation. Any purchase of a vehicle made by an Indiana resident under this scenario made after 
+June 30, 2023, is subject to collection of any unpaid Indiana sales or use tax on the transaction 
+and any penalty permitted to be applied to the purchase under IC 6 -8.1-10. Beginning July 1 , 
+2026, the purchaser will also be subject to a $500 penalty for each transaction made after June 
+30, 2026. 
+Application of Sales Tax to Returned Vehicles 
+Abandoned Vehicles 
+Transactions that result in abandoned vehicles are final, and sales tax that has been collected and 
+remitted by the retail merchant will not be refunded, in whole or in part, to either the purchaser 
+of the vehicle or the retail merchant. 
+The term “abandoned vehicle,” which is used here in its most commonly understood sense, 
+includes all vehicles in all scenarios in which a purchaser abandons the vehicle and forgoes all 
+legal rights to the vehicle and does not seek a refund of the purchase price. 
+The term “abandoned vehicle” does not include vehicles in scenarios in which a purchaser, as 
+authorized by the written contract with the retail merchant, voluntarily foregoes all legal rights to 
+the vehicle and is refunded the entire purchase price, including any sales tax. 
+The term “abandoned vehicle” is not used synonymously with, and does not reference, the 
+definition of “abandoned vehicle” found at IC 9-13-2-1 or any other section of the Indiana Code. 
+If a transaction results in an abandoned vehicle, there may be a bad debt deduction for federal 
+tax purposes that could lead to the retail merchant or other legally entitled party having a bad 
+debt deduction available for sales tax purposes, as provided in  IC 6-2.5-6-9. The retail merchant 
+or other legally entitled party may claim any available sales tax bad debt deduction by filing a 
+claim for refund on Form GA-110L. 
+Repossessed Vehicles 
+Transactions that result in repossessed vehicles are final, and sales tax that has been collected and 
+remitted by the retail merchant will not be refunded, in whole or in part, to either the purchaser 
+of the vehicle or the retail merchant. In other words, the original sales transaction cannot be 
+reversed by the retail merchant as a “return” with the retail merchant then claiming a refund of 
+sales tax returned to the customer. 
+The term “repossessed vehicle” includes all vehicles in all scenarios in which the retail merchant 
+or its agent repossesses the vehicle, regardless of purchase terms between the purchaser and the 
+retail merchant. 
+If a transaction results in a repossessed vehicle, there may be a bad debt deduction for federal tax 
+purposes that could lead to the retail merchant or other legally entitled party having a bad debt 
+deduction available for sales tax purposes, as provided i n IC 6 -2.5-6-9. The retail merchant or 
+Indiana Department of Revenue • Sales Tax Information Bulletin #28S 
+10 
+other legally entitled party may claim any available sales tax bad debt deduction by filing a claim 
+for refund on Form GA-110L. 
+Customer-Returned Vehicles 
+Transactions that result in customer-returned vehicles for which sales tax has been collected and 
+remitted by the retail merchant may qualify for a refund of sales tax, in whole or in part, to the 
+retail merchant if: 
+• The vehicle is returned within the number of days allowed for a return pursuant to the 
+retail merchant’s publicly stated return policy or specified in the written contract entered 
+into between the purchaser and retail merchant, not to exceed 90 days; 
+• The vehicle is returned pursuant to explicit, written terms of the parties’ contractual 
+agreement or the retail merchant’s publicly stated return policy; and 
+• The purchaser of the vehicle is refunded the entire purchase price including any sales tax 
+(i.e., the amount actually collected by the retail merchant from the purchaser of the 
+vehicle). 
+All three conditions must be met in order for the refund of sales tax, in whole or in part, to be 
+granted. Vehicles returned by purchasers after the number of days allowed for a return as specified 
+in the written contract or the retail merchant’s publicly stated return policy, or exceeding 90 days, 
+do not qualify for a refund of sales tax. 
+NOTE: In some scenarios, subsequent to the purchaser being refunded the entire purchase 
+price of the vehicle, the retail merchant may impose an administrative fee. To the extent that 
+the administrative fee is specified as part of the retail merchant’s publicly stated return policy 
+or in the written contract entered into between the parties, the amount of the fee is not subject 
+to Indiana sales tax when it is in the form of a one- time penalty that represents the retail 
+merchant’s legitimate administrative costs a ssociated with returning the vehicle to its 
+inventory.  
+However, in scenarios in which the retail merchant imposes one or more fees calculated on a per-
+diem basis, those scenarios represent a vehicle rental between the retail merchant and the 
+purchaser. Accordingly, such fees are subject to sales tax. It should be noted that such rental fees 
+also are subject to any applicable auto rental excise taxes.  
+Application of Sales and Use Tax t o Dealer Demonstration 
+Vehicles 
+Indiana sales and use taxes apply to both new and used automobiles and vehicles used as dealer 
+demonstration vehicles. “Automobile” or “vehicle” as used in this bulletin includes four-wheeled 
+cars, trucks, and vans having a gross weight of not more than 8,500 pounds and motorcycles that 
+are made primarily for use on public streets, roads, or highways. “Automobile” or “vehicle” does 
+not include recreational vehicles. This bulletin is applicable to Indiana dealers as defined in IC 9 -
+13-2-42(a) and all persons operating a vehicle with a dealer license plate. 
+Indiana Department of Revenue • Sales Tax Information Bulletin #28S 
+11 
+Vehicles made available to school driver-education programs or not-for-profit organizations are 
+not subject to Indiana sales and use tax. 
+Vehicles provided to other than full -time salespersons (e.g., family members, part -time 
+salespersons, mechanics, managers of the dealership, and other individuals) are subject to use tax 
+at a rate calculated as the Internal Revenue Service’s optional business standard mileage rate 
+times the Indiana sales tax rate. The vehicle dealer is required to pay the tax annually. Dealers are 
+required to keep records of each vehicle, the miles driven, and when use tax was paid for the miles 
+driven. 
+In lieu of accounting for the miles driven, the dealer can elect to report the use tax on 2 % of the 
+dealer’s cost of purchasing the vehicle for each month (or fraction of a month) that the vehicle is 
+used as a demonstrator, multiplied by the Indiana sales tax rate. 
+The definition of “full -time salesperson” is synonymous with the definition provided in U.S. 
+Treasury Reg. 1.132 -5(o)(2), which requires that the salesperson spends at least one- half of a 
+normal business day performing the function of a floor salesperson; works at least 1,000 hours 
+per year; and derives 25 % of their gross income from sales activities. Vehicles used by full- time 
+salespersons for “qualified automobile demonstration use” are not subject to sales and use tax. 
+Vehicles that meet the criteria for “qualified automobile demonstration use” must: 
+• Be currently in the inventory of the dealership; 
+• Be available for test drives by customers during the normal business hours of the 
+employer; 
+• Not contain personal possessions of any salesperson; 
+• Be driven within the dealer’s sales area (“dealer’s sales area” means an area within a radius 
+of 75 miles from the dealership); 
+• Not be used by individuals other than the full-time salesperson (e.g., family members); and  
+• Not be used for personal trips. 
+Personal use of automobile demonstrators by full-time salespersons will be measured by the value 
+reportable to the Internal Revenue Service or charged to the full-time salesperson in accordance 
+with the provisions of Revenue Procedure 2001-56, times the sales tax rate. 
+Shop Supplies Consumed by a Dealer 
+Consumable supplies, such as masking paper and tape, oil dry, sandpaper, buffing pads, rags, and 
+cleaning supplies, used by a dealer to repair and service motor vehicles are not exempt purchases 
+by the dealer. The dealer should pay sales tax on these types of purchases or remit use tax on the 
+cost of these purchases on the dealer’s sales tax returns. The purchaser (dealer) becomes the final 
+consumer of such items because its customers do not become the owners of such consumable 
+supplies. Although the dealer  may charge the customer a fee for the dealer’s consumption of 
+these materials, such items are not being sold to the customer in a retail transaction, and sales tax 
+is not to be collected from the customer.  
+Indiana Department of Revenue • Sales Tax Information Bulletin #28S 
+12 
+Additional information pertaining to sales tax concerning motor vehicles and trailers is found on 
+the department’s website at in.gov/dor/business -tax/dealer-information/ and frequently asked 
+questions at in.gov/dor/business-tax/business-tax-faqs/ (select “Auto, Watercraft, RV and Trailer 
+Sales”). 
+If you have any questions concerning this bulletin, please contact the Tax Policy Division at 
+taxpolicy@dor.in.gov.  
+ 
+M. Kevin Gulley 
+Commissioner 
+Indiana Department of Revenue 
+
