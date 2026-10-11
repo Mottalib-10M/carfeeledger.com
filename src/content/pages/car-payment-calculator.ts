@@ -39,5 +39,5 @@ export default definePage({
   tool: 'loan',
   state: 'california',
   related: ['out-the-door-price-calculator', 'car-ownership-cost', 'dmv-fees-calculator', 'car-sales-tax-calculator', 'state:california', 'state:texas'],
-  sources: ['cfpb-auto-loan', 'reg-z', 'ftc-car-buying', 'ca:cdtfa-rates'],
+  sources: ['cfpb-auto-loan', 'reg-z', 'ca:cdtfa-rates'],
 });

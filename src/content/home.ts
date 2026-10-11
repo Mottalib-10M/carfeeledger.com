@@ -36,5 +36,5 @@ export const HOME = {
     { q: 'Are dealer doc fees government fees?', a: `No. The documentation fee is kept by the dealer. ${caps} jurisdictions cap it by law and the calculator applies that cap by default; elsewhere it uses no amount unless you type the dealer’s figure from the buyer’s order. It belongs on the quote as a separate line.` },
     { q: 'How current are the fees in this calculator?', a: 'Every state file was read on the official DMV, revenue department or statute pages for the 2026 schedules, and each line in the result links to its source with the date it was read. Fees indexed every July, such as several EV fees, use the amount in force from July 2026.' },
   ] as FAQ[],
-  sources: ['ftc-car-buying', 'irs-sales-tax', 'cfpb-auto-loan'],
+  sources: ['irs-sales-tax', 'cfpb-auto-loan'],
 };

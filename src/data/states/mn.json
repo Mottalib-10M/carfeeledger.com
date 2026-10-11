@@ -5,7 +5,7 @@
  "agency": {
   "name": "Minnesota Driver and Vehicle Services (Department of Public Safety)",
   "short": "DVS",
-  "url": "https://dps.mn.gov/divisions/dvs"
+  "url": "https://web.archive.org/web/20261003074948/https://dps.mn.gov/divisions/dvs"
  },
  "taxAgency": {
   "name": "Minnesota Department of Revenue",
@@ -615,8 +615,8 @@
    "quote": "the following plate and validation sticker fees apply for the original, duplicate, or replacement issuance of a plate in a plate year: License Plate Single Double Regular and Disability $ 13.50 $ 15.50"
   },
   "fees": {
-   "name": "Minnesota DVS, Vehicle fees",
-   "url": "https://dps.mn.gov/divisions/dvs/vehicle/vehicle-fees",
+   "name": "Minnesota DVS, Vehicle fees (page of September 2, 2026, archived copy)",
+   "url": "https://web.archive.org/web/20260902193438/https://dps.mn.gov/divisions/dvs/vehicle/vehicle-fees",
    "accessed": "2026-10-11",
    "quote": "Filing fee $12 Due with each title transaction. Technology surcharge $2.25 ... Title fee $8.25 ... Electric vehicle surcharge $150 Or a greater amount based on the vehicles' age and manufacturer's suggested retail price ... Public Safety Vehicle (PSV) fee $3.50"
   },
@@ -627,8 +627,8 @@
    "quote": "Transfer tax: $10 ... Sales Tax: 6.875% of purchase price ... When you sell your vehicle, the license plate and registration taxes are assigned to the new owner."
   },
   "wheelage": {
-   "name": "Minnesota DVS, Vehicle wheelage tax",
-   "url": "https://dps.mn.gov/divisions/dvs/vehicle/vehicle-fees/vehicle-wheelage-tax",
+   "name": "Minnesota DVS, Vehicle wheelage tax (page of April 21, 2026, archived copy)",
+   "url": "https://web.archive.org/web/20260421074730/https://dps.mn.gov/divisions/dvs/vehicle/vehicle-fees/vehicle-wheelage-tax",
    "accessed": "2026-10-11",
    "quote": "The following counties impose a wheelage tax as of January 1, 2026 ... Hennepin $20 ... Ramsey $20 ... *Dakota, Isanti and Mower counties' wheelage tax will increase to $20 for registration periods beginning Jan. 1, 2027."
   },

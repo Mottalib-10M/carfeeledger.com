@@ -10,7 +10,7 @@ const path = route('about', lang);
 const nSources = Object.values(STATE_DATA).reduce((s, d) => s + Object.keys(d.sources).length, 0);
 const partial = STATE_LIST.filter((s) => STATE_DATA[s.ab].exactness === 'partial').length;
 const title = 'Car Fee Ledger: who publishes the 51 state DMV fee engines';
-const description = 'Car Fee Ledger is published by Radif Partners: the 2026 tax, title, registration and inspection fees of all 50 states and DC, each line tied to the state agency that sets it.';
+const description = 'Published by Radif Partners: all the 2026 car taxes, title, registration and inspection fees for the 50 states and DC, each from the agency that sets it.';
 ---
 <PageLayout title={title} description={description} lang={lang} jsonLd={[profilePageSchema({ path, lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'About', path }])]} breadcrumbs={[{ label: 'About' }]}>
   <article class="prose prose-slate max-w-none prose-headings:font-serif">

@@ -37,5 +37,5 @@ export default definePage({
   state: 'california',
   table: 'docfee',
   related: ['out-the-door-price-calculator', 'car-sales-tax-calculator', 'dmv-fees-calculator', 'state:california', 'state:texas', 'state:florida'],
-  sources: ['ftc-car-buying', 'ca:doc-fee', 'tx:doc-fee', 'fl:doc-fee', 'ga:doc-fee'],
+  sources: ['ca:doc-fee', 'tx:doc-fee', 'fl:doc-fee', 'ga:doc-fee'],
 });

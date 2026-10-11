@@ -598,8 +598,8 @@
  ],
  "sources": {
   "rates": {
-   "name": "Utah State Tax Commission, sales and use tax rates in effect July 1, 2026 (simplified chart)",
-   "url": "https://files.tax.utah.gov/tax/salestax/rate/26q3simple.pdf",
+   "name": "Utah State Tax Commission, sales and use tax rates in effect July 1, 2026 (simplified chart, archived copy)",
+   "url": "https://web.archive.org/web/20260513154745/https://files.tax.utah.gov/tax/salestax/rate/26q3simple.pdf",
    "accessed": "2026-10-11",
    "quote": "*Sales of motor vehicles, aircraft, watercraft, modular homes, manufactured homes and mobile homes are exempt from the resort communities tax. ... Salt Lake County 18-000 7.45% ... Salt Lake City 18-122 8.45% ... 7.45%"
   },

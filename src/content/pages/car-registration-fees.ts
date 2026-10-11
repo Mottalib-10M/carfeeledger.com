@@ -40,5 +40,5 @@ export default definePage({
   tool: 'registration',
   table: 'registration',
   related: ['license-plate-renewal', 'title-and-registration-fees', 'ev-registration-fee-by-state', 'dmv-fees-calculator', 'state:california', 'state:texas'],
-  sources: ['ftc-car-buying', 'ca:dmv-fees', 'tx:txdmv-reg', 'fl:pinellas', 'ga:fees'],
+  sources: ['ca:dmv-fees', 'tx:txdmv-reg', 'fl:pinellas', 'ga:fees'],
 });

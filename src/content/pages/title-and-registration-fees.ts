@@ -40,5 +40,5 @@ export default definePage({
   tool: 'title',
   table: 'title',
   related: ['car-registration-fees', 'dmv-fees-calculator', 'license-plate-renewal', 'doc-fee-by-state', 'state:florida', 'state:texas'],
-  sources: ['ftc-car-buying', 'tx:title-fee', 'fl:pinellas', 'ga:fees', 'ca:dmv-fees'],
+  sources: ['tx:title-fee', 'fl:pinellas', 'ga:fees', 'ca:dmv-fees'],
 });

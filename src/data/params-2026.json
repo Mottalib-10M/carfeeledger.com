@@ -7,9 +7,21 @@
   "reference": {
     "label": "a new $35,000 gasoline car of 3,500 lb bought from a dealer, no trade-in, default county",
     "vehicle": {
-      "price": 35000, "tradeIn": 0, "modelYear": 2026, "year": 2026, "weightLbs": 3500, "fuel": "gas", "body": "car",
-      "condition": "new", "seller": "dealer", "county": "", "localRateOverride": null, "msrp": 0, "docFee": -1,
-      "transaction": "purchase", "ownedYears": 0
+      "price": 35000,
+      "tradeIn": 0,
+      "modelYear": 2026,
+      "year": 2026,
+      "weightLbs": 3500,
+      "fuel": "gas",
+      "body": "car",
+      "condition": "new",
+      "seller": "dealer",
+      "county": "",
+      "localRateOverride": null,
+      "msrp": 0,
+      "docFee": -1,
+      "transaction": "purchase",
+      "ownedYears": 0
     }
   },
   "loan": {
@@ -25,10 +37,6 @@
     "reg-z": {
       "url": "https://www.consumerfinance.gov/rules-policy/regulations/1026/18/",
       "label": "Regulation Z (Truth in Lending), 12 CFR 1026.18, content of the APR and finance charge disclosure"
-    },
-    "ftc-car-buying": {
-      "url": "https://consumer.ftc.gov/articles/buying-new-car",
-      "label": "Federal Trade Commission, Buying a New Car (fees, add-ons and the out-the-door price)"
     },
     "irs-sales-tax": {
       "url": "https://www.irs.gov/taxtopics/tc503",

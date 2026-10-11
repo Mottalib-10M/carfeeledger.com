@@ -16,7 +16,7 @@ const methods = ['flat', 'weight', 'value', 'age', 'horsepower', 'mixed'].map((m
 const partial = STATE_LIST.filter((s) => STATE_DATA[s.ab].exactness === 'partial');
 const rows = ex.lines.map((l) => [l.label, l.amount === null ? 'not priced' : K.usd(l.amount, 2), l.when === 'once' ? 'once' : `every ${l.years ?? 1} year(s)`]);
 const title = 'DMV Fee Method 2026: How 51 State Schedules Become One Total';
-const description = 'How Car Fee Ledger turns each 2026 state fee schedule into a tested engine: tax base, trade-in credit, registration formulas, county rates, ranges when a state leaves a fee open.';
+const description = 'Each 2026 state fee schedule as a tested engine: tax base, trade-in credit, registration formula, county rates, ranges when a state leaves a fee open.';
 ---
 <PageLayout title={title} description={description} lang={lang} jsonLd={[webPageSchema({ name: 'How the fees are calculated', description, path, lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'How the fees are calculated', path }])]} breadcrumbs={[{ label: 'How the fees are calculated' }]}>
   <article class="prose prose-slate max-w-none prose-headings:font-serif">

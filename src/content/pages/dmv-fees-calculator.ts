@@ -39,5 +39,5 @@ export default definePage({
   tool: 'fees',
   table: 'otd',
   related: ['out-the-door-price-calculator', 'car-sales-tax-calculator', 'title-and-registration-fees', 'car-registration-fees', 'state:california', 'state:florida'],
-  sources: ['ftc-car-buying', 'ca:dmv-fees', 'tx:fee-chart', 'fl:dr15dss', 'ga:tavt'],
+  sources: ['ca:dmv-fees', 'tx:fee-chart', 'fl:dr15dss', 'ga:tavt'],
 });

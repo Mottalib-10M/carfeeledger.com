@@ -38,5 +38,5 @@ export default definePage({
   tool: 'otd',
   table: 'otd',
   related: ['dmv-fees-calculator', 'car-sales-tax-calculator', 'doc-fee-by-state', 'car-payment-calculator', 'state:texas', 'state:california'],
-  sources: ['ftc-car-buying', 'tx:cpa-consideration', 'tx:doc-fee', 'ca:doc-fee', 'fl:doc-fee'],
+  sources: ['tx:cpa-consideration', 'tx:doc-fee', 'ca:doc-fee', 'fl:doc-fee'],
 });
