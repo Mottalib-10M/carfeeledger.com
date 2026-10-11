@@ -1,0 +1,1042 @@
+SOURCE: https://www.michigan.gov/-/media/Project/Websites/sos/01preston/Dealer_Manual_Chapter_7.pdf (read via r.jina.ai reader 2026-10-11)
+Title: Dealer Manual Chapter 7 RD-108 Application for Title and Registration
+
+URL Source: https://www.michigan.gov/-/media/Project/Websites/sos/01preston/Dealer_Manual_Chapter_7.pdf
+
+Published Time: Tue, 14 Jul 2026 17:28:34 GMT
+
+Number of Pages: 25
+
+Markdown Content:
+Chapter 7: RD -108  – Application for Title and Registration 
+
+1
+
+Rev. 07/26 
+
+# Chapter 7 
+
+# RD -108: Application for 
+
+# Title and Registration 
+
+Section 7 -1
+
+Reporting  retail  sales 
+
+7-1.1 Authorization . Section 206 of the  Michigan Vehicle Code  (MCL 257.206) 
+
+authorizes the 
+
+Michigan Department of State to establish reporting requirements for motor vehicle title 
+
+and registration applications. The RD -108 is the approved form and is available on the 
+
+Secretary of State website (www.michigan.gov/sos). 
+
+7-1.2 Applying for  title and  registration . The RD -108 form is a combined tax 
+
+collection, vehicle title and registration application, and statement of vehicle sale. Each 
+
+RD -108 must be typed and completed in full, with the exception of the BFS -4
+
+Temporary Registration number. The Department will  not accept handwritten RD -108 
+
+documents. 
+
+7-1.3 Corrections to the RD -108.  A dealer must submit a new RD -108 if there are 
+
+changes to the purchase date, delivery date, year, make, VIN, owner name, odometer 
+
+information, or lienholder name. Any other changes can be updated by hand without the 
+
+need for a new RD -108. Draw a thin lin e through the incorrect information and enter the 
+
+correct information above or below. Using white -out, correction tape, or markers 
+
+obliterating the information will cause the RD -108 to become invalid and the dealer will 
+
+need  to complete a new form. 
+
+NOTE: For off -lease purchases only, a dealer may hand write the delivery date on the 
+
+RD -108. Refer to Chapter 3, Section 4, for further instructions regarding off -lease 
+
+purchases. 
+
+Section 7 -2
+
+Submitting the RD -108 
+
+7-2.1 Payment  options.  Business checks, cashier’s checks, and money orders are 
+
+accepted methods of payment. Dealers may choose to pay for their transactions by Chapter 7: RD -108  – Application for Title and Registration 
+
+> 2
+> Rev. 07/26
+
+means of Electronic Funds Transfer (EFT). Dealers may sign up for EFT through their e-Services account. 
+
+NOTE : If a dealer is in “Certified Funds Only Status,” the dealer must pay for their transactions using money orders, certified checks, or a cashier’s check. A dealer cannot leave cash in the dealer drop box or drop cash off at the branch to be utilized a later time. 
+
+7-2.2 Requirements.  When selling a vehicle, the selling dealer is required to apply for title and registration for the purchaser by submitting the RD-108 to the Secretary of State within 21 days of the vehicle delivery date. 
+
+a)  Late fee. A $50 late fee is due when the dealer does not submit the RD-108 within 21 days of delivery. If the 21st day is a Saturday, Sunday, or holiday the deadline for submitting the RD-108 without a late fee is the next State of Michigan business day. 
+
+NOTE: A used or secondhand vehicle dealer who has sold a vehicle financed through an inventory lender and does not submit the RD-108 within 21 days of delivery is subject to a $100 late fee . The late fee is recorded in the title late fee box on the RD-108. 
+
+b)  RD-108 processing. All deals must be submitted to the branch for processing unless the dealer utilizes MiEFS to process RD-108s in house. 
+
+Section 7-3 Checklist 
+
+When completing an RD-108, carefully review the following information as it can minimize errors and returns for correction. Dealers are responsible for ensuring the accuracy of all documents submitted to the department. 
+
+TOP OF FORM ENTRIES: 
+
+1)  Purchase Date – Date vehicle is purchased; 
+
+2)  Stock Number – Stock or inventory number assigned by dealer. This will match the police book stock number; 
+
+3)  Delivery Date – Date customer takes physical delivery of the vehicle. 
+
+LEFT COLUMN ENTRIES: 
+
+1)  Dealer Information – Include dealer license and sales tax numbers; 
+
+2)  Vehicle Sold – Check New, Used, or Demo box; 
+
+3)  Trade-In – Check appropriate box Yes or No; Enter Trade-in Year, Make, Chapter 7: RD -108  – Application for Title and Registration 
+
+> 3
+> Rev. 07/26
+
+VIN; 
+
+4)  Temporary Vehicle Registration to Transfer Plate – Enter all fields if transferring a plate; 
+
+5)  Vehicle History and Title Brand Disclosure – Check the appropriate box; 
+
+6)  Odometer Mileage Disclosure – Enter mileage at time of sale and check correct box. This must match the odometer mileage disclosure statement on the title or separate statement. See Chapter 4 for more information; 
+
+7)  Remarks – Enter remarks as necessary; including dealer installed accessories; 
+
+Note : When selling a new alternative fuel vehicle including a hybrid, electric, plug-in electric hybrid, the dealer must denote the alternative fuel type in the Remarks section to ensure the proper registration fees are applied. 
+
+8)  Enter Floorplan Company Name if applicable (used vehicle dealers only); 
+
+9)  Recreation Passport – Customer checks box and initials. The $15 fee ($7 for motorcycles) is included in the license plate fee listed in the far right column; 
+
+10)  Signature of Dealer’s Agent – Sign and print dealer agent’s full name and job title. 
+
+11)  Temporary Registration Information – Enter the permit number if a BSF-4 Temporary Registration has been issued. The permit number can be handwritten; 
+
+12)  Printed Name of Salesperson: This can be the same person as the agent; 
+
+13)  Insurance Selections – Check appropriate boxes indicating any insurance products purchased; 
+
+RIGHT COLUMN ENTRIES: 
+
+1)  Plate Number – Enter new or transferred plate number; 
+
+2)  Plate Expiration Date – Enter the license plate’s expiration date. If a plate is being transferred, enter the current plate’s expiration date. If a new plate is purchased, enter the computed expiration date, including the four-digit year; 
+
+3)  Months – If purchasing a new plate enter the number of months the license plate is valid. If transferring a plate, leave blank; 
+
+4)  Title Only, New Plate, Renewal, or Transfer – Check as appropriate, see Chapter 7: RD -108  – Application for Title and Registration 
+
+> 4
+> Rev. 07/26
+
+section 7-5.2 on how to complete a title-only transaction; 
+
+5)  Year, Make, Body Style – Enter from Manufacturer’s Certificate/Statement of Origin (MCO/MSO), title, or electronic inventory record; 
+
+6)  County of Residence – Enter the purchaser’s county of residence 
+
+7)  Vehicle Identification Number – Enter from MCO/MSO, title, or electronic inventory record; 
+
+8)  Base MSRP or Empty Weight (MSRP) – Dealers must utilize their e-Services to determine the correct entry; 
+
+9)  License Plate Fee – Enter license plate fee if customer is purchasing a new plate, this is calculated in the dealer’s e-Services account, or enter $5.00 if the person is transferring a plate. 
+
+10)  Driver’s License, PID Number, or FEIN of All Owners or Lessees – Enter driver’s license number, PID number, or FEIN (for all commercially owned vehicles). Dealers must identify all owners or lessees and submit this information on the RD-108. This field cannot be left blank. For an out-of-state driver license, enter “OOS”; 
+
+11)  Plate Transfer Fee – Enter $10 plate transfer fee for a plate being transferred; this fee is due if the transferred plate is also being renewed; 
+
+12)  Title Fee – Enter $15 title fee – Add $5 for an expedited or instant title. If the vehicle is subject to a lien, an additional $1 is added to the title fee; 
+
+13)  Complete Names and Address of All Owners or Lessor – Enter complete names and address; Enter name from driver’s license and current address as provided by the purchaser or lessor; 
+
+14)  Sales Tax – Total Taxable Price entered on line 4 multiplied by 6% Michigan Sales Tax. For out-of-state purchases, refer to Chapter 8 to compute proper sales tax; 
+
+15)  Total – Transfer to Line 5 – Add plate, title, and sales tax fees and enter total; 
+
+16)  Complete Names and Addresses of All Lessees – Enter complete names and address; for leased vehicles, enter complete names and addresses of all lessees; 
+
+17)  Full Rights to Survivor – If there are joint owners, check to indicate if joint owners elect Full Rights to Survivor; Chapter 7: RD -108  – Application for Title and Registration 
+
+> 5
+> Rev. 07/26
+
+18)  Title Late Fee – Enter $50 title late fee if submitted more than 21 days beyond delivery date; (for used vehicle dealers who financed through an inventory lender the late fee is $100. The 21-day period is calculated from the delivery date); 
+
+19)  Michigan No-Fault Insurance Company and Policy or Binder Number– Enter the company name (not agency name). Verify proof of Michigan no-fault insurance on the vehicle being purchased for new plates and renewal transfers; – Enter Michigan no-fault insurance policy or binder number on the policy; 
+
+20)  Secured Interest – Enter name and complete address of financial institution; or enter “NONE”; 
+
+21)  Lien Code ID – Enter lien code ID obtained from lienholder; Lien Filing Date – Enter date the finance agreement was filed; 
+
+N: Ensure additional $1 has been added to the title fee if a lien is being placed. 
+
+22)  Lien Filing Date – Enter date the finance agreement was filed. 
+
+STATEMENT OF VEHICLE SALE ENTRIES: 
+
+1)  Purchase Price of Vehicle – Include freight, factory, and dealer installed accessories; 
+
+2)  Other Taxable Charges – Enter documentary fee, service fee, temporary registration fee, etc.; An entry must be made on line 2 when taxable charges (e.g., documentary fee, service fee, temporary registration fee, etc.) are a part of the gross sale. “Other taxable charges” may include waxing or undercoating a motor vehicle, fabric protection, service vehicles or certificates, and other services when these services or certificates are non-optional. The $1.00 BFS-4, 30-day Temporary Registration fee is entered on this line, if charged. See Section 7-4.3 for information on document fees; 
+
+2a)  Optional Electronic Filing $34 filing fee. This box is only to be utilized if customer agreed to file their paperwork electronically through MiEFS; Customer enters initials if opting for CVR processing 
+
+3)  Trade-In Sales Tax Credit – Enter amount up to current maximum allowed by law; 
+
+4)  Total Taxable Price (Line 1 + Line 2 + 2a – Line 3) – Calculated from entries on first 3 lines; Chapter 7: RD -108  – Application for Title and Registration 
+
+> 6
+> Rev. 07/26
+
+5)  Sales Tax + Plate Fees + Title Fee (from Total Above) – Enter the sum of the total. If the sale is tax exempt, state the reason for exemption in the Remarks section on the left. If purchased for resale or lease, also include the buyer’s sales tax license (for resale) or use tax registration number (for lease); 
+
+6)  Non-Taxable Charges – Optional warranties, GAP waiver, and federal excise tax only. Anything additional would be on a case-by-case basis; 
+
+7)  Total Delivered Price (Line 1+ Line 2 + 2a + Line 5 + Line 6) – Enter the sum of the total; 
+
+8)  Cash on Deposit – Enter amount of cash deposited by purchaser; 
+
+9)  Cash Due on Delivery – Enter amount of cash due from purchaser at delivery, and/or manufacturer rebates purchaser received; 
+
+10)  Trade-In – Enter agreed upon price of trade-in vehicle(s); 
+
+11)  Minus Lien – Enter any amount owed on the trade-in vehicle(s); 
+
+12)  Total Down Payment – Enter total amount remitted by purchaser; 
+
+13)  Unpaid Balance To Be Financed – Enter the amount of remaining balance; 
+
+14)  Insurance/Additional Product Charge – Enter amount of all insurance products purchased; 
+
+15)  Total Amount of Finance Contract – Total of lines 13 and 14. 
+
+STATEMENT OF VEHICLE SALE: 
+
+The RD-108 satisfies the requirement that dealers must execute a written statement setting forth the terms of the sale to the buyer. Each purchaser must be given a copy of the RD-108 at the time of signing. Dealers are responsible to ensure the accuracy of all information provided on the RD-108. The information must verify the purchase price of the vehicle shown on line number 1 (right column). 
+
+PURCHASER OR LESSOR’S SIGNATURE SECTION 
+
+Purchaser or Lessor’s Signature – All persons listed as purchaser or lessor must sign and date. 
+
+Electronic signatures are legal and allowed on the RD-108. If utilizing an electronic signature software, such as DocuSign, please obtain a certification statement from the customer verifying the electronic signature. Chapter 7: RD -108  – Application for Title and Registration 
+
+> 7
+
+Rev. 07/26 
+
+Section 7-4 Special instructions for RD-108s 
+
+7-4.1 Body style.  Body styles used by the Michigan Department of State are listed in this chapter. Add the following descriptions in the body style box of the RD-108 for certain vehicles, and check the appropriate special use box, as listed below: 
+
+a)  Vehicle used or will be used by law enforcement: “Police.” 
+
+b)  Vehicle used or will be used as a taxicab: “Taxi.” 
+
+c)  Vehicle used or will be used by a political subdivision of Michigan (state, county, city, public school district, etc.): “Municipal.” 
+
+d)  All rebuilt salvage vehicles: “R.” 
+
+e)  All flood-damaged vehicles: “F.” 
+
+7-4.2 MSRP or empty weight.  Except for a few types of vehicles, such as incomplete vehicles and motorcycles, either the MSRP or weight must be shown on all RD-108s. The MSRP can be obtained by entering the VIN in the plate fee calculator located in your e-Services account. For new vehicles, if e-Services is unable to determine the MSRP, use the sale price of the vehicle. 
+
+Note: Log into your e-Services account to obtain the correct MSRP. 
+
+a)  1984 or newer. The MSRP of when the vehicle was sold as new (base price) is used for 1984 and newer model passenger vehicles, and for 1984 and newer model pickup trucks and vans that weigh 8,000 pounds or less. Other vehicles use empty weight, while larger trucks usually use elected gross vehicle weight (GVW). See Table 1 below. 
+
+# Table 1: Vehicle Fees Based on Value and Weight 
+
+Model Year  Passenger 
+
+Vehicles  Pickups & Vans  Trucks Other than 
+
+Pickups & Vans 
+
+1984 and Newer  MSRP  MSRP (weight if over 8,000 lbs.)  Weight 
+
+1983 and Older  Weight  Weight  Weight 
+
+b)  No MSRP. If no MSRP is established for the vehicle (motor homes and buses, either new or used), use the full purchase price of the vehicle for the MSRP. 
+
+b)  Ownership Change. If a dealer sells a 1984 or newer pickup or van with a Chapter 7: RD -108  – Application for Title and Registration 
+
+> 8
+> Rev. 07/26
+
+weight showing on the title, the weight is no longer used. The weight is 
+
+changed to the MSRP found in your e -Services account. 
+
+7-4.3 Document  fees.  Dealers may charge a documentary preparation fee. Financed 
+
+vehicles are subject to the provisions of the Michigan Motor Vehicle Sales Finance Act. 
+
+Documentary preparation fees should not be referred to or implied in any document as 
+
+being required by the S tate of Michigan or Michigan law. The documentary preparation 
+
+fee is taxable and is entered on line 2 of the RD -108. The Department of Insurance and 
+
+Financial Services has determined dealers are not permitted to charge the documentary 
+
+fee with motorcycle  transactions and with non -propelled conveyances such as trailers. If 
+
+you have questions regarding documentary preparation fees, please contact the 
+
+Department of Insurance and Financial Services toll free at (877) 999 -6442. 
+
+7-4.4 Commercial  plate on  passenger  vehicle . On occasion, an individual purchaser 
+
+of a new or used passenger vehicle, pickup truck, or van may wish to obtain a 
+
+commercial plate if the vehicle will be used commercially. In this case, the plate fee is 
+
+based on the MSRP and expires on the owner’s bir thday. For a company -owned 
+
+passenger vehicle, the plate fee is based on MSRP and expires on the first of any 
+
+month or February 28 - depending on the vehicle type. Refer to section 7 -5.4 for 
+
+determining a commerc ially owned vehicle’s expiration date. 
+
+7-4.5 Van  conversions . For van conversions, since the van was a  completed  vehicle 
+
+before it was modified (customized), use the base price established by the 
+
+manufacturer. This applies even though the retail price of the customized van is much 
+
+greater. 
+
+7-4.6 Motor  homes.  For new motor homes, the MSRP is determined from the price of 
+
+the  completed  vehicle. Since there is usually no MSRP, the MSRP is determined from 
+
+the purchase price shown on the RD -108. For used motor homes from another state, 
+
+use the current purchase price shown on the RD -108. 
+
+7-4.7 Name/ personal  identification  information on the RD -108 . Enter the full name 
+
+of the vehicle owner(s) as it appears on their driver license. Do not include professional 
+
+titles. Do not use “In Care of” or “c/o.” A business may show a file or claim number 
+
+after its name. Use “and” to connect two owners’ names , not “or.” See also Section 7 -
+
+4.10, “Leased Vehicles.” Also include the driver license, personal identification number, 
+
+or FEIN number if it is a business owned vehicle. 
+
+7-4.8 “Doing  business  as” for a  solely  owned  business.  A person who solely owns 
+
+a business  may show both his/her name and the business name on the title. This does 
+
+not apply to a partnership, corporation or association. On the RD -108 show (Owner’s 
+
+Name) d/b/a (Business Name). The “d/b/a” refers to “doing business as.” 
+
+Vehicles titled in a business name do not show an individual name unless there is dual 
+
+ownership, in which case the two names are connected by “and.” In this case, two 
+
+owner signatures are required. If a business wants the title mailed to the attention o f an 
+
+individual, form TR -114,  Special Mailing of Certificate of Title , is used rather than 
+
+showing the individual’s name on the title. Chapter 7: RD -108  – Application for Title and Registration 
+
+> 9
+> Rev. 07/26
+
+7-4.9 Address.  The RD-108 must show the location of the applicant’s residence or the business address. Individuals may use a post office box number in addition to the 
+
+street address, but not by itself. If used, an apartment number, lot number, or post office box number follows the street address. Use the zip code associated with the post office box number. 
+
+7-4.10 Leased vehicles . The complete name and address of both the lessor and the lessee are required. Separate boxes are provided in the right column of the RD-108. The driver license or personal ID card number for all lessees is also required. The lessor (vehicle owner) must also have a Michigan tax registration number. If not, 6% sales tax is due. Either the lessor or lessee may transfer a license plate to or from the vehicle. 
+
+Note: Even though the RD-108 provides separate boxes for lessor and lessee, the lessor completes form TR-114, Special Mailing of Certificate of Title , to ensure the title is mailed to the lessor’s address. The dealer may sign the TR-114 on behalf of the lessor providing they have an appointment of agent to do so. 
+
+7-4.11 Secured party.  The dealer is responsible for recording a lien on the RD-108. If a lien was omitted by the dealer, the dealer is responsible for making the correction(s). 
+
+7-4.12 Lien terminations . Class A and B vehicle dealers are required to obtain lien terminations. They are not required to submit lien termination statements with RD-108s. They are retained in the vehicle’s deal jacket. 
+
+7-4.13 Errors.  If an error is made on an MCO/MSO or title, the person who made the error completes and signs TR-34 Certification to explain the error. Draw a single line through the incorrect information. Do not use “white-out” or correction tape. Do not erase any information. 
+
+7-4.14 Odometer mileage disclosure with RD-108s.  Vehicle dealers must complete the odometer mileage disclosure statement on all titles and MCO/MSO documents transferred to a purchaser or to another dealer unless the vehicle is exempt. The odometer mileage disclosure statement must also be typed on the RD-108. 
+
+a)  Exempt vehicles. An odometer mileage disclosure statement is not required for the following vehicles: 
+
+1)  Vehicles with a GVWR rating of 16,000 pounds or more; 
+
+2)  Vehicles that are not self-propelled (trailers, etc.); 
+
+3)  Vehicles that are a 2010 model year or older; 
+
+4)  Transfer of a new vehicle from the manufacturer to a dealer. 
+
+b)  Odometer mileage disclosure reading. Do not use tenths of a mile. Chapter 7: RD -108  – Application for Title and Registration 
+
+> 10
+> Rev. 07/26
+
+Provide the vehicle’s odometer mileage disclosure reading and declare which of the following statements describes the mileage: 
+
+1)  Actual Mileage; 
+
+2)  Not Actual Mileage; or 
+
+3)  Mileage Exceeds Mechanical Limits (5-digit odometer has rolled over). 
+
+c)  Separate odometer mileage disclosure statements. When a separate odometer mileage disclosure statement is required, submit the original copy with the RD-108. 
+
+d)  Vehicles financed by a registered inventory lender. The used or secondhand vehicle dealer must follow these steps: 
+
+1)  A separate odometer mileage disclosure statement is provided to the purchaser at the point of sale and a copy is maintained in the dealer’s vehicle sale records along with the front and back copies of the assigned title. The purchaser(s) signs a properly completed RD-108 and is furnished with a copy. 
+
+2)  When the title has been received from the inventory lender the dealer will complete and sign the seller’s portion of the title including the odometer mileage disclosure statement. 
+
+3)  The customer signs the Vehicle Dealer Inventory Loan Notice and is provided with a copy. The dealer will retain the document as a dealer record for five years. 
+
+4)  The purchaser will complete and sign the buyer section of the title assignment. A copy of the front and back of the signed title will be presented to the purchaser. 
+
+5)  Used vehicle dealers are required to put the Inventory Lender name in the remarks section on the RD-108. 
+
+Note: A dealer cannot sign the odometer mileage disclosure statement or the title assignment on behalf of the purchaser. A dealer cannot become the appointed agent to sign the title or the odometer mileage disclosure statement on behalf of the purchaser. 
+
+e)  Dealer’s responsibility. It is a dealer’s responsibility to determine if MCO/MSO and out-of-state titles have conforming odometer mileage disclosure statements. 
+
+7-4.15 Special mailer (Form TR-114).  Michigan titles are mailed to the owner unless the owner directs otherwise. Complete form TR-114, Special Mailing of Certificate of Title , when the owner wants the title to be sent to another party. Chapter 7: RD -108  – Application for Title and Registration  
+
+> 11
+> Rev. 07/26
+
+7-4.16 Manufacturer’s Certificate of Origin (MCO/MSO ). An MCO/MSO is required when a new automobile, motor home, truck, trailer, or motorcycle is titled. 
+
+a)  Instructions. The MCO/MSO is assigned on the back. Each reassignment must be completed in full. If all reassignments are used, the dealer may request a reassignment form from the manufacturer. The odometer mileage disclosure statement on the MCO/MSO must be completed with each reassignment. 
+
+b)  Paperless MCO/MSO. An RD-108 is accepted without an MCO/MSO for certain makes of new vehicles. The following points may be helpful to remember: 
+
+1)  Since there is no paper MCO/MSO, a dealer must submit a separate odometer mileage disclosure statement with the RD-108; 
+
+2)  If the vehicle is an incomplete vehicle, manufacturers must supply a paper MCO/MSO. These must be submitted with the completed RD-108 to a Secretary of State office; 
+
+3)  For in-transit sales, the dealer must request an MCO/MSO from the manufacturer and give it directly to the purchaser. The purchaser will need the MCO/MSO in their home state. 
+
+7-4.17 Cab and chassis MCO/MSO – vehicle incomplete.  Dealerships may sometimes sell a cab and chassis unit without a body. The MCO/MSO for these vehicles shows “Incomplete”, “Cab and Chassis,” or “Cutaway Van.” The vehicle may be titled but not registered. 
+
+a)  When selling an incomplete vehicle, enter “Incomplete” on the RD-108 for the body style. No weight or fee category is shown. Submit the cab and chassis MCO/MSO. No plate or permit can be issued. A dealer plate can be used to deliver the vehicle. The vehicle can also be towed or trailered. 
+
+b)  The purchaser’s new title will read “Not Eligible for Plate – Safety Inspection Required.” To register the vehicle, the owner must complete the vehicle, have it inspected using form TR-54, Vehicle Number and On-Road Equipment Inspection , and apply for a corrected title. 
+
+7-4.18 Cab and chassis MCO/MSO – vehicle complete.  Some dealers will add a body unit to an incomplete vehicle to make it a van, stake truck, tank truck, or utility vehicle. This completes the vehicle. When selling a completed vehicle, the dealer must submit with the RD-108 either the invoice (a copy is acceptable) for the body unit or form TR-54, Vehicle Number and On-Road Equipment Inspection (both parts must be completed by a law enforcement officer). For tractors, a certification stating a fifth wheel was added may be used in place of an invoice. The cab and chassis MCO/MSO must Chapter 7: RD -108  – Application for Title and Registration 
+
+> 12
+> Rev. 07/26
+
+also be submitted. 
+
+7-4.19 Two-stage vehicles.  Two-stage vehicles involve two manufacturers and two MCO/MSO documents. 
+
+a)  The first-stage manufacturer provides the cab and chassis unit with an MCO/MSO (Ford, Dodge, GMC, etc.). That MCO/MSO shows “Incomplete,” “Cab and Chassis,” “Cutaway,” etc. The VIN from the frame of the first-stage manufacturer is used. 
+
+b)  The second-stage manufacturer completes the vehicle by adding a body or other components (e.g., motor home, ambulance, or school bus). The second-stage manufacturer provides an MCO/MSO document for the completed vehicle. Submit both MCO/MSO documents when a two-stage vehicle is sold. The year, make, and body style are from the second-stage manufacturer. 
+
+c)  For motor homes, the RD-108 must contain a description of any major component that has its own MCO/MSO. For example, a 2006 Champion motor home on a 2005 Dodge chassis; submit the MCO/MSO for the 2005 Dodge chassis. 
+
+7-4.20 Standard body styles for Michigan title and registration. 
+
+Table 2: 
+
+Standard body styles for Michigan title and registration 
+
+Body style  Includes 
+
+2-Door  Hardtop Coupe 
+
+4-Door  Sedan Limousine Hardtop sedan 
+
+Ambulance  Vehicles specially designed to transport medical patients 
+
+Bus  Motor vehicle designed for transporting more than 15 passengers. 
+
+Convertible  Includes vehicles with retractable hard tops 
+
+Dump  Dumpster-hoist Dump box Gravel truck 
+
+Hearse  Vehicles used to transport the deceased to a church or cemetery 
+
+Incomplete  Cab and Chassis (title only, no plate allowed) 
+
+Low-speed vehicle  Electric-powered vehicle with a top speed not exceeding 25 mph. 
+
+Mixer  Cement truck Feed grinder Transit mixer 
+
+Motor home  Vehicle constructed or altered to provide living quarters including permanently installed cooking and sleeping facilities and used for recreation, camping, or other non-commercial use. Chapter 7: RD -108  – Application for Title and Registration 
+
+> 13
+> Rev. 07/26
+
+Body style  Includes 
+
+Motorcycle  Motor vehicle with not more than 3 wheels in contact with the ground, which is not a moped. 
+
+Panel  Sedan delivery 
+
+Pickup  A light duty truck with a low-sided open body (e.g., Ford Sport-Trac). 
+
+Roadster  Dune buggy 
+
+Stake  Glass rack Rack Platform 
+
+Canopy Grain Cattle rack 
+
+Pallet Log bunk Tilt bed 
+
+Flatbed 
+
+Station wagon  Vehicle that has one or more seats behind the driver and 2 or more windows on each side (e.g., mini-vans, SUVs, etc.). 
+
+Tank  Water spreader Sprayer Asphalt spreader 
+
+Bulk pumper Gas truck Sludge truck 
+
+Tank fire truck Oiler 
+
+Tractor  Truck tractor Road tractor Semi tractor 
+
+Trailer  All trailers except Trailer Coach 
+
+Trailer Coach  Coach Camper Travel trailer 
+
+Pop-up camper Camping trailer Tent camper 
+
+Utility  Boom truck Journeyman Tool 
+
+Cable reel Service Tire body 
+
+Camera Gas service Tree mover 
+
+Winch Hi-Ranger Crane 
+
+Tree trimmer Splicer Armored vehicle 
+
+Trouble rig Tower truck Well driller 
+
+Ladder truck Line 
+
+Van  Bakery Walk-in Beverage 
+
+Milk Refrigerator Box 
+
+Parcel delivery Package delivery Step van 
+
+Wrecker  Tow truck Flatbed wrecker Platform wrecker Chapter 7: RD -108  – Application for Title and Registration 
+
+> 14
+> Rev. 07/26
+
+Section 7 -5
+
+Registration 
+
+7-5.1 Dealer  responsibility.  Section 217(4) of the Code states in part a dealer selling, 
+
+leasing, or exchanging vehicles at retail, that are required to be titled, must apply for title 
+
+within 21 days of delivering the vehicle and  shall  secure a certificate of registration in 
+
+the name of the purchaser or lessee. 
+
+The Department understands that there may be unique situations where a registration 
+
+may not be necessary.  In these instances, dealers must notate one of the following 
+
+explanations in the  remarks section  of the RD -108 as to why there will be no 
+
+registration secured for the vehicle. If a dealer applies for a title -only transaction, please 
+
+refer to section 7 -5.2. 
+
+7-5.2 Exceptions  – title  only  sales . Dealers may sell a vehicle at retail and process 
+
+the transaction as “title only” (no registration) if the sale is: 
+
+a)  Title  only  – no registration  – vehicle  inoperable. 
+
+1)  The RD -108 must reflect why the vehicle is inoperable/cannot be 
+
+driven from the lot: “Bad Engine,” “Bad Transmission,” etc. 
+
+2)  The RD -108 must reflect the method of delivery:  “Vehicle Towed” or 
+
+“Vehicle Trailered.” 
+
+b)  Title  only  – no registration  – customer’s request. 
+
+1)  The RD -108 must reflect why the customer does not want to register 
+
+the vehicle i.e. “collector - storing vehicle,” “farm use only,” or “not to 
+
+be operated on public roadways.” 
+
+2)  The RD -108 must reflect the method of delivery:  “Vehicle Towed”, 
+
+“Vehicle Trailered”, or “Vehicle Delivered on Dealer Plate”. 
+
+c)  Title  only  – salvage vehicles aren’t eligible for registration and 
+
+cannot be driven on public roadways. 
+
+1)  The RD -108 must reflect the vehicle has not been rebuilt. 
+
+2)  The RD -108 must reflect the method of delivery:  “Vehicle Towed” 
+
+or “Vehicle Trailered.” 
+
+Note : It  should not be common practice for a dealer to sell vehicles without applying for 
+
+a registration.  If the dealer fails to properly reflect why a registration is not being 
+
+secured, the branch will reject the deal and the transaction will not be processed. 
+
+7-5.3 New  license plate . If the customer does not own a current plate in their name to 
+
+transfer to the vehicle being purchased, a new plate must be purchased. Ensure you 
+
+are logged into your e -Services account to access the proper plate fee calculator. The Chapter 7: RD -108  – Application for Title and Registration 
+
+> 15
+> Rev. 07/26
+
+proper fee calculator will require you to enter the VIN. This ensures the same fee will be calculated at the branch office. 
+
+7-5.4 New license plates – expiration date.  License plates have different expiration dates depending on ownership and body style: 
+
+a)  For privately owned and leased passenger vehicles, motorcycles, motor homes, pickups, and vans, the license plate expires on the owner’s birthday. For all other types of trucks owned by an individual (stake, utility, etc.), the plate expiration date is the last day of February (02/28). 
+
+b)  For company-owned passenger vehicles, the plate expiration date is the first day of any month or, if used commercially (such as a taxi), the last day of February. 
+
+c)  For company-owned trucks, the expiration date is the last day of February for the 12-month fee unless the vehicle qualifies for a partial year plate. 
+
+7-5.5 New license plates – prorating months.  The plate fee calculator located in your e-Services account will automatically prorate the months. 
+
+7-5.6 New license plates – determining fees.  To determine appropriate fees, use the plate fee calculator located in your e-Services account. You must be logged into your e-Services account to ensure the proper fees are calculated. 
+
+7-5.7 Using the MSRP or value (base price) plate fee charts.  The MSRP registration system registers vehicles by value (base price). The MSRP can be obtained by entering the VIN in the plate fee calculator located in your e=-Services account. For new vehicles, if e-Services is unable to determine the MSRP, use the sale price of the vehicle. 
+
+Note: In order to convert a fee category to an MSRP, add 001. Example: Fee category = 27, MSRP = 27,001. 
+
+7-5.8 Farm plates . All farm vehicles used on-road, other than implements of husbandry, must be titled and registered. If the customer wants a farm plate for a truck, there are three types. These are described below as Options 1, 2 and 3. 
+
+a)  Option 1: $20 special farm plate. To qualify for this plate, the farm vehicle must be a truck (including pickup or van) or road tractor. It must be used exclusively for one or more of the following: 
+
+1)  Transporting farm crops or livestock bedding between the field where produced and the place of storage. A grain elevator is considered a place of storage. “Livestock bedding” means straw, sawdust, or sand. 
+
+2)  Transporting fertilizer, seed, or spray material from the farm to the field. Chapter 7: RD -108  – Application for Title and Registration 
+
+> 16
+> Rev. 07/26
+
+3)  Transporting feed from on-farm storage to an on-farm feeding site. “Feed” means hay or silage. 
+
+Note: The truck cannot be used for any other purpose, including transportation of crops for compensation (commonly called “custom work”). This plate is ordered through the Secretary of State office. The owner will receive the plate in the mail within 10 days. 
+
+b)  Option 2: farm plate rate of 74¢ per 100 pounds, plus $8. Any farm truck or truck tractor can qualify for this reduced rate license plate. The truck must be used exclusively in connection with the farming operation and can also be used for the transportation of the farmer and the farmer’s family. The truck cannot be used for hire. An individual, company, or corporation can operate the farm. The fee is based on the empty weight of the truck. Use the fee chart for farm trucks in booklet MV-118, Michigan License Plate Fees and Base Prices .A tree nursery, landscaping service, or greenhouse may choose this special farm rate for a truck used exclusively in its farming operations. The farm truck can be used to transport farm products from the farm, field, or greenhouse  (the harvest location) to a wholesale or retail outlet. The truck cannot be used for delivery from the sales lot or store. 
+
+Fees and expiration dates are determined as follows: 
+
+1)  Pickups and vans owned by 
+
+an individual 
+
+Plate expires on the farmer’s 
+
+birthday (prorated fee) To prorate this fee, find the 12-month weight fee for the pickup truck or van using the fee chart for farm trucks found in booklet MV-118, Michigan License Plate Fees and Base Prices . Subtract $8 from the fee shown and then divide it by 12 (do not round). Multiply this amount by the number of months to the farmer’s birthday. Round this amount to the nearest whole dollar. As a final step, add $8. There is no service fee. 
+
+2)  Pickups and vans owned by 
+
+business and all other farm trucks 
+
+Plate expires on February 28 (if over 6,050 lbs., the truck is eligible for a partial year plate – see below); use the farm plate fee chart. 
+
+3)  Farm trucks over 6,050 lbs. The farmer may choose: 
+
+a)  A full-year plate expiring February 28. Use the farm plate fee chart. There is no service fee; 
+
+b)  A plate expiring six months from the date issued. Use the farm Chapter 7: RD -108  – Application for Title and Registration 
+
+> 17
+> Rev. 07/26
+
+plate fee chart and add the $10 service fee; or, 
+
+c)  A special prorated farm plate sold for 3 to 12 months. See Option 
+
+3.
+
+c)  Option 3: prorated farm plate. A farmer (individual or business) may buy a prorated farm plate under Option 3 for any number of months from 3 to 12. The empty weight of the truck must be over 6,050 pounds to qualify. There is a $10 service fee. 
+
+Note: When prorating this fee, the law requires the farmer to pay 1/10 the full-year farm fee for each month desired (divide the full-year fee by 10 instead of 12). 
+
+To calculate this fee for 3 to 12 months: 
+
+1)  Find the 12-month weight fee for the truck using the fee chart for farm trucks. 
+
+2)  Subtract $8 from the 12-month fee and then divide by 10. This is the fee per month (do not round). 
+
+3)  Multiply the fee per month by the number of months requested. Round to the nearest dollar. Add $8 and then add the $10 service fee. 
+
+7-5.9 License plate transfers.  When a dealer sells a vehicle, the purchaser may elect to transfer a license plate to the newly acquired vehicle. Instructions for plate transfers follow. 
+
+a)  Plate transfers are permitted in the following situations: 
+
+1)  When the plate owner acquires another vehicle. 
+
+2)  When a vehicle is being titled in two names and one of the new owners has a plate in their name to transfer. 
+
+3)  When a vehicle is being titled in one name and the purchaser has a plate showing dual ownership. 
+
+4)  When there is a trade-in vehicle from a family member. The purchaser may use the plate from the trade-in vehicle. Explain the relationship in the Remarks section of the RD-108. 
+
+Note: For plate transfers, family is defined as the owner’s spouse, father, mother, brother, sister, child, stepparent, stepchild, stepbrother, stepsister, father-in-law, mother-in-law, brother-in-law, sister-in-law, son-in-law, daughter-in-law, grandparent, grandchild, or a legally appointed guardian. It does not include aunts, uncles, cousins, 
+
+nieces, and nephews. Chapter 7: RD -108  – Application for Title and Registration 
+
+> 18
+> Rev. 07/26
+
+5)  A solely owned company to its owner, or vice-versa. 
+
+6)  A lessee may transfer their own plate to a vehicle being leased. 
+
+7)  When plate ownership remains the same, but the owner’s name is legally changed, explain the name change in the Remarks section of the RD-108. 
+
+b)  Plate transfers are not permitted in the following situations: 
+
+1)  Between family members without a trade-in. 
+
+2)  On 3-month to 6-month, 6-month to full-year, and vice versa. 
+
+3)  On family-owned company vehicles when there is more than one owner unless the registration shows joint ownership. 
+
+4)  When a corporation, company, association, or partnership is being formed, reorganized, or dissolved. 
+
+5)  Between a corporation and its subsidiaries. 
+
+7-5.10 License plate transfer instructions. After determining that a plate may be transferred, use the following steps: 
+
+a)  Submit the previous registration. If it is not available, verify the registration information with your Secretary of State office. 
+
+b)  On the RD-108 form: 
+
+1)  Enter the plate number and its expiration date. The expiration date (month and day) is changed when a plate with a birthday or first of the month expiration date is transferred to a vehicle requiring an expiration date on the last day of February. 
+
+2)  Enter $5 in the plate fee field. 
+
+3)  Enter $10 for the transfer fee (the transfer fee is due if the plate is being both transferred and renewed). 
+
+4)  The number of months box is left blank (unless the plate is also being renewed, then enter “12”). 
+
+7-5.11 Added registration fees . Effective October 21, 2020, when a plate is transferred to a newly acquired vehicle, a $15 plate transfer fee is due. A prorated added registration fee is no longer charged, even if the new vehicle has a higher 12-month fee than the previous vehicle. 
+
+7-5.12 Transfer of three-month or six-month gvw plate: 
+
+a)  $10 transfer fee plus added fee if weight increased: Chapter 7: RD -108  – Application for Title and Registration 
+
+> 19
+> Rev. 07/26
+
+1)  Three-month GVW to Three-month GVW – (no other transfers permitted). 
+
+2)  Six-month Commercial to Six-month Commercial – (no other transfers permitted). 
+
+7-5.13 Transfer with a replacement plate: 
+
+If an owner has a valid registration to transfer but has lost the plate, the registration can still be transferred. An additional $5 is due for a replacement plate. Enter $10 ($5.00 for the replacement plate and $5.00 for the registration transfer) in the License Fee box and note “Replacement Plate Needed” in the Remarks section of the RD-108. 
+
+7-5.14 International Registration Plan (IRP) plate: 
+
+IRP plates: Michigan is a member of the International Registration Plan and issues “apportioned” plates. These are plates where the registration fee is collected by one state and then distributed, on an apportioned basis, to all other states where a commercial vehicle will be traveling. Special IRP plates are required for certain trucks that engage in interstate operations (see below). 
+
+A regular commercial plate or GVW plate cannot be used. If a dealer sells one of these trucks to a purchaser who will be driving interstate (outside of Michigan), the purchaser must contact the IRP Unit in Lansing to acquire the IRP plate. A dealer’s local Secretary of State office is not involved. The IRP Unit’s address is: 
+
+Michigan Dept. of State IRP Unit P.O. Box 30029 Lansing, MI 48909-7529 
+
+Secretary of State Office Building State Secondary Complex 7064 Crowner Drive Lansing, MI 48918 
+
+Telephone: 517-335-6119 
+
+Email:  SOSIRP@michigan.gov 
+
+Vehicles that must have IRP plates are those used to transport passengers for hire or designed and used for the transportation of property and have one or more of the following criteria: 
+
+1)  A gross vehicle weight of 26,000 pounds or more. 
+
+2)  Three or more axles, regardless of weight. 
+
+3)  Used in combination and the total weight exceeds 26,000 pounds. 
+
+Any questions regarding IRP plates can be directed to the IRP Unit. Chapter 7: RD -108  – Application for Title and Registration 
+
+> 20
+> Rev. 07/26
+
+Note: Dealers may deliver a vehicle requiring an IRP plate on a dealer plate. The company purchasing the vehicle must return the dealer plate to the dealer. A commercial load may not be hauled on a dealer plate. 
+
+Section 7-6 Tax section 
+
+7-6.1 Taxable dealer services and other charges appearing on rd-108 . Some dealer services may be taxable. See Chapter 8, Sales Tax, for more information. 
+
+a)  The following vehicle-related sale charges or deductions are taxable. Enter the total on line 2 of the RD-108. 
+
+1)  Manufacturer’s rebate. 
+
+2)  Documentary preparation fee. (see Section 7-4.3). 
+
+3)  Vehicle preparation charges. 
+
+b)  The following items are taxable if they are not optional and must be purchased with the vehicle. If purchased as an add-on option (separate charge), no tax is due (list on line 5 of the RD-108): 
+
+1)  Manufacturer’s extended warranty (purchased by customer). 
+
+2)  Rust proofing, fabric protection, and paint protection. 
+
+7-6.2 Dealer rebates and discounts . Rebates and discounts offered by the dealership (not the manufacturer) are not included in the purchase price and tax is not due. 
+
+7-6.3 Dealer titles . If a vehicle is registered in the name of the dealership and used in a taxable manner, it is assumed to be for dealer use and is therefore taxable. 
+
+7-6.4 Farm trucks . Farm trucks used exclusively on the farm may be tax exempt. No plate is issued. See Chapter 8 for more information. 
+
+7-6.5 Federal excise tax on rd-108 for new truck purchases.  if a dealer sells a new truck with a gross vehicle weight rating over 33,000 pounds, the RD-108 includes the 12% federal excise tax. 
+
+On line 5 of the RD-108 (Labor or Other Non-Tax Charges), enter the 12% federal excise tax. The Secretary of State office does not collect the excise tax. The dealer pays the excise tax directly to the U.S. Internal Revenue Service. 
+
+Note: This 12% excise tax is not included in the total price upon which Michigan sales tax is paid, provided the excise tax is separately stated. (The truck owner does not pay Michigan sales tax on federal excise tax.) Chapter 7: RD -108  – Application for Title and Registration 
+
+> 21
+> Rev. 07/26
+
+7-6.6 Gifts and prizes.  A vehicle awarded as a gift or prize is taxable. 
+
+7-6.7 Government vehicles.  Vehicles purchased by the US Government, and all Michigan Government entities, including ambulances and fire trucks are tax exempt. Out-of-state governments from reciprocal states may qualify for in-transit sales. 
+
+7-6.8 Native American Indian Tribes and members . For more information regarding taxation of Native American Indian Tribes and members, please contact the Michigan Department of Treasury, Tribal Affairs office at 517/241-2185. 
+
+7-6.9 In-transit permits.  When a dealer sells a vehicle to a nonresident of a reciprocal state who will be taking it to his or her home state for titling and registration, sales tax is due along with the 60-day in-transit permit fee of $10. Calculate the sales tax for both Michigan and the purchaser’s home state. The Michigan dealer collects the lower of the two sales tax calculations and indicates the same in the Remarks section of the RD-108. See Chapter 8, for more information on in-transit permits and tax reciprocity. 
+
+7-6.10 Leased vehicles.  Any down payment (capitalized cost reduction) received on a leased vehicle is considered the first lease payment and is subject to use tax on sales and rentals, not sales tax. Use tax is not remitted on the RD-108. See Chapter 8 for more information. 
+
+A dealer acting on behalf of a leasing company may collect the use tax and remit it on the dealer’s monthly, quarterly, or annual sales, use, and withholding tax return. Indicate the lessor’s use tax registration number and a statement “for lease” in the Remarks section of the RD-108. The RD-108 may then be processed without a tax payment. 
+
+Questions about leasing vehicles or sales tax refunds can be directed to the Michigan Department of Treasury’s Business Tax Technical unit at (517) 636-4357. 
+
+7-6.11 Leased vehicles – tax status and 60-day in-transit permits.  When a dealer delivers a vehicle to a leasing company, the transaction is exempt if the leasing company provides a Sales/Use tax exemption certificate. These leasing companies can apply for a 60-day in-transit permit. If the leasing company does not have an exemption certificate, the vehicle is subject to Michigan sales tax when delivery is taken in Michigan. 
+
+7-6.12 Manufacturer rebates.  Tax is due on manufacturer rebates. The amount of the rebate cannot be deducted from the vehicle purchase price before computing sales tax. This rule applies even when credit is given at the time of sale and the owner will not receive a rebate check in the mail. 
+
+7-6.13 Nonprofit organizations.  Vehicles acquired by certain nonprofit organizations, institutions, or agencies may be tax exempt. This includes 501(c)3’s, 501(c)4’s, and 501(c)19’s. 
+
+a)  To qualify for the tax exemption, the following conditions must be met: Chapter 7: RD -108  – Application for Title and Registration 
+
+> 22
+> Rev. 07/26
+
+1)  A valid sales and use tax certificate of exemption must be submitted. Keep this form in the dealer’s file of the vehicle sale. 
+
+2)  The vehicle must be titled in the name of the nonprofit agency. 
+
+3)  The vehicle must be used exclusively for public service (no personal use). 
+
+b)  Vehicles Used for Religious Purposes: Churches and houses of worship are taxed on vehicle purchases except for vans and buses with a manufacturer’s rated seating capacity of 10 or more passengers. Some religious organizations qualify for a tax exemption on the purchase of a school bus titled in the name of the school. Contact the Michigan Department of Treasury’s Customer Contact Division at (517) 636-4357 to verify exemptions. 
+
+Note: Federal law prohibits a dealer from selling or leasing to public, private, or parochial schools a new vehicle that transports 11 or more persons and is likely to be significantly used to transport students to or from school and school-related events unless the vehicle meets the National Highway Traffic Safety Administration standards applicable to school buses. 
+
+7-6.14 Out-of-state delivery . The Michigan Department of Treasury and the Michigan Automobile Dealers Association have developed instructions for dealers to make tax exempt “export sales” based on delivery by a third-party common carrier. See Chapter 8, for more information. 
+
+Section 7-7 Repeat offender (registration denial) 
+
+7-7.1 Repeat offender/registration denial.  The Michigan Vehicle Code [MCL 257.625 
+
+et seq.] states in substantial part a person who is in repeat offender status shall not 
+
+operate a vehicle upon a public road or highway within this state. Persons subject to registration denial cannot purchase, transfer, renew, or replace a license plate for any vehicle owned, co-owned, leased, or co-leased. 
+
+7-7.2 Selling vehicles to repeat offenders . Dealers are not authorized to sell vehicles to repeat offenders. This includes a “title only” transaction. A person who purchases or leases a vehicle during a period of registration denial is guilty of a crime. 
+
+Note: A “title only” transaction for a repeat offender submitted to a Secretary of State branch office will be denied and returned to the submitting dealership. 
+
+7-7.3 Registration status web site . Dealers will check repeat offenders/registration denial through their e-Services account. Chapter 7: RD -108  – Application for Title and Registration 
+
+> 23
+> Rev. 07/26
+
+7-7.4 Paper  plates . If police arrest a driver for the third (or more) alcohol/drug -related 
+
+offense, or the fourth (or more) driving while license suspended offense, the law 
+
+enforcement officer will confiscate the vehicle’s metal plate and issue a paper plate 
+
+(commonly referre d to as a Section 904C permit). The paper plate stays with the 
+
+vehicle until a court adjudicates the case or the vehicle is sold to a non -family member 
+
+or traded into a dealer. The paper plate has the same expiration date as the 
+
+conf iscated metal plate. Repeat offenders  cannot  transfer their ownership interest in 
+
+the vehicle to a family member or purchase or lease another vehicle. 
+
+7-7.5 Plate  transfers . Repeat offenders may not transfer any temporary paper plates 
+
+issued by law enforcement (commonly referred to as a 904C permit) to another vehicle. 
+
+7-7.6 Ignition  interlock . The ignition interlock device is rented. It is the driver’s 
+
+responsibility (not the dealer’s) to have the ignition interlock provider remove the device 
+
+from the vehicle. After the device has been removed, the dealer may purchase the 
+
+vehicle or accept it  as a trade -in .
+
+7-7.7 Dealer  plates  and  temporary registrations . Metal dealer plates and BFS -4 30 -
+
+day temporary permits  shall not  be issued to repeat offenders and are subject to 
+
+confiscation if misused. 
+
+7-7.8 Dealership  employees  as  repeat offenders . The Department of State offers a 
+
+subscription service that provides employers with employee driving records. After the 
+
+dealer has established an account, the department provides a copy of each employee’s 
+
+driving record at least once every 12 months. The  employer is also automatically 
+
+notified any time the department receives information indicating a driver has received a 
+
+moving violation, suspension, restriction, or revocation. You may contact the Secretary 
+
+of State Record Look -Up Unit at (517) 322 -1624  for forms and information. 
+
+7-7.9 Acquiring and  selling  a vehicle  with a  paper plate . Dealers acquiring a vehicle 
+
+with a paper plate may remove the paper plate and operate the vehicle with dealer 
+
+plates. If the dealer sells the vehicle, a new registration (metal plate) is applied for on 
+
+behalf of the purchaser, or the purchaser may transfe r their existing plate to the vehicle. Chapter 7: RD-108 – Application for Title and Registration Page 24 
+
+Revised  June 2026 
+
+Table 3 
+
+VEHICLE REGISTRATION FEES AND EXPIRATION DATES 
+
+Vehicle Type and Owned by:  Plate Series Used:  Plate Expires on:  How and When Original Plate is Sold:  Plate Can be Renewed: 
+
+Passenger vehicle owned by an individual (not used commercially) 
+
+Passenger  Owner’s birthday  1984 or later model - prorated by ad valorem. 1983 or earlier model - prorated by weight. 
+
+45 days ahead or with TR-3. 6 months ahead with reason. 
+
+Passenger vehicle owned by an individual (used commercially) 
+
+Regular commercial  Owner’s birthday  1984 or later model - ad valorem or commercial weight, whichever is higher. 1983 or earlier model - prorated by weight. 
+
+45 days ahead or with TR-3. 6 months ahead with reason. 
+
+Passenger vehicle owned by a business including rental cars (not used commercially) 
+
+Passenger  April 1 or the first of any month 
+
+1984 or later model - prorated by ad valorem. 1983 or earlier model - prorated by weight. 
+
+120 days ahead or with TR-3. 
+
+Passenger vehicle owned by a business (used commercially) 
+
+Regular commercial  February 28 (or could go six months, see below) 
+
+Sold on 10/1 for 12-month fee. Half-fee on Sept. 1. 1984 or later model - ad valorem or commercial weight, whichever is higher. 1983 or earlier model - 12-month weight fee. 
+
+October 1. 
+
+Motorcycle  Motorcycle  Owner’s birthday  Sold anytime. $23 fee is prorated for original.  45 days ahead or with TR-3. 6 months ahead with reason. 
+
+Pickup truck or van 8,000 lbs. or less owned by an individual 
+
+Passenger (or commercial if used for a commercial use) 
+
+Owner’s birthday  1984 or later model - prorated by ad valorem. 1983 or earlier model - prorated by empty weight. 
+
+45 days ahead or with TR-3. 6 months ahead with reason. 
+
+Pickup truck or van over 8,000 lbs. owned by an individual 
+
+Passenger (or commercial if used commercially; may go GVW) 
+
+Owner’s birthday  Prorated by empty weight (no ad valorem fees).  45 days ahead or with TR-3. 6 months ahead with reason. 
+
+Pickup truck or van 8,000 lbs. or less owned by a business 
+
+Regular commercial  February 28 (or could go six months, see below) 
+
+Sold on 10/1 for 12-month fee. Half-fee on Sept. 1. 1984 or later model - ad valorem. 1983 or earlier model - empty weight. 
+
+October 1. 
+
+Pickup truck or van over 8,000 lbs. owned by a business 
+
+Regular commercial (could go GVW) 
+
+February 28 (or could go six months, see below) 
+
+Sold on 10/1 for 12-month fee. Half-fee on Sept. 1. Use empty weight fee for trucks over 8,000 lbs. 
+
+October 1. 
+
+All other commercial vehicles including GVW 12-month fee 
+
+Regular commercial or GVW plate 
+
+February 28  Sold on 10/1 for 12-month fee. Half-fee on Sept. 1. Weight fees only. 
+
+October 1. 
+
+6-month fee  Regular commercial or GVW plate 
+
+6 months from date of issue 
+
+Sold anytime. To qualify, 12-month fee must be $50 or more. Collect 6-month fee plus $10 service fee. 
+
+45 days ahead (reuse plate). 
+
+3-month GVW fee  GVW plate only  3 months from date of issue 
+
+Sold anytime. Must be a GVW fee. Collect 3-month GVW fee plus $10 service fee. 
+
+45 days ahead (reuse plate). 
+
+Trailer or trailer coach owned by an individual or a business 
+
+Trailer  Non-expiring  Sold anytime. Fee based on empty weight.  No (non-expiring permanent plate) 25 
+
+Rev. 07/26

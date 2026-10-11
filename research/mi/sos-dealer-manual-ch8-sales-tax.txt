@@ -1,0 +1,735 @@
+SOURCE: https://www.michigan.gov/-/media/Project/Websites/sos/01preston/Dealer_Manual_Chapter_8.pdf (read via r.jina.ai reader 2026-10-11)
+Title: Dealer Manual Chapter 8: Sales Tax
+
+URL Source: https://www.michigan.gov/-/media/Project/Websites/sos/01preston/Dealer_Manual_Chapter_8.pdf
+
+Published Time: Tue, 28 Apr 2026 15:55:20 GMT
+
+Number of Pages: 11
+
+Markdown Content:
+Chapter 8: Sales Tax  Page  1
+
+Revised  April 2026 
+
+# Chapter 8 
+
+# Sales Tax 
+
+# Section 8 -1
+
+# Requirement 
+
+8-1.1 Authorization.  Section 205.52 of the  General Sales Tax Act  (MCL 205.52) 
+
+authorizes the collection of sales tax on the purchase of vehicles. 
+
+8-1.2 Collection of  sales  tax.  Licensed dealers collect Michigan sales tax on the retail 
+
+sale of new and used vehicles at the time of sale. Dealers must have a sales tax license 
+
+issued by the Michigan Department of Treasury. Dealers must submit the collected tax 
+
+to the Secretary of S tate with their  RD -108  Michigan Application for Title and Registration 
+
+and statement of vehicle sale. 
+
+8-1.3 Tax  rate.  When sales tax is due, the amount levied to a Michigan customer is 6% 
+
+of the full purchase price of the vehicle. To compute the tax, multiply the full purchase 
+
+price times .06. Round off to the third decimal place and round up to a whole cent when 
+
+the th ird decimal place is 5 or greater or round down to a whole cent when the third 
+
+decimal place is less than 5. 
+
+# Section 8 -2
+
+# Determining  sales  tax 
+
+8-2.1 Definition of  purchase  price.  Purchase price includes the full amount paid to the 
+
+dealer and tax is due on the full purchase price. If there is a lease penalty for early 
+
+termination rolled into the purchase price of the vehicle that charge is also subject to tax. 
+
+8-2.2 Farmers.  Most farm vehicles are subject to sales tax. If a farm truck or trailer is 
+
+ever used on -road, even for traveling from farm to farm, a license plate is required, and 
+
+tax is due. 
+
+a)  Exclusive  farm  operation.  If the farm truck is used exclusively on the farm 
+
+(it is never operated off the immediate location of the farm), a tax exemption 
+
+may be claimed, using form 3372 (Michigan Sales and Use Tax Certificate of 
+
+Exemption) claiming the  agricultural production  exemption. This form can be 
+
+found on the Michigan Department of Treasury’s website using the search Chapter 8: Sales Tax  Page  2 
+
+> Revised April 2026
+
+function ( www.michigan.gov/treasury ). The transaction is considered a title -
+
+only transaction. This farm truck is not eligible for any type of plate (even a 
+
+farm plate) or permit until tax is paid. 
+
+In addition to completing the  RD -108  title application, have the farmer 
+
+complete a certification (TR -34 form) stating this farm truck will not be 
+
+operated off their farm until tax is paid and the vehicle is properly licensed. 
+
+Enter the statement “FARM TRUCK  – NOT ELIGIBLE FOR PLATE UNTIL 
+
+TAX  IS PAID” in the Remarks section of the  RD -108 .
+
+8-2.3 Leasing  companies  – titling  vehicles.  A vehicle leasing company with a Michigan 
+
+tax 
+
+registration number has a choice of how tax is paid when titling vehicles in its name. 
+
+They may either: 
+
+a)  Pay the 6% sales tax at time of title application, or 
+
+b)  Pay 6% use tax on the monthly lease receipts directly to the Michigan 
+
+Department of Treasury. 
+
+To be eligible to pay tax on the lease receipts, the leasing company must note “For 
+
+Lease” on their  RD -108  and also provide their Michigan use tax registration number on 
+
+form 3372. 
+
+NOTE: When titling a vehicle, some leasing companies allow the lessee to make a down 
+
+payment (capitalized cost reduction) in order to lower the monthly lease payment. The 
+
+Michigan Department of Treasury considers the down payment to be the first payment 
+
+received on a leased vehicle. Since this is use tax and not sales tax, the tax on the down 
+
+payment is not submitted with the RD -108. The lessor is responsible for remitting use tax 
+
+on the down payment. 
+
+8-2.4 Leasing  companies  – selling  ve hicles.  If the lessee elects to purchase the 
+
+vehicle at the end of the lease contract (or if the leasing company sells the vehicle to a 
+
+third party), the leasing company, if not a licensed dealer, collects sales tax on the sale 
+
+price and issues the purchaser a tax  receipt. (This also applies to rent -a-car companies 
+
+and other businesses, which sell more than five vehicles a year.) 
+
+8-2.5 Leased  vehicles  – tax  status.  Instructions vary for leasing companies depending 
+
+on possession of a Michigan tax registration number. These differences are specified in 
+
+Michigan tax law, which allows a tax exemption only if the leasing company is paying 
+
+Michigan tax based on its lease  receipts. 
+
+a)  With  Michigan  tax  registration  number.  When a leasing company takes 
+
+delivery of a vehicle in Michigan, the transaction is not subject to sales tax if 
+
+the leasing company has a Michigan use tax registration number and 
+
+claims tax paid on lease receipts. The exemption claim must contain their 
+
+use  tax registration number using form 3372 claiming the  for -lease 
+
+exemption, and the notation “For Lease” in the Remarks section of the  RD -
+
+108 .Chapter 8: Sales Tax  Page  3 
+
+> Revised April 2026
+
+b)  Without Michigan  tax  registration  number.  If the leasing company is not 
+
+registered with the Michigan Department of Treasury as a leasing company 
+
+(no use tax registration number), sales tax is due. 
+
+c)  Out -of -state  leasing  company.  When an out -of -state leasing company 
+
+takes delivery of a vehicle in Michigan, tax is not due if the leasing company 
+
+has a tax registration from its home state and the vehicle will not be leased 
+
+in Michigan. The company must purchase a 60 -day in -transit per mit to be 
+
+tax -exempt. If the vehicle will be leased in Michigan, the company must be 
+
+registered in Michigan and follow the same requirements for a Michigan 
+
+leasing company. Otherwise, tax is due on the full purchase price .
+
+8-2.6 Military  personnel. 
+
+a)  Requirement.  Vehicles purchased by Michigan residents who are military 
+
+personnel are subject to sales tax. 
+
+b)  Nonresident  personnel.  Nonresident military personnel obtaining an in -
+
+transit permit are tax -exempt if, at the time of purchase, they submit a letter 
+
+from their commanding officer providing the purchaser’s home address and 
+
+certifying active duty in armed forces status. This is  not required with 
+
+manufacturer in -transit permits for Military Sales, Inc. 
+
+8-2.7 Automobile  provided by  family  agency or  qualified  organization.  Occasionally, 
+
+a family agency or qualified organization will pay for a vehicle, or a portion of a vehicle, to 
+
+be titled in their client’s name. 
+
+a)  Instructions.  The client must submit an Authorization and Billing,  RA -
+
+Z40 , issued by Michigan Rehabilitation Services. The Authorization and 
+
+Billing,  RA - Z40  will show the client’s name and the maximum amount 
+
+approved for expenditure. 
+
+8-2.8 Ministers.  Ministers are subject to sales tax when acquiring a vehicle, mobile 
+
+home, or watercraft. 
+
+8-2.9 Native American Indian  tribes.  For more information regarding taxation of 
+
+Native American Indian Tribes and members, please contact the Michigan Department of 
+
+Treasury, Tribal Affairs office at 517/241 -2185. 
+
+8-2.10 Nonprofit  organizations.  Certain nonprofit groups qualify for tax -exempt status 
+
+when acquiring a vehicle. They must also meet the following qualifications to claim tax 
+
+exemption. 
+
+a)  Qualifying  instructions.  The following are needed by nonprofit groups to 
+
+qualify for Michigan sales tax exemption: 
+
+1)  The vehicle must be titled in the name of the nonprofit entity Chapter 8: Sales Tax  Page  4 
+
+> Revised April 2026
+
+(organization, institution, or agency) and used to carry out the activities 
+
+of the entity as described in its bylaws or articles of incorporation. 
+
+2)  The vehicle must be used exclusively by the entity which is serving the 
+
+public at large; and, 
+
+3)  Individuals and private shareholders in the entity cannot benefit, in 
+
+whole or in part, from the use of the vehicle. 
+
+b)  Qualified  organizations.  Organizations such as Girl Scouts and Boy 
+
+Scouts, social and fraternal organizations such as the Lions Club, Kiwanis 
+
+Club, Rotary International, etc., are subject to sales tax in Michigan, unless 
+
+they qualify for an exempt purchase as a 501(c)(3), 501(c)(4 ) or 501(c)(19) 
+
+of the Internal Revenue Code and the vehicle is used to carry out the 
+
+activities of the entity as described in its bylaws or articles of incorporation. 
+
+c)  Form 3372  exemptions.  Dealers can accept these forms presented by 
+
+customers certifying they are exempt from sales tax. The Michigan Department 
+
+of Treasury indicates there is no need to verify this type of exemption with the 
+
+Department. Simply keep a copy of the form in your de al jacket for audit 
+
+purposes. 
+
+8-2.11 Payment.  Compensation for the full purchase price may be in any of the following 
+
+forms: 
+
+a)  Money 
+
+b)  Credit 
+
+c)  Services rendered 
+
+d)  Trades 
+
+e)  Anything of value 
+
+8-2.12 Rebates.  A purchaser may be exempt from sales tax on rebates depending on 
+
+the type of rebate. 
+
+a)  Manufacturer  rebates.  Tax is due on rebates from manufacturers. The 
+
+rebate cannot be subtracted from the vehicle purchase price when 
+
+computing sales tax. (It is not a discount offered by the seller.) This rule 
+
+applies even when credit is given at the time of sale and the owne r will not 
+
+receive a rebate check in the mail. 
+
+b)  Dealer  rebates.  These are discounts offered by the dealer and are not 
+
+subject to tax. The amount of the dealer rebate or discount is deducted 
+
+before calculating tax due. This type of rebate or discount may be 
+
+documented in the Remarks section. Chapter 8: Sales Tax  Page  5 
+
+> Revised April 2026
+
+8-2.13 Relatives.  Sales tax is due when a retailer sells anything to an immediate family 
+
+member 
+
+(a dealer sells a car to his/her son, 
+
+etc.). 
+
+8-2.14 Religious  groups  – church  vans,  buses and  other  vehicles.  Vehicles 
+
+purchased by religious groups are not always tax -exempt. Any qualifying vehicles must 
+
+be titled in the name of the house of worship. 
+
+a)  Vans and  buses.  Certain vans and buses purchased by a house of 
+
+worship may be tax - exempt. To be tax exempt, the vehicle must be titled 
+
+and registered in the name of the house of worship. The house of worship 
+
+must provide a valid claim of exemption. Sales tax is not d ue if both of the 
+
+following are true: 
+
+1)  The vehicle has a manufacturer’s rated seating capacity of 10 or 
+
+more passengers (a large van or bus). 
+
+2)  The vehicle is purchased to transport passengers for church functions 
+
+(Sunday or bible school, transporting senior citizens to church, etc.). 
+
+b)  Other  vehicles.  All other vehicles sold to churches or houses of worship 
+
+are taxable. Ministers are not exempt from tax when acquiring any vehicle, 
+
+mobile home, or watercraft. Some religious groups’ administrative council 
+
+may be part of the church, in which case the exe mption for buses and vans 
+
+above applies. Questions regarding the taxability of the vehicle can be 
+
+referred to the Michigan Department of Treasury, Business Tax Technical 
+
+Services division at (517) 636 -4230. 
+
+8-2.15 Repossession by  secured  party.  When an owner defaults on the financing 
+
+agreement for a vehicle, the vehicle can be taken (repossessed) by the lender (secured 
+
+party). 
+
+a)  Secured  party  exempt  status.  The secured party is tax -exempt when 
+
+applying for a resale title (see Chapter 3 for resale titles). If the secured 
+
+party applies for a regular title (not resale), tax is due. 
+
+b)  Repossessor or  purchaser  status.  Tax is paid by the purchaser when 
+
+the repossessor sells the vehicle at a later date. This tax is collected by the 
+
+repossessor if the repossessor sells more than five vehicles a year. The 
+
+repossessor issues a tax receipt, which Secretary of State branch o ffices 
+
+accept in lieu of collecting tax. 
+
+8-2.16 Resale  titles.  Resale titles show the legend “Not Eligible for Plates  – No Tax 
+
+Paid.” 
+
+8-2.17 School  buses.  When a school bus is acquired by an accredited educational 
+
+institution (Monday to Friday, Michigan Department of Education -approved curriculum), 
+
+no tax is due. The bus must be titled in the name of the school or school district and a 
+
+valid exemption claim  must be presented (form 3372). Chapter 8: Sales Tax  Page  6 
+
+> Revised April 2026
+
+8-2.18 Vehicle warranties. A manufacturer’s extended warranty (purchased by customer) or service contract is taxable if it is not optional and must be purchased with the vehicle. If purchased as an add-on option (separate charge), no tax is due. 
+
+# Section 8-3 Exemptions 
+
+8-3.1 Ambulances, community-based. Refer to “Fire Trucks” (See Below). 
+
+8-3.2 Brokers. In the sale of a vehicle, brokers bring together a buyer and seller. Vehicle brokers can never take ownership of a vehicle, nor can they title a vehicle in their name or the name of their business unless state sales tax is paid. 
+
+8-3.3 Credit unions – Federal. Vehicles titled in the name of a federal credit union are tax- exempt. To qualify, the federal credit union’s name must end with the uninterrupted words “Federal Credit Union,” and a valid exemption claim must be presented. If any other words appear between the words “Federal Credit Union,” the credit union is not a federal credit union, and its vehicles are taxable. 
+
+8-3.4 Dealers – out-of-state dealer buys a vehicle from Michigan dealer. Tax is not due when an out-of-state dealer acquires a vehicle from a Michigan dealer for resale outside of Michigan and a valid exemption claim is presented. In its Police Book, the Michigan dealer enters the out-of-state dealer’s sales tax number and dealer number issued by the dealer’s home state. This transaction is not eligible for a 60-day in-transit permit. 
+
+8-3.5 Dealers – resale titles, lease vehicles, demos . Dealers will always use their RD-108 when titling and registering a vehicle in the name of the dealership. Generally, sales tax is due. The following instances illustrate common situations and treatment for vehicle dealers. 
+
+a)  When the dealer applies for a resale title and does not register the vehicle, no sales tax will be due until the vehicle is sold at retail (contingent on the vehicle remaining in the dealer’s inventory). 
+
+b)  When a dealer becomes the lessor, and the vehicle is titled in the lessor’s name, a choice can be made. Either pay sales or use tax up front or use tax on sales and rentals based on the rental stream under a lessor election described in Revenue Administrative Bulletin 2024-18. 
+
+c)  When the dealer registers a vehicle to be used for rental purposes (usually by customers having their cars serviced), the vehicle is converted (if acquired for a nontaxable use) so use tax would be due on the full purchase price. Chapter 8: Sales Tax  Page  7 
+
+> Revised April 2026
+
+d)  When the dealer titles and registers a demonstrator vehicle (see section 8-3.6 for further information), no tax is due. 
+
+8-3.6 Demonstrator vehicles. A demonstrator is a new motor vehicle used for demonstration. New vehicles titled as a demonstrator are tax-exempt until sold at retail. A dealer is limited in the number of vehicles, which may be titled or used as tax-exempt demonstrators. The number is based on the dealer’s volume of new vehicle sales in a calendar year, as in the following table: 
+
+Table 1 
+
+Demonstrators based on volume 
+
+endar Year 
+
+Tax-exempt demos allowed per calendar 
+
+Year 
+
+0 - 25 
+
+26 - 100 
+
+101 - 500  20 Vehicles 
+
+501+  25 Vehicles (maximum) 
+
+NOTE : A demo vehicle that is carried over from one year to a new year does not count as a tax-free demo in the next calendar year .
+
+8-3.7 Foreign diplomats. A diplomat is a person who is appointed to represent their government in relations with another country. Foreign diplomats assigned to the United States and their family members are exempt from sales tax on the purchase of large items including vehicles and watercraft. 
+
+a)  Tax exemption card. The U.S. Department of State, Office of Foreign missions, issues tax exemption cards to foreign diplomats and consular personnel in the U.S. To qualify for tax exemption, a diplomat must present this card upon titling a vehicle. Record the card’s tax number and expiration date along with “Tax-exempt – Diplomat” in the Remarks section of the RD-108 .
+
+b)  License plates. The Michigan Department of State does not issue license plates to diplomats. Refer all inquiries to the diplomat’s embassy. The foreign embassy will contact the U.S. Department of State, Office of Foreign Missions, Diplomatic Motor Vehicle Office, 3507 International Place, NW, Washington, D.C. 
+
+20522-2303. Telephone: 202/895-3521. 
+
+8-3.8 Fire trucks and ambulances. Local government units are exempt from sales tax on the purchase of an ambulance or fire-fighting equipment when a valid exemption claim is presented. A community-based nonprofit corporation is also exempt. The ambulance or fire truck must be titled in the nonprofit entity’s name. Write “Tax-exempt – Community 
+
+New units sold 
+
+per calendar year 
+
+2 Vehicles 
+
+7 Vehicles Chapter 8: Sales Tax  Page  8 
+
+> Revised April 2026
+
+Service” in the Remarks section of the  RD -108 .
+
+8-3.9 Rolling  stock.  When your dealership sells a truck or trailer to an entity that 
+
+engages in interstate commercial transport, sales tax is due with the transaction unless 
+
+your purchaser qualifies as an “interstate motor carrier” and the vehicle is a “qualified 
+
+truck or trai ler.” The Michigan Sales Tax Act provides that trucks and trailers purchased, 
+
+rented, or leased by an interstate motor carrier are eligible for a 100% exemption from 
+
+sales tax only if they meet both of the following: 
+
+a)  The qualified truck is a commercial motor vehicle power unit or bus with 2 
+
+axles and a gross vehicle weight rating (GVWR) over 10,000 lbs., or a 
+
+commercial truck or bus with 3 or more axles. A qualifying trailer is one 
+
+designed to be drawn behind a qualif ied truck, and; 
+
+b)  The interstate motor carrier is in the business of carrying persons or property, 
+
+other than themselves, their employees, or their own property, for hire across 
+
+state (Michigan) lines and whose fleet mileage was driven 10% outside of 
+
+Michigan in the immedia tely preceding tax year. In computing fleet mileage, 
+
+trucks used solely in Michigan cannot be counted. 
+
+NOTE:  If your purchaser does not qualify as an interstate motor carrier, or the unit 
+
+purchased is not a qualified truck or trailer, sales tax is due on the sale price. A person in 
+
+their first year of owning or leasing qualified rolling stock cannot be exempt a s an 
+
+interstate motor carrier as they do not have a “preceding tax year” of mileage necessary 
+
+to potentially qualify. If a purchaser qualifies as an “interstate motor carrier”, dealers must 
+
+note “interstate motor carrier” in the Remarks section of th e RD -108 and collect a valid 
+
+exemption certificate. 
+
+# Section 8 -4
+
+# In -Transit  permits (BFS -50) and “ export  sales” 
+
+8-4.1 Authorization.  The 60 -day in -transit permit allows a nonresident to drive a newly 
+
+purchased vehicle to their home state where it will be titled and registered. Only one in -
+
+transit permit may be issued for any vehicle. Lease companies with a Michigan tax 
+
+registration nu mber are eligible to receive 60 -day in -transit permits. 
+
+NOTE: Dealers process a 60 -day in -transit permit for  all  out -of -state transactions when 
+
+delivery takes place within the boundaries of Michigan (except for salvage -titled, scrap -
+
+titled or wholesale dealer transaction vehicles). States having sales tax reciprocity 
+
+agreements with the State of Michigan have  agreed to give tax credits on in -transit 
+
+deliveries. Without the in -transit permit, the customer’s home state could require tax to be 
+
+paid again. 
+
+Additionally, the in -transit permit provides a record with the State of Michigan that the 
+
+vehicle will be titled in the purchaser’s home state. This record can be used to issue a 
+
+replacement in - transit permit if the in -transit permit is lost before titli ng in the purchaser’s Chapter 8: Sales Tax  Page  9 
+
+> Revised April 2026
+
+home state. 
+
+8-4.2 Exporting  vehicles.  Record keeping requirements are somewhat different when 
+
+selling a vehicle, which will be exported to another country or state, compared to when 
+
+selling a vehicle for registration within Michigan. 
+
+a)  Tax  due.  Tax is due on all vehicles unless the purchaser is a licensed 
+
+dealer, or the vehicle is to be delivered outside the boundaries of the state 
+
+of Michigan by a third -party common carrier. For export purposes, if a 
+
+seller or purchaser contracts with a shipper  and delivers the vehicle to a 
+
+foreign destination, tax is not due. However, if a dealer delivers a vehicle to 
+
+the purchaser’s representative who will arrange shipment to a foreign 
+
+destination, tax is due as the transfer of ownership of the vehi cle has taken 
+
+place within the boundaries of Michigan. Keep a copy of the shipping 
+
+receipt for your records. 
+
+b)  Instructions.  The selling dealer assigns the title or MCO, including 
+
+odometer statement, and completes an  RD -108 , and if appropriate, a 
+
+salvage disclosure statement. In the Remarks section, enter “TAX -
+
+EXEMPT  – FOR EXPORT” and give the address of the port of exit where 
+
+the vehicle will be delivered. 
+
+c)  Processing.  The  RD -108  is not processed at a branch office. The dealer 
+
+keeps a copy of all documents, including bills of lading or other 
+
+documentation and gives the title, a copy of the  RD -108 , odometer 
+
+disclosure, and salvage disclosure to the purchaser. The dealer retains 
+
+copies of this information for five years. 
+
+d)  Records.  Documentary evidence proving the vehicle was delivered outside 
+
+of Michigan must be kept in the dealer’s records. Evidence includes a copy 
+
+of the completed  RD -108 ; a waybill or bill of lading from a shipping or 
+
+trucking company; trip sheet; driver’s logs; and other documentary evidence 
+
+to verify delivery to a destination outside the state of Michigan. The dealer 
+
+retains these documents for five years. 
+
+e)  Tax  liability.  When the Michigan Department of Treasury conducts a tax 
+
+audit of a licensed Michigan vehicle dealer as a retailer, the dealership will 
+
+be held liable for the sales tax, unless the appropriate documentation can 
+
+be presented. 
+
+f)  In -transit  permits.  A 60 -day in -transit permit cannot be obtained for an 
+
+export sale. (See Chapter 3, Section 3 -9.) 
+
+g)  Other  delivery  arrangements.  If the nonresident purchaser arranges for 
+
+someone to take delivery of the vehicle within Michigan on his or her behalf, 
+
+the sale is subject to Michigan tax. 
+
+8-4.3 Instructions.  Use the following steps to obtain an in -transit permit: 
+
+a)  Complete an  RD -108  as follows: Chapter 8: Sales Tax  Page  10  
+
+> Revised April 2026
+
+1)  In the space provided for the plate number, enter “No Title  – In -transit; 
+
+2)  Enter the complete out of state address; 
+
+3)  In the Remarks Section, enter the title number and the issuing state of the 
+
+title being transferred and “To be titled and registered in (state being titled 
+
+in);” 
+
+4)  In the Remarks Section, enter the Michigan tax computation and out -of -state 
+
+tax computation. Collect the lower of the two amounts for reciprocal states. 
+
+Check the Treasury  Form 485  to verify all out -of -state tax rates and; 
+
+5)  Enter $10 for in -transit permit fee in the license fee box on the RD -108. 
+
+b)  Submit the  RD -108  and properly assigned title or MCO. The title or MCO 
+
+will be returned with the in -transit permit from the branch for delivery to the 
+
+customer. The dealer maintains a copy in the dealership records. 
+
+c)  Instruct the owner to display the in -transit permit in the rear window of the 
+
+vehicle. If there is no rear window, the permit must be displayed in a location 
+
+where it can be seen by law enforcement. 
+
+8-4.4 In -transit  permits  – states with  no tax  reciprocity.  If a dealer sells a vehicle that 
+
+will be titled and registered in a state, which has no tax reciprocity with Michigan, no tax is 
+
+due. However, the law requires the customer to purchase the 60 -day in -transit permit 
+
+regardless of the method of transporting the vehicle, or else sales tax is  due. The current 
+
+list of these states is available on  Form 485 .
+
+8-4.5 In -transit  permits  – “no tax  due”  states.  Some states do not charge sales tax 
+
+on the purchase of vehicles or do not give the customer credit if they pay tax in Michigan. 
+
+The current list of these states is available on  Form 485 .
+
+NOTE: Sales tax rates and reciprocal agreements between states are subject to change 
+
+without notice. It is the dealer’s responsibility to confirm all sales tax information. Up - to -
+
+date information concerning sales tax reciprocity or rates can be obtaine d by contacting 
+
+the Michigan Department of Treasury, Business Tax Technical section at (517) 636 -4230, 
+
+or by accessing the Michigan Department of Treasury’s Web site for a copy of  Form 485 .
+
+8-4.6 In -transit  permits  – states with  tax  reciprocity.  If the purchaser is taking the 
+
+vehicle to a state, which is reciprocal with Michigan, two tax computations are required. 
+
+a)  Determine the amount of state sales tax due in the purchaser’s home state. 
+
+If that state allows a trade -in credit, the trade -in allowance is used in the 
+
+first computation. 
+
+b)  Determine the amount of 6% sales tax in Michigan, as if the purchaser is a 
+
+Michigan resident, using Michigan’s trade -in credit if applicable. Chapter 8: Sales Tax  Page  11  
+
+> Revised April 2026
+
+c)  After making the two computations, collect the lower amount. If the out -of -state 
+
+tax amount is the lower amount, show in the Remarks section of the  RD -108  the 
+
+method used to determine the sales tax, such as 4% New York tax, with a full 
+
+trade -in value. 
+
+d)  Circle the lower of two amounts. 
+
+e)  Enter the lower amount in upper right “tax” portion of the  RD -108 .
+
+f)  Collect the lower amount of the two computations. 
+
+NOTE: Do not send this tax to the other state. The tax is paid to the state of Michigan 
+
+and the customer will receive credit in the other state. 
+
+8-4.7 Out -of -state  address.  An out -of -state address is required on the  RD -108  showing 
+
+where the vehicle will be titled and registered. No Michigan title will be issued. The  RD -
+
+108  indicates lien holder information in the “First Secured Interest” section, if applicable. 
+
+Although Michigan will not record the lien holder in our records, adding lien holder 
+
+information on the  RD -108  helps to ensure the lien is recorded on the purchaser’s home 
+
+state’s title. 
+
+8-4.8 Proof of  insurance.  Proof of Michigan no -fault or out -of -state insurance is required. 
+
+This can be insurance for any vehicle in the purchaser’s name. The insurance certificate 
+
+does not have to name the in -transit vehicle. 
+
+8-4.9 State  sales  tax  used for  in-transits.  Use the Michigan Department of Treasury’s 
+
+Form 485  to verify reciprocal states and sales tax rates in other states for each in -transit 
+
+transaction you process. 
+
+8-4.10 When going to Canada or another  country.  If the purchaser is taking delivery of 
+
+the vehicle in Michigan and transporting it to Canada or another country (including U.S. 
+
+territories), 6% Michigan sales tax is due. If the dealer is delivering the vehicle or dealer’s 
+
+representative outside the stat e of Michigan, sales tax is not due.  Please be aware that 
+
+your dealership is making physical presence in another state/country. Based on that 
+
+presence, your dealership may be subject to their tax laws.

@@ -1,0 +1,97 @@
+SOURCE: https://dps.mn.gov/divisions/dvs/vehicle/vehicle-fees/vehicle-wheelage-tax (read via r.jina.ai reader 2026-10-11)
+Title: Vehicle wheelage tax | Minnesota Department of Public Safety
+
+URL Source: https://dps.mn.gov/divisions/dvs/vehicle/vehicle-fees/vehicle-wheelage-tax
+
+Markdown Content:
+​​​​​A wheelage tax is a minimum $10 tax that can be increased to a maximum of $20.
+
+Wheelage tax is due at the time of vehicle registration. If it is paid and the vehicle is then moved to another county, the tax is not refunded.
+
+The tax is levied by the county board of commissioners on vehicles kept in the county when they are not in operation and subject to annual registration and taxation.
+
+​​​Driver and Vehicle Services (DVS) collects wheelage tax on behalf of participating counties. Funds are distributed to the county and used for transportation needs, including highway preservation, expansion and transit improvement projects.
+
+## Exemptions
+
+Wheelage tax does not apply to vehicles that do not require an annual registration tax. The following vehicles are also exempt:
+
+*   Motorcycles.
+*   Motorized bicycles.
+*   Trailers.
+*   Mopeds.
+
+## Counties with a wheelage tax
+
+The following counties impose a wheelage tax as of January 1, 2026.
+
+If you have questions related to the wheelage tax, contact the participating counties.
+
+**County name****Wheelage tax amount****Phone number**
+Benton$20[320-968-5054](tel:3209685054)
+Big Stone$10[320-839-6366](tel:3208396366)
+Brown$20[507-233-5700](tel:5072335700)
+Carlton$15[218-879-5951](tel:2188795951)
+Carver$20[952-361-1910](tel:9523611910)
+Chippewa$10[320-269-7447](tel:320-269-7447)
+Chisago$20[651-257-1300](tel:6512571300)
+Clay$10[218-299-5012](tel:2182995012)
+Cottonwood$10[507-831-1458](tel:5078311458)
+Dakota$10*[651-438-8318](tel:6514388318)
+Dodge$20[507-374-6694](tel:5073746694)
+Faribault$10[507-526-6225](tel:5075266225)
+Fillmore$20[507-765-4483](tel:5077654483)
+Freeborn$20[507-377-5116](tel:5073775116)
+Goodhue$20[651-385-3000](tel:6513853000)
+Hennepin$20[612-348-3000​](tel:6123483000%C2%A0%E2%80%8B)
+Houston$20[507-725-3925](tel:5077253925)
+Isanti$10*[763-689-1130](tel:7636891130)
+Itasca$10[218-327-2853](tel:2183272853)
+Jackson$10[507-847-2525](tel:5078472525)
+Kanabec$10[320-679-6300](tel:3206796300)
+Kandiyohi$10[320-235-3266](tel:3202353266)
+Lac qui Parle$10[320-598-3878](tel:3205983878)
+Le Sueur$10[507-357-2251](tel:5073572251)
+Lincoln$10[507-694-1464](tel:5076941464)
+Lyon$10[507-537-6724](tel:5075376724)
+Marshall$10[218-745-4381](tel:2187454381)
+Martin$10[507-238-3274](tel:5072383274)
+Mille Lacs$20[320-983-8218](tel:3209838218)
+Mower$10*[507-437-7718](tel:5074377718)
+Murray$10[507-836-1152](tel:5078361152)
+Nicollet$20[507-934-7204](tel:5079347204)
+Nobles$10[507-295-5200](tel:5072955200)
+Norman$10[218-784-5473](tel:2187845473)
+Olmsted$20[507-328-7070](tel:5073287070)
+Otter Tail$20[218-998-8470](tel:2189988470)
+Pennington$10[218-683-7017](tel:2186837017)
+Pipestone$15[507-825-6730](tel:5078256730)
+Pope$20[320-634-7700](tel:3206347700)
+Ramsey$20[651-266-7100](tel:6512667100)
+Redwood$20[507-637-4020](tel:5076374020)
+Renville$10[320-523-3759](tel:3205233759)
+Rice$20[507-332-6100](tel:5073326100)
+Rock$10[507-283-5024](tel:5072835024)
+Scott$10[952-496-8346](tel:9524968346)
+Sherburne$20[763-765-3300](tel:7637653300)
+Sibley$10[507-237-7800](tel:5072377800)
+Stearns$10[320-656-3600](tel:3206563600)
+Steele$20[507-444-7400](tel:5074447400)
+Stevens$15[320-208-6583](tel:3202086583)
+Swift$10[320-314-8399](tel:3203148399)
+Wabasha$20[651-565-2480](tel:6515652480)
+Waseca$20[507-835-0630](tel:5078350630)
+Washington$20[651-430-6175](tel:6514306175)
+Watonwan$15[507-375-3393](tel:5073753393)
+
+*Dakota, Isanti and Mower counties' wheelage tax will increase to $20 for registration periods beginning Jan. 1, 2027.
+
+If you are a county implementing or modifying your wheelage tax, email​[WheelageTax.DPS@state.mn.us](mailto:WheelageTax.DPS@state.mn.us).
+
+## Related links
+
+[Wheelage tax county codes 2025](https://assets.dps.mn.gov/files/dvs/dvs-wheelage-tax-county-codes-2025.pdf)
+
+[Minnesota Statutes 163.051](https://www.revisor.mn.gov/statutes/?id=163.051)
+
+[Motor Vehicle Registration Renewals](https://dps.mn.gov/divisions/dvs/vehicle/vehicle-registration/vehicle-registration-renewal "Vehicle registration renewal")

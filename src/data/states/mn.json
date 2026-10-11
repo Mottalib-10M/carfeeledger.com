@@ -1,0 +1,642 @@
+{
+ "abbr": "MN",
+ "name": "Minnesota",
+ "slug": "minnesota",
+ "agency": {
+  "name": "Minnesota Driver and Vehicle Services (Department of Public Safety)",
+  "short": "DVS",
+  "url": "https://dps.mn.gov/divisions/dvs"
+ },
+ "taxAgency": {
+  "name": "Minnesota Department of Revenue",
+  "url": "https://www.revenue.state.mn.us/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "The registration tax and the EV surcharge are computed on the manufacturer's suggested retail price; when the MSRP is not typed, the engine uses the price, which understates them for a discounted new car and for any used car.",
+  "Some counties and cities add a $20 excise tax on vehicles sold by dealers in their area (Minn. Stat. 297A.993); no current official list was read, so it is not added.",
+  "Whether the dealer documentary fee is part of the taxable purchase price is read from the statute ('total consideration'); no DVS or Revenue page saying so explicitly was read. The engine taxes it.",
+  "The $10 transfer tax listed by DVS for title transfers is applied to used purchases only; it is not added for a new car titled for the first time.",
+  "A $1 local office surcharge applies when a deputy registrar handles the transaction; the engine assumes no deputy registrar surcharge.",
+  "The $10 in lieu tax for older cars requires a resale value under $3,000; the engine uses the price as the value.",
+  "Pickups and SUVs registered as trucks pay a weight-based tax, not the passenger-car schedule used here."
+ ],
+ "summary": {
+  "stateRate": 0.06875,
+  "localRange": [
+   0,
+   0
+  ],
+  "taxName": "motor vehicle sales tax",
+  "tradeInCredit": true,
+  "titleFee": 8.25,
+  "regMethod": "value",
+  "regYears": 1,
+  "docFeeCap": 350,
+  "docFeeNote": "Documentary fee capped at $350 or 10% of the sale, whichever is less, for sales on or after July 1, 2025.",
+  "evFee": 150,
+  "phevFee": 75,
+  "hybridFee": null,
+  "inspection": "none",
+  "inspectionWhere": "Minnesota has no safety or emissions inspection for passenger cars.",
+  "inspectionFee": null,
+  "annualValueTax": true
+ },
+ "params": {
+  "_src": "tax: mvst, purchase-price, older-car; title: title, filing, facts; plates; reg: reg-tax, tech; wheelage",
+  "tax": {
+   "rate": 0.06875,
+   "docFeeTaxable": true,
+   "inLieu": 10,
+   "inLieuFromAge": 9,
+   "inLieuBelow": 3000
+  },
+  "title": {
+   "fee": 8.25,
+   "tech": 2.25,
+   "psv": 3.5,
+   "filing": 12,
+   "transferTax": 10
+  },
+  "plate": {
+   "double": 15.5
+  },
+  "reg": {
+   "base": 10,
+   "pct": 0.01575,
+   "schedule": [
+    1,
+    0.95,
+    0.9,
+    0.8,
+    0.7,
+    0.6,
+    0.5,
+    0.4,
+    0.25,
+    0.1
+   ],
+   "flatAfter": 20
+  },
+  "renewal": {
+   "filing": 8,
+   "tech": 2.25
+  },
+  "ev": {
+   "pct": 0.005,
+   "min": [
+    {
+     "from": 202601,
+     "amount": 150
+    },
+    {
+     "from": 202707,
+     "amount": 100
+    }
+   ],
+   "later": 0.1
+  },
+  "phev": {
+   "pct": 0.0025,
+   "min": [
+    {
+     "from": 202601,
+     "amount": 75
+    },
+    {
+     "from": 202707,
+     "amount": 50
+    }
+   ],
+   "later": 0.1
+  }
+ },
+ "counties": [
+  {
+   "id": "aitkin-county",
+   "name": "Aitkin County",
+   "localFee": 0
+  },
+  {
+   "id": "anoka-county",
+   "name": "Anoka County",
+   "localFee": 0
+  },
+  {
+   "id": "becker-county",
+   "name": "Becker County",
+   "localFee": 0
+  },
+  {
+   "id": "beltrami-county",
+   "name": "Beltrami County",
+   "localFee": 0
+  },
+  {
+   "id": "benton-county",
+   "name": "Benton County",
+   "localFee": 20
+  },
+  {
+   "id": "big-stone-county",
+   "name": "Big Stone County",
+   "localFee": 10
+  },
+  {
+   "id": "blue-earth-county",
+   "name": "Blue Earth County",
+   "localFee": 0
+  },
+  {
+   "id": "brown-county",
+   "name": "Brown County",
+   "localFee": 20
+  },
+  {
+   "id": "carlton-county",
+   "name": "Carlton County",
+   "localFee": 15
+  },
+  {
+   "id": "carver-county",
+   "name": "Carver County",
+   "localFee": 20
+  },
+  {
+   "id": "cass-county",
+   "name": "Cass County",
+   "localFee": 0
+  },
+  {
+   "id": "chippewa-county",
+   "name": "Chippewa County",
+   "localFee": 10
+  },
+  {
+   "id": "chisago-county",
+   "name": "Chisago County",
+   "localFee": 20
+  },
+  {
+   "id": "clay-county",
+   "name": "Clay County",
+   "localFee": 10
+  },
+  {
+   "id": "clearwater-county",
+   "name": "Clearwater County",
+   "localFee": 0
+  },
+  {
+   "id": "cook-county",
+   "name": "Cook County",
+   "localFee": 0
+  },
+  {
+   "id": "cottonwood-county",
+   "name": "Cottonwood County",
+   "localFee": 10
+  },
+  {
+   "id": "crow-wing-county",
+   "name": "Crow Wing County",
+   "localFee": 0
+  },
+  {
+   "id": "dakota-county",
+   "name": "Dakota County",
+   "localFee": 10,
+   "localFeeFrom2027": 20
+  },
+  {
+   "id": "dodge-county",
+   "name": "Dodge County",
+   "localFee": 20
+  },
+  {
+   "id": "douglas-county",
+   "name": "Douglas County",
+   "localFee": 0
+  },
+  {
+   "id": "faribault-county",
+   "name": "Faribault County",
+   "localFee": 10
+  },
+  {
+   "id": "fillmore-county",
+   "name": "Fillmore County",
+   "localFee": 20
+  },
+  {
+   "id": "freeborn-county",
+   "name": "Freeborn County",
+   "localFee": 20
+  },
+  {
+   "id": "goodhue-county",
+   "name": "Goodhue County",
+   "localFee": 20
+  },
+  {
+   "id": "grant-county",
+   "name": "Grant County",
+   "localFee": 0
+  },
+  {
+   "id": "hennepin-county",
+   "name": "Hennepin County",
+   "localFee": 20
+  },
+  {
+   "id": "houston-county",
+   "name": "Houston County",
+   "localFee": 20
+  },
+  {
+   "id": "hubbard-county",
+   "name": "Hubbard County",
+   "localFee": 0
+  },
+  {
+   "id": "isanti-county",
+   "name": "Isanti County",
+   "localFee": 10,
+   "localFeeFrom2027": 20
+  },
+  {
+   "id": "itasca-county",
+   "name": "Itasca County",
+   "localFee": 10
+  },
+  {
+   "id": "jackson-county",
+   "name": "Jackson County",
+   "localFee": 10
+  },
+  {
+   "id": "kanabec-county",
+   "name": "Kanabec County",
+   "localFee": 10
+  },
+  {
+   "id": "kandiyohi-county",
+   "name": "Kandiyohi County",
+   "localFee": 10
+  },
+  {
+   "id": "kittson-county",
+   "name": "Kittson County",
+   "localFee": 0
+  },
+  {
+   "id": "koochiching-county",
+   "name": "Koochiching County",
+   "localFee": 0
+  },
+  {
+   "id": "lac-qui-parle-county",
+   "name": "Lac qui Parle County",
+   "localFee": 10
+  },
+  {
+   "id": "lake-county",
+   "name": "Lake County",
+   "localFee": 0
+  },
+  {
+   "id": "lake-of-the-woods-county",
+   "name": "Lake of the Woods County",
+   "localFee": 0
+  },
+  {
+   "id": "le-sueur-county",
+   "name": "Le Sueur County",
+   "localFee": 10
+  },
+  {
+   "id": "lincoln-county",
+   "name": "Lincoln County",
+   "localFee": 10
+  },
+  {
+   "id": "lyon-county",
+   "name": "Lyon County",
+   "localFee": 10
+  },
+  {
+   "id": "mcleod-county",
+   "name": "McLeod County",
+   "localFee": 0
+  },
+  {
+   "id": "mahnomen-county",
+   "name": "Mahnomen County",
+   "localFee": 0
+  },
+  {
+   "id": "marshall-county",
+   "name": "Marshall County",
+   "localFee": 10
+  },
+  {
+   "id": "martin-county",
+   "name": "Martin County",
+   "localFee": 10
+  },
+  {
+   "id": "meeker-county",
+   "name": "Meeker County",
+   "localFee": 0
+  },
+  {
+   "id": "mille-lacs-county",
+   "name": "Mille Lacs County",
+   "localFee": 20
+  },
+  {
+   "id": "morrison-county",
+   "name": "Morrison County",
+   "localFee": 0
+  },
+  {
+   "id": "mower-county",
+   "name": "Mower County",
+   "localFee": 10,
+   "localFeeFrom2027": 20
+  },
+  {
+   "id": "murray-county",
+   "name": "Murray County",
+   "localFee": 10
+  },
+  {
+   "id": "nicollet-county",
+   "name": "Nicollet County",
+   "localFee": 20
+  },
+  {
+   "id": "nobles-county",
+   "name": "Nobles County",
+   "localFee": 10
+  },
+  {
+   "id": "norman-county",
+   "name": "Norman County",
+   "localFee": 10
+  },
+  {
+   "id": "olmsted-county",
+   "name": "Olmsted County",
+   "localFee": 20
+  },
+  {
+   "id": "otter-tail-county",
+   "name": "Otter Tail County",
+   "localFee": 20
+  },
+  {
+   "id": "pennington-county",
+   "name": "Pennington County",
+   "localFee": 10
+  },
+  {
+   "id": "pine-county",
+   "name": "Pine County",
+   "localFee": 0
+  },
+  {
+   "id": "pipestone-county",
+   "name": "Pipestone County",
+   "localFee": 15
+  },
+  {
+   "id": "polk-county",
+   "name": "Polk County",
+   "localFee": 0
+  },
+  {
+   "id": "pope-county",
+   "name": "Pope County",
+   "localFee": 20
+  },
+  {
+   "id": "ramsey-county",
+   "name": "Ramsey County",
+   "localFee": 20
+  },
+  {
+   "id": "red-lake-county",
+   "name": "Red Lake County",
+   "localFee": 0
+  },
+  {
+   "id": "redwood-county",
+   "name": "Redwood County",
+   "localFee": 20
+  },
+  {
+   "id": "renville-county",
+   "name": "Renville County",
+   "localFee": 10
+  },
+  {
+   "id": "rice-county",
+   "name": "Rice County",
+   "localFee": 20
+  },
+  {
+   "id": "rock-county",
+   "name": "Rock County",
+   "localFee": 10
+  },
+  {
+   "id": "roseau-county",
+   "name": "Roseau County",
+   "localFee": 0
+  },
+  {
+   "id": "st-louis-county",
+   "name": "St. Louis County",
+   "localFee": 0
+  },
+  {
+   "id": "scott-county",
+   "name": "Scott County",
+   "localFee": 10
+  },
+  {
+   "id": "sherburne-county",
+   "name": "Sherburne County",
+   "localFee": 20
+  },
+  {
+   "id": "sibley-county",
+   "name": "Sibley County",
+   "localFee": 10
+  },
+  {
+   "id": "stearns-county",
+   "name": "Stearns County",
+   "localFee": 10
+  },
+  {
+   "id": "steele-county",
+   "name": "Steele County",
+   "localFee": 20
+  },
+  {
+   "id": "stevens-county",
+   "name": "Stevens County",
+   "localFee": 15
+  },
+  {
+   "id": "swift-county",
+   "name": "Swift County",
+   "localFee": 10
+  },
+  {
+   "id": "todd-county",
+   "name": "Todd County",
+   "localFee": 0
+  },
+  {
+   "id": "traverse-county",
+   "name": "Traverse County",
+   "localFee": 0
+  },
+  {
+   "id": "wabasha-county",
+   "name": "Wabasha County",
+   "localFee": 20
+  },
+  {
+   "id": "wadena-county",
+   "name": "Wadena County",
+   "localFee": 0
+  },
+  {
+   "id": "waseca-county",
+   "name": "Waseca County",
+   "localFee": 20
+  },
+  {
+   "id": "washington-county",
+   "name": "Washington County",
+   "localFee": 20
+  },
+  {
+   "id": "watonwan-county",
+   "name": "Watonwan County",
+   "localFee": 15
+  },
+  {
+   "id": "wilkin-county",
+   "name": "Wilkin County",
+   "localFee": 0
+  },
+  {
+   "id": "winona-county",
+   "name": "Winona County",
+   "localFee": 0
+  },
+  {
+   "id": "wright-county",
+   "name": "Wright County",
+   "localFee": 0
+  },
+  {
+   "id": "yellow-medicine-county",
+   "name": "Yellow Medicine County",
+   "localFee": 0
+  }
+ ],
+ "defaultCounty": "hennepin-county",
+ "singular": [
+  "Minnesota taxes a vehicle purchase with a 6.875% motor vehicle sales tax, collected when the car is titled, whether it was bought in or outside the state [mvst].",
+  "The trade-in allowance given by the seller is deducted from the price before the 6.875% is applied, and manufacturer rebates are excluded [purchase-price].",
+  "A passenger car in its tenth year of life or older with a resale value under $3,000 pays a flat $10 tax instead of the 6.875% [older-car].",
+  "The yearly registration tax is $10 plus 1.575% of the MSRP for cars first registered since November 16, 2020, applied to 100% of the price in year one, then 95%, 90%, 80%, 70%, 60%, 50%, 40%, 25% and 10% [reg-tax].",
+  "From the 11th year of life the registration tax is a flat $10 plus $20 [reg-tax].",
+  "Electric cars pay a surcharge of 0.5% of the MSRP by year of life, at least $150 for registration periods starting from January 1, 2026 to June 30, 2027, then at least $100; plug-in hybrids pay 0.25%, at least $75 then $50 [reg-tax].",
+  "Titling a car costs an $8.25 title fee, a $2.25 technology surcharge, a $3.50 public safety vehicle fee and a $12 filing fee [fees].",
+  "When a used car changes hands, its plates and the registration tax already paid go with it to the new owner [facts].",
+  "Fifty-five counties add a wheelage tax of $10 to $20 a year with the registration, including Hennepin and Ramsey at $20 [wheelage].",
+  "Dealers may charge a documentary fee of at most $350, or 10% of the sale if less, since July 1, 2025 [doc-fee]."
+ ],
+ "sources": {
+  "mvst": {
+   "name": "Minn. Stat. 297B.02, Motor vehicle sales tax imposed",
+   "url": "https://www.revisor.mn.gov/statutes/cite/297B.02",
+   "accessed": "2026-10-11",
+   "quote": "There is imposed an excise tax of 6.875 percent on the purchase price of any motor vehicle purchased or acquired, either in or outside of the state of Minnesota, which is required to be registered under the laws of this state."
+  },
+  "purchase-price": {
+   "name": "Minn. Stat. 297B.01, Definitions (purchase price)",
+   "url": "https://www.revisor.mn.gov/statutes/cite/297B.01",
+   "accessed": "2026-10-11",
+   "quote": "\"Purchase price\" means the total consideration valued in money for a sale ... excludes the amount of a manufacturer's rebate ... the credit or trade-in value allowed by the person selling the motor vehicle shall be deducted from the total selling price"
+  },
+  "older-car": {
+   "name": "Minn. Stat. 297B.025, Older passenger automobile",
+   "url": "https://www.revisor.mn.gov/statutes/cite/297B.025",
+   "accessed": "2026-10-11",
+   "quote": "shall be taxed pursuant to section 297B.02, subdivision 2, if the passenger automobile (1) is in the tenth or subsequent year of vehicle life, and (2) does not have a resale value of $3,000 or more"
+  },
+  "reg-tax": {
+   "name": "Minn. Stat. 168.013, Vehicle registration taxes",
+   "url": "https://www.revisor.mn.gov/statutes/cite/168.013",
+   "accessed": "2026-10-11",
+   "quote": "the registration tax is calculated as $10 plus: ... (2) for a vehicle initially registered in Minnesota on or after November 16, 2020, 1.575 percent of the manufacturer's suggested retail price ... $150 for a registration period beginning on or after January 1, 2026, and on or before June 30, 2027"
+  },
+  "tech": {
+   "name": "Minn. Stat. 168.013, subd. 21, Technology surcharge",
+   "url": "https://www.revisor.mn.gov/statutes/cite/168.013",
+   "accessed": "2026-10-11",
+   "quote": "For every vehicle registration renewal required under this chapter, the commissioner shall collect a surcharge of $2.25."
+  },
+  "title": {
+   "name": "Minn. Stat. 168A.29, Title fees",
+   "url": "https://www.revisor.mn.gov/statutes/cite/168A.29",
+   "accessed": "2026-10-11",
+   "quote": "for filing an application for and the issuance of an original certificate of title, $8.25 ... a surcharge of $2.25 must be added to the fee ... In addition to the fee required under paragraph (a), clause (1), the department must be paid $3.50."
+  },
+  "filing": {
+   "name": "Minn. Stat. 168.33, subd. 7, Filing fees",
+   "url": "https://www.revisor.mn.gov/statutes/cite/168.33",
+   "accessed": "2026-10-11",
+   "quote": "an $8 filing fee is imposed on every vehicle registration renewal, excluding pro rate transactions; and (2) a $12 filing fee is imposed on every other type of vehicle transaction"
+  },
+  "plates": {
+   "name": "Minn. Stat. 168.12, subd. 5, Plate fees",
+   "url": "https://www.revisor.mn.gov/statutes/cite/168.12",
+   "accessed": "2026-10-11",
+   "quote": "the following plate and validation sticker fees apply for the original, duplicate, or replacement issuance of a plate in a plate year: License Plate Single Double Regular and Disability $ 13.50 $ 15.50"
+  },
+  "fees": {
+   "name": "Minnesota DVS, Vehicle fees",
+   "url": "https://dps.mn.gov/divisions/dvs/vehicle/vehicle-fees",
+   "accessed": "2026-10-11",
+   "quote": "Filing fee $12 Due with each title transaction. Technology surcharge $2.25 ... Title fee $8.25 ... Electric vehicle surcharge $150 Or a greater amount based on the vehicles' age and manufacturer's suggested retail price ... Public Safety Vehicle (PSV) fee $3.50"
+  },
+  "facts": {
+   "name": "Minnesota DVS, Buying or Selling a Motor Vehicle: Just the Facts",
+   "url": "https://assets.dps.mn.gov/files/dvs/BuyingorSellingMotorVehicle_Just_the_Facts.pdf",
+   "accessed": "2026-10-11",
+   "quote": "Transfer tax: $10 ... Sales Tax: 6.875% of purchase price ... When you sell your vehicle, the license plate and registration taxes are assigned to the new owner."
+  },
+  "wheelage": {
+   "name": "Minnesota DVS, Vehicle wheelage tax",
+   "url": "https://dps.mn.gov/divisions/dvs/vehicle/vehicle-fees/vehicle-wheelage-tax",
+   "accessed": "2026-10-11",
+   "quote": "The following counties impose a wheelage tax as of January 1, 2026 ... Hennepin $20 ... Ramsey $20 ... *Dakota, Isanti and Mower counties' wheelage tax will increase to $20 for registration periods beginning Jan. 1, 2027."
+  },
+  "doc-fee": {
+   "name": "Minn. Stat. 168.27, subd. 31, Documentary fee",
+   "url": "https://www.revisor.mn.gov/statutes/cite/168.27",
+   "accessed": "2026-10-11",
+   "quote": "For motor vehicle sales or leases made on or after July 1, 2025, the maximum fee is the lesser of $350 or an amount equal to ten percent of the value of the sale or lease."
+  }
+ }
+}

@@ -1,0 +1,292 @@
+{
+ "abbr": "ME",
+ "name": "Maine",
+ "slug": "maine",
+ "agency": {
+  "name": "Maine Bureau of Motor Vehicles",
+  "short": "BMV",
+  "url": "https://www.maine.gov/sos/bmv/"
+ },
+ "taxAgency": {
+  "name": "Maine Revenue Services",
+  "url": "https://www.maine.gov/revenue/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "The municipal excise tax is based on the maker's list price (MSRP) of the model, not the price paid; when the MSRP is not typed, the engine uses the price, which understates the excise of a discounted new car and of any used car.",
+  "Inspection amounts are the legal maximum fees of 29-A M.R.S. §1751 ($12.50, or $18.50 for the enhanced inspection required in Cumberland County); a station may charge less.",
+  "Municipalities can add a small agent fee when the town office processes the registration; it varies by town and is not added.",
+  "No dealer documentation fee cap exists in Maine law (a 2023 bill to limit the fee, LD 639, died); type the dealer's fee. It is taxed at 5.5% as part of the sale price.",
+  "On a private sale the 5.5% use tax is computed on the price declared; the engine does not check it against a book value."
+ ],
+ "summary": {
+  "stateRate": 0.055,
+  "localRange": [
+   0,
+   0
+  ],
+  "taxName": "sales and use tax",
+  "tradeInCredit": true,
+  "titleFee": 33,
+  "regMethod": "flat",
+  "regYears": 1,
+  "docFeeCap": null,
+  "docFeeNote": "No cap in Maine law (LD 639 of 2023 died); the fee is part of the taxable sale price.",
+  "evFee": null,
+  "phevFee": null,
+  "hybridFee": null,
+  "inspection": "both",
+  "inspectionWhere": "Yearly safety inspection for every registered car; in Cumberland County it is an enhanced inspection that adds the OBD emissions check for 1996 and newer models.",
+  "inspectionFee": [
+   12.5,
+   18.5
+  ],
+  "annualValueTax": true
+ },
+ "params": {
+  "g": {
+   "tax": {
+    "label": "Sales and use tax (5.5%)",
+    "rate": 0.055,
+    "tradeInCredit": true,
+    "docFeeTaxable": true,
+    "source": "rate",
+    "note": "5.5% of the price minus the trade-in allowance; dealer documentation fees are part of the taxable price."
+   },
+   "once": [
+    {
+     "id": "title",
+     "label": "Certificate of title",
+     "amount": 33,
+     "source": "title",
+     "kind": "title",
+     "note": "The $33 includes the first security interest (lien)."
+    }
+   ],
+   "reg": {
+    "label": "Automobile registration (1 year)",
+    "source": "reg",
+    "type": "flat",
+    "amount": 35
+   },
+   "cycle": [],
+   "valueFees": [
+    {
+     "id": "excise",
+     "label": "Municipal excise tax (mills on the MSRP by model year)",
+     "kind": "value",
+     "pct": 0.001,
+     "base": "msrp",
+     "factors": [
+      24,
+      17.5,
+      13.5,
+      10,
+      6.5,
+      4
+     ],
+     "depBy": "age",
+     "min": 5,
+     "source": "excise",
+     "note": "24 mills per dollar of the MSRP in the first year of the model, then 17.5, 13.5, 10, 6.5 and 4 mills from the sixth year; paid to your town before registering."
+    }
+   ],
+   "inspection": [
+    {
+     "id": "inspection",
+     "label": "Yearly safety inspection (legal maximum)",
+     "amount": 12.5,
+     "years": 1,
+     "source": "inspection",
+     "countyFlag": "standard",
+     "newExemptYears": 1,
+     "note": "Maximum fee a station may charge; a car bought from a dealer comes with a current sticker."
+    },
+    {
+     "id": "inspection-enhanced",
+     "label": "Yearly enhanced inspection with OBD check, Cumberland County (legal maximum)",
+     "amount": 18.5,
+     "years": 1,
+     "source": "inspection",
+     "countyFlag": "enhanced",
+     "newExemptYears": 1,
+     "note": "Maximum fee for a 1996 or newer car; a car bought from a dealer comes with a current sticker."
+    }
+   ]
+  }
+ },
+ "counties": [
+  {
+   "id": "androscoggin-county",
+   "name": "Androscoggin County",
+   "enhanced": false,
+   "standard": true
+  },
+  {
+   "id": "aroostook-county",
+   "name": "Aroostook County",
+   "enhanced": false,
+   "standard": true
+  },
+  {
+   "id": "cumberland-county",
+   "name": "Cumberland County",
+   "enhanced": true,
+   "standard": false
+  },
+  {
+   "id": "franklin-county",
+   "name": "Franklin County",
+   "enhanced": false,
+   "standard": true
+  },
+  {
+   "id": "hancock-county",
+   "name": "Hancock County",
+   "enhanced": false,
+   "standard": true
+  },
+  {
+   "id": "kennebec-county",
+   "name": "Kennebec County",
+   "enhanced": false,
+   "standard": true
+  },
+  {
+   "id": "knox-county",
+   "name": "Knox County",
+   "enhanced": false,
+   "standard": true
+  },
+  {
+   "id": "lincoln-county",
+   "name": "Lincoln County",
+   "enhanced": false,
+   "standard": true
+  },
+  {
+   "id": "oxford-county",
+   "name": "Oxford County",
+   "enhanced": false,
+   "standard": true
+  },
+  {
+   "id": "penobscot-county",
+   "name": "Penobscot County",
+   "enhanced": false,
+   "standard": true
+  },
+  {
+   "id": "piscataquis-county",
+   "name": "Piscataquis County",
+   "enhanced": false,
+   "standard": true
+  },
+  {
+   "id": "sagadahoc-county",
+   "name": "Sagadahoc County",
+   "enhanced": false,
+   "standard": true
+  },
+  {
+   "id": "somerset-county",
+   "name": "Somerset County",
+   "enhanced": false,
+   "standard": true
+  },
+  {
+   "id": "waldo-county",
+   "name": "Waldo County",
+   "enhanced": false,
+   "standard": true
+  },
+  {
+   "id": "washington-county",
+   "name": "Washington County",
+   "enhanced": false,
+   "standard": true
+  },
+  {
+   "id": "york-county",
+   "name": "York County",
+   "enhanced": false,
+   "standard": true
+  }
+ ],
+ "defaultCounty": "cumberland-county",
+ "singular": [
+  "Maine's yearly car tax is a municipal excise paid to your town before the state registers the car, set by statute at 24 mills per dollar of the maker's list price in the model's first year [excise].",
+  "The excise rate falls with the model year: 17.5 mills in the second year, 13.5 in the third, 10 in the fourth, 6.5 in the fifth and 4 mills from the sixth year on, with a $5 minimum [excise].",
+  "Because the excise follows the list price and not the price paid, a dealer discount does not lower it; buyers of a new car hand the MSRP sticker to the excise collector [excise].",
+  "The state sales and use tax is 5.5% of the price, the same general rate as other goods [rate].",
+  "When a car is traded toward another car, the 5.5% applies only to the difference between the price and the trade-in allowance [trade-in].",
+  "A private sale of a car is not exempt: Maine levies its tax on casual sales of motor vehicles [casual].",
+  "Maine Revenue Services treats dealer processing and documentation fees as part of the taxable sale price [ib24].",
+  "A one-year automobile registration costs $35, and a certificate of title costs $33 [reg].",
+  "Every registered car needs a yearly inspection; stations may charge at most $12.50, or $18.50 for the enhanced inspection required in Cumberland County [inspection].",
+  "Maine has no electric or hybrid registration surcharge in its registration fee statute; an automobile pays the same $35 whatever its fuel [reg]."
+ ],
+ "sources": {
+  "excise": {
+   "name": "36 M.R.S. §1482, Excise tax",
+   "url": "https://legislature.maine.gov/statutes/36/title36sec1482.html",
+   "accessed": "2026-10-11",
+   "quote": "a sum equal to 24 mills on each dollar of the maker's list price for the first or current year of model, 17 1/2 mills for the 2nd year, 13 1/2 mills for the 3rd year, 10 mills for the 4th year, 6 1/2 mills for the 5th year and 4 mills for the 6th and succeeding years. The minimum tax is $5"
+  },
+  "rate": {
+   "name": "36 M.R.S. §1811, Sales tax rate",
+   "url": "https://legislature.maine.gov/statutes/36/title36sec1811.html",
+   "accessed": "2026-10-11",
+   "quote": "For sales occurring on or after October 1, 2019, the rate of tax is 5.5% on the value of all tangible personal property and taxable services"
+  },
+  "trade-in": {
+   "name": "36 M.R.S. §1765, Trade-in credit",
+   "url": "https://legislature.maine.gov/statutes/36/title36sec1765.html",
+   "accessed": "2026-10-11",
+   "quote": "the tax imposed by this Part must be levied only upon the difference between the sale price of the purchased property and the trade-in allowance of the property taken in trade ... 1. Motor vehicles."
+  },
+  "casual": {
+   "name": "36 M.R.S. §1764, Tax against certain casual sales",
+   "url": "https://legislature.maine.gov/statutes/36/title36sec1764.html",
+   "accessed": "2026-10-11",
+   "quote": "The tax imposed by this Part must be levied ... upon all casual sales ... involving the sale of trailers, truck campers, motor vehicles"
+  },
+  "ib24": {
+   "name": "Maine Revenue Services, Instructional Bulletin No. 24, Vehicle Dealers (12/22/2025)",
+   "url": "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/IB24%20FINAL%20Vehicle%20Dealers_2025_12_22.pdf",
+   "accessed": "2026-10-11",
+   "quote": "All charges imposed by a dealer for services that are part of the sale are considered part of the sale price of the vehicle and are subject to sales tax. Examples include: “Processing fees” or “documentation fees.”"
+  },
+  "title": {
+   "name": "29-A M.R.S. §603, Fees (certificate of title)",
+   "url": "https://legislature.maine.gov/statutes/29-A/title29-Asec603.html",
+   "accessed": "2026-10-11",
+   "quote": "A fee of $33 must be paid to the Secretary of State for the following: ... B. Filing an application for a first certificate of title, including security interest; ... D. A certificate of title after a transfer"
+  },
+  "reg": {
+   "name": "29-A M.R.S. §501, Fees for registration; motor vehicles",
+   "url": "https://legislature.maine.gov/statutes/29-A/title29-Asec501.html",
+   "accessed": "2026-10-11",
+   "quote": "The fee for an automobile, a pickup truck registered for 6,000 pounds or less or a sport utility vehicle used for the conveyance of passengers or interchangeably for passengers or property is $35."
+  },
+  "inspection": {
+   "name": "29-A M.R.S. §1751, Motor vehicle inspection",
+   "url": "https://legislature.maine.gov/statutes/29-A/title29-Asec1751.html",
+   "accessed": "2026-10-11",
+   "quote": "a motor vehicle required to be registered in this State must have an annual inspection ... For inspections performed under subsection 2, the fee may not be more than $12.50 ... 1996 and subsequent model vehicles performed under subsection 2-A, the fee may not be more than $18.50."
+  },
+  "dealer-insp": {
+   "name": "29-A M.R.S. §1754, Inspection by dealers and transporters",
+   "url": "https://legislature.maine.gov/statutes/29-A/title29-Asec1754.html",
+   "accessed": "2026-10-11",
+   "quote": "Is sold or transferred to another person, meets inspection standards and displays a valid certificate of inspection issued within 60 days of the sale or transfer"
+  },
+  "doc-fee": {
+   "name": "Maine Legislature, LD 639 (131st), An Act to Protect Vehicle Buyers by Limiting Vehicle Document Preparation Fees",
+   "url": "https://legislature.maine.gov/LawMakerWeb/summary.asp?LD=639&SessionID=15",
+   "accessed": "2026-10-11",
+   "quote": "On motion by Senator CHIPMAN of Cumberland the Majority Ought Not to Pass Report ACCEPTED . in concurrence Placed in Legislative Files (DEAD)"
+  }
+ }
+}

@@ -1,0 +1,115 @@
+{
+ "abbr": "MA",
+ "name": "Massachusetts",
+ "slug": "massachusetts",
+ "agency": {
+  "name": "Massachusetts Registry of Motor Vehicles",
+  "short": "RMV",
+  "url": "https://www.mass.gov/orgs/massachusetts-registry-of-motor-vehicles"
+ },
+ "taxAgency": {
+  "name": "Massachusetts Department of Revenue",
+  "url": "https://www.mass.gov/orgs/massachusetts-department-of-revenue"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "The motor vehicle excise is a calendar-year tax prorated by month when a car is first registered after January; the engine shows the full-year amount for the purchase year, as a deferred line billed later by the city or town.",
+  "The excise valuation is a percentage of the manufacturer's list price for the model, not of the price paid; when the MSRP is not typed, the engine uses the price, which understates the excise of a discounted new car and of any used car.",
+  "On a private sale the use tax is computed on the price or the NADA average trade-in value, whichever is greater; the form does not ask the book value, so the engine taxes the price.",
+  "No cap on the dealer documentation fee was found in Massachusetts law; only the separate title preparation fee is limited to $5 (G.L. c. 90D, §33). Type the dealer's fee; it is taxed as part of the sales price."
+ ],
+ "summary": {
+  "stateRate": 0.0625,
+  "localRange": [
+   0,
+   0
+  ],
+  "taxName": "sales and use tax",
+  "tradeInCredit": true,
+  "titleFee": 75,
+  "regMethod": "flat",
+  "regYears": 2,
+  "docFeeCap": null,
+  "docFeeNote": "No cap on the documentary fee; the separate title preparation fee is limited to $5, and both are taxable.",
+  "evFee": null,
+  "phevFee": null,
+  "hybridFee": null,
+  "inspection": "both",
+  "inspectionWhere": "Every registered car needs a yearly safety and emissions inspection ($35), within 7 days of registration for a newly bought car; cars under 15 years with OBD also take the emissions test.",
+  "inspectionFee": 35,
+  "annualValueTax": true
+ },
+ "params": {
+  "_src": "dd14-1 (rate, doc fee), cmr (trade-in, private sale), fees (title, registration), c60a (excise), inspection",
+  "tax": {
+   "rate": 0.0625
+  },
+  "title": {
+   "fee": 75
+  },
+  "reg": {
+   "fee": 60,
+   "years": 2
+  },
+  "excise": {
+   "perThousand": 25,
+   "yearBefore": 0.5,
+   "schedule": [
+    0.9,
+    0.6,
+    0.4,
+    0.25,
+    0.1
+   ],
+   "min": 5
+  },
+  "inspection": {
+   "fee": 35
+  }
+ },
+ "singular": [
+  "Every city and town bills a yearly motor vehicle excise of $25 per $1,000 of the car's valuation, in place of a personal property tax [c60a].",
+  "The excise valuation is a fixed share of the manufacturer's list price: 50% in the year before the model year, 90% in the model year, then 60%, 40%, 25% and 10% from the fifth year on [c60a].",
+  "A car registered after January pays a prorated excise for the months left in the calendar year, and the excise is never less than $5 [c60a].",
+  "Sales and use tax on a car is 6.25%, and the RMV will not issue a title and registration until it is paid [cmr].",
+  "A trade-in lowers the tax only when the car is bought from a Massachusetts dealer; on a private sale the trade-in gives no credit [cmr].",
+  "On a private sale the tax base is the price paid or the NADA average trade-in value, whichever is greater [cmr].",
+  "The Department of Revenue treats dealer document preparation and title preparation fees as part of the taxable sales price, even when financed [dd14-1].",
+  "A standard passenger registration costs $60 and is renewed every two years, and a certificate of title costs $75 [fees].",
+  "A newly bought car must pass inspection within 7 days of registration, and the yearly inspection costs $35 for most vehicles [inspection].",
+  "Massachusetts charges no extra registration fee for electric or hybrid cars; a standard passenger plate costs the same $60 [fees]."
+ ],
+ "sources": {
+  "c60a": {
+   "name": "Mass. General Laws c. 60A, §1, Motor vehicle excise",
+   "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleIX/Chapter60A/Section1",
+   "accessed": "2026-10-11",
+   "quote": "at the rate of twenty-five dollars per thousand of valuation ... In the year preceding the designated year of manufacture .... 50% In the year of manufacture .... 90% In the second year .... 60% In the third year .... 40% In the fourth year .... 25% In the fifth and succeeding years .... 10%"
+  },
+  "dd14-1": {
+   "name": "Massachusetts DOR, Directive 14-1: Document and Title Preparation Fees Charged by Motor Vehicle Dealers",
+   "url": "https://www.mass.gov/directive/directive-14-1-document-and-title-preparation-fees-charged-by-motor-vehicle-dealers",
+   "accessed": "2026-10-11",
+   "quote": "Separately stated document preparation fees and title preparation fees charged by a motor vehicle dealer in connection with the sale of a motor vehicle are part of the sales price subject to sales tax ... at the rate of 6.25 percent"
+  },
+  "cmr": {
+   "name": "830 CMR 64H.25.1: Motor Vehicles (Massachusetts DOR regulation)",
+   "url": "https://www.mass.gov/regulations/830-CMR-64h251-motor-vehicles",
+   "accessed": "2026-10-11",
+   "quote": "the sales tax is computed on the sales price, reduced by any amount credited towards the sales price by reason of a trade-in ... casual and isolated sale ... the greater of either 1) the actual amount paid by the purchaser for the vehicle, or 2) the average trade-in value"
+  },
+  "fees": {
+   "name": "Massachusetts RMV, Schedule of Fees (revised May 2025)",
+   "url": "https://www.mass.gov/doc/rmv-schedule-of-fees/download",
+   "accessed": "2026-10-11",
+   "quote": "PAN ***Passenger Normal ... $60.00 ... $60.00 $60.00 B ... A=Annual Renewal • B=Biennial Renewal ... Certificate of Title ... $75.00 ... Motor Vehicle Annual Inspection ... 35.00"
+  },
+  "inspection": {
+   "name": "Massachusetts RMV, Vehicle inspections",
+   "url": "https://www.mass.gov/info-details/vehicle-inspections",
+   "accessed": "2026-10-11",
+   "quote": "All vehicles registered in Massachusetts must pass a yearly vehicle inspection. Newly purchased vehicles must be inspected within 7 days of registration. Inspections cost $35 for most vehicles."
+  }
+ }
+}

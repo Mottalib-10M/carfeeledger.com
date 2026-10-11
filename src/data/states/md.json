@@ -1,0 +1,342 @@
+{
+ "abbr": "MD",
+ "name": "Maryland",
+ "slug": "maryland",
+ "agency": {
+  "name": "Maryland Motor Vehicle Administration",
+  "short": "MVA",
+  "url": "https://mva.maryland.gov/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "The electric and plug-in hybrid surcharge was set at $125 and $100 a year by the Budget Reconciliation and Financing Act of 2024 and has been adjusted for inflation by the MVA since July 1, 2025; the current adjusted amount was not readable on an official page for this release (the MVA site refused access), so the line has no amount.",
+  "The VEIP emissions test fee was capped at $30 through June 30, 2026 and is then adjusted for inflation; the adjusted amount was not read on an official page, so the emissions test is shown without an amount.",
+  "The safety inspection required before titling a used car is priced by each licensed station; it is shown without an amount.",
+  "On a private sale of a car less than 7 years old, the excise is due on the book value when the price is $500 or more below it (unless a notarized bill of sale is accepted); a car 7 years or older is taxed on at least $640. The form does not ask the book value, so the engine taxes the price.",
+  "Registration fees are for a passenger car (Class A) by manufacturer's shipping weight; a pickup registered as a Class E truck pays a different schedule based on its maximum gross weight, which the form does not ask.",
+  "The engine uses a two-year registration; a one-year term is also offered (with a payment schedule), at half the amount."
+ ],
+ "summary": {
+  "stateRate": 0.065,
+  "localRange": [
+   0,
+   0
+  ],
+  "taxName": "motor vehicle excise (titling) tax",
+  "tradeInCredit": true,
+  "titleFee": 200,
+  "regMethod": "weight",
+  "regYears": 2,
+  "docFeeCap": 800,
+  "docFeeNote": "Dealer processing charge capped at $800 since July 1, 2024, and included in the price subject to the 6.5% excise.",
+  "evFee": 125,
+  "phevFee": 100,
+  "hybridFee": null,
+  "inspection": "both",
+  "inspectionWhere": "Safety inspection at a licensed station before a used car is titled; VEIP emissions test every two years in Baltimore City and 13 counties (Anne Arundel, Baltimore, Calvert, Carroll, Cecil, Charles, Frederick, Harford, Howard, Montgomery, Prince George's, Queen Anne's, Washington).",
+  "inspectionFee": 30,
+  "annualValueTax": false,
+  "evFeeLabel": "$125 base, indexed",
+  "phevFeeLabel": "$100 base, indexed"
+ },
+ "params": {
+  "g": {
+   "tax": {
+    "label": "Motor vehicle excise tax (6.5%, minimum $100)",
+    "rate": 0.065,
+    "minTax": 100,
+    "tradeInCredit": true,
+    "docFeeTaxable": true,
+    "source": "excise",
+    "note": "6.5% of the price including the dealer processing charge, minus the trade-in allowance."
+   },
+   "once": [
+    {
+     "id": "title",
+     "label": "Certificate of title",
+     "amount": 200,
+     "source": "title",
+     "kind": "title"
+    }
+   ],
+   "reg": {
+    "label": "Class A passenger registration (2 years, by shipping weight)",
+    "source": "reg",
+    "years": 2,
+    "type": "weight",
+    "brackets": [
+     {
+      "upTo": 3500,
+      "amount": 161
+     },
+     {
+      "upTo": 3700,
+      "amount": 171
+     },
+     {
+      "upTo": null,
+      "amount": 303
+     }
+    ]
+   },
+   "cycle": [
+    {
+     "id": "ems",
+     "label": "Emergency medical system surcharge ($40 a year)",
+     "amount": 80,
+     "source": "ems",
+     "kind": "registration",
+     "years": 2
+    }
+   ],
+   "ranges": [
+    {
+     "id": "ev",
+     "label": "Zero-emission vehicle surcharge (two years, inflation-adjusted)",
+     "range": null,
+     "kind": "ev",
+     "source": "ev-law",
+     "note": "$125 a year in the 2024 law, adjusted for inflation by the MVA since July 1, 2025; both years are paid with a two-year registration.",
+     "if": {
+      "fuel": [
+       "ev"
+      ]
+     }
+    },
+    {
+     "id": "phev",
+     "label": "Plug-in hybrid surcharge (two years, inflation-adjusted)",
+     "range": null,
+     "kind": "ev",
+     "source": "ev-law",
+     "note": "$100 a year in the 2024 law, adjusted for inflation by the MVA since July 1, 2025.",
+     "if": {
+      "fuel": [
+       "phev"
+      ]
+     }
+    },
+    {
+     "id": "veip",
+     "label": "VEIP emissions test (every 2 years)",
+     "range": null,
+     "kind": "inspection",
+     "source": "veip",
+     "note": "Required in Baltimore City and 13 counties; the fee was $30 through June 30, 2026 and is then adjusted for inflation.",
+     "if": {
+      "countyFlag": "emissions",
+      "fuel": [
+       "gas",
+       "hybrid",
+       "phev"
+      ]
+     }
+    },
+    {
+     "id": "safety",
+     "label": "Maryland safety inspection before titling a used car (station price)",
+     "range": null,
+     "kind": "inspection",
+     "source": "safety",
+     "note": "A valid inspection certificate (90 days) is required before the MVA titles and registers a used vehicle.",
+     "when": "once",
+     "if": {
+      "used": true
+     }
+    }
+   ]
+  }
+ },
+ "counties": [
+  {
+   "id": "allegany-county",
+   "name": "Allegany County",
+   "emissions": false
+  },
+  {
+   "id": "anne-arundel-county",
+   "name": "Anne Arundel County",
+   "emissions": true
+  },
+  {
+   "id": "baltimore-city",
+   "name": "Baltimore City",
+   "emissions": true
+  },
+  {
+   "id": "baltimore-county",
+   "name": "Baltimore County",
+   "emissions": true
+  },
+  {
+   "id": "calvert-county",
+   "name": "Calvert County",
+   "emissions": true
+  },
+  {
+   "id": "caroline-county",
+   "name": "Caroline County",
+   "emissions": false
+  },
+  {
+   "id": "carroll-county",
+   "name": "Carroll County",
+   "emissions": true
+  },
+  {
+   "id": "cecil-county",
+   "name": "Cecil County",
+   "emissions": true
+  },
+  {
+   "id": "charles-county",
+   "name": "Charles County",
+   "emissions": true
+  },
+  {
+   "id": "dorchester-county",
+   "name": "Dorchester County",
+   "emissions": false
+  },
+  {
+   "id": "frederick-county",
+   "name": "Frederick County",
+   "emissions": true
+  },
+  {
+   "id": "garrett-county",
+   "name": "Garrett County",
+   "emissions": false
+  },
+  {
+   "id": "harford-county",
+   "name": "Harford County",
+   "emissions": true
+  },
+  {
+   "id": "howard-county",
+   "name": "Howard County",
+   "emissions": true
+  },
+  {
+   "id": "kent-county",
+   "name": "Kent County",
+   "emissions": false
+  },
+  {
+   "id": "montgomery-county",
+   "name": "Montgomery County",
+   "emissions": true
+  },
+  {
+   "id": "prince-georges-county",
+   "name": "Prince George's County",
+   "emissions": true
+  },
+  {
+   "id": "queen-annes-county",
+   "name": "Queen Anne's County",
+   "emissions": true
+  },
+  {
+   "id": "st-marys-county",
+   "name": "St. Mary's County",
+   "emissions": false
+  },
+  {
+   "id": "somerset-county",
+   "name": "Somerset County",
+   "emissions": false
+  },
+  {
+   "id": "talbot-county",
+   "name": "Talbot County",
+   "emissions": false
+  },
+  {
+   "id": "washington-county",
+   "name": "Washington County",
+   "emissions": true
+  },
+  {
+   "id": "wicomico-county",
+   "name": "Wicomico County",
+   "emissions": false
+  },
+  {
+   "id": "worcester-county",
+   "name": "Worcester County",
+   "emissions": false
+  }
+ ],
+ "defaultCounty": "montgomery-county",
+ "singular": [
+  "Maryland's purchase tax is an excise collected at titling: 6.5% of the vehicle's fair market value, with a $100 minimum [excise].",
+  "For a dealer sale, the taxed price includes the dealer processing charge and is reduced by the trade-in allowance [excise].",
+  "A private sale of a car 7 or more years old is taxed on at least $640; a younger car sold $500 or more below book value is taxed on the book value unless a notarized MVA bill of sale is accepted [excise].",
+  "A certificate of title costs $200 [title].",
+  "Passenger car registration depends on shipping weight: $80.50 a year up to 3,500 lb, $85.50 up to 3,700 lb and $151.50 above, since July 1, 2025 [reg].",
+  "Every registration also carries a $40 yearly surcharge for the emergency medical system and Shock Trauma [ems].",
+  "Electric cars pay a yearly surcharge set at $125 and plug-in hybrids $100 by the 2024 budget law, adjusted for inflation every year since July 2025 [ev-law].",
+  "Dealer processing charges are capped at $800 for sales on or after July 1, 2024, and must be printed on the contract as not required by law [doc-fee].",
+  "A used car needs a Maryland safety inspection certificate, valid 90 days, before the MVA titles and registers it [safety].",
+  "Cars registered in Baltimore City and 13 counties take a VEIP emissions test every two years; the fee was $30 through June 30, 2026 [veip]."
+ ],
+ "sources": {
+  "excise": {
+   "name": "Md. Code, Transportation §13-809, Excise tax on vehicle titling",
+   "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=13-809&enactments=false",
+   "accessed": "2026-10-11",
+   "quote": "“Total purchase price” means the price of a vehicle agreed on by the buyer and the seller, including any dealer processing charge, less an allowance for trade–in ... 6.5% of the fair market value of the vehicle ... the minimum tax imposed under this section shall be $100."
+  },
+  "title": {
+   "name": "Md. Code, Transportation §13-802, Certificate of title fee",
+   "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=13-802&enactments=false",
+   "accessed": "2026-10-11",
+   "quote": "the fee for each certificate of title issued under this title is $200."
+  },
+  "reg": {
+   "name": "Md. Code, Transportation §13-912, Class A (passenger) vehicle registration fee",
+   "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=13-912&enactments=false",
+   "accessed": "2026-10-11",
+   "quote": "3,500 pounds or less: ... On or after July 1, 2025, $80.50 ... more than 3,500 pounds but not more than 3,700 pounds: ... On or after July 1, 2025, $85.50 ... more than 3,700 pounds: ... On or after July 1, 2025, $151.50."
+  },
+  "ems": {
+   "name": "Md. Code, Transportation §13-954, Registration surcharge",
+   "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=13-954&enactments=false",
+   "accessed": "2026-10-11",
+   "quote": "In addition to the registration fee otherwise required by this title, the owner of any motor vehicle registered under this title shall pay a surcharge of $40.00 per year for each motor vehicle registered."
+  },
+  "ev-law": {
+   "name": "Md. Code, Transportation §13-956, Annual surcharge on zero-emission and plug-in vehicles",
+   "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=13-956&enactments=false",
+   "accessed": "2026-10-11",
+   "quote": "On or before July 1, 2025, of: (i) $125.00 for each zero–emission vehicle ... (ii) $100.00 for each plug–in electric drive vehicle ... After June 30, 2025, at a rate based on the amounts established under item (1) of this subsection adjusted for inflation as determined annually by the Administration."
+  },
+  "ev-bulletin": {
+   "name": "Maryland MVA, Dealer Bulletin D-11-24-02 (Nov. 19, 2024), Annual surcharge for certain electric vehicles",
+   "url": "https://mva.maryland.gov/businesses/Documents/bulletins/2024/Payment%20Schedule-%20Dealer%20Bulletin.pdf",
+   "accessed": "2026-10-11",
+   "quote": "$125.00 each year for each ZEV • $100.00 each year for each PHEV ... If a customer wants a 2-year registration, the customer must pay the annual surcharge for both years at the time of registration."
+  },
+  "doc-fee": {
+   "name": "Md. Code, Transportation §15-311.1, Dealer processing charge",
+   "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=15-311.1&enactments=false",
+   "accessed": "2026-10-11",
+   "quote": "May not exceed: ... $800 on and after July 1, 2024 ... “Dealer processing charge (not required by law): $....”."
+  },
+  "safety": {
+   "name": "Md. Code, Transportation §23-107, Inspection of used vehicles",
+   "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=23-107&enactments=false",
+   "accessed": "2026-10-11",
+   "quote": "Before the Administration titles and registers any used vehicle, except a Class L (historic) vehicle, it shall require a valid inspection certificate for the vehicle ... 90 days"
+  },
+  "veip": {
+   "name": "Maryland Department of Legislative Services, Fiscal and Policy Note, HB 806 (2026 session)",
+   "url": "https://mgaleg.maryland.gov/2026RS/fnotes/bil_0006/hb0806.pdf",
+   "accessed": "2026-10-11",
+   "quote": "inspected and tested every two years ... may not exceed $30 through June 30, 2026. The current fee is $30 but must be adjusted in future fiscal years ... (Baltimore City and Anne Arundel, Baltimore, Calvert, Carroll, Cecil, Charles, Frederick, Harford, Howard, Montgomery, Prince George’s, Queen Anne’s, and Washington counties)"
+  }
+ }
+}

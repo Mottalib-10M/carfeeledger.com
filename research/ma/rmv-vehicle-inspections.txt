@@ -1,0 +1,5 @@
+SOURCE: https://www.mass.gov/info-details/vehicle-inspections (read via Chrome 2026-10-11)
+All vehicles registered in Massachusetts must pass a yearly vehicle inspection.
+Newly purchased vehicles must be inspected within 7 days of registration
+Inspections cost $35 for most vehicles. Inspection stations can charge more for commercial inspection.
+Vehicles with onboard diagnostic systems that are less than 15 years old must pass an annual emissions test.

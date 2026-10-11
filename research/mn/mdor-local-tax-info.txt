@@ -1,0 +1,367 @@
+SOURCE: https://www.revenue.state.mn.us/local-sales-tax-information (read via r.jina.ai reader 2026-10-11)
+Title: Local Sales Tax Information | Minnesota Department of Revenue
+
+URL Source: https://www.revenue.state.mn.us/local-sales-tax-information
+
+Markdown Content:
+#### Automatic translation disclaimer
+
+Minnesota Department of Revenue provides automatic translation for our website (revenue.state.mn.us) into Spanish, Somali, and Hmong, using Google Translate. Please remember, the English language version is considered the most accurate. In the event of a disagreement or discrepancy between the translation and the original English version of this website or any notice or disclaimer, the original version will prevail.
+
+For more information about the automatic website translation visit,[Translation Disclaimer](https://www.revenue.state.mn.us/translation-disclaimer).
+
+[Español](https://www.revenue.state.mn.us/local-sales-tax-information#Espa%C3%B1ol) | [Hmong](https://www.revenue.state.mn.us/local-sales-tax-information#Hmong) | [Afsoomaali](https://www.revenue.state.mn.us/local-sales-tax-information#Afsoomaali)
+
+#### [Descargo de responsabilidad de traducción automática](https://www.revenue.state.mn.us/local-sales-tax-information)
+
+El Departamento de Ingresos de Minnesota proporciona traducción automática de nuestro sitio web (revenue.state.mn.us) al español, somalí y hmong mediante Google Translate. Recuerde que la versión en inglés se considera la más precisa. En caso de desacuerdo o discrepancia entre la traducción y la versión original en inglés de este sitio web o cualquier aviso o exención de responsabilidad, prevalecerá la versión original.
+
+Para más información sobre la traducción automática de sitios web, visite [Descargo de responsabilidad de traducción](https://www.revenue.state.mn.us/descargo-de-responsabilidad-sobre-la-traduccion).
+
+#### [Kev lees qhov meej ntawm cov lus txhais automatic](https://www.revenue.state.mn.us/local-sales-tax-information)
+
+Minnesota Department of Revenue muaj cov lus cia li (automatic) txhais rau hauv peb lub website (revenue.state.mn.us) los ua lub Spanish, Somali, thiab Hmoob, uas pev siv Google Translate. Thov nco ntsoov tias, cov lus Askiv (English) yog cov meej tshaj lawm. Yog thaum twg muaj kev tsis sib to taub lossis cov lus txhais tsis meej yuam kev thiab cov lus Askiv (English) hauv qhov website no lossis cov lus qhia lossis tsis lees paub ntawd, daim tseem tseem thiaj li nres tau xwb.
+
+Yog xav paub ntxiv txog qhov cia li (automatic) lub website mus saib ntawm, [Tsis Lees qhov Meej Ntawm cov Lus Txhais](https://www.revenue.state.mn.us/tsis-lees-qhov-meej-ntawm-cov-lus-txhais).
+
+#### [Afeefta tarjumaada tooska ah](https://www.revenue.state.mn.us/local-sales-tax-information)
+
+Minnesota Department of Revenue waxay bixisaa turjumaadda tooska ah ee websaydkeena (revenue.state.mn.us) iyadoona lagu turjumayo luuqadaha Isbaanish, Af-Somali, iyo Hmong, iyadoo la isticmaalayo Google Translate. Fadlan xasuusnoow, nooca luqadda Ingiriisiga ayaa loo arkaa kan ugu saxsan. Haddii ay dhacdo khilaaf ama farqi u dhexeeya tarjumaada iyo nooca Ingiriisiga orijinaalka ah ee websyadkan ama ogeysiis kasta ama afeef, nooca orijinaalka ah ayaa guulaysan doona.
+
+Wixii macluumaad dheeraad ah oo ku saabsan tarjumaada tooska ah ee websaydka booqo, [Afeef Turjumaada](https://www.revenue.state.mn.us/afeef-turjumaad).
+
+OK
+
+[Skip to content](https://www.revenue.state.mn.us/local-sales-tax-information#main-content)
+
+
+
+Search  
+
+    *   Top Tasks
+        *   [File an Income Tax Return](https://www.revenue.state.mn.us/file-income-tax-return)
+        *   [File for a Property Tax Refund](https://www.revenue.state.mn.us/filing-property-tax-refund)
+        *   [Where's My Refund?](https://www.revenue.state.mn.us/wheres-my-refund)
+        *   [Make a Payment](https://www.revenue.state.mn.us/make-payment)
+        *   [Find a Form](https://www.revenue.state.mn.us/find-form)
+        *   [Find Free Tax Preparation Help](https://www.revenue.state.mn.us/free-tax-preparation-sites)
+
+    *   Topics
+        *   [Homeowners and Renters](https://www.revenue.state.mn.us/property-tax-refund)
+        *   [Military Service Members](https://www.revenue.state.mn.us/military-service-members)
+        *   [Parents and Families](https://www.revenue.state.mn.us/parents-and-families)
+        *   [Residents and Residency](https://www.revenue.state.mn.us/residents)
+        *   [Senior Citizens](https://www.revenue.state.mn.us/senior-citizens)
+        *   [Tribal Members](https://www.revenue.state.mn.us/tribal-members)
+
+    *   Resources
+        *   [Individual Income Tax](https://www.revenue.state.mn.us/individual-income-tax)
+        *   [Property Tax Refund](https://www.revenue.state.mn.us/property-tax-refund)
+        *   [Choosing a Tax Preparer](https://www.revenue.state.mn.us/choosing-tax-preparer)
+        *   [Education and Outreach](https://www.revenue.state.mn.us/education-and-outreach-programs)
+        *   [Taxpayer Rights Advocate](https://www.revenue.state.mn.us/tra/taxpayer-rights-advocate-home)
+        *   [Collection Information](https://www.revenue.state.mn.us/collection-information)
+
+    *   Top Tasks
+        *   [Log in to e-Services](https://www.mndor.state.mn.us/tp/eservices)
+        *   [Make a Payment](https://www.revenue.state.mn.us/make-payment)
+        *   [Register for a Tax ID Number](https://www.mndor.state.mn.us/tp/eservices/_/?link=NewBusinessReg)
+        *   [Calculate Sales Tax Rate](https://www.revenue.state.mn.us/sales-tax-rate-calculator)
+        *   [Find a Form](https://www.revenue.state.mn.us/find-form)
+        *   [Starting a Business](https://www.revenue.state.mn.us/starting-business)
+
+    *   Topics
+        *   [New Business](https://www.revenue.state.mn.us/starting-business)
+        *   [Self-Employed](https://www.revenue.state.mn.us/self-employed)
+        *   [Sales and Use Tax](https://www.revenue.state.mn.us/sales-and-use-tax)
+        *   [Withholding Tax](https://www.revenue.state.mn.us/withholding-tax)
+        *   [Certificates of Rent Paid (CRPs)](https://www.revenue.state.mn.us/create-certificate-of-rent-paid)
+        *   [All Business Taxes and Fees](https://www.revenue.state.mn.us/business-taxes-and-fees)
+
+    *   Resources
+        *   [Business Tax Education](https://www.revenue.state.mn.us/business-tax-education)
+        *   [Minnesota Secretary of State](https://www.sos.state.mn.us/)
+        *   [Tax Delinquency Lists](https://www.revenue.state.mn.us/tax-delinquency-lists)
+        *   [Taxpayer Rights Advocate](https://www.revenue.state.mn.us/tra/taxpayer-rights-advocate-home)
+        *   [Collection Information](https://www.revenue.state.mn.us/collection-information)
+        *   [e-Services Information](https://www.revenue.state.mn.us/e-services-information)
+
+    *   Top Tasks
+        *   [Log in to e-Services](https://www.mndor.state.mn.us/tp/eservices)
+        *   [Find a Form](https://www.revenue.state.mn.us/find-form)
+        *   [Find Approved Software](https://www.revenue.state.mn.us/filing-software-tax-professionals)
+        *   [Make a Payment](https://www.revenue.state.mn.us/make-payment)
+        *   [Register for a Tax ID Number](https://www.mndor.state.mn.us/tp/eservices/_/?link=NewBusinessReg)
+
+    *   Topics
+        *   [Individual Income Tax](https://www.revenue.state.mn.us/individual-income-tax)
+        *   [Sales and Use Tax](https://www.revenue.state.mn.us/sales-and-use-tax)
+        *   [Withholding Tax](https://www.revenue.state.mn.us/withholding-tax)
+        *   [All Taxes and Fees](https://www.revenue.state.mn.us/all-taxes-and-fees)
+        *   [Software Providers](https://www.revenue.state.mn.us/software-providers)
+
+    *   Resources
+        *   [Tax Pro Education](https://www.revenue.state.mn.us/tax-pro-education)
+        *   [Tax Preparer Sanction List](https://www.revenue.state.mn.us/tax-preparers-subject-sanctions)
+        *   [Taxpayer Rights Advocate](https://www.revenue.state.mn.us/tra/taxpayer-rights-advocate-home)
+        *   [Collection Information](https://www.revenue.state.mn.us/collection-information)
+        *   [Tax Law Changes](https://www.revenue.state.mn.us/tax-law-changes)
+
+    *   Top Tasks
+        *   [Find or Submit an eCRV](https://www.revenue.state.mn.us/electronic-certificate-real-estate-value-ecrv)
+        *   [Create Property Tax Reports](https://www.revenue.state.mn.us/interactive-property-tax-data)
+        *   [Log in to Referring Agencies e-Services](https://www.mndor.state.mn.us/tp/client/_/)
+        *   [Log in to Revenue Recapture e-Services](https://www.mndor.state.mn.us/tp/RevenueRecapture/_/)
+        *   [Make a Payment](https://www.revenue.state.mn.us/make-payment)
+
+    *   Topics
+        *   [Local Licensing Authorities](https://www.revenue.state.mn.us/licensing-authorities)
+        *   [Property Tax Administrators](https://www.revenue.state.mn.us/property-tax-administrators)
+        *   [Referring Agencies](https://www.revenue.state.mn.us/referring-agencies)
+        *   [Revenue Recapture Agencies](https://www.revenue.state.mn.us/revenue-recapture-agencies)
+        *   [Lien Recording](https://www.revenue.state.mn.us/lien-recording)
+
+    *   Resources
+        *   [Minnesota Board of Assessors](https://www.revenue.state.mn.us/minnesota-state-board-assessors)
+        *   [Sales and Use Tax Education](https://www.revenue.state.mn.us/sales-tax-education)
+        *   [Withholding Tax Education](https://www.revenue.state.mn.us/withholding-tax-classroom-training)
+        *   [Collection Information](https://www.revenue.state.mn.us/collection-information)
+
+    *   Tax Policy
+        *   [Revenue Notices](https://www.revenue.state.mn.us/revenue-notices)Policy statements that provide added interpretation, details, or information about Minnesota tax laws or rules. 
+        *   [Minnesota Administrative Rules](https://www.revenue.state.mn.us/minnesota-administrative-rules)Administrative rules adopted by the Department of Revenue to administer Minnesota tax laws. 
+        *   [Legislative Bulletins](https://www.revenue.state.mn.us/legislative-bulletins)Annual summaries of Minnesota tax law changes enacted during each legislative session.  
+        *   [Court Cases](https://www.revenue.state.mn.us/mn-taxes-court-cases)Summaries of court decisions regarding Minnesota state taxes that involve the Commissioner or Department of Revenue. 
+
+    *   Tax Research
+        *   [Revenue Analyses](https://www.revenue.state.mn.us/revenue-analyses)Research estimates of how state House and Senate bills could affect revenues and the Minnesota tax system.  
+        *   [Reports and Studies](https://www.revenue.state.mn.us/reports-and-studies)
+        *   [Tax Statistics](https://www.revenue.state.mn.us/annual-statistics)
+        *   [Tax Rankings](https://www.revenue.state.mn.us/state-and-local-tax-and-revenue-rankings)
+        *   [Property Tax Data](https://www.revenue.state.mn.us/interactive-property-tax-data)
+
+    *   Report Fraud
+        *   [Report Tax Evasion or Tax Fraud](https://www.revenue.state.mn.us/report-tax-evasion-or-tax-fraud)
+        *   [Signs of Potential Tax Evasion or Tax Fraud](https://www.revenue.state.mn.us/signs-potential-tax-evasion-or-tax-fraud)
+        *   [Report Frontline Worker Pay Fraud](https://www.revenue.state.mn.us/report-frontline-worker-pay-fraud)
+
+    *   Identity Theft
+        *   [Identity Theft and Tax Refund Fraud](https://www.revenue.state.mn.us/identity-theft-and-tax-refund-fraud)
+        *   [Fraud and Scam Alerts](https://www.revenue.state.mn.us/fraud-and-scam-alerts)
+
+[](https://www.revenue.state.mn.us/local-sales-tax-information)
+
+## [Menu](https://www.revenue.state.mn.us/local-sales-tax-information#)
+
+    *   [](https://www.revenue.state.mn.us/local-sales-tax-information#)Top Tasks
+        *   [Calculate Sales Tax Rate](https://www.revenue.state.mn.us/sales-tax-rate-calculator)
+        *   [](https://www.revenue.state.mn.us/local-sales-tax-information#)[Sales and Use Tax Publications](https://www.revenue.state.mn.us/sales-use-tax-publications)
+            *   [Prepaid Wireless E911, TAM, and 988 Fees](https://www.revenue.state.mn.us/prepaid-wireless-e911-tam-and-988-fees)
+
+        *   [Find a Form](https://www.revenue.state.mn.us/form-search?search_text=&field_document_type=All&field_audience=All&field_tax_type=176&field_tax_year=All)
+        *   [Get Sales Tax Help](https://www.revenue.state.mn.us/get-sales-tax-help)
+        *   [Log in to e-Services](https://www.mndor.state.mn.us/tp/eservices/_/)
+        *   [Make a Payment](https://www.revenue.state.mn.us/make-payment)
+
+    *   [](https://www.revenue.state.mn.us/local-sales-tax-information#)File and Pay
+        *   [Filing Information](https://www.revenue.state.mn.us/guide/filing-information)
+        *   [Amending a Return](https://www.revenue.state.mn.us/guide/amending-sales-tax-return)
+        *   [June Accelerated Filer](https://www.revenue.state.mn.us/june-accelerated-filer)
+        *   [Sales and Use Tax Payments](https://www.revenue.state.mn.us/sales-use-tax-payments)
+        *   [Abatement Information](https://www.revenue.state.mn.us/penalty-abatement-businesses)
+        *   [Penalty and Interest](https://www.revenue.state.mn.us/penalties-and-interest-businesses)
+        *   [Sales Tax Return Filing Due Dates](https://www.revenue.state.mn.us/sales-tax-return-filing-due-dates)
+
+    *   [](https://www.revenue.state.mn.us/local-sales-tax-information#)Sales Tax Information
+        *   [Sales Tax Business Guide](https://www.revenue.state.mn.us/guide/minnesota-sales-and-use-tax-business-guide)
+        *   [Taxes and Rates](https://www.revenue.state.mn.us/guide/taxes-and-rates)
+        *   [Rate Charts](https://www.revenue.state.mn.us/rate-charts-sales-tax)
+        *   [Taxable Services in Minnesota](https://www.revenue.state.mn.us/taxable-services-minnesota)
+        *   [Sales During Transitional Periods](https://www.revenue.state.mn.us/sales-during-transitional-periods-transitional-sales)
+        *   [Streamlined Sales Tax](https://www.revenue.state.mn.us/streamlined-sales-and-use-tax)
+        *   [Sales Tax Refunds](https://www.revenue.state.mn.us/sales-tax-refunds)
+        *   [Minnesota Voluntary Disclosure Program](https://www.revenue.state.mn.us/minnesota-voluntary-disclosure-program)
+        *   [Direct Pay Authorization](https://www.revenue.state.mn.us/direct-pay-authorization)
+        *   [](https://www.revenue.state.mn.us/local-sales-tax-information#)[Cannabis Tax](https://www.revenue.state.mn.us/cannabis-tax)
+            *   [Cannabis Business Tax Payments](https://www.revenue.state.mn.us/cannabis-business-tax-payments)
+
+        *   [Penny Shortage](https://www.revenue.state.mn.us/penny-shortages)
+
+    *   [](https://www.revenue.state.mn.us/local-sales-tax-information#)Local Sales Tax Information
+        *   [Local Sales Tax Information](https://www.revenue.state.mn.us/local-sales-tax-information)
+        *   [Local Sales Tax Notices](https://www.revenue.state.mn.us/local-sales-tax-notices)
+        *   [Calculate Sales Tax Rate](https://www.revenue.state.mn.us/sales-tax-rate-calculator)
+        *   [Starting a New Local Sales Tax](https://www.revenue.state.mn.us/starting-local-sales-tax)
+
+    *   [](https://www.revenue.state.mn.us/local-sales-tax-information#)Use Tax Information
+        *   [Use Tax for Businesses](https://www.revenue.state.mn.us/guide/taxes-and-rates)
+
+    *   [](https://www.revenue.state.mn.us/local-sales-tax-information#)Exemptions and Refunds
+        *   [Capital Equipment Exemption](https://www.revenue.state.mn.us/capital-equipment-exemption)
+        *   [Refund Requests for Sales Tax](https://www.revenue.state.mn.us/refund-requests-sales-and-use-tax)
+        *   [Application for Nonprofit Exempt Status](https://www.revenue.state.mn.us/application-nonprofit-exempt-status)
+        *   [Qualified Data Centers](https://www.revenue.state.mn.us/qualified-data-centers)
+        *   [Greater Minnesota Job Expansion Refund Program](https://www.revenue.state.mn.us/greater-minnesota-job-expansion-refund-program)
+        *   [Destination Medical Center](https://www.revenue.state.mn.us/destination-medical-center-exemption)
+
+    *   [](https://www.revenue.state.mn.us/local-sales-tax-information#)Remote Seller Information
+        *   [Sales Tax for Remote Sellers](https://www.revenue.state.mn.us/sales-tax-faqs-remote-sellers)
+        *   [Sales Tax for Marketplace Providers](https://www.revenue.state.mn.us/sales-tax-marketplace-providers)
+        *   [Local Sales Tax Requirements for Minnesota Sellers](https://www.revenue.state.mn.us/local-sales-tax-requirements-sellers)
+        *   [Sales Tax API](https://www.revenue.state.mn.us/sales-tax-api-application-program-interface)
+
+    *   [](https://www.revenue.state.mn.us/local-sales-tax-information#)Education
+        *   [](https://www.revenue.state.mn.us/local-sales-tax-information#)[Sales Tax Education](https://www.revenue.state.mn.us/sales-tax-education)
+            *   [](https://www.revenue.state.mn.us/local-sales-tax-information#)Classes
+                *   [Introduction to Sales and Use Tax](https://www.revenue.state.mn.us/introduction-sales-and-use-tax-course)
+                *   [e-Services for Sales and Use Tax](https://www.revenue.state.mn.us/e-services-sales-and-use-tax)
+                *   [Agricultural and Farming Industry](https://www.revenue.state.mn.us/sales-and-use-tax-agricultural-and-farming-industry-course)
+                *   [Cannabis Agricultural Production](https://www.revenue.state.mn.us/sales-and-use-tax-cannabis-agricultural-production-course)
+                *   [Cannabis Manufacturing](https://www.revenue.state.mn.us/sales-and-use-tax-cannabis-manufacturing)
+                *   [Cannabis Retailers](https://www.revenue.state.mn.us/sales-and-use-tax-cannabis-retailers)
+                *   [Contractors](https://www.revenue.state.mn.us/sales-and-use-tax-contractors-course)
+                *   [Manufacturers](https://www.revenue.state.mn.us/sales-and-use-tax-manufacturers-course)
+                *   [Minnesota-Wisconsin Border Issues](https://www.revenue.state.mn.us/minnesota/wisconsin-border-issues-course)
+                *   [Retailers](https://www.revenue.state.mn.us/sales-and-use-tax-retailers-course)
+                *   [Taxable Service Providers](https://www.revenue.state.mn.us/sales-and-use-tax-taxable-service-providers-course)
+                *   [Local Governments](https://www.revenue.state.mn.us/sales-and-use-tax-local-governments)
+                *   [Schools](https://www.revenue.state.mn.us/sales-and-use-tax-schools-course)
+                *   [Sourcing of Sales](https://www.revenue.state.mn.us/sourcing-sales)
+
+            *   [Continuing Professional Education (CPE)](https://www.revenue.state.mn.us/continuing-professional-education)
+
+field_block:node:page:title
+
+# Local Sales Tax Information
+
+field_block:node:page:body
+
+The Minnesota Department of Revenue administers many local sales taxes. Local sales taxes apply to the same items and services as the general state sales tax. For more information on what is taxable, see [Taxable Sales](https://www.revenue.state.mn.us/guide/taxable-sales) in our Sales and Use Tax Business Guide.
+
+## Local Sales Tax Notices
+
+We announce when local taxes start, change, or end. You can find recently announced local taxes and older ones on our [Local Sales Tax Notices](https://www.revenue.state.mn.us/local-sales-tax-notices) page.
+
+## Resources
+
+We have resources to help you find tax rates and tax type codes. We also have fact sheets to help you learn more about the types of local taxes we administer.
+
+> **Note:** We update the following documents for tax rate changes about 30 days before they begin.
+
+field_block:node:page:field_paragraph
+
+[Open All[+]](https://www.revenue.state.mn.us/local-sales-tax-information#)[Close All[-]](https://www.revenue.state.mn.us/local-sales-tax-information#)
+
+[Tax Rate Search Tools [+]](https://www.revenue.state.mn.us/local-sales-tax-information#)
+
+Use these tools to find tax rates by providing or looking for a location in Minnesota.
+
+Name[Sales Tax Rate Calculator](https://www.revenue.state.mn.us/sales-tax-rate-calculator)
+Description Find rates using a street address or nine-digit ZIP code
+
+Name[Sales Tax Rate Map](https://taxmaps.state.mn.us/salestax/)
+Description Find rates using an interactive map of Minnesota
+
+Name[Sales Tax Rate Spreadsheet](https://www.revenue.state.mn.us/sites/default/files/2026-08/mn-zip-code-search-2026q4.xlsx)
+Description Download the spreadsheet and enter a nine-digit ZIP code to find rates
+
+Name[Local Sales Tax Rate Guide](https://www.revenue.state.mn.us/sites/default/files/2026-08/local-sales-and-use-tax-rate-guide-2026-q4.pdf)
+Description Find rates for all Minnesota cities and counties with local taxes listed in table format
+
+Name[Twin Cities Area Local Tax Rate Guide](https://www.revenue.state.mn.us/sites/default/files/2026-08/metro-tax-rate-guide-2026-q4.pdf)
+Description Find rates for the Twin Cities metro-area cities and counties with local taxes listed in table format
+
+| Name | Description |
+| --- | --- |
+| [Sales Tax Rate Calculator](https://www.revenue.state.mn.us/sales-tax-rate-calculator) | Find rates using a street address or nine-digit ZIP code |
+| [Sales Tax Rate Map](https://taxmaps.state.mn.us/salestax/) | Find rates using an interactive map of Minnesota |
+| [Sales Tax Rate Spreadsheet](https://www.revenue.state.mn.us/sites/default/files/2026-08/mn-zip-code-search-2026q4.xlsx) | Download the spreadsheet and enter a nine-digit ZIP code to find rates |
+| [Local Sales Tax Rate Guide](https://www.revenue.state.mn.us/sites/default/files/2026-08/local-sales-and-use-tax-rate-guide-2026-q4.pdf) | Find rates for all Minnesota cities and counties with local taxes listed in table format |
+| [Twin Cities Area Local Tax Rate Guide](https://www.revenue.state.mn.us/sites/default/files/2026-08/metro-tax-rate-guide-2026-q4.pdf) | Find rates for the Twin Cities metro-area cities and counties with local taxes listed in table format |
+
+[Tax Rate Tools for Sales Systems [+]](https://www.revenue.state.mn.us/local-sales-tax-information#)
+
+Businesses can integrate these advanced tools into their online shopping cart, point of sale system, or other applications.
+
+Name[Sales Tax API (Application Program Interface)](https://www.revenue.state.mn.us/sales-tax-api-application-program-interface)
+Description Connects an online retailer's sales site and Minnesota's sales tax rate information using a nine-digit ZIP code
+
+Name[Rates and Boundaries Files](https://www.streamlinedsalestax.org/Shared-Pages/rate-and-boundary-files)
+Description Get files to program rates into your point-of-sale system from the Streamlined Sales Tax website
+
+| Name | Description |
+| --- | --- |
+| [Sales Tax API (Application Program Interface)](https://www.revenue.state.mn.us/sales-tax-api-application-program-interface) | Connects an online retailer's sales site and Minnesota's sales tax rate information using a nine-digit ZIP code |
+| [Rates and Boundaries Files](https://www.streamlinedsalestax.org/Shared-Pages/rate-and-boundary-files) | Get files to program rates into your point-of-sale system from the Streamlined Sales Tax website |
+
+[Tax Type Codes [+]](https://www.revenue.state.mn.us/local-sales-tax-information#)
+
+[Tax Type Codes](https://www.revenue.state.mn.us/sites/default/files/2026-08/tax-type-codes.xlsx)is a spreadsheet providing tax line numbers, FIPS codes, tax rates, and effective dates for each local tax administered by the Department of Revenue and updated quarterly.
+
+[Fact Sheets and Guides [+]](https://www.revenue.state.mn.us/local-sales-tax-information#)
+
+[Local Sales and Use Taxes](https://www.revenue.state.mn.us/guide/local-sales-and-use-tax-guide)
+
+[Special Local Taxes](https://www.revenue.state.mn.us/sites/default/files/2026-07/164s-2026-4th-quarter_0.pdf)
+
+[Minneapolis Special Local Taxes](https://www.revenue.state.mn.us/sites/default/files/2025-02/fs164m.pdf)
+
+[Transitional Sales [+]](https://www.revenue.state.mn.us/local-sales-tax-information#)
+
+For general guidance on how sales tax applies when a local tax is beginning or change rates, see [Sales During Transitional Periods](https://www.revenue.state.mn.us/sales-during-transitional-periods-transitional-sales).
+
+## Starting a New Local Tax
+
+Find general guidelines and steps to [start a new local tax](https://www.revenue.state.mn.us/starting-local-sales-tax).
+
+## Contact Us
+
+If you have questions or need more information:
+
+*   Email[salesuse.tax@state.mn.us](mailto:salesuse.tax@state.mn.us)
+*   Call 651-296-6181 or 1-800-657-3777 (toll-free)
+
+
+## Contact Information
+
+Email
+
+[Go to Contact Form](https://www.revenue.state.mn.us/contact-us-form?destination=/node/16621&optionId=2301)
+
+Phone [[+]](https://www.revenue.state.mn.us/local-sales-tax-information#)
+
+
+
+Hours [[+]](https://www.revenue.state.mn.us/local-sales-tax-information#)
+
+8:00 a.m.- 4:30 p.m. Mon.- Fri.
+
+Address [[+]](https://www.revenue.state.mn.us/local-sales-tax-information#)
+
+Minnesota Revenue  
+ Mail Station 6330  
+ 600 N. Robert St.  
+ St. Paul, MN 55146-6330
+
+ How Are We Doing? 
+
+[Rate Our Website](https://www.surveymonkey.com/r/mnrevwebfeedback)
+
+field_block:node:page:field_last_updated
+
+Last Updated
+
+September 02, 2025
+
+
+## Connect With Us
+
+
+## Get email updates
+
+Get the latest news and insights straight to your inbox.
+
+Email address 
+
+© 2026 Minnesota Department of Revenue
+

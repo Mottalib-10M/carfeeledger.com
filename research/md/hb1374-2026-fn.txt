@@ -1,0 +1,274 @@
+SOURCE: https://mgaleg.maryland.gov/2026RS/fnotes/bil_0004/hb1374.pdf
+                                                                                                 HB 1374
+                           Department of Legislative Services
+                                    Maryland General Assembly
+                                              2026 Session
+
+                                 FISCAL AND POLICY NOTE
+                                              First Reader
+House Bill 1374                        (Delegate Solomon)
+Environment and Transportation
+
+       Alternative Fuel, Fuel-Efficient, and Electric Vehicles - Highway Use Fees
+
+
+This bill repeals the annual surcharge for zero-emission and plug-in electric drive vehicles
+enacted  under  the  Budget  Reconciliation  and  Financing  Act  (BRFA)  of  2024  and
+establishes an annual highway use fee for alternative fuel, fuel-efficient, and plug-in
+electric drive vehicles registered in the State. The highway use fee must be collected by the
+Maryland  Department  of  Transportation  (MDOT)  and  deposited  in                     a  newly     created
+Highway Use Fee Account within              the Transportation Trust Fund (TTF), which may be
+used only for the needs of the Maryland Area Regional Commuter (MARC) rail service.
+The owner of a vehicle subject to the highway use fee may opt to pay a specified
+mileage-based user fee in lieu of the highway use fee. MDOT must establish a fully
+operational Mileage-Based User Fee Program by July 1,                      2029.   The bill takes effect
+July 1, 2026.
+
+
+                                           Fiscal Summary
+
+State Effect:  TTF revenues increase by             at least $8.1 million in FY 2027, as discussed
+below.   Future   years   reflect   projected   growth   in   quantified   net   fee   revenues.
+TTF expenditures  may  increase  by  an  indeterminate  amount  in  FY                        2027     and/or
+future years, as discussed below.
+
+    ($ in millions)        FY 2027           FY 2028           FY 2029           FY 2030          FY 2031
+  SF Revenue                       $8.1             $9.3             $11.8             $15.5             $20.0
+  SF Expenditure                      -                 -                 -                 -                 -
+  Net Effect                          -                 -                 -                 -                 -
+Note:() = decrease; GF = general funds; FF = federal funds; SF = special funds; - = indeterminate increase; (-) = indeterminate decrease
+
+Local Effect:  None.
+
+Small Business Effect:  Minimal.
+
+
+
+                                                  Analysis
+
+Bill Summary:
+
+Highway Use Fee Account
+
+Notwithstanding any other provision of law, the funds in the Highway Use Fee Account
+may not be transferred or diverted to the general fund or used for any other purpose within
+MDOT. Money expended from the account is supplemental to and is not intended to take
+the place of funding that otherwise would be appropriated for MARC rail service.
+
+Annual Highway Use Fee
+
+The owner of an alternative fuel vehicle, a fuel-efficient vehicle, or a plug-in electric drive
+vehicle must pay an annual highway use fee for each motor vehicle registered. “Alternative
+fuel vehicle” is defined as a motor vehicle that (1) is manufactured or modified to use an
+alternative fuel, including electricity, ethanol, methanol, gasohol, and propane or natural
+gas, regardless of energy consumption, and (2) is not a motor fuel vehicle, plug-in electric
+drive vehicle, or plug-in hybrid vehicle. “Fuel-efficient vehicle” is defined as a motor
+vehicle that has a combined fuel economy rating of at least 25 miles per gallon. The
+highway use fee does not apply to an autocycle, moped, or motorcycle; a vehicle with a
+gross weight of over 26,000 pounds; a vehicle owned by a governmental entity; a vehicle
+registered under the International Registration Plan; or a vehicle that participates in the
+Mileage-Based User Fee program as established under the bill.
+
+For a plug-in electric drive vehicle, the annual highway use fee is equal to 85% of the
+estimated amount of motor fuel taxes paid each year to operate a fuel-efficient vehicle in
+the State (as calculated in accordance with the bill). For an alternative fuel vehicle or
+fuel‑efficient vehicle, the annual highway use fee is equal to 85% of the difference between
+(1) the estimated amount of motor fuel taxes paid each year to operate a fuel-efficient
+vehicle in the State and (2) the estimated amount of motor fuel taxes paid each year to
+operate the vehicle being registered in the State (as specified).
+
+The Secretary of Transportation must update the highway use fee calculated in accordance
+with the bill by July 1, 2026, and annually thereafter. For a vehicle that is registered for a
+period other than one year, the highway use fee is multiplied by the number (or fraction)
+of years that the vehicle will be registered. If a person that owns a motor vehicle subject to
+the highway use fee fails to pay the fee, the Motor Vehicle Administration must refuse to
+register or renew or transfer the registration of the motor vehicle.
+
+
+
+
+HB 1374/ Page 2
+Mileage-Based User Fee Program
+
+MDOT must establish policies and procedures to allow owners of vehicles subject to the
+highway use fee the option of participating in the Mileage-Based User Fee Program with
+specified vehicle location and data tracking limitations. The owner of a motor vehicle
+registered in the State may not be required to participate in the program.
+
+MDOT must calculate a fee per mile driven by dividing the annual highway use fee by the
+estimated average number of miles a Class A vehicle travels in the State each year. The
+voluntary mileage-based user fee is equal to the number of miles a participant’s vehicle
+travels during the fiscal year multiplied by the fee per mile driven and may not exceed the
+annual highway use fee that the owner would have otherwise paid.
+
+Current Law:
+
+Annual Electric Vehicle Surcharge
+
+The BRFA of 2024 established an annual surcharge of $125 for zero-emission vehicles (as
+defined under § 23-206.4 of the Transportation Article) and $100 for other plug-in electric
+drive vehicles (as defined under § 11-145.1 of the Transportation Article), as adjusted
+annually for inflation beginning in fiscal 2026. The surcharge may be paid at the time the
+annual  registration  fee  is  paid  or  in  installments  throughout  the  registration  period.
+Proceeds from the surcharge are deposited in TTF.
+
+Motor Fuel Tax
+
+Pursuant to the Transportation Infrastructure Investment Act of 2013 (Chapter 429), motor
+fuel tax rates for all motor fuels except aviation and turbine fuel are indexed to the
+annual change in the Consumer Price Index (CPI). By June 1 annually, the Comptroller
+must determine and announce the growth in the CPI for all urban consumers and the motor
+fuel tax rates effective for the fiscal year beginning the following July 1.
+
+The rate increase is equal to the percentage growth in the CPI multiplied by the motor fuel
+tax rates in effect for the previous fiscal year, rounded to the nearest one-tenth of 1 cent.
+The percentage growth in the CPI is determined by averaging the CPI for the 12 months
+preceding April 30 to the average index for the prior 12 months. If there is a decline or no
+growth in the CPI, the motor fuel tax rates remain unchanged. Any increase in the motor
+fuel tax rates may not exceed 8% of the tax rates in effect for the previous year.
+
+A floor tax is imposed on any person possessing tax-paid motor fuel for sale at the start of
+business on the date of an increase in the motor fuel tax rate. Such persons must compile
+
+
+HB 1374/ Page 3
+and file an inventory held at the close of business on the immediately preceding date and
+remit within 30 days any additional tax due.
+
+The revenue generated as a result of the CPI component of the motor fuel tax rates is
+distributed  to  TTF  and  retained  by  MDOT.  As  of  July  1,                     2025,  the  cumulative
+CPI component accounts for 9.5 cents of the motor fuel tax rates for (1) gasoline and clean
+burning fuel and (2) special fuel and diesel, for which the combined applicable motor fuel
+tax rate per gallon is equal to 46.00 cents and 46.75 cents, respectively.
+
+In addition to indexing specified motor fuel tax rates to inflation, Chapter 429 imposed a
+5% sales and use tax equivalent rate on all motor fuels except aviation and turbine fuel; the
+rate was phased in over fiscal 2014 to 2017. As of July 1,                    2025, the sales and use tax
+equivalent rate accounts for 13.0 cents of the combined applicable motor fuel tax rates for
+gasoline and clean burning fuel and special fuel and diesel.
+
+State  Revenues:         Exhibit  1     shows  the     bill’s  quantified     effect  on  TTF  revenues  in
+fiscal 2027 through 2031. As shown in the exhibit, in fiscal 2027, TTF revenues increase
+by a net of at least $8.1 million; future years reflect projected growth in fee revenues under
+the bill and under current law.
+
+
+                                                  Exhibit 1
+                                Quantified Effect on TTF Revenues
+                                             Fiscal 2027-2031
+                                               ($ in Millions)
+
+                                       FY 2027         FY 2028        FY 2029        FY 2030         FY 2031
+Repeal EV Surcharge                     ($24.0)        ($31.0)        ($41.1)         ($55.2)        ($72.3)
+Establish Highway Use Fee                  32.1            40.4           52.9            70.7           92.3
+
+Net TTF Revenue Effect                     $8.1            $9.3          $11.8          $15.5          $20.0
+
+
+EV:  electric vehicle
+TTF:  Transportation Trust Fund
+
+Note:  Numbers may not sum to total due to rounding.
+
+Source:  Department of Legislative Services
+
+
+
+
+HB 1374/ Page 4
+This estimate is based on projected           electric  vehicle surcharge revenues assumed in the
+current TTF revenue forecast and reflects the estimated amount of highway use fee revenue
+attributable to zero-emission and plug-in electric drive vehicles that would otherwise be
+subject to the electric vehicle surcharge absent the bill. The estimate shown above does not
+reflect highway use fee revenues attributable to other vehicles subject to the fee (alternative
+fuel vehicles and fuel-efficient vehicles that are not classified as zero-emission or plug-in
+electric drive vehicles); thus, actual net TTF revenues likely exceed the amounts shown,
+by a potentially significant amount.
+
+Based  on  an  analysis  of  Maryland  traffic  volume  trends  as  published  by  the
+Federal Highway Administration, the Department of Legislative Services (DLS) estimates
+that average Class A vehicle miles traveled in the State total about 12,000 annually. As
+discussed above, the bill specifies that the highway use fee is in part calculated based on
+the estimated amount of motor fuel taxes paid each year to operate a fuel-efficient vehicle
+(defined  as  a  motor  vehicle  with  a  combined  fuel  economy  rating  of                        at  least
+25 miles per gallon) in the State; for purposes of this analysis, DLS assumes that this
+amount is calculated based on a combined fuel economy rating of 25 miles per gallon.
+
+The estimate     shown above        does not account for the potential offsetting effect of the
+optional mileage-based user fee program beginning in fiscal 2030 (or earlier, depending on
+the timing of program implementation); to the extent drivers subject to the highway use fee
+opt to participate in the optional mileage-based user fee program and pay reduced fee
+amounts as a result, actual TTF revenues attributable to zero-emission and plug-in electric
+drive vehicles may be less than the amounts shown.
+
+State  Expenditures:          A  precise     estimate  of  potential  MDOT  implementation  and
+administrative costs is not available  at this time. TTF expenditures  may increase in
+fiscal 2027 and/or future years to the extent MDOT incurs one-time and/or ongoing costs
+to administer the highway use fee and mileage-based user fee program.
+
+While the bill does not otherwise directly affect              overall TTF expenditures, it diverts a
+significant  amount  of  existing  revenue  ($223.6  million  in  total  over  the  course  of
+fiscal 2027 through 2031) to the newly created Highway Use Fee Account, which may be
+used only to support MARC rail service. Thus, the bill reduces revenue available to support
+general MDOT operating and capital expenditures, including debt service on transportation
+bonds. Any related effects are not accounted for in this fiscal and policy note.
+
+
+                                       Additional Information
+
+Recent Prior Introductions:             Similar legislation has been introduced within the last
+three years. See HB 1457 of 2025.
+HB 1374/ Page 5
+Designated Cross File:  None.
+
+Information Source(s):  Comptroller’s Office; Maryland Department of Transportation;
+Maryland Energy Administration; U.S. Department of Energy; U.S. Energy Information
+Administration; U.S. Department of Transportation; Moody’s Analytics; IHS Markit;
+Department of Legislative Services
+
+Fiscal Note History:           First Reader - March 4, 2026
+jg/hlb
+
+Analysis by:   Elizabeth J. Allison                              Direct Inquiries to:
+                                                                 (410) 946-5510
+                                                                 (301) 970-5510
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HB 1374/ Page 6

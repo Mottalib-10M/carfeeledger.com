@@ -1,0 +1,83 @@
+SOURCE: https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=15-311.1&enactments=false
+ 
+§15–311.1.
+    (a)    (1)    In this section, “dealer processing charge” includes an amount charged by a dealer for:
+            (i)    The preparation of written documentation of the transaction;
+            (ii)    Obtaining the title and license plates for the vehicle;
+            (iii)    Obtaining a release of lien;
+            (iv)    Filing title documents with the Administration;
+            (v)    Retaining documentation and records of the transaction;
+            (vi)    Complying with federal or State privacy laws; or
+            (vii)    Other administrative services concerning the sale of the vehicle.
+        (2)    “Dealer processing charge” does not include a charge to purchase or install tangible personal property on or in the vehicle, or to perform mechanical service on the vehicle.
+    (b)    (1)    If a dealer charges a dealer processing charge, the charge:
+            (i)    Shall be reasonable;
+            (ii)    May not exceed:
+                1.    $200 for the period from July 1, 2011, through June 30, 2014;
+                2.    $300 for the period from July 1, 2014, through June 30, 2020;
+                3.    $500 for the period from July 1, 2020, through June 30, 2024; and
+                4.    $800 on and after July 1, 2024; and
+            (iii)    Shall reflect dealer expenses generally incurred for the services identified in subsection (a)(1) of this section.
+        (2)    A dealer shall provide a written disclosure of the services included in the dealer processing charge on request by the purchaser.
+    (c)    Any dealer processing charge or freight charge shall be disclosed to a purchaser as provided in this section.
+    (d)    A contract for the sale of a vehicle shall contain a statement, in 12 point type or larger, on the contract form as follows:
+    “Dealer processing charge (not required by law): $....”.
+    “Freight charge: $ ....”.
+    (e)    If a dealer advertises the price of a vehicle, the amount of any dealer processing charge and freight charge shall be included in the advertised price unless the dealer clearly and conspicuously discloses the amount of the dealer processing charge and freight charge in at least 10 point and bold font within reasonable proximity to the advertised price.
+    (f)    The dealer shall attach its price statement to a window of the vehicle, next to any other price disclosure required by law. The dealer’s price statement shall state the total price for which the dealer is offering to sell the vehicle. The total price stated shall include any dealer processing charge, which shall be disclosed above the total price in at least 10 point type as “dealer processing charge (not required by law): $.....”. The total price may exclude only the taxes and title fees payable to the State.
+ Previous Next 
+ Validation 
+ Please fix the following: 
+ OK 
+ Success
+ Okay 
+ Helpful Links
+ Executive Branch 
+ Judicial Branch 
+ Department of Legislative Services 
+ Office of Legislative Audits 
+ Report Fraud & Abuse in State Government 
+ Quick Links
+ Guided Tours 
+ Contact Us 
+ Visit 
+ About the General Assembly 
+ Accessibility 
+ Privacy Notice 
+ Video Tutorials 
+ Helpful Tools
+ Download Legislative Data 
+ Open Legislative Data Download
+ × 
+ You are about to download a "comma-separated values" (CSV) file and/or a JSON file.
+ The file includes information such as number, sponsor, title, legislative status, synopsis, committee assignments,
+ legislative history, hearing dates, etc for each piece of legislation introduced during the selected legislative session.
+ A word about the file format: CSV and JSON files are common file formats, widely supported by consumer and business applications and is used to move data between programs.
+ The file you download can be imported into Excel, a text editor, browser, or any other application that supports the CSV and JSON formats. To save, right-click button and save as desired file format.
+ 2026 Regular Session CSV 
+ JSON 
+  *Updated hourly
+ 2025 Regular Session CSV 
+ JSON 
+ 2024 Regular Session CSV 
+ JSON 
+ 2023 Regular Session CSV 
+ JSON 
+ 2022 Regular Session CSV 
+ JSON 
+ 2021 Special Session CSV 
+ JSON 
+ 2021 Regular Session CSV 
+ JSON 
+ 2020 Regular Session CSV 
+ JSON 
+ 2019 Regular Session CSV 
+ JSON 
+ 2018 Regular Session CSV 
+ JSON 
+ 2017 Regular Session CSV 
+ JSON 
+ Open Data Help 
+ Click to return on the top page 
+ Alert
+ Okay 

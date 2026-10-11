@@ -1,0 +1,144 @@
+{
+ "abbr": "MI",
+ "name": "Michigan",
+ "slug": "michigan",
+ "agency": {
+  "name": "Michigan Department of State (Secretary of State)",
+  "short": "SOS",
+  "url": "https://www.michigan.gov/sos"
+ },
+ "taxAgency": {
+  "name": "Michigan Department of Treasury",
+  "url": "https://www.michigan.gov/treasury"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "The registration tax is computed on the manufacturer's suggested base list price published by the Secretary of State; when the MSRP is not typed, the engine uses the price, which understates the tax of a discounted new car and of any used car.",
+  "A new plate expires on the owner's birthday, so the first registration is prorated by month; the engine shows a 12-month amount.",
+  "The electric and plug-in hybrid fees follow the motor fuel tax, re-indexed every January 1; only the 2026 amounts ($267 and $113) are published, so a renewal in 2027 or later is shown without an amount.",
+  "On a private sale the 6% use tax is computed on the price declared; the Department of Treasury makes the final determination.",
+  "The optional Recreation Passport ($15 a year) offered with registration is not added.",
+  "The $2.25 regulatory fee and $5.75 administration fee expire on October 1, 2027 under current law; the engine keeps them through 2027 and drops them for later years."
+ ],
+ "summary": {
+  "stateRate": 0.06,
+  "localRange": [
+   0,
+   0
+  ],
+  "taxName": "sales and use tax",
+  "tradeInCredit": true,
+  "titleFee": 15,
+  "regMethod": "value",
+  "regYears": 1,
+  "docFeeCap": 280,
+  "docFeeNote": "Documentary preparation fee capped at 5% of the cash price or $280, whichever is less (DIFS Bulletin 2025-03-CF); it is taxable.",
+  "evFee": 267,
+  "phevFee": 113,
+  "hybridFee": null,
+  "inspection": "none",
+  "inspectionWhere": "Michigan has no safety or emissions inspection for passenger cars.",
+  "inspectionFee": null,
+  "annualValueTax": false
+ },
+ "params": {
+  "_src": "tax: dealer-manual, trade-in; title: title-transfer; reg: mcl-801; ev: ev-fee",
+  "tax": {
+   "rate": 0.06,
+   "tradeInBase": 5000,
+   "tradeInBaseYear": 2019,
+   "tradeInStep": 1000,
+   "tradeInUnlimitedAbove": 14000
+  },
+  "title": {
+   "fee": 15
+  },
+  "reg": {
+   "floorUpTo": 6000,
+   "floorTax": 36,
+   "firstStepTax": 40,
+   "firstStepUpTo": 7000,
+   "perThousand": 6,
+   "reductions": [
+    1,
+    0.9,
+    0.81,
+    0.729
+   ],
+   "addOn": 8,
+   "addOnUntil": "October 1, 2027",
+   "addOnLastYear": 2027
+  },
+  "ev": {
+   "year": 2026,
+   "ev": 267,
+   "phev": 113,
+   "heavyFromLbs": 8000,
+   "evHeavy": 367,
+   "phevHeavy": 183
+  }
+ },
+ "singular": [
+  "Michigan's plate fee for a 1984 or newer car is a tax on the list price: $178 a year at $30,000, plus $6 for each $1,000 or fraction above [mcl-801].",
+  "The plate tax falls only three times: 90% of the first-year tax in the second year, then 90% of that, then 90% again for every later year [mcl-801].",
+  "Until October 1, 2027, each plate also carries a $2.25 regulatory fee and a $5.75 transportation administration fee [mcl-801].",
+  "The trade-in credit against the 6% sales tax was $5,000 in 2019 and grows by $1,000 every January, so it reaches $12,000 in 2026 and becomes unlimited once it would exceed $14,000 [trade-in].",
+  "The documentary preparation fee a dealer may charge is capped at 5% of the cash price or $280, whichever is less, under the 2025 adjustment [doc-fee].",
+  "A title transfer costs $15 and the sales or use tax is 6 percent; a $15 late fee applies after 15 days [title-transfer].",
+  "Electric cars pay $267 a year on top of the plate fee and plug-in hybrids $113, because the fuel tax rose on January 1, 2026 [ev-fee].",
+  "The electric surcharge is tied to the gasoline tax by law: $5 for each cent above 19 cents a gallon for an EV, $2.50 for a plug-in hybrid [mcl-801].",
+  "The Department of State tells dealers that the documentary preparation fee is taxable and goes on the title application with the other taxable charges [doc-tax].",
+  "Most plates expire on the owner's birthday and can be renewed up to six months in advance [ev-fee]."
+ ],
+ "sources": {
+  "mcl-801": {
+   "name": "MCL 257.801, Registration taxes (Michigan Vehicle Code)",
+   "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-801",
+   "accessed": "2026-10-11",
+   "quote": "More than $30,000.00, the tax of $178.00 is increased by $6.00 for each $1,000.00 increment or fraction ... (ii) For the second registration, 90% of the tax ... (a) A regulatory fee of $2.25 ... (b) A fee of $5.75 ... $5.00 per each 1 cent above 19 cents per gallon."
+  },
+  "trade-in": {
+   "name": "MCL 205.51, General Sales Tax Act definitions (gross proceeds, trade-in credit)",
+   "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-205-51",
+   "accessed": "2026-10-11",
+   "quote": "Beginning January 1, 2019 ... the lesser of the following: (I) $5,000.00 ... Beginning January 1, 2020 and each January 1 thereafter, the amount ... is increased by an additional $1,000.00 each year."
+  },
+  "dealer-manual": {
+   "name": "Michigan Department of State, Dealer Manual, Chapter 8: Sales Tax (revised April 2026)",
+   "url": "https://www.michigan.gov/-/media/Project/Websites/sos/01preston/Dealer_Manual_Chapter_8.pdf",
+   "accessed": "2026-10-11",
+   "quote": "When sales tax is due, the amount levied to a Michigan customer is 6% of the full purchase price of the vehicle."
+  },
+  "doc-fee": {
+   "name": "Michigan DIFS, Bulletin 2025-03-CF, Documentary Preparation Fee",
+   "url": "https://www.michigan.gov/difs/-/media/Project/Websites/difs/Bulletins/2025/Bulletin_2025-03-CF.pdf",
+   "accessed": "2026-10-11",
+   "quote": "the documentary preparation fee shall not exceed 5% of the cash price of the motor vehicle or $280.00, whichever is less."
+  },
+  "doc-tax": {
+   "name": "Michigan Department of State, Dealer Manual, Chapter 7: RD-108 (revised June 2026)",
+   "url": "https://www.michigan.gov/-/media/Project/Websites/sos/01preston/Dealer_Manual_Chapter_7.pdf",
+   "accessed": "2026-10-11",
+   "quote": "The documentary preparation fee is taxable and is entered on line 2 of the RD-108."
+  },
+  "title-transfer": {
+   "name": "Michigan Department of State, Title transfer and vehicle registration",
+   "url": "https://www.michigan.gov/sos/all-services/title-transfer-and-vehicle-registration",
+   "accessed": "2026-10-11",
+   "quote": "$15 title transfer fee ... 6 percent sales tax ... $15 late fee if the title isn’t transferred within 15 days of the sale."
+  },
+  "ev-fee": {
+   "name": "Michigan Department of State, FAQs: Vehicle tabs and license plates",
+   "url": "https://www.michigan.gov/sos/faqs/vehicles/vehicle-tabs-and-license-plates",
+   "accessed": "2026-10-11",
+   "quote": "The EV fee is $267 and is charged in addition to any regular registration fees. The EV fee for trucks and buses is $367. The PHEV fee is $113 and is charged in addition to the regular registration fees."
+  },
+  "fuel-tax": {
+   "name": "MCL 207.1008, Motor fuel tax rate",
+   "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-207-1008",
+   "accessed": "2026-10-11",
+   "quote": "Beginning January 1, 2026 through December 31, 2026, the cents-per-gallon rate on motor fuel is equal to the product of 51 cents multiplied by 1 plus the lesser of 0.05 or the inflation rate"
+  }
+ }
+}

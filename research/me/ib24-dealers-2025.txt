@@ -1,0 +1,1057 @@
+SOURCE: https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/IB24%20FINAL%20Vehicle%20Dealers_2025_12_22.pdf
+                    MAINE REVENUE SERVICES
+                    SALES, FUEL & SPECIAL TAX DIVISION
+                    INSTRUCTIONAL BULLETIN NO. 24
+                                            VEHICLE DEALERS
+
+  This bulletin is intended solely as advice to assist persons in determining and complying with their
+  obligations under Maine tax law.  It is written in a relatively informal style and is intended to
+  address issues commonly faced by            vehicle dealers    with respect to sales and leases of various
+  vehicles.
+
+  Taxpayers are responsible for complying with all applicable tax statutes and rules.  Although
+  Maine Revenue Services (“MRS”) bulletins do not have the same legal force and effect as rules,
+  justifiable reliance upon this bulletin will be considered in mitigation of any penalties for any
+  underpayment of tax due.  This bulletin is current as of the last revision date shown at the end of
+  the document.
+
+  The Sales and Use Tax Law is found in Part 3 of Title 36 of the Maine Revised Statutes (“M.R.S.”).
+  Title 36, MRS rules, instructional bulletins, forms, certificates, and affidavits referenced in this
+  bulletin may be viewed on the MRS website, maine.gov/revenue.
+
+  The following     guidance    relates  to sales and leases of motor vehicles, snowmobiles, all-terrain
+  vehicles (“ATVs”), tractors, semitrailers, trailers, truck campers, aircraft, and watercraft.  As used
+  in this bulletin, the term      “vehicle”    generally   includes all of these kinds of property, unless
+  otherwise noted.
+
+
+  1.   TAXABLE SALES
+
+       A.  SALE PRICE ON WHICH TAX IS BASED.  The                         statutory   definition of    “sale price”
+       includes   “any consideration for      services   that  are part of a retail sale.”      See 36 M.R.S. §
+       1752(14)(A).      All charges    imposed by      a dealer for services that are part of the sale          are
+       considered part of the sale price of the vehicle and are subject to sales tax.  Examples include:
+       •   “Processing fees” or “documentation fees.”
+       •   Manufacturers’ and importers’ excise taxes.
+       •   Rustproofing,  protection  packages,         installed   accessories,    and  other  additional  work
+           performed on the vehicle.
+       •   Manufacturer’s rebates.  No deduction is allowed from the sale price for manufacturer’s
+           rebates.  The fact that the rebate is assigned by the purchaser to the dealer does not change
+           whether the rebate is subject to sales tax.
+
+B.  EXCLUSIONS FROM SALE PRICE.  Certain items are excluded from the sale price of
+the vehicle and are therefore not subject to sales tax.  See              36 M.R.S. § 1752(14)(B).  “Sale
+price” does not include:
+•   Discounts allowed by the dealer and taken on sales, including dealer rebates.
+•   Amount charged for services provided after the customer takes delivery and after passage
+    of title.
+•   Federal Luxury Tax and other retailers’ excise taxes except those listed in subsection A
+    above.
+•   Any charge, deposit, fee, or premium imposed by a law of this State, such as:
+    o    The Recycling Assistance Fee;
+    o    Lead-acid battery deposits imposed pursuant to 38 M.R.S. § 1604(2-B);
+    o    Fees imposed pursuant to 10 M.R.S.               § 1169(11) for the       “Lemon     Law”     arbitration
+         program and consumer mediation service;
+    o    Title or encumbrance fees; or
+    o    State Inspection Fees.
+•   Separately stated finance charges.
+•   Extended warranties (see Section 5(B), below, for more information).
+•   Amount charged for credit life insurance and gap insurance.
+•   Any amount charged for the disposal of used tires.
+•   For lease or rental payments, on or after January 1, 2025, separately stated charges for sales
+    of optional insurance coverage for the protection of the lessee or                their personal property,
+    such as liability insurance, personal accident insurance, or amount                  charged for personal
+    effects protection.
+
+C.  RETURNED MERCHANDISE.  When a vehicle or part is returned by a customer for a
+full refund, the sales tax      paid by the customer is fully refundable to the customer.                  See  36
+M.R.S. § 1752(14)(B)(3).  If a vehicle or part is returned and the customer receives only a
+partial refund of the sale price, no sales tax is refundable to the customer, unless                   the partial
+refund is    made pursuant       to the terms  and conditions          of  a warranty.       See   36 M.R.S.      §
+1752(14)(B)(2) and Section 5 below for more information on warranties.
+
+For example, if a customer returns a defective tire after using the tire for a period of time, and
+the terms of the warranty state that, after specified periods of use, the warranty will cover only
+a certain percentage of the original sale price, the sales tax is then refundable based upon the
+amount of the sale price actually refunded to the customer.  The tax previously reported by the
+dealer can be recovered by reducing Line 1 (“Gross Receipts”) on a subsequent Sales and Use
+Tax Return.  Under any other circumstances, partial sale price refunds do not result in a refund
+of any portion of the sales tax.
+
+
+
+
+                                                      2
+2.  TAX-FREE OR EXEMPT SALES
+
+Vehicles that are sold tax-free or exempt for any of the reasons noted below must be listed by the
+dealer on the Dealer’s and Lessor’s Supplemental Report (“STMV-8”).  See Section 7(B) below
+for more information on the STMV-8.
+
+The burden of proving that a sale is exempt is on the person making the sale.  This burden of proof
+will be met if the dealer obtains in good faith from the purchaser a valid exemption certificate or
+resale certificate   issued by MRS, or a          signed affidavit, when applicable.  The             “good faith”
+requirement is not met if the dealer knows, or could reasonably infer, that: (1) the purchaser is not
+the rightful holder of the exemption or resale certificate; (2) the exemption or resale certificate has
+been revoked or is otherwise invalid as of the time of sale; or (3) the vehicle does not qualify for
+the exemption as identified on the presented affidavit.
+
+Note: On or after January 1, 2025, leases or rentals of tangible personal property are subject to
+sales tax and therefore may be eligible for an exemption or exclusion listed below.
+
+The reason for exemption must be noted on the STMV-8 in which the dealer reports the sale or
+lease as exempt, including the exemption number where applicable.  Affidavits, when applicable,
+must be obtained to support the exempt sale.  The dealer                must   retain sufficient information to
+verify the exemption in its business records.
+
+    A.   SALES TO        THE GOVERNMENT AND TO                       GOVERNMENT AGENCIES.                      Sales
+    made directly to the federal government, the State of Maine, and any political subdivision of
+    the State of Maine are exempt from sales tax.  See 36 M.R.S. § 1760(2).  Sales to other states
+    and their agencies and subdivisions are taxable, unless another exemption applies.
+
+    For more information on sales to governmental organizations generally, see                     MRS Rule 302
+    (“Sales to Government Agencies and Exempt Organizations                   ”) and Instructional Bulletin No.
+    36 (“Exempt Organizations and Government Agencies”).
+
+    B.   SALES TO EXEMPT ORGANIZATIONS.                              The Sales and Use Tax Law provides
+    specific exemptions for sales to various organizations such as hospitals, schools, regularly
+    organized churches or houses of religious worship, and certain other types of organizations.
+    Organizations that qualify for exemption must obtain exemption certificates from MRS in
+    accordance with MRS Rule 302, and sales to these organizations may be made tax-free to these
+    organizations only when the purchaser furnishes a copy of its valid exemption certificate to the
+    dealer.  The exemption does not apply to purchases by the clergy, staff, or employees of exempt
+    organizations in their personal capacities (i.e., purchases not made on behalf of the exempt
+    organization).
+
+    Copies of purchase orders, invoices, or sales slips, and a copy of the purchaser’s exemption
+    certificate, must be kept by the dealer in order to substantiate sales to exempt organizations.
+    The exemption number of the organization must be indicated on the STMV-8.  See MRS Rule
+    302 (“Sales to Government Agencies and Exempt Organizations”) and Instructional Bulletin
+    No.  36  (“Exempt  Organizations  and  Government  Agencies”)                     for  important  additional
+
+
+                                                          3
+information  regarding  specific  documentation  requirements  that  apply  depending  on  the
+method of payment.
+
+C.  CERTAIN SALES AND LEASES.  Certain sales and leases of automobiles listed below
+are not subject to sales tax.  As used in this subsection, the term “automobile” includes a pickup
+truck or van with a gross vehicle weight rating of 10,000 pounds or less and an ATV.
+
+    (1) Sales to automobile dealers of dual-controlled automobiles used in driver trainin                         g
+    programs.  See 36 M.R.S. § 1760(21).
+
+    (2) Sales of loaner vehicles to a new vehicle dealer licensed as such pursuant to 29                        -A
+    M.R.S. § 953.  See 36 M.R.S. § 1752(11)(B)(8).  The  term                   “loaner  vehicle”      means  an
+    automobile to be provided to the dealer’s service customers for short                    -term use free of
+    charge pursuant to the dealer’s franchise as defined in 10 M.R.S. § 1171(6).  This exclusion
+    from a taxable retail sale does not apply when the dealer arranges for a customer to lease
+    an automobile from a third party, even if arranged pursuant to a warranty.
+
+    The use of a loaner vehicle provided by a new vehicle dealer, as defined in 29-A M.R.S. §
+    851(9),   to a service customer pursuant to a manufacturer’s or dealer’s warranty, is also
+    exempt from sales tax pursuant to 36 M.R.S. § 1760(21-A).
+
+    (3) Short-term automobile rentals to service customers of new vehicle dealers.  See 36
+    M.R.S. § 1760(92).  The rental of an automobile for a period of less than one year to the
+    service customer of a new vehicle dealer, as defined in 29-A M.R.S. § 851(9), is exempt if
+    the rental is pursuant to a manufacturer’s or new vehicle dealer’s warranty and the rental
+    fee is paid by the new vehicle dealer or warrantor.
+
+    Dealers must provide a properly completed Affidavit Regarding Lease of Automobile for
+    Service Customer (ST-A-101) to the rental company.  This affidavit can be used as an
+    individual certificate for each rental transaction or may be used as a blanket certificate to
+    cover all rentals by the dealer from the rental company.  In either case, the dealer is
+    responsible for any tax on the rental in the event            that the rental ultimately does not meet
+    the requirements of 36 M.R.S. § 1760(92).
+
+    (4) Sales of automobiles to amputee and blind veterans.  See 36 M.R.S. § 1760(22).  A
+    sale of an automobile to a person in active military service is treated the same way as a sale
+    to a civilian.  However, the sale of an automobile to an amputee or blind veteran is exempt
+    when the veteran has provided the dealer with a letter from the Veterans Administration
+    certifying that he or she qualifies for free registration pursuant to 29-A M.R.S. § 523(1).
+    A qualifying veteran may own only one exempted automobile.
+
+    (5) Sales of certain adaptive equipment.  See 36 M.R.S. § 1760(95).  Sales of adaptive
+    equipment to be installed in or on a motor vehicle to make that vehicle operable or
+    accessible by a person with a disability are exempt from sales tax.  The purchase must be
+    made by or at the request of someone issued a disability plate or placard by the Secretary
+    of State pursuant to 29-A M.R.S. § 521.
+
+
+                                                      4
+When a retailer sells  a motor vehicle and also                provides the service of installing or
+subcontracting for the installation of adaptive equipment prior to delivering the vehicle to
+the customer, the value of the adaptive equipment must be separately stated from the value
+of the motor vehicle on the invoice to the customer.  The separately stated value of the
+adaptive equipment should not be included in the sale price of the vehicle as reported on
+the STMV-8.  A        completed Affidavit for Purchase of Adaptive Equipment (ST-A-124)
+signed by the purchaser must be retained by the dealer to document the exempt sale.
+
+Where the value of the adaptive equipment is not separately stated, but invoiced as one
+bundled price, the entire amount charged to the customer is taxable and should be reported
+as the sale price of the vehicle on the STMV-8.
+
+(6) Sales or leases of the following items to nonresidents for immediate removal from
+Maine:    motor vehicles       (including snowmobiles and ATVs), semitrailers,                     aircraft,
+camper trailers, and truck campers.  See 36 M.R.S. § 1760(23-C).  The sale or lease in
+Maine of the above vehicles to a person that is not a resident of Maine, where the vehicle
+is intended to be driven or transported outside the State immediately upon delivery, is
+exempt.  If the purchaser or lessee is an individual, he or she must be domiciled in (that is,
+be a legal resident of) a state other than Maine or another country.  If the purchaser or lessee
+is a corporation or other business entity, it must maintain a commercial domicile in (that
+is, be headquartered      in)  a state  other than Maine       or another    country to qualify for the
+exemption.
+
+This exemption does not apply to motor vehicles, camper trailers, or truck campers rented
+or leased for a period of less than one year.
+
+At the time of the sale or lease, the dealer and the purchaser or lessee must complete an
+Affidavit  of  Exemption  for          Immediate  Removal          (ST-A-106)       for  motor  vehicles,
+semitrailers, aircraft, camper trailers, and truck campers.  A copy of the affidavit must be
+retained by the dealer along with the STMV-8 on which the sale is claimed to be exempt.
+
+(7) Sales to nonresidents of watercraft that are removed from Maine within 30 days.
+See 36 M.R.S. § 1760(25).  Sales to nonresidents of watercraft that are removed from
+Maine within 30 days of delivery, including sales of materials to be incorporated in the
+watercraft for the repair, alteration, refitting, reconstruction, overhaul, or restoration of that
+watercraft, are exempt.  This exemption does not apply to the lease or rental of watercraft
+by a nonresident.
+
+If a watercraft purchased by a nonresident           remains in Maine for more than 30 days for a
+purpose  other  than  temporary  storage          during    the  first  12  months  of  ownership,  the
+exemption applies only to 60% of the sale price of the watercraft.  “Temporary storage”
+includes winter storage days and days when the watercraft is being repaired.
+
+At the time of the sale, the dealer and             the  purchaser must complete          an Affidavit of
+Exemption for Watercraft (ST-A-113).  A copy of the affidavit must be retained by the
+dealer along with the STMV-8 on which the sale is claimed to be exempt.
+
+
+                                                 5
+When a watercraft and trailer are sold              together    as a   “package”      to a nonresident for
+immediate removal from the State, the portion of the sale price attributable to the trailer
+must be separately stated and sales tax collected on that amount.  If the watercraft qualifies
+for the 60% exemption mentioned above, the exemption applies                    only to the watercraft and
+not to the trailer.
+
+(8) Sale or lease of certain motor vehicles to qualifying resident businesses.  See 36
+M.R.S. § 1760(23-D).  The sale or lease of a motor vehicle (except an automobile rented
+for a period of less than one year, or an ATV or snowmobile) to a qualifying resident
+business if the vehicle is intended to be driven or transported outside the State immediately
+upon delivery, and is intended to be used exclusively in the qualifying resident business’s
+out-of-state activities, is exempt.
+
+For purposes of this       exemption, “qualifying resident business”             includes any individual,
+association,  society,  club,  general  partnership,  limited  partnership,  limited  liability
+company, trust, estate, corporation or any other legal entity that: (1) is organized under the
+laws of Maine or has its principal place of business in Maine; and (2) conducts business
+activities from a fixed location or locations outside of Maine.
+
+If the vehicle is not used exclusively in the qualifying resident business’s out-of-state
+business activities or is registered for use in Maine within 12 months of the date of purchase
+or commencement of the lease, the person seeking registration is liable for use tax on the
+basis of the original sale price.
+
+At the time of the sale or lease, the dealer and the purchaser or lessee must complete an
+Affidavit    of  Exemption  for         Immediate  Removal  (ST-A-106)                for  motor  vehicles,
+semitrailers, aircraft, camper trailers, and truck campers.              A copy of the affidavit must be
+retained by the dealer along with the STMV-8 on which the sale is claimed to be exempt.
+
+(9) Vehicles used in interstate or foreign commerce.  See 36 M.R.S. § 1760(41-A).  This
+exemption     applies to   certain  sales  and leases    of railroad rolling stock, aircraft, watercraft       ,
+and vehicles   , including trailers    and semitrailers.
+
+The exemption applies only to a vehicle that meets the following criteria:
+•   It must be placed in use by the purchaser or lessee as an instrumentality of interstate or
+    foreign commerce within 30 days after purchase or, in the case of leased property, 30
+    days after the commencement of that lease (MRS may extend this period to 90 days for
+    good cause);
+•   It must be used not less than 80% of the days in use in interstate or foreign commerce
+    for two years following the date it is first placed in use by the purchaser or lessee; and
+•   It must be used by the purchaser or lessee using its own Interstate Operating Authority
+    number issued by the Federal Motor Carrier Safety Administration, hauling exempt
+    commodities or hauling its own goods in a non-transportation business.
+
+For purposes of this provision, “use by the purchaser or lessee” includes:
+
+
+                                                  6
+    •    Carrying or providing the motive power for the carrying of a bona fide payload;
+    •    Being dispatched to a specific location at which the property will be loaded with a bona
+         fide payload or will be used as motive power for the carrying of a bona fide payload;
+         or
+    •    The use of a trailer, semitrailer, or tow dolly (as defined in 29-A M.R.S. § 101) pursuant
+         to a written interchange agreement between the purchaser and another authorized motor
+         carrier.
+
+    Lessors are not eligible for this exemption when purchasing vehicles to be leased to another
+    person who will in turn use the vehicle in interstate or foreign commerce.  Likewise, this
+    exemption does not apply          to those   that are operating     under   another person’s      Interstate
+    Operating Authority unless under a written interchange agreement for a trailer, semitrailer,
+    or tow dolly as explained above.  Lessors may purchase property to be leased or rented out
+    tax-free using a resale certificate.  See paragraph 13 below.
+
+    Dealers and purchasers         or lessees   must complete       an Interstate Commerce Exemption
+    Affidavit (ST-A-111 for sales, ST-A-134 for leases) at the time of the sale.  A copy of the
+    affidavit must be retained by the dealer           along   with the    STMV-8 on which the sale is
+    claimed to be exempt.         See MRS Rule 318 (“Instrumentalities of Interstate or Foreign
+    Commerce”) for additional information.
+
+    (10)   Sales or leases of aircraft         and sales of repair and replacement parts used
+    exclusively in aircraft.  See 36 M.R.S. § 1760(88-A).  This               exemption sunsets on June
+    30, 2033.
+
+    (11)   Sales  of  camper  trailers  and  motor  homes  for  rental.                   See 36 M.R.S. §
+    1752(11)(B)(16).       Sales of motor homes or camper trailers to a person engaged in the
+    business of renting or leasing motor homes or camper trailers are excluded from sales tax.
+    This exclusion applies only if the motor homes or camper trailers are rented or leased as
+    tangible personal property.  If, instead,         the motor homes or camper trailers           are  used to
+    provide the rental of living quarters, the purchase of the motor homes or camper trailers do
+    not qualify for the exclusion and are subject to sales tax.
+
+    The dealer must obtain a copy of the lessor’s resale certificate when making sales of motor
+    homes or camper trailers for rental or lease.
+
+    (12)   Sales of    automobile or      truck repair parts used in the performance of repair
+    services.  See 36 M.R.S. §§ 1752(11)(B)(9) and (17).  Sales of automobile or truck repair
+    parts used in the performance of repair services on an automobile or truck pursuant to an
+    extended service contract that entitles the purchaser to specific benefits in the service of
+    the vehicle for a specific duration are not subject to tax.
+
+    (13)    Sales   to lessors    of  property     to be   leased    or rented out.        See 36 M.R.S. §
+    1752(11)(B)(18).  The sale or lease or rental to a lessor that has been issued a resale
+
+
+
+                                                     7
+         certificate pursuant to 36 M.R.S. §§ 1754-B(2-B) or (2-C) of tangible personal property for
+         lease or rental is not subject to tax.
+
+         (14)    Sales to tribes, tribal members, or tribal entities.  See 36 M.R.S. § 1760(112)                      –
+         (114).  Sales to tribes are exempt regardless of whether the sale is sourced to tribal land.
+         For purposes of 36 M.R.S. § 1760-C, sales to tribes for any purpose are exempt.  The sale
+         of tangible personal property or taxable services to a tribal member or tribal entity                        is
+         exempt if the sale is sourced to tribal land and the property or service is not used primarily
+         outside of tribal land.
+
+         Dealers and purchasers or lessees must complete an Affidavit of Exemption (ST-A-129 or
+         ST-A-130) at the time of the sale.  A copy of the affidavit must be retained by the dealer
+         along with the STMV-8 on which the sale is claimed to be exempt.  See MRS Rule 325
+         (“Sales to Tribes, Tribal Members, and Tribal Entities”) for additional information.
+
+    D.   OUT-OF-STATE DELIVERY BY DEALER.  The sale of a vehicle where the retailer
+    delivers the vehicle to the customer at a point outside of Maine is exempt from sales tax.  See
+    36 M.R.S. § 1760(82).  The dealer must complete an Affidavit of Exemption (ST-A-107) to
+    document the out-of-state delivery.  The affidavit must be signed by the person making the
+    delivery, not by the customer, and must be completed at the time of delivery.  The dealer must
+    maintain proof of the out-of-state delivery, such as toll receipts, EZ Pass records, export
+    documents, fuel purchases, and/or timecards or payroll records of the person making the
+    delivery.
+
+    Note: If the vehicle subsequently returns to Maine, the purchaser may become liable for use
+    tax based on the original sale price.
+
+    A transaction involving an out-of-state delivery should be distinguished from one involving a
+    nonresident purchaser who removes a vehicle from the State immediately upon delivery as
+    explained in    subsection C(6) above.  The dealer           must use the proper affidavit to support the
+    applicable exemption.
+
+
+3.  TRADE-INS
+
+When one or more of the items listed in            36 M.R.S. § 1765 are traded in toward the             purchase of
+another item of the same kind          (i.e., motor vehicle traded for a motor vehicle, watercraft for a
+watercraft, etc.), the tax is imposed only on the difference between the sale price of the purchased
+item and the trade-in value allowed for the           item or items taken in trade.  The trade-in allowance
+does not apply to transactions between dealers involvin             g exchanges of property from inventory.
+
+If any item of one kind is traded in toward the purchase of an item of another kind (i.e., a motor
+vehicle is traded in toward the sale price of a watercraft, or a camper trailer is traded in toward the
+sale price of a motor home), no credit for trade-in is allowed, and the tax applies to the entire sale
+price.
+
+
+
+                                                           8
+On or after January 1, 2025, when property is traded-in to reduce the cost of a lease or rental of
+qualifying property, it may reduce the sale price if otherwise consistent with 36 M.R.S. § 1765.
+However, this trade-in allowance does not apply to long-term automobile leases.  See 36 M.R.S.
+§ 1752(14)(A)(5).  See Section 4 below for more information on leases and rentals.
+
+If any other property is traded towards one of the items listed in 36 M.R.S. § 1765, tax applies to
+the entire sale price, including any allowance for trade-in.  For example, if a refrigerator is traded
+in towards the purchase of a watercraft, no trade-in credit is allowed, and the tax is based on the
+entire sale price of the watercraft, without any deduction for the value of the refrigerator.
+
+    A.   MOTOR VEHICLES.  In transactions involving motor vehicles, the allowance for trade-
+    in applies only when both vehicles are self-propelled and are designed for the conveyance of
+    passengers or property on the public highway.  See 36 M.R.S. § 1752(7).  For trade-in purposes,
+    ATVs and snowmobiles are included within the definition of “motor vehicles” and may be
+    traded against any other type of motor vehicle.
+
+    The term “motor vehicle” includes equipment that is permanently attached to, and sold as one
+    unit with,    a motor vehicle.        Common examples are cranes, shovels, and cement mixers.
+    “Permanently attached” means that the components are physically joined together in a secure
+    fashion and that they are not meant to be used independently.
+
+    Note: Trailers and truck campers do            not qualify as motor vehicles.  Trailers do not qualify
+    because they are not self-propelled.  Slide-in truck campers do not qualify because they can be
+    used independently and are not an accessory (or part) of a truck.  If a truck                     with a slide-in
+    camper is traded in on the purchase of a truck, any trade-in allowance given for the slide-in
+    truck camper is not creditable against the sale price of the truck.
+
+    B.   SPECIAL  MOBILE  EQUIPMENT.                         Special  mobile  equipment  includes            any  self-
+    propelled vehicle that is neither designed nor used primarily for the transportation of persons
+    or property.  See 36 M.R.S. § 1752(14-B).  Common examples of special mobile equipment
+    include bulldozers, front-end loaders, forklifts, lawn tractors, farm tractors, backhoes, cranes,
+    and equipment used to harvest lumber, such as skidders, crawler tractors, feller bunchers, and
+    log loaders.  Special mobile equipment must be self-propelled and intended to be driven by
+    someone, and thus does not include “walk-behind” units.  Special mobile equipment, like a
+    crane, that is permanently attached to a motor vehicle and sold as one unit is considered a                     part
+    of the motor vehicle.  See subsection A above.
+
+    C.   TRAILERS.  “Trailer” is defined as “a vehicle without motive power and mounted on
+    wheels that is designed to carry persons or property and to be drawn by a motor vehicle and
+    not operated on tracks.”  See 36 M.R.S. § 1752(19-A).  “Trailer” includes a park model home,
+    a camper trailer as defined in 36           M.R.S.    §  1481(1-A),     utility trailers, recreational vehicle
+    trailers, livestock trailers, horse trailers, and boat trailers.  When a trailer of any type is traded
+    in toward the purchase of another trailer of any type, a trade-in credit is allowed.
+
+    D.   WATERCRAFT.  A trade-in allowance is allowed when a watercraft is traded in toward
+    the purchase of another watercraft.  An attachment or accessory to the watercraft (an outboard
+
+
+                                                           9
+    motor, for example) is considered a part of the watercraft when sold or traded.  See 36 M.R.S.
+    § 1752(24).  A trailer does not qualify for trade-in allowance when traded in, either separately
+    or together with a watercraft, toward the purchase of a watercraft.  However, a trailer traded in
+    toward the purchase of another trailer does qualify for the trade-in credit, as noted in subsection
+    C above.
+
+
+4.  LEASES AND RENTALS
+
+On or after January 1, 2025, the lease or rental of tangible personal property is subject to sales tax.
+See 36 M.R.S. § 1752(5-D) and (13).  The sale price for a lease or rental depends on the type of
+vehicle and on the duration of the lease.  For more detailed information, see also MRS Rule 326,
+“Leases and Rentals of Tangible Personal Property.”
+
+    A.   LEASES AND RENTALS OF AUTOMOBILES
+
+         (1) General definition.  The term “automobile,” as noted in Section 2(C) above, includes
+         pickup trucks and vans with a gross vehicle weight                rating  of 10,000 pounds or less         and
+         ATVs.
+
+         (2) Short-term leases or rentals of automobiles.  “Short-term” means a lease or rental
+         period of less than one year.  Under 36 M.R.S. § 1811, short-term rentals of automobiles
+         are taxed at a separate, higher rate than the general sales tax rate.                 A dealer that makes
+         short-term rentals of automobiles may purchase the automobiles                     tax-free   using a   resale
+         certificate and must collect sales tax on each lease or rental payment.  See Section 2(C)(13)
+         above.  The short-term rental rate does not apply to vehicles with more than four wheels,
+         motorcycles, motor homes, or pickup trucks and vans weighing more than 10,000 pounds.
+         The short-term rental rate does not apply to the rental of a cargo van, regardless of weight.
+
+         All rental payments made pursuant to rental agreements executed in Maine are subject to
+         tax even when the automobile will not be used exclusively in Maine.  The tax is based on
+         the value of the rental, which means the total rental charged to the lessee for time, mileage,
+         and   any other fees or services associated with the rental, without any deduction for
+         separately itemized charges.
+
+             (a) Included fees.  Separately stated fees associated with the rental of the automobile
+             that are part of the sale price include, but are not limited to, the following:
+             •    Maintenance and service contracts;
+             •    Drop-off or pick-up fees;
+             •    Airport surcharges;
+             •    Intercity fees;
+             •    One-way charges;
+             •    Collision damage or loss damage waiver (“CDW” or “LDW”) charges;
+
+
+                                                          10
+              •   Young driver charges;
+              •   Additional driver charges;
+              •   Additional keys;
+              •   Mileage fees;
+              •   Cost recovery fees, such as license recovery fees, concession recovery fees, title or
+                  registration  fees,      inspection  fees,      agent  fees,     local  excise  tax,       and  other
+                  governmental fees;
+              •   Rental of additional equipment such as infant seats, ski racks, GPS systems, or toll
+                  transponders (e.g. EZ Pass);
+              •   Cleaning fees.
+
+              (b) Excluded fees.  Separately stated fees that are not associated with the rental of the
+              automobile and not part of the sale price include, but are not limited to:
+              •   Reimbursement of toll charges;
+              •   Charges for goods and services sold after the rental has terminated (such as fuel
+                  sales); and
+              •   Sales of optional insurance coverage for the protection of the lessee or of the
+                  lessee’s personal property (such as additional liability insurance, personal accident
+                  insurance, or personal effects protection).
+
+         Dealers should present a resale certificate to their vendors when purchasing an automobile
+         for rental purposes.
+
+         (3) Loaner vehicles.  “Loaner vehicle” means an automobile that will be provided to a
+         new vehicle dealer’s service customers for short-term use free of charge pursuant to the
+         dealer’s franchise as defined in 10 M.R.S. § 1171(6).  See                   36 M.R.S.      § 1752(5-C) and
+         Section 2(C)(2) above.
+
+         When a loaner vehicle is provided for the short-term use of a non-warranty customer, sales
+         or use   tax must be remitted at the statutory rate              specified    for the   short-term rental of
+         automobiles in 36 M.R.S. § 1811.  If the dealer does not charge the customer for the use of
+         the vehicle, a rental charge of $30 per day must be imputed, and use tax is due, calculated
+         by multiplying the statutory tax rate by the imputed                 daily   rental charge.  If the dealer
+         charges the customer for the use of the vehicle, sales tax at the statutory tax rate is due on
+         the total rental charge.  In the event that a loaner vehicle needs to be repaired while the
+         vehicle is part of the dealer’s loaner fleet, the purchase or use of repair parts by the dealer
+         are subject to sales and use tax if the repairs are not covered by a manufacturer’s warranty.
+
+         (4) Long-term leases or rentals of automobiles.  “Long-term” means a lease or rental
+         period of one year or longer.  As noted above, the term “automobile” includes pickup trucks
+         and vans with a gross vehicle weight rating of 10,000 pounds or less.  It does not include
+
+
+
+                                                           11
+         vehicles with more than four wheels, motorcycles, campers, motor homes, or pickup trucks
+         and vans with a gross vehicle weight rating of more than 10,000 pounds.
+
+         Unlike most other leases or rentals, when an automobile is leased long-term, sales tax is
+         due up-front on the total value of all lease payments and other consideration in the month
+         in which the lease is commenced.  Under 36 M.R.S. § 1811, the long-term lease of an
+         automobile is taxed at the general sales tax rate.
+
+         Collection and remittance of the tax is the responsibility of the person that negotiates the
+         lease transaction with the lessee, which is typically the automobile dealer.  The full amount
+         of the sales tax is due in the month in which the lease            is commenced      .  See Instructional
+         Bulletin No. 39 (“Sale Price Upon Which Tax is Based”).
+
+         The taxable sale price of a long-term automobile lease consists of: (a) the value of the total
+         monthly lease payment multiplied by the number of payments in the lease or rental; (b) the
+         amount of equity involved in any trade-in; and (c) the value of any cash down payment.
+         36 M.R.S. § 1752(14)(A)(5).
+
+             (a) Total monthly lease payments.  The amount of total monthly lease payments is
+             determined by multiplying the dollar amount of each lease payment by the number of
+             payments in the lease term.  Certain excise taxes and sales tax are excluded from the
+             sale price    when separately identifiable, but federal manufacturers’ and importers’
+             excise  taxes  are  included.          Supplemental       charges,  such  as  registration  fees,
+             life/disability insurance, gap insurance, warranties, and management services are
+             excluded from the sale price only if separately stated from the lease payment.  A fee
+             charged when the lessee opts to return an automobile to the lessor rather than exercising
+             the option to purchase it – i.e., a “disposition fee” – is not subject to sales tax.
+
+             (b) Equity involved in trade-in.  “The amount of equity involved in any trade-in” is
+             the value of any trade-in that reduces the cost of the lease.  The trade-in credit under 36
+             M.R.S. § 1765 does not apply to long-term leases of automobiles.
+
+             (c) Cash down payment.  “The value of any cash down payment” means any initial
+             cash payment that reduces the cost of the lease, including rebates applied to the lease.
+             “The value of any cash down payment” does not include pre-payment of lease
+             payments or required upfront costs disbursed by the lessor such as sales tax, excise tax,
+             or registration fees.
+
+         Nonresidents of Maine that enter into a long-term lease of an automobile with a Maine
+         dealer may lease the automobile without paying tax if they sign and provide to the dealer
+         an Affidavit of Exemption for Immediate Removal (ST-A-106) stating that they are going
+         to immediately remove the automobile from Maine.  The dealer need not collect sales tax
+         on the lease transaction if the dealer has a properly completed affidavit, provided the dealer
+         took the affidavit in good faith.  If the dealer knew or had reason to know that the purchaser
+         did not intend to immediately remove the automobile from Maine, or was not a nonresident
+         at the time of the purchase, the dealer may be liable for the tax.  See Section 2(C)(            6) above.
+
+
+                                                         12
+B.  LEASES AND RENTALS OF CAMPER TRAILERS AND MOTOR HOMES.  The
+lease or rental of a camper trailer or motor home as tangible personal property is subject to the
+general sales tax rate established by 36 M.R.S. § 1811.  “Camper trailer”                    means a camper
+trailer as defined in 36 M.R.S. § 1481(1-A).  “Motor home” means a motor home as defined
+in 29-A M.R.S. § 101(40).  “Motor home” does not include a mobile home.
+
+A dealer or lessor that rents out motor homes or camper trailers (as tangible personal property,
+not as living quarters) may purchase such vehicles tax-free and must collect sales tax from the
+lessee on each lease or rental payment.  See Section 2(C)(11) above for more information.  A
+lessor of such vehicle rented out as living quarters, e.g., at a campground, must pay sales or
+use tax when the lessor purchased the vehicle and must collect sales tax on each rental payment
+at the higher rate established by 36 M.R.S. § 1811.  See Instructional Bulletin No. 32 (“Rentals
+of Living Quarters”) for more information.
+
+If a camper trailer or motor home is sold after having been rented for a period of time, the sale
+is subject to sales tax.
+
+C.  LEASES    AND    RENTALS    OF                      TANGIBLE    PERSONAL                     PROPERTY
+GENERALLY.  The following information is applicable to leases or rentals of other vehicles,
+including watercraft and special mobile equipment.
+
+    (1) Straight (true) lease.  In a true lease, the lessor enters into a lease agreement with a
+    lessee for a stated period of time and the vehicle is returned to the lessor at the end of the
+    lease term.  A true lease could include a daily rental, as well as a lease with a term of
+    multiple months or other periods.           Sales tax must be collected from the lessee on each
+    periodic lease or rental payment.
+
+    (2) Lease with an option to purchase.  A             lease with    an  option to purchase is generally
+    treated as a true lease, where sales tax must be collected on each lease payment during the
+    term of the lease.  However, at the end of the              lease  term, the lessee has the option to
+    purchase the vehicle for a stated amount,             such as    fair market value.  If the option is
+    exercised, a taxable sale occurs and sales tax           should also be collected at that time to the
+    lessee based on the option price.
+
+    (3) Lease in lieu of purchase; security agreements.  In a lease in lieu of purchase and
+    certain secured transactions, the lessee will acquire title to the property at the end of the
+    lease term.  Leases with nominal purchase options, such as $1, are considered leases in lieu
+    of purchase.  Likewise, certain transfers of property are subject to security agreements that
+    require title be transferred to the lessee upon completion of required payments.  These types
+    of leases are deemed “sales” at the commencement of the lease.  The lessee should pay
+    sales tax up-front based on the sale price equal to the total value of all lease payments and
+    other consideration.
+
+D.  TRADE-INS.  When property is traded in to reduce the cost of a lease or rental of the same
+type of property, it may reduce the sale price if otherwise consistent with Section 3 above.
+
+
+
+                                                     13
+    This does not apply to long-term automobile leases.  See 36 M.R.S. § 1752(14)(A)(5) and
+    paragraph A(4)(B), above.
+
+         Example: On January 1, 2025, Customer leases an excavator from Rent Co. for six
+         months until June 30, 2025.  Customer agrees to pay Rent Co. $1,200 for the entire six-
+         month lease term, paid monthly in $200 installments.  But Customer also trades in an
+         excavator worth $600, reducing each monthly payment from $200 to $100.  The sale
+         price of each monthly payment is $100.
+
+         Example:      Same    facts as before, but Customer trades in a watercraft worth $600,
+         reducing each monthly payment from $200 to $100.  The sale price of each monthly
+         payment is $200 because the item traded in is not of the same type as the item leased
+         (that is, watercraft for special mobile equipment).
+
+
+5.  REPAIRS AND WARRANTIES
+
+When repair parts or accessories are installed in a vehicle owned or leased by the customer and
+the charge for installation or repair labor is separately stated from the charge for the parts or
+accessories, only the amount charged for the materials is subject to tax.  If the amounts charged
+for labor and materials are not separately stated, the entire amount charged to the customer is
+subject to tax.
+
+    A.   MANUFACTURER WARRANTIES.  The   cost   of   a                            manufacturer’s       warranty   is
+    considered part of the sale price of the vehicle when ori             ginally purchased.  Parts associated
+    with repairs made pursuant to such a warranty and for which the customer is not charged are
+    not taxable because the parts are considered to have been included in the price of the original
+    manufacturer’s warranty.
+
+    B.   EXTENDED WARRANTIES.  The sale of an extended warranty or service contract on
+    an automobile or truck        that entitles the purchaser to specific benefits in the service of the
+    automobile  for  a  specific  duration  is  a  taxable  service.           See   36  M.R.S.     §  1752(17-B).
+    “Automobile”       means  a  self-propelled  four-wheel  vehicle  designed  primarily  to  carry
+    passengers and not designed to run on tracks, including pickup trucks and vans with a gross
+    vehicle weight rating of 10,000 pounds or less               and ATVs.        See   36 M.R.S.     § 1752(1-B).
+    “Automobile” does not include vehicles with more than four wheels, motorcycles, campers,
+    motor homes, or pickup trucks and vans with a gross vehicle weight rating of more than 10,000
+    pounds.
+
+    The sale of an extended warranty for any type of vehicle other than those described above is
+    generally  not  subject  to  tax.        For  information  on  extended  warranties  in  general,  see
+    Instructional Bulletin No. 53 (“Repairs & Warranties”).
+
+    Sales of parts associated with repairs made pursuant to such a warranty are usually not taxable
+    to the dealer or customer because the parts are considered to have been included in the original
+    price of the extended warranty.          If a warranty provides for a        “deductible” to be paid by the
+
+
+                                                         14
+customer at the time of repair or maintenance, the amount paid by the customer is first applied
+to non-taxable labor.  If the deductible exceeds the amount charged for labor, the remainder
+will be applied to parts.       The customer must pay sales tax on              the  portion of the deductible
+applied to parts.
+
+C.  GOODWILL REPAIRS.  Repairs made at no charge to the customer within the 30-day
+period immediately following the sale of a vehicle are considered to have been done pursuant
+to an implied warranty if the dealer that originally sold the vehicle makes the repairs.  No tax
+is due on the sale of the parts because the implied warranty is treated as part of the original
+sale price of the vehicle.
+
+D.  CORE CHARGES.  Customers who purchase property                            that  can be reconditioned and
+resold by the dealer are sometimes encouraged to bring their used property to the dealer by the
+imposition of a “core charge” on the original purchase, which may then be refunded or credited
+to the customer when the used property is brought                 back   to the   dealer.    The core charge       is
+considered part of the sale price of the new property being purchased and is subject to sales
+tax.  For instance, an alternator may be sold for $80 plus a stated core charge of $10.  Because
+there is no exclusion or exemption for core charges, the total sale price subject to tax is $90.
+
+In addition, core charges do not qualify for the trade-in allowance and no credit for sales tax is
+allowable when a credit against the sale price is provided.  Thus, using the example above, if
+a used alternator is traded in at the same time as the purchase of the new alternator, the                      sale
+price subject to tax remains at $90, even though a $10 credit is allowed by the dealer.  Similarly,
+if the used alternator is returned to the dealer at a later date and the customer is refunded the
+$10 core charge, no refund of sales tax is allowed.
+
+E.  TOOLS AND SUPPLIES.  Sales of tools and equipment used in the repair of a vehicle
+are subject to tax when purchased by the dealer.  Supplies used in repairs may or may not be
+taxable when purchased by the dealer.  For sales and use tax purposes, a distinction is drawn
+between inventories of items that are used or consumed by the dealer (“consumables”) and
+items that are transferred to the possession of customers (“shop supplies”).
+
+    (1) Consumables.  Items that fall in this category are used or consumed by the dealer in
+    the performance of its services and are taxable to the dealer.  If sales tax is not paid at the
+    time of purchase, the dealer must accrue and pay use tax on these items.  Dealers cannot
+    avoid their use tax obligation by including these items as part of an all-inclusive category
+    such as “shop supplies” and billing them out as a line item to the customer.  The following
+    is a non-exclusive list of items that generally fall within this category:
+
+    Aerosol products                      Battery cleaner              Brake cleaner
+    Brake lathe bits                      Brushes                      Buffing compound/pads
+    Car wash soap                         Choke cleaner                Cleaners
+    Deodorizer                            Disc brake quieter           Drill bits
+    Engine degreaser/cleaner              Floor dry                    Gases/oxygen, acetylene
+    Glass cleaner                         Gloves                       Grinder wheels
+    Hacksaw blades                        Hand cleaner                 Key tags
+    Light bulbs (for the facility)        Masks                        Paper mats/floor/seat covers
+
+                                                      15
+        Paper towels                          Protective eyewear          Putty spreaders
+        Rags                                  Razor blades                Sandpaper
+        Soap                                  Tape (masking)              Wash mitts
+        Washer/solvent                        Wax
+
+         (2) Shop supplies.  For sales and use tax purposes, items that are ultimately transferred to
+         the possession of the customer can be billed in one of two ways:
+
+             (a) The items can be itemized and billed to the customer as a taxable sale; or
+
+             (b) The items can be listed together as one “inventory” and billed out to the customer
+             as a percentage of labor or other charge and taxed as a single line item, commonly
+             called “shop supplies.”
+
+         Either way they are billed, sales tax must be charged and collected from the customer on
+         the sale of shop supplies.  The following is a non-exclusive list of items that generally fall
+         into this category of shop supplies:
+
+             A/C & heater treatment                      A/C oil                           Adhesives/glues
+             Batteries (small)                           Body filler                       Brake fluid/power steering
+             Brake line fittings                         Coolant                           Dyes – oil or A/C
+             Electrical/duct tape                        Electrical terminals              Electrical wire
+             Gasketmaker/adhesive                        Grease/gear lube                  Hardener
+             Helicoils                                   Hose clamps                       Keylock parts
+             Light bulbs (for the vehicle)               Nuts and bolts                    Paint/thinner
+             Pipe sealant                                Plastic wire ties                 Rubber hoses
+             Rubberized undercoating                     Screws                            Silicon
+             Small nuts/bolts/fasteners                  Solder                            Spray trim adhesive
+             Strip caulking                              Thread lock                       Touch-up paint
+             Vacuum fittings                             Valve stem caps                   Welding rods
+             Wheel weights                               Wire looms
+
+
+6.  USE TAX LIABILITY OF DEALERS
+
+Use tax is imposed on the use or consumption in this State of tangible personal property when
+sales tax was not paid at the time of purchase.  See 36 M.R.S. § 1861.
+
+Dealers may have purchased items outside this State for use or consumption in Maine without
+paying tax at the time of purchase.  Similarly, a dealer will sometimes withdraw from inventory,
+for its own use and not for sale to a customer, parts that were purchased tax-free using a resale
+certificate.  In such cases, the purchase price is the taxable base upon which use tax is computed,
+and must be reported on the monthly Sales and Use Tax Return under “Other Taxable Purchases.”
+
+    A.   DISPLAY AND DEMONSTRATION VEHICLES.  There is no use tax on vehicles that
+    are  used by dealers      only   for demonstration or display purposes.              Dealers sometimes use
+
+
+                                                         16
+“demonstrators” for purposes other than demonstration, and such use, unless of a de minimis
+nature, triggers a use tax liability under the “withdrawn from inventory” provision of 36 M.R.S.
+§ 1861.     The operation of a vehicle on           a  dealer’s plates will be considered presumptive
+evidence of use for demonstration or test-drive purposes only and will not trigger a use tax
+liability of the dealer, provided the vehicle is not used for such purposes for more than 6,000
+miles.
+
+Note:   A dealer’s operation of a         tow truck or     car carrier   is not   considered     to be  used for
+demonstration or display purposes.
+
+Display and demonstration vehicles that are sold by dealers at retail are subject to tax.
+
+B.  LOANER VEHICLES.  The sale of a loaner vehicle to a new vehicle dealer is excluded
+from sales tax, and the use of the loaner vehicle when provided by a new vehicle dealer to a
+service customer pursuant to a manufacturer’s or dealer’s warranty is exempt from sales tax.
+However, the dealer or purchaser may become liable for use tax on a loaner vehicle if it is used
+for another purpose, e.g., the dealer allowing an employee to use the loaner vehicle for business
+purposes, such as attending seminars or other training.  In this scenario, a $30 per-day rental
+charge must be imputed, and use tax is due, calculated by multiplying the statutory tax rate by
+the imputed rental charge of $30 per day.  See Section 4(A)(3) above for more information.
+
+C.  PURCHASE AND REPAIR OF SERVICE VEHICLES.  Any vehicle used by a dealer
+for the operation of the business, except a demonstrator vehicle, is subject to tax.  This includes,
+but is not limited to: wreckers, plow trucks, loaner vehicles (other than those that are excluded
+under 36 M.R.S. § 1752(11)(B)(8); see section 2(C)(2) above), courtesy vehicles, parts and
+service vehicles, and any other type of maintenance vehicles.
+
+Purchases of replacement parts for use by a dealer in reconditioning the dealer’s own service
+vehicles, including loaner vehicles,          are subject to tax.  If parts purchased for resale are
+withdrawn from inventory for this use, the dealer must report and pay use tax on the cost of
+the parts upon withdrawal.
+
+D.  CONSUMABLE SUPPLIES USED TO RECONDITION A VEHICLE.  Consumable
+supplies, protective apparel, tools, and equipment used in the reconditioning of a vehicle are
+subject to sales and use tax when purchased by the dealer.  Such items include, but are not
+limited to, cleaning products, waxes, polishes, gloves, safety goggles, paper towels, protective
+mats, squeegees, rags, brushes, and tape.
+
+E.  USE OF PROPERTY PURCHASED FOR RESALE.  Purchases by a dealer                                         of parts
+used to repair a used vehicle in order to put it into a saleable condition are purchases for resale
+and are not taxable.  The value of the parts is considered part of the sale price of the vehicle
+when it is eventually sold by the dealer.
+
+A dealer that purchases property tax-free for resale, but subsequently withdraws the property
+from inventory for use inconsistent with holding the property solely for demonstration and
+
+
+
+                                                     17
+    sale, is liable for use tax.  Use tax liability accrues at the time the property is withdrawn from
+    inventory for such use by the dealer, and is based on the dealer’s purchase price of the property.
+
+    The gift or personal use of a vehicle of any type, purchased tax-free for resale, is subject to use
+    tax.
+
+    A dealer’s purchase of property tax-free using a resale certificate must be made in good faith.
+    The good faith of a dealer may be questioned when facts reflect that the dealer did not intend
+    to purchase the vehicle solely for resale.  For example, a car dealer purchases a car claiming
+    the purchase is for resale, but enters into other transactions,                  such as    personal financing,
+    personal insurance, and purchase of an extended warranty, that are not commonly associated
+    with the holding of property in resale inventory.  Dealers should remain aware of this good
+    faith requirement, both when making purchases and when accepting resale certificates from
+    other retailers.
+
+    F.   VEHICLES TAKEN IN TRADE.   When a dealer withdraws from inventory a vehicle
+    that was acquired by trade-in, there is no use tax liability except in two situations:
+
+         (1) The dealer acquired the vehicle in a transaction where the trade-in credit allowed by
+         the dealer for the vehicle in question exceeded the amount charged by the dealer for the
+         vehicle that was sold (i.e. a “trade down”).
+
+             Example: A customer purchases a used sedan for $10,000 and trades in a used full-
+             size pickup truck valued at $20,000.  Because the trade-in credit exceeds the amount
+             charged for the vehicle sold, the dealer would owe use tax on $10,000 if the pickup
+             truck was subsequently withdrawn from resale inventory.
+
+         (2)  The   dealer acquired the       vehicle   in a transaction with another dealer involving the
+         exchange of property from inventory.
+
+             Example: Dealer A and Dealer B exchange vehicles from resale inventory that were
+             originally    purchased     tax-free  for  resale.      Dealer A     then  withdraws       the  newly
+             acquired vehicle from inventory for personal use.  Dealer A owes use tax based on
+             the vehicle’s total value when it was acquired from Dealer B with no deduction or
+             trade-in credit for the value of the vehicle Dealer A gave in trade.
+
+
+7.  REPORTING AND PAYMENT OF TAX BY VEHICLE DEALERS
+
+Maine vehicle dealers must collect and report sales tax on all vehicles sold in this State, unless the
+purchaser qualifies for an exemption.  A vehicle dealer may not allow the purchaser to pay the tax
+directly to the vehicle registration agency at the time of registration.
+
+Dealers  who  represent  a  third-party  lessor  by  completing               the  leasing    contract  and  related
+documents are acting as an agent of the lessor and must collect and report the tax due on the lease.
+When such leases involve an automobile leased for 12 months or more, the dealer must report the
+
+
+                                                           18
+total taxable leasing charges on the STMV-8.  For more information on the leasing of automobiles
+for a year or more, see Section 4(A)(4) above and Instructional Bulletin No. 20 (“Lease and Rental
+Transactions”).
+
+    A.   SALES TAX RETURN.  Every retailer must file on or before the 15th day of each month
+    the Sales and Use Tax Return (ST-7) covering all sales for the previous calendar month and
+    showing tax liability for that period.          Certain retailers may qualify to file returns on a less
+    frequent basis.  See MRS Rule 304 (“Sales and Use Tax Returns and Payments”) for details.
+    Sales and use tax returns are required to be filed electronically unless the retailer has received
+    a waiver from MRS.  See MRS Rule 104 (“Filing of Maine Tax Returns”).  Sales tax returns
+    are automatically sent to all registered retailers that have received a waiver.  Payment of tax is
+    due at the same time the return is filed.
+
+    Copies of the Interstate Commerce Exemption Affidavit (ST-A-111) must be retained in the
+    dealer’s business files with the STMV-8.
+
+    B.   DEALER’S AND LESSOR’S SUPPLEMENTAL REPORT (STMV-8).  Dealers must
+    complete and file the STMV-8 at the same time as they file each sales and use tax return.  All
+    sales, including exempt or tax-free sales, must be listed on the STMV-8.  Each lease of an
+    automobile for one year or more must be listed on the STMV-8.  Each trailer sold with another
+    vehicle as part of a “package deal” must be listed separately on the STMV-8.
+
+    The STMV-8 must be maintained in the dealer’s business files.
+
+         (1) Electronic form.  MRS has created electronic fillable forms that are relatively easy to
+         use and can be found on the MRS website, maine.gov/revenue.  Retailers can choose from
+         either an Excel or PDF version.  Once the form has been completed, it should be saved and
+         maintained in the dealer’s records.
+
+         If a dealer’s software program provides the ability to create another type of electronic file,
+         such as ASCII, that electronic file may be used, provided it contains the same fields of
+         information as the MRS Excel file.
+
+         (2) Paper form.  For dealers who cannot edit and retain electronic documents, the fillable
+         Adobe PDF STMV-8 form can be printed and completed by hand.                           If a dealer does not
+         have access to the MRS website, the dealer should contact MRS to request a form.
+
+         Forms that must be retained with the STMV-8 include, but are not limited to, the following:
+         •   Form ST-A-106 (“Affidavit of Exemption for Immediate Removal”) for motor vehicles
+             (including snowmobiles and ATVs), semitrailers, aircraft, camper trailers, and truck
+             campers sold for immediate removal from Maine;
+         •   Form ST-A-113 (“Affidavit of Exemption”) for watercraft and repairs to watercraft
+             owned by a resident of another state;
+
+
+
+
+
+                                                          19
+         •   Forms     ST-A-111      and ST-A-134       (“Interstate Commerce          Exemption      Affidavit”)    for
+             vehicles    intended  to  be     used  by  the  purchaser       or  lessee   in  interstate  or  foreign
+             commerce; and
+         •   Forms ST-A-129 and ST-A-130 (“Affidavit of Exemption”) for a vehicle sold to a tribal
+             member or tribal entity where the sale is sourced to, and not used primarily outside of,
+             tribal land.
+
+         Other documentation must be retained in the files of the dealer to support the following
+         transactions.  See above for the documentation requirements for the specific exemptions.
+         Exemption numbers, where applicable, must be indicated on the STMV-8:
+         •   Sales for resale;
+         •   Sales to exempt organizations (see Section 2(B) above);
+         •   Sales to amputee or blind veterans (see Section 2(C)(4) above);
+         •   Out-of-state deliveries (see Section 2(D) above); and
+         •   Trade-in deductions (see Section 3 above).
+
+    C.   DEALER’S AND LESSOR’S PROOF OF SALES TAX COLLECTED.
+
+         (1) Sales of vehicles.  All  purchasers  of  vehicles  must  provide,  as  a  prerequisite  to
+         registration, proof that Maine sales tax has been paid.  The registration agent is required to
+         ask to see the customer’s bill of sale or retail buyer’s order at the time of registration.  It is
+         important that     dealers inform      customers     that the bill of sale or retail buyer’s order is
+         required to be presented at the time of registration.
+
+         The bill of sale must have the following key pieces of information: the customer’s name
+         and address, the dealer’s name and address, the date of the sale, the vehicle’s information,
+         trade-in vehicle information (if any), the sale price,              and the sales tax amount.           If the
+         transaction is exempt        or excluded      from sales tax, the sales tax line should indicate
+         “EXEMPT” or “TAX-FREE.”
+
+         Out-of-state dealers that are registered to collect Maine sales tax must clearly indicate on
+         their bill of sale or retail buyer’s order their Maine sales tax registration number.
+
+         (2) Consignment versus           brokerage      sales.  A dealer that sells a vehicle belonging to
+         another person by negotiating the terms and conditions of the sale with the purchaser is
+         making a consignment sale.  Consignment sales are retail sales on which the dealer must
+         collect and report sales tax and issue a bill of sale.  However, when the dealer does not
+         negotiate the terms and conditions of the sale, and acts only as an intermediary between a
+         buyer and seller, a bona fide brokerage sale occurs.  In this case the dealer is not required
+         to collect and report the tax and should not issue a bill of sale, unless it collected the tax.
+
+         (3) Leases of automobiles.  When a dealer acts as an agent of the lessor, the dealer must
+         collect all sales tax due at the commencement of the lease.  Dealers that are affiliated with
+
+
+                                                          20
+         a lessor and that negotiate the terms or conditions of the lease on behalf of the lessor are
+         treated  as    agents  of  the  lessor  (for  example,  when  a  dealer  acts  on  behalf  of                  the
+         manufacturer’s credit company by originating the leasing contract with the lessee).  Dealer
+         leasing agents must provide the lessee with               a lease document that clearly          states that the
+         lessee has paid the sales tax or is not liable for the tax.  This document allows the lessee to
+         register the automobile without any further obligation.  Lessors who are not represented by
+         a Maine dealer but are nonetheless registered with Maine to collect sales                        tax must    state
+         their Maine sales tax registration number            in the lease document       to make clear that     the sales
+         tax amount listed in that document is Maine sales tax.
+
+         (4) Leases or rentals; loaner vehicles.  Dealers  engaged                    in  the   short-term  rental  of
+         automobiles must complete an STMV6U (“Use Tax Certificate”) at the time of registration,
+         check box “E.  Short Term Auto Rental” on the reverse of the form and provide their Maine
+         sales tax registration number.  Dealers that purchase other vehicles to be leased (for resale),
+         or  loaner vehicles      tax-free   under    36 M.R.S.     § 1752(11)(B),       must check      either   box “F.
+         Lessors of Tangible Personal Property” or box “H. Other” on the reverse of the form and
+         provide an explanation.  See Sections 2(C)(2), (13) above.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                            21
+8.  ADDITIONAL INFORMATION
+
+The information in this bulletin addresses some of the more common questions regarding the Sales
+and Use Tax Law faced by vehicle dealers.  It is not intended to be all-inclusive.  Requests for
+information on specific situations should be in writing, should contain full information as to the
+transaction in question and should be directed to:
+
+                                     MAINE REVENUE SERVICES
+                           SALES, FUEL AND SPECIAL TAX DIVISION
+                                               P.O. BOX 1060
+                                       AUGUSTA, ME 04332-1060
+                                             maine.gov/revenue
+                                            sales.tax@maine.gov
+
+The Department of Administrative and Financial Services does not discriminate on the basis of
+disability in admission to, access to, or operation of its programs, services or activities.
+
+Issued:               August 30, 1953
+Amended:              June 1, 2001
+                      October 3, 2003
+                      July 1, 2008
+                      December 10, 2010
+                      October 1, 2011
+                      July 1, 2012
+                      October 1, 2013
+                      July 1, 2014
+                      October 15, 2015
+                      December 17, 2018
+                      July 15, 2019
+Last Revised:         December 22, 2025
+
+                             (Published under Appropriation 010-18F-0002-07)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                       22
