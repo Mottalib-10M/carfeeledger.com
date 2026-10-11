@@ -1,0 +1,409 @@
+{
+ "abbr": "MO",
+ "name": "Missouri",
+ "slug": "missouri",
+ "agency": {
+  "name": "Missouri Department of Revenue, Motor Vehicle Bureau",
+  "short": "DOR",
+  "url": "https://dor.mo.gov/motor-vehicle/"
+ },
+ "taxAgency": {
+  "name": "Missouri Department of Revenue",
+  "url": "https://dor.mo.gov/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "Passenger car registration is priced by taxable horsepower, a figure printed on the title that the form does not ask; the fee is shown as the official range ($18.25 to $51.25 a year) except for electric cars, which pay the $18.25 rate.",
+  "Local sales tax rates come from the DOR motor vehicle sales tax chart for January to March 2026, the latest chart that could be read (dor.mo.gov refuses automated requests; the copy was read through the Internet Archive). Rates change quarterly, so check the current chart or type your rate. Use-tax rates for cars bought from out-of-state dealers are lower in many places and are not listed.",
+  "Counties and the City of St. Louis assess a yearly personal property tax on vehicles at their own levies; it is billed by the county collector and shown without an amount.",
+  "Safety inspection stations may charge up to $12 and emissions stations up to $24; the station sets the price, so both are shown as ranges. Mileage exemptions (150,000 miles for safety, 40,000 for the first emissions test, under 12,000 miles between tests) depend on the odometer, which the form does not ask.",
+  "The special fuel decal for electric and plug-in hybrid cars is prorated monthly when the vehicle starts operating after January 31; the engine shows the full-year fee.",
+  "Whether the dealer administrative fee is part of the taxable price was not read on an official page; the engine leaves it out of the taxed amount."
+ ],
+ "summary": {
+  "stateRate": 0.04225,
+  "localRange": [
+   0,
+   0.065
+  ],
+  "taxName": "state and local sales tax",
+  "tradeInCredit": true,
+  "titleFee": 8.5,
+  "regMethod": "horsepower",
+  "regYears": 1,
+  "docFeeCap": 620.79,
+  "docFeeNote": "Maximum dealer administrative fee of $620.79 for 2026, indexed each February 1 to the CPI; it must be itemized on the buyer's order.",
+  "evFee": 150,
+  "phevFee": 75,
+  "hybridFee": null,
+  "inspection": "both",
+  "inspectionWhere": "Safety inspection every other year for vehicles more than 10 model years old or with 150,000 miles or more; emissions test every other year in the City of St. Louis and St. Louis, St. Charles and Jefferson counties.",
+  "inspectionFee": [
+   0,
+   12
+  ],
+  "annualValueTax": true
+ },
+ "params": {
+  "g": {
+   "tax": {
+    "label": "Missouri state sales tax (4.225%)",
+    "rate": 0.04225,
+    "tradeInCredit": true,
+    "docFeeTaxable": false,
+    "source": "buying",
+    "localSource": "localsales",
+    "note": "Trade-in allowance and documented rebates are deducted before the tax."
+   },
+   "once": [
+    {
+     "id": "title",
+     "label": "Certificate of title",
+     "amount": 8.5,
+     "source": "buying",
+     "kind": "title"
+    },
+    {
+     "id": "title-processing",
+     "label": "Title processing fee",
+     "amount": 9,
+     "source": "buying",
+     "kind": "title"
+    }
+   ],
+   "reg": {
+    "label": "Registration processing fee (1 year)",
+    "source": "fees",
+    "type": "flat",
+    "amount": 9
+   },
+   "cycle": [
+    {
+     "id": "reg-ev",
+     "label": "Registration fee (electric vehicle rate, 1 year)",
+     "amount": 18.25,
+     "source": "fees",
+     "kind": "registration",
+     "if": {
+      "fuel": [
+       "ev"
+      ]
+     }
+    },
+    {
+     "id": "fuel-decal",
+     "label": "Special fuel decal (battery electric car)",
+     "amount": 150,
+     "source": "fuel-decals",
+     "kind": "ev",
+     "if": {
+      "fuel": [
+       "ev"
+      ]
+     }
+    },
+    {
+     "id": "fuel-decal-phev",
+     "label": "Special fuel decal (plug-in hybrid)",
+     "amount": 75,
+     "source": "fuel-decals",
+     "kind": "ev",
+     "if": {
+      "fuel": [
+       "phev"
+      ]
+     }
+    },
+    {
+     "id": "fuel-decal-processing",
+     "label": "Special fuel decal processing fee",
+     "amount": 9,
+     "source": "fuel-decals",
+     "kind": "ev",
+     "if": {
+      "fuel": [
+       "ev",
+       "phev"
+      ]
+     }
+    }
+   ],
+   "inspection": [
+    {
+     "id": "safety",
+     "label": "Safety inspection, every other year (station price, up to $12)",
+     "amount": null,
+     "range": [
+      0,
+      12
+     ],
+     "years": 2,
+     "source": "safety-fee",
+     "newExemptYears": 11,
+     "note": "Required for vehicles more than 10 model years old or with 150,000 miles or more, before registering and then every other year."
+    },
+    {
+     "id": "emissions",
+     "label": "Emissions inspection, every other year (St. Louis area, up to $24)",
+     "amount": null,
+     "range": [
+      0,
+      24
+     ],
+     "years": 2,
+     "source": "emissions-fee",
+     "newExemptYears": 5,
+     "countyFlag": "emissions",
+     "fuelExempt": [
+      "ev"
+     ],
+     "note": "Gasoline cars after their first four model years; required before sale or transfer and then every other year."
+    }
+   ],
+   "ranges": [
+    {
+     "id": "reg-hp",
+     "label": "Registration fee by taxable horsepower (1 year)",
+     "range": [
+      18.25,
+      51.25
+     ],
+     "kind": "registration",
+     "source": "fees",
+     "note": "$21.25 for 12 to 23 HP up to $51.25 for 72 HP and more; the taxable horsepower is printed on the title.",
+     "if": {
+      "fuel": [
+       "gas",
+       "hybrid",
+       "phev"
+      ]
+     }
+    },
+    {
+     "id": "property-tax",
+     "label": "County personal property tax on the vehicle",
+     "range": null,
+     "kind": "value",
+     "source": "buying",
+     "note": "Assessed and billed each year by your county (or the City of St. Louis); the paid receipt is needed to register."
+    }
+   ]
+  }
+ },
+ "counties": [
+  {
+   "id": "st-louis-county",
+   "name": "St. Louis County, unincorporated",
+   "localRate": 0.03513,
+   "emissions": true
+  },
+  {
+   "id": "city-of-st-louis",
+   "name": "City of St. Louis",
+   "localRate": 0.05454,
+   "emissions": true
+  },
+  {
+   "id": "florissant",
+   "name": "Florissant (St. Louis County)",
+   "localRate": 0.04763,
+   "emissions": true
+  },
+  {
+   "id": "chesterfield",
+   "name": "Chesterfield (St. Louis County)",
+   "localRate": 0.04513,
+   "emissions": true
+  },
+  {
+   "id": "kansas-city-jackson",
+   "name": "Kansas City, Jackson County part",
+   "localRate": 0.0475,
+   "emissions": false
+  },
+  {
+   "id": "independence",
+   "name": "Independence, Jackson County part",
+   "localRate": 0.04375,
+   "emissions": false
+  },
+  {
+   "id": "lees-summit",
+   "name": "Lee's Summit, Jackson County part",
+   "localRate": 0.0425,
+   "emissions": false
+  },
+  {
+   "id": "jackson-county",
+   "name": "Jackson County, unincorporated",
+   "localRate": 0.015,
+   "emissions": false
+  },
+  {
+   "id": "st-charles-county",
+   "name": "St. Charles County, unincorporated",
+   "localRate": 0.01725,
+   "emissions": true
+  },
+  {
+   "id": "st-charles",
+   "name": "City of St. Charles",
+   "localRate": 0.03725,
+   "emissions": true
+  },
+  {
+   "id": "ofallon",
+   "name": "O'Fallon (St. Charles County)",
+   "localRate": 0.03725,
+   "emissions": true
+  },
+  {
+   "id": "jefferson-county",
+   "name": "Jefferson County, unincorporated",
+   "localRate": 0.02125,
+   "emissions": true
+  },
+  {
+   "id": "springfield",
+   "name": "Springfield (Greene County)",
+   "localRate": 0.03875,
+   "emissions": false
+  },
+  {
+   "id": "greene-county",
+   "name": "Greene County, unincorporated",
+   "localRate": 0.0175,
+   "emissions": false
+  },
+  {
+   "id": "columbia",
+   "name": "Columbia (Boone County)",
+   "localRate": 0.0375,
+   "emissions": false
+  },
+  {
+   "id": "boone-county",
+   "name": "Boone County, unincorporated",
+   "localRate": 0.0175,
+   "emissions": false
+  },
+  {
+   "id": "clay-county",
+   "name": "Clay County, unincorporated",
+   "localRate": 0.0125,
+   "emissions": false
+  },
+  {
+   "id": "cass-county",
+   "name": "Cass County, unincorporated",
+   "localRate": 0.01625,
+   "emissions": false
+  },
+  {
+   "id": "st-joseph",
+   "name": "St. Joseph (Buchanan County)",
+   "localRate": 0.05475,
+   "emissions": false
+  },
+  {
+   "id": "joplin",
+   "name": "Joplin, Jasper County part",
+   "localRate": 0.045,
+   "emissions": false
+  },
+  {
+   "id": "jefferson-city",
+   "name": "Jefferson City (Cole County)",
+   "localRate": 0.03625,
+   "emissions": false
+  },
+  {
+   "id": "franklin-county",
+   "name": "Franklin County, unincorporated",
+   "localRate": 0.0225,
+   "emissions": false
+  },
+  {
+   "id": "other",
+   "name": "Any other Missouri city or county (type your local rate)",
+   "localRate": 0,
+   "emissions": false
+  }
+ ],
+ "defaultCounty": "st-louis-county",
+ "singular": [
+  "Missouri charges a 4.225% state sales tax on a vehicle plus the local rate of the buyer's home address, collected when the title is applied for, not by the dealer [localsales].",
+  "Local motor vehicle sales tax ranges from nothing to 6.5% on the DOR chart: 3.513% in unincorporated St. Louis County, 5.454% in the City of St. Louis and 4.75% in Kansas City's Jackson County part [localsales].",
+  "The trade-in allowance and any documented rebate are subtracted before the tax, and no tax is owed when they exceed the price [trade-in].",
+  "Passenger car registration depends on taxable horsepower, from $18.25 to $51.25 a year, plus a $9 processing fee; electric cars pay the lowest rate [fees].",
+  "The title costs $8.50 plus a $9 title processing fee, and the buyer has 30 days to title the car before a $25 penalty starts [buying].",
+  "Electric cars buy a $150 special fuel decal each year and plug-in hybrids a $75 one, plus $9 processing, in lieu of fuel tax; ordinary hybrids are exempt [fuel-decals].",
+  "Vehicles are exempt from the every-other-year safety inspection for ten years after their model year unless they reach 150,000 miles [safety].",
+  "Emissions tests apply only in the City of St. Louis and St. Louis, St. Charles and Jefferson counties, with a fee capped at $24 [emissions-fee].",
+  "Dealers may charge an administrative fee of up to $620.79 in 2026, a ceiling raised each year with the Consumer Price Index [doc-fee].",
+  "To buy new plates you must show a paid personal property tax receipt, or a statement of non-assessment, from your county for the previous year [buying]."
+ ],
+ "sources": {
+  "buying": {
+   "name": "Missouri Department of Revenue, Buying a Vehicle",
+   "url": "https://dor.mo.gov/motor-vehicle/titling-registration/buying-vehicle.html",
+   "accessed": "2026-10-11",
+   "quote": "State sales tax of 4.225 percent, plus your local sales tax on the purchase price, less trade-in allowance, if any; $8.50 title fee; Registration (license plate) fees , based on either taxable horsepower or vehicle weight; $9 title processing fee; and $9 registration processing fee"
+  },
+  "fees": {
+   "name": "Missouri Department of Revenue, Motor Vehicle Fees",
+   "url": "https://dor.mo.gov/motor-vehicle/titling-registration/fees.html",
+   "accessed": "2026-10-11",
+   "quote": "Registration fees for passenger vehicles are determined by the vehicle’s taxable horsepower ... UNDER 12 HP or ELECTRIC VEHICLE or LOW SPEED VEHICLE $18.25 $9 ... 12 - 23 HP $21.25 $9 ... 72 HP + $51.25 $9"
+  },
+  "localsales": {
+   "name": "Missouri Department of Revenue, Motor Vehicle Sales Tax Rate Chart (January to March 2026)",
+   "url": "https://dor.mo.gov/forms/MV%20-%20Local%20Sales%20Tax.pdf",
+   "accessed": "2026-10-11",
+   "quote": "TO BE USED FOR THE MONTHS OF JANUARY, FEBRUARY, MARCH 2026 ... This rate is in addition to the state tax rate of 4.225% ... 0770 KANSAS CITY ~ JACKSON COUNTY ~ KANSAS CITY ZOOLOGICAL DISTRICT 4.7500% ... 1270 ST LOUIS 5.4540%"
+  },
+  "trade-in": {
+   "name": "Revised Statutes of Missouri § 144.025, trade-ins and rebates",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=144.025",
+   "accessed": "2026-10-11",
+   "quote": "the tax imposed ... shall be computed only on that portion of the purchase price which exceeds the actual allowance made for the article or articles traded in or exchanged ... Where the trade-in or exchange allowance plus any applicable rebate exceeds the purchase price of the purchased article there shall be no sales or use tax owed."
+  },
+  "fuel-decals": {
+   "name": "Missouri Department of Revenue, Special Fuel Decals",
+   "url": "https://dor.mo.gov/motor-vehicle/fuel-decals.html",
+   "accessed": "2026-10-11",
+   "quote": "Fees Chart - Effective January 1, 2026 ... Passenger $150 $75 $9 ... Hybrid vehicles powered by gasoline and electricity that are not identified as a Plug-in Hybrid Electric Vehicle [are exempt]"
+  },
+  "safety": {
+   "name": "Revised Statutes of Missouri § 307.350, biennial inspection",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=307.350",
+   "accessed": "2026-10-11",
+   "quote": "Motor vehicles having less than one hundred fifty thousand miles, for the ten-year period following their model year of manufacture ... shall submit such vehicles to a biennial inspection"
+  },
+  "safety-fee": {
+   "name": "Revised Statutes of Missouri § 307.365, inspection station fees",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=307.365",
+   "accessed": "2026-10-11",
+   "quote": "A fee, not to exceed twelve dollars, as determined by each official inspection station, may be charged by an official inspection station for each official inspection"
+  },
+  "emissions": {
+   "name": "Revised Statutes of Missouri § 643.315, vehicles subject to emissions inspection",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=643.315",
+   "accessed": "2026-10-11",
+   "quote": "New motor vehicles that have not been previously titled and registered, for the four-year period following their model year of manufacture, provided the odometer reading for such motor vehicles are under forty thousand miles"
+  },
+  "emissions-fee": {
+   "name": "Revised Statutes of Missouri § 643.350, emissions inspection fee",
+   "url": "https://revisor.mo.gov/main/OneSection.aspx?section=643.350",
+   "accessed": "2026-10-11",
+   "quote": "A fee, not to exceed twenty-four dollars, may be charged for an emissions inspection conducted under the emissions inspection program"
+  },
+  "doc-fee": {
+   "name": "Missouri Department of Revenue, 12 CSR 10-26.231 Maximum Dealer Administrative Fee (emergency amendment, Missouri Register)",
+   "url": "https://www.sos.mo.gov/CMSImages/AdRules/main/EmergenciesforInternet/12c10-26.231IE.pdf",
+   "accessed": "2026-10-11",
+   "quote": "$604.47 (2025) 2.7% $620.79 2026 ... The new fee will be effective February 1 each year."
+  }
+ }
+}

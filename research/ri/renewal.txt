@@ -1,0 +1,3 @@
+SOURCE: https://dmv.ri.gov/registrations-plates-titles/registration/registration-renewal
+ACCESSED: 2026-10-11 (Internet Archive capture 20260607141943; live site returns a Cloudflare challenge to scripts)
+

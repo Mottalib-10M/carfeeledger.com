@@ -15,15 +15,16 @@
  "exactness": "partial",
  "gaps": [
   "The yearly ad valorem (property) tax on the car is 15% of market value times the local millage, collected with the tag; ALDOR does not publish one statewide millage, so it is shown without an amount.",
-  "City sales and use taxes on vehicles come on top of the county rate; the county entries carry the county rate read in the ALDOR local rate file, and a city rate must be typed in the local rate box.",
-  "License plate issuing officials may add a $1.50 title commission and some counties add local title or issuance fees; only the $15 state fee and the mandatory $1.50 designated agent commission are added.",
-  "No dealer documentation fee cap was read on an official Alabama page for this release."
+  "City sales and use taxes on vehicles come on top of the county rate; the county entries carry the county rate read in the ALDOR local rate file, and a few large cities are listed with their combined rate. Elsewhere, type your combined local rate (up to about 5.25% in the file, e.g. Shorter).",
+  "Some counties add local title or issuance fees on top of the state amounts; only the $15 title fee, the $3 of title commissions and the $1.25 state issuance fee that ALDOR lists are added.",
+  "No dealer documentation fee cap was read on an official Alabama page for this release.",
+  "A private (casual) sale is taxed when the buyer registers the car; the engine applies the same 2% state rate and the selected local rate, but some localities levy casual-sale rates that differ from their dealer rates in the ALDOR file."
  ],
  "summary": {
   "stateRate": 0.02,
   "localRange": [
    0,
-   0.035
+   0.0525
   ],
   "taxName": "automotive sales and use tax",
   "tradeInCredit": true,
@@ -61,10 +62,11 @@
     },
     {
      "id": "title-commission",
-     "label": "Designated agent commission on the title application",
-     "amount": 1.5,
-     "source": "title-fee",
-     "kind": "title"
+     "label": "Fee due to the licensing official on the title application",
+     "amount": 3,
+     "source": "title-import",
+     "kind": "title",
+     "note": "ALDOR lists the title at $15 plus a $3 fee due to the licensing official."
     }
    ],
    "reg": {
@@ -73,7 +75,16 @@
     "type": "flat",
     "amount": 23
    },
-   "cycle": [],
+   "cycle": [
+    {
+     "id": "issuance",
+     "label": "License plate issuance fee",
+     "amount": 1.25,
+     "source": "title-import",
+     "kind": "registration",
+     "note": "State issuance fee added to the $23 standard plate; some counties add a local issuance fee."
+    }
+   ],
    "ev": {
     "ev": 203,
     "phev": 103,
@@ -99,9 +110,19 @@
    "localRate": 0.0075
   },
   {
+   "id": "city-of-birmingham",
+   "name": "City of Birmingham (Jefferson County 0.75% + city 2%)",
+   "localRate": 0.0275
+  },
+  {
    "id": "madison-county",
    "name": "Madison County outside Huntsville (0.5% + 0.25% county-wide)",
    "localRate": 0.0075
+  },
+  {
+   "id": "city-of-huntsville",
+   "name": "City of Huntsville, Madison County part (county-wide 0.25% + city 1.75%)",
+   "localRate": 0.02
   },
   {
    "id": "mobile-county",
@@ -160,9 +181,10 @@
   "The agreed value of a car taken in trade on another vehicle is left out of the taxed price, but on a trade-up the allowance cannot exceed the price of the car sold [trade-in-rule].",
   "Counties and cities add their own automotive rates, often well below their general rates: Jefferson County charges 0.75% on vehicles and the City of Mobile 2.25% on top of a 0.5% county rate [taxrates].",
   "A standard passenger plate costs $23 a year, the same as a pickup with a declared gross weight up to 8,000 lb [plates].",
-  "The title application fee is $15, and the designated agent that files it adds a $1.50 commission [title-fee].",
+  "The title application fee is $15, and ALDOR adds a $3 fee due to the licensing official that processes it [title-import].",
   "Under the Rebuild Alabama Act, battery electric cars pay an extra $203 a year and plug-in hybrids $103 since July 1, 2023, with a $3 increase every fourth year [ev-fee].",
-  "The yearly property tax on a private car is assessed at 15% of its market value and must be paid before the tag can be renewed [valuation]."
+  "The yearly property tax on a private car is assessed at 15% of its market value and must be paid before the tag can be renewed [valuation].",
+  "A standard passenger plate costs $23 a year plus a $1.25 state issuance fee, before any local fee or ad valorem tax [title-import]."
  ],
  "sources": {
   "state-rates": {
@@ -175,7 +197,7 @@
    "name": "Alabama Department of Revenue, local cities and counties tax rates file (taxrates_current.csv)",
    "url": "https://www.revenue.alabama.gov/wp-content/uploads/2024/03/taxrates_current.csv",
    "accessed": "2026-10-11",
-   "quote": "7037,JEFFERSON COUNTY,37,ST,AUTO,SELF,20250101,,0.75 ... 9149,MOBILE,49,ST,AUTO,SELF,20121101,,2.25 ... 7749,MOBILE COUNTY CL PRICH & MOBIL,49,ST,AUTO,SELF,19890101,,0.5"
+   "quote": "7037,JEFFERSON COUNTY,37,ST,AUTO,SELF,20250101,,0.75 ... 9137,BIRMINGHAM,69,ST,AUTO,SELF,20240901,,2 ... 9149,MOBILE,49,ST,AUTO,SELF,20121101,,2.25 ... 9145,HUNTSVILLE,83,ST,AUTO,SELF,19891101,,1.75"
   },
   "trade-in-rule": {
    "name": "Alabama Administrative Code r. 810-6-1-.22, trade-in of tangible personal property",
@@ -206,6 +228,12 @@
    "url": "https://www.revenue.alabama.gov/property-tax/vehicle-valuation/",
    "accessed": "2026-10-11",
    "quote": "To calculate the assessed value for a motor vehicle, multiply the market value by the appropriate assessment ratio and the applicable millage rate. ... Class IV Motor Vehicles (15% assessment ratio): This class includes all private passenger motor vehicles"
+  },
+  "title-import": {
+   "name": "Alabama Department of Revenue, FAQ: titling and registering a vehicle bought overseas",
+   "url": "https://www.revenue.alabama.gov/faqs/i-purchased-a-vehicle-overseas-and-will-be-shipping-it-to-the-united-states-how-do-i-title-and-register-the-vehicle-in-alabama/",
+   "accessed": "2026-10-11",
+   "quote": "The cost of an Alabama title is $15, plus a $3 fee due to the licensing official. ... The cost of a standard passenger license plate is $23, plus $1.25 issuance fee. Local fees, ad valorem tax, and sales tax may be added to this amount by the licensing official’s office."
   }
  }
 }

@@ -1,0 +1,197 @@
+{
+ "abbr": "RI",
+ "name": "Rhode Island",
+ "slug": "rhode-island",
+ "agency": {
+  "name": "Rhode Island Division of Motor Vehicles",
+  "short": "DMV",
+  "url": "https://dmv.ri.gov/"
+ },
+ "taxAgency": {
+  "name": "Rhode Island Division of Taxation",
+  "url": "https://tax.ri.gov/"
+ },
+ "verified": "2026-10-11",
+ "exactness": "partial",
+ "gaps": [
+  "The registration fee is set by the gross vehicle weight rating (GVWR) printed on the door label, not the curb weight the form asks, so the weight fee is shown as the range for passenger cars and light trucks up to 7,000 lb GVWR ($30 to $56 a year, $60 to $112 for the two-year term).",
+  "A new registration is prorated to its expiration date; the engine shows the full two-year term for the DOT surcharge and the EV or hybrid fee, so the first payment can be lower.",
+  "On a private sale of a car 7 years old or less, the 7% tax is due on the NADA clean retail value or the price, whichever is greater; the form does not ask the book value, so the engine taxes the price.",
+  "The DMV fee table lists $55 for the two-year emission and safety inspection; no separate fee for the safety-only inspection of a fully electric car was read, so that line has no amount.",
+  "No dealer documentation fee cap was read on an official Rhode Island page for this release, and whether the fee is taxable was not confirmed; the engine leaves it out of the taxed amount."
+ ],
+ "summary": {
+  "stateRate": 0.07,
+  "localRange": [
+   0,
+   0
+  ],
+  "taxName": "sales tax",
+  "tradeInCredit": true,
+  "titleFee": 53.5,
+  "regMethod": "weight",
+  "regYears": 2,
+  "docFeeCap": null,
+  "docFeeNote": "No cap read on an official Rhode Island page for this release; type the dealer's fee.",
+  "evFee": 200,
+  "phevFee": 100,
+  "hybridFee": 50,
+  "inspection": "both",
+  "inspectionWhere": "Statewide safety and emissions inspection every 24 months (safety only for fully electric cars); new cars are exempt for 2 years or 24,000 miles.",
+  "inspectionFee": 55,
+  "annualValueTax": false
+ },
+ "params": {
+  "g": {
+   "tax": {
+    "label": "Rhode Island sales tax (7%)",
+    "rate": 0.07,
+    "tradeInCredit": true,
+    "docFeeTaxable": false,
+    "source": "sales-tax",
+    "note": "Trade-in deducted on a dealer sale of a passenger vehicle."
+   },
+   "once": [
+    {
+     "id": "title",
+     "label": "New title (includes $3.50 technology surcharge)",
+     "amount": 53.5,
+     "source": "fees",
+     "kind": "title"
+    },
+    {
+     "id": "plate",
+     "label": "License plate, original issue",
+     "amount": 8,
+     "source": "plate-fees",
+     "kind": "plate"
+    }
+   ],
+   "reg": {
+    "label": "DOT surcharge (two-year registration)",
+    "source": "surcharge",
+    "type": "flat",
+    "amount": 40,
+    "years": 2
+   },
+   "cycle": [
+    {
+     "id": "tech-surcharge",
+     "label": "Technology surcharge on the registration",
+     "amount": 3.5,
+     "source": "fees",
+     "kind": "registration"
+    }
+   ],
+   "ev": {
+    "ev": 200,
+    "phev": 100,
+    "hybrid": 50,
+    "source": "ev-fee",
+    "label": "Electric or hybrid vehicle fee"
+   },
+   "inspection": [
+    {
+     "id": "inspection",
+     "label": "Safety and emissions inspection (every 24 months)",
+     "amount": 55,
+     "years": 2,
+     "source": "inspection",
+     "newExemptYears": 2,
+     "fuelExempt": [
+      "ev"
+     ],
+     "note": "New cars are exempt for 2 years or 24,000 miles; other newly registered cars must be inspected within 5 days."
+    },
+    {
+     "id": "inspection-ev",
+     "label": "Safety inspection of an electric car (every 24 months)",
+     "amount": null,
+     "years": 2,
+     "source": "inspection",
+     "newExemptYears": 2,
+     "fuelExempt": [
+      "gas",
+      "hybrid",
+      "phev"
+     ],
+     "note": "Electric cars skip the emissions test; the fee table read lists only the $55 combined inspection."
+    }
+   ],
+   "ranges": [
+    {
+     "id": "reg-weight",
+     "label": "Registration fee by gross vehicle weight (two years)",
+     "range": [
+      60,
+      112
+     ],
+     "kind": "registration",
+     "source": "reg-statute",
+     "note": "$30 a year up to 4,000 lb GVWR, $40 up to 5,000 lb, $48 up to 6,000 lb, $56 up to 7,000 lb; times two for the biennial term."
+    }
+   ]
+  }
+ },
+ "singular": [
+  "Rhode Island charges 7% sales tax on a vehicle, and on a dealer sale the trade-in and other allowances are subtracted first [sales-tax].",
+  "On a private sale of a car 7 years old or less, the 7% is due on the NADA clean retail book value or the price, whichever is greater [sales-tax].",
+  "Passenger cars register for two years, and the fee is set by gross weight: $30 a year up to 4,000 lb, $40 up to 5,000 lb and $48 up to 6,000 lb [reg-statute].",
+  "Every registration carries a DOT surcharge that rose from $30 to $40 per two-year registration on January 1, 2026 [surcharge].",
+  "Since January 1, 2026, battery electric cars pay $200 per registration year, plug-in hybrids $100 and ordinary hybrids, mild hybrids included, $50 [ev-fee].",
+  "A new title costs $53.50, a price that already includes the $3.50 technology surcharge added to most DMV transactions [fees].",
+  "Cars need a safety and emissions inspection every 24 months for a fee of $55 set by law; fully electric cars take the safety part only [inspection].",
+  "A new car is exempt from inspection for 2 years or 24,000 miles, while a used car registered in Rhode Island must be inspected within 5 days [inspection].",
+  "Rhode Island phased out its municipal motor vehicle excise tax, and the state now reimburses cities and towns for the lost revenue [excise-elim]."
+ ],
+ "sources": {
+  "sales-tax": {
+   "name": "Rhode Island DMV, Sales Tax",
+   "url": "https://dmv.ri.gov/registrations-plates-titles/sales-tax",
+   "accessed": "2026-10-11",
+   "quote": "New or used vehicles, sales tax is 7% of the purchase price, minus trade-in and other allowances. ... Private Party Vehicle 7 years old or less, sales tax is 7% of NADA Clean Retail book value or sale price, whichever is greater."
+  },
+  "fees": {
+   "name": "Rhode Island DMV, Registration & Title Fees",
+   "url": "https://dmv.ri.gov/registrations-plates-titles/registration/registration-title-fees",
+   "accessed": "2026-10-11",
+   "quote": "All fees listed below include $3.50 technology surcharge. ... Passenger Renewal (2 years) Based on vehicle weight + $3.50 +$20.00 DOT surcharge per year + EV fee ... New Title $53.50"
+  },
+  "plate-fees": {
+   "name": "Rhode Island DMV, Plate Fees",
+   "url": "https://dmv.ri.gov/registrations-plates-titles/license-plates/plate-fees",
+   "accessed": "2026-10-11",
+   "quote": "Plates Original Issue $8.00"
+  },
+  "reg-statute": {
+   "name": "R.I. Gen. Laws § 31-6-1, amount of registration fees",
+   "url": "https://webserver.rilegislature.gov/Statutes/TITLE31/31-6/31-6-1.htm",
+   "accessed": "2026-10-11",
+   "quote": "every automobile ... the gross weight of which is not more than four thousand pounds (4,000 lbs.): thirty dollars ($30.00). ... (i) More than four thousand pounds (4,000 lbs.), but not more than five thousand pounds (5,000 lbs.): forty dollars ($40.00)"
+  },
+  "surcharge": {
+   "name": "R.I. Gen. Laws § 39-18.1-4, DOT surcharge",
+   "url": "https://webserver.rilegislature.gov/Statutes/TITLE39/39-18.1/39-18.1-4.htm",
+   "accessed": "2026-10-11",
+   "quote": "There is imposed a surcharge of forty dollars ($40.00) per vehicle or truck ... upon each subsequent biennial registration. ... thirty dollars ($30.00) from July 1, 2015, through December 31, 2025, and forty dollars ($40.00) from January 1, 2026"
+  },
+  "ev-fee": {
+   "name": "Rhode Island DMV, Important Fee Changes Effective January 1, 2026",
+   "url": "https://dmv.ri.gov/node/1741",
+   "accessed": "2026-10-11",
+   "quote": "Battery Electric Vehicles (BEV): $200 per year Plug-in Hybrid Electric Vehicles (PHEV): $100 per year **Hybrid Vehicles (non-plug-in): $50 per year **This includes \"mild hybrid\" vehicles."
+  },
+  "inspection": {
+   "name": "Rhode Island DMV, Vehicle Inspection Requirements",
+   "url": "https://dmv.ri.gov/registrations-plates-titles/safety-emissions-inspections/vehicle-inspection-requirements",
+   "accessed": "2026-10-11",
+   "quote": "New vehicles are exempt from inspection for 2 years from the date of purchase or until the vehicle accumulates 24,000 miles ... 2-year emission and safety inspections for vehicles 8,500 lbs. GVWR or less $55.00"
+  },
+  "excise-elim": {
+   "name": "R.I. Gen. Laws § 44-34.1-2, Motor Vehicle and Trailer Excise Tax Elimination Act",
+   "url": "https://webserver.rilegislature.gov/Statutes/TITLE44/44-34.1/44-34.1-2.htm",
+   "accessed": "2026-10-11",
+   "quote": "In fiscal years 2024 and thereafter, cities, towns, and fire districts shall receive reimbursements ... equal to the amount of lost tax revenue due to the phase out of the excise tax."
+  }
+ }
+}

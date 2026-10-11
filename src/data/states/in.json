@@ -14,7 +14,7 @@
  "verified": "2026-10-11",
  "exactness": "partial",
  "gaps": [
-  "The yearly vehicle excise tax comes from a class (manufacturer's original retail price) by age table that the generic engine cannot read; the full table is in params.custom and the line is shown as the official range until a dedicated engine is written.",
+  "The yearly vehicle excise tax is read from the BMV class-by-age table using the manufacturer's original retail price; when the MSRP field is left empty the engine uses the price typed, which understates the class of a used car bought below its original sticker price. A vehicle bought partway through the owner's registration year can owe a prorated amount that depends on the owner's registration date, which the form does not ask; the full-year amount is shown.",
   "County vehicle excise surtax and wheel tax, and municipal surtax, are set by local ordinance (flat or percentage) and BMV publishes no complete current table; shown without an amount.",
   "The Clean Air Car Check pages read (Lake and Porter counties) do not state a test fee; the test is shown without an amount.",
   "Indiana has no fixed dollar cap in the fee chart for dealer documentation fees; the Secretary of State will not take enforcement action at or below $261.72 from July 1, 2026, which is used as the reference figure."
@@ -61,7 +61,7 @@
     }
    ],
    "reg": {
-    "label": "Registration fee (passenger $21.35; truck up to 11,000 lb $30.35)",
+    "label": "Registration fee (passenger vehicle $21.35, light truck $30.35)",
     "source": "fee-chart",
     "type": "weight",
     "brackets": [
@@ -113,17 +113,6 @@
    ],
    "ranges": [
     {
-     "id": "excise",
-     "label": "Vehicle excise tax (class by original retail price and age)",
-     "range": [
-      12,
-      532
-     ],
-     "kind": "value",
-     "source": "excise",
-     "note": "Yearly; class set by the manufacturer's original retail price, amount falls with age (see params.custom)."
-    },
-    {
      "id": "local-surtax",
      "label": "County / municipal vehicle excise surtax or wheel tax",
      "range": null,
@@ -133,304 +122,300 @@
     }
    ]
   },
-  "custom": {
-   "formula": "Vehicle excise tax (yearly, passenger vehicles): class = row of `excise.classes` whose [from, upTo] contains the manufacturer's original retail price (MSRP; use the price when msrp = 0); age = registration year - model year, capped at 9 (9+); amount = classes[class].byAge[age]. Line id 'excise', kind 'value', when 'cycle', replaces the 'excise' range line.",
+  "excise": {
+   "_src": "excise",
    "source": "excise",
-   "example": "New 2026 car, MSRP $35,000, registered in 2026: class 16 ($35,000 to $42,499), age 0 = $469; renewal in 2027 (age 1) = $407.",
-   "excise": {
-    "_src": "excise",
-    "classes": [
-     {
-      "class": 1,
-      "from": 0,
-      "upTo": 1499,
-      "byAge": [
-       12,
-       12,
-       12,
-       12,
-       12,
-       12,
-       12,
-       12,
-       12,
-       12
-      ]
-     },
-     {
-      "class": 2,
-      "from": 1500,
-      "upTo": 2249,
-      "byAge": [
-       36,
-       30,
-       27,
-       24,
-       18,
-       12,
-       12,
-       12,
-       12,
-       12
-      ]
-     },
-     {
-      "class": 3,
-      "from": 2250,
-      "upTo": 2999,
-      "byAge": [
-       50,
-       50,
-       42,
-       33,
-       24,
-       18,
-       12,
-       12,
-       12,
-       12
-      ]
-     },
-     {
-      "class": 4,
-      "from": 3000,
-      "upTo": 3999,
-      "byAge": [
-       50,
-       50,
-       50,
-       50,
-       48,
-       36,
-       24,
-       18,
-       12,
-       12
-      ]
-     },
-     {
-      "class": 5,
-      "from": 4000,
-      "upTo": 5499,
-      "byAge": [
-       66,
-       57,
-       50,
-       50,
-       50,
-       50,
-       42,
-       24,
-       12,
-       12
-      ]
-     },
-     {
-      "class": 6,
-      "from": 5500,
-      "upTo": 6999,
-      "byAge": [
-       84,
-       74,
-       63,
-       52,
-       50,
-       50,
-       49,
-       30,
-       18,
-       12
-      ]
-     },
-     {
-      "class": 7,
-      "from": 7000,
-      "upTo": 8499,
-      "byAge": [
-       103,
-       92,
-       77,
-       64,
-       52,
-       50,
-       50,
-       40,
-       21,
-       12
-      ]
-     },
-     {
-      "class": 8,
-      "from": 8500,
-      "upTo": 9999,
-      "byAge": [
-       123,
-       110,
-       93,
-       78,
-       64,
-       50,
-       50,
-       50,
-       34,
-       12
-      ]
-     },
-     {
-      "class": 9,
-      "from": 10000,
-      "upTo": 12499,
-      "byAge": [
-       150,
-       134,
-       115,
-       98,
-       82,
-       65,
-       52,
-       50,
-       40,
-       12
-      ]
-     },
-     {
-      "class": 10,
-      "from": 12500,
-      "upTo": 14999,
-      "byAge": [
-       172,
-       149,
-       130,
-       112,
-       96,
-       79,
-       65,
-       53,
-       50,
-       12
-      ]
-     },
-     {
-      "class": 11,
-      "from": 15000,
-      "upTo": 17999,
-      "byAge": [
-       207,
-       179,
-       156,
-       135,
-       115,
-       94,
-       78,
-       64,
-       50,
-       21
-      ]
-     },
-     {
-      "class": 12,
-      "from": 18000,
-      "upTo": 21999,
-      "byAge": [
-       250,
-       217,
-       189,
-       163,
-       139,
-       114,
-       94,
-       65,
-       50,
-       26
-      ]
-     },
-     {
-      "class": 13,
-      "from": 22000,
-      "upTo": 24999,
-      "byAge": [
-       300,
-       260,
-       225,
-       184,
-       150,
-       121,
-       96,
-       65,
-       50,
-       30
-      ]
-     },
-     {
-      "class": 14,
-      "from": 25000,
-      "upTo": 29999,
-      "byAge": [
-       350,
-       304,
-       265,
-       228,
-       195,
-       160,
-       132,
-       91,
-       50,
-       36
-      ]
-     },
-     {
-      "class": 15,
-      "from": 30000,
-      "upTo": 34999,
-      "byAge": [
-       406,
-       353,
-       307,
-       257,
-       210,
-       169,
-       134,
-       91,
-       50,
-       42
-      ]
-     },
-     {
-      "class": 16,
-      "from": 35000,
-      "upTo": 42499,
-      "byAge": [
-       469,
-       407,
-       355,
-       306,
-       261,
-       214,
-       177,
-       129,
-       63,
-       49
-      ]
-     },
-     {
-      "class": 17,
-      "from": 42500,
-      "upTo": null,
-      "byAge": [
-       532,
-       461,
-       398,
-       347,
-       296,
-       242,
-       192,
-       129,
-       63,
-       50
-      ]
-     }
-    ]
-   }
+   "classes": [
+    {
+     "class": 1,
+     "from": 0,
+     "upTo": 1499,
+     "byAge": [
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12
+     ]
+    },
+    {
+     "class": 2,
+     "from": 1500,
+     "upTo": 2249,
+     "byAge": [
+      36,
+      30,
+      27,
+      24,
+      18,
+      12,
+      12,
+      12,
+      12,
+      12
+     ]
+    },
+    {
+     "class": 3,
+     "from": 2250,
+     "upTo": 2999,
+     "byAge": [
+      50,
+      50,
+      42,
+      33,
+      24,
+      18,
+      12,
+      12,
+      12,
+      12
+     ]
+    },
+    {
+     "class": 4,
+     "from": 3000,
+     "upTo": 3999,
+     "byAge": [
+      50,
+      50,
+      50,
+      50,
+      48,
+      36,
+      24,
+      18,
+      12,
+      12
+     ]
+    },
+    {
+     "class": 5,
+     "from": 4000,
+     "upTo": 5499,
+     "byAge": [
+      66,
+      57,
+      50,
+      50,
+      50,
+      50,
+      42,
+      24,
+      12,
+      12
+     ]
+    },
+    {
+     "class": 6,
+     "from": 5500,
+     "upTo": 6999,
+     "byAge": [
+      84,
+      74,
+      63,
+      52,
+      50,
+      50,
+      49,
+      30,
+      18,
+      12
+     ]
+    },
+    {
+     "class": 7,
+     "from": 7000,
+     "upTo": 8499,
+     "byAge": [
+      103,
+      92,
+      77,
+      64,
+      52,
+      50,
+      50,
+      40,
+      21,
+      12
+     ]
+    },
+    {
+     "class": 8,
+     "from": 8500,
+     "upTo": 9999,
+     "byAge": [
+      123,
+      110,
+      93,
+      78,
+      64,
+      50,
+      50,
+      50,
+      34,
+      12
+     ]
+    },
+    {
+     "class": 9,
+     "from": 10000,
+     "upTo": 12499,
+     "byAge": [
+      150,
+      134,
+      115,
+      98,
+      82,
+      65,
+      52,
+      50,
+      40,
+      12
+     ]
+    },
+    {
+     "class": 10,
+     "from": 12500,
+     "upTo": 14999,
+     "byAge": [
+      172,
+      149,
+      130,
+      112,
+      96,
+      79,
+      65,
+      53,
+      50,
+      12
+     ]
+    },
+    {
+     "class": 11,
+     "from": 15000,
+     "upTo": 17999,
+     "byAge": [
+      207,
+      179,
+      156,
+      135,
+      115,
+      94,
+      78,
+      64,
+      50,
+      21
+     ]
+    },
+    {
+     "class": 12,
+     "from": 18000,
+     "upTo": 21999,
+     "byAge": [
+      250,
+      217,
+      189,
+      163,
+      139,
+      114,
+      94,
+      65,
+      50,
+      26
+     ]
+    },
+    {
+     "class": 13,
+     "from": 22000,
+     "upTo": 24999,
+     "byAge": [
+      300,
+      260,
+      225,
+      184,
+      150,
+      121,
+      96,
+      65,
+      50,
+      30
+     ]
+    },
+    {
+     "class": 14,
+     "from": 25000,
+     "upTo": 29999,
+     "byAge": [
+      350,
+      304,
+      265,
+      228,
+      195,
+      160,
+      132,
+      91,
+      50,
+      36
+     ]
+    },
+    {
+     "class": 15,
+     "from": 30000,
+     "upTo": 34999,
+     "byAge": [
+      406,
+      353,
+      307,
+      257,
+      210,
+      169,
+      134,
+      91,
+      50,
+      42
+     ]
+    },
+    {
+     "class": 16,
+     "from": 35000,
+     "upTo": 42499,
+     "byAge": [
+      469,
+      407,
+      355,
+      306,
+      261,
+      214,
+      177,
+      129,
+      63,
+      49
+     ]
+    },
+    {
+     "class": 17,
+     "from": 42500,
+     "upTo": null,
+     "byAge": [
+      532,
+      461,
+      398,
+      347,
+      296,
+      242,
+      192,
+      129,
+      63,
+      50
+     ]
+    }
+   ]
   }
  },
  "counties": [
@@ -488,7 +473,7 @@
  "defaultCounty": "marion-county",
  "singular": [
   "Every Indiana registration carries a yearly vehicle excise tax read from a 17-class table: the class is fixed by the car's original retail price and the amount drops each year until age 9 [excise].",
-  "A new car with a $35,000 to $42,499 original price pays $469 of excise tax in its first year and $407 the next [excise].",
+  "A new car with a $35,000 to $42,499 original retail price pays $469 of excise tax in its first year and $407 the next, because age is the registration year minus the model year [excise].",
   "The registration fee itself is only $21.35 for a passenger car, plus a $15 Transportation Infrastructure Improvement Fee at every registration [fee-chart].",
   "Electric cars pay a $242 supplemental fee and hybrids $81 each year under the current BMV fee chart [fee-chart].",
   "Indiana charges 7% sales tax on a vehicle and deducts a trade-in only when it is a like-kind exchange titled in the buyer's name [sib28s].",

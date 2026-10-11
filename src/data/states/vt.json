@@ -12,7 +12,9 @@
  "gaps": [
   "Purchase and use tax is due on the greater of the price and the J.D. Power clean trade-in value; the form does not ask the book value, so the engine taxes the price (a private sale below book value would owe more).",
   "Safety and emissions inspection prices are set and posted by each private station; the state does not publish a fee, so the inspection is shown without an amount.",
-  "No dealer documentation fee cap was read on an official Vermont page for this release; type the dealer's fee."
+  "No dealer documentation fee cap was read on an official Vermont page for this release; type the dealer's fee.",
+  "Whether a dealer documentation fee is part of the taxable purchase price was not read on an official Vermont page; the engine leaves it out of the taxed amount.",
+  "Registration can also be bought for two years ($167 for a gas car, $341 for a battery electric car); the engine shows the one-year option."
  ],
  "summary": {
   "stateRate": 0.06,
