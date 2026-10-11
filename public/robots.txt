@@ -3,4 +3,4 @@ Allow: /
 
 Disallow: /*?*
 
-Sitemap: https://us-car-costs.example/sitemap-index.xml
+Sitemap: https://carfeeledger.com/sitemap-index.xml

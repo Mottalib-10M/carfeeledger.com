@@ -1,5 +1,5 @@
 /** Configuration centrale du site (générée par new-site.py). */
-export const SITE_URL = "https://us-car-costs.example";
+export const SITE_URL = "https://carfeeledger.com";
 export const SITE_NAMES: Record<string, string> = {"en": "Car Fee Ledger"};
 export const LANG_TAGS: Record<string, string> = {"en": "en-US"};
 export const OG_LOCALES: Record<string, string> = {"en": "en_US"};
@@ -11,12 +11,12 @@ export const SITE_FOUNDED = '2026';
 export const LAST_UPDATED = '2026-10-11';
 export const AUTHOR_NAME = 'Radif Partners';
 export const AUTHOR_ROLE: Record<string, string> = {"en": "Publisher of state-by-state vehicle tax, title, registration and inspection calculators"};
-export const AUTHOR_DESC: Record<string, string> = {"en": "À RÉÉCRIRE"};
+export const AUTHOR_DESC: Record<string, string> = {"en": "Radif Partners keeps one data file per state and for DC, read from each DMV or revenue department fee schedule and statute: the sales and use tax with county rates, title and plate fees, the registration formula (flat, weight, value, age or horsepower), value taxes, EV and hybrid surcharges, inspections and capped dealer fees. Each file records its source, the date it was read and a quotation, and the engine tests are replayed before any change goes live."};
 /** Sujets sur lesquels l'editeur est competent (schema.org knowsAbout). Ce sont les
  *  themes reellement traites par le site, pas une liste de mots-cles : un sujet
  *  declare ici sans page qui le couvre est une declaration fausse. */
 export const KNOWS_ABOUT: Record<string, string[]> = {"en": ["Vehicle registration fees by state", "Motor vehicle sales and use tax", "Title fees and dealer documentation fees", "Vehicle safety and emissions inspections", "Electric and hybrid vehicle registration surcharges", "Auto loan payments and total cost of ownership"]};
-export const CONTACT_EMAIL = "contact@us-car-costs.example";
+export const CONTACT_EMAIL = "contact@carfeeledger.com";
 export const THEME_COLOR = '#1F4E79';
 export const LOGO_SYMBOL = 'CAR';
 export const BING_VERIFY_CODE = '';

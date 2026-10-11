@@ -1,7 +1,7 @@
 {
  "name": "Car Fee Ledger",
  "short_name": "Car Fee Ledger",
- "description": "À RÉÉCRIRE",
+ "description": "Car registration fees by state for 2026: county sales tax, title, plates, value taxes, EV fees and inspection, from each DMV schedule in 51 jurisdictions.",
  "start_url": "/en/",
  "display": "standalone",
  "background_color": "#ffffff",
