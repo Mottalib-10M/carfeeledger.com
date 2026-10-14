@@ -102,7 +102,7 @@ export default function FeeCalc({ states, initial, lock = false, mode = 'fees', 
   return (
     <div className="rechner rounded-xl border border-navy-200 bg-white p-4 sm:p-6">
       <div className="lg:grid lg:grid-cols-[minmax(0,1fr)_minmax(0,22rem)] lg:items-start lg:gap-6">
-      <form className="grid gap-x-5 gap-y-4 sm:grid-cols-2" onSubmit={(e) => e.preventDefault()}>
+      <form className="grid content-start gap-x-5 gap-y-4 sm:grid-cols-2" onSubmit={(e) => e.preventDefault()}>
         <StatePick id={`${p}-state`} value={states.find((s) => s.ab === ab)?.value ?? ''} onChange={pickState} states={states} lock={lock} label="State where the car is registered" />
         {counties.length > 0
           ? <SelectField id={`${p}-county`} label="County or city of residence" value={county} onChange={setCounty} options={counties} help="Local tax and county fees follow your home address." />

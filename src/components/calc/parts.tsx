@@ -10,7 +10,7 @@ export interface Opt { value: string; label: string }
 export function Card({ children, form }: { children: ReactNode; form: ReactNode }) {
   return (
     <div className="rechner rounded-xl border border-navy-200 bg-white p-4 sm:p-6">
-      <form className="grid gap-x-5 gap-y-4 sm:grid-cols-2" onSubmit={(e) => e.preventDefault()}>{form}</form>
+      <form className="grid content-start gap-x-5 gap-y-4 sm:grid-cols-2" onSubmit={(e) => e.preventDefault()}>{form}</form>
       {children}
     </div>
   );
