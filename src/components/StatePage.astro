@@ -41,7 +41,7 @@ const lineRows = r.lines.map((l) => [l.label + (l.deferred ? ' (within 12 months
 const facts = d.singular.map((f) => f.replace(/\s*\[([a-z0-9-]+)\]\.?\s*$/i, (_m, k) => (d.sources[k] ? ` <a href="${d.sources[k].url}" target="_blank" rel="nofollow noopener noreferrer">(${d.sources[k].name.split(',')[0]})</a>.` : '.')));
 const rateTxt = S.localRange[1] > 0 ? `${pct(S.stateRate, 2)} + local ${pct(S.localRange[0], 2)} to ${pct(S.localRange[1], 2)}` : pct(S.stateRate, 2);
 ---
-<PageLayout title={def.title} description={def.description} lang={lang} jsonLd={jsonLd} faqs={def.faqs} related={related} sources={sources} breadcrumbs={[{ label: label(STATE_HUB), href: route(STATE_HUB, lang) }, { label: d.name }]}>
+<PageLayout title={def.title} description={def.description} lang={lang} jsonLd={jsonLd} faqs={def.faqs} related={related} sources={sources} breadcrumbs={[{ label: label(STATE_HUB), href: route(STATE_HUB, lang) }, { label: d.name }]} anneeEnHaut={!/20\d\d/.test(def.h1 + def.intro)}>
   <article>
     <header class="mb-5">
       <p class="text-sm font-semibold uppercase tracking-wide text-accent-700">{d.abbr} · {d.agency.name}</p>

@@ -35,7 +35,7 @@ const sources = page.sources.filter((k) => SOURCES[k]).map((k) => ({ name: SOURC
 const cmp = page.table ? comparison(page.table) : null;
 const isHub = page.id === STATE_HUB;
 ---
-<PageLayout title={page.title} description={page.description} lang={lang} jsonLd={jsonLd} faqs={page.faqs} related={related} sources={sources} breadcrumbs={[{ label: group.label }, { label: page.nav }]}>
+<PageLayout title={page.title} description={page.description} lang={lang} jsonLd={jsonLd} faqs={page.faqs} related={related} sources={sources} breadcrumbs={[{ label: group.label }, { label: page.nav }]} anneeEnHaut={!/20\d\d/.test(page.h1 + page.intro)}>
   <article>
     <header class="mb-5">
       <p class="text-sm font-semibold uppercase tracking-wide text-accent-700">{group.label} · 50 states and DC</p>

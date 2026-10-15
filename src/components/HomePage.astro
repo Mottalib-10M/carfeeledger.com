@@ -32,7 +32,7 @@ const sections = x.sections(h);
   <header class="mb-5">
     <h1 class="font-serif text-3xl font-bold text-navy-900 md:text-4xl">{x.h1}</h1>
     <p class="mt-3 text-lg text-navy-700">{x.intro}</p>
-    <p class="mt-2 text-sm text-navy-600">Updated <time datetime={LAST_UPDATED}>{day(LAST_UPDATED)}</time>: fee schedules of the 51 jurisdictions checked against the official sources · <a href={route('method', lang)} class="underline">How the fees are calculated</a> · <a href={route('about', lang)} class="underline">Who publishes this</a></p>
+    <p class="mt-2 text-sm text-navy-600">Fee schedules of the 51 jurisdictions checked against the official sources · <a href={route('method', lang)} class="underline">How the fees are calculated</a> · <a href={route('about', lang)} class="underline">Who publishes this</a></p>
   </header>
   <div data-outil data-chrome><Tool kind="fees" state="california" idPrefix="home" /></div>
   <aside class="boxnote my-8"><p class="boxnote-title">{x.promiseTitle}</p><p class="text-navy-800">{x.promise}</p></aside>
