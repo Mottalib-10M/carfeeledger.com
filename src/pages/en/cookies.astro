@@ -1,17 +1,34 @@
 ---
 import PageLayout from '../../layouts/PageLayout.astro';
-import { LAST_UPDATED, CLARITY_ID } from '../../data/site-config';
+import { CLARITY_ID, CONTACT_EMAIL, GA4_ID, LAST_UPDATED, SITE_NAMES } from '../../data/site-config';
 import { route } from '../../i18n/routes';
 const lang = 'en';
+const title = `Cookies – ${SITE_NAMES[lang]}`;
+const description = GA4_ID ? 'Google Analytics audience measurement cookies and nothing else: names, purpose, a lifetime of 13 months at most, the provider and how to object.' : 'The site sets no cookies: what you type stays in your browser and nothing is kept on your device.';
 ---
-<PageLayout title="Cookies on Car Fee Ledger: none set, and how to check it" description="Car Fee Ledger sets no cookie and stores nothing in your browser while you price a car: no tracking, no advertising, no lead capture. How to check it in your browser's developer tools." lang={lang} noindex={true} breadcrumbs={[{ label: 'Cookies' }]} showAuthor={false}>
-  <div class="prose prose-slate max-w-none prose-headings:font-serif">
+{/* Page générée par scripts/gen-legal-pages.py (trame, décision GA4 du 2026-10-17). Ne pas
+     retoucher à la main : relancer le script. Un passage propre au site se garde entre
+     les marqueurs site:debut et site:fin. */}
+<PageLayout title={title} description={description} lang={lang} noindex={true} breadcrumbs={[{ label: 'Cookies' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none">
     <h1>Cookies</h1>
-    <p>This site sets no cookie. It uses no local storage either: the calculators keep your inputs only in the page you are looking at, and in its address if you press "copy share link".</p>
-    <h2>Why there is no consent banner</h2>
-    <p>A banner is required when a site stores or reads information on your device that is not strictly necessary. Nothing of the kind happens here, so there is nothing to accept or refuse. {CLARITY_ID ? 'The stability monitoring by Microsoft Clarity, described in the privacy policy, runs in a cookie-free mode and stores nothing on your device.' : 'No analytics or advertising script is loaded.'}</p>
-    <h2>Check it yourself</h2>
-    <p>Open your browser's developer tools (F12 on most computers), go to the Application or Storage tab and look under Cookies and Local Storage for this site while using a calculator: both stay empty. The Network tab shows that changing the price or the county sends no request; only the first switch to a new state loads that state's fee file from this site, and the result is computed on your device.</p>
-    <p>More in the <a href={route('privacy', lang)}>privacy policy</a>. Updated: {LAST_UPDATED}.</p>
+    {GA4_ID ? (<>
+    <p>The site sets Google Analytics audience measurement cookies and those alone: no advertising cookie, no social media cookie. Details of the processing are in the <a href={route('privacy', lang)}>privacy policy</a>.</p>
+    <h2>Cookies set</h2>
+    <table><thead><tr><th>Name</th><th>Provider</th><th>Purpose</th><th>Lifetime</th></tr></thead><tbody>
+    <tr><td><code>_ga</code></td><td>Google Analytics</td><td>Tell visitors apart with a random identifier</td><td>13 months at most (390 days)</td></tr>
+    <tr><td><code>_ga_{GA4_ID.replace('G-', '')}</code></td><td>Google Analytics</td><td>Keep the state of the current visit</td><td>13 months at most (390 days)</td></tr>
+    </tbody></table>
+    <p>These lifetimes are not extended on each visit; Google’s default is 2 years and the site shortens it. Purpose: audience measurement (pages viewed, referrer, device, approximate country). The IP address is anonymised: Google Analytics 4 neither logs nor stores it. No advertising and no ad sharing: ad storage, ad personalisation and Google signals are switched off.</p>
+    <p>Provider: Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland. Data may be transferred to Google LLC in the United States under the EU–U.S. Data Privacy Framework and the European Commission’s standard contractual clauses. Retention at Google: 14 months. Legal basis: the publisher’s legitimate interests (Article 6(1)(f) GDPR; for visitors in the United States, no personal information is sold or shared within the meaning of the CCPA/CPRA).</p>
+    <h2>Objecting to these cookies</h2>
+    <p>Block or delete cookies in your browser settings, or install the <a href="https://tools.google.com/dlpage/gaoptout" rel="nofollow noopener" target="_blank">Google Analytics opt-out browser add-on</a>. The site and its calculators work the same way.</p>
+    </>) : (<>
+    <p>The site <strong>sets no cookies</strong>. Details of the processing are in the <a href={route('privacy', lang)}>privacy policy</a>.</p>
+    </>)}
+    {CLARITY_ID && (<><h2>Microsoft Clarity, cookie-free</h2><p>Page stability is monitored with Microsoft Clarity in cookie-free mode: Clarity sets no cookies, each page view gets a single-use identifier, and page content and your inputs are masked. Blocking <code>clarity.ms</code> stops it.</p></>)}
+    <h2>What you type</h2>
+    <p>Calculations run in your browser: what you enter is sent to no server and is gone when you close the page.</p>
+    <p>Questions: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. Last updated: {LAST_UPDATED}.</p>
   </div>
 </PageLayout>
